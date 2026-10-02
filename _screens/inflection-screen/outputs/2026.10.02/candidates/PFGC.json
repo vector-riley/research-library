@@ -1,0 +1,45 @@
+{
+  "ticker": "PFGC", "cid": 1000856, "name": "PERFORMANCE FOOD GROUP CO", "industry": "Food Distributors", "as_of": "2026-10-02",
+  "business": "Markets and distributes food and food-related products to restaurants, convenience stores, vending distributors, theaters and retailers across North America.",
+  "quant": {"mcap_usd": 14437248000.0, "drawdown": -0.2155, "pctile_ev_ebitda_60m": 0.1167, "price_ltm_pct": -0.1204,
+            "ebitda_margin_ltm": 0.0284, "ebitda_margin_fwd_consensus": 0.0301, "industry_median_margin": 0.054, "ev_ebitda_fy": 8.81,
+            "net_debt_ltm_ebitda": 2.46, "ebitda_revision_12m": -0.0105, "ebitda_brokers": 11},
+  "catalyst": {"type": ["new_ceo", "activist", "board_refresh"],
+               "events": [
+                 {"what": "New CEO and President; George Holm (CEO) retired to Executive Chair; board expanded 13 to 14", "who": "Scott E. McPherson", "from": "internal (President and COO since 2025-01-01; ex President and CEO of Core-Mark)", "effective": "2026-01-01", "source": "8-K 0001193125-25-323612", "external_hire": false},
+                 {"what": "Cooperation agreement with activist Sachem Head; Scott Ferguson (Sachem Head, former US Foods director) appointed to board and Audit Committee", "who": "Sachem Head; Scott D. Ferguson", "from": "Sachem Head Capital Management", "effective": "2025-09-23", "source": "8-K 0001193125-25-213333 (Items 1.01, 5.02); DEF 14A doc 39675", "external_hire": true},
+                 {"what": "Ferguson resigned from the board", "who": "Scott D. Ferguson", "from": null, "effective": "2026-08-24", "source": "8-K 0001193125-26-363739", "external_hire": null},
+                 {"what": "Holm to move from Executive Chair to Non-Executive Chair (pending)", "who": "George L. Holm", "from": null, "effective": "2027-01-01", "source": "8-K 0001193125-26-357838", "external_hire": null},
+                 {"what": "Cheney Brothers acquisition closed early October 2024 (outside the 18-month window); EVP and Chief Development Officer Craig Hoskins retired 2026-01-05", "who": "Cheney Brothers; Craig H. Hoskins", "from": null, "effective": null, "source": "document_id 43481 (Q1 FY2025 call: 'in early October, we closed the Cheney Brothers acquisition'; exact day not in fetched text); 8-K 0001193125-25-184124", "external_hire": null}
+               ],
+               "months_since_primary": 9.0, "ceo_months_in_seat": 9.0,
+               "next_event": {"type": "none known", "date": null, "source": "Last Investor Day 2025-05-28 (doc 65621) set the FY2028 targets; no new Investor Day found in Baba corpus. Holm becomes Non-Executive Chair 2027-01-01 (8-K 0001193125-26-357838). Q1 FY2027 earnings expected early November, date not in Baba."}},
+  "margin_framing": {"numeric": true, "metric": "adjusted EBITDA margin",
+                     "metric_basis_note": "Target is stated in dollars: FY2028 net sales $73B to $75B and adjusted EBITDA $2.3B to $2.5B (implied margin 3.07% to 3.42%, midpoint $2.4B / $74B = 3.24%), plus a $120M to $125M procurement synergy target by end of FY2028. PFGC fiscal year ends late June; Baba FY2028 = company fiscal 2028 (ends June 2028).",
+                     "current_level_pct": 2.84, "target_level_pct": 3.24, "target_year": 2028, "has_year": true,
+                     "annual_bps": null, "synergy_usd": 125000000, "synergy_year": 2028,
+                     "statements": [
+                       {"quote": "This keeps us on track to achieve the three-year projections we announced at Investor Day, with sales in a range of $73 billion-$75 billion and adjusted EBITDA between $2.3 billion and $2.5 billion in fiscal 2028.", "speaker": "Patrick Hatcher", "role": "CFO", "doc_title": "PERFORMANCE FOOD GROUP CO Q4 2026 Earnings Call", "date": "2026-08-12", "document_id": 133241},
+                       {"quote": "we work to achieve the $120 million-$125 million procurement synergy target we outlined at our Investor Day. I am confident we will meet or exceed the high end of that target by the end of fiscal 2028.", "speaker": "Scott McPherson", "role": "CEO", "doc_title": "PERFORMANCE FOOD GROUP CO Q4 2026 Earnings Call", "date": "2026-08-12", "document_id": 133241},
+                       {"quote": "For the full fiscal year, our sales target is in a range of $72.5 billion-$73 billion. We expect full year adjusted EBITDA in a range of $2.125 billion-$2.225 billion. Our full year guidance range includes the benefit of a 53rd week", "speaker": "Patrick Hatcher", "role": "CFO", "doc_title": "PERFORMANCE FOOD GROUP CO Q4 2026 Earnings Call", "date": "2026-08-12", "document_id": 133241}
+                     ],
+                     "first_stated": "2025-05-28", "times_repeated": 6},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 2.84, "FY2027": 3.01, "FY2028": 3.22},
+             "consensus_margin_at_target_year_pct": 3.22, "gap_bps_vs_target": 3, "gap_assumption": "Baba FY labels keyed to fiscal year end (late June), so FY2028 = company fiscal 2028. Target midpoint $2.4B / $74B = 3.24% vs FY2028 consensus $2.415B / $75.09B = 3.22%: +3 bps. In dollars consensus EBITDA ($2.415B) is above the target midpoint. FY2026 is reported (fiscal year ended 2026-06-27). FY2027 consensus EBITDA $2.196B sits above the $2.175B guide midpoint.",
+             "ebitda_uplift_pct_if_target_hit": -0.6, "source": "Baba data_financials consensus (summary, Visible Alpha)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [0, 3], "note": "Order is [Q3 FY2026, Q4 FY2026], adjusted EBITDA margin. Q3 from VA actuals (2.52% vs 2.52%, +0.5 bps); Q4 derived from CFO-reported adjusted EBITDA $587.5M (+7.4%) and net sales +6.4% (doc 133241) on the VA Q4 FY2025 base. Margins roughly flat; gross profit per case +$0.34 in Q4 offset by diesel (~$16M) and opex. 4-month FY2027 EBITDA revision +0.3%, 12-month -1.1% (stable)."},
+  "score": {"A_underperformance": 1, "B_catalyst": 2, "C_numeric_framing": 3, "D_unproven": 0, "total": 6},
+  "disqualified": true, "disqualifier_reason": "Margin target already reflected in consensus: FY2028 consensus adjusted EBITDA $2.415B is above the $2.4B target midpoint and the implied margin gap is +3 bps. The Cheney Brothers acquisition closed October 2024, outside the 18-month window; the only in-window catalysts are an internal CEO succession and a Sachem Head board seat that has since been vacated.",
+  "verdict": "Clean dated FY2028 EBITDA and procurement targets under a new internal CEO, but the street already models the target midpoint, so there is no GXO-style gap.",
+  "open_questions": ["Will McPherson raise the FY2028 targets or set a post-2028 margin framework, and when is the next Investor Day?", "Why did Sachem Head's Ferguson leave the board in August 2026, and has Sachem Head exited its stake?", "Does procurement synergy upside above $125M plus Cheney integration push FY2028 EBITDA toward the $2.5B high end?"],
+  "sources": [
+    {"document_id": 133241, "title": "PERFORMANCE FOOD GROUP CO Q4 2026 Earnings Call", "date": "2026-08-12"},
+    {"document_id": 155640, "title": "PERFORMANCE FOOD GROUP CO Q3 2026 Earnings Call (search snippet only)", "date": "2026-05-06"},
+    {"document_id": 65621, "title": "PFGC Investor Day 2025 (search snippet only)", "date": "2025-05-28"},
+    {"document_id": 43481, "title": "PERFORMANCE FOOD GROUP CO Q1 2025 Earnings Call (search snippet, Cheney close)", "date": null},
+    {"document_id": 39675, "title": "Performance Food Group Co DEF 14A (Sachem Head cooperation agreement)", "date": null},
+    {"document_id": 0, "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01), data_financials summary (Visible Alpha), data_profile", "date": "2026-10-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0001193125-26-363739, 0001193125-26-357838, 0001193125-25-323612, 0001193125-25-213333, 0001193125-25-184124, 0000950170-24-136382, 0000950170-24-129264, 0000950170-24-085046, 0000950170-24-079267. Item 1.01/2.01 query returned only 0001193125-25-213333 (Sachem Head cooperation). No CFO change in window (Hatcher remains CFO).", "date": "2024-07-01 to 2026-08-24"}
+  ],
+  "tool_calls": 15
+}

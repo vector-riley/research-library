@@ -1,0 +1,163 @@
+{
+  "ticker": "LEA",
+  "cid": 1000256,
+  "name": "LEAR CORPORATION",
+  "industry": "Auto Parts",
+  "as_of": "2026-10-02",
+  "business": "Lear designs and manufactures automotive seating systems and electrical distribution systems (wire harnesses, connectors, electronics) for global auto OEMs.",
+  "quant": {
+    "mcap_usd": 6165596000.0,
+    "drawdown": -0.2012,
+    "pctile_ev_ebitda_60m": 0.1,
+    "price_ltm_pct": 0.2028,
+    "ebitda_margin_ltm": 0.0721,
+    "ebitda_margin_fwd_consensus": 0.0761,
+    "industry_median_margin": 0.126,
+    "ev_ebitda_fy": 4.3,
+    "net_debt_ltm_ebitda": 1.01,
+    "ebitda_revision_12m": -0.0091,
+    "ebitda_brokers": 10
+  },
+  "catalyst": {
+    "type": [],
+    "events": [
+      {
+        "what": "No CEO or CFO change found: sec-api Item 5.02 query 2024-07-01 to 2026-10-02 returned only two director elections, both before the 2025-04-01 window (Rod Lache 2024-08-12, 8-K 0000842162-24-000054; Julian Blissett 2025-02-14, 8-K 0000842162-25-000013). No Item 1.01 or 2.01 filings. CEO Ray Scott and CFO Jason Cardew both on the Q2 2026 call; Baba data_executives roster unchanged.",
+        "who": "Raymond E. Scott Jr. (CEO), Jason Cardew (CFO)",
+        "from": "",
+        "effective": "",
+        "source": "sec-api form-8k queries; Baba data_executives cid 1000256; document_id 113207",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": null,
+    "ceo_months_in_seat": null,
+    "next_event": {
+      "type": "framework update",
+      "date": null,
+      "source": "Jason Cardew, CFO, LEAR CORPORATION Q2 2026 Earnings Call, 2026-07-31, document_id 113207: plans to return to giving a three-year backlog with the Q4 2026 earnings call and initial 2027 guidance early next year (date not set). No Investor Day found."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "operating margin",
+    "metric_basis_note": "Current frame is an annual 'net performance' contribution of 40 bps in Seating and 80 bps in E-Systems for 2026 and again for 2027 (about 50 bps a year revenue-weighted), segment adjusted operating margin. It is gross of volume, launch, engineering and product wind-down headwinds; the CFO said the E-Systems margin step-up is 'not likely in 2027'. The older segment level targets (Seating above the 7.5% to 8.5% range by 2027 from Product Day 2023, document_id 83412; E-Systems 8% midterm) predate the window and were not restated in any 2026 document found; current run rate is Seating mid-6s and E-Systems low-4s to low-5s. Consensus is EBITDA and operating income; comparison uses VA operating margin. first_stated left null: earliest in-window hit is the Q4 2024 call (document_id 41098, early 2025) for 2025 targets, exact date not fetched.",
+    "current_level_pct": 4.57,
+    "target_level_pct": null,
+    "target_year": 2027,
+    "has_year": true,
+    "annual_bps": 50,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "Looking at 2027 and the pipeline of opportunities that are in process and on track for implementation next year, we're comfortable continuing with that level of performance commitment to investors for next year. A similar profile next year with 40 and 80 basis points in Seating and E-Systems respectively.",
+        "speaker": "Jason Cardew",
+        "role": "SVP and CFO",
+        "doc_title": "Wolfe Research Autos and Mobility Conference",
+        "date": "2026-06-18",
+        "document_id": 45246
+      },
+      {
+        "quote": "We have a very robust pipeline of new opportunities, and we expect another 40 and 80 basis points in C and E-Systems net performance next year. That net performance underwrites a multi-year plan of margin improvement in E-Systems in particular. We're not happy with where margins are right now in that business.",
+        "speaker": "Jason Cardew",
+        "role": "SVP and CFO",
+        "doc_title": "LEAR CORPORATION Q2 2026 Earnings Call",
+        "date": "2026-07-31",
+        "document_id": 113207
+      },
+      {
+        "quote": "So it's not likely in 2027, but as you progress through that 2027, 2028, 2029 timeframe, we do expect steady improvement in operating margins, in E-Systems particular, and really for the company overall.",
+        "speaker": "Jason Cardew",
+        "role": "SVP and CFO",
+        "doc_title": "LEAR CORPORATION Q2 2026 Earnings Call",
+        "date": "2026-07-31",
+        "document_id": 113207
+      }
+    ],
+    "first_stated": null,
+    "times_repeated": 6
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 7.37,
+      "FY2027": 7.61,
+      "FY2028": 7.88
+    },
+    "consensus_margin_at_target_year_pct": 5.09,
+    "gap_bps_vs_target": 49,
+    "gap_assumption": "No level target in window. Implied ceiling: FY2025 actual operating margin 4.57% plus two years of the full revenue-weighted net performance (50.3 bps a year, FY2025 segment revenue weights) = about 5.57% for 2027, minus VA FY2027 consensus operating margin 5.09% = +49 bps. This is an upper bound because management says net performance is offset by wind-downs, launch and engineering costs. Calendar fiscal year, so VA labels equal company years. Consensus already builds about 27 bps a year of operating margin expansion (4.82% FY2026, 5.09% FY2027, 5.27% FY2028).",
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials summary and fundamentals consensus (Visible Alpha) cid 1000256; data_segments FY2025 revenue weights; gap via data_compute"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      -37.2,
+      16.1
+    ],
+    "note": "VA EBITDA margin yoy: 4QFY-2025 -37.2 bps, 1QFY-2026 +16.1 bps (VA has not loaded Q2 2026). Reported Q2 2026: total margin +20 bps yoy, E-Systems +90 bps on 155 bps of net performance; Seating net performance about 25 bps in the first half against a 40 bps full-year target. Full-year 2026 guidance raised on the Q2 call."
+  },
+  "score": {
+    "A_underperformance": 1,
+    "B_catalyst": 0,
+    "C_numeric_framing": 3,
+    "D_unproven": 1,
+    "total": 5
+  },
+  "disqualified": true,
+  "disqualifier_reason": "No catalyst in the 18-month window and none pending: no CEO, CFO, board-level change after 2025-04-01, no acquisition 8-K, and the same CEO and CFO who set the stale 2023 segment targets are in place.",
+  "verdict": "Cheap, well-run low-margin auto supplier with a credible annual cost-out cadence, but there is no leadership or deal catalyst, the 2027 segment level targets have quietly lapsed, and the street already models most of the net performance, so this is not a GXO-style setup.",
+  "open_questions": [
+    "Will the Q4 2026 call (three-year backlog, 2027 guide) reset the segment margin targets with a new year, which would lift C and D?",
+    "How much of the 40 and 80 bps net performance reaches reported margin after the $235M 2027 E-Systems product wind-down and China and Europe volume weakness?",
+    "Is there any activist or succession pressure on a CEO in seat since before the window that could create a catalyst?"
+  ],
+  "sources": [
+    {
+      "document_id": 45246,
+      "title": "Wolfe Research Autos and Mobility Conference (Lear)",
+      "date": "2026-06-18"
+    },
+    {
+      "document_id": 113207,
+      "title": "LEAR CORPORATION Q2 2026 Earnings Call",
+      "date": "2026-07-31"
+    },
+    {
+      "document_id": 140437,
+      "title": "LEAR CORPORATION Q1 2026 Earnings Call",
+      "date": "2026-05"
+    },
+    {
+      "document_id": 140438,
+      "title": "LEAR CORPORATION Q4 2025 Earnings Call",
+      "date": "2026-02"
+    },
+    {
+      "document_id": 83412,
+      "title": "Lear Product Day 2023 (stale 2027 Seating target, pre-window)",
+      "date": "2023"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0000842162-24-000054 (Lache director)",
+      "date": "2024-08-12"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0000842162-25-000013 (Blissett director)",
+      "date": "2025-02-18"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps cid 1000256 (market_data and revisions as of 2026-10-01)",
+      "date": "2026-10-01"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_financials summary and fundamentals consensus cid 1000256",
+      "date": "2026-10-01"
+    }
+  ],
+  "tool_calls": 18
+}

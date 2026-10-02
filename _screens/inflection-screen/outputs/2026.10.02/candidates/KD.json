@@ -1,0 +1,135 @@
+{
+  "ticker": "KD",
+  "cid": 1005270,
+  "name": "Kyndryl Holdings, Inc.",
+  "industry": "IT Consulting & Other Services",
+  "as_of": "2026-10-02",
+  "business": "Kyndryl runs, modernizes and secures mission-critical IT infrastructure (cloud, mainframe, network, security) for large enterprises, mostly banks, retailers and industrials, worldwide.",
+  "quant": {
+    "mcap_usd": 2673672000.0,
+    "drawdown": -0.7408515535097814,
+    "pctile_ev_ebitda_60m": 0.058823529411764705,
+    "price_ltm_pct": -0.6250416250416251,
+    "ebitda_margin_ltm": 0.1770,
+    "ebitda_margin_fwd_consensus": 0.18078036666205127,
+    "industry_median_margin": 0.189,
+    "ev_ebitda_fy": 1.7305410828721786,
+    "net_debt_ltm_ebitda": 0.7327607413199395,
+    "ebitda_revision_12m": -0.13461231411368246,
+    "ebitda_brokers": 5.0
+  },
+  "catalyst": {
+    "type": ["new_cfo"],
+    "events": [
+      {
+        "what": "CFO David Wyshner and General Counsel Edward Sebold departed; Global Controller moved to another role; interim CFO (Harsh Chugh) and interim Controller appointed. Material weaknesses later disclosed: senior finance executives 'failed to set an appropriate tone at the top', including disclosure around 'cash management practices regarding deferring vendor payments quarter to quarter'",
+        "who": "David Wyshner (departed); Harsh Chugh (interim CFO)",
+        "from": "Chugh: Kyndryl COO 2021 to January 2026, ex IBM",
+        "effective": "2026-02-05",
+        "source": "8-K 0001104659-26-011745; 8-K/A 0001104659-26-015755; 10-K/A 0001104659-26-015713 (doc 20596); 10-K 0001104659-26-067881 (doc 20588, Item 9A)",
+        "external_hire": false
+      },
+      {
+        "what": "New permanent CFO",
+        "who": "Ellen Johnson",
+        "from": "Former EVP and CFO of Interpublic Group",
+        "effective": "2026-08-06",
+        "source": "8-K 0001104659-26-080558 (appointment, filed 2026-07-06); doc 112264 (AGM 2026, Schroeter: 'will assume the CFO on August 6th')",
+        "external_hire": true
+      },
+      {
+        "what": "New General Counsel and Secretary",
+        "who": "Andrew Bonzani",
+        "from": "External",
+        "effective": "2026-07-06",
+        "source": "8-K 0001104659-26-080558; doc 112264",
+        "external_hire": true
+      },
+      {
+        "what": "Workforce rebalancing program: about $200M of charges in fiscal 2027, annualized savings of $400M to $500M in fiscal 2028",
+        "who": "Management (Harsh Chugh, interim CFO)",
+        "from": "",
+        "effective": "2026-08-05",
+        "source": "doc 129669 (Q1 FY2027 call)",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 2,
+    "ceo_months_in_seat": 59,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "No Investor Day or framework update announced in Baba. The fiscal Q2 2027 call (date not announced) will be Ellen Johnson's first as CFO. Material weakness remediation is targeted for 2027-03-31 (doc 112264, Schroeter, AGM 2026-07-30). The last Investor Day was 2024-11-21 (doc 68122)."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "The EBITDA margin target (20% to 22% in fiscal 2028, set by former CFO Wyshner at the 2024-11-21 Investor Day on $16B to $17B of revenue) has not been repeated in any 2026 call in Baba. The repeated targets are adjusted pretax income above $1.2B and free cash flow of $1B in fiscal 2028 (CEO Schroeter, most recently 2026-08-05, now on 'low single-digit' revenue growth). $1.2B on FY2028 consensus revenue of $14.84B is about an 8.1% pretax margin ('high single digits'). The gap below uses the EBITDA target because consensus pretax income is not in Baba. EBITDA is a weak metric here: EV/EBITDA of 1.6x reflects heavy capitalized-cost amortization, so pretax income and FCF are what the market prices. Fiscal year ends March; Baba FY2028 = company fiscal 2028 (ending Mar-2028).",
+    "current_level_pct": 17.70,
+    "target_level_pct": 21.0,
+    "target_year": 2028,
+    "has_year": true,
+    "annual_bps": null,
+    "synergy_usd": 450000000,
+    "synergy_year": 2028,
+    "statements": [
+      {
+        "quote": "As our adjusted pre-tax margins move up to the high single digits, we will have a similar uptick in our adjusted EBITDA margin, which we see increasing 370-570 basis points to 20%-22% in fiscal 2028.",
+        "speaker": "David Wyshner",
+        "role": "CFO (departed 2026-02-05)",
+        "doc_title": "Investor Day 2024",
+        "date": "2024-11-21",
+        "document_id": 68122
+      },
+      {
+        "quote": "the quality of that revenue base gives us confidence in our ability to increase profitability and deliver more than $1.2 billion in adjusted pre-tax income and $1 billion in free cash flow in fiscal 2028. These targets can be achieved on low single-digit constant currency revenue growth.",
+        "speaker": "Martin Schroeter",
+        "role": "Chairman and CEO",
+        "doc_title": "Kyndryl Holdings Inc Q1 2027 Earnings Call",
+        "date": "2026-08-05",
+        "document_id": 129669
+      },
+      {
+        "quote": "This pre-tax income outlook includes approximately $200 million of workforce rebalancing charges and a similar amount of savings associated with these actions to offset the charges. In fiscal 2028, these actions are expected to yield annualized savings in the range of $400 million-$500 million.",
+        "speaker": "Harsh Chugh",
+        "role": "Interim CFO",
+        "doc_title": "Kyndryl Holdings Inc Q1 2027 Earnings Call",
+        "date": "2026-08-05",
+        "document_id": 129669
+      }
+    ],
+    "first_stated": "2024-11-21",
+    "times_repeated": 6
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {"FY2026": 0.1770, "FY2027": 0.1808, "FY2028": 0.1902},
+    "consensus_margin_at_target_year_pct": 19.02,
+    "gap_bps_vs_target": 198,
+    "gap_assumption": "Target midpoint 21% adjusted EBITDA margin in fiscal 2028 versus VA FY2028 (FYE Mar-2028) consensus of 19.02%; +98 bps against the 20% low end. FY2026 is reported (fiscal year ended Mar-2026). The target assumed $16B to $17B of revenue; consensus FY2028 revenue is $14.84B, and management now cites only the pretax income and FCF targets.",
+    "ebitda_uplift_pct_if_target_hit": 10.4,
+    "source": "Baba data_financials consensus (summary), data_comps"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [-79, -11],
+    "note": "VA EBITDA margin yoy: fiscal Q3 2026 -79 bps, fiscal Q4 2026 -11 bps, after +240 and +250 bps in Q1 and Q2 (Wyshner, docs 51829 and 51827). Fiscal 2026 adjusted pretax income was $581M (Chugh, doc 188392) against an initial guide of at least $725M (Wyshner, doc 51831). Fiscal Q1 2027 adjusted EBITDA was $512M (vs $647M a year earlier) with a $37M adjusted pretax loss, including $152M of workforce charges (doc 129669); VA has not loaded Q1 FY2027 actuals. FY2027 guide: pretax income $600M to $700M, FCF $400M to $500M, revenue flat to down 2% in constant currency."
+  },
+  "score": {"A_underperformance": 2, "B_catalyst": 2, "C_numeric_framing": 3, "D_unproven": 2, "total": 9},
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Scores 9 on the rubric, but the catalyst is a forced finance clean-up after material weaknesses tied to deferring vendor payments; margins slipped and the targets now rest on cost cuts.",
+  "open_questions": [
+    "Does Ellen Johnson keep the fiscal 2028 targets ($1.2B+ pretax income, $1B FCF) on her first call, or re-base them, and what happened to the 20% to 22% EBITDA margin target?",
+    "How much of past free cash flow came from deferring vendor payments, and what is the normalized FCF once those are unwound?",
+    "Are the $400M to $500M of fiscal 2028 workforce savings in consensus, given FY2028 EBITDA consensus is only $145M above FY2027?"
+  ],
+  "sources": [
+    {"document_id": 68122, "title": "Investor Day 2024", "date": "2024-11-21"},
+    {"document_id": 188392, "title": "Kyndryl Holdings Inc Q4 2026 Earnings Call", "date": "2026-05-06"},
+    {"document_id": 129669, "title": "Kyndryl Holdings Inc Q1 2027 Earnings Call", "date": "2026-08-05"},
+    {"document_id": 112264, "title": "AGM 2026", "date": "2026-07-30"},
+    {"document_id": 20588, "title": "Kyndryl Holdings, Inc. 10-K (FYE 2026-03-31)", "date": "2026-05-29"},
+    {"document_id": 20596, "title": "Kyndryl Holdings, Inc. 10-K/A (FYE 2025-03-31)", "date": "2026-02-17"}
+  ],
+  "tool_calls": 27
+}

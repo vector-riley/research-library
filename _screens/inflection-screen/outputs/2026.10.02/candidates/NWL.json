@@ -1,0 +1,46 @@
+{
+  "ticker": "NWL", "cid": 1000465, "name": "NEWELL BRANDS INC", "industry": "Household Products", "as_of": "2026-10-02",
+  "business": "Newell Brands makes and sells branded household, writing, baby and outdoor products such as Sharpie, Graco, Rubbermaid and Coleman to mass, club and online retailers.",
+  "quant": {"mcap_usd": 2284362000.0, "drawdown": -0.5029, "pctile_ev_ebitda_60m": 0.2333, "price_ltm_pct": 0.0767,
+            "ebitda_margin_ltm": 0.144, "ebitda_margin_fwd_consensus": 0.1326, "industry_median_margin": 0.18, "ev_ebitda_fy": 7.2,
+            "net_debt_ltm_ebitda": 4.71, "ebitda_revision_12m": -0.0668, "ebitda_brokers": 4},
+  "catalyst": {"type": ["strategy_update", "board_refresh"],
+               "events": [
+                 {"what": "CEO in seat since 2023 (internal; previously President and CFO); exact start month not stated in sources read, so outside the 18-month window by at least 15 months", "who": "Christopher H. Peterson", "from": "Newell CFO and President 2022-2023; ex Revlon, Ralph Lauren, P&G", "effective": null, "source": "DEF 14A document_id 39588; 8-K 0001193125-22-143659 (President and CFO 2022-05-05)", "external_hire": false},
+                 {"what": "CAGNY 2026: CFO lays out path to 12-15% normalized operating margin (gross margin 37-38%, A&P 6-7%, overhead 17-18%) and reaffirms evergreen 50 bps a year", "who": "Mark Erceg", "from": null, "effective": "2026-02-20", "source": "document_id 54259", "external_hire": null},
+                 {"what": "Global Productivity Plan announced (over 900 roles cut, about 20 Yankee Candle stores closed January 2026)", "who": "Newell Brands", "from": null, "effective": null, "source": "10-K business description via data_profile (announced December 2025)", "external_hire": null},
+                 {"what": "Director added in 2025 (\"Director since 2025\", first name Gary H. per proxy snippet); no Item 5.02 8-K for it returned", "who": "Gary H. (surname not in fetched text)", "from": null, "effective": null, "source": "DEF 14A document_id 39588 (search snippet)", "external_hire": true},
+                 {"what": "No CEO, CFO, COO or chair change in window: only Item 5.02 8-Ks are bonus/LTIP and incentive-plan approvals", "who": null, "from": null, "effective": null, "source": "8-Ks 0000950170-25-023244, 0000950170-25-071501, 0001193125-26-051284, 0001193125-26-221779", "external_hire": null}
+               ],
+               "months_since_primary": null, "ceo_months_in_seat": null,
+               "next_event": {"type": "none known", "date": null, "source": "No Investor Day or framework update found; CEO on 2026-07-31: \"we're not at a position to guide for 2027 at this point\" (document_id 113215, search hit). Next item is Q3 2026 results (date not confirmed)."}},
+  "margin_framing": {"numeric": true, "metric": "operating margin",
+                     "metric_basis_note": "Management frames normalized operating margin (EBIT): a 12-15% long-term level with no year (CFO, CAGNY 2026-02-20, repeated 2026-06-03) and an evergreen 50 bps a year improvement (stated since 2023). Consensus in Baba is EBITDA; the gap uses Visible Alpha consensus operating income, so both sides are EBIT. FY2026 guide 10.0-10.4% includes about $100M of out-of-period 2025 IEEPA tariff refunds; ex-refund the CFO put it at about 8.6-9.0%.",
+                     "current_level_pct": 8.4, "target_level_pct": 12.0, "target_year": null, "has_year": false,
+                     "annual_bps": 50, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "2.5 years into Newell's turnaround, we believe there's a clear line of sight and credible path forward, which will result in normalized gross margin in the 37%-38% range, A&P of approximately 6%-7%, normalized overhead somewhere between 17%-18%, and normalized operating margin in the 12%-15% range.", "speaker": "Mark Erceg", "role": "CFO", "doc_title": "Consumer Analyst Group of New York Conference (CAGNY) 2026", "date": "2026-02-20", "document_id": 54259},
+                       {"quote": "In the meantime, our long-term evergreen annual financial targets remain unchanged: low single-digit core sales growth, 50 basis points of operating margin improvement, and about 90% free cash flow productivity.", "speaker": "Mark Erceg", "role": "CFO", "doc_title": "Consumer Analyst Group of New York Conference (CAGNY) 2026", "date": "2026-02-20", "document_id": 54259},
+                       {"quote": "It's entirely conceivable that that op margin rate that we've seen to date, and we're not prepared to change our algorithm right now, but it's entirely reasonable to assume that that 100 basis points that we've been able to deliver each of the past three years could continue or maybe even accelerate in given years, depending on how everything comes together.", "speaker": "Mark Erceg", "role": "CFO", "doc_title": "23rd annual dbAccess Global Consumer Conference", "date": "2026-06-03", "document_id": 54260}
+                     ],
+                     "first_stated": "2026-02-20", "times_repeated": 2},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 0.1437, "FY2027": 0.1326, "FY2028": 0.1372},
+             "consensus_margin_at_target_year_pct": 9.77, "gap_bps_vs_target": 223,
+             "gap_assumption": "No target year. Compares the 12% low end of the 12-15% normalized operating margin path with FY2028 consensus operating margin 9.77% (+223 bps); FY2030, the last consensus year, is 10.48% (+152 bps). The evergreen 50 bps a year is already modeled: 8.8% ex-refund FY2026 midpoint plus 100 bps = 9.8% vs 9.77% FY2028 consensus (+3 bps). December fiscal year; Baba labels equal company years. FY2026 consensus EBITDA includes the tariff refund.",
+             "ebitda_uplift_pct_if_target_hit": 0.1626, "source": "Baba data_financials consensus (summary and fundamentals: operating_income, da, revenue)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [30, 550], "note": "Normalized operating margin: Q1 2026 4.8%, +30 bps (CFO, document_id 195074); Q2 2026 16.2% vs 10.7% (+550 bps, 8-K 0000814453-26-000024) but includes about $126M of IEEPA tariff recoveries; CFO said ex-refund it was up only slightly. FY2025 normalized operating margin about 8.4% (+20 bps). LTM normalized EBITDA margin 14.4%, or 13.0% excluding the $100M out-of-period refund (Q2 2026 sales derived as Q2 2025 $1,935M x 1.030)."},
+  "score": {"A_underperformance": 2, "B_catalyst": 1, "C_numeric_framing": 2, "D_unproven": 2, "total": 7},
+  "disqualified": true,
+  "disqualifier_reason": "Catalyst older than 18 months with no pending change: CEO Peterson (internal) has led since 2023 and CFO Erceg is unchanged; the in-window items are a CAGNY margin algorithm, a productivity plan and one director, with no leadership change, acquisition or activist pending. Secondary flag, not a disqualifier on its own: net debt is 4.7x LTM EBITDA (data_comps), though a new $800M ABL extended maturities to 2031 and the company targets about half a turn of deleveraging in 2026.",
+  "verdict": "Cheap, with a real 220 bps gap between the 12-15% operating-margin path and consensus, but there is no new leadership or deal to break the three-year stalemate.",
+  "open_questions": ["Will management attach a year to 12-15%, given the CFO refused to change the 50 bps evergreen algorithm?", "How much of FY2026 margin survives once about $126M of tariff refunds drop out, and does FY2027 consensus (13.3% EBITDA) already reflect that?", "Is a board-driven leadership or portfolio change (non-core brand sales) coming, which would be the missing catalyst?"],
+  "sources": [
+    {"document_id": 54259, "title": "Consumer Analyst Group of New York Conference (CAGNY) 2026", "date": "2026-02-20"},
+    {"document_id": 54260, "title": "23rd annual dbAccess Global Consumer Conference", "date": "2026-06-03"},
+    {"document_id": 143547, "title": "Newell Brands 8-K Q2 2026 results, accession 0000814453-26-000024", "date": "2026-07-31"},
+    {"document_id": 113215, "title": "NEWELL BRANDS INC Q2 2026 Earnings Call", "date": "2026-07-31"},
+    {"document_id": 195074, "title": "NEWELL BRANDS INC Q1 2026 Earnings Call", "date": "2026-05-01"},
+    {"document_id": 39588, "title": "NEWELL BRANDS INC. DEF 14A (accession 0001193125-26-126289)", "date": "2026"}
+  ],
+  "tool_calls": 15
+}

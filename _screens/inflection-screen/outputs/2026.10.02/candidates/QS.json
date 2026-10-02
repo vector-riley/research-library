@@ -1,0 +1,155 @@
+{
+  "ticker": "QS",
+  "cid": 1004871,
+  "name": "QuantumScape Corporation",
+  "industry": "Electrical Components and Equipments",
+  "as_of": "2026-10-02",
+  "business": "QuantumScape develops solid-state lithium-metal battery cells for electric vehicle makers, AI data centers and aerospace and defense customers; it is pre-revenue.",
+  "quant": {
+    "mcap_usd": 2832383430.0,
+    "drawdown": -0.7481019522776573,
+    "pctile_ev_ebitda_60m": null,
+    "price_ltm_pct": -0.6229707792207793,
+    "ebitda_margin_ltm": null,
+    "ebitda_margin_fwd_consensus": -16.045560776341404,
+    "industry_median_margin": 0.199,
+    "ev_ebitda_fy": -7.3665236782591075,
+    "net_debt_ltm_ebitda": null,
+    "ebitda_revision_12m": 0.09894467733602341,
+    "ebitda_brokers": 7.0
+  },
+  "catalyst": {
+    "type": [
+      "board_refresh",
+      "strategy_update"
+    ],
+    "events": [
+      {
+        "what": "COO of QuantumScape Battery appointed (not CEO or CFO)",
+        "who": "Dr. Luca Fasoli",
+        "from": "Western Digital (SVP Memory Productization), SanDisk",
+        "effective": "2025-05-07",
+        "source": "8-K 0000950170-25-065715",
+        "external_hire": true
+      },
+      {
+        "what": "Director appointed (ex CFO of Cadence, NVIDIA)",
+        "who": "Geoffrey Ribar",
+        "from": "MACOM, Everspin boards",
+        "effective": "2026-01-29",
+        "source": "8-K 0001193125-26-030259",
+        "external_hire": true
+      },
+      {
+        "what": "Director retires",
+        "who": "Prof. Dr. Fritz Prinz",
+        "from": "",
+        "effective": "2026-02-04",
+        "source": "8-K 0001193125-26-044778",
+        "external_hire": null
+      },
+      {
+        "what": "Director appointed",
+        "who": "Ross Niebergall",
+        "from": "L3Harris (President, Aerojet Rocketdyne segment)",
+        "effective": "2026-03-04",
+        "source": "8-K 0001193125-26-092692",
+        "external_hire": true
+      },
+      {
+        "what": "Three business verticals set up (QSEV automotive, QSDC AI data centers, QSAS aerospace and defense) plus Honda partnership",
+        "who": "Management",
+        "from": "",
+        "effective": "2026-07-22",
+        "source": "doc 103650 (Q2 2026 call)",
+        "external_hire": null
+      },
+      {
+        "what": "CEO appointed (outside the 18-month window); CFO Kevin Hettrich unchanged",
+        "who": "Siva Sivaram",
+        "from": "Western Digital (President, Technology and Strategy); joined QS as President 2023-09-11",
+        "effective": "2024-02-15",
+        "source": "8-K 0000950170-24-015280",
+        "external_hire": true
+      }
+    ],
+    "months_since_primary": 17,
+    "ceo_months_in_seat": 31,
+    "next_event": {
+      "type": "framework update",
+      "date": null,
+      "source": "doc 103650, Sivaram 2026-07-22: 'We are committed to sharing more on our technology roadmap later this year.' A technology update, not a margin framework. No Investor Day found in Baba."
+    }
+  },
+  "margin_framing": {
+    "numeric": false,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "Pre-revenue. Only financial guide is an absolute FY2026 adjusted EBITDA loss of $250M to $275M and capex of $27M to $37M; no margin metric exists to frame.",
+    "current_level_pct": null,
+    "target_level_pct": null,
+    "target_year": null,
+    "has_year": null,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "For full-year 2026, we reiterate our Adjusted EBITDA loss guidance of between $250 million and $275 million.",
+        "speaker": "Kevin Hettrich",
+        "role": "CFO",
+        "doc_title": "QUANTUMSCAPE CORPORATION Q2 2026 Earnings Call",
+        "date": "2026-07-22",
+        "document_id": 103650
+      }
+    ],
+    "first_stated": null,
+    "times_repeated": 0
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": null,
+      "FY2027": null,
+      "FY2028": null
+    },
+    "consensus_margin_at_target_year_pct": null,
+    "gap_bps_vs_target": null,
+    "gap_assumption": "Not applicable: consensus revenue is $0.3M (FY2026), $17.2M (FY2027), $62.6M (FY2028) against EBITDA of -$283M, -$276M, -$248M, so margins are not meaningful. Calendar fiscal year, Baba FY labels equal company years. Note data_comps reports current_fy 2027 for this row; its -16.05 'margin' is FY2027 EBITDA over FY2027 revenue.",
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials consensus (summary), data_comps"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      null,
+      null
+    ],
+    "note": "Pre-revenue; margin not meaningful. Q2 2026 adjusted EBITDA loss $64.2M (doc 103650) vs Q2 2025 -$63.0M (VA). Customer billings $21.8M year to date vs $19.5M for all of 2025. Liquidity $859M. The data_comps 12-month 'revision' of +9.9% is the forward EBITDA LOSS widening from -$251.6M to -$276.5M, not an improvement."
+  },
+  "score": {
+    "A_underperformance": 1,
+    "B_catalyst": 1,
+    "C_numeric_framing": 0,
+    "D_unproven": 0,
+    "total": 2
+  },
+  "disqualified": true,
+  "disqualifier_reason": "Pre-revenue development-stage company: there is no margin to expand and no margin framing to test, so the archetype does not apply. CEO (2024-02-15) is outside the 18-month window and CFO is unchanged; in-window changes are a COO and board seats only.",
+  "verdict": "Pre-revenue battery developer with a 75% drawdown; no CEO or CFO change in window and no margin story, so not a GXO-style setup.",
+  "open_questions": [
+    "When does QS report material revenue (consensus FY2028 $62.6M) that would make a margin framework possible?",
+    "Does the promised technology roadmap update later in 2026 include any commercial or unit-economics targets?",
+    ""
+  ],
+  "sources": [
+    {
+      "document_id": 103650,
+      "title": "QUANTUMSCAPE CORPORATION Q2 2026 Earnings Call",
+      "date": "2026-07-22"
+    },
+    {
+      "document_id": 198379,
+      "title": "QUANTUMSCAPE CORPORATION Q1 2026 Earnings Call",
+      "date": null
+    }
+  ],
+  "tool_calls": 10
+}

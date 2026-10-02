@@ -1,0 +1,147 @@
+{
+ "ticker": "IRTC",
+ "cid": 1003333,
+ "name": "iRhythm Holdings, Inc.",
+ "industry": "Health Care Equipment",
+ "as_of": "2026-10-02",
+ "business": "Sells Zio wearable ECG patch cardiac monitoring services that diagnose arrhythmias to physicians, health systems and patients, mainly in the United States.",
+ "quant": {
+  "mcap_usd": 3652989750.0,
+  "drawdown": -0.3994187582562748,
+  "pctile_ev_ebitda_60m": 0.0,
+  "price_ltm_pct": -0.33914762486191063,
+  "ebitda_margin_ltm": 0.1372,
+  "ebitda_margin_fwd_consensus": 0.15129902086274133,
+  "industry_median_margin": 0.211,
+  "ev_ebitda_fy": 23.9771234331276,
+  "net_debt_ltm_ebitda": 0.5977020844660367,
+  "ebitda_revision_12m": 0.03141932188891339,
+  "ebitda_brokers": 8.0
+ },
+ "catalyst": {
+  "type": ["acquisition", "board_refresh"],
+  "events": [
+   {
+    "what": "Pending acquisition of VitalConnect (MCT and multi-vital wearable biosensor, about $65M revenue run rate) for $287.5M ($237.5M cash, $50M stock), about 8% of market cap; expected to close by end of 2026",
+    "who": "VitalConnect",
+    "from": null,
+    "effective": null,
+    "source": "8-K 0001388658-26-000070 (EX-99.2, doc 142996); 10-Q doc 130673; doc 130293",
+    "external_hire": null
+   },
+   {
+    "what": "Two new directors (Audit Committee) replacing Mark Rubash and Ralph Snyderman",
+    "who": "Karen McGinnis, Kevin O'Boyle",
+    "from": null,
+    "effective": "2025-07-07",
+    "source": "8-K 0001388658-25-000177",
+    "external_hire": true
+   },
+   {
+    "what": "New director and Audit Committee member (previously an advisor to the CEO); Brian Yoor resigned as Audit Chair 2026-08-12, McGinnis became chair",
+    "who": "Jason Patten",
+    "from": "Advisor to iRhythm CEO",
+    "effective": "2026-03-12",
+    "source": "8-K 0001388658-26-000017; 8-K 0001388658-26-000076",
+    "external_hire": true
+   },
+   {
+    "what": "No CEO or CFO change in window. CEO Quentin Blackford has been CEO since October 2021 per the DEF 14A, not January 2024 as the task brief stated; CFO Daniel Wilson (internal, ex EVP Corp Dev and IR) effective 2024-08-31, outside window",
+    "who": "Quentin Blackford; Daniel Wilson",
+    "from": "Internal",
+    "effective": "2024-08-31",
+    "source": "DEF 14A doc 39058 (filed 2026-04-17); 8-K 0001388658-24-000140",
+    "external_hire": false
+   }
+  ],
+  "months_since_primary": 2,
+  "ceo_months_in_seat": 60,
+  "next_event": {
+   "type": "framework update",
+   "date": null,
+   "source": "Wilson, Q2 2026 call 2026-08-06 (doc 130293): 'We look forward to providing more detailed guidance following the closing of the transaction'; VitalConnect expected to close by end of 2026 (8-K 0001388658-26-000070). No Investor Day found in Baba; last Analyst Day 2022 (doc 96771). CEO tenure from DEF 14A doc 39058 (CEO since October 2021)."
+  }
+ },
+ "margin_framing": {
+  "numeric": true,
+  "metric": "adjusted EBITDA margin",
+  "metric_basis_note": "Company adjusted EBITDA over revenue, same basis as VA consensus. Target of 15% adjusted EBITDA margin in 2027 was set in the 2022 long-range plan (Analyst Day 2022) and reaffirmed for the combined company after VitalConnect. One-year guide FY2026 13% to 14% (raised twice). CEO also said 'We won't stop at 15%' with no number or year.",
+  "current_level_pct": 13.72,
+  "target_level_pct": 15.0,
+  "target_year": 2027,
+  "has_year": true,
+  "annual_bps": null,
+  "synergy_usd": null,
+  "synergy_year": null,
+  "statements": [
+   {
+    "quote": "This performance underscores the operating leverage we are building in our business model and our confidence in delivering against our longer-term target of 15% adjusted EBITDA margin in 2027.",
+    "speaker": "Dan Wilson",
+    "role": "CFO",
+    "doc_title": "iRhythm Holdings, Inc. Q2 2026 Earnings Call",
+    "date": "2026-08-06",
+    "document_id": 130293
+   },
+   {
+    "quote": "Combining VitalConnect's business with the meaningful progress we continue to make in our base business, we remain confident in the combined company achieving our previously communicated adjusted EBITDA margin target of 15% next year.",
+    "speaker": "Quentin Blackford",
+    "role": "President and CEO",
+    "doc_title": "iRhythm Holdings, Inc. Q2 2026 Earnings Call",
+    "date": "2026-08-06",
+    "document_id": 130293
+   },
+   {
+    "quote": "Based on our performance year to date and outlook for the remainder of 2026, we are raising our full-year adjusted EBITDA margin guidance to 13%-14%.",
+    "speaker": "Dan Wilson",
+    "role": "CFO",
+    "doc_title": "iRhythm Holdings, Inc. Q2 2026 Earnings Call",
+    "date": "2026-08-06",
+    "document_id": 130293
+   }
+  ],
+  "first_stated": null,
+  "times_repeated": 6
+ },
+ "street": {
+  "consensus_ebitda_margin_by_fy": {
+   "FY2026": 0.1246,
+   "FY2027": 0.1513,
+   "FY2028": 0.1710
+  },
+  "consensus_margin_at_target_year_pct": 15.13,
+  "gap_bps_vs_target": -13,
+  "gap_assumption": "Calendar fiscal year, so Baba FY labels equal company years. Same metric on both sides. Consensus FY2027 15.13% already sits 13 bps above the 15% target and rises to 17.10% in FY2028. Note VA FY2026 (12.46%) is below the raised 13% to 14% guide, and VA's Q2 2026 row ($219.0M revenue, $25.9M EBITDA) is not the reported actual ($224.2M, $43.3M), so FY2026 and possibly FY2027 consensus may be stale. VitalConnect is not in consensus.",
+  "ebitda_uplift_pct_if_target_hit": null,
+  "source": "Baba data_financials fundamentals (Visible Alpha consensus), fetched 2026-10-02"
+ },
+ "evidence_of_progress": {
+  "last_two_quarters_margin_yoy_bps": [880, 1090],
+  "note": "Q1 2026 adj EBITDA margin about 7%, +880 bps YoY (Wilson, doc 147501); Q2 2026 19.3% ($43.3M on $224.2M), +1,090 bps vs Q2 2025 8.41% (CFO said more than 1,000 bps; doc 130293). Revenue +20.1%, gross margin 72.8% (+160 bps), opex flat. LTM 13.72%. Margin expansion is already visible and fast; this is a delivering story, not an unproven one."
+ },
+ "score": {
+  "A_underperformance": 2,
+  "B_catalyst": 1,
+  "C_numeric_framing": 3,
+  "D_unproven": 0,
+  "total": 6
+ },
+ "disqualified": true,
+ "disqualifier_reason": "Margin target already reflected in consensus: FY2027 consensus 15.13% vs the 15% target (-13 bps). No CEO or CFO change in the 18-month window (Blackford CEO since October 2021, Wilson CFO since 2024-08-31); the pending $287.5M VitalConnect bolt-on is the only transaction.",
+ "verdict": "Cheapest on its own history and down 40%, but the 15% 2027 margin target is already in consensus and margins are rising fast; a de-rated growth medtech, not a GXO-style margin gap.",
+ "open_questions": [
+  "Does post-close guidance reset the 2027 target above 15% ('We won't stop at 15%'), and does VitalConnect dilute it?",
+  "Is VA consensus stale (Q2 2026 actual not loaded, FY2026 12.46% below the 13% to 14% guide)?",
+  "What is driving the de-rating despite 20% growth: CMS reimbursement, the Zio MCT FDA path, or litigation?"
+ ],
+ "sources": [
+  {"document_id": 130293, "title": "iRhythm Holdings, Inc. Q2 2026 Earnings Call", "date": "2026-08-06"},
+  {"document_id": 147501, "title": "iRhythm Holdings, Inc. Q1 2026 Earnings Call", "date": "2026-04-30"},
+  {"document_id": 56387, "title": "46th Annual William Blair Growth Stock Conference", "date": "2026-06-02"},
+  {"document_id": 39058, "title": "iRhythm Holdings, Inc. DEF 14A", "date": "2026-04-17"},
+  {"document_id": 142996, "title": "iRhythm Holdings, Inc. 8-K (Q2 2026 results and VitalConnect, 0001388658-26-000070)", "date": "2026-08-06"},
+  {"document_id": 130673, "title": "iRhythm Holdings, Inc. 10-Q (quarter ended 2026-06-30)", "date": "2026-08-06"},
+  {"document_id": 0, "title": "8-K 0001388658-24-000140 (Wilson CFO effective 2024-08-31)", "date": "2024-08-01"},
+  {"document_id": 0, "title": "8-K 0001388658-25-000177 and 0001388658-26-000017 (board changes)", "date": "2026-03-12"}
+ ],
+ "tool_calls": 17
+}

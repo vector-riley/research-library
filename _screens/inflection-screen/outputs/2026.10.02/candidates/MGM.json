@@ -1,0 +1,171 @@
+{
+ "ticker": "MGM",
+ "cid": 1000217,
+ "name": "MGM Resorts International",
+ "industry": "Casinos and Gaming",
+ "as_of": "2026-10-02",
+ "business": "Operates casino resorts in Las Vegas, US regional markets and Macau plus online sports betting and iGaming, serving gaming, leisure, business and convention customers.",
+ "quant": {
+  "mcap_usd": 7853886260.0,
+  "drawdown": -0.3875,
+  "pctile_ev_ebitda_60m": 0.0,
+  "price_ltm_pct": -0.1042,
+  "ebitda_margin_ltm": 0.1313,
+  "ebitda_margin_fwd_consensus": 0.137,
+  "industry_median_margin": 0.256,
+  "ev_ebitda_fy": 4.64,
+  "net_debt_ltm_ebitda": 1.5,
+  "ebitda_revision_12m": -0.1246,
+  "ebitda_brokers": 15
+ },
+ "catalyst": {
+  "type": [
+   "strategy_update"
+  ],
+  "events": [
+   {
+    "what": "CEO contract extended to 2028-12-31 (no CEO change); Hornbuckle CEO since 2020-07-29",
+    "who": "William Hornbuckle",
+    "from": null,
+    "effective": "2025-05-08",
+    "source": "8-K 0000789570-25-000023; 8-K 0001193125-20-206660",
+    "external_hire": false
+   },
+   {
+    "what": "COO Corey Sanders moved to Senior Advisor after his COO term ended 2025-12-31; Ayesha Molino is COO on the Q1 and Q2 2026 calls (her appointment not found as an Item 5.02 filing; background not verified)",
+    "who": "Ayesha Molino (successor); Corey Sanders (outgoing)",
+    "from": null,
+    "effective": "2025-12-31",
+    "source": "8-K 0000789570-25-000035; document_id 140410 (call roster)",
+    "external_hire": null
+   },
+   {
+    "what": "New employment agreements (renewals, not new hires): CFO Jonathan Halkyard and CCO/President MGM Digital Gary Fritz effective 2025-10-01; Chief Legal and Administrative Officer John McManus effective 2026-01-01",
+    "who": "Jonathan Halkyard; Gary Fritz; John McManus",
+    "from": "incumbents",
+    "effective": "2025-10-01",
+    "source": "8-K 0000789570-25-000041; 8-K 0000789570-26-000010",
+    "external_hire": false
+   },
+   {
+    "what": "Board: Donna Langley appointed 2025-03-12 (just before the 18-month window); Keith Barr 2024-08-21",
+    "who": "Donna Langley; Keith Barr",
+    "from": null,
+    "effective": "2025-03-12",
+    "source": "8-K 0000789570-25-000011; 8-K 0000789570-24-000024",
+    "external_hire": null
+   }
+  ],
+  "months_since_primary": 9.0,
+  "ceo_months_in_seat": 74.0,
+  "next_event": {
+   "type": "none known",
+   "date": null,
+   "source": "No Investor Day or framework update found in the Baba corpus (lexical 'investor day' FY2026 search: no hits). Next scheduled event is the Q3 2026 earnings call (date not found)."
+  }
+ },
+ "margin_framing": {
+  "numeric": true,
+  "metric": "adjusted EBITDA margin",
+  "metric_basis_note": "VA EBITDA is after roughly $25B of lease liabilities' rent (triple-net leases to VICI and others), so MGM's 13% margin versus a 25.6% industry median is largely a lease-accounting artifact, not an operating gap. The only dated numeric figure is a $200M run-rate EBITDA enhancement program (announced 2024, more than $150M 'taking effect this calendar year' 2025, 35% revenue and 65% cost); that horizon has passed and no 2026 or later figure was found. MGM Digital 'capable of $1B run-rate top line with double-digit EBITDA margins' has no year.",
+  "current_level_pct": 13.1,
+  "target_level_pct": null,
+  "target_year": null,
+  "has_year": false,
+  "annual_bps": null,
+  "synergy_usd": 200000000,
+  "synergy_year": 2025,
+  "statements": [
+   {
+    "quote": "Recall, we estimate the collective impact of enhancements that we announced last year will boost EBITDA by a run rate of $200 million, and we're now pacing to capture more than $150 million taking effect this calendar year, 35% of which comes from revenue actions and 65% from cost savings.",
+    "speaker": "Jonathan Halkyard",
+    "role": "CFO and Treasurer",
+    "doc_title": "MGM Resorts International Q1 2025 Earnings Call",
+    "date": "2025-04-30",
+    "document_id": 41109
+   },
+   {
+    "quote": "To say nothing of the value of MGM Digital, the business we know is capable of a billion dollars in run rate top line with double-digit EBITDA margins.",
+    "speaker": "Jonathan Halkyard",
+    "role": "CFO and Treasurer",
+    "doc_title": "MGM Resorts International Q1 2025 Earnings Call",
+    "date": "2025-04-30",
+    "document_id": 41109
+   }
+  ],
+  "first_stated": null,
+  "times_repeated": 3
+ },
+ "street": {
+  "consensus_ebitda_margin_by_fy": {
+   "FY2026": 13.12,
+   "FY2027": 13.8,
+   "FY2028": 14.44
+  },
+  "consensus_margin_at_target_year_pct": null,
+  "gap_bps_vs_target": null,
+  "gap_assumption": "December year end, Baba labels equal calendar years. No live company-level margin target, so no gap. D scored on the no-level rule: 4-month EBITDA revision -2.98%, 2 bps inside the -3% stabilization line; 12-month revision -12.5%. Consensus already has margin rising about 130 bps FY2026 to FY2028.",
+  "ebitda_uplift_pct_if_target_hit": null,
+  "source": "Baba data_financials consensus (fundamentals, Visible Alpha); data_comps revisions asof 2026-10-01"
+ },
+ "evidence_of_progress": {
+  "last_two_quarters_margin_yoy_bps": [
+   -187,
+   -99
+  ],
+  "note": "Order is [Q1 2026, Q2 2026], VA EBITDA margin (after rent). Q1 hit by $37M Las Vegas and $9M regional headwinds (Halkyard, doc 140410 snippet) and the new MGM China brand fee; CEO says Las Vegas is 'stabilizing and growing' in Q2 (doc 110782 snippet). MGM Digital still loss-making (segment adjusted EBITDA -$26M Q1, -$31M Q2)."
+ },
+ "score": {
+  "A_underperformance": 2,
+  "B_catalyst": 1,
+  "C_numeric_framing": 2,
+  "D_unproven": 2,
+  "total": 7
+ },
+ "disqualified": false,
+ "disqualifier_reason": null,
+ "verdict": "Cheap and down 39%, but no GXO catalyst: CEO extended to 2028, CFO renewed, only an internal COO handover, and the below-peer margin is mostly lease structure.",
+ "open_questions": [
+  "Is there any new cost or margin program for 2026 to 2027 now that the $200M enhancement program has run its course?",
+  "When does MGM Digital reach the stated double-digit EBITDA margin, and will management date it?",
+  "Does estimate erosion (-12.5% in 12 months, -3.0% in 4 months) stop with Las Vegas stabilizing, or is the 4-month figure about to cross -3%?"
+ ],
+ "sources": [
+  {
+   "document_id": 41109,
+   "title": "MGM Resorts International Q1 2025 Earnings Call",
+   "date": "2025-04-30"
+  },
+  {
+   "document_id": 41108,
+   "title": "MGM Resorts International Q2 2025 Earnings Call (search snippet only)",
+   "date": null
+  },
+  {
+   "document_id": 41107,
+   "title": "MGM Resorts International Q3 2025 Earnings Call (search snippet only)",
+   "date": null
+  },
+  {
+   "document_id": 140410,
+   "title": "MGM Resorts International Q1 2026 Earnings Call (search snippets only)",
+   "date": null
+  },
+  {
+   "document_id": 110782,
+   "title": "MGM Resorts International Q2 2026 Earnings Call (search snippets only)",
+   "date": null
+  },
+  {
+   "document_id": 0,
+   "title": "Baba data_comps, data_profile, data_financials fundamentals (Visible Alpha)",
+   "date": "2026-10-01"
+  },
+  {
+   "document_id": 0,
+   "title": "SEC 8-K Item 5.02: 0000789570-26-000010, 0000789570-25-000041, 0000789570-25-000035, 0000789570-25-000023, 0000789570-25-000011, 0000789570-24-000024, 0001193125-20-206660. Item 2.01/1.01 query returned none",
+   "date": "2020-07-31 to 2026-01-16"
+  }
+ ],
+ "tool_calls": 15
+}

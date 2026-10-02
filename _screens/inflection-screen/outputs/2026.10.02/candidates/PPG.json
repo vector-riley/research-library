@@ -1,0 +1,165 @@
+{
+  "ticker": "PPG",
+  "cid": 1001023,
+  "name": "PPG INDUSTRIES, INC.",
+  "industry": "Paint & Coating",
+  "as_of": "2026-10-02",
+  "business": "PPG makes architectural, performance and industrial paints and coatings sold to retailers, contractors, automotive, aerospace, packaging and manufacturing customers worldwide.",
+  "quant": {
+    "mcap_usd": 23437180300.0,
+    "drawdown": -0.2640763446516504,
+    "pctile_ev_ebitda_60m": 0.0,
+    "price_ltm_pct": 0.018555069108844746,
+    "ebitda_margin_ltm": 0.1739,
+    "ebitda_margin_fwd_consensus": 0.17631129126975895,
+    "industry_median_margin": 0.19,
+    "ev_ebitda_fy": 9.395522974071861,
+    "net_debt_ltm_ebitda": 1.8546525343508458,
+    "ebitda_revision_12m": -0.03995531752024106,
+    "ebitda_brokers": 16.0
+  },
+  "catalyst": {
+    "type": [
+      "new_cfo",
+      "board_refresh"
+    ],
+    "events": [
+      {
+        "what": "SVP and CFO, succeeding retiring Vincent Morales (retirement announced 2025-12-01, 8-K 0000079879-25-000342); missed by the Stage 2 sweep",
+        "who": "Jamie A. Beggs",
+        "from": "Avient Corporation (SVP and CFO); International Paper board",
+        "effective": "2026-07-06",
+        "source": "8-K 0000079879-26-000164",
+        "external_hire": true
+      },
+      {
+        "what": "New independent director",
+        "who": "Todd M. Schneider",
+        "from": "Cintas Corporation (President and CEO)",
+        "effective": "2026-01-14",
+        "source": "8-K 0000079879-25-000345",
+        "external_hire": true
+      },
+      {
+        "what": "New independent director (Audit Committee)",
+        "who": "Leon J. Topalian",
+        "from": "Nucor Corporation (Chair, President and CEO)",
+        "effective": "2025-07-16",
+        "source": "8-K 0000079879-25-000125",
+        "external_hire": true
+      },
+      {
+        "what": "New General Counsel (internal), Anne Foulkes retiring 2026-08-31",
+        "who": "Joseph R. Gette",
+        "from": "PPG Deputy General Counsel",
+        "effective": "2026-01-01",
+        "source": "8-K 0000079879-25-000240",
+        "external_hire": false
+      }
+    ],
+    "months_since_primary": 3,
+    "ceo_months_in_seat": null,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "No investor day or framework update found in Baba (company_overview shows only transcripts, filings and 3 expert calls; no Investor Day documents). Next routine event is Q3 2026 results, Beggs's second call as CFO; date not in Baba. CEO Tim Knavish is not new (already President and CEO on the Q2 2023 call, doc 81571), so ceo_months_in_seat is left null rather than guessed; it is well over 18 months."
+    }
+  },
+  "margin_framing": {
+    "numeric": false,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "No dated margin target found. The stated algorithm is 2% to 4% organic growth, 8% to 10% EPS growth a year and $1 billion adjusted free cash flow (Knavish, Q2 2025 call), with no margin number. Only numeric margin guide is one quarter: Q3 2026 company adjusted EBITDA margin flat to down 100 bps YoY (Beggs). The caller's 2027 investor-day margin target could not be found or verified in Baba.",
+    "current_level_pct": 17.4,
+    "target_level_pct": null,
+    "target_year": null,
+    "has_year": false,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "We expect third quarter organic sales growth at a range of a low single digit to a mid-single digit percentage, and company-adjusted EBITDA margin, which includes corporate expenses, to be in the range of a flat to a decline of 100 basis points year-over-year.",
+        "speaker": "Jamie Beggs",
+        "role": "SVP and CFO (first call)",
+        "doc_title": "PPG INDUSTRIES, INC. Q2 2026 Earnings Call",
+        "date": "2026-07-29",
+        "document_id": 110798
+      },
+      {
+        "quote": "The outcoming of that is we are committed to what I laid out two years ago, which was ongoing. A 2-4% organic growth company that delivers an 8-10% EPS growth every year and a billion dollars of adjusted free cash flow. That's kind of our growth algorithm.",
+        "speaker": "Tim Knavish",
+        "role": "Chairman and CEO",
+        "doc_title": "PPG INDUSTRIES, INC. Q2 2025 Earnings Call",
+        "date": "2025-07-30",
+        "document_id": 44170
+      },
+      {
+        "quote": "we expect margin contraction for the segment during the first half of 2026, with margin growth during the second half of the year.",
+        "speaker": "Tim Knavish",
+        "role": "Chairman and CEO",
+        "doc_title": "PPG INDUSTRIES, INC. Q4 2025 Earnings Call",
+        "date": "2026-01-28",
+        "document_id": 156606
+      }
+    ],
+    "first_stated": null,
+    "times_repeated": 0
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 0.1714,
+      "FY2027": 0.1763,
+      "FY2028": 0.1819
+    },
+    "consensus_margin_at_target_year_pct": null,
+    "gap_bps_vs_target": null,
+    "gap_assumption": "No stated level, so no gap. VA labels equal calendar years (fyem 12). Consensus already models about +50 bps a year of EBITDA margin expansion (17.14% to 17.63% to 18.19%). LTM margin is Q2 2025 to Q1 2026 VA quarters (Q2 2026 actuals not yet loaded). D scored on the 4-month revision: ebitda_turn_pct -0.2% (FY2027 EBITDA 3,064.0M on 2026-06-30 to 3,057.8M on 2026-10-01).",
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials consensus; data_comps"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      15,
+      null
+    ],
+    "note": "Q1 2026 VA EBITDA margin 17.33% vs 17.18% (+15 bps, data_compute). Q2 2026 actuals not in VA; management reported segment EBITDA margin down 300 bps in Performance Coatings (Refinish), up 100 bps in Architectural to 19.4%, down 70 bps in Industrial to 15.9% (doc 110798), and guides Q3 company adjusted EBITDA margin flat to down 100 bps. Raw materials are petroleum-derived and pricing covered about 90% of COGS inflation in Q2, so margin has some input-cost sensitivity but not commodity-price driven."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 2,
+    "C_numeric_framing": 1,
+    "D_unproven": 2,
+    "total": 7
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Cheap and de-rated with a new external CFO, but the CEO is long-tenured, no dated margin target is on record, and consensus already builds about 50 bps a year of expansion.",
+  "open_questions": [
+    "Where is the 2027 investor-day margin target the Stage 2 note cites? Not in Baba; ingest the deck if it exists, since it would move C and D.",
+    "Will Beggs (ex Avient) bring a cost or margin program with numbers at Q3 or Q4 2026 results?",
+    "Is the Refinish margin drop (Performance segment down 300 bps in Q2 2026) cyclical destocking or structural share loss?"
+  ],
+  "sources": [
+    {
+      "document_id": 110798,
+      "title": "PPG INDUSTRIES, INC. Q2 2026 Earnings Call",
+      "date": "2026-07-29"
+    },
+    {
+      "document_id": 156606,
+      "title": "PPG INDUSTRIES, INC. Q4 2025 Earnings Call",
+      "date": "2026-01-28"
+    },
+    {
+      "document_id": 44170,
+      "title": "PPG INDUSTRIES, INC. Q2 2025 Earnings Call",
+      "date": "2025-07-30"
+    },
+    {
+      "document_id": 81571,
+      "title": "PPG INDUSTRIES, INC. Q2 2023 Earnings Call",
+      "date": null
+    }
+  ],
+  "tool_calls": 15
+}
