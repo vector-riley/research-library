@@ -1,0 +1,173 @@
+{
+  "ticker": "HLIT",
+  "cid": 1000679,
+  "name": "HARMONIC INC",
+  "industry": "Communication Equipment",
+  "as_of": "2026-10-02",
+  "quant": {
+    "mcap_usd": 1175791040.0,
+    "drawdown": -0.3828170660432495,
+    "pctile_ev_ebitda_60m": 0.016666666666666666,
+    "price_ltm_pct": 0.037328094302554016,
+    "ebitda_margin_ltm": 0.13120665742024964,
+    "ebitda_margin_fwd_consensus": 0.23283292596878843,
+    "industry_median_margin": 0.253,
+    "ev_ebitda_fy": 7.884987728702288,
+    "net_debt_ltm_ebitda": -1.2656287056818651,
+    "ebitda_revision_12m": -0.06412606808921018,
+    "ebitda_brokers": 5.0
+  },
+  "catalyst": {
+    "type": [
+      "strategy_update"
+    ],
+    "events": [
+      {
+        "what": "Completed sale of the Video business (asset purchase agreement dated 2026-03-20); Harmonic is now a pure-play Broadband company with one segment. CFO cited proceeds of $137.9M paid at closing and named the buyer as MediaKind (the 8-K counterparty is Leone Media Inc.)",
+        "who": "Leone Media Inc. (MediaKind)",
+        "from": null,
+        "effective": "2026-06-16",
+        "source": "8-K 0001193125-26-273457 (Item 2.01); Q2 2026 Earnings Call (doc 133578)",
+        "external_hire": null
+      },
+      {
+        "what": "SVP and GM Video Business resigned (retiring) at the sale close",
+        "who": "Neven Haltmayer",
+        "from": "Harmonic",
+        "effective": "2026-06-16",
+        "source": "8-K 0001193125-26-273457 (Item 5.02)",
+        "external_hire": null
+      },
+      {
+        "what": "Director resigned (conflict with a new role elsewhere)",
+        "who": "Dan Whalen",
+        "from": "Harmonic board",
+        "effective": "2026-03-31",
+        "source": "8-K 0001193125-26-140309",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 3
+  },
+  "margin_framing": {
+    "numeric": false,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "The only numeric margin target (28% Broadband adjusted EBITDA margin on $800M revenue for 2026) dates from the June 2024 Analyst Day and has not been repeated in the 2026 calls reviewed; it will be missed (2026 Broadband revenue guide $505M to $525M). From Q4 2025 the company guides adjusted operating profit, not EBITDA: the FY2026 guide of $99M to $111M OP on $505M to $525M revenue implies a 20.4% operating margin at the midpoint. Current multi-year framing is qualitative.",
+    "current_level_pct": 13.1,
+    "target_level_pct": null,
+    "target_year": null,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "Fourth, we are driving operating leverage as we simplify our cost structure and become a pure-play broadband business. Together, these priorities are designed to expand our addressable market, diversify our revenue mix, and improve our long-term operating margin profile.",
+        "speaker": "Nimrod Ben-Natan",
+        "role": "President and CEO",
+        "doc_title": "HARMONIC INC Q1 2026 Earnings Call",
+        "date": "2026-05-11",
+        "document_id": 154480
+      },
+      {
+        "quote": "For the full year 2026, we expect broadband revenue between $505 million and $525 million ... Operating profit between $99 million and $111 million ... Additionally, full year broadband operating profit includes approximately $10 million in stranded costs. To reiterate what we said last quarter, we continue to believe approximately 30% of these stranded costs are temporary and will be eliminated within one year of the video sale closing.",
+        "speaker": "Walter Jankovic",
+        "role": "CFO",
+        "doc_title": "HARMONIC INC Q2 2026 Earnings Call",
+        "date": "2026-08-12",
+        "document_id": 133578
+      },
+      {
+        "quote": "Based on this anticipated revenue growth and margin expansion coupled with significant operating leverage on our OpEx, we expect to achieve $224 million in adjusted EBITDA or 28% adjusted EBITDA margin in broadband for 2026.",
+        "speaker": "Walter Jankovic",
+        "role": "CFO",
+        "doc_title": "Analyst Day 2024",
+        "date": "2024-06-13",
+        "document_id": 65219
+      }
+    ],
+    "first_stated": "2024-06-13",
+    "times_repeated": 0
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 21.74,
+      "FY2027": 23.64,
+      "FY2028": 19.73
+    },
+    "consensus_margin_at_target_year_pct": 21.74,
+    "gap_bps_vs_target": -626,
+    "gap_assumption": "The gap is measured against the stale June 2024 target (28% Broadband adjusted EBITDA margin for 2026), not a live one, so it does not count as an unproven gap and is not scored. FY2026 consensus EBITDA is 115.0M on 518.3M revenue. FY2028 consensus (thin coverage, quarterly values look extrapolated) has margin falling to 19.7%. The 12-month revision of -6.4% is not like for like: a year ago FY2027 had one broker at 142.5M, likely including Video; on the post-divestiture basis FY2027 EBITDA moved from 124.2M (2025-11-30) to 133.4M, +7.4%.",
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials consensus (fundamentals; consensus_history pid 4250 FY-2027)"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      357,
+      1102
+    ],
+    "note": "Mixed bases, so treat as directional. Q1 2026: VA EBITDA margin 22.3% (27.1M / 121.7M) vs Q1 2025 Broadband segment EBITDA margin 18.7% ($15.9M / $84.9M, doc 42747), +357 bps. Q2 2026: company operating margin 23.4% ($31.3M OP / $133.5M, doc 133578) vs Q2 2025 Broadband EBITDA margin 12.4% ($10.8M / $86.9M, doc 42746), +1,102 bps; because it compares OP with EBITDA, this is a lower bound. Revenue grew 54% year over year in Q2, so the improvement is volume leverage on a DOCSIS 4.0 and fiber upcycle, not self-help. Two customers were 63% of Q2 revenue. LTM field uses FY2025 continuing-ops ($47.3M / $360.5M, doc 154481) because VA quarterly 2025 EBITDA does not reconcile to the continuing-ops annual."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 1,
+    "C_numeric_framing": 1,
+    "D_unproven": 1,
+    "total": 5
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Cheap and down 38%, and the Video divestiture is a real portfolio reset, but leadership is unchanged, the only numeric margin target is a stale 2024 goal that will be missed, and the margin recovery is a cyclical volume rebound that the street is already raising estimates for, so this is not a GXO setup.",
+  "open_questions": [
+    "Will management issue a new pure-play Broadband long-term model (margin level and year) now that Video is gone, for example at Q3 results or an analyst day?",
+    "How much of the roughly $10M of stranded cost (about 30% stated as temporary) is removed in 2027, and does the street's FY2028 margin dip to 19.7% reflect a DOCSIS 4.0 cycle peak?",
+    "What is customer concentration (two customers at 63% of Q2 revenue) doing to margin risk as the large programs mature?"
+  ],
+  "sources": [
+    {
+      "document_id": 133578,
+      "title": "HARMONIC INC Q2 2026 Earnings Call",
+      "date": "2026-08-12"
+    },
+    {
+      "document_id": 154480,
+      "title": "HARMONIC INC Q1 2026 Earnings Call",
+      "date": "2026-05-11"
+    },
+    {
+      "document_id": 154481,
+      "title": "HARMONIC INC Q4 2025 Earnings Call",
+      "date": "2026-02-19"
+    },
+    {
+      "document_id": 42747,
+      "title": "HARMONIC INC Q1 2025 Earnings Call",
+      "date": "2025-04-28"
+    },
+    {
+      "document_id": 42746,
+      "title": "HARMONIC INC Q2 2025 Earnings Call",
+      "date": "2025"
+    },
+    {
+      "document_id": 65219,
+      "title": "Analyst Day 2024",
+      "date": "2024-06-13"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001193125-26-273457 (Video sale close to Leone Media; Haltmayer departure)",
+      "date": "2026-06-17"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001193125-26-140309 (director Whalen resigns)",
+      "date": "2026-04-02"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps and data_financials (Visible Alpha consensus)",
+      "date": "2026-10-01"
+    }
+  ],
+  "tool_calls": 21
+}
