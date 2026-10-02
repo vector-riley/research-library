@@ -1,0 +1,11 @@
+UPS | score 7/10 | Cheap and stabilized, but not a GXO setup: six-year CEO, insider CFO from 2024, a walked-back 12% target, and a margin already above peers.
+- "That activity, coupled with our Amazon activity, gives us confidence that we'll reach that 12% U.S. operating margin by the end of 2026." (Carol Tome, CEO, Q1 2025 Earnings Call, 2025-04-29, doc 41157). Not repeated in 2026; FY2026 U.S. Domestic guide now about 7.5% (Dykes, Q2 2026 call, 2026-07-28, doc 107426).
+- "We're back to driving revenue growth and margin expansion as we go into 2027 and 2028, and we'll move back towards double-digit margin over time." (Brian Dykes, CFO, Raymond James conference, 2026-03-04, doc 45308)
+- "At the end of the year, we'll give you a sense of what we think 2027 will look like" (Carol Tome, CEO, Q1 2026 Earnings Call, 2026-04-28, doc 140476)
+Catalyst check: own 8-K 5.02 sweep (8 filings since 2024-07) confirms no CEO or CFO change in window; Tome about 76 months in seat, Dykes CFO since 2024-07-09 (0001090727-24-000038, insider). In window: network reconfiguration and Efficiency Reimagined (about $3B benefits guided for 2026), Andlauer closed November 2025 (price unsourced, small), board adds/exits, internal segment-head swap 2026-09-01 plus retention RSUs (0001628280-26-059609). No "first earnings call" or "since joining" language in the 2026 corpus. B = 1.
+Gap math: consensus EBITDA margin 13.70% FY2026, 14.28% FY2027, 14.52% FY2028 (calendar FY, Baba label = company year) vs LTM 13.63%; street already models +82 bps FY2026 to FY2028; no dated live target, so gap is null; 4-month revision +1.0%, 12-month +1.9% (D = 2 under the no-level rule).
+Scoring note: C = 2 by judgment (literal reading of the dated 12% or the $3B 2026 savings gives 3, total 8). The screen's below-peer premise fails: forward EBITDA margin 14.3% vs industry median 9.8%.
+Open questions:
+1. What 2027 framework comes at the Q4 2026 call (about late January 2027, not dated), and does it restate a dated U.S. Domestic margin level?
+2. Do the August 2026 retention grants to Cesarone and Subramanian signal CEO succession planning (Tome born 1957)?
+3. Is the remaining opportunity U.S. Domestic margin repair (7.5% guided vs 12% prior target) rather than consolidated peer parity?

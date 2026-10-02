@@ -1,7 +1,7 @@
 # Inflection screen shortlist, 2026-10-02 run
 
-Funnel: 2,078 US names in Baba's grid -> 167 pass the stage 1 gates -> 125 pass the stabilization test -> 126 read
-by Opus subagents (the 125 plus GXO as the archetype; UPS pending) -> 12 core setups -> 4 worth Riley's time first.
+Funnel: 2,078 US names in Baba's grid -> 167 pass the stage 1 gates -> 125 pass the stabilization test -> 127 read
+by Opus subagents (the 125 plus GXO as the archetype and UPS) -> 12 core setups -> 4 worth Riley's time first.
 Full table: ranked.md. Per-name notes with verbatim quotes and Baba document ids: candidates/<TICKER>.md.
 
 Score components: A cheapness (0-2), B catalyst (0-3), C numeric margin framing with horizon (0-3), D unproven vs
@@ -48,7 +48,7 @@ AI (returning founder cutting costs at a shrinking business), HIMS (margins down
 
 ## What the full run taught
 
-- 12 of 126 names carry the GXO shape proper. The screen's value is the conjunction; 30 names scored 8 or more and
+- 12 of 127 names carry the GXO shape proper (UPS, read last, scored 7 and is not one: six-year CEO, walked-back 12% target, margin above peers). The screen's value is the conjunction; 30 names scored 8 or more and
   most are not the setup, which is why the table shows the components, not just the total.
 - The structured 8-K Item 5.02 feed missed roughly half the CFO changes and several CEO changes the subagents found
   by querying per ticker or per CIK (UAA is filed under "UA"; IBP returns nothing). Stage 2 must query by CIK and

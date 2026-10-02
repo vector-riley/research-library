@@ -1,0 +1,194 @@
+{
+  "ticker": "UPS",
+  "cid": 1000224,
+  "name": "United Parcel Service, Inc.",
+  "industry": "Delivery, Air Freight & Logistics",
+  "as_of": "2026-10-02",
+  "business": "UPS sells time-definite package delivery, air and ocean freight forwarding, contract and healthcare logistics, and customs brokerage to businesses and consumers worldwide.",
+  "quant": {
+    "mcap_usd": 79913155000.0,
+    "drawdown": -0.33762036408638174,
+    "pctile_ev_ebitda_60m": 0.016666666666666666,
+    "price_ltm_pct": 0.19211854435804265,
+    "ebitda_margin_ltm": 0.1363,
+    "ebitda_margin_fwd_consensus": 0.14284851628893394,
+    "industry_median_margin": 0.098,
+    "ev_ebitda_fy": 7.349712982139387,
+    "net_debt_ltm_ebitda": 1.586335369542712,
+    "ebitda_revision_12m": 0.01865375026921079,
+    "ebitda_brokers": 22.0
+  },
+  "catalyst": {
+    "type": [
+      "strategy_update",
+      "acquisition",
+      "board_refresh"
+    ],
+    "events": [
+      {
+        "what": "No CEO or CFO change in window. Own 8-K Item 5.02 sweep (ticker:UPS, 2024-07-01 to 2026-10-02, 8 filings) returns no CEO appointment; latest CFO appointment is Brian Dykes, effective 2024-07-09, outside the 18-month window",
+        "who": "Brian M. Dykes (CFO); Carol Tome (CEO since June 2020, per task context, not re-verified by 8-K)",
+        "from": "Dykes: 25+ year UPS insider, previously SVP Global Finance and Planning",
+        "effective": "2024-07-09",
+        "source": "8-K 0001090727-24-000038",
+        "external_hire": false
+      },
+      {
+        "what": "Network reconfiguration phase one detailed (164 operational closures incl. 73 buildings by end of June 2025) alongside Amazon glide-down (over 50% volume cut by June 2026) and Efficiency Reimagined ($1B savings program); glide-down and Efficiency Reimagined first announced 2025-01-30, before the window",
+        "who": "Management (Carol Tome)",
+        "from": "",
+        "effective": "2025-04-29",
+        "source": "doc 41157 (Q1 2025 Earnings Call); doc 107426 (Q2 2026 call: glide-down completed June 2026)",
+        "external_hire": null
+      },
+      {
+        "what": "Acquisition of Andlauer Healthcare Group (Canadian healthcare cold chain, 39 facilities) agreed April 2025, closed November 2025; price not sourced in Baba and no Item 1.01 or 2.01 8-K returned by sec-api; small relative to an $80B market cap",
+        "who": "Andlauer Healthcare Group",
+        "from": "",
+        "effective": "2025-11",
+        "source": "doc 41157 (Tome, Q1 2025 call, agreement); data_profile 10-K description (closed November 2025)",
+        "external_hire": null
+      },
+      {
+        "what": "Board: John Morikis (ex Sherwin-Williams CEO) added",
+        "who": "John Morikis",
+        "from": "Sherwin-Williams",
+        "effective": "2025-06-02",
+        "source": "8-K 0001090727-25-000054",
+        "external_hire": true
+      },
+      {
+        "what": "Board departures: Kevin Warsh (Fed Chair) and Eva Boratto (to Cencora CFO)",
+        "who": "Kevin M. Warsh; Eva Boratto",
+        "from": "",
+        "effective": "2026-05-13",
+        "source": "8-K 0001628280-26-034597; 8-K 0001628280-26-043196 (Boratto 2026-06-13)",
+        "external_hire": null
+      },
+      {
+        "what": "Segment leadership: Kate Gutmann (EVP, President International, Healthcare and SCS) retires; internal Wilfredo Ramos named EVP and Chief International, Healthcare and SCS Officer; retention RSUs of $6.0M to Nando Cesarone and $3.0M to Bala Subramanian vesting 2027 to 2029",
+        "who": "Wilfredo Ramos; Kate Gutmann",
+        "from": "Ramos: 20+ years at UPS, President Asia Pacific Region",
+        "effective": "2026-09-01",
+        "source": "8-K 0001628280-26-059609",
+        "external_hire": false
+      }
+    ],
+    "months_since_primary": 11,
+    "ceo_months_in_seat": 76,
+    "next_event": {
+      "type": "framework update",
+      "date": null,
+      "source": "doc 140476, Tome 2026-04-28: 'At the end of the year, we'll give you a sense of what we think 2027 will look like'; doc 140477, Tome 2026-01-27: 'once we get through this year, we'll come back out and give our view on that' (asked about replacing the 2024 Investor Day 2026 targets). Implies the Q4 2026 call (about late January 2027, date not announced). No Investor Day announced; Morgan Stanley analyst only speculated about one 'early next year'."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "operating margin",
+    "metric_basis_note": "All management framing is GAAP-style adjusted operating margin, mostly at the U.S. Domestic segment level, not consolidated EBITDA. The only dated level in window is Tome's '12% U.S. operating margin by the end of 2026' (2025-04-29), a carryover of the March 2024 Investor Day target; it was not repeated in any 2026 transcript searched and is now effectively abandoned: FY2026 U.S. Domestic guide is about 7.5% and the H2 2026 guide about 8.8% (Dykes, 2026-07-28). Live forward framing is Dykes's 'move back towards double-digit margin over time' (U.S. Domestic, no year) plus a 50-100 bps revenue-per-piece over cost-per-piece spread (unit economics, not a margin rate). One-year 2026 guides: consolidated operating margin about 9.6% (Jan 2026), later restated as about $8.65B operating profit on about $91.2B revenue (9.48%), and about $3B of reconfiguration and Efficiency Reimagined benefits in 2026. SCORING NOTE: C scored 2, not 3. A literal reading gives 3 for the CEO's dated 12% level or the CFO's $3B 2026 savings, but the 12% has been walked back and the $3B is an in-year cost-out already inside 2026 guidance and offsetting lost Amazon revenue. Literal scoring would make the total 8.",
+    "current_level_pct": 7.7,
+    "target_level_pct": 12.0,
+    "target_year": 2026,
+    "has_year": true,
+    "annual_bps": null,
+    "synergy_usd": 3000000000,
+    "synergy_year": 2026,
+    "statements": [
+      {
+        "quote": "That activity, coupled with our Amazon activity, gives us confidence that we'll reach that 12% U.S. operating margin by the end of 2026.",
+        "speaker": "Carol Tome",
+        "role": "CEO",
+        "doc_title": "United Parcel Service, Inc. Q1 2025 Earnings Call",
+        "date": "2025-04-29",
+        "document_id": 41157
+      },
+      {
+        "quote": "We're back to driving revenue growth and margin expansion as we go into 2027 and 2028, and we'll move back towards double-digit margin over time.",
+        "speaker": "Brian Dykes",
+        "role": "EVP and CFO",
+        "doc_title": "47th Annual Raymond James Institutional Investor Conference",
+        "date": "2026-03-04",
+        "document_id": 45308
+      },
+      {
+        "quote": "And our cost per piece will, will normalize as we rightsize the driver staffing, realize the benefits of automation, and we'll be exiting at a, at a healthy double-digit margin that will take us into 2027.",
+        "speaker": "Brian Dykes",
+        "role": "EVP and CFO",
+        "doc_title": "United Parcel Service, Inc. Q4 2025 Earnings Call",
+        "date": "2026-01-27",
+        "document_id": 140477
+      },
+      {
+        "quote": "We are seeing significant value from these efforts, as well as from our broader network reconfiguration and Efficiency Reimagined initiatives. As a result, we still expect to deliver approximately $3 billion in related benefits in 2026.",
+        "speaker": "Brian Dykes",
+        "role": "CFO",
+        "doc_title": "United Parcel Service, Inc. Q2 2026 Earnings Call",
+        "date": "2026-07-28",
+        "document_id": 107426
+      },
+      {
+        "quote": "Starting with U.S. Domestic, we expect full year 2026 revenue of approximately $60 billion, up 1% year-over-year, and an operating margin of approximately 7.5%.",
+        "speaker": "Brian Dykes",
+        "role": "CFO",
+        "doc_title": "United Parcel Service, Inc. Q2 2026 Earnings Call",
+        "date": "2026-07-28",
+        "document_id": 107426
+      },
+      {
+        "quote": "At the end of the year, we'll give you a sense of what we think 2027 will look like, but it's gonna be much better than 2026 based on what we're seeing and the underlying health of the business.",
+        "speaker": "Carol Tome",
+        "role": "CEO",
+        "doc_title": "United Parcel Service, Inc. Q1 2026 Earnings Call",
+        "date": "2026-04-28",
+        "document_id": 140476
+      }
+    ],
+    "first_stated": "2025-04-29",
+    "times_repeated": 2
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 0.137,
+      "FY2027": 0.1428,
+      "FY2028": 0.1452
+    },
+    "consensus_margin_at_target_year_pct": 13.7,
+    "gap_bps_vs_target": null,
+    "gap_assumption": "No gap computed: the only dated target is a U.S. Domestic segment operating margin (12% by end-2026, now walked back) and cannot be compared with consolidated EBITDA consensus; the live 'double-digit over time' framing has no year. Calendar fiscal year, so Baba FY labels equal company years. Consensus already models 82 bps of consolidated EBITDA margin expansion FY2026 to FY2028 (13.70% to 14.52%). 4-month forward EBITDA revision +1.0% (stabilized), 12-month +1.9%.",
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials consensus (summary), data_comps"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      -11,
+      -153
+    ],
+    "note": "VA EBITDA margin yoy for Q4 2025 (-11 bps) and Q1 2026 (-153 bps). VA has not loaded Q2 2026 actuals; LTM uses Q2 2025 to Q1 2026 (13.63%). Per the Q2 2026 call (doc 107426, 2026-07-28) consolidated operating margin was 9.2%, up 40 bps yoy and 300 bps sequentially, U.S. Domestic 8.0%, up 100 bps, and FY2026 operating profit guidance was raised to about $8.65B. Amazon glide-down completed June 2026."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 1,
+    "C_numeric_framing": 2,
+    "D_unproven": 2,
+    "total": 7
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Cheap and stabilized, but not a GXO setup: six-year CEO, insider CFO from 2024, a walked-back 12% target, and a margin already above peers.",
+  "open_questions": [
+    "What 2027 margin framework does Tome give at the Q4 2026 call, and does it restate a dated U.S. Domestic level after the 12% by end-2026 target was missed?",
+    "Do the August 2026 retention grants to Cesarone and Subramanian signal CEO succession planning for Tome (born 1957), which would create a real catalyst?",
+    "The screen's below-peer-margin premise fails here (forward EBITDA margin 14.3% vs industry median 9.8%); is the residual opportunity U.S. Domestic margin repair rather than consolidated peer parity?"
+  ],
+  "sources": [
+    {"document_id": 41157, "title": "United Parcel Service, Inc. Q1 2025 Earnings Call", "date": "2025-04-29"},
+    {"document_id": 140477, "title": "United Parcel Service, Inc. Q4 2025 Earnings Call", "date": "2026-01-27"},
+    {"document_id": 45308, "title": "47th Annual Raymond James Institutional Investor Conference", "date": "2026-03-04"},
+    {"document_id": 140476, "title": "United Parcel Service, Inc. Q1 2026 Earnings Call", "date": "2026-04-28"},
+    {"document_id": 107426, "title": "United Parcel Service, Inc. Q2 2026 Earnings Call", "date": "2026-07-28"},
+    {"document_id": 0, "title": "8-K 0001628280-26-059609 (Gutmann retirement, Ramos appointment, retention RSUs)", "date": "2026-08-31"},
+    {"document_id": 0, "title": "8-K 0001090727-24-000038 (Dykes CFO appointment)", "date": "2024-07-09"},
+    {"document_id": 0, "title": "8-K 0001090727-25-000054 (Morikis board appointment)", "date": "2025-06-02"}
+  ],
+  "tool_calls": 36
+}
