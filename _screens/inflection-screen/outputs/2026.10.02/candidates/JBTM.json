@@ -1,0 +1,154 @@
+{
+  "ticker": "JBTM",
+  "cid": 1003520,
+  "name": "JBT Marel Corporation",
+  "industry": "Industrial Machinery and Equipment",
+  "as_of": "2026-10-02",
+  "quant": {
+    "mcap_usd": 5578092000.0,
+    "drawdown": -0.3721,
+    "pctile_ev_ebitda_60m": 0.0,
+    "price_ltm_pct": -0.246,
+    "ebitda_margin_ltm": 0.1809,
+    "industry_median_margin": 0.218,
+    "ev_ebitda_fy": 9.37,
+    "net_debt_ltm_ebitda": 2.38,
+    "ebitda_revision_12m": 0.0766,
+    "ebitda_brokers": 4
+  },
+  "catalyst": {
+    "type": [
+      "acquisition",
+      "strategy_update",
+      "board_refresh"
+    ],
+    "events": [
+      {
+        "what": "Completed JBT and Marel combination; board expanded 7 to 10 (Gronfeldt, Gudmundsson, Masson, Savage), C. Maury Devine resigned. Outside the 18 month window (21 months old)",
+        "who": "Arni Sigurdsson (Marel CEO) appointed President; Brian Deck remains CEO",
+        "from": "Marel",
+        "effective": "2025-01-02",
+        "source": "8-K 0001193125-25-002636",
+        "external_hire": null
+      },
+      {
+        "what": "Investor Day 2026: next-gen strategy, 2028 targets (5% to 7% organic revenue CAGR, 20% adjusted EBITDA margin in 2028, 55% to 60% FCF conversion, $150M run-rate cost synergies by end of 2027)",
+        "who": "Brian Deck, Matthew Meister, Arni Sigurdsson",
+        "from": "",
+        "effective": "2026-03-26",
+        "source": "Baba document_id 50200",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 21.0
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "current_level_pct": 15.81,
+    "target_level_pct": 20.0,
+    "target_year": 2028,
+    "annual_bps": null,
+    "synergy_usd": 150000000,
+    "synergy_year": 2027,
+    "statements": [
+      {
+        "quote": "The compound annual organic growth rate of 5%-7%, Adjusted EBITDA margin in 2028 of 20%.",
+        "speaker": "Matthew Meister",
+        "role": "EVP and CFO",
+        "doc_title": "Investor Day 2026",
+        "date": "2026-03-26",
+        "document_id": 50200
+      },
+      {
+        "quote": "Based on that success and the actions that we've taken, we're very confident in our ability to remain on track to deliver that run-rate of $150 million in savings by the end of 2027. It's a key contributor to our expectation of delivering over 400 basis points improvement in margins by 2028.",
+        "speaker": "Matthew Meister",
+        "role": "EVP and CFO",
+        "doc_title": "Investor Day 2026",
+        "date": "2026-03-26",
+        "document_id": 50200
+      },
+      {
+        "quote": "This pool of opportunities enhances confidence in our ability to deliver our profitable growth objectives and our target of 20% adjusted EBITDA margins in 2028.",
+        "speaker": "Brian Deck",
+        "role": "CEO",
+        "doc_title": "JBT Marel Corporation Q2 2026 Earnings Call",
+        "date": "2026-08-04",
+        "document_id": 128959
+      }
+    ],
+    "first_stated": "2026-03-26",
+    "times_repeated": 3
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 17.11,
+      "FY2027": 18.09,
+      "FY2028": 17.01
+    },
+    "consensus_margin_at_target_year_pct": 17.01,
+    "gap_bps_vs_target": 299.3,
+    "ebitda_uplift_pct_if_target_hit": 17.6,
+    "source": "Baba data_financials consensus (Visible Alpha), margins in percent, 4 EBITDA brokers. FY2028 consensus EBITDA ($736M) sits below FY2027 ($764M), likely a thin broker set; using FY2027 consensus 18.09% the gap to 20% is still 191 bps. current_level_pct 15.81 = FY2025 VA actual EBITDA $600.4M on $3,798.2M revenue (data_compute); Investor Day framed over 400 bps improvement by 2028."
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      210,
+      40
+    ],
+    "note": "Company-reported adjusted EBITDA margin: Q1 2026 15.2%, +210 bps yoy (doc 176563, CFO snippet); Q2 2026 17.1% vs 16.7%, +40 bps (8-K 0001628280-26-051894 EX-99.1), and Q2 included $17M of IEEPA tariff refunds partly offset by $4M prior-year tariff expense and $5M accelerated LTI. Prepared Food and Beverage segment margin missed on footprint moves. Full year 2026 guide 17.0% to 17.5% (+145 bps at midpoint) maintained; synergies $43M realized in 2025 with $85M exit run-rate."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 1,
+    "C_numeric_framing": 3,
+    "D_unproven": 2,
+    "total": 8
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Best numeric framing of the three (20% adjusted EBITDA margin in 2028 plus $150M synergy run-rate by end 2027, repeated by CFO, President and CEO) against consensus about 300 bps short and the stock at the bottom of its EV/EBITDA range, but the Marel close (2025-01-02) is 3 months outside the catalyst window, leadership is unchanged, and at about 17% margin it is not a low-margin business, so it scores on framing rather than as a fresh GXO-style reset; borderline on the stale-catalyst disqualifier.",
+  "open_questions": [
+    "Is the FY2028 consensus dip below FY2027 real or a 4-broker artifact, and where do the brokers who model 2028 sit versus 20%?",
+    "How much of the 2026 margin step is one-off (Q2 IEEPA tariff refunds) versus synergy and footprint savings, given Prepared Food and Beverage margins missed?",
+    "Without a leadership change, what would make the street underwrite 20% before 2028 results show it (synergy run-rate updates, PFB margin recovery)?"
+  ],
+  "sources": [
+    {
+      "document_id": 50200,
+      "title": "Investor Day 2026",
+      "date": "2026-03-26"
+    },
+    {
+      "document_id": 128959,
+      "title": "JBT Marel Corporation Q2 2026 Earnings Call",
+      "date": "2026-08-04"
+    },
+    {
+      "document_id": 176563,
+      "title": "JBT Marel Corporation Q1 2026 Earnings Call",
+      "date": "2026-05"
+    },
+    {
+      "document_id": 143165,
+      "title": "JBT MAREL Corp 8-K (0001628280-26-051894, Q2 2026 release)",
+      "date": "2026-08-03"
+    },
+    {
+      "document_id": 48579,
+      "title": "JBT Marel Corporation Q4 2024 Earnings Call",
+      "date": "2025"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001193125-25-002636 (Marel completion, board, President)",
+      "date": "2025-01-07"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps and data_financials summary cid 1003520",
+      "date": "2026-10-01"
+    }
+  ],
+  "tool_calls": 16
+}

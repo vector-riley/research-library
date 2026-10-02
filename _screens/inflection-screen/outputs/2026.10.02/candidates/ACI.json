@@ -1,0 +1,228 @@
+{
+  "ticker": "ACI",
+  "cid": 1004774,
+  "name": "Albertsons Companies Inc",
+  "industry": "Food Retailers",
+  "as_of": "2026-10-02",
+  "quant": {
+    "mcap_usd": 5938524000.0,
+    "drawdown": -0.4642,
+    "pctile_ev_ebitda_60m": 0.2333,
+    "price_ltm_pct": -0.3087,
+    "ebitda_margin_ltm": 0.0438,
+    "industry_median_margin": 0.054,
+    "ev_ebitda_fy": 4.13,
+    "net_debt_ltm_ebitda": 2.39,
+    "ebitda_revision_12m": -0.088,
+    "ebitda_brokers": 15
+  },
+  "catalyst": {
+    "type": [
+      "new_ceo",
+      "new_cfo",
+      "board_refresh",
+      "strategy_update"
+    ],
+    "events": [
+      {
+        "what": "CEO succession",
+        "who": "Susan Morris",
+        "from": "internal, EVP and Chief Operations Officer since 2018",
+        "effective": "2025-05-01",
+        "source": "8-K 0001646972-25-000028",
+        "external_hire": false
+      },
+      {
+        "what": "New Board Chair (James Donald retired); new independent director David Zinsner (Intel CFO)",
+        "who": "Kim Fennebresque (Chair), David Zinsner",
+        "from": "existing director / external",
+        "effective": "2025-09-15",
+        "source": "8-K 0001646972-25-000073",
+        "external_hire": null
+      },
+      {
+        "what": "President and CFO retirement announced; stays until successor named",
+        "who": "Sharon McCollam",
+        "from": "",
+        "effective": "2026-07-23",
+        "source": "8-K 0001646972-26-000040",
+        "external_hire": null
+      },
+      {
+        "what": "Executive Chair of the Board (board expanded 10 to 11); Fennebresque moves to Lead Independent Director",
+        "who": "Margaret Whitman",
+        "from": "external",
+        "effective": "2026-09-08",
+        "source": "8-K 0001646972-26-000054",
+        "external_hire": true
+      },
+      {
+        "what": "Interim CFO",
+        "who": "Cody Perdue",
+        "from": "internal, SVP Treasury, IR and Risk Management",
+        "effective": "2026-09-30",
+        "source": "8-K 0001646972-26-000057",
+        "external_hire": false
+      },
+      {
+        "what": "Three new directors, board expanded 11 to 14",
+        "who": "William P. Boltz (ex Lowe's), Chris Drumgoole (Aligned Data Centers), Meg Ham (ex Food Lion)",
+        "from": "external",
+        "effective": "2026-10-14",
+        "source": "8-K 0001646972-26-000057",
+        "external_hire": true
+      },
+      {
+        "what": "ACI Edge operating model: 11 divisions to 4 regions, centralized merchandising, about $200M incremental annual runway benefits mostly in fiscal 2026 to 2027, about $50M transition costs",
+        "who": "Susan Morris",
+        "from": "",
+        "effective": "2026-07-23",
+        "source": "Baba document_id 100597",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 17.0
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "current_level_pct": 4.69,
+    "target_level_pct": null,
+    "target_year": 2026,
+    "annual_bps": null,
+    "synergy_usd": 2000000000,
+    "synergy_year": 2028,
+    "statements": [
+      {
+        "quote": "Looking beyond 2025, as we capitalize on the investments we are making behind our strategic priorities, we continue to expect fiscal 2026 to coincide with our long-term growth algorithm of 2% plus identical sales and adjusted EBITDA growth higher than that.",
+        "speaker": "Sharon McCollam",
+        "role": "President and CFO",
+        "doc_title": "Albertsons Companies Inc Q1 2026 Earnings Call",
+        "date": "2025-07-15",
+        "document_id": 56059
+      },
+      {
+        "quote": "Leah, we just reset our productivity to $2 billion over the next three years. You can think of that ratably over that period of time.",
+        "speaker": "Sharon McCollam",
+        "role": "President and CFO",
+        "doc_title": "Albertsons Companies Inc Q4 2026 Earnings Call",
+        "date": "2026-04-14",
+        "document_id": 56053
+      },
+      {
+        "quote": "The goal is to use ACI Edge to accelerate the business such that we can get back into the algorithm. Obviously, we're going to be coming from a lower base, and as we look into 2027, like Susan said, we're going from 11 divisions to four regions, et cetera. I would say that we need to be looking for gradual and incremental improvement.",
+        "speaker": "Sharon McCollam",
+        "role": "President and CFO",
+        "doc_title": "Albertsons Companies Inc Q1 2027 Earnings Call",
+        "date": "2026-07-23",
+        "document_id": 100597
+      },
+      {
+        "quote": "Adjusted EBITDA is now expected to be in the range of $3.55 billion-$3.625 billion as we accelerate investments in our customer value proposition.",
+        "speaker": "Sharon McCollam",
+        "role": "President and CFO",
+        "doc_title": "Albertsons Companies Inc Q1 2027 Earnings Call",
+        "date": "2026-07-23",
+        "document_id": 100597
+      }
+    ],
+    "first_stated": "2025-04-15",
+    "times_repeated": 4
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 4.69,
+      "FY2027": 4.38,
+      "FY2028": 4.35
+    },
+    "consensus_margin_at_target_year_pct": 4.38,
+    "gap_bps_vs_target": null,
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials consensus (Visible Alpha), margins in percent; VA labels: FY2026 = company fiscal 2025 ending Feb 2026 (reported), FY2027 = company fiscal 2026 (the algorithm year). No margin level was ever stated, so gap_bps is null. Consensus fiscal 2026 EBITDA $3.588B sits 9.8% below the algorithm floor of fiscal 2025 EBITDA $3.9015B grown 2% (data_compute)."
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      -8.8,
+      -40.3
+    ],
+    "note": "Adjusted EBITDA margin from VA quarterly actuals: 4QFY-2026 (Q4 fiscal 2025, includes 53rd week) -8.8 bps yoy; 1QFY-2027 (Q1 fiscal 2026) -40.3 bps yoy, adj EBITDA $1.013B vs $1.111B. Fiscal 2026 EBITDA guide cut on 2026-07-23 to $3.55B to $3.625B, below fiscal 2025 actual $3.9015B, versus the algorithm of EBITDA growth above 2%+ ID sales. Wrong direction so far."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 2,
+    "C_numeric_framing": 2,
+    "D_unproven": 2,
+    "total": 8
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Mechanical 8/10 overstates the fit: leadership is turning over hard (internal CEO 2025-05, external Executive Chair Meg Whitman 2026-09, CFO search, 4 new directors) and the stock is cheap, but management never framed a margin level, its only numeric frame (2%+ IDs and faster EBITDA growth in fiscal 2026) was abandoned with a July 2026 guide cut, and the -8.8% EBITDA revision sits just inside the -10% line, so this reads as a story being reset rather than an unproven margin plan.",
+  "open_questions": [
+    "Does Whitman as Executive Chair plus the permanent CFO hire bring a new numeric margin or EBITDA framework (Investor Day), or a strategic alternatives process (Wells Fargo asked about it on the 2026-07-23 call)?",
+    "How much of the $2B three-year productivity program and the $200M ACI Edge runway drops to EBITDA versus being reinvested in price, given fiscal 2026 EBITDA is guided down?",
+    "Has the EBITDA revision crossed -10% after Q2 fiscal 2026 results in October, which would flip D to 0 (story broken, not unproven)?"
+  ],
+  "sources": [
+    {
+      "document_id": 56059,
+      "title": "Albertsons Companies Inc Q1 2026 Earnings Call",
+      "date": "2025-07-15"
+    },
+    {
+      "document_id": 56053,
+      "title": "Albertsons Companies Inc Q4 2026 Earnings Call",
+      "date": "2026-04-14"
+    },
+    {
+      "document_id": 100597,
+      "title": "Albertsons Companies Inc Q1 2027 Earnings Call",
+      "date": "2026-07-23"
+    },
+    {
+      "document_id": 136575,
+      "title": "Albertsons Companies, Inc. 8-K (0001646972-25-000040, Q4 fiscal 2024 release)",
+      "date": "2025-04-15"
+    },
+    {
+      "document_id": 171484,
+      "title": "Albertsons Companies Inc Q4 2025 Earnings Call",
+      "date": "2025-04-15"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001646972-25-000028 (CEO succession)",
+      "date": "2025-03-03"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001646972-25-000073 (Chair change, Zinsner)",
+      "date": "2025-09-17"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001646972-26-000040 (CFO retirement)",
+      "date": "2026-07-23"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001646972-26-000054 (Whitman Executive Chair)",
+      "date": "2026-09-09"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001646972-26-000057 (interim CFO, three directors)",
+      "date": "2026-09-30"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps cid 1004774 (market_data, revisions as of 2026-10-01)",
+      "date": "2026-10-01"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_financials summary consensus cid 1004774",
+      "date": "2026-10-01"
+    }
+  ],
+  "tool_calls": 19
+}

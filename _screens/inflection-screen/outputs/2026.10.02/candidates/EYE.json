@@ -1,0 +1,211 @@
+{
+  "ticker": "EYE",
+  "cid": 1003684,
+  "name": "National Vision Holdings Inc",
+  "industry": "Specialty Stores and Retailers",
+  "as_of": "2026-10-02",
+  "quant": {
+    "mcap_usd": 1321790800.0,
+    "drawdown": -0.444,
+    "pctile_ev_ebitda_60m": 0.0,
+    "price_ltm_pct": -0.4388,
+    "ebitda_margin_ltm": 0.1127,
+    "industry_median_margin": 0.119,
+    "ev_ebitda_fy": 6.25,
+    "net_debt_ltm_ebitda": 0.94,
+    "ebitda_revision_12m": 0.0826,
+    "ebitda_brokers": 11
+  },
+  "catalyst": {
+    "type": [
+      "new_ceo",
+      "new_cfo",
+      "strategy_update",
+      "board_refresh"
+    ],
+    "events": [
+      {
+        "what": "CEO succession announced (Fahs to Executive Chairman, term to 2027-12-31); Thomas V. Taylor Jr. leaves board",
+        "who": "Alex Wilkes",
+        "from": "President of National Vision since August 2024; previously President of the Americas at CooperVision, EssilorLuxottica (Pearle Vision GM)",
+        "effective": "2025-08-01",
+        "source": "8-K 0001104659-25-040476 (announced 2025-04-29); 8-K 0001710155-25-000036 (board seat 2025-08-01)",
+        "external_hire": false
+      },
+      {
+        "what": "New CFO after Melissa Rasmussen departure (announced 2025-01-16, 8-K 0001104659-25-004105); start date not found in 8-K search",
+        "who": "Chris Laden",
+        "from": "external",
+        "effective": null,
+        "source": "Baba document_id 219430 (Laden: 'When I came in, we had finished 2024 around 3.5% operating margin')",
+        "external_hire": true
+      },
+      {
+        "what": "Investor Day: long-term algorithm through 2030 (high single digit revenue growth, mid single digit comps, 50 to 150 bps annual operating margin expansion)",
+        "who": "Alex Wilkes, Chris Laden",
+        "from": "",
+        "effective": "2025-11-17",
+        "source": "Baba document_id 57364 (Q3 2025 call announcing the November 17th investor day); document_id 56266",
+        "external_hire": null
+      },
+      {
+        "what": "Two new independent directors (just before the 18 month window)",
+        "who": "James M. McGrann, Michael J. Nicholson",
+        "from": "external",
+        "effective": "2025-03-17",
+        "source": "8-K 0001104659-25-024481",
+        "external_hire": true
+      }
+    ],
+    "months_since_primary": 14.0
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "operating margin",
+    "current_level_pct": 5.2,
+    "target_level_pct": 10.2,
+    "target_year": 2030,
+    "annual_bps": 100,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "Look, our aspirations are to grow operating margin between 50 and 150 basis points every year through 2030. We certainly think that's feasible.",
+        "speaker": "Chris Laden",
+        "role": "CFO",
+        "doc_title": "46th Annual William Blair Growth Stock Conference",
+        "date": "2026-06-03",
+        "document_id": 56268
+      },
+      {
+        "quote": "As we look in out years, I think there is still more, let us say, internal optimization to be done in terms of better matching supply and demand, ultimately yielding to 50 to 150 basis points of operating margin expansion on average for the next five years.",
+        "speaker": "Chris Laden",
+        "role": "CFO",
+        "doc_title": "Barclays 19th Annual Global Consumer Conference",
+        "date": "2026-09-09",
+        "document_id": 219430
+      },
+      {
+        "quote": "Adjusted operating income increased to $31.6 million, compared to $23.8 million in the prior year period. Adjusted operating margin increased 140 basis points to 6.3% from the quarter.",
+        "speaker": "Chris Laden",
+        "role": "CFO",
+        "doc_title": "National Vision Holdings Inc Q2 2026 Earnings Call",
+        "date": "2026-08-12",
+        "document_id": 133219
+      }
+    ],
+    "first_stated": "2025-11-17",
+    "times_repeated": 5
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 10.39,
+      "FY2027": 11.1,
+      "FY2028": 11.98
+    },
+    "consensus_margin_at_target_year_pct": 9.09,
+    "gap_bps_vs_target": 110.5,
+    "ebitda_uplift_pct_if_target_hit": 8.2,
+    "source": "Baba data_financials consensus (Visible Alpha). EBITDA margins in percent from the fundamentals 'EBITDA margin' row. Target-year comparison uses consensus adjusted operating income / revenue: FY2026 5.89%, FY2027 6.63%, FY2028 7.50%, FY2029 8.31%, FY2030 9.09% (FY2029 and FY2030 rows are thin, no broker margin row). Target 10.2% = fiscal 2025 adj operating margin 5.2% (Laden, Q4 2025 call, doc 198167) plus 5 years at the 100 bps midpoint; low end of range gives 7.7%, which consensus already exceeds. Gap at fiscal 2028 is 69.6 bps."
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      210,
+      140
+    ],
+    "note": "Company-reported adjusted operating margin: Q1 fiscal 2026 +210 bps to 10.2% (doc 198166), Q2 fiscal 2026 +140 bps to 6.3% (doc 133219); H1 +180 bps; fiscal 2025 +160 bps to 5.2%. Full year AOI guide raised about 7.5% at Q2 (2026-08-12), partly a $5M tariff refund. Delivery so far is at or above the top of the 50 to 150 bps range, driven by SG&A leverage while traffic fell 4.9% in Q2."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 2,
+    "C_numeric_framing": 3,
+    "D_unproven": 2,
+    "total": 9
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Closest GXO analogue of the three: stock down 44% at the bottom of its 5-year EV/EBITDA range, a new CEO (hired from CooperVision as President in 2024, CEO since 2025-08-01) and new CFO who set and repeat a numeric 50 to 150 bps a year operating margin path through 2030, and consensus 2030 margin sits about 110 bps below the midpoint; caveats are that the street already sits above the low end, revisions are +8%, and the 2030 consensus is thin.",
+  "open_questions": [
+    "Is the margin gain durable when Q2 traffic fell 4.9% and the expansion came from SG&A leverage, lower incentive comp and a marketing timing shift?",
+    "Does store growth re-acceleration to 60+ a year in 2028 dilute operating margin in the years the street models as the steepest step-up?",
+    "When exactly did Chris Laden start, and does the board refresh continue beyond the March 2025 additions?"
+  ],
+  "sources": [
+    {
+      "document_id": 56268,
+      "title": "46th Annual William Blair Growth Stock Conference",
+      "date": "2026-06-03"
+    },
+    {
+      "document_id": 219430,
+      "title": "Barclays 19th Annual Global Consumer Conference",
+      "date": "2026-09-09"
+    },
+    {
+      "document_id": 133219,
+      "title": "National Vision Holdings Inc Q2 2026 Earnings Call",
+      "date": "2026-08-12"
+    },
+    {
+      "document_id": 198167,
+      "title": "National Vision Holdings Inc Q4 2025 Earnings Call",
+      "date": ""
+    },
+    {
+      "document_id": 198166,
+      "title": "National Vision Holdings Inc Q1 2026 Earnings Call",
+      "date": ""
+    },
+    {
+      "document_id": 56266,
+      "title": "Citi's 2026 Global Consumer & Retail Conference 2026",
+      "date": "2026-03"
+    },
+    {
+      "document_id": 56263,
+      "title": "28th Annual ICR Conference 2026",
+      "date": "2026-01-13"
+    },
+    {
+      "document_id": 56260,
+      "title": "Morgan Stanley Global Consumer & Retail Conference 2025",
+      "date": "2025-12-03"
+    },
+    {
+      "document_id": 57364,
+      "title": "National Vision Holdings Inc Q3 2025 Earnings Call",
+      "date": ""
+    },
+    {
+      "document_id": 38469,
+      "title": "National Vision Holdings, Inc. DEF 14A (0001140361-26-018642)",
+      "date": "2026"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001104659-25-040476 (CEO succession plan)",
+      "date": "2025-04-29"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001710155-25-000036 (Wilkes board seat, CEO effective)",
+      "date": "2025-08-04"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001104659-25-004105 (CFO Rasmussen departure)",
+      "date": "2025-01-16"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001104659-25-024481 (McGrann, Nicholson directors)",
+      "date": "2025-03-17"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps and data_financials (summary, fundamentals) cid 1003684",
+      "date": "2026-10-01"
+    }
+  ],
+  "tool_calls": 19
+}

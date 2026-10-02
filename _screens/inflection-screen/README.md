@@ -127,7 +127,27 @@ call, while lexical search needs a fiscal_year filter or it returns 2021 to 2024
   "since joining" in stage 3, and `data_board` for board refresh.
 - Activist involvement (13D filings) is not yet a detector. `mcp__sec-api__form-13d-13g` can add it.
 
-## 5. Files
+## 5. Pilot results (2026-10-02, 13 names, 5 Opus subagents)
+
+Full table: `outputs/2026.10.02/ranked.md`. Per-name notes with verbatim quotes and document ids: `outputs/2026.10.02/candidates/`.
+
+- Three names meet the conjunction test (B >= 2, C >= 2, D >= 1, no disqualifier): GXO (archetype, 9), EYE (9) and
+  ACI (8, and the subagent itself says the mechanical score overstates the fit because management never stated a
+  margin level).
+- EYE (National Vision) is the cleanest new analogue: down 44%, at the bottom of its own five-year EV/EBITDA range,
+  new CEO 2025-08-01 and new CFO, and a repeated "50 to 150 basis points of operating margin a year through 2030"
+  path with 2030 consensus about 110 bps below the midpoint. Weak point: forward EBITDA revisions are already +8%.
+- JBTM (8) has the strongest numeric framing in the batch (20% adjusted EBITDA margin in 2028, $150M synergies,
+  consensus about 300 bps short) but the Marel close is 21 months old and leadership is unchanged. Worth a look
+  even though it fails the catalyst window.
+- Six names (HOG, GPK, AVAV, PRIM, DRVN, LPX) are resets after an estimate cut of 15% to 27%, not unproven stories.
+  That is why the stage 1 revision floor moved from -30% to -10% after the pilot; 117 of the 167 survivors pass it.
+- Two names show numeric framing with no management catalyst (AVY, CNM) and the street already models the target in
+  AVY's case. They calibrate the screen: C alone is not the setup.
+- Cost actually observed: 12 to 30 tool calls per name; the five subagents used about 1.2 million tokens in total,
+  so roughly 90k tokens per name on Opus.
+
+## 6. Files
 
     README.md                 this design
     stage1_filter.py          stage 1 gates and GXO-similarity ranking
