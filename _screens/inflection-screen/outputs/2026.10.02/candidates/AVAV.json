@@ -1,0 +1,47 @@
+{
+  "ticker": "AVAV", "cid": 1000512, "name": "AEROVIRONMENT INC", "industry": "Aerospace & Defense", "as_of": "2026-10-02",
+  "quant": {"mcap_usd": 6990608304.45, "drawdown": -0.6529780640753483, "pctile_ev_ebitda_60m": 0.06666666666666667, "price_ltm_pct": -0.5483502175362824,
+            "ebitda_margin_ltm": 0.14412152725195876, "industry_median_margin": 0.178, "ev_ebitda_fy": 22.486757729744305,
+            "net_debt_ltm_ebitda": 0.500535288939469, "ebitda_revision_12m": -0.1829145983522914, "ebitda_brokers": 14.0},
+  "catalyst": {"type": ["acquisition", "new_cfo", "board_refresh"],
+               "events": [
+                 {"what": "Completed all-stock BlueHalo merger (announced EV $4.1B); transformational acquisition", "who": "BlueHalo", "from": "Arlington Capital portfolio company", "effective": "2025-05-01", "source": "8-K 0001104659-25-043118", "external_hire": null},
+                 {"what": "New COO appointed at merger close", "who": "Brad Truesdell", "from": "AeroVironment (SVP Business Development; Tomahawk Robotics founder)", "effective": "2025-05-01", "source": "8-K 0001104659-25-043118", "external_hire": false},
+                 {"what": "Two Arlington Capital directors added to board at close (both resigned 2026-06-17)", "who": "David Wodlinger, Henry Albers", "from": "Arlington Capital Partners", "effective": "2025-05-01", "source": "8-K 0001104659-25-043118; resignations 8-K 0001104659-26-076140", "external_hire": true},
+                 {"what": "New EVP and COO succeeding Truesdell (retired)", "who": "Robert Smith", "from": "Lockheed Martin, Raytheon, Cobham, BWX Technologies", "effective": "2026-04-13", "source": "8-K 0001104659-26-041267", "external_hire": true},
+                 {"what": "New EVP and CFO succeeding Kevin McDonnell (retired)", "who": "Sean Woodward", "from": "AeroVironment (CFO Autonomous Systems segment)", "effective": "2026-05-01", "source": "8-K 0001104659-26-042388", "external_hire": false},
+                 {"what": "New director", "who": "William J. Lynn, III", "from": null, "effective": "2026-06-24", "source": "8-K 0001104659-26-077575", "external_hire": true},
+                 {"what": "New director; Stephen Page and Charles Burbage retired from board 2026-09-24", "who": "Michael Ruppert", "from": null, "effective": "2026-08-05", "source": "8-K 0001104659-26-092413; 8-K 0001104659-26-087871", "external_hire": true}
+               ],
+               "months_since_primary": 17},
+  "margin_framing": {"numeric": true, "metric": "adjusted EBITDA margin",
+                     "current_level_pct": 14.5, "target_level_pct": 19.0, "target_year": 2030,
+                     "annual_bps": null, "synergy_usd": 20000000, "synergy_year": null,
+                     "statements": [
+                       {"quote": "Further, we're expecting our adjusted EBITDA to improve to 18%-20% by the end of the decade. That's a 350-550 basis point improvement from where we ended fiscal year 2026.", "speaker": "Sean Woodward", "role": "EVP and CFO", "doc_title": "Investor Day 2026", "date": "2026-07-08", "document_id": 46587},
+                       {"quote": "We're expecting that to ramp throughout the years so that we end fiscal year 2030 at that 18%-20% of adjusted EBITDA.", "speaker": "Sean Woodward", "role": "EVP and CFO", "doc_title": "Investor Day 2026", "date": "2026-07-08", "document_id": 46587},
+                       {"quote": "The overall mix is going to help drive that adjusted EBITDA from 14.5% up to the 18%-20%.", "speaker": "Sean Woodward", "role": "EVP and CFO", "doc_title": "Jefferies Global Industrials Conference 2026", "date": "2026-09-10", "document_id": 220267},
+                       {"quote": "We don't expect significant cost synergies in this transaction given the lack of overlap between the two companies' portfolios, but are targeting about $20 million in net cost synergies realized over time.", "speaker": "Kevin McDonnell", "role": "CFO (prior)", "doc_title": "M&A Announcement", "date": "2024-11-19", "document_id": 64955}
+                     ],
+                     "first_stated": "2026-07-08", "times_repeated": 2},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 14.47, "FY2027": 14.41, "FY2028": 16.04},
+             "consensus_margin_at_target_year_pct": 18.31, "gap_bps_vs_target": -69,
+             "ebitda_uplift_pct_if_target_hit": 3.75, "source": "Baba data_financials consensus (FY ends April; FY2026 is actual; FY2030 EBITDA 645.1M on revenue 3,522.5M)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-57, -140], "note": "Q4 FY2026 adjusted EBITDA margin 21.8% vs 22.4% (VA quarterly actuals, -57 bps). Q1 FY2027 CFO said '$53 million or 11% of revenue' vs 12.4% in Q1 FY2026 (-140 bps); the CEO in the same call said 'nearly $46 million', so the Q1 figure needs checking against the 8-K. FY2027 guide of $305M to $325M implies flat margin; ramp is back-end loaded to FY2028 to FY2030."},
+  "score": {"A_underperformance": 2, "B_catalyst": 3, "C_numeric_framing": 3, "D_unproven": 0, "total": 8},
+  "disqualified": true, "disqualifier_reason": "Margin target already reflected in consensus: FY2030 consensus adjusted EBITDA margin is 18.3%, inside management's 18% to 20% range and only 69 bps below the midpoint. Forward EBITDA consensus was also cut 18.3% over 12 months, which reads as a broken near-term story rather than an unproven one. Separately, a March 2026 goodwill restatement and material weakness (8-K 0001104659-26-076140) is a governance flag.",
+  "verdict": "Catalyst and numeric framing match GXO, but the street already models the low end of the FY2030 18% to 20% target and has cut EBITDA 18%, so the gap is missing; not a GXO setup.",
+  "open_questions": ["Which Q1 FY2027 adjusted EBITDA figure is right ($46M or $53M) and does the second-half two-thirds EBITDA weighting hold?", "Is the FY2030 margin recovery mostly a return to legacy AV's pre-merger 18% via mix, and how much depends on LOCUST and SCAR timing?", "Did the restatement and material weakness change board composition or controls beyond the Arlington director exits?"],
+  "sources": [
+    {"document_id": 46587, "title": "Investor Day 2026", "date": "2026-07-08"},
+    {"document_id": 220267, "title": "Jefferies Global Industrials Conference 2026", "date": "2026-09-10"},
+    {"document_id": 64955, "title": "M&A Announcement", "date": "2024-11-19"},
+    {"document_id": 219638, "title": "AEROVIRONMENT INC Q1 2027 Earnings Call", "date": "2026-09-09"},
+    {"document_id": 146503, "title": "AEROVIRONMENT INC Q3 2026 Earnings Call", "date": "2026-03-10"},
+    {"document_id": 0, "title": "8-K 0001104659-25-043118 (BlueHalo close, Truesdell, Arlington directors)", "date": "2025-05-01"},
+    {"document_id": 0, "title": "8-K 0001104659-26-041267 (COO Robert Smith)", "date": "2026-04-09"},
+    {"document_id": 0, "title": "8-K 0001104659-26-042388 (CFO Sean Woodward)", "date": "2026-04-13"},
+    {"document_id": 0, "title": "8-K 0001104659-26-076140 (restatement, Arlington director resignations)", "date": "2026-06-22"}
+  ],
+  "tool_calls": 22
+}

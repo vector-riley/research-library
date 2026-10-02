@@ -1,0 +1,49 @@
+{
+  "ticker": "HOG", "cid": 1000138, "name": "Harley-Davidson, Inc.", "industry": "Motorcycle Manufacturers", "as_of": "2026-10-02",
+  "quant": {"mcap_usd": 2695743440.0, "drawdown": -0.40904500054336856, "pctile_ev_ebitda_60m": 0.08333333333333333, "price_ltm_pct": -0.09499076533950335,
+            "ebitda_margin_ltm": 0.0835290323810933, "industry_median_margin": 0.139, "ev_ebitda_fy": 8.979045332990468,
+            "net_debt_ltm_ebitda": 2.2454061104566443, "ebitda_revision_12m": -0.25338272572830023, "ebitda_brokers": 9.0},
+  "catalyst": {"type": ["new_ceo", "board_refresh", "strategy_update", "activist"],
+               "events": [
+                 {"what": "President and CEO appointed (succeeding retiring Jochen Zeitz)", "who": "Arthur (Artie) Starrs", "from": "CEO of Topgolf International; former Global CEO of Pizza Hut", "effective": "2025-10-01", "source": "8-K 0000793952-25-000166", "external_hire": true},
+                 {"what": "Chairman of the Board appointed", "who": "Troy Alstead", "from": "existing Presiding Director", "effective": "2025-10-01", "source": "8-K 0000793952-25-000166", "external_hire": false},
+                 {"what": "Chief Operating Officer, Harley-Davidson Motor Company", "who": "Bryan Niketh", "from": "President of White River Marine Group (former H-D SVP Product and Operations)", "effective": "2026-01-01", "source": "8-K 0000793952-25-000193", "external_hire": true},
+                 {"what": "Two new directors replace two retiring directors", "who": "Daniel J. Nova; Matthew J. Reintjes (CEO of YETI)", "from": "Highland Capital Partners; YETI Holdings", "effective": "2025-09-15", "source": "8-K 0000793952-25-000177", "external_hire": true},
+                 {"what": "Director resignation citing succession planning, governance, culture and commercial execution (H Partners nominee)", "who": "Jared Dourdeville", "from": "Board of Directors", "effective": "2025-04-05", "source": "8-K 0000793952-25-000085", "external_hire": null},
+                 {"what": "New strategic plan 'Back to the Bricks' with 2027 EBITDA target and medium-term margin targets", "who": "Artie Starrs, Jonathan Root", "from": "", "effective": "2026-05-05", "source": "140760", "external_hire": null}
+               ],
+               "months_since_primary": 12},
+  "margin_framing": {"numeric": true, "metric": "adjusted EBITDA margin",
+                     "current_level_pct": 8.35, "target_level_pct": 10.0, "target_year": null,
+                     "annual_bps": null, "synergy_usd": 150000000, "synergy_year": 2027,
+                     "statements": [
+                       {"quote": "However, on top of previously announced targets, we anticipate at least $150 million of annual run rate savings that will impact 2027 and beyond.", "speaker": "Artie Starrs", "role": "President and CEO", "doc_title": "Harley-Davidson, Inc. Q4 2025 Earnings Call", "date": "2026-02-10", "document_id": 140762},
+                       {"quote": "We believe we have a clear path to achieving $350 million+ EBITDA in 2027. The path to get there is clear and execution-driven, anchored by roughly $150 million in fixed cost reduction", "speaker": "Jonathan Root", "role": "Chief Financial and Commercial Officer", "doc_title": "Harley-Davidson, Inc. Q1 2026 Earnings Call", "date": "2026-05-05", "document_id": 140760},
+                       {"quote": "In totality, we expect to deliver attractive top-line growth and drive towards a 10%-12% EBITDA margin over the medium term.", "speaker": "Jonathan Root", "role": "Chief Financial and Commercial Officer", "doc_title": "Harley-Davidson, Inc. Q1 2026 Earnings Call", "date": "2026-05-05", "document_id": 140760},
+                       {"quote": "We believe we're on track for the $150 million of fixed cost savings in 2027. The $350+ million of HDMC EBITDA target we referenced in our last call.", "speaker": "Artie Starrs", "role": "CEO", "doc_title": "Harley-Davidson, Inc. Q2 2026 Earnings Call", "date": "2026-07-23", "document_id": 75537}
+                     ],
+                     "first_stated": "2026-02-10", "times_repeated": 3},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 4.26, "FY2027": 8.35, "FY2028": 9.63},
+             "consensus_margin_at_target_year_pct": 9.63, "gap_bps_vs_target": 37,
+             "ebitda_uplift_pct_if_target_hit": 19.7, "source": "Baba data_financials consensus (consolidated HOG incl. HDFS and LiveWire); target year undated ('medium term'), FY2028 used as proxy; uplift = 10% margin on FY2027 consensus revenue vs FY2027 consensus EBITDA"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-900, 70], "note": "HDMC operating margin, not EBITDA. Q1 2026: operating income $19M on about $1,056M revenue (sum of business lines) vs 10.8% in Q1 2025 (doc 140760, 40725), derived -900 bps, hit by $45M tariffs, $15M restructuring, recalls. Q2 2026: 6.6% vs 5.9% (+70 bps, Root, doc 75537). FY2026 HDMC operating income guide raised to $10M-$50M from -$40M to +$10M. Consolidated FY2027 consensus EBITDA of $368.5M already sits 5.3% above the $350M+ HDMC 2027 EBITDA target (segment basis differs: consensus includes HDFS profit and LiveWire losses of $70M-$80M), so the dated 2027 target looks largely modeled; only the undated 10%-12% medium-term range sits above consensus."},
+  "score": {"A_underperformance": 2, "B_catalyst": 3, "C_numeric_framing": 3, "D_unproven": 0, "total": 8},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Strong leadership reset and repeated dated targets ($150M savings, $350M+ HDMC EBITDA in 2027), but forward EBITDA was cut 25% in 12 months and consensus already sits at or above the 2027 target, so this is a reset-and-rebuild story rather than an unproven GXO-style margin gap.",
+  "open_questions": [
+    "How much of the -25% forward EBITDA revision is mechanical from the HDFS capital-light transaction versus operating cuts at HDMC?",
+    "What HDMC-only EBITDA does consensus carry for 2027 once HDFS and LiveWire are stripped out, and is it above or below $350M?",
+    "Will management attach a year to the 10%-12% EBITDA margin range (a Sportster launch or Investor Day update later in 2026)?"
+  ],
+  "sources": [
+    {"document_id": 140762, "title": "Harley-Davidson, Inc. Q4 2025 Earnings Call", "date": "2026-02-10"},
+    {"document_id": 140760, "title": "Harley-Davidson, Inc. Q1 2026 Earnings Call", "date": "2026-05-05"},
+    {"document_id": 75537, "title": "Harley-Davidson, Inc. Q2 2026 Earnings Call", "date": "2026-07-23"},
+    {"document_id": 40725, "title": "Harley-Davidson, Inc. Q1 2025 Earnings Call", "date": "2025"},
+    {"document_id": 0, "title": "8-K 0000793952-25-000166 (CEO appointment)", "date": "2025-08-04"},
+    {"document_id": 0, "title": "8-K 0000793952-25-000193 (COO appointment)", "date": "2025-12-10"},
+    {"document_id": 0, "title": "8-K 0000793952-25-000177 (board changes)", "date": "2025-09-15"},
+    {"document_id": 0, "title": "8-K 0000793952-25-000085 (director resignation)", "date": "2025-04-10"}
+  ],
+  "tool_calls": 18
+}

@@ -1,0 +1,206 @@
+{
+  "ticker": "LPX",
+  "cid": 1000768,
+  "name": "Louisiana-Pacific Corp",
+  "industry": "Forest Products",
+  "as_of": "2026-10-02",
+  "quant": {
+    "mcap_usd": 4518500000.0,
+    "drawdown": -0.4524,
+    "pctile_ev_ebitda_60m": 0.5167,
+    "price_ltm_pct": -0.262,
+    "ebitda_margin_ltm": 0.1667,
+    "industry_median_margin": 0.19,
+    "ev_ebitda_fy": 9.93,
+    "net_debt_ltm_ebitda": 0.39,
+    "ebitda_revision_12m": -0.2668,
+    "ebitda_brokers": 12
+  },
+  "catalyst": {
+    "type": [
+      "new_ceo",
+      "new_cfo",
+      "board_refresh"
+    ],
+    "events": [
+      {
+        "what": "CEO succession (announced 2025-11-03)",
+        "who": "Jason Ringblom",
+        "from": "W. Bradley Southern (retired)",
+        "effective": "2026-02-19",
+        "source": "8-K 0000060519-25-000030; 8-K/A 0000060519-26-000008",
+        "external_hire": false
+      },
+      {
+        "what": "Independent Chair named; CEO-elect joins board; two directors retire 2026-05-01",
+        "who": "F. Nicholas Grasberger III",
+        "from": "W. Bradley Southern (CEO and Chair)",
+        "effective": "2026-02-19",
+        "source": "8-K 0000060519-26-000002",
+        "external_hire": false
+      },
+      {
+        "what": "CFO succession",
+        "who": "Aaron Howald (15 years at LP, VP IR and FP&A)",
+        "from": "Alan J.M. Haughie (retired)",
+        "effective": "2026-09-01",
+        "source": "8-K 0000060519-26-000024",
+        "external_hire": false
+      },
+      {
+        "what": "New COO role created",
+        "who": "Anthony Hamill (ex Roseburg COO, previously LP VP Siding Manufacturing)",
+        "from": "new office",
+        "effective": "2025-06-30",
+        "source": "8-K 0000060519-25-000021",
+        "external_hire": true
+      },
+      {
+        "what": "President appointed; GM OSB position eliminated",
+        "who": "Jason Ringblom",
+        "from": "Jimmy Mason (EVP GM OSB, terminated)",
+        "effective": "2025-04-07",
+        "source": "8-K 0000060519-25-000010",
+        "external_hire": false
+      }
+    ],
+    "months_since_primary": 7
+  },
+  "margin_framing": {
+    "numeric": false,
+    "metric": "adjusted EBITDA margin (Siding segment only; no consolidated target)",
+    "current_level_pct": 26.0,
+    "target_level_pct": 25.0,
+    "target_year": null,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "However, given the operating leverage and pricing power inherent in the business, we are raising our long-term target for the Siding EBITDA margin by 5 percentage points to 25%.",
+        "speaker": "Alan Haughie",
+        "role": "CFO",
+        "doc_title": "LOUISIANA-PACIFIC CORP. Q4 2020 Earnings Call",
+        "date": "2021-02-16",
+        "document_id": 154891
+      },
+      {
+        "quote": "As a result of this growth, Siding achieved our long-term EBITDA margin target of 25% for the full year despite a soft market in OSB.",
+        "speaker": "Brad Southern",
+        "role": "CEO",
+        "doc_title": "LOUISIANA-PACIFIC CORP. Q4 2024 Earnings Call",
+        "date": "2025-02-19",
+        "document_id": 43100
+      },
+      {
+        "quote": "Despite ongoing headwinds from raw material inflation, we anticipate Siding EBITDA in the third quarter of between $110 million and $120 million, for an EBITDA margin of about 25%.",
+        "speaker": "Aaron Howald",
+        "role": "VP IR and FP&A (CFO from 2026-09-01)",
+        "doc_title": "LOUISIANA-PACIFIC CORP. Q2 2026 Earnings Call",
+        "date": "2026-08-05",
+        "document_id": 129684
+      },
+      {
+        "quote": "LP has no control over OSB prices, obviously, but we are aggressively pursuing opportunities to improve cost and efficiency while protecting our assets",
+        "speaker": "Aaron Howald",
+        "role": "VP IR and FP&A (CFO from 2026-09-01)",
+        "doc_title": "LOUISIANA-PACIFIC CORP. Q2 2026 Earnings Call",
+        "date": "2026-08-05",
+        "document_id": 129684
+      }
+    ],
+    "first_stated": "2021-02-16",
+    "times_repeated": 6
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 10.78,
+      "FY2027": 16.67,
+      "FY2028": 18.29
+    },
+    "consensus_margin_at_target_year_pct": null,
+    "gap_bps_vs_target": null,
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials consensus (consolidated; no Siding segment consensus pulled)"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      -809,
+      -691
+    ],
+    "note": "Consolidated EBITDA margin: Q1 2026 82/574 vs Q1 2025 162/724; Q2 2026 79/664 (CEO, Q2 2026 call, doc 129684) vs Q2 2025 142/755 (consensus actuals). Declines driven by OSB prices; Siding margin held at 26% in Q2 2026 and 28% in Q1 2026 (CFO, doc 154888). Siding has met its 25% target since FY2024, so there is no unmet margin target to close."
+  },
+  "score": {
+    "A_underperformance": 1,
+    "B_catalyst": 2,
+    "C_numeric_framing": 1,
+    "D_unproven": 0,
+    "total": 4
+  },
+  "disqualified": true,
+  "disqualifier_reason": "Consolidated margin is commodity-price driven: OSB EBITDA guided to about -$120M for FY2026 at flat prices (Q2 2026 call, doc 129684), and the -27% 12-month EBITDA revision reflects OSB. The only numeric margin target (Siding 25%, set Feb 2021, no year) has already been achieved since FY2024 (26% in FY2025), so there is no unproven gap to close.",
+  "verdict": "Not a GXO setup: leadership turnover is all internal succession, the only margin target (Siding 25%) is already met, and consolidated margin moves with OSB prices.",
+  "open_questions": [
+    "Will Ringblom or Howald set a new Siding margin target above 25%, or a consolidated target that excludes OSB, at the next Investor Day?",
+    "How much of the -27% FY2027 consensus EBITDA revision is OSB price versus Siding volume?",
+    "Does the 2026 to 2027 ExpertFinish capacity build (Green Bay, Bath, North Branch) dilute Siding margin during ramp?"
+  ],
+  "sources": [
+    {
+      "document_id": 129684,
+      "title": "LOUISIANA-PACIFIC CORP. Q2 2026 Earnings Call",
+      "date": "2026-08-05"
+    },
+    {
+      "document_id": 154888,
+      "title": "LOUISIANA-PACIFIC CORP. Q1 2026 Earnings Call",
+      "date": "2026-05"
+    },
+    {
+      "document_id": 154889,
+      "title": "LOUISIANA-PACIFIC CORP. Q4 2025 Earnings Call",
+      "date": "2026-02"
+    },
+    {
+      "document_id": 43096,
+      "title": "LOUISIANA-PACIFIC CORP. Q3 2025 Earnings Call",
+      "date": "2025-11"
+    },
+    {
+      "document_id": 43100,
+      "title": "LOUISIANA-PACIFIC CORP. Q4 2024 Earnings Call",
+      "date": "2025-02-19"
+    },
+    {
+      "document_id": 154891,
+      "title": "LOUISIANA-PACIFIC CORP. Q4 2020 Earnings Call",
+      "date": "2021-02-16"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0000060519-25-000030 (CEO succession)",
+      "date": "2025-11-03"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0000060519-26-000002 (Chair, board)",
+      "date": "2026-01-28"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0000060519-26-000024 (CFO succession)",
+      "date": "2026-06-01"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0000060519-25-000021 (COO)",
+      "date": "2025-06-20"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps / data_financials consensus",
+      "date": "2026-10-01"
+    }
+  ],
+  "tool_calls": 17
+}

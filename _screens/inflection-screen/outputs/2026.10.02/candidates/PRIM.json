@@ -1,0 +1,204 @@
+{
+  "ticker": "PRIM",
+  "cid": 1003038,
+  "name": "Primoris Services Corp",
+  "industry": "Construction & Engineering",
+  "as_of": "2026-10-02",
+  "quant": {
+    "mcap_usd": 4117500000.0,
+    "drawdown": -0.6321,
+    "pctile_ev_ebitda_60m": 0.4333,
+    "price_ltm_pct": -0.4557,
+    "ebitda_margin_ltm": 0.0657,
+    "industry_median_margin": 0.115,
+    "ev_ebitda_fy": 8.75,
+    "net_debt_ltm_ebitda": 1.69,
+    "ebitda_revision_12m": -0.1525,
+    "ebitda_brokers": 13
+  },
+  "catalyst": {
+    "type": [
+      "new_ceo",
+      "acquisition",
+      "board_refresh"
+    ],
+    "events": [
+      {
+        "what": "Interim CEO after prior CEO terminated",
+        "who": "David King (Chairman, former Primoris CEO)",
+        "from": "Tom McCormick (terminated 2025-03-20)",
+        "effective": "2025-03-14",
+        "source": "8-K 0001361538-25-000013",
+        "external_hire": false
+      },
+      {
+        "what": "President and CEO appointed",
+        "who": "Koti Vadlamudi (ex EVP, Jacobs Solutions)",
+        "from": "David King (interim; stays Chairman)",
+        "effective": "2025-11-10",
+        "source": "8-K 0001361538-25-000035",
+        "external_hire": true
+      },
+      {
+        "what": "Acquisition of PayneCrest Electric (all cash, about $404.7M net of cash acquired; total consideration $437.5M)",
+        "who": "PayneCrest Electric, Inc.",
+        "from": "",
+        "effective": "2026-05-01",
+        "source": "10-Q Q2 2026 (0001104659-26-090540), Baba doc 131293",
+        "external_hire": null
+      },
+      {
+        "what": "COO departs (terminated without cause); CEO absorbs role pending search",
+        "who": "Jeremy Kinch",
+        "from": "",
+        "effective": "2026-06-22",
+        "source": "8-K 0001361538-26-000017",
+        "external_hire": null
+      },
+      {
+        "what": "Two directors added; board expands to ten",
+        "who": "James A. Greer (ex Oncor COO), Oscar K. Brown (ex Western Midstream CEO)",
+        "from": "",
+        "effective": "2026-10-01",
+        "source": "8-K 0001361538-26-000030",
+        "external_hire": true
+      },
+      {
+        "what": "Director retirement (former CFO)",
+        "who": "John P. Schauerman",
+        "from": "",
+        "effective": "2026-04-30",
+        "source": "8-K 0001361538-26-000011",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 10
+  },
+  "margin_framing": {
+    "numeric": false,
+    "metric": "gross margin (segment, one-year guide ranges; no consolidated EBITDA margin target)",
+    "current_level_pct": null,
+    "target_level_pct": null,
+    "target_year": null,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "you know, overall, I think, margin efficiency, in addition to growing the top line, will be a focus for us, going forward.",
+        "speaker": "Koti Vadlamudi",
+        "role": "President and CEO",
+        "doc_title": "Primoris Services Corp Q4 2025 Earnings Call",
+        "date": "2026-02-24",
+        "document_id": 173112
+      },
+      {
+        "quote": "We expect to see margins increase in Q2 and Q3, driven by normal seasonality and trend towards the midpoint of our target 10%-12% range for the full-year.",
+        "speaker": "Ken Dodgen",
+        "role": "CFO",
+        "doc_title": "Primoris Services Corp Q1 2026 Earnings Call",
+        "date": "2026-05-06",
+        "document_id": 173111
+      },
+      {
+        "quote": "For the full year 2026, we are expecting gross margins in the energy segment to be in the 6%-8% range.",
+        "speaker": "Ken Dodgen",
+        "role": "CFO",
+        "doc_title": "Primoris Services Corp Q2 2026 Earnings Call",
+        "date": "2026-08-05",
+        "document_id": 129716
+      },
+      {
+        "quote": "Our growing funnel of opportunities across our services and our ability to win and execute on behalf of our customers gives us confidence we will return to revenue growth and margin expansion in 2027.",
+        "speaker": "Ken Dodgen",
+        "role": "CFO",
+        "doc_title": "Primoris Services Corp Q2 2026 Earnings Call",
+        "date": "2026-08-05",
+        "document_id": 129716
+      }
+    ],
+    "first_stated": "2026-02-24",
+    "times_repeated": 1
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 3.82,
+      "FY2027": 6.57,
+      "FY2028": 6.9
+    },
+    "consensus_margin_at_target_year_pct": null,
+    "gap_bps_vs_target": null,
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials consensus"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      -180,
+      -740
+    ],
+    "note": "Consolidated gross margin as stated by CFO: Q1 2026 8.6% vs 10.4% (doc 173111); Q2 2026 4.9% vs 12.3% (doc 129716). Cause is cost overruns on six renewables projects. Energy segment FY2026 gross margin guide cut from high 9% to 10% (May) to 6% to 8% (August). FY2026 adjusted EBITDA guide $275M to $325M versus consensus $279M; FY2025 consensus actual was $531M."
+  },
+  "score": {
+    "A_underperformance": 1,
+    "B_catalyst": 3,
+    "C_numeric_framing": 1,
+    "D_unproven": 0,
+    "total": 5
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Strong catalyst (external CEO from Jacobs, board refresh, PayneCrest deal) but no numeric margin framework, and the -15% EBITDA revision reflects a renewables execution miss, so this is a broken-then-repair story rather than an unproven margin plan.",
+  "open_questions": [
+    "Will Vadlamudi give a multi-year margin or EBITDA framework (or an Investor Day) once the six problem renewables projects reach substantial completion by year end 2026?",
+    "Is FY2027 consensus at 6.6% EBITDA margin (back near FY2025's level) already pricing a full recovery, leaving no gap to management?",
+    "Who replaces COO Kinch, and is it an external operator?"
+  ],
+  "sources": [
+    {
+      "document_id": 129716,
+      "title": "Primoris Services Corp Q2 2026 Earnings Call",
+      "date": "2026-08-05"
+    },
+    {
+      "document_id": 173111,
+      "title": "Primoris Services Corp Q1 2026 Earnings Call",
+      "date": "2026-05-06"
+    },
+    {
+      "document_id": 173112,
+      "title": "Primoris Services Corp Q4 2025 Earnings Call",
+      "date": "2026-02-24"
+    },
+    {
+      "document_id": 131293,
+      "title": "Primoris Services Corp 10-Q (Q2 2026)",
+      "date": "2026-08"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001361538-25-000035 (CEO appointment)",
+      "date": "2025-10-07"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001361538-25-000013 (CEO termination, interim CEO)",
+      "date": "2025-03-20"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001361538-26-000017 (COO departure)",
+      "date": "2026-06-22"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001361538-26-000030 (new directors)",
+      "date": "2026-08-31"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps / data_financials consensus",
+      "date": "2026-10-01"
+    }
+  ],
+  "tool_calls": 17
+}

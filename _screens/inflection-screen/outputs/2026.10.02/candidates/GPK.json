@@ -1,0 +1,47 @@
+{
+  "ticker": "GPK", "cid": 1000701, "name": "Graphic Packaging Holding Company", "industry": "Paper Packaging", "as_of": "2026-10-02",
+  "quant": {"mcap_usd": 2658432000.0000005, "drawdown": -0.6890950994506124, "pctile_ev_ebitda_60m": 0.21666666666666667, "price_ltm_pct": -0.5185376917993576,
+            "ebitda_margin_ltm": 0.1389783650075877, "industry_median_margin": 0.19, "ev_ebitda_fy": 6.6918643276306975,
+            "net_debt_ltm_ebitda": 4.682378844201991, "ebitda_revision_12m": -0.27419387000609674, "ebitda_brokers": 8.0},
+  "catalyst": {"type": ["new_ceo", "new_cfo", "board_refresh", "strategy_update"],
+               "events": [
+                 {"what": "CEO and board member appointed, succeeding Michael Doss", "who": "Robbert E. Rietbroek", "from": "CEO of Primo Brands; earlier PepsiCo and Kimberly-Clark", "effective": "2026-01-01", "source": "8-K 0001193125-25-311334", "external_hire": true},
+                 {"what": "CFO resigned; interim CFO appointed (no permanent CFO found in 8-Ks through 2026-09-28)", "who": "Stephen Scherger out; Charles (Chuck) Lischer interim", "from": "GPK SVP and Chief Accounting Officer", "effective": "2025-11-07", "source": "8-K 0001193125-25-235864", "external_hire": false},
+                 {"what": "Chairman retired; new Chairman elected", "who": "Philip Martens out; Larry M. Venturelli in", "from": "existing director", "effective": "2026-06-11", "source": "8-K 0001193125-26-267664", "external_hire": false},
+                 {"what": "New director", "who": "Jeffrey M. Stafeil", "from": "", "effective": "2026-03-08", "source": "8-K 0001193125-26-102188", "external_hire": true},
+                 {"what": "New Chief Accounting Officer", "who": "Aditya J. Gandhi", "from": "VP and CAO, AptarGroup", "effective": "2026-09-28", "source": "8-K 0001193125-26-405397", "external_hire": true},
+                 {"what": "90-day review: about 500 roles removed, projects cancelled, Croatia divestiture, footprint closures", "who": "Robbert Rietbroek", "from": "", "effective": "2026-05-05", "source": "154406", "external_hire": null}
+               ],
+               "months_since_primary": 9},
+  "margin_framing": {"numeric": true, "metric": "adjusted EBITDA margin",
+                     "current_level_pct": 11.3, "target_level_pct": null, "target_year": null,
+                     "annual_bps": null, "synergy_usd": 85000000, "synergy_year": 2026,
+                     "statements": [
+                       {"quote": "we are very confident that the work we're doing is going to allow us to deliver on the cost reduction commitment that we have, which is $60 million.", "speaker": "Robbert Rietbroek", "role": "President and CEO", "doc_title": "GRAPHIC PACKAGING HOLDING CO Q1 2026 Earnings Call", "date": "2026-05-05", "document_id": 154406},
+                       {"quote": "Now expect to deliver approximately $85 million in 2026 versus our previous expectations of $60 million. We now expect full-year adjusted EBITDA to be at the low end of our guidance range of $1.05 billion-$1.25 billion, primarily related to the higher-than-expected and prolonged inflation.", "speaker": "Chuck Lischer", "role": "SVP and Interim CFO", "doc_title": "GRAPHIC PACKAGING HOLDING CO Q2 2026 Earnings Call", "date": "2026-08-04", "document_id": 128948},
+                       {"quote": "The momentum we have with cost reduction and productivity initiatives, along with the pricing improvement that I'll discuss, gives us confidence that we'll see margin improvement in the business going forward.", "speaker": "Chuck Lischer", "role": "SVP and Interim CFO", "doc_title": "GRAPHIC PACKAGING HOLDING CO Q2 2026 Earnings Call", "date": "2026-08-04", "document_id": 128948}
+                     ],
+                     "first_stated": "2026-05-05", "times_repeated": 2},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 12.44, "FY2027": 13.90, "FY2028": 13.84},
+             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": null,
+             "ebitda_uplift_pct_if_target_hit": 7.9, "source": "Baba data_financials consensus; no margin level target exists; uplift shown is the $85M 2026 savings as % of FY2026 consensus EBITDA, which is already inside 2026 guidance and offset by about $150M of inflation"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-749, -395], "note": "Adjusted EBITDA margin: Q1 2026 10.8% ($232M on $2,156M) vs Q1 2025 $387M on $2,120M (VA actuals), -749 bps; Q2 2026 11.3% vs Q2 2025 $336M ($247M + $89M decline, Lischer) on $2,204M, -395 bps. Sequential +50 bps Q1 to Q2. FY2026 EBITDA guide now at the low end of $1.05B-$1.25B; full-year input inflation raised to about $150M from $60M-$65M; cash flow guide cut to $600M-$700M; net leverage 4.7x. Margin is heavily driven by input costs (secondary fiber, resins, chemicals, energy) and third-party board price indices; not formally disqualified because converting contracts carry cost pass-through, but this is close to the commodity disqualifier. No covenant stress found in the passages read."},
+  "score": {"A_underperformance": 2, "B_catalyst": 3, "C_numeric_framing": 2, "D_unproven": 0, "total": 7},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Full external leadership reset into a deeply de-rated stock, but the only numbers are a 2026 cost-savings figure swamped by inflation, forward EBITDA is down 27% in a year, and margins hinge on board prices and input costs, so this is a broken story still being reset rather than an unproven margin gap.",
+  "open_questions": [
+    "Who becomes permanent CFO, and will Rietbroek set a margin or EBITDA target (the market study he mentioned) with Q4 2026 results?",
+    "How much of the 2027 consensus margin rebound to 13.9% rests on announced $40-$60 per ton board price increases sticking versus self-help?",
+    "Does 4.7x net leverage constrain the plan if 2026 EBITDA lands at or below the $1.05B low end?"
+  ],
+  "sources": [
+    {"document_id": 154406, "title": "GRAPHIC PACKAGING HOLDING CO Q1 2026 Earnings Call", "date": "2026-05-05"},
+    {"document_id": 128948, "title": "GRAPHIC PACKAGING HOLDING CO Q2 2026 Earnings Call", "date": "2026-08-04"},
+    {"document_id": 0, "title": "8-K 0001193125-25-311334 (CEO appointment)", "date": "2025-12-08"},
+    {"document_id": 0, "title": "8-K 0001193125-25-235864 (CFO resignation, interim CFO)", "date": "2025-10-09"},
+    {"document_id": 0, "title": "8-K 0001193125-26-267664 (new Chairman)", "date": "2026-06-11"},
+    {"document_id": 0, "title": "8-K 0001193125-26-102188 (new director)", "date": "2026-03-11"},
+    {"document_id": 0, "title": "8-K 0001193125-26-405397 (new CAO)", "date": "2026-09-28"}
+  ],
+  "tool_calls": 12
+}

@@ -1,0 +1,42 @@
+{
+  "ticker": "AVY", "cid": 1000514, "name": "AVERY DENNISON CORP", "industry": "Industrial Chemicals", "as_of": "2026-10-02",
+  "quant": {"mcap_usd": 13111768000.0, "drawdown": -0.22544616246263116, "pctile_ev_ebitda_60m": 0.08333333333333333, "price_ltm_pct": 0.07646838814831325,
+            "ebitda_margin_ltm": 0.16645395337648206, "industry_median_margin": 0.202, "ev_ebitda_fy": 8.346439213307358,
+            "net_debt_ltm_ebitda": 0.180784768170397, "ebitda_revision_12m": -0.013486437156970843, "ebitda_brokers": 7.0},
+  "catalyst": {"type": ["strategy_update", "board_refresh"],
+               "events": [
+                 {"what": "Investor update reaffirming the September 2024 long-term framework (17%+ adjusted EBITDA margin by 2028)", "who": "Greg Lovins (CFO), Deon Stander (CEO)", "from": null, "effective": "2026-09-23", "source": "document_id 223908", "external_hire": null},
+                 {"what": "New President, Materials Group, succeeding Ryan Yost (resigned)", "who": "Danny G. Allouche", "from": "Avery Dennison (SVP and Chief Strategy and Corporate Development Officer; interim CFO Nov 2024 to Mar 2025)", "effective": "2026-06-01", "source": "8-K 0000008818-26-000116", "external_hire": false},
+                 {"what": "New director", "who": "David Flitman", "from": null, "effective": "2025-07-23", "source": "8-K 0000008818-25-000034", "external_hire": true},
+                 {"what": "CFO Greg Lovins resumed role after medical leave (same person, not a new CFO)", "who": "Gregory S. Lovins", "from": "Avery Dennison", "effective": "2025-04-01", "source": "8-K 0000008818-25-000007", "external_hire": false}
+               ],
+               "months_since_primary": 0},
+  "margin_framing": {"numeric": true, "metric": "adjusted EBITDA margin",
+                     "current_level_pct": 16.6, "target_level_pct": 17.0, "target_year": 2028,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "So our target is 17%-plus margins. We'll continue being focused on that, and it's really Solutions where we see the biggest opportunity from 2024 levels to continue to grow our margins over the cycle.", "speaker": "Gregory Lovins", "role": "CFO", "doc_title": "Investor Day 2024", "date": "2024-09-18", "document_id": 69479},
+                       {"quote": "Delivering strong top-line growth with 5% or more sales growth ex-currency while expanding our margins with an adjusted EBITDA margin of 17%+ by 2028, and compounding our adjusted earnings per share at 10% annually while delivering top quartile return on capital relative to our peers.", "speaker": "Greg Lovins", "role": "SVP and CFO", "doc_title": "Investor update", "date": "2026-09-23", "document_id": 223908},
+                       {"quote": "Our margin execution is progressing well. We are on track to meet or exceed this target, powered by positive mix shift and our continuous drive for productivity.", "speaker": "Greg Lovins", "role": "SVP and CFO", "doc_title": "Investor update", "date": "2026-09-23", "document_id": 223908}
+                     ],
+                     "first_stated": "2024-09-18", "times_repeated": 1},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 16.38, "FY2027": 16.65, "FY2028": 17.00},
+             "consensus_margin_at_target_year_pct": 17.00, "gap_bps_vs_target": 0,
+             "ebitda_uplift_pct_if_target_hit": 0.0, "source": "Baba data_financials consensus (FY2028 EBITDA 1,707.5M on revenue 10,042.5M; gap +0.2 bps, uplift -0.01%)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-2, 50], "note": "Q1 2026: 16.4% per VA quarterly actuals (-2 bps YoY); the transcript is inconsistent (CEO said down 80 bps, CFO said comparable to prior year, doc 197085). Q2 2026: 17.1%, up 50 bps YoY (Deon Stander, doc 112079, 2026-07-30), with Solutions Group at 18.6%, up 150 bps. Q2 already sits at the 2028 target level."},
+  "score": {"A_underperformance": 1, "B_catalyst": 1, "C_numeric_framing": 3, "D_unproven": 0, "total": 5},
+  "disqualified": true, "disqualifier_reason": "Margin target already reflected in consensus: FY2028 consensus adjusted EBITDA margin is 17.00% against management's 17%+ by 2028, a gap of 0 bps, and Q2 2026 already printed 17.1%. No CEO, CFO or material acquisition change in the window (Lovins returning from leave is not a new CFO).",
+  "verdict": "Clean calibration case of numeric framing without a management catalyst: the CFO has stated 17%+ by 2028 twice, but the street already models exactly 17% and there is no leadership or deal catalyst, so nothing is unproven; not a GXO setup.",
+  "open_questions": ["Is there upside to the '17%+' (for example Solutions Group into the high teens) that consensus is not modeling, or is 17% the realistic ceiling?", "Does the June 2026 Materials Group leadership change (Allouche for Yost) alter the margin plan in the larger segment?", "Is the 20.2% industry median the right peer bar for a label and packaging materials business?"],
+  "sources": [
+    {"document_id": 69479, "title": "Investor Day 2024", "date": "2024-09-18"},
+    {"document_id": 223908, "title": "Investor update", "date": "2026-09-23"},
+    {"document_id": 112079, "title": "AVERY DENNISON CORP Q2 2026 Earnings Call", "date": "2026-07-30"},
+    {"document_id": 197085, "title": "AVERY DENNISON CORP Q1 2026 Earnings Call", "date": "2026-04-28"},
+    {"document_id": 197089, "title": "AVERY DENNISON CORP Q4 2025 Earnings Call", "date": null},
+    {"document_id": 0, "title": "8-K 0000008818-26-000116 (Materials Group President)", "date": "2026-06-04"},
+    {"document_id": 0, "title": "8-K 0000008818-25-000034 (director David Flitman)", "date": "2025-07-24"},
+    {"document_id": 0, "title": "8-K 0000008818-25-000007 (Lovins resumes CFO role)", "date": "2025-03-31"}
+  ],
+  "tool_calls": 13
+}

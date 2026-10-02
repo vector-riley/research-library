@@ -1,0 +1,48 @@
+{
+  "ticker": "HRL", "cid": 1003012, "name": "Hormel Foods Corporation", "industry": "Packaged Foods & Meats", "as_of": "2026-10-02",
+  "quant": {"mcap_usd": 10999437040.0, "drawdown": -0.4077334812871116, "pctile_ev_ebitda_60m": 0.0, "price_ltm_pct": -0.1517830079919552,
+            "ebitda_margin_ltm": 0.11609481917642082, "industry_median_margin": 0.164, "ev_ebitda_fy": 9.042714915786926,
+            "net_debt_ltm_ebitda": 1.457299981940787, "ebitda_revision_12m": -0.039515655702374475, "ebitda_brokers": 5.0},
+  "catalyst": {"type": ["new_ceo", "new_cfo", "strategy_update"],
+               "events": [
+                 {"what": "Interim CEO appointed; CEO James Snee retires 2025-10-26", "who": "Jeffrey M. Ettinger", "from": "Hormel board; former Hormel CEO 2006-2016", "effective": "2025-07-14", "source": "8-K 0001104659-25-061357", "external_hire": false},
+                 {"what": "President and board member", "who": "John F. Ghingo", "from": "Hormel EVP Retail (joined Oct 2024; ex CEO Whisps, ex President Applegate)", "effective": "2025-07-14", "source": "8-K 0001104659-25-061357", "external_hire": false},
+                 {"what": "Permanent President and CEO named (pending)", "who": "John F. Ghingo", "from": "Hormel President", "effective": "2026-10-26", "source": "8-K 0000048465-26-000047", "external_hire": false},
+                 {"what": "CFO departure; interim CFO appointed", "who": "Jacinth Smiley out; Paul Kuehneman interim", "from": "Hormel Controller", "effective": "2025-10-27", "source": "8-K 0000048465-25-000047", "external_hire": false},
+                 {"what": "EVP and CFO appointed", "who": "Ash Bhumbla", "from": "SVP and CFO, Chicken segment, Tyson Foods", "effective": "2026-09-08", "source": "8-K 0000048465-26-000049", "external_hire": true},
+                 {"what": "Corporate restructuring: about 250 corporate and sales positions cut (about 9%); whole-bird turkey and Brazil divestitures", "who": "Jeff Ettinger", "from": "", "effective": "2025-12-04", "source": "45811", "external_hire": null}
+               ],
+               "months_since_primary": 14},
+  "margin_framing": {"numeric": false, "metric": "operating margin",
+                     "current_level_pct": 9.0, "target_level_pct": null, "target_year": null,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "We designed the program to deliver gross savings in the range of two to three times our expected cost to implement. And we expect that the payback timing will be quick within the first 12 months", "speaker": "Jeff Ettinger", "role": "Interim CEO", "doc_title": "Hormel Foods Corporation Q4 2025 Earnings Call", "date": "2025-12-04", "document_id": 45811},
+                       {"quote": "I mean, you're correct that the $20 million-$25 million number in terms of the one-time cost is what we've reported. And so your math of the two to three times works in that regard.", "speaker": "Jeff Ettinger", "role": "Interim CEO", "doc_title": "Hormel Foods Corporation Q4 2025 Earnings Call", "date": "2025-12-04", "document_id": 45811},
+                       {"quote": "We talked even on that call about that the realistic timing for over the long run in this company should be our algorithm. It should be the 2%-3% top line, the 5%-7% bottom line.", "speaker": "Jeff Ettinger", "role": "Interim CEO", "doc_title": "Hormel Foods Corporation Q2 2026 Earnings Call", "date": "2026-05-28", "document_id": 173066}
+                     ],
+                     "first_stated": "2025-12-04", "times_repeated": 1},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 11.27, "FY2027": 11.61, "FY2028": 10.46},
+             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": null,
+             "ebitda_uplift_pct_if_target_hit": null, "source": "Baba data_financials consensus (FY2028 likely thin coverage; ebitda_brokers 5)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [80, 60], "note": "Adjusted operating margin: Q2 FY26 expanded 80 bps (Kuehneman, doc 173066, 2026-05-28); Q3 FY26 9.0%, up 60 bps (Kuehneman, doc 200250, 2026-08-27); first nine months up 30 bps (Ghingo, doc 200250). FY26 adjusted EPS guide raised and narrowed to $1.45-$1.51 while organic sales guide cut to 1%-2%. No margin level or bps target has been issued by the new team; the only numeric framing is the 2%-3% sales and 5%-7% earnings growth algorithm and restructuring gross savings of 2x to 3x a $20M-$25M cost. The legacy Transform and Modernize target ($250M+ operating income by end FY2026) dates from the October 2023 Investor Day under the prior CEO and is outside the window. Margin is partly commodity driven (pork trim, beef, bellies, turkey); management divested whole-bird turkey to reduce that exposure."},
+  "score": {"A_underperformance": 2, "B_catalyst": 2, "C_numeric_framing": 1, "D_unproven": 2, "total": 7},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Cheap, de-rated and with flat estimates, but the CEO is an internal promotion and the new team has offered only a growth algorithm, not a numeric margin target, so the GXO-style gap between management framing and consensus does not yet exist.",
+  "open_questions": [
+    "Will Ghingo (CEO from 2026-10-26) and new CFO Bhumbla set a margin target or Investor Day with the FY2026 Q4 results in December?",
+    "How much of the 30-80 bps adjusted margin gains is commodity relief versus restructuring and portfolio pruning?",
+    "What replaces Transform and Modernize after FY2026, and was its $250M+ operating income target met?"
+  ],
+  "sources": [
+    {"document_id": 45811, "title": "Hormel Foods Corporation Q4 2025 Earnings Call", "date": "2025-12-04"},
+    {"document_id": 173067, "title": "Hormel Foods Corporation Q1 2026 Earnings Call", "date": "2026-02-26"},
+    {"document_id": 173066, "title": "Hormel Foods Corporation Q2 2026 Earnings Call", "date": "2026-05-28"},
+    {"document_id": 200250, "title": "Hormel Foods Corporation Q3 2026 Earnings Call", "date": "2026-08-27"},
+    {"document_id": 66213, "title": "AGM 2025 (legacy T&M $250M target)", "date": "2025"},
+    {"document_id": 0, "title": "8-K 0001104659-25-061357 (interim CEO, President)", "date": "2025-06-23"},
+    {"document_id": 0, "title": "8-K 0000048465-26-000047 (Ghingo named CEO)", "date": "2026-07-28"},
+    {"document_id": 0, "title": "8-K 0000048465-26-000049 (CFO Bhumbla)", "date": "2026-08-24"}
+  ],
+  "tool_calls": 15
+}

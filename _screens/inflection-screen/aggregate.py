@@ -26,13 +26,14 @@ def main():
         try: recs.append(json.load(open(fn)))
         except Exception as e: print('skip', fn, e)
     recs.sort(key=lambda r: (-(g(r,'score','total') or 0), r.get('ticker','')))
-    cols = ['ticker','total','A','B','C','D','disq','mcap_bn','drawdown','pctile','ebitda_margin','ind_median','ev_ebitda',
+    cols = ['ticker','total','setup','A','B','C','D','disq','mcap_bn','drawdown','pctile','ebitda_margin','ind_median','ev_ebitda',
             'nd_ebitda','rev_12m','catalyst','months','numeric','target','target_yr','street_at_target','gap_bps','verdict']
     rows = []
     for r in recs:
         rows.append({
             'ticker': r.get('ticker'), 'total': g(r,'score','total'), 'A': g(r,'score','A_underperformance'),
             'B': g(r,'score','B_catalyst'), 'C': g(r,'score','C_numeric_framing'), 'D': g(r,'score','D_unproven'),
+            'setup': 'yes' if (not r.get('disqualified') and (g(r,'score','B_catalyst') or 0) >= 2 and (g(r,'score','C_numeric_framing') or 0) >= 2 and (g(r,'score','D_unproven') or 0) >= 1) else '',
             'disq': 'yes' if r.get('disqualified') else '', 'mcap_bn': fmt(g(r,'quant','mcap_usd'),'bn'),
             'drawdown': fmt(g(r,'quant','drawdown'),'pct'), 'pctile': fmt(g(r,'quant','pctile_ev_ebitda_60m'),'pct'),
             'ebitda_margin': fmt(g(r,'quant','ebitda_margin_ltm'),'pct1' if (g(r,'quant','ebitda_margin_ltm') or 0) > 1 else 'pct'),
@@ -46,9 +47,9 @@ def main():
         w = csv.DictWriter(f, fieldnames=cols); w.writeheader(); [w.writerow(x) for x in rows]
     with open(os.path.join(a.run, 'ranked.md'), 'w') as f:
         f.write(f'# Inflection screen, ranked candidates ({os.path.basename(a.run)})\n\n')
-        f.write('Score components: A underperformance (0-2), B catalyst (0-3), C numeric margin framing (0-3), D unproven vs street (0-2).\n\n')
-        f.write('| Ticker | Score | A | B | C | D | DQ | Mcap $bn | Drawdown | Own-hist pctile | EBITDA mgn | Ind. median | EV/EBITDA | ND/EBITDA | 12m EBITDA rev | Catalyst | Months | Numeric? | Target % | Yr | Street @ yr | Gap bps | Verdict |\n')
-        f.write('|' + '---|'*23 + '\n')
+        f.write('Score components: A underperformance (0-2), B catalyst (0-3), C numeric margin framing (0-3), D unproven vs street (0-2). Setup = yes when not disqualified and B >= 2, C >= 2, D >= 1 all hold: the archetype is the conjunction, not the sum.\n\n')
+        f.write('| Ticker | Score | Setup | A | B | C | D | DQ | Mcap $bn | Drawdown | Own-hist pctile | EBITDA mgn | Ind. median | EV/EBITDA | ND/EBITDA | 12m EBITDA rev | Catalyst | Months | Numeric? | Target % | Yr | Street @ yr | Gap bps | Verdict |\n')
+        f.write('|' + '---|'*24 + '\n')
         for x in rows:
             f.write('| ' + ' | '.join(str(x[c]) if x[c] is not None else '' for c in cols) + ' |\n')
     print(f'{len(rows)} records -> {a.run}/ranked.md')

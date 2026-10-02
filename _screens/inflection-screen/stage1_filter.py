@@ -16,6 +16,7 @@ KEYS = ['cid','ticker','name','sector','industry','bucket','mcap','tev','price_l
         'rev_revision','ebitda_revision','ebitda_inflection','ebitda_turn_pct','rev_turn_pct','ebitda_brokers',
         'pretax_lfcf_yield_fy','pretax_lfcf_yield_fy1','pretax_lfcf_conversion','fdso_cagr_prior','founder_led',
         'screens_flagged','score','score_rank']
+REV_FLOOR = -0.10
 EXCL_SECT = {'Financials','Financial Services','Utilities','Energy'}
 EXCL_IND = {'Biotechnology','Pharmaceuticals','Drug Manufacturers - Specialty & Generic','Gold and Silver',
             'Precious Metals and Minerals','Uranium','Lithium','Copper','Diversified Metals & Mining',
@@ -57,8 +58,10 @@ def passes(r, indmed, secmed, reasons):
     # Gate 2: room to expand. EBITDA margin <= 15% absolute, or below industry (else sector) median and <= 30%
     ref = indmed.get(r['industry'], secmed.get(r['sector']))
     if not ((m <= 0.15) or (ref is not None and m < ref and m <= 0.30)): reasons['margin not below peers'] += 1; return False
-    # Gate 3: unproven. 12m consensus EBITDA revision between -30% and +10% (street has not underwritten it, and the story is not broken)
-    if rev is None or rev < -0.30 or rev > 0.10: reasons['ebitda revision outside -30%..+10%'] += 1; return False
+    # Gate 3: unproven, not broken. 12m forward EBITDA consensus revision between -10% and +10%.
+    # The 2026.10.02 pilot ran this at -30% and every name with a cut deeper than 10% turned out to be a broken story
+    # (estimates reset after an execution miss), not an unproven one. GXO sits at +0.4%.
+    if rev is None or rev < REV_FLOOR or rev > 0.10: reasons[f'ebitda revision outside {REV_FLOOR:+.0%}..+10%'] += 1; return False
     # Gate 4: balance sheet survivable. Net debt / LTM EBITDA <= 5x (None allowed)
     if lev is not None and lev > 5: reasons['leverage>5x'] += 1; return False
     r['_under'] = under; r['_indmed'] = round(ref, 3) if ref else None

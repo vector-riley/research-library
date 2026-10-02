@@ -1,0 +1,40 @@
+{
+  "ticker": "CNM", "cid": 1000002, "name": "Core & Main Inc", "industry": "Industrial Distribution", "as_of": "2026-10-02",
+  "quant": {"mcap_usd": 8001209240.92, "drawdown": -0.3807106598984772, "pctile_ev_ebitda_60m": 0.23333333333333334, "price_ltm_pct": -0.22942597064833736,
+            "ebitda_margin_ltm": 0.12273246797587108, "industry_median_margin": 0.107, "ev_ebitda_fy": 10.541277095755351,
+            "net_debt_ltm_ebitda": 2.246570497916928, "ebitda_revision_12m": -0.031697587071062516, "ebitda_brokers": 12.0},
+  "catalyst": {"type": ["strategy_update", "board_refresh"],
+               "events": [
+                 {"what": "Executive Chair Stephen LeClair retired; Lead Independent Director James Castellano became independent Chair; M. Susan Hardwick (ex CEO American Water Works) joined board", "who": "James Castellano; M. Susan Hardwick", "from": "existing independent director; American Water Works", "effective": "2026-04-01", "source": "8-K 0001856525-26-000034", "external_hire": null},
+                 {"what": "EVP and named executive officer retired", "who": "John R. Schaller", "from": null, "effective": "2025-10-31", "source": "8-K 0001856525-25-000160", "external_hire": null},
+                 {"what": "Internal CEO and CFO succession (OUTSIDE window by one day: effective 2025-03-31, window starts after 2025-04-01)", "who": "Mark Witkowski (CEO), Robyn Bradbury (CFO)", "from": "Core & Main (CFO since 2016; SVP Finance and IR)", "effective": "2025-03-31", "source": "8-K 0001856525-25-000082", "external_hire": false}
+               ],
+               "months_since_primary": 18},
+  "margin_framing": {"numeric": true, "metric": "adjusted EBITDA margin",
+                     "current_level_pct": 12.2, "target_level_pct": 15.0, "target_year": 2028,
+                     "annual_bps": 40, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "The next component of our long-term financial targets is driving Adjusted EBITDA margin expansion to 30-50 basis points annually. This equates to growing our margins by approximately 210 basis points from 2023 to 2028, reflecting Adjusted EBITDA margins of approximately 15% or $1.5 billion.", "speaker": "Mark Witkowski", "role": "CFO (now CEO)", "doc_title": "Investor Day 2023", "date": "2023-10-04", "document_id": 6831},
+                       {"quote": "It's not a surprise at all for us to know that, you know, we've got annual goals that are higher than that 30-50 basis points that we laid out there. I'm very confident, given the levers that we've laid out and we've continued to execute against, that we can achieve those goals.", "speaker": "Mark Witkowski", "role": "CEO", "doc_title": "Core & Main Inc Q1 2026 Earnings Call (fiscal Q1 2025)", "date": "2025-06-10", "document_id": 114473},
+                       {"quote": "I think now it looks like you maybe need like 70 basis points of margin expansion per year to hit that number versus I think it was kind of 40-50 basis points per year at the time of the investor day and kind of the long-term annual value creation targets.", "speaker": "Brian Biros", "role": "Analyst, Thompson Research Group (not management)", "doc_title": "Core & Main Inc Q1 2026 Earnings Call (fiscal Q1 2025)", "date": "2025-06-10", "document_id": 114473}
+                     ],
+                     "first_stated": "2023-10-04", "times_repeated": 3},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 12.27, "FY2027": 12.60, "FY2028": 12.82},
+             "consensus_margin_at_target_year_pct": 12.82, "gap_bps_vs_target": -218,
+             "ebitda_uplift_pct_if_target_hit": 17.05, "source": "Baba data_financials consensus. Company fiscal years end about Feb 1, so company FY N = VA FY-(N+1): FY2026 = VA FY-2027, FY2028 = VA FY-2029 (EBITDA 1,100.2M on revenue 8,584.9M)."},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [10, 10], "note": "Fiscal Q1 2026 (reported 2026-06-10): adjusted EBITDA margin up 10 bps to 11.8% (Robyn Bradbury, doc 6587). Fiscal Q2 2026 (reported 2026-09-09): up 10 bps to 12.8% (doc 219295). Fiscal 2025 full year was down 30 bps to 12.2% (doc 6588). Reaching 15% by fiscal 2028 from 12.2% needs about 93 bps a year; recent pace is about 10 bps."},
+  "score": {"A_underperformance": 2, "B_catalyst": 1, "C_numeric_framing": 3, "D_unproven": 2, "total": 8},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Mechanically scores well (explicit 15% by fiscal 2028 target, consensus 218 bps short) but it is a stale 2023 target under an internal successor team whose change landed one day outside the window, margin already sits above the industry median, and progress runs at 10 bps a year, so this is a credibility gap more than a GXO-style inflection.",
+  "open_questions": ["Will management formally reset or reaffirm the 15% fiscal 2028 target (new investor day), given the needed pace is about 93 bps a year versus 10 bps delivered?", "Does the April 2026 independent Chair and board refresh signal a strategy change, or only governance housekeeping after LeClair's exit?", "Stage 1 shows CNM margin (12.3%) above the industry median (10.7%); is the peer set (Ferguson, Watsco, distributors) right for judging a below-peer margin gap?"],
+  "sources": [
+    {"document_id": 6831, "title": "Investor Day 2023", "date": "2023-10-04"},
+    {"document_id": 114473, "title": "Core & Main Inc Q1 2026 Earnings Call (fiscal Q1 2025)", "date": "2025-06-10"},
+    {"document_id": 6588, "title": "Core & Main Inc Q4 2026 Earnings Call (fiscal Q4 2025)", "date": "2026-03-24"},
+    {"document_id": 6587, "title": "Core & Main Inc Q1 2027 Earnings Call (fiscal Q1 2026)", "date": "2026-06-10"},
+    {"document_id": 219295, "title": "Core & Main Inc Q2 2027 Earnings Call (fiscal Q2 2026)", "date": "2026-09-09"},
+    {"document_id": 0, "title": "8-K 0001856525-25-000082 (CEO Witkowski, CFO Bradbury)", "date": "2025-03-25"},
+    {"document_id": 0, "title": "8-K 0001856525-26-000034 (Chair transition, Hardwick appointed)", "date": "2026-03-27"}
+  ],
+  "tool_calls": 14
+}

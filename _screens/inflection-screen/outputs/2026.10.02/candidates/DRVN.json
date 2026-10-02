@@ -1,0 +1,199 @@
+{
+  "ticker": "DRVN",
+  "cid": 1004971,
+  "name": "Driven Brands Holdings Inc",
+  "industry": "Specialized Consumer Services",
+  "as_of": "2026-10-02",
+  "quant": {
+    "mcap_usd": 1914906960.0,
+    "drawdown": -0.3852,
+    "pctile_ev_ebitda_60m": 0.0167,
+    "price_ltm_pct": -0.2669,
+    "ebitda_margin_ltm": 0.2247,
+    "industry_median_margin": 0.266,
+    "ev_ebitda_fy": 6.95,
+    "net_debt_ltm_ebitda": 3.4,
+    "ebitda_revision_12m": -0.2346,
+    "ebitda_brokers": 7
+  },
+  "catalyst": {
+    "type": [
+      "new_ceo",
+      "strategy_update",
+      "board_refresh"
+    ],
+    "events": [
+      {
+        "what": "President and CEO succession (announced 2025-02-25)",
+        "who": "Daniel Rivera (ex COO)",
+        "from": "Jonathan Fitzpatrick (stays Non-Executive Chair)",
+        "effective": "2025-05-09",
+        "source": "8-K 0001804745-25-000005; 8-K/A 0001804745-25-000018",
+        "external_hire": false
+      },
+      {
+        "what": "COO appointed",
+        "who": "Muhammad Khalid (ex President of Take 5)",
+        "from": "",
+        "effective": "2025-08-25",
+        "source": "8-K 0001804745-25-000077",
+        "external_hire": false
+      },
+      {
+        "what": "Independent director elected (Audit Committee)",
+        "who": "Timothy Johnson (ex CFO Victoria's Secret, Big Lots)",
+        "from": "",
+        "effective": "2026-01-01",
+        "source": "8-K 0001804745-25-000097",
+        "external_hire": true
+      },
+      {
+        "what": "Chief Accounting Officer appointed",
+        "who": "Rebecca Fondell (ex Papa John's)",
+        "from": "",
+        "effective": "2025-05-09",
+        "source": "8-K 0001804745-25-000041",
+        "external_hire": true
+      },
+      {
+        "what": "New Chief Marketing Officer role created",
+        "who": "Bart LaCount (ex PepsiCo, RBI/Popeyes)",
+        "from": "new position",
+        "effective": null,
+        "source": "Q1 2026 Earnings Call, doc 193272 (Danny Rivera)",
+        "external_hire": true
+      },
+      {
+        "what": "Updated capital allocation framework: long-term net leverage 2-3x, $100M buyback, keep investing in Take 5 growth",
+        "who": "Board",
+        "from": "",
+        "effective": "2026-09-15",
+        "source": "8-K 0001628280-26-061963, Baba doc 221421",
+        "external_hire": null
+      },
+      {
+        "what": "US and international car wash businesses divested (shown in discontinued operations)",
+        "who": "",
+        "from": "",
+        "effective": null,
+        "source": "Q2 2026 Earnings Call, doc 130231 (Mike Diamond)",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 16
+  },
+  "margin_framing": {
+    "numeric": false,
+    "metric": "adjusted EBITDA margin (no target; the only numeric framework is net leverage)",
+    "current_level_pct": 21.1,
+    "target_level_pct": null,
+    "target_year": null,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "Overall, in the long term, you may see some margin expansion, but in the short term, we're preserving dollars.",
+        "speaker": "Danny Rivera",
+        "role": "President and CEO",
+        "doc_title": "Driven Brands Holdings Inc Q2 2026 Earnings Call",
+        "date": "2026-08-06",
+        "document_id": 130231
+      },
+      {
+        "quote": "Adjusted EBITDA margin for Q2 was 21.1%, a decrease of approximately 300 basis points versus Q2 2025, driven primarily by restatement costs.",
+        "speaker": "Mike Diamond",
+        "role": "EVP and CFO",
+        "doc_title": "Driven Brands Holdings Inc Q2 2026 Earnings Call",
+        "date": "2026-08-06",
+        "document_id": 130231
+      },
+      {
+        "quote": "Setting a long-term net leverage target of 2-3x Net Debt to Adjusted EBITDA. This range balances financial flexibility, investment capacity and efficient use of capital while maintaining a strong balance sheet.",
+        "speaker": "Company press release (Rivera and Diamond quoted)",
+        "role": "Board / CEO / CFO",
+        "doc_title": "Driven Brands Holdings Inc. 8-K, EX-99.1 Updated Capital Allocation Priorities",
+        "date": "2026-09-15",
+        "document_id": 221421
+      }
+    ],
+    "first_stated": "2026-08-06",
+    "times_repeated": 1
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 21.86,
+      "FY2027": 22.47,
+      "FY2028": 22.69
+    },
+    "consensus_margin_at_target_year_pct": null,
+    "gap_bps_vs_target": null,
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials consensus"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      -138,
+      -300
+    ],
+    "note": "Q1 2026 adjusted EBITDA margin 21.5% (104.1/484.4) vs 22.9% (102.3/447.6) in Q1 2025, from consensus actuals, matching CEO's 21.5% (doc 193272). Q2 2026 21.1%, about -300 bps per CFO, mostly $11.8M of restatement costs; excluding them, adjusted EBITDA rose 3.4% (doc 130231). FY2026 adjusted EBITDA guide $430M to $460M, trending to the low end, versus consensus $439M. Net leverage reached the 3.0x target a quarter early (8-K 2026-09-15)."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 2,
+    "C_numeric_framing": 1,
+    "D_unproven": 0,
+    "total": 5
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Cheap and down, with an internal CEO and a new leverage and buyback framework, but no margin target; the -23% EBITDA revision (partly from car wash divestitures and restatement costs) puts this outside the GXO pattern.",
+  "open_questions": [
+    "How much of the -23.5% FY2027 EBITDA revision is car wash deconsolidation versus true operating cuts? Pull consensus_history pid=4250 around the divestiture dates.",
+    "Will Rivera follow the leverage framework with a margin or EBITDA growth algorithm (for example, at an Investor Day) now that 3.0x is reached?",
+    "Are the material weaknesses and restatement (costs at the top of the $35M to $45M range) fully remediated, and does the securitization audit carry any risk?"
+  ],
+  "sources": [
+    {
+      "document_id": 130231,
+      "title": "Driven Brands Holdings Inc Q2 2026 Earnings Call",
+      "date": "2026-08-06"
+    },
+    {
+      "document_id": 193272,
+      "title": "Driven Brands Holdings Inc Q1 2026 Earnings Call",
+      "date": "2026-06-11"
+    },
+    {
+      "document_id": 221421,
+      "title": "Driven Brands Holdings Inc. 8-K (Updated Capital Allocation Priorities)",
+      "date": "2026-09-15"
+    },
+    {
+      "document_id": 221647,
+      "title": "Goldman Sachs Global Consumer and Retail Conference",
+      "date": "2026-09-15"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001804745-25-000005 (CEO succession)",
+      "date": "2025-02-25"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001804745-25-000077 (COO)",
+      "date": "2025-08-25"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001804745-25-000097 (director)",
+      "date": "2025-12-22"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps / data_financials consensus",
+      "date": "2026-10-01"
+    }
+  ],
+  "tool_calls": 14
+}
