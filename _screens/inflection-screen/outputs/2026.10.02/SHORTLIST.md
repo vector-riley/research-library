@@ -54,6 +54,31 @@ walked back, are:
 Large gaps that are not setups even on this view: PLUG (+987, loss-making), PVH (+652, target missed and not repeated),
 FOUR (+512, gross-revenue artifact), HIMS (+497, margins down by choice), EFOR (+255, CEO since 2019, margins falling).
 
+## Stage 4: macro or execution, for the same-team strategy names
+
+Riley's refinement: a stated strategy with the same people qualifies when the people are founders or long-tenured
+operators AND the margin compression they promise to reverse was mostly the cycle, not them. Five Opus agents tested
+that on the 19 same-team names with a measurable gap, comparing each company's peak-to-trough margin decline with its
+peer median over the same years. Full table: `attribution.md`.
+
+Result: 1 macro-led, 4 mixed, 14 execution-led. In most of these stories the company lost margin that its peers did
+not, which is the opposite of the GXO shape and explains why the first-pass weighting on management change was not as
+wrong as it looked. The names that survive the rule, in order:
+
+| Ticker | Verdict | Ratio | Tenure | Gap bps | Read |
+|---|---|---|---|---|---|
+| EEFT | mixed, leaning macro | 2.73 | founder CEO since 1994 | +178 | Peers fell 160 bps vs its 59 bps and it closed the gap to peers; still 455 bps below its 2019 peak while peers rose, and margin is slipping on rising revenue. Closest fit to the rule. |
+| LOW | mixed, leaning macro | 1.30 | CEO 99 months | +181 | Peers fell as much; Lowe's lead over peers widened; but it missed its 14.5% fiscal 2025 goal and the 14%+ is undated; December 2026 is the event. |
+| EFOR | mixed, leaning macro | 1.25 | CEO 89 months | +255 | Peers fell as much and the gap narrowed; but the decline is still running after peers stabilized and Q1 2026 was called a mix miss. |
+| UFPI | macro-led | 4.91 | CEO 21 months but 28 years at the company; CFO 22 years | +329 | Peers (lumber and OSB mills) fell five times as far; UFPI gained relative position. Fails the strict tenure test on the CEO date only. Ratio is inflated by mill peers (about 3.6 on a stricter set). |
+
+Failed on execution despite long tenure: CVNA (founder, but the 2022 trough was self-inflicted and peers barely moved),
+RPM (CEO since 2002, 16% target missed since 2018, performance shares vested at zero), STRA (margin fell 1,200 bps
+while peers rose), OC (organic ratio 0.34, premium to peers nearly gone), BWXT (acquisition mix, not cycle).
+Failed on both: JBTM (ratio 0.17, missed FoodTech guides, the 2028 target mostly reverses Marel dilution), OSK (peers
+rose while it fell, two EPS guide cuts), CNM (SG&A on rising revenue, two missed years against its own 30 to 50 bps
+rule), DXC, KD, TNET, ADNT, NWL, WWW, KNF.
+
 ## Tier 3: numbers without a CEO change (framing stories; a CFO or deal is the only catalyst)
 
 DXC (9: 8% to 10% EBIT by FY2029 vs 7.7% street, external President, CEO 32 months in), KD (9: forced finance

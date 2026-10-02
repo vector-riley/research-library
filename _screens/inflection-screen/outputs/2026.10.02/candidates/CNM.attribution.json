@@ -1,0 +1,68 @@
+{
+  "ticker": "CNM",
+  "metric": "EBITDA margin",
+  "fy_label_note": "Company fiscal years end around February 1, so Baba/VA labels run one year ahead: company fiscal N = VA FY-(N+1). This record uses COMPANY fiscal labels (fiscal 2022 = VA FY-2023, ended about 2023-01-29; fiscal 2025 = VA FY-2026). Five actual company years: fiscal 2021 12.07% (VA FY-2022), fiscal 2022 14.06%, fiscal 2023 13.58%, fiscal 2024 12.50%, fiscal 2025 12.17% (matches the company's 12.2%, doc 6588 per stage 3); fiscal 2026E 12.27% (VA FY-2027). Peers are mostly December years, so company fiscal N is compared with peer VA FY-N (Ferguson's year ends July and Reece's June, about half a year earlier).",
+  "company": {
+    "peak_fy": "fiscal 2022 (VA FY-2023)",
+    "peak_margin_pct": 14.058,
+    "trough_fy": "fiscal 2025 (VA FY-2026)",
+    "trough_margin_pct": 12.1747,
+    "ltm_margin_pct": 12.224,
+    "ltm_note": "Q3 and Q4 fiscal 2025 plus Q1 and Q2 fiscal 2026 (VA 3Q/4QFY-2026, 1Q/2QFY-2027): EBITDA $941M on revenue $7,698M (data_compute).",
+    "decline_bps": 188.33,
+    "revenue_peak_to_trough_pct": 14.98,
+    "path_pct": {"fiscal 2021": 12.07, "fiscal 2022": 14.06, "fiscal 2023": 13.58, "fiscal 2024": 12.5, "fiscal 2025": 12.17, "fiscal 2026E": 12.27}
+  },
+  "peers": {
+    "tickers": ["FERG", "REH", "WSO", "SITE", "WCC"],
+    "selection_note": "Waterworks, plumbing, HVAC, irrigation and utility/infrastructure distributors from data_comps Industrial Distribution: Ferguson (the main waterworks competitor), Reece (US waterworks and plumbing via MORSCO), Watsco, SiteOne, WESCO. Excluded industrial MRO (GWW, FAST, MSM), Japanese trading houses and Boise Cascade (wood-products manufacturing swings).",
+    "per_peer_ebitda_margin_pct": {
+      "FERG": {"FY2022": 11.04, "FY2025": 10.36},
+      "REH": {"FY2022": 10.95, "FY2025": 10.03},
+      "WSO": {"FY2022": 11.92, "FY2025": 10.55},
+      "SITE": {"FY2022": 11.57, "FY2025": 8.8},
+      "WCC": {"FY2022": 8.06, "FY2025": 6.54}
+    },
+    "median_peak_margin_pct": 11.0385,
+    "median_trough_margin_pct": 10.03,
+    "median_decline_bps": 100.85,
+    "median_note": "All five peers peaked in the 2021-2022 inflation window and compressed by FY2025 (falls of 68 to 276 bps). Four of five did so on higher revenue (WSO revenue roughly flat), so margin falling on rising revenue is an industry pattern, not unique to CNM.",
+    "source": "Baba data_financials fundamentals (Visible Alpha, fetched 2026-09-28 to 2026-10-01)"
+  },
+  "attribution_ratio": 0.5355,
+  "relative_position_bps": {"at_peak": 301.96, "at_trough": 214.47},
+  "management_attribution": [
+    {"quote": "Adjusted EBITDA for fiscal 2023 decreased approximately 3% to $910 million, and adjusted EBITDA margin decreased 50 basis points to 13.6%. The decrease in adjusted EBITDA margin was due to the impact of cost inflation on SG&A and investments to drive growth.", "speaker": "Mark Witkowski, then CFO", "date": "2024-03-19", "document_id": 5079},
+    {"quote": "We estimate that end market volumes were down low to mid-single digits for the year, underpinned by a double-digit decline in residential lab development, a low to mid-single-digit decline in non-residential construction, partially offset by low single-digit growth in municipal repair and replacement activity.", "speaker": "Mark Witkowski, then CFO", "date": "2024-03-19", "document_id": 5079},
+    {"quote": "However, higher operating costs and softer residential demand have resulted in operating margins coming in below our expectations. As a result, we are lowering our guidance to reflect current market conditions and higher operating expenses.", "speaker": "Robyn Bradbury, CFO", "date": "2025-09-09", "document_id": 6590}
+  ],
+  "track_record": {
+    "prior_dated_targets": [
+      {"target": "Adjusted EBITDA margin expansion of 30-50 bps per year (Investor Day 2023, doc 6831)", "set": "2023-10-04", "due": "annual, fiscal 2024 onward", "outcome": "missed", "evidence": "Fiscal 2024 12.50% vs fiscal 2023 13.58% (about -108 bps); fiscal 2025 12.17% (about -33 bps), VA. Missed in both years since set."},
+      {"target": "About 15% adjusted EBITDA margin in fiscal 2028 (Investor Day 2023, reaffirmed by LeClair doc 5079)", "set": "2023-10-04", "due": "fiscal 2028", "outcome": "pending", "evidence": "Fiscal 2028 consensus 12.82% (stage 3); needs about 93 bps a year from 12.2%."},
+      {"target": "Fiscal 2025 adjusted EBITDA guidance", "set": "initial fiscal 2025 guide (date not pulled)", "due": "fiscal 2025", "outcome": "missed", "evidence": "Lowered to $920M-$940M on higher operating costs and softer residential (Bradbury, doc 6590); delivered $931M (VA)."}
+    ],
+    "restatement_or_weakness": false,
+    "share_loss_admitted": false,
+    "note": "Management says share gains from fiscal 2021-2022 were maintained (doc 5079); no share loss admitted. No restatement or weakness surfaced in this pass (10-K Item 9A not specifically searched)."
+  },
+  "tenure": {
+    "ceo": "Mark Witkowski",
+    "ceo_start": "2025-03-31 (internal; 8-K 0001856525-25-000082; CFO since 2016 per stage 3)",
+    "ceo_months": 18,
+    "founder": false,
+    "cfo": "Robyn Bradbury",
+    "cfo_start": "2025-03-31 (internal, ex SVP Finance and IR)",
+    "cfo_months": 18,
+    "long_tenured": false,
+    "long_tenured_note": "Both 18 months in seat. Witkowski has been at Core & Main as CFO since 2016 and set the 2023 targets, so the people are long-tenured insiders, but neither passes the 84-month CEO test."
+  },
+  "verdict": "execution_led",
+  "deciding_facts": [
+    "Margin fell 188 bps (14.06% to 12.17%) on revenue up 15.0%, and management pins it on SG&A: cost inflation and growth investments, with gross margin flat to up (docs 5079, 6590). The industry explains only about half (ratio 0.54, peer median -101 bps), and the lead over peers shrank from +302 to +214 bps.",
+    "Pattern of misses: the 30-50 bps a year expansion target set in October 2023 was missed in both fiscal 2024 and fiscal 2025, and fiscal 2025 guidance was cut."
+  ],
+  "confidence": "medium",
+  "confidence_note": "On the ratio alone this would be mixed (0.54), and the peak was the industry-wide 2022 inflation windfall, with all five peers compressing on mostly rising revenue. The execution call rests on the SG&A attribution and the missed annual targets, not on the industry cycle.",
+  "tool_calls": 17
+}

@@ -8,3 +8,9 @@ Open questions:
 1. Can fire-truck throughput and the NGDV ramp take margins from about 8% LTM to 12% to 14% by 2028, or does the target get reset?
 2. How much of the gap is Access cyclicality (11.3% in Q2 vs 14% to 16% target) versus Vocational and Transport execution?
 3. Is any leadership change or new framework event pending that would re-underwrite 2028?
+
+## Macro or execution
+Verdict: execution_led (confidence medium). Ratio -1.14 = peer median change -100 bps (TEX, FSS, KCR, ALSN operating margin 13.82% FY2024 to 14.83% FY2025, i.e. peers rose) / OSK decline 88 bps (VA adjusted operating margin 10.52% to 9.64%, revenue -3.1%); VA LTM 8.72%, FY2026E 8.79%. December FY, labels match.
+Relative position: -330 bps vs peer median at peak, -518 bps at trough. Only Terex (the direct JLG comp) fell in step (-90 bps), so Access is cyclical; the rest is fire-truck throughput, NGDV ramp and mix, with Q2 2026 margin down on revenue +6.7%. 2022 plan hit early; 2025 and 2026 EPS guides both cut.
+Management: "As we implement new material flow processes we anticipate a more gradual improvement in fire truck throughput than we previously expected." (John Pfeifer, CEO, Q2 2026 release, 2026-07-28, doc 143721)
+Tenure: CEO John Pfeifer since 2021-04-02 (66 months, not founder); CFO Matt Field since 2024-12-16 (21 months, external). Not long-tenured.

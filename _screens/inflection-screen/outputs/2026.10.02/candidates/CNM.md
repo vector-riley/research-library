@@ -10,3 +10,9 @@ Open questions:
 1. Will management reset or reaffirm the 15% fiscal 2028 target, given the pace needed?
 2. Does the April 2026 independent Chair and board refresh (8-K 0001856525-26-000034) bring any strategy change?
 3. Is the Stage 1 peer set right, given CNM's 12.3% margin is above the 10.7% industry median?
+
+## Macro or execution
+Verdict: execution_led (confidence medium; ratio alone says mixed). Ratio 0.54 = peer median decline 101 bps (FERG, REH, WSO, SITE, WCC EBITDA margin 11.04% FY2022 to 10.03% FY2025) / CNM decline 188 bps (14.06% fiscal 2022 to 12.17% fiscal 2025, company labels = VA FY+1) on revenue +15.0%; LTM 12.22%.
+Relative position: +302 bps vs peer median at peak, +214 bps at trough (lead kept but narrowed). Management reports gross margin up (fiscal 2023 +10 bps, Q2 fiscal 2025 +40 bps), so the slide is SG&A. The 30-50 bps a year target from October 2023 was missed in fiscal 2024 and 2025, and fiscal 2025 guidance was cut.
+Management: "The decrease in adjusted EBITDA margin was due to the impact of cost inflation on SG&A and investments to drive growth." (Mark Witkowski, then CFO, Q4 fiscal 2023 call, 2024-03-19, doc 5079)
+Tenure: CEO Mark Witkowski since 2025-03-31 (18 months, not founder; CFO since 2016); CFO Robyn Bradbury since 2025-03-31 (18 months). Insiders, but they fail the 84-month CEO test.

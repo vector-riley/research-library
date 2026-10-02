@@ -9,3 +9,9 @@ Open questions:
 1. Does the Investor Day restate 16% with a year, or reset toward the board's 14% PSU target?
 2. Is Dennsteadt's promotion the start of a CEO handover, and when ("next couple of years")?
 3. How much fiscal 2027 margin is lost to 5% to 8% raw material inflation before pricing catches up?
+
+## Macro or execution
+Verdict: execution_led (confidence high). Ratio 0.40 = peer median decline 105 bps (SHW, PPG, AKZO, AXTA, SIK, FUL operating margin, calendar-weighted to RPM's May year: 14.06% to 13.01%) / RPM decline 260 bps (VA operating margin 12.95% FY2021 to 10.35% FY2022, revenue +9.8%); LTM 12.65%. The ratio ranges from 0.36 to 0.78 depending on how peer years are aligned.
+Relative position: -111 bps vs peer median at peak, -266 bps at trough, and still about -255 bps in FY2025 after peers recovered above pre-shock levels. 16% EBIT was set in 2018 and missed again under MAP 2025; 2024-2026 PSUs vested at 0%.
+Management: "We're not back to the margin profile in a few of our businesses that we were pre-COVID, and so we've got work to do there." (Frank Sullivan, Chair and CEO, Q4 FY2023 call, 2023-07-26, doc 99385)
+Tenure: CEO Frank Sullivan since 2002 (at least 286 months, not founder); CFO Russell Gordon since 2012-04-10 (173 months). Long-tenured. Dennsteadt was named President and COO on 2026-07-17.

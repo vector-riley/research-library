@@ -1,0 +1,75 @@
+{
+  "ticker": "OSK",
+  "metric": "operating margin",
+  "fy_label_note": "December fiscal year; Baba/VA FY labels equal calendar years. VA operating income is on the company's adjusted basis (stage 3: VA FY2025 9.64% matches the company's 9.6% adjusted figure). Five-year actual path FY2021 6.77%, FY2022 4.64%, FY2023 9.41%, FY2024 10.52%, FY2025 9.64%; FY2026E 8.79%. The five-year low (FY2022) precedes the peak, so the decline the 2028 target must reverse is measured peak FY2024 to trough FY2025 (latest actual year), with LTM shown separately. The earlier FY2021 to FY2022 episode is recorded in secondary_window.",
+  "company": {
+    "peak_fy": "FY2024",
+    "peak_margin_pct": 10.519,
+    "trough_fy": "FY2025",
+    "trough_margin_pct": 9.642,
+    "ltm_margin_pct": 8.7213,
+    "ltm_note": "Q2 FY2025 to Q1 FY2026, last four VA actual quarters (operating income $909.4M on revenue $10,427.3M, data_compute). VA has not loaded Q2 FY2026; company adjusted operating margin Q2 2026 was 8.8% vs 11.5% (8-K EX-99.1, doc 143721), and stage 3 company-basis LTM Q3 2025 to Q2 2026 is 8.05%. Peak to VA LTM is about 180 bps.",
+    "decline_bps": 87.74,
+    "revenue_peak_to_trough_pct": -3.1,
+    "path_pct": {"FY2021": 6.77, "FY2022": 4.64, "FY2023": 9.41, "FY2024": 10.52, "FY2025": 9.64, "FY2026E": 8.79}
+  },
+  "peers": {
+    "tickers": ["TEX", "FSS", "KCR", "ALSN"],
+    "selection_note": "Specialty vehicle and equipment makers: Terex (Genie aerial work platforms, the direct JLG competitor), Federal Signal (specialty municipal vehicles), Konecranes (lifting equipment), Allison Transmission (drivetrains for vocational, fire and defense vehicles; component supplier, operating margin about 33%, below the 60% cutoff). REV Group, Alamo and Manitou are not in Baba. TEX FY2026 and ALSN FY2026 consensus include large acquisitions, so only actual years are compared.",
+    "per_peer_operating_margin_pct": {
+      "TEX": {"FY2021": 8.44, "FY2022": 9.51, "FY2024": 11.34, "FY2025": 10.44},
+      "FSS": {"FY2021": 10.72, "FY2022": 11.17, "FY2024": 15.33, "FY2025": 16.44},
+      "KCR": {"FY2021": 8.76, "FY2022": 8.52, "FY2024": 12.32, "FY2025": 13.22},
+      "ALSN": {"FY2021": 30.81, "FY2022": 30.77, "FY2024": 32.68, "FY2025": 33.65}
+    },
+    "median_peak_margin_pct": 13.8224,
+    "median_trough_margin_pct": 14.8256,
+    "median_decline_bps": -100.32,
+    "median_note": "Negative decline = the peer median rose 100 bps FY2024 to FY2025. Only TEX fell (-90 bps, almost the same as OSK's -88 bps), so the Access piece tracks its direct competitor; FSS, KCR and ALSN expanded.",
+    "source": "Baba data_financials fundamentals (Visible Alpha, fetched 2026-10-01)"
+  },
+  "attribution_ratio": -1.1433,
+  "relative_position_bps": {"at_peak": -330.31, "at_trough": -518.38},
+  "secondary_window": {
+    "window": "FY2021 to FY2022 (inflation and supply-chain shock, NGDV start-up)",
+    "company_margin_pct": {"FY2021": 6.77, "FY2022": 4.644},
+    "company_decline_bps": 212.6,
+    "company_revenue_change_pct": 4.1,
+    "peer_median_margin_pct": {"FY2021": 9.74, "FY2022": 10.34},
+    "note": "Peer median (middle two of TEX, FSS, KCR, ALSN) rose about 60 bps while OSK fell about 213 bps on higher revenue. Script-derived from the same Baba pulls; not run through data_compute."
+  },
+  "management_attribution": [
+    {"quote": "I want to emphasize that end market activity in our Access segment is healthy, but we are seeing customers be more cautious in the near term regarding new equipment purchases as a result of tariffs and the current economic environment.", "speaker": "John Pfeifer, President and CEO", "date": "2025-10-29", "document_id": 51852},
+    {"quote": "As we implement new material flow processes we anticipate a more gradual improvement in fire truck throughput than we previously expected. Accordingly, we are updating our full-year adjusted earnings per share outlook to approximately $11.00.", "speaker": "John Pfeifer, President and CEO (Q2 2026 release, 8-K EX-99.1)", "date": "2026-07-28", "document_id": 143721},
+    {"quote": "Access segment operating income in the second quarter of 2026 decreased 16.5 percent to $151.6 million, or 11.0 percent of sales, compared to $181.6 million, or 14.5 percent of sales, in the second quarter of 2025. The decrease was primarily due to adverse sales mix, adverse price/cost dynamics, higher litigation reserves, higher selling, general and administrative expenses and higher new product development spending, offset in part by higher sales volume.", "speaker": "Company release (8-K EX-99.1)", "date": "2026-07-28", "document_id": 143721}
+  ],
+  "track_record": {
+    "prior_dated_targets": [
+      {"target": "May 2022 Investor Day targets for 2025 (revenue, operating margin, EPS, RoEC)", "set": "2022-05", "due": "2025", "outcome": "hit", "evidence": "Field: 'We achieved many of those targets a year ahead of schedule... We doubled operating margin... While RoEC fell short of targets' (doc 68130). RoEC missed."},
+      {"target": "FY2025 adjusted EPS guidance", "set": "2025-01-30", "due": "2025-12-31", "outcome": "missed", "evidence": "Cut to $10.50-$11.00 on lower Access and Transport revenue (Pfeifer, doc 51852)."},
+      {"target": "FY2026 adjusted EPS guidance", "set": "initial 2026 guide, Q4 2025 call (doc 188321, date not pulled)", "due": "2026-12-31", "outcome": "missed", "evidence": "Cut to about $11.00 on slower fire-truck throughput (doc 143721)."},
+      {"target": "2028: 12%-14% adjusted operating margin, $13B-$14B revenue, 50-100 bps margin expansion per year (Investor Day 2025)", "set": "2025-06-05", "due": "2028", "outcome": "pending", "evidence": "Margin has moved the wrong way since: FY2025 9.64%, VA LTM 8.72%, FY2026E 8.79%."}
+    ],
+    "restatement_or_weakness": false,
+    "share_loss_admitted": false,
+    "note": "No restatement, control weakness or share-loss admission surfaced in this pass (10-K Item 9A not specifically searched). Fire-truck throughput is an operational admission, not share loss."
+  },
+  "tenure": {
+    "ceo": "John Pfeifer",
+    "ceo_start": "2021-04-02 (8-K 0001104659-20-126932, per stage 3)",
+    "ceo_months": 66,
+    "founder": false,
+    "cfo": "Matthew Field (external, ex Joby Aviation and Ford)",
+    "cfo_start": "2024-12-16 (8-K 0001104659-24-124634)",
+    "cfo_months": 21,
+    "long_tenured": false
+  },
+  "verdict": "execution_led",
+  "deciding_facts": [
+    "Peers expanded while OSK compressed: peer median operating margin rose 100 bps FY2024 to FY2025 (13.82% to 14.83%) against an 88 bps OSK decline (10.52% to 9.64%), ratio -1.14, and the gap to peers widened from -330 to -518 bps. Only Terex, the direct Access comp, fell in step (-90 bps), so the access cycle explains the Access piece, not the consolidated slide.",
+    "The decline is continuing on rising revenue and is tied to plant execution: Q2 2026 sales +6.7% with adjusted operating margin 11.5% to 8.8%, Access margin down on mix, price/cost and litigation despite +9.4% sales, and the 2026 guide cut on slower fire-truck throughput after the 2025 guide was also cut."
+  ],
+  "confidence": "medium",
+  "confidence_note": "Four peers, one including a component supplier (ALSN); excluding ALSN the median still rises 89 bps (KCR 12.32 to 13.22). The 2028 target was set under the current CEO, who also hit the 2022 plan early, so the record is mixed rather than a pattern of misses.",
+  "tool_calls": 26
+}

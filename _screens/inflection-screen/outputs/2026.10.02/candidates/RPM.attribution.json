@@ -1,0 +1,72 @@
+{
+  "ticker": "RPM",
+  "metric": "operating margin",
+  "fy_label_note": "May fiscal year; Baba/VA FY labels equal company fiscal years (FY2022 = June 2021 to May 2022). VA operating margin runs about 30 to 50 bps below company adjusted EBIT (stage 3: FY2026 VA 12.84% at that pull vs adjusted EBIT 13.3%). VA FY2026 still carries a Q4 estimate (12.65%), so the five actual years are FY2021 to FY2025: 12.95%, 10.35%, 11.73%, 12.83%, 12.95%. Peers have December years, so each RPM year is compared with a calendar-weighted peer margin (7/12 of peer FY N-1 plus 5/12 of peer FY N). Sensitivity: peer FY2020 to FY2021 gives a 95 bps median decline (ratio 0.36); peer FY2021 to FY2022 gives 107 bps (0.41); the two-year peer window FY2020 to FY2022 gives 201 bps (0.78).",
+  "company": {
+    "peak_fy": "FY2021",
+    "peak_margin_pct": 12.9485,
+    "trough_fy": "FY2022",
+    "trough_margin_pct": 10.349,
+    "ltm_margin_pct": 12.6527,
+    "ltm_note": "Q4 FY2025 to Q3 FY2026, last four VA actual quarters (operating income $976.0M on revenue $7,713.6M, data_compute). Company-reported FY2026 adjusted EBIT margin 13.3% (stage 3, DEF 14A doc 159267).",
+    "decline_bps": 259.94,
+    "revenue_peak_to_trough_pct": 9.85,
+    "path_pct": {"FY2021": 12.95, "FY2022": 10.35, "FY2023": 11.73, "FY2024": 12.83, "FY2025": 12.95, "FY2026E_VA": 12.65},
+    "note": "By FY2025, RPM's margin was back to its FY2021 level. Measured in VA operating margin, the 16% target is a level RPM has not reached at any point since at least FY2018 (peak 12.95%), so it is not the reversal of a cyclical compression."
+  },
+  "peers": {
+    "tickers": ["SHW", "PPG", "AKZO", "AXTA", "SIK", "FUL"],
+    "selection_note": "Coatings (Sherwin-Williams, PPG, Akzo Nobel, Axalta from data_comps Paint & Coating) plus construction chemicals and adhesives (Sika, H.B. Fuller), which overlap RPM's Construction Products and Performance Coatings groups. Asian paint makers were dropped because their end markets differ.",
+    "per_peer_operating_margin_pct": {
+      "SHW": {"FY2020": 17.24, "FY2021": 14.87, "FY2022": 13.66, "FY2024": 17.63, "FY2025": 17.78},
+      "PPG": {"FY2020": 14.61, "FY2021": 12.79, "FY2022": 12.74, "FY2024": 16.29, "FY2025": 14.97},
+      "AKZO": {"FY2020": 12.88, "FY2021": 11.39, "FY2022": 7.27, "FY2024": 10.39, "FY2025": 10.64},
+      "AXTA": {"FY2020": 14.36, "FY2021": 14.11, "FY2022": 12.02, "FY2024": 16.65, "FY2025": 17.37},
+      "SIK": {"FY2020": 14.43, "FY2021": 15.04, "FY2022": 14.22, "FY2024": 14.71, "FY2025": 14.07},
+      "FUL": {"FY2020": 8.81, "FY2021": 8.8, "FY2022": 9.54, "FY2024": 11.37, "FY2025": 11.91}
+    },
+    "median_peak_margin_pct": 14.0552,
+    "median_trough_margin_pct": 13.0054,
+    "median_decline_bps": 104.98,
+    "median_note": "Calendar-weighted medians (middle two: PPG and AXTA in both periods). After the shock, the peer median recovered to about 15.5% in calendar 2024 (middle two SIK 14.71 and PPG 16.29, script-derived), above its pre-shock level, while RPM only returned to 12.95%.",
+    "source": "Baba data_financials fundamentals (Visible Alpha, fetched 2026-10-01)"
+  },
+  "attribution_ratio": 0.4039,
+  "relative_position_bps": {"at_peak": -110.68, "at_trough": -265.64, "post_recovery_note": "About -255 bps in FY2025 vs the peer calendar 2024 median (script-derived), so the relative loss from the shock was never recovered."},
+  "management_attribution": [
+    {"quote": "We experienced this as our industry did. We're behind the curve in terms of catching up with raw material prices, particularly during this cycle, as quickly as they went up.", "speaker": "Frank Sullivan, Chairman and CEO", "date": "2023-07-26", "document_id": 99385},
+    {"quote": "We're not back to the margin profile in a few of our businesses that we were pre-COVID, and so we've got work to do there.", "speaker": "Frank Sullivan, Chairman and CEO", "date": "2023-07-26", "document_id": 99385},
+    {"quote": "Adjusted EBIT was impacted by continued raw material cost inflation and higher costs from ongoing shipping challenges and industry labor shortages.", "speaker": "Michael Laroche, VP, Controller and CAO (Consumer Group, Q4 FY2022)", "date": "2022-07-25", "document_id": 99389}
+  ],
+  "track_record": {
+    "prior_dated_targets": [
+      {"target": "16% adjusted EBIT margin under MAP to Growth", "set": "fall 2018 (per Sullivan, doc 55158)", "due": "not verified in this pass", "outcome": "missed", "evidence": "Re-set as the MAP 2025 goal; not reached."},
+      {"target": "MAP 2025: 16% EBIT margin by fiscal 2025 (Investor Day 2022, Kinser doc 94647)", "set": "2022 (Investor Day)", "due": "FY2025", "outcome": "missed", "evidence": "FY2025 VA operating margin 12.95%; FY2026 adjusted EBIT 13.3%; 2024-2026 PSUs vested 0% (DEF 14A doc 159267, per stage 3)."},
+      {"target": "16% 'over the next two or three years' (Sullivan, doc 55158)", "set": "2025-07-24", "due": "about FY2028", "outcome": "pending", "evidence": "The board's FY2026-FY2028 PSU target is only 14% adjusted EBIT by May 2028 (DEF 14A doc 159267). MAP 3.0 is due at the 2026-11-09 Investor Day."}
+    ],
+    "restatement_or_weakness": false,
+    "share_loss_admitted": false,
+    "note": "No restatement or weakness surfaced in this pass (not specifically searched). Sullivan says margin improvement 'will require a return to unit volume growth in our Consumer business' (doc 68799, stage 3), which is a volume dependency, not a share-loss admission."
+  },
+  "tenure": {
+    "ceo": "Frank C. Sullivan (Chair and CEO)",
+    "ceo_start": "2002 (month not stated in DEF 14A doc 159267)",
+    "ceo_months": 286,
+    "ceo_months_note": "Lower bound carried from stage 3.",
+    "founder": false,
+    "founder_note": "Not the founder; CEO since 2002.",
+    "cfo": "Russell L. Gordon",
+    "cfo_start": "2012-04-10 (8-K 0001193125-12-069406)",
+    "cfo_months": 173,
+    "long_tenured": true,
+    "succession_note": "David Dennsteadt named President and COO on 2026-07-17 (internal), which reads as CEO succession grooming."
+  },
+  "verdict": "execution_led",
+  "deciding_facts": [
+    "Pattern of missed targets under the same CEO: 16% EBIT was set in 2018, re-set for fiscal 2025 under MAP 2025 and missed again (FY2025 VA 12.95%, FY2026 adjusted 13.3%, 2024-2026 PSUs at 0%). The board's own new PSU target is 14% by May 2028.",
+    "The 2022 shock was real but only about 40% industry (ratio 0.40: peer median -105 bps vs RPM -260 bps, on RPM revenue +9.8%). RPM's gap to peers widened from -111 to -266 bps and has stayed around -255 bps since, because peers recovered above their pre-shock margins while RPM only returned to its FY2021 level."
+  ],
+  "confidence": "high",
+  "confidence_note": "The verdict holds under every peer alignment tested. Even the most macro-friendly alignment (ratio 0.78) leaves the missed-target pattern and the lasting relative gap. The fiscal-year alignment changes the ratio, not the call.",
+  "tool_calls": 21
+}

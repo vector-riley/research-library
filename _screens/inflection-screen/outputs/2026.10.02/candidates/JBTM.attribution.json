@@ -1,0 +1,68 @@
+{
+  "ticker": "JBTM",
+  "metric": "EBITDA margin",
+  "fy_label_note": "December fiscal year; Baba/VA FY labels equal calendar years. FY2021 to FY2024 are JBT standalone (VA history appears restated to continuing FoodTech operations after the 2023 AeroTech sale: FY2019 revenue $1,945.7M drops to $1,234.5M in FY2020, so FY2019 and earlier are not comparable). FY2025 onward is the combined JBT Marel (closed 2025-01-02): revenue $1,716.0M FY2024 to $3,798.2M FY2025, EBITDA margin 17.19% to 15.81%, a mix break from adding Marel (Marel 2024 adjusted EBITDA margin 13%-14% per Sigurdsson, doc 48579), not a cyclical decline. Window = last five fiscal actuals FY2021 to FY2025; VA EBITDA is the target's adjusted EBITDA basis (stage 3: FY2025 VA 15.81%).",
+  "company": {
+    "peak_fy": "FY2021",
+    "peak_margin_pct": 18.0468,
+    "trough_fy": "FY2022",
+    "trough_margin_pct": 14.318,
+    "ltm_margin_pct": 16.2418,
+    "ltm_note": "Q2 FY2025 to Q1 FY2026, last four VA actual quarters (EBITDA $630.2M on revenue $3,880.1M, data_compute). VA has not loaded Q2 FY2026 actuals; company-reported Q2 2026 adjusted EBITDA margin was 17.1% (stage 3). Stage 3 field ebitda_margin_ltm 0.1809 equals the VA FY2027 consensus margin, not LTM.",
+    "decline_bps": 372.88,
+    "revenue_peak_to_trough_pct": 13.53,
+    "path_pct": {"FY2021": 18.05, "FY2022": 14.32, "FY2023": 16.41, "FY2024": 17.19, "FY2025": 15.81, "FY2026E": 17.11}
+  },
+  "peers": {
+    "tickers": ["MIDD", "G1AG", "ALFA", "KRNG"],
+    "selection_note": "Food-processing, liquid-food and beverage/packaging equipment makers from data_comps Industrial Machinery and Equipment (Middleby food processing and foodservice, GEA, Alfa Laval, Krones). Marel is now inside JBTM. MIDD FY2024-FY2025 VA history is restated for its portfolio separation; FY2021-FY2022 used here are unaffected by that later break.",
+    "per_peer_ebitda_margin_pct": {
+      "MIDD": {"FY2021": 21.92, "FY2022": 21.16, "FY2024": 27.5, "FY2025": 23.45},
+      "G1AG": {"FY2021": 13.29, "FY2022": 13.79, "FY2024": 15.44, "FY2025": 16.51},
+      "ALFA": {"FY2021": 20.3, "FY2022": 18.56, "FY2024": 19.2, "FY2025": 20.46},
+      "KRNG": {"FY2021": 8.43, "FY2022": 8.68, "FY2024": 9.99, "FY2025": 10.5}
+    },
+    "median_peak_margin_pct": 16.7928,
+    "median_trough_margin_pct": 16.1746,
+    "median_decline_bps": 61.82,
+    "median_of_individual_changes_bps": "-25.5 (MIDD -76, ALFA -174, GEA +50, KRNG +25); two of four peers expanded margin in FY2022",
+    "source": "Baba data_financials fundamentals (Visible Alpha, fetched 2026-10-01)"
+  },
+  "attribution_ratio": 0.1658,
+  "relative_position_bps": {"at_peak": 125.4, "at_trough": -185.65},
+  "management_attribution": [
+    {"quote": "the unprecedented challenges we've talked about through most of 2021 associated with supply chain disruptions, high inflation, and labor availability were even more challenging than we guided for. As a result, JBT's financial performance fell short of our expectations for the quarter and the year.", "speaker": "Brian A. Deck, CEO", "date": "2022-02-23", "document_id": 90627},
+    {"quote": "The most significant impact was on productivity, where component and labor shortages forced us to stop and restart production as we waited for materials to be delivered, increasing the cost of manufacturing.", "speaker": "Matthew J. Meister, CFO", "date": "2022-02-23", "document_id": 90627},
+    {"quote": "We will continue to work through previously priced backlogs through the first half of 2022, particularly for fixed equipment at AeroTech.", "speaker": "Brian A. Deck, CEO", "date": "2022-02-23", "document_id": 90627}
+  ],
+  "track_record": {
+    "prior_dated_targets": [
+      {"target": "FY2021 FoodTech adjusted EBITDA margin 18.75%-19% (guided Q3 2021, doc 90628)", "set": "2021-10", "due": "2021-12-31", "outcome": "missed", "evidence": "Meister: 'adjusted EBITDA margins were 18.4%, both slightly below our guidance range' (doc 90627)"},
+      {"target": "FY2022 FoodTech adjusted EBITDA margin up 75 to 100 bps (guided 2022-02-23), 18.5%-19.5% (Q1 2022, doc 90623)", "set": "2022-02-23", "due": "2022-12-31", "outcome": "missed", "evidence": "Guide cut at Q2 2022 on 'continued supply chain disruptions and lower European demand' (doc 90622 snippet); consolidated VA EBITDA margin fell 373 bps in FY2022. Final FY2022 segment figure not pulled."},
+      {"target": "Elevate 2.0: FoodTech adjusted EBITDA margin 21% or more through 2025 (Investor Day 2022, restated by Deck doc 90623)", "set": "2022-03", "due": "2025", "outcome": "missed", "evidence": "Superseded by the Marel combination; standalone JBT consolidated VA EBITDA margin peaked at 17.19% in FY2024. Segment-level FY2024 figure not verified."},
+      {"target": "20% adjusted EBITDA margin in 2028; $150M run-rate synergies by end 2027 (Investor Day 2026, doc 50200)", "set": "2026-03-26", "due": "2028", "outcome": "pending"}
+    ],
+    "restatement_or_weakness": false,
+    "share_loss_admitted": false,
+    "note": "No restatement or material weakness surfaced in this pass (not specifically searched in 10-K Item 9A)."
+  },
+  "tenure": {
+    "ceo": "Brian A. Deck",
+    "ceo_start": "2020-09-24 (interim President and CEO, 8-K 0001104659-20-108845; JBT CFO from 2014-02-03, 8-K 0001437749-14-000423)",
+    "ceo_months": 72,
+    "founder": false,
+    "cfo": "Matthew J. Meister",
+    "cfo_start": "2020-09-24 (interim; EVP and CFO since December 2020 per 8-K 0001193125-25-243721)",
+    "cfo_months": 72,
+    "long_tenured": false,
+    "long_tenured_note": "CEO 72 months in seat (< 84), not founder; Deck has been at JBT since February 2014 (about 152 months) as CFO then CEO, so he is a long-tenured operator by company tenure but fails the 84-month CEO test."
+  },
+  "verdict": "execution_led",
+  "deciding_facts": [
+    "Attribution ratio 0.17: JBT's EBITDA margin fell 373 bps FY2021 to FY2022 (18.05% to 14.32%) while the food-equipment peer median fell only 62 bps (16.79% to 16.17%) and GEA and Krones expanded; relative position swung from +125 bps to -186 bps.",
+    "Margin fell on revenue up 13.5%, and management tied it to fixed-price backlogs and shop-floor productivity plus missed FY2021 and FY2022 margin guides; the current 20% 2028 target mainly reverses Marel mix dilution (FY2024 17.19% to FY2025 15.81%), not a cycle."
+  ],
+  "confidence": "medium",
+  "confidence_note": "Four peers, one-year trough window, and two VA history breaks (AeroTech restatement, Marel combination). The peer comparison isolates the 2022 inflation and supply-chain shock well.",
+  "tool_calls": 22
+}

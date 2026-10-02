@@ -97,7 +97,16 @@ scoring rules, and the sources are short passages. Cost scales with candidate co
 The calibration run on GXO (the archetype) checks that the prompt recovers the known answer before trusting it on
 unknown names.
 
-### Stage 4: aggregate
+### Stage 4a: macro or execution (same-team strategy setups only)
+
+Riley's rule, added after the full run: a stated strategy with no change of people qualifies when the people are founders
+or long-tenured (CEO 84+ months) and the margin compression was mostly the cycle. Prompt: `prompts/stage4_macro_vs_execution.md`.
+Each subagent computes the company's peak-to-trough margin decline against the peer median over the same fiscal years
+(attribution ratio), the change in relative position, the revenue path, management's own attribution verbatim, the record
+on prior dated targets, and tenure. Output: `candidates/<TICKER>.attribution.json` and a section appended to the note;
+`attribution.md` is the table. On 2026-10-02, 19 names: 1 macro-led, 4 mixed, 14 execution-led.
+
+### Stage 4b: aggregate
 
 `python3 aggregate.py --run outputs/<date>` collects `candidates/*.json` into `ranked.md` and `ranked.csv`.
 Riley reads the top of the table and the per-ticker `.md` notes (verbatim quotes with document ids), then decides
