@@ -1,0 +1,44 @@
+{
+  "ticker": "BURL", "cid": 1000576, "name": "Burlington Stores, Inc.", "industry": "Apparel Retailers", "as_of": "2026-10-02",
+  "quant": {"mcap_usd": 17591846720.0, "drawdown": -0.2821, "pctile_ev_ebitda_60m": 0.1333, "price_ltm_pct": 0.0499,
+            "ebitda_margin_ltm": 0.1117, "ebitda_margin_fwd_consensus": 0.1166, "industry_median_margin": 0.128, "ev_ebitda_fy": 12.58,
+            "net_debt_ltm_ebitda": 0.85, "ebitda_revision_12m": 0.0677, "ebitda_brokers": 14},
+  "catalyst": {"type": [],
+               "events": [
+                 {"what": "Independent director added (routine refresh, not a catalyst)", "who": "Michael Skirvin", "from": null, "effective": "2025-11-18", "source": "8-K 0001579298-25-000004", "external_hire": true},
+                 {"what": "EVP and Chief Human Resources Officer departed", "who": "Matthew Pasch", "from": null, "effective": "2026-09-01", "source": "8-K 0001193125-26-332853", "external_hire": null},
+                 {"what": "Burlington 2.0 long-range plan (2023 to 2028) set two years before 2025-11-25, i.e. about 2023; CEO Michael O'Sullivan unchanged; no CEO or CFO change and no Item 2.01/1.01 deal found since 2024-07-01", "who": "Michael O'Sullivan; Kristin Wolfe", "from": null, "effective": null, "source": "document_id 44998; SEC 8-K Item 5.02 search", "external_hire": null}
+               ],
+               "months_since_primary": null},
+  "margin_framing": {"numeric": true, "metric": "operating margin",
+                     "metric_basis_note": "Management frames adjusted EBIT margin as ~400 bps of expansion between 2023 and 2028 plus ~$1.6B operating income by 2028 (company fiscal 2028 = Baba FY-2029, FYE January). No explicit level was found; target_level_pct is DERIVED on the consensus operating_income basis: FY2025 consensus-basis margin 7.67% (887.1M / 11,566.9M) plus the 220 bps still to go after 100 bps (2024) and 80 bps (2025). Company adjusted EBIT ($923M per DEF 14A) runs about 30 bps above the consensus operating_income line.",
+                     "current_level_pct": 7.67, "target_level_pct": 9.87, "target_year": 2028,
+                     "annual_bps": 80, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "As a reminder, our long-range model calls for approximately 400 basis points of operating margin expansion between 2023 and 2028.", "speaker": "Michael O'Sullivan", "role": "CEO", "doc_title": "BURLINGTON STORES INC Q4 2025 Earnings Call", "date": "2025-03-06", "document_id": 147684},
+                       {"quote": "So two years ago, we shared our objective of getting to approximately $1.6 billion in operating income by 2028. The headline is that we feel very good about the progress we're making toward this goal.", "speaker": "Kristin Wolfe", "role": "CFO", "doc_title": "BURLINGTON STORES INC Q3 2026 Earnings Call (company Q3 fiscal 2025)", "date": "2025-11-25", "document_id": 44998},
+                       {"quote": "At the high end of our updated 2025 margin guidance, we will have achieved 170 basis points of the 400 basis points of opportunity that we identified two years ago.", "speaker": "Kristin Wolfe", "role": "CFO", "doc_title": "BURLINGTON STORES INC Q3 2026 Earnings Call (company Q3 fiscal 2025)", "date": "2025-11-25", "document_id": 44998},
+                       {"quote": "We achieved 80 basis points of operating margin expansion on top of 100 basis points last year and 22% earnings per share growth on top of 34% last year.", "speaker": "Michael O'Sullivan", "role": "CEO", "doc_title": "BURLINGTON STORES INC Q4 2026 Earnings Call (company Q4 fiscal 2025)", "date": "2026-03-05", "document_id": 44995},
+                       {"quote": "We expect comp store sales to increase in the range of 3%-4%, and our adjusted EBIT margin to expand by 20 basis points to 40 basis points versus last year.", "speaker": "Kristin Wolfe", "role": "CFO", "doc_title": "BURLINGTON STORES INC Q2 2027 Earnings Call (company Q2 fiscal 2026)", "date": "2026-08-27", "document_id": 199910}
+                     ],
+                     "first_stated": null, "times_repeated": 3},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 11.18, "FY2027": 11.66, "FY2028": 12.06},
+             "consensus_margin_at_target_year_pct": 9.11, "gap_bps_vs_target": 76,
+             "gap_assumption": "Baba FY labels (FY2026 = company fiscal 2025, reported). Gap compares the derived 9.87% operating margin for company fiscal 2028 with consensus Baba FY-2029 operating_income / revenue (1,384.6M / 15,202.4M = 9.11%), same basis. In dollars, $1.6B target vs $1,384.6M consensus = +15.6%, partly a sales gap (comp plan of 4% to 5% a year vs 3% to 4% now guided).",
+             "ebitda_uplift_pct_if_target_hit": 6.0, "source": "Baba data_financials consensus (fundamentals)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [20, 100], "note": "Order is [Q1 fiscal 2026 (May-2026), Q2 fiscal 2026 (Aug-2026)], company-stated adjusted EBIT margin YoY (Q1 6.3%, +20 bps; Q2 7.0%, +100 bps excl. $55M tariff refunds, Wolfe doc 199910). Q1 EBITDA margin from consensus actuals +16 bps. Q3 fiscal 2026 guided down 60 to 80 bps as refunds are reinvested; full-year guide +20 to 40 bps."},
+  "score": {"A_underperformance": 2, "B_catalyst": 0, "C_numeric_framing": 3, "D_unproven": 1, "total": 6},
+  "disqualified": true, "disqualifier_reason": "No catalyst in the 18-month window and none pending: CEO O'Sullivan and CFO Wolfe unchanged, no acquisition, and the Burlington 2.0 framework dates from about 2023. The margin story is also largely underwritten already: consensus sits only about 76 bps short of the implied 2028 margin, with 12-month EBITDA revisions +6.8%.",
+  "verdict": "Not a GXO setup: a dated, repeated 400 bps / $1.6B 2028 framework that management is executing on, but there is no new-management catalyst and the street already models most of it (about 76 bps short on margin), so the gap is small and the stock is not low-margin versus peers.",
+  "open_questions": ["Will management restate or raise the $1.6B 2028 operating income goal now that comps run 3% to 4% against the 4% to 5% plan?", "How much of the 2026 margin beat is tariff relief (merch margin +70 bps) that reverses as refunds are reinvested in Q3 and Q4?", "Does the street's 9.1% fiscal 2028 margin already assume the full supply chain productivity bucket (about 100 of the 400 bps)?"],
+  "sources": [
+    {"document_id": 147684, "title": "BURLINGTON STORES INC Q4 2025 Earnings Call", "date": "2025-03-06"},
+    {"document_id": 44998, "title": "BURLINGTON STORES INC Q3 2026 Earnings Call", "date": "2025-11-25"},
+    {"document_id": 44995, "title": "BURLINGTON STORES INC Q4 2026 Earnings Call", "date": "2026-03-05"},
+    {"document_id": 199910, "title": "BURLINGTON STORES INC Q2 2027 Earnings Call", "date": "2026-08-27"},
+    {"document_id": 0, "title": "Baba data_comps (market_data, revisions, estimates; asof 2026-09-30 to 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials fundamentals consensus (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02 filings: 0001579298-25-000004, 0001193125-26-332853 (no CEO or CFO change since 2024-07-01)", "date": "2025-08-21 to 2026-08-04"}
+  ],
+  "tool_calls": 21
+}

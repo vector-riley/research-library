@@ -157,6 +157,25 @@ Full table: `outputs/2026.10.02/ranked.md`. Per-name notes with verbatim quotes 
 - Cost actually observed: 12 to 30 tool calls per name; the five subagents used about 1.2 million tokens in total,
   so roughly 90k tokens per name on Opus.
 
+### Second batch (2026-10-02, the 10 stage 2 flagged names not yet read)
+
+Ten names carried a stage 2 flag, passed the stabilization gate and had not been read: CHWY, LYFT, TOST, NOC, BWXT,
+HLIT, ZS, OMCL, KNF, BURL. Three subagents, about 940k tokens. Results on the stabilization-based score:
+
+- Three more setups: CHWY (9: 10%+ adjusted EBITDA margin target restated 2026-09-09 and a roughly 100 bps a year
+  pace, consensus 141 bps short by Baba FY2031, but the catalyst is only an internal CFO), LYFT (8: about 4% of gross
+  bookings in 2027, 39 bps above consensus, internal CFO), BWXT (7: 17.5% to about 20% by 2030 set at the 2026-09-29
+  Investor Day, 133 bps above FY2030 consensus, but stated once, three days old, and the stock is not cheap).
+- Numeric framing without a catalyst: KNF (20% goal with no year, 404 bps above FY2028 consensus, but estimates still
+  falling at the 4-month horizon), BURL (Burlington 2.0 mostly priced in), TOST (target already in consensus).
+- Catalyst without framing: NOC (external CFO, flat guide), OMCL (external CFO, no target), HLIT (Video sale closed,
+  no target).
+- ZS: external CFO but the street already models the margin; an Investor Day on 2026-10-06 could change that.
+
+Two scoring inconsistencies the subagents flagged, left for Riley to rule on: CHWY's C=3 rests on a one-year guide
+repeated on three calls while GXO's single one-year guide earned C=2, so repetition is doing the work; and the
+mechanical D2 zeroes KNF on a -3% four-month move even though its stated target is 404 bps above consensus.
+
 ## 6. Files
 
     README.md                 this design

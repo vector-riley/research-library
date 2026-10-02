@@ -1,0 +1,46 @@
+{
+  "ticker": "KNF", "cid": 1005535, "name": "Knife River Corp.", "industry": "Building and Construction Materials", "as_of": "2026-10-02",
+  "quant": {"mcap_usd": 2880278000.0, "drawdown": -0.5301, "pctile_ev_ebitda_60m": null, "price_ltm_pct": -0.3441,
+            "ebitda_margin_ltm": 0.1517, "ebitda_margin_fwd_consensus": 0.1576, "industry_median_margin": 0.261, "ev_ebitda_fy": 7.68,
+            "net_debt_ltm_ebitda": 2.93, "ebitda_revision_12m": -0.0333, "ebitda_brokers": 7},
+  "catalyst": {"type": ["acquisition", "strategy_update"],
+               "events": [
+                 {"what": "Strata Corporation acquisition closed (largest deal in company history); just OUTSIDE the 18-month window (cutoff 2025-04-02)", "who": "Strata Corporation", "from": null, "effective": "2025-03-07", "source": "document_id 20724 (10-K FY2025); no Item 2.01/1.01 8-K returned", "external_hire": null},
+                 {"what": "Bolt-on acquisitions in window (five in 2025, three aggregates-based deals in early 2026 incl. Texcrete), financed by a $400M Term Loan B upsize in Q2 2026", "who": "various", "from": null, "effective": null, "source": "document_id 189318; document_id 189317; document_id 128962", "external_hire": null},
+                 {"what": "Chief Accounting Officer appointed (internal); prior CAO moved to SVP Financial Strategy", "who": "Peggy S. Rebstock", "from": "Knife River VP FP&A", "effective": "2026-05-21", "source": "8-K 0001628280-26-037338", "external_hire": false}
+               ],
+               "months_since_primary": 18.9},
+  "margin_framing": {"numeric": true, "metric": "adjusted EBITDA margin",
+                     "metric_basis_note": "Level (20%) is a long-term goal with no year; the CEO declined to give timing when asked on the Q4 2025 call. The dated 2023 Investor Day step (15% by 2025) was reached. 2026 guide is a +10 to 20 bps rate, about 16% at the midpoint.",
+                     "current_level_pct": 15.2, "target_level_pct": 20.0, "target_year": null,
+                     "annual_bps": 15, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "Combined, we expect each of the ongoing efforts in our Competitive Edge Plan will help drive consistent EBITDA growth and enable us to achieve our long-term goal of 20% Adjusted EBITDA Margin.", "speaker": "Brian Gray", "role": "President and CEO", "doc_title": "Knife River Corp. Q3 2025 Earnings Call", "date": "2025-11-04", "document_id": 52326},
+                       {"quote": "And so how do we kind of put this all together as you try to hit your 20% margin target? You know, is this, are you accelerating it, or, you know, when do we actually kind of see you achieve those levels?", "speaker": "Ian Zaffino", "role": "Analyst, Oppenheimer", "doc_title": "Knife River Corp. Q4 2025 Earnings Call", "date": "2026-02-17", "document_id": 189318},
+                       {"quote": "And it's not linear, as you know, I mean, you pick up some lower-hanging fruits, sometimes. And so we do expect margin expansion to continue, in all of these, product lines and, you know, we're very excited about that.", "speaker": "Brian Gray", "role": "President and CEO", "doc_title": "Knife River Corp. Q4 2025 Earnings Call", "date": "2026-02-17", "document_id": 189318},
+                       {"quote": "For 2026, we expect consolidated revenue between $3.3 billion and $3.5 billion and Adjusted EBITDA between $520 million and $560 million, which implies an Adjusted EBITDA margin of approximately 16% at the midpoint.", "speaker": "Nathan Ring", "role": "CFO", "doc_title": "Knife River Corp. Q4 2025 Earnings Call", "date": "2026-02-17", "document_id": 189318},
+                       {"quote": "Yes, our EBITDA or midpoint margin for the midpoint is going up, you know, 10-20 basis points from last year.", "speaker": "Brian Gray", "role": "President and CEO", "doc_title": "Knife River Corp. Q4 2025 Earnings Call", "date": "2026-02-17", "document_id": 189318}
+                     ],
+                     "first_stated": "2023-11-06", "times_repeated": 5},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 15.11, "FY2027": 15.76, "FY2028": 15.96},
+             "consensus_margin_at_target_year_pct": 15.96, "gap_bps_vs_target": 404,
+             "gap_assumption": "No target year, so the gap uses the last consensus year (FY2028, 601.1M / 3,766.6M = 15.96%) against the 20% goal, same metric. FY2026 consensus (15.11%) sits below the guide-implied ~16% after the 2026-08-04 raise of revenue guidance with EBITDA held at $520M to $560M.",
+             "ebitda_uplift_pct_if_target_hit": 26.9, "source": "Baba data_financials consensus (fundamentals)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [300, -200], "note": "Order is [Q1 2026, Q2 2026]. Q1 is a seasonal loss quarter (-7.8% vs -10.7%, consensus actuals). Q2 2026 adj. EBITDA $139.7M vs $140.8M, margin 14.9% vs 16.9% (8-K EX-99 0001628280-26-052184, doc 143103), on diesel costs, weather delays, lower-margin legacy acquired contracting jobs. TTM 6/30/26 adj. EBITDA margin 15.2% ($501.6M / $3,307.5M) vs 15.8% for FY2025 ($496.5M / $3,146.0M), both as reported in doc 223848, so the trailing margin has slipped since year end."},
+  "score": {"A_underperformance": 1, "B_catalyst": 1, "C_numeric_framing": 2, "D_unproven": 2, "total": 6},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Numeric-framing match without a catalyst: the CEO has repeated a 20% adjusted EBITDA margin goal for three years and consensus sits about 400 bps short, but there is no leadership change, Strata closed just outside the window, the goal has no date, and margins went backwards in Q2 2026.",
+  "open_questions": ["Will management attach a year to the 20% goal, or quietly drop it (the 2026-09-23 investor deck lists margin improvement as a priority; no 20% figure found in the chunk read)?", "How much of the Q2 2026 200 bps margin decline is diesel and legacy acquired jobs that roll off versus structurally lower-margin Mountain and Central mix?", "Is pricing power on aggregates enough to offset energy inputs, or is margin more input-cost driven than the EDGE narrative implies?"],
+  "sources": [
+    {"document_id": 52326, "title": "Knife River Corp. Q3 2025 Earnings Call", "date": "2025-11-04"},
+    {"document_id": 189318, "title": "Knife River Corp. Q4 2025 Earnings Call", "date": "2026-02-17"},
+    {"document_id": 128962, "title": "Knife River Corp. Q2 2026 Earnings Call", "date": "2026-08-04"},
+    {"document_id": 143103, "title": "Knife River Corp 8-K (Q2 2026 results, EX-99)", "date": "2026-08-04"},
+    {"document_id": 223848, "title": "Knife River Corp 8-K (investor presentation, EX-99.1)", "date": "2026-09-23"},
+    {"document_id": 20724, "title": "Knife River Corp 10-K FY2025", "date": "2026-02"},
+    {"document_id": 0, "title": "Baba data_comps (market_data, revisions, estimates; asof 2026-09-30 to 2026-10-01); pctile null (33 months of history since 2023 spin)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials fundamentals consensus (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02 filings: 0001628280-26-037338 (no CEO/CFO change since 2024-07-01)", "date": "2026-05-21"}
+  ],
+  "tool_calls": 28
+}
