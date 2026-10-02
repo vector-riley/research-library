@@ -10,3 +10,10 @@ Open questions:
 1. Will 12.5% get a year, or be reset when the $60M program ends in December 2026?
 2. How much of the margin decline is cyclical (Site Built pricing, freight, lumber) versus structural?
 3. Does the roughly $1.9B liquidity and "meaningful M&A" language point to a transformational deal that would restart the catalyst clock?
+
+## Macro or execution
+- Verdict: macro_led (medium confidence). Ratio 4.91 = peer median EBITDA margin decline of 1,219 bps (28.28% to 16.09%; LPX, WFG, SJ, TREX, BLDR) divided by UFPI's 248 bps (11.40% FY2022 to 8.92% FY2025). Using the median of per-peer declines (BLDR, 883 bps) gives about 3.6. The peer set includes commodity mills, which flatters the ratio.
+- Relative position: -1,688 bps vs the peer median at the FY2022 peak, -718 bps at the FY2025 trough, so UFPI gained ground. Revenue fell 34.3%, led by price (Q2 2023 Construction: -26% price, -18% units, document_id 91819). FY2026E is 8.02% on flat revenue, which management blames on freight.
+- Quote: "$28 million of the $50 million decline in our gross profit was due to lower volume and price competition in our site-built business unit as macro conditions continue to weigh on new housing starts." Mike Cole, CFO, 2025-07-29, document_id 49179. Execution items admitted: a railing placement lost at a large retailer, and Edge operating problems (same call).
+- Track record: the 10% margin goal (set FY2021) was hit FY2022-FY2024 and not held in FY2025. The $60M cost-out (due 2026-12-31) is on track. The five-year $10B sales and 12.5% stretch goal (set FY2023) is off track and has no year.
+- Tenure: CEO William D. Schwartz Jr. since 2024-12-29 (21.1 months, not founder). He is an internal hire who joined UFP in 1998. CFO Michael Cole has no Item 5.02 change since 2004, so at least 266 months. This fails the 84-month formula for the CEO, but the team is long-tenured inside the company.

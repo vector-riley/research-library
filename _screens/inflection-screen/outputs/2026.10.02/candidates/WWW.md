@@ -10,3 +10,10 @@ Open questions:
 1. Will management date the mid-teens aspiration with 2027 guidance (February 2027)?
 2. Does eliminating the Active Group president role (2026-09-21) signal a wider cost program?
 3. How much 2026 margin gain depends on tariff relief and IEEPA refunds?
+
+## Macro or execution
+- Verdict: execution_led (high confidence). Ratio 0.61 = peer median operating margin decline of 345 bps (14.99% to 11.54%; VFC, COLM, DECK, CROX, SHOO, NKE) divided by WWW's 565 bps (9.56% FY2021 to 3.91% FY2023). Using the median of per-peer declines (241 bps) gives about 0.43. Revenue fell 17.5% over the window, partly from divestitures.
+- Relative position: -544 bps vs the peer median at the FY2021 peak and -764 bps at the FY2023 trough, so WWW lost ground.
+- Quote: "our brands have also been negatively impacted by these important factors. Heavy sell-in of end-of-life product... excessive Gray Market selling for Merrell... certain color and trend missteps across the portfolio." Mike Stornant, CFO, 2023-11-09, document_id 76417.
+- Track record: two dated targets missed. The FY2023 guide of about 8.5% (document_id 76420) came in at 3.91%. The 12% for 2024, which Hufnagel reaffirmed, came in at 7.28%. Since then: FY2025 actual 9.02% and the FY2026 guide raised to about 9.9%. No material weakness found.
+- Tenure: CEO Chris Hufnagel since 2023-08-06 (38 months, not founder). He was promoted internally from President and was in place during the decline. CFO Taryn Miller since 2024-05-09 (29 months, external). Neither meets the long-tenured test.

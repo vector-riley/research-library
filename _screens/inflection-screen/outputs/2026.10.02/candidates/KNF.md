@@ -10,3 +10,10 @@ Open questions:
 1. Will management put a year on 20%, or let it fade (not found in the chunk read of the 2026-09-23 investor deck)?
 2. How much of the Q2 2026 decline (14.9% vs 16.9%) is diesel and inherited low-margin acquired jobs that roll off?
 3. Is margin driven by aggregates pricing power or by energy and liquid-asphalt input costs (a commodity check before any further work)?
+
+## Macro or execution
+- Verdict: execution_led (medium confidence; this is mix and M&A, not an operating failure). The ratio is -2.05: the peer median EBITDA margin rose 176 bps (23.61% to 25.37%; VMC, MLM, CRH, EXP, ROAD, GVA) while KNF fell 86 bps (15.97% FY2024 to 15.11% FY2026E). Revenue rose 19.6% over the same period, including Strata.
+- Relative position: -764 bps vs the peer median at the FY2024 peak and -1,025 bps at FY2026E. Paving peers ROAD and GVA expanded despite similar diesel exposure.
+- Quote: "First was a delay in recouping higher energy costs. Second was project timing shifts related to adverse weather and construction schedules. Third was a type of work and timing of projects incentives, which affected contracting services." Brian Gray, CEO, 2026-08-04, document_id 128962. He also said: "we performed much more asphalt paving, which is generally lower risk and lower margin work."
+- Track record: the 15% target was hit two years early (document_id 97182). The FY2025 guide of +20 to 70 bps was missed (15.97% to 15.78%). The FY2026 guide of about 16% is at risk (consensus 15.11%). The 20% goal has no year. There is no cyclical compression to reverse; 20% would be new territory.
+- Tenure: CEO Brian Gray since 2023-05-31 (40 months, not founder). He has 30+ years at the company and ran the Northwest region 2012-2022, so he is long-tenured as an operator but not as CEO. CFO Nathan Ring has been in role since at least the spin (40 months or more).
