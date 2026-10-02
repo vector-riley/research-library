@@ -31,6 +31,29 @@ the street on the stabilization rule (0-2). Core = catalyst includes a CEO-level
 AOS does not carry the core flag because its agent recorded the catalyst as a strategy update; on the 8-Ks it is a full
 external leadership reset and belongs in this tier.
 
+## Re-weighted view: strategy and deals as peers of management change
+
+The brief put three catalysts on equal footing. The first scoring did not: an external CEO earned 3, a stated strategy
+alone earned 1, and the Core flag required a CEO change, which pushed the biggest measured gaps into Tier 3.
+`ranked_by_gap.md` corrects that: a dated numeric framework stated inside the window counts as a catalyst equal to a
+management change, and the list is ordered by the gap between management's target and consensus. On that view the
+names to add to Tier 1, where the gap is large, the target was restated in 2026 and the agents did not flag it as
+walked back, are:
+
+| Ticker | Gap bps | Target | Catalyst | Why it belongs |
+|---|---|---|---|---|
+| JBTM | +299 | 20% EBITDA margin 2028 | Marel combination, 2026 Investor Day | Repeated by CEO, CFO and President in 2026; consensus at 17.0% |
+| OSK | +169 | 12% to 14% operating margin 2028 | 2025 Investor Day | Reiterated through Q2 2026; margins fell 400 bps YoY, so execution is the question |
+| DXC | +129 | 8% to 10% EBIT FY2029 | 2026 Investor Day, external President | CEO 32 months in; margins still falling |
+| RPM | +155 | 16% EBIT, read as FY2028 | Investor Day 2026-11-09 | Board's own pay target is only 14%, so the 16% may be reset |
+| OC | +373 | mid-20s EBITDA margin 2028 | 2025 Investor Day, external CFO | Mostly a housing-starts call; margin already above peers |
+| EEFT | +178 | 100 to 200 bps by 2028 | 2026 Investor Day | Founder-run, no leadership change |
+| KD | +198 | 20% to 22% FY2028 | New external CFO after control failures | Target set by the departed CFO and not repeated in 2026 |
+| CNM | +218 | 15% fiscal 2028 | 2023 Investor Day, reaffirmed 2025 | Internal successor team; margin above peers |
+
+Large gaps that are not setups even on this view: PLUG (+987, loss-making), PVH (+652, target missed and not repeated),
+FOUR (+512, gross-revenue artifact), HIMS (+497, margins down by choice), EFOR (+255, CEO since 2019, margins falling).
+
 ## Tier 3: numbers without a CEO change (framing stories; a CFO or deal is the only catalyst)
 
 DXC (9: 8% to 10% EBIT by FY2029 vs 7.7% street, external President, CEO 32 months in), KD (9: forced finance
