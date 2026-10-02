@@ -16,7 +16,8 @@ KEYS = ['cid','ticker','name','sector','industry','bucket','mcap','tev','price_l
         'rev_revision','ebitda_revision','ebitda_inflection','ebitda_turn_pct','rev_turn_pct','ebitda_brokers',
         'pretax_lfcf_yield_fy','pretax_lfcf_yield_fy1','pretax_lfcf_conversion','fdso_cagr_prior','founder_led',
         'screens_flagged','score','score_rank']
-REV_FLOOR = -0.10
+REV_FLOOR = -0.30   # 12m forward EBITDA revision floor: allow a prior cut (GXO's own FY2026 consensus fell 20% in 2023-24)
+TURN_FLOOR = -0.03  # but estimates must have stopped falling: 4-month revision (grid field ebitda_turn_pct) >= -3%
 EXCL_SECT = {'Financials','Financial Services','Utilities','Energy'}
 EXCL_IND = {'Biotechnology','Pharmaceuticals','Drug Manufacturers - Specialty & Generic','Gold and Silver',
             'Precious Metals and Minerals','Uranium','Lithium','Copper','Diversified Metals & Mining',
@@ -58,10 +59,13 @@ def passes(r, indmed, secmed, reasons):
     # Gate 2: room to expand. EBITDA margin <= 15% absolute, or below industry (else sector) median and <= 30%
     ref = indmed.get(r['industry'], secmed.get(r['sector']))
     if not ((m <= 0.15) or (ref is not None and m < ref and m <= 0.30)): reasons['margin not below peers'] += 1; return False
-    # Gate 3: unproven, not broken. 12m forward EBITDA consensus revision between -10% and +10%.
-    # The 2026.10.02 pilot ran this at -30% and every name with a cut deeper than 10% turned out to be a broken story
-    # (estimates reset after an execution miss), not an unproven one. GXO sits at +0.4%.
-    if rev is None or rev < REV_FLOOR or rev > 0.10: reasons[f'ebitda revision outside {REV_FLOOR:+.0%}..+10%'] += 1; return False
+    # Gate 3: unproven, not broken. The 12m forward EBITDA revision may be as low as -30% (a prior cut is often the
+    # early part of the story: GXO's FY2026 consensus fell 20% in 2023-24 and was still -8% over the 12 months before the
+    # new CEO's first call), but the cutting must have stopped: the 4-month revision (ebitda_turn_pct) >= -3%.
+    # GXO's 4-month moves since mid-2025 are all inside +/-1%.
+    turn = num(r.get('ebitda_turn_pct'))
+    if rev is None or rev < REV_FLOOR or rev > 0.10: reasons[f'12m ebitda revision outside {REV_FLOOR:+.0%}..+10%'] += 1; return False
+    if turn is not None and turn < TURN_FLOOR: reasons[f'estimates still falling (4m turn < {TURN_FLOOR:+.0%})'] += 1; return False
     # Gate 4: balance sheet survivable. Net debt / LTM EBITDA <= 5x (None allowed)
     if lev is not None and lev > 5: reasons['leverage>5x'] += 1; return False
     r['_under'] = under; r['_indmed'] = round(ref, 3) if ref else None
@@ -89,7 +93,7 @@ def main():
     for r in surv: r['_sim'] = similarity(r)
     surv.sort(key=lambda r: r['_sim'])
     cols = ['ticker','industry','mcap','price_ltm_pct','drawdown','pctile','ebitda_margin','_indmed','_gap','ebitda_revision',
-            'ev_ebitda_fy','net_debt_ltm_ebitda','ebitda_brokers','bucket','_sim','cid','name','sector']
+            'ebitda_turn_pct','ev_ebitda_fy','net_debt_ltm_ebitda','ebitda_brokers','bucket','_sim','cid','name','sector']
     with open(f'{a.out}/stage1_ranked.csv', 'w', newline='') as f:
         w = csv.DictWriter(f, fieldnames=cols, extrasaction='ignore'); w.writeheader(); [w.writerow(r) for r in surv]
     print(f'universe {len(rows)}  survivors {len(surv)}  rejects {dict(reasons)}')

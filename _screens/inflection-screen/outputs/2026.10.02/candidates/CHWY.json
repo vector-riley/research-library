@@ -1,0 +1,240 @@
+{
+  "ticker": "CHWY",
+  "cid": 1004577,
+  "name": "Chewy Inc",
+  "industry": "Specialty Stores and Retailers",
+  "as_of": "2026-10-02",
+  "quant": {
+    "mcap_usd": 7266972000.0,
+    "drawdown": -0.6225,
+    "pctile_ev_ebitda_60m": 0.0,
+    "price_ltm_pct": -0.5501,
+    "ebitda_margin_ltm": 0.063,
+    "ebitda_margin_fwd_consensus": 0.0675,
+    "industry_median_margin": 0.119,
+    "ev_ebitda_fy": 7.94,
+    "net_debt_ltm_ebitda": -0.03,
+    "ebitda_revision_12m": 0.0458,
+    "ebitda_brokers": 18
+  },
+  "catalyst": {
+    "type": [
+      "new_cfo",
+      "acquisition"
+    ],
+    "events": [
+      {
+        "what": "CFO appointed after interim period (David Reeder resigned 2025-07-03; William Billings interim PFO)",
+        "who": "Christopher S. Deppe",
+        "from": "Chewy VP Finance since Aug 2022; previously Director of Finance at Amazon",
+        "effective": "2026-02-23",
+        "source": "8-K 0001193125-26-065612",
+        "external_hire": false
+      },
+      {
+        "what": "CFO resignation (Reeder, to become a semiconductor CEO)",
+        "who": "David Reeder",
+        "from": null,
+        "effective": "2025-07-03",
+        "source": "8-K 0001193125-25-157111",
+        "external_hire": null
+      },
+      {
+        "what": "CTO retired",
+        "who": "Satish Mehta",
+        "from": null,
+        "effective": "2026-02-06",
+        "source": "8-K 0001193125-26-015958",
+        "external_hire": null
+      },
+      {
+        "what": "Director added (board 13 to 14)",
+        "who": "Nat Goldhaber",
+        "from": "Claremont Creek Ventures",
+        "effective": "2025-04-24",
+        "source": "8-K 0001193125-25-096774",
+        "external_hire": true
+      },
+      {
+        "what": "Bolt-on acquisition, SmartPak (equine), $175M cash",
+        "who": "SmartPak",
+        "from": null,
+        "effective": null,
+        "source": "10-K document_id 10787; 10-Q document_id 36623 (closed in fiscal Q1 2026, exact date not verified)",
+        "external_hire": null
+      },
+      {
+        "what": "Bolt-on acquisition, Modern Animal (vet clinics), $400M cash",
+        "who": "Modern Animal",
+        "from": null,
+        "effective": "2026-05-21",
+        "source": "10-Q document_id 219191 (no Item 2.01/1.01 8-K returned)",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 7.3
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "Level and rate are both adjusted EBITDA margin on net sales. The 10%+ level is an undated long-term target set at the 2023-12-14 Investor Day and reaffirmed since; the dated rate is the fiscal 2026 guide (6.7% to 6.8%, about 100 bps YoY, CFO on three calls) plus a CEO aspiration of about 100 bps a year on average (2026-03-25). Chewy fiscal year ends late Jan/early Feb; Baba labels it by end year (Baba FY-2027 = Chewy fiscal 2026).",
+    "current_level_pct": 6.3,
+    "target_level_pct": 10.0,
+    "target_year": null,
+    "annual_bps": 100,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "With respect to adjusted EBITDA margin, we expect to deliver north of 10% adjusted EBITDA margin, irrespective of the macro environment. So we will steadily and continuously improve and see that margin expansion over time.",
+        "speaker": "Stacy Bowman",
+        "role": "Interim CFO",
+        "doc_title": "Chewy Investor Day 2023",
+        "date": "2023-12-14",
+        "document_id": 90556
+      },
+      {
+        "quote": "So at Capital Markets in December of 2023, we put together a long-term model that had EBITDA margins at 10 points or more, 10% or more EBITDA margin as part of our long-term model.",
+        "speaker": "David Reeder",
+        "role": "CFO",
+        "doc_title": "Morgan Stanley Technology, Media & Telecom Conference",
+        "date": "2025-03-05",
+        "document_id": 67320
+      },
+      {
+        "quote": "These developments support our path to achieving our long-term adjusted EBITDA margin target of 10%.",
+        "speaker": "Sumit Singh",
+        "role": "CEO",
+        "doc_title": "Chewy Inc Q1 2026 Earnings Call (Baba label; Chewy fiscal Q1 2025)",
+        "date": "2025-06-11",
+        "document_id": 185714
+      },
+      {
+        "quote": "We want to, you know, also deliver, you know, 100 basis points of margin expansion on average. You can see that this print sets us up for a high-quality, durable performance, not just in 2026, but also 2027, right?",
+        "speaker": "Sumit Singh",
+        "role": "CEO",
+        "doc_title": "Chewy Inc Q4 2026 Earnings Call (Baba label; Chewy fiscal Q4 2025)",
+        "date": "2026-03-25",
+        "document_id": 50125
+      },
+      {
+        "quote": "You know, as we noted in the call, our long-term margin framework's unchanged and in 2026, we're gonna further expand profitability with the rate of expansion higher than 2025.",
+        "speaker": "Christopher Deppe",
+        "role": "CFO",
+        "doc_title": "Chewy Inc Q4 2026 Earnings Call (Baba label; Chewy fiscal Q4 2025)",
+        "date": "2026-03-25",
+        "document_id": 50125
+      },
+      {
+        "quote": "At the midpoint, this implies over 100 basis points of year-over-year adjusted EBITDA margin expansion and $912 million of adjusted EBITDA for fiscal 2026.",
+        "speaker": "Chris Deppe",
+        "role": "CFO",
+        "doc_title": "Chewy Inc Q2 2027 Earnings Call (Baba label; Chewy fiscal Q2 2026)",
+        "date": "2026-09-09",
+        "document_id": 219263
+      },
+      {
+        "quote": "Our confidence in hitting the long-term margin path of 10% plus EBITDA that we've mentioned is stronger at this point, and continues to strengthen with every quarter and year.",
+        "speaker": "Sumit Singh",
+        "role": "CEO",
+        "doc_title": "Chewy Inc Q2 2027 Earnings Call (Baba label; Chewy fiscal Q2 2026)",
+        "date": "2026-09-09",
+        "document_id": 219263
+      }
+    ],
+    "first_stated": "2023-12-14",
+    "times_repeated": 3
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 5.71,
+      "FY2027": 6.75,
+      "FY2028": 7.38
+    },
+    "consensus_margin_at_target_year_pct": null,
+    "gap_bps_vs_target": null,
+    "gap_assumption": "Baba FY labels (FY2026 = Chewy fiscal 2025 actual; FY2027 = fiscal 2026, equal to the $912M guide midpoint; FY2028 = fiscal 2027). No target year for 10%, so no formal gap. Consensus FY2029 7.92%, FY2031 8.59% (last year in the set), still 141 bps short of 10%; street adds about 46 bps a year FY2027 to FY2031 versus the CEO's about 100 bps average.",
+    "ebitda_uplift_pct_if_target_hit": 35.5,
+    "source": "Baba data_financials consensus (Visible Alpha)"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      130,
+      90
+    ],
+    "note": "Order [Q1 fiscal 2026, Q2 fiscal 2026]. Q1 7.5% adj. EBITDA margin, up about 130 bps (Deppe, doc 50122, 2026-06-10). Q2 6.8% vs 5.9% (10-Q doc 219191: $226.7M on $3,330.2M vs $183.3M on $3,104.2M), +90 bps computed, though the CFO said about $15M of Q2 upside was timing or discrete. FY2026 guide low end raised to 6.7% to 6.8% on 2026-09-09. Consensus 2QFY-2027 in Baba still shows the pre-print estimate; LTM uses 10-Q actuals."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 2,
+    "C_numeric_framing": 3,
+    "D_unproven": 2,
+    "total": 9
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Scores 9 on the rubric (stock down 62% at the bottom of its EV/EBITDA range, CEO and CFO repeatedly frame 10%+ adjusted EBITDA margin and about 100 bps a year while consensus reaches only 8.6% by FY2031), but it is a weaker GXO match than the score suggests: the catalyst is an internal CFO, CEO Sumit Singh is unchanged, and the 10% target dates from December 2023 with no target year.",
+  "open_questions": [
+    "Will management attach a year to the 10%+ target, or is 'about 100 bps on average' the only dated commitment?",
+    "How much of fiscal 2027 margin expansion is absorbed by Modern Animal and vet clinic dilution versus the roughly $50M AI savings run rate?",
+    "Why does the street model only about 46 bps a year after fiscal 2026 when the company has delivered 90 to 130 bps in each recent quarter?"
+  ],
+  "sources": [
+    {
+      "document_id": 90556,
+      "title": "Chewy Investor Day 2023",
+      "date": "2023-12-14"
+    },
+    {
+      "document_id": 67320,
+      "title": "Morgan Stanley Technology, Media & Telecom Conference",
+      "date": "2025-03-05"
+    },
+    {
+      "document_id": 185714,
+      "title": "Chewy Inc Q1 2026 Earnings Call (fiscal Q1 2025)",
+      "date": "2025-06-11"
+    },
+    {
+      "document_id": 50125,
+      "title": "Chewy Inc Q4 2026 Earnings Call (fiscal Q4 2025)",
+      "date": "2026-03-25"
+    },
+    {
+      "document_id": 50122,
+      "title": "Chewy Inc Q1 2027 Earnings Call (fiscal Q1 2026)",
+      "date": "2026-06-10"
+    },
+    {
+      "document_id": 219263,
+      "title": "Chewy Inc Q2 2027 Earnings Call (fiscal Q2 2026)",
+      "date": "2026-09-09"
+    },
+    {
+      "document_id": 219191,
+      "title": "Chewy, Inc. 10-Q (quarter ended 2026-08-02)",
+      "date": "2026-09-09"
+    },
+    {
+      "document_id": 36623,
+      "title": "Chewy, Inc. 10-Q (quarter ended 2026-05-03)",
+      "date": null
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps (market_data, revisions, estimates; asof 2026-09-30 to 2026-10-01)",
+      "date": "2026-10-01"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_financials summary consensus (Visible Alpha)",
+      "date": "2026-10-01"
+    },
+    {
+      "document_id": 0,
+      "title": "SEC 8-K Item 5.02: 0001193125-26-065612, 0001193125-25-157111, 0001193125-26-015958, 0001193125-25-096774",
+      "date": "2025-04-25 to 2026-02-24"
+    }
+  ],
+  "tool_calls": 30
+}

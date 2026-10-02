@@ -41,10 +41,15 @@ Gates (every gate calibrated so GXO passes):
 2. Underperforming, two of three: drawdown <= -20%, own-history EV/EBITDA percentile <= 25%, LTM price <= -10%.
 3. Room to expand: EBITDA margin (note: the grid's `ebitda_margin` is the forward-year consensus margin, not LTM) <= 15% absolute, or below the industry median (sector median if the industry has
    fewer than 5 names) and <= 30%.
-4. Unproven but not broken: 12-month forward EBITDA consensus revision between -30% and +10%.
+4. Unproven, and the cutting has stopped: 12-month forward EBITDA revision between -30% and +10%, AND the 4-month
+   revision (grid field `ebitda_turn_pct`) at or above -3%. The size of the prior cut is not the test. GXO's own
+   FY2026 EBITDA consensus (Baba `data_financials` consensus_history, pid 4250) fell 20% from May 2023 to Feb 2024,
+   was still -8% over the twelve months before the new CEO's first call, and has moved less than 1% in any four-month
+   window since mid-2025. A cut is often the early part of the story; what distinguished GXO was stabilization.
 5. Survivable: net debt / LTM EBITDA <= 5x.
 
-Run on 2026-10-02: 2,079 US rows -> 167 survivors (3 portfolio, 7 pipeline, 157 screen bucket). Rejection counts
+Run on 2026-10-02: 2,079 US rows -> 167 survivors (3 portfolio, 7 pipeline, 157 screen bucket) under the original -30%
+floor with no stabilization test; 125 of those pass the 4-month >= -3% test added after the pilot. Rejection counts
 are printed by the script. `stage1_ranked.csv` orders survivors by closeness to GXO's fingerprint (`_sim`, lower is
 closer: valuation percentile, drawdown depth, margin gap to peers, flatness of revisions).
 
@@ -82,8 +87,10 @@ dates. Budget: 12 to 20 tool calls per ticker.
 Scoring, 0 to 10: A underperformance and cheapness (0-2), B catalyst recency and quality (0-3, external CEO plus
 other changes scores highest), C numeric margin framing by management (0-3, a level or annual rate with a year,
 repeated, scores highest), D unproven (0-2, consensus-implied margin at the target year at least 100 bps below
-management's target). Disqualifiers: catalyst older than 18 months, target already in consensus, covenant stress,
-commodity-driven margin.
+management's target, and 0 whenever the 4-month revision is below -3% because estimates are still falling; a deep
+12-month cut that has stabilized does not zero it). Disqualifiers: catalyst older than 18 months, target already in
+consensus, covenant stress, commodity-driven margin. `aggregate.py` recomputes D mechanically on the stabilization rule
+(column D2) beside the subagent's own D, so a rule change re-ranks past runs without re-running the agents.
 
 Why Opus and not the top model for this stage: the work is extraction against a fixed schema with explicit
 scoring rules, and the sources are short passages. Cost scales with candidate count, not with judgment depth.
@@ -140,8 +147,11 @@ Full table: `outputs/2026.10.02/ranked.md`. Per-name notes with verbatim quotes 
 - JBTM (8) has the strongest numeric framing in the batch (20% adjusted EBITDA margin in 2028, $150M synergies,
   consensus about 300 bps short) but the Marel close is 21 months old and leadership is unchanged. Worth a look
   even though it fails the catalyst window.
-- Six names (HOG, GPK, AVAV, PRIM, DRVN, LPX) are resets after an estimate cut of 15% to 27%, not unproven stories.
-  That is why the stage 1 revision floor moved from -30% to -10% after the pilot; 117 of the 167 survivors pass it.
+- Six names (HOG, GPK, AVAV, PRIM, DRVN, LPX) carry 12-month estimate cuts of 15% to 27%. The first pass treated a cut
+  deeper than 10% as a broken story and zeroed D. That was wrong on GXO's own history (its FY2026 consensus fell 20% in
+  2023-24), so the rule became a stabilization test: D is zero only when the 4-month revision is still below -3% (LPX at
+  -12.5%, ACI at -7.8%) or the target is already in consensus (AVY, ZS). On that basis HOG and GPK re-enter as setups and
+  DRVN and PRIM rise, while ACI drops out because its estimates are still falling.
 - Two names show numeric framing with no management catalyst (AVY, CNM) and the street already models the target in
   AVY's case. They calibrate the screen: C alone is not the setup.
 - Cost actually observed: 12 to 30 tool calls per name; the five subagents used about 1.2 million tokens in total,

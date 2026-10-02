@@ -1,0 +1,41 @@
+{
+  "ticker": "OMCL", "cid": 1003158, "name": "Omnicell, Inc.", "industry": "Health Care Technology", "as_of": "2026-10-02",
+  "quant": {"mcap_usd": 1548338880.0, "drawdown": -0.3582, "pctile_ev_ebitda_60m": 0.0167, "price_ltm_pct": 0.1182,
+            "ebitda_margin_ltm": 0.1521, "ebitda_margin_fwd_consensus": 0.1383, "industry_median_margin": 0.303, "ev_ebitda_fy": 7.98,
+            "net_debt_ltm_ebitda": -0.73, "ebitda_revision_12m": 0.0719, "ebitda_brokers": 7},
+  "catalyst": {"type": ["new_cfo"],
+               "events": [
+                 {"what": "CFO appointed, succeeding Nchacha Etta (departure announced 8-K 0001104659-25-022797)", "who": "Baird Radford", "from": "Allakos (CFO); earlier HeartFlow (CFO), Intuitive Surgical, eBay", "effective": "2025-08-26", "source": "8-K 0001104659-25-082526", "external_hire": true},
+                 {"what": "Promoted to President, keeps COO role; Randall Lipps steps down as President, remains CEO and Chairman (no CEO change)", "who": "Nnamdi Njoku", "from": "Omnicell EVP and COO (ex Zimmer Biomet, Medtronic)", "effective": "2026-07-01", "source": "8-K 0001104659-26-079606", "external_hire": false}
+               ],
+               "months_since_primary": 13.2},
+  "margin_framing": {"numeric": false, "metric": "adjusted EBITDA margin",
+                     "metric_basis_note": "No long-term margin level or bps rate stated in the window. The only numeric framing is a one-year relative rate (2026 non-GAAP EBITDA growth more than 2x revenue growth). The old 25% by 2025 EBITDA margin target (Lipps, Q4 2020 call, doc 173906, search snippet only) was missed and is outside the window.",
+                     "current_level_pct": 15.2, "target_level_pct": null, "target_year": null,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "At the midpoint of our full year 2026 guidance ranges, non-GAAP EBITDA is expected to expand by more than twice the rate of revenue growth.", "speaker": "Baird Radford", "role": "CFO", "doc_title": "Omnicell, Inc. Q1 2026 Earnings Call", "date": "2026-04-28", "document_id": 173903},
+                       {"quote": "In 2025, we grew non-GAAP EBITDA at a rate of one half the rate of revenue growth. We set forth this year's plan, our goal was to do it by at least 2x the rate of revenue growth. We won't get back to historic levels immediately, but the management team recognizes that we're way under-delivering", "speaker": "Baird Radford", "role": "CFO", "doc_title": "Bank of America Global Healthcare Conference 2026", "date": "2026-05-12", "document_id": 49210},
+                       {"quote": "You know, from a margin perspective, I'll bring us back to we know where we are now is not good enough, and we're committed as a management team to making meaningful improvement.", "speaker": "Baird Radford", "role": "CFO", "doc_title": "Bank of America Global Healthcare Conference 2026", "date": "2026-05-12", "document_id": 49210},
+                       {"quote": "Non-GAAP EBITDA to be in the range of $175 million-$185 million.", "speaker": "Baird Radford", "role": "CFO", "doc_title": "Omnicell, Inc. Q2 2026 Earnings Call", "date": "2026-07-30", "document_id": 112193}
+                     ],
+                     "first_stated": "2026-04-28", "times_repeated": 1},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 14.60, "FY2027": 13.83, "FY2028": 15.51},
+             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": null,
+             "gap_assumption": "No stated margin level, so no gap; D scored on the 12-month FY2027 EBITDA revision (+7.2%). FY2026 guide midpoint ($180M on $1,235M revenue) equals consensus FY2026 EBITDA $181.0M. Consensus FY2027 margin dips to 13.8% (no repeat of the $15M Q2 2026 tariff refund) before 15.5% in FY2028, well below the high-teens cycle peak the BofA analyst cited.",
+             "ebitda_uplift_pct_if_target_hit": null, "source": "Baba data_financials consensus (fundamentals)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [566, 346], "note": "Order is [Q1 2026, Q2 2026]. Q1: 14.4% vs 8.7% (consensus actuals). Q2 excludes the one-time $15M tariff refund: $52M / $312M vs $38.4M / $290.6M (Radford, doc 112193); reported $67M incl. refund. Q3 2026 guide $32M to $37M EBITDA on $301M to $307M revenue implies margin falls back near 11% to 12%."},
+  "score": {"A_underperformance": 2, "B_catalyst": 2, "C_numeric_framing": 1, "D_unproven": 1, "total": 6},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Partial match: very cheap (1.7th percentile own-history EV/EBITDA, 36% drawdown) with an external CFO who openly calls margins 'way under-delivering', but there is no CEO change and no numeric long-term margin target, so the gap to the street cannot be measured.",
+  "open_questions": ["Will Radford put a numeric EBITDA margin level and year on the 'back to historic levels' ambition, for example alongside the OmniSphere launch in 1H 2027?", "Why does consensus FY2027 EBITDA ($178.6M) sit below FY2026 ($181.0M) when the Titan XT refresh cycle starts shipping in 2H 2026?", "Does the Njoku promotion to President signal CEO succession from founder Randall Lipps (employment agreement term ends 2027-12-31)?"],
+  "sources": [
+    {"document_id": 173903, "title": "Omnicell, Inc. Q1 2026 Earnings Call", "date": "2026-04-28"},
+    {"document_id": 49210, "title": "Bank of America Global Healthcare Conference 2026", "date": "2026-05-12"},
+    {"document_id": 112193, "title": "Omnicell, Inc. Q2 2026 Earnings Call", "date": "2026-07-30"},
+    {"document_id": 0, "title": "Baba data_comps (market_data, revisions, estimates; asof 2026-09-30 to 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials fundamentals consensus (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02 filings: 0001104659-25-022797, 0001104659-25-082526, 0001104659-26-079606, 0001104659-25-020354", "date": "2025-03-04 to 2026-07-01"}
+  ],
+  "tool_calls": 19
+}

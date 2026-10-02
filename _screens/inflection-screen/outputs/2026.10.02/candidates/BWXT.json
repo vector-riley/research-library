@@ -1,0 +1,219 @@
+{
+  "ticker": "BWXT",
+  "cid": 1000440,
+  "name": "BWX Technologies, Inc.",
+  "industry": "Aerospace & Defense",
+  "as_of": "2026-10-02",
+  "quant": {
+    "mcap_usd": 12585672137.87,
+    "drawdown": -0.42370739707439875,
+    "pctile_ev_ebitda_60m": 0.43333333333333335,
+    "price_ltm_pct": -0.2526705896446514,
+    "ebitda_margin_ltm": 0.17548448280764273,
+    "ebitda_margin_fwd_consensus": 0.17796435072847788,
+    "industry_median_margin": 0.178,
+    "ev_ebitda_fy": 18.676832758662304,
+    "net_debt_ltm_ebitda": 2.187607674506722,
+    "ebitda_revision_12m": 0.05516867741084286,
+    "ebitda_brokers": 13.0
+  },
+  "catalyst": {
+    "type": [
+      "new_cfo",
+      "acquisition",
+      "strategy_update",
+      "board_refresh"
+    ],
+    "events": [
+      {
+        "what": "Robb LeMasters stepped down as CFO; Michael Fitzgerald (VP Finance and Chief Accounting Officer) named interim SVP and CFO",
+        "who": "Michael T. Fitzgerald",
+        "from": "BWXT (VP Finance and CAO; earlier MorganFranklin Consulting, Deloitte)",
+        "effective": "2025-05-12",
+        "source": "8-K 0001104659-25-047051",
+        "external_hire": false
+      },
+      {
+        "what": "Fitzgerald named permanent SVP, CFO and Chief Accounting Officer (interim tag removed)",
+        "who": "Michael T. Fitzgerald",
+        "from": "BWXT (interim CFO since 2025-05-12)",
+        "effective": "2025-07-31",
+        "source": "8-K 0001104659-25-072738 (Baba doc 71806)",
+        "external_hire": false
+      },
+      {
+        "what": "Closed acquisition of Kinectrics Holdings (commercial nuclear services and isotopes), reported in Commercial Operations",
+        "who": "Kinectrics Inc.",
+        "from": null,
+        "effective": "2025-05-20",
+        "source": "10-Q 0001486957-26-000028 (Baba doc 892); no Item 2.01 8-K filed",
+        "external_hire": null
+      },
+      {
+        "what": "New director (board expanded 9 to 10)",
+        "who": "Daniel L. Jablonsky",
+        "from": null,
+        "effective": "2026-03-02",
+        "source": "8-K 0001104659-26-017868",
+        "external_hire": true
+      },
+      {
+        "what": "Acquired Precision Components Group (first U.S. commercial nuclear manufacturing plant); agreement 2026-04-20, closed early July 2026",
+        "who": "Precision Components Group, LLC",
+        "from": null,
+        "effective": "2026-07",
+        "source": "10-Q 0001486957-26-000042 (Baba doc 115364); Q2 2026 Earnings Call (doc 115268)",
+        "external_hire": null
+      },
+      {
+        "what": "Announced (pending) sale of majority stake in BWXT Medical for up to $800M, retaining about 20%; 2027 framework assumes close at end of 2026",
+        "who": "BWXT Medical",
+        "from": null,
+        "effective": null,
+        "source": "Investor Day 2026 (doc 225471)",
+        "external_hire": null
+      },
+      {
+        "what": "First Investor Day with specific 2030 targets (revenue $5.5B to $6B, adjusted EBITDA $1.1B to $1.2B, margin about 20%)",
+        "who": "Management",
+        "from": null,
+        "effective": "2026-09-29",
+        "source": "Investor Day 2026 (doc 225471)",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 16
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "Level target and consensus are both adjusted EBITDA. Target assumes BWXT Medical is sold at end-2026; FY2030 consensus may still include Medical and predates (or barely postdates) the 2026-09-29 Investor Day.",
+    "current_level_pct": 17.5,
+    "target_level_pct": 20.0,
+    "target_year": 2030,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "We are laying out a path from 17.5% adjusted EBITDA margin in 2026 to approximately 20% by 2030. The interesting thing that gives us a lot of confidence in this is a lot of this is within our control.",
+        "speaker": "Mike Fitzgerald",
+        "role": "SVP and CFO",
+        "doc_title": "Investor Day 2026",
+        "date": "2026-09-29",
+        "document_id": 225471
+      },
+      {
+        "quote": "This represents about 300 basis points of opportunity, but we want to be balanced, so we also explicitly are accounting for growth investment and mix offsets within that to get to the 20% target. I think the important thing here is that 20% doesn't assume that mix is going to be more favorable.",
+        "speaker": "Mike Fitzgerald",
+        "role": "SVP and CFO",
+        "doc_title": "Investor Day 2026",
+        "date": "2026-09-29",
+        "document_id": 225471
+      },
+      {
+        "quote": "You heard Mike forecast that we could go from 17.5% adjusted EBITDA margins now to about 20% when we get to 2030, and we have got a clear path for that.",
+        "speaker": "Rex Geveden",
+        "role": "President and CEO",
+        "doc_title": "Investor Day 2026",
+        "date": "2026-09-29",
+        "document_id": 225471
+      },
+      {
+        "quote": "For adjusted EBITDA, we're targeting $1.1 billion-$1.2 billion. That's a low to mid-teens annual growth rate.",
+        "speaker": "Mike Fitzgerald",
+        "role": "SVP and CFO",
+        "doc_title": "Investor Day 2026",
+        "date": "2026-09-29",
+        "document_id": 225471
+      },
+      {
+        "quote": "Our preliminary framework calls for high single-digit revenue growth, high single-digit adjusted EBITDA growth, and modest margin expansion.",
+        "speaker": "Mike Fitzgerald",
+        "role": "SVP and CFO (2027 framework)",
+        "doc_title": "Investor Day 2026",
+        "date": "2026-09-29",
+        "document_id": 225471
+      }
+    ],
+    "first_stated": "2026-09-29",
+    "times_repeated": 1
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 17.48,
+      "FY2027": 17.92,
+      "FY2028": 18.04
+    },
+    "consensus_margin_at_target_year_pct": 18.67,
+    "gap_bps_vs_target": -133,
+    "gap_assumption": "FY2030 consensus EBITDA 1,047.7M / revenue 5,613.2M = 18.67% vs approximately 20% target, same metric. Consensus revenue sits inside the $5.5B to $6B target but EBITDA sits below the $1.1B low end. Consensus likely not yet updated for the 2026-09-29 Investor Day and may include BWXT Medical.",
+    "ebitda_uplift_pct_if_target_hit": 7.15,
+    "source": "Baba data_financials consensus (FY2026 EBITDA 667.0M on 3,819.6M; FY2027 749.3M on 4,210.3M; FY2028 833.2M on 4,621.5M; FY2030 1,047.7M on 5,613.2M)"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      -81,
+      -182
+    ],
+    "note": "Q4 2025 EBITDA margin 16.65% vs 17.46% (-81 bps) and Q1 2026 17.21% vs 19.02% (-182 bps), VA actuals; dilution from Kinectrics mix and growth investment. Q2 2026 is not yet in VA actuals; on that call Fitzgerald raised a margin guide to about 20.5% from greater than 19% (doc 115268, segment context unverified) and Geveden said investments 'will moderate near-term margin expansion'. Company margin has not yet started moving toward 20%."
+  },
+  "score": {
+    "A_underperformance": 1,
+    "B_catalyst": 2,
+    "C_numeric_framing": 2,
+    "D_unproven": 2,
+    "total": 7
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "The best framing match of this batch: a fresh CFO target of about 20% adjusted EBITDA margin by 2030 sits 133 bps above FY2030 consensus, but the target is three days old and stated once, the CFO is an internal promotion, margins are still falling year over year, and at 18.7x the stock is mid-range on its own history rather than cheap.",
+  "open_questions": [
+    "Do brokers lift FY2028 to FY2030 EBITDA toward the $1.1B to $1.2B target after the Investor Day, or does the 133 bp gap persist through Q3 results in early November?",
+    "Does FY2030 consensus still include BWXT Medical, and what is the margin effect of deconsolidating it at end-2026?",
+    "When does Commercial margin turn (Q4 2025 and Q1 2026 company margins fell 81 and 182 bps year over year) given the stated growth investment drag?"
+  ],
+  "sources": [
+    {
+      "document_id": 225471,
+      "title": "Investor Day 2026",
+      "date": "2026-09-29"
+    },
+    {
+      "document_id": 115268,
+      "title": "BWX Technologies, Inc. Q2 2026 Earnings Call",
+      "date": "2026-08"
+    },
+    {
+      "document_id": 892,
+      "title": "BWX Technologies, Inc. 10-Q (Q1 2026; Kinectrics close 2025-05-20)",
+      "date": "2026-05-04"
+    },
+    {
+      "document_id": 115364,
+      "title": "BWX Technologies, Inc. 10-Q (Q2 2026; PCG agreement 2026-04-20)",
+      "date": "2026-08"
+    },
+    {
+      "document_id": 71806,
+      "title": "8-K 0001104659-25-072738 (Fitzgerald named CFO)",
+      "date": "2025-07-31"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001104659-25-047051 (LeMasters out, Fitzgerald interim CFO)",
+      "date": "2025-05-12"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001104659-26-017868 (director Jablonsky)",
+      "date": "2026-02-20"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps and data_financials (Visible Alpha consensus)",
+      "date": "2026-10-01"
+    }
+  ],
+  "tool_calls": 17
+}

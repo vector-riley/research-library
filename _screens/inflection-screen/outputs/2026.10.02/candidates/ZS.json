@@ -1,0 +1,44 @@
+{
+  "ticker": "ZS", "cid": 1003932, "name": "Zscaler Inc", "industry": "Systems Software", "as_of": "2026-10-02",
+  "quant": {"mcap_usd": 33097466340.0, "drawdown": -0.4070, "pctile_ev_ebitda_60m": 0.2167, "price_ltm_pct": -0.3345,
+            "ebitda_margin_ltm": 0.2731, "ebitda_margin_fwd_consensus": 0.2819, "industry_median_margin": 0.339, "ev_ebitda_fy": 28.27,
+            "net_debt_ltm_ebitda": -1.87, "ebitda_revision_12m": 0.0241, "ebitda_brokers": 31},
+  "catalyst": {"type": ["new_cfo", "acquisition"],
+               "events": [
+                 {"what": "CFO appointed, succeeding retiring Remo Canessa", "who": "Kevin Rubin", "from": "Alteryx (CFO 2016 to 2024, interim CEO 2024), then BetterUp (CFO)", "effective": "2025-05-26", "source": "8-K 0001713683-25-000078", "external_hire": true},
+                 {"what": "Red Canary acquisition (MDR / agentic SecOps); CFO called its contribution not material; Red Canary FY2026 revenue $144M, exit ARR $141M; close described as 'a year ago' on 2026-09-03, exact date not verified (no Item 2.01/1.01 8-K returned)", "who": "Red Canary", "from": null, "effective": null, "source": "document_id 217612; document_id 49200", "external_hire": null},
+                 {"what": "EVP Corporate Strategy resigned from role and board", "who": "Raj Judge", "from": null, "effective": "2026-07-31", "source": "8-K 0001713683-26-000082", "external_hire": null},
+                 {"what": "Chief Revenue Officer promoted, succeeding Mike Rich", "who": "Ross Tackett", "from": "internal promotion", "effective": "2026-10-01", "source": "8-K 0001713683-26-000193", "external_hire": false},
+                 {"what": "Investor Day announced (pending, after as_of)", "who": "Kevin Rubin", "from": null, "effective": "2026-10-06", "source": "document_id 217612", "external_hire": null}
+               ],
+               "months_since_primary": 16.2},
+  "margin_framing": {"numeric": true, "metric": "operating margin",
+                     "metric_basis_note": "Targets are non-GAAP operating margin; street fields below use consensus operating_income for the gap and consensus EBITDA for the margin path.",
+                     "current_level_pct": 22.9, "target_level_pct": 23.7, "target_year": 2027,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "Operating profit of $924 million to $932 million, up approximately 21% year-over-year, and equating to an operating margin of approximately 23.7%.", "speaker": "Kevin Rubin", "role": "CFO", "doc_title": "Zscaler Inc Q4 2026 Earnings Call", "date": "2026-09-03", "document_id": 217612},
+                       {"quote": "For the full year, non-GAAP gross margin was 80.3%, up 20 basis points year-over-year. Non-GAAP operating margin was 22.9%, up 120 basis points year-over-year.", "speaker": "Kevin Rubin", "role": "CFO", "doc_title": "Zscaler Inc Q4 2026 Earnings Call", "date": "2026-09-03", "document_id": 217612},
+                       {"quote": "Operating margin was 21.8% towards the higher end of our long-term range and growing by approximately 40 basis points year-over-year.", "speaker": "Kevin Rubin", "role": "CFO", "doc_title": "Zscaler Inc Q1 2026 Earnings Call", "date": "2025-11-25", "document_id": 49200},
+                       {"quote": "We remain confident of reaching 20%-22% operating margins in the long term.", "speaker": "Remo Canessa", "role": "CFO (prior)", "doc_title": "Zscaler Inc Q2 2023 Earnings Call", "date": "2023-03-02", "document_id": 91878}
+                     ],
+                     "first_stated": "2026-09-03", "times_repeated": 1},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 27.31, "FY2027": 28.19, "FY2028": 29.23},
+             "consensus_margin_at_target_year_pct": 23.65, "gap_bps_vs_target": 5,
+             "gap_assumption": "Compares the FY2027 non-GAAP operating margin guide (~23.7%) with consensus FY2027 operating_income / revenue (929.4M / 3,929.6M = 23.65%), same metric. FY2026 in the EBITDA row is reported (FYE July 2026). The legacy 20% to 22% long-term range sits below every consensus year.",
+             "ebitda_uplift_pct_if_target_hit": 0.2, "source": "Baba data_financials consensus (summary and fundamentals)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [171, 280], "note": "Order is [Q3 FY2026 (Apr-2026), Q4 FY2026 (Jul-2026)], EBITDA margin YoY from consensus actuals (Q4 derived as FY2026 minus Q1 to Q3). CFO-stated non-GAAP operating margin: Q4 FY2026 24.3%, up 220 bps YoY; FY2026 22.9%, up 120 bps (doc 217612). Margin is already above the old long-term range; FY2027 guide adds about 80 bps."},
+  "score": {"A_underperformance": 2, "B_catalyst": 2, "C_numeric_framing": 2, "D_unproven": 0, "total": 6},
+  "disqualified": true, "disqualifier_reason": "Margin target already reflected in consensus: FY2027 consensus operating margin 23.65% vs the CFO's ~23.7% guide (5 bps gap), and the only long-term range (20% to 22%) was surpassed in FY2026 at 22.9%. Not a low-margin business (27.3% LTM EBITDA margin), so there is no GXO-style margin gap to close.",
+  "verdict": "Not a GXO setup: cheap and de-rated with an external CFO, but a high-margin software name whose only numeric margin framing is a one-year guide the street already models; the 2026-10-06 Investor Day is the only thing that could create a gap.",
+  "open_questions": ["Will the 2026-10-06 Investor Day replace the stale 20% to 22% long-term range with a new operating or FCF margin target, and is it above the 23.65% FY2027 consensus?", "How much of the FY2027 FCF margin step-down (23% to 23.5% guide) is memory and component CapEx that reverses?", "Does the 3% workforce restructuring ($30M to $33M charges) fund AI reinvestment or drop to margin?"],
+  "sources": [
+    {"document_id": 217612, "title": "Zscaler Inc Q4 2026 Earnings Call", "date": "2026-09-03"},
+    {"document_id": 49200, "title": "Zscaler Inc Q1 2026 Earnings Call", "date": "2025-11-25"},
+    {"document_id": 91878, "title": "Zscaler Inc Q2 2023 Earnings Call", "date": "2023-03-02"},
+    {"document_id": 0, "title": "Baba data_comps (market_data, revisions, estimates; asof 2026-09-30 to 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary and fundamentals consensus (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02 filings: 0001713683-25-000078, 0001713683-25-000103, 0001713683-26-000082, 0001713683-26-000193", "date": "2025-05-29 to 2026-09-24"}
+  ],
+  "tool_calls": 22
+}

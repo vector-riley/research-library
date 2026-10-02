@@ -77,10 +77,15 @@ in Bash. Never read a 100K-character file sequentially.
 - C. Numeric margin framing by management (0 to 3): 3 = explicit level or annual rate with a year, stated by
   CEO or CFO, repeated on at least two occasions; 2 = explicit number stated once or only as a synergy dollar
   figure; 1 = qualitative "margin expansion" language or a peer-parity statement without a number; 0 = none.
-- D. Unproven (0 to 2): 2 if the consensus-implied margin at the target year sits at least 100 bps below
-  management's stated target (or, with no level stated, if 12-month forward EBITDA revision is between -10% and
-  +5%); 1 if the gap is 25 to 100 bps or revisions are modestly positive (+5% to +10%); 0 if the street already
-  models the target or EBITDA estimates have been cut more than 10% (story broken, not unproven).
+- D. Unproven (0 to 2). First test stabilization: if the 4-month forward EBITDA revision (data_comps ebitda_turn_pct)
+  is below -3%, estimates are still falling and D = 0 whatever else is true. A deep cut over the prior 12 months is NOT
+  by itself disqualifying: GXO's own FY2026 consensus fell 20% in 2023-24 and was still -8% over the 12 months before
+  the new CEO's first call; what mattered was that it had stopped falling. If stabilized: 2 if the consensus-implied
+  margin at the target year sits at least 100 bps below management's stated target (or, with no level stated, if the
+  4-month revision is between -3% and +5%); 1 if the gap is 25 to 100 bps (or the 4-month revision is +5% to +10%);
+  0 if the street already models the target or the 4-month revision is above +10% (already re-rated).
+  Record gap_bps_vs_target as (management target minus consensus) in basis points, positive when the target is above
+  consensus.
 
 Disqualifiers (set `disqualified` true and explain): catalyst older than 18 months with no pending change;
 margin target already reflected in consensus; going-concern or covenant stress; business where margin is

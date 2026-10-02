@@ -1,0 +1,172 @@
+{
+  "ticker": "NOC",
+  "cid": 1000183,
+  "name": "NORTHROP GRUMMAN CORPORATION",
+  "industry": "Aerospace & Defense",
+  "as_of": "2026-10-02",
+  "quant": {
+    "mcap_usd": 68636800000.0,
+    "drawdown": -0.3648389074757583,
+    "pctile_ev_ebitda_60m": 0.0,
+    "price_ltm_pct": -0.19358913508108022,
+    "ebitda_margin_ltm": 0.15186347865083674,
+    "ebitda_margin_fwd_consensus": 0.1407607302969131,
+    "industry_median_margin": 0.178,
+    "ev_ebitda_fy": 12.181399340175432,
+    "net_debt_ltm_ebitda": 1.9791488934889279,
+    "ebitda_revision_12m": -0.007793688034659851,
+    "ebitda_brokers": 14.0
+  },
+  "catalyst": {
+    "type": [
+      "new_cfo",
+      "board_refresh"
+    ],
+    "events": [
+      {
+        "what": "New corporate VP and CFO, succeeding Kenneth Crews (advisory role to 2026-02-20)",
+        "who": "John Greene",
+        "from": "Discover Financial Services (EVP and CFO 2019 to 2025); earlier Bioverativ, Willis, HSBC, GE",
+        "effective": "2026-01-07",
+        "source": "8-K 0001628280-25-050297",
+        "external_hire": true
+      },
+      {
+        "what": "New director (board expanded 12 to 13); Madeleine Kleiner retiring at 2026 annual meeting; James Turley named Lead Independent Director 2026-05-20",
+        "who": "Admiral Christopher W. Grady",
+        "from": "Vice Chairman of the Joint Chiefs of Staff (retired Oct 2025)",
+        "effective": "2026-02-12",
+        "source": "8-K 0001628280-26-008140",
+        "external_hire": true
+      }
+    ],
+    "months_since_primary": 8
+  },
+  "margin_framing": {
+    "numeric": false,
+    "metric": "operating margin",
+    "metric_basis_note": "Management guides segment operating margin (before unallocated corporate and FAS/CAS pension items), not EBITDA. The only numeric level with a horizon is the single-year 2026 guide (low to mid 11%), roughly the 2025 exit rate (Q4 2025 segment OM 11.2% per Crews), so it frames no expansion. Multi-year language is qualitative; the Aeronautics 10% long-term figure has no year and was stated by the outgoing CFO.",
+    "current_level_pct": 11.2,
+    "target_level_pct": null,
+    "target_year": null,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "On the bottom line, we remain focused on disciplined program execution and margin expansion over time, driven by cost efficiencies, operational leverage, and mix. 2026 segment operating income is projected to be between $4.85 billion-$5 billion, reflecting continued strong performance and a low to mid 11% segment operating margin.",
+        "speaker": "John Greene",
+        "role": "CFO",
+        "doc_title": "NORTHROP GRUMMAN CORPORATION Q4 2025 Earnings Call",
+        "date": "2026-01-27",
+        "document_id": 141044
+      },
+      {
+        "quote": "It's B-21, where you know the margin profile on that, where it's 0%. ... When we think about long-term, it's absolutely as we have the opportunities to exit the LRIP activities on B-21, and as these other development programs shift to production, we do see AS being able to continue to create accretive margins and get back to that 10% again over the long term.",
+        "speaker": "Kenneth Crews",
+        "role": "CFO (outgoing)",
+        "doc_title": "NORTHROP GRUMMAN CORPORATION Q4 2025 Earnings Call",
+        "date": "2026-01-27",
+        "document_id": 141044
+      },
+      {
+        "quote": "Segment operating income guidance reflects continued strong performance and a low- to mid-11% margin rate. Margins are expected to improve over the course of the year, driven by strong performance, production timing, and mix.",
+        "speaker": "John Greene",
+        "role": "CFO",
+        "doc_title": "NORTHROP GRUMMAN CORPORATION Q1 2026 Earnings Call",
+        "date": "2026-04-21",
+        "document_id": 141043
+      },
+      {
+        "quote": "I'm not going to suggest how exactly you model, but what I will say is we have confidence in the execution capabilities of the firm and the ability to continue to drive strong margins through the second half of this year and into next year.",
+        "speaker": "John Greene",
+        "role": "CFO",
+        "doc_title": "NORTHROP GRUMMAN CORPORATION Q2 2026 Earnings Call",
+        "date": "2026-07-21",
+        "document_id": 40926
+      },
+      {
+        "quote": "Over the next several years, we expect that to shift again toward a predominance of fixed price, which will be a tailwind to margin, seeing us creep up even above the mid-14, where we're performing.",
+        "speaker": "Kathy Warden",
+        "role": "Chair, CEO and President (on Mission Systems segment)",
+        "doc_title": "Citi's Global Industrial Tech & Mobility Conference 2026",
+        "date": "2026-02-18",
+        "document_id": 45005
+      }
+    ],
+    "first_stated": "2026-01-27",
+    "times_repeated": 3
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 14.04,
+      "FY2027": 14.02,
+      "FY2028": 14.13
+    },
+    "consensus_margin_at_target_year_pct": null,
+    "gap_bps_vs_target": null,
+    "gap_assumption": "No multi-year company margin target exists, so no gap is computed. Consensus EBITDA margin is flat at about 14.0% FY2026 to FY2028 (VA 'EBITDA margin' line), and consensus operating margin is 10.56% FY2026, 10.65% FY2027, 10.82% FY2028; consolidated OM sits below segment OM by unallocated costs, so it is not directly comparable to the 11% segment guide. Street models roughly flat margins, consistent with management's framing.",
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials consensus (summary and fundamentals); FY2026 EBITDA 6,169M on revenue 44,077M; FY2027 6,630M on 47,098M; FY2028 7,092M on 50,122M"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      25,
+      416
+    ],
+    "note": "Last two quarters with VA actuals are Q4 2025 (EBITDA margin 14.32% vs 14.07%, +25 bps) and Q1 2026 (13.77% vs 9.61%, +416 bps). The Q1 jump is a base effect: Greene said Q1 2026 AS margin rose on 'the absence of the B-21 loss provision booked in the first quarter of 2025' (doc 141043). Q2 2026 (reported 2026-07-21) is not yet in VA actuals; on that call segment OI 'decreased slightly' year over year with $68M SiAW and GEM 63XL negative EACs (doc 40926). LTM margin 15.19% (Q2'25 to Q1'26) is flattered by the Q2 2025 training services divestiture gain ($1.04 of EPS per Greene, doc 40926)."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 2,
+    "C_numeric_framing": 1,
+    "D_unproven": 2,
+    "total": 7
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Cheap and down 36% with a genuine external CFO, but management has framed no margin opportunity beyond a flat single-year 11% segment guide and B-21 LRIP mix, and the street already models flat ~14% EBITDA margins, so the 7/10 is carried by quant and flat revisions rather than a GXO-style framing gap.",
+  "open_questions": [
+    "Will Greene set a multi-year segment margin or EBITDA target (for example at a 2027 guide or investor event), or keep the one-year guide convention?",
+    "How much of the B-21 LRIP loss reserve remains and when does the shift to full-rate production lift AS back to the 10% long-term level Crews cited?",
+    "Are the SiAW and GEM 63XL negative EACs contained, or do DS and Space miss the low 11% second-half margin Greene guided?"
+  ],
+  "sources": [
+    {
+      "document_id": 141044,
+      "title": "NORTHROP GRUMMAN CORPORATION Q4 2025 Earnings Call",
+      "date": "2026-01-27"
+    },
+    {
+      "document_id": 141043,
+      "title": "NORTHROP GRUMMAN CORPORATION Q1 2026 Earnings Call",
+      "date": "2026-04-21"
+    },
+    {
+      "document_id": 40926,
+      "title": "NORTHROP GRUMMAN CORPORATION Q2 2026 Earnings Call",
+      "date": "2026-07-21"
+    },
+    {
+      "document_id": 45005,
+      "title": "Citi's Global Industrial Tech & Mobility Conference 2026",
+      "date": "2026-02-18"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001628280-25-050297 (CFO John Greene succeeds Kenneth Crews)",
+      "date": "2025-11-06"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001628280-26-008140 (Admiral Grady to board; Turley Lead Independent Director)",
+      "date": "2026-02-13"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps and data_financials (Visible Alpha consensus)",
+      "date": "2026-10-01"
+    }
+  ],
+  "tool_calls": 19
+}
