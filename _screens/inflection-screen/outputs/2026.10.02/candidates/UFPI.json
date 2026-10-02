@@ -1,0 +1,201 @@
+{
+  "ticker": "UFPI",
+  "cid": 1003912,
+  "name": "UFP Industries Inc",
+  "industry": "Forest Products",
+  "as_of": "2026-10-02",
+  "business": "UFP Industries makes treated lumber, composite decking, pallets, packaging and engineered framing components for home-improvement retailers, builders and industrial customers.",
+  "quant": {
+    "mcap_usd": 4154303680.0,
+    "drawdown": -0.4308,
+    "pctile_ev_ebitda_60m": 0.283,
+    "price_ltm_pct": -0.1607,
+    "ebitda_margin_ltm": 0.0824,
+    "ebitda_margin_fwd_consensus": 0.087,
+    "industry_median_margin": 0.19,
+    "ev_ebitda_fy": 6.58,
+    "net_debt_ltm_ebitda": -0.7,
+    "ebitda_revision_12m": -0.0959,
+    "ebitda_brokers": 5
+  },
+  "catalyst": {
+    "type": [
+      "acquisition",
+      "strategy_update"
+    ],
+    "events": [
+      {
+        "what": "CEO succession (internal); Matthew Missad to Executive Chairman. Effective date is outside the 18-month window (cutoff 2025-04-01)",
+        "who": "William D. Schwartz",
+        "from": "President of UFP Retail Solutions",
+        "effective": "2024-12-29",
+        "source": "8-K 0000912767-24-000028 (announced 2024-08-27); President title added 8-K 0000912767-25-000005",
+        "external_hire": false
+      },
+      {
+        "what": "Bolt-on acquisition: MoistureShield composite decking plant, $55M cash (2025 sales about $50M)",
+        "who": "MoistureShield, Inc. (from Oldcastle APG)",
+        "from": null,
+        "effective": "2026-04-06",
+        "source": "8-K EX-99.1 0000912767-26-000044, document_id 144464",
+        "external_hire": null
+      },
+      {
+        "what": "Bolt-on acquisition: John Rock pallets, $47M cash (2025 sales about $86M)",
+        "who": "John Rock, Inc.",
+        "from": null,
+        "effective": "2026-05-04",
+        "source": "8-K EX-99.1 0000912767-26-000044, document_id 144464",
+        "external_hire": null
+      },
+      {
+        "what": "Bolt-on acquisition: Berry Pallets, $20M cash (2025 sales about $23M)",
+        "who": "Berry Pallets, Inc.",
+        "from": null,
+        "effective": "2026-05-18",
+        "source": "8-K EX-99.1 0000912767-26-000044, document_id 144464",
+        "external_hire": null
+      },
+      {
+        "what": "New EVP Operations Integration role (internal, from President of Construction segment); not an Item 5.02 officer change",
+        "who": "Patrick Benton",
+        "from": "President, UFP Construction",
+        "effective": null,
+        "source": "Schwartz, Q1 2026 call 2026-04-30, document_id 180268",
+        "external_hire": false
+      }
+    ],
+    "months_since_primary": 21.1,
+    "ceo_months_in_seat": 21.1,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "Lexical 'investor day' search over FY2026 calls found nothing; 8-K 2026-07-29 says long-term goals 'remain unchanged'. The $60M cost-out program ends 2026-12-31; FY2026 results (early 2027) are the next checkpoint."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "Two numeric frames. (1) A 12.5% adjusted EBITDA margin long-term goal with no target year, repeated by CEO Schwartz and in each 2026 earnings release. Baba shows it first in the Q4 2023 call (document_id 91814, Missad, 'stretched goal'; date not fetched), so it predates the new CEO. (2) A $60M cost-out (half SG&A, half capacity consolidation) 'by the end of 2026', set at the beginning of 2025; CFO Cole says $35M SG&A plus $7M capacity was done in 2025 and a further $25M comes in 2026. The caller's 'stated 2027 margin targets' could not be found: lexical '2027' over FY2026 documents returns only decking capacity and packaging comments, no margin target.",
+    "current_level_pct": 8.24,
+    "target_level_pct": 12.5,
+    "target_year": null,
+    "has_year": false,
+    "annual_bps": null,
+    "synergy_usd": 60000000,
+    "synergy_year": 2026,
+    "statements": [
+      {
+        "quote": "reminder, we are driving towards the following goals: A 12.5% EBITDA margin, 7%-10% unit sales growth, some of it which will come from M&A and new products.",
+        "speaker": "William G. Schwartz",
+        "role": "President and CEO",
+        "doc_title": "UFP Industries Inc Q4 2025 Earnings Call",
+        "date": "2026-02-24",
+        "document_id": 180270
+      },
+      {
+        "quote": "With these objectives in mind, we set a goal at the beginning of 2025 to achieve $60 million of cost reductions by the end of 2026, with half coming from SG&A and the other half coming from capacity consolidations that reduce our cost of goods sold.",
+        "speaker": "Mike Cole",
+        "role": "CFO",
+        "doc_title": "UFP Industries Inc Q4 2025 Earnings Call",
+        "date": "2026-02-24",
+        "document_id": 180270
+      },
+      {
+        "quote": "On the cost side, we are actively mitigating higher costs and remain on track to deliver the remaining $25 million of our $60 million cost-out program by year-end, with the potential to capture incremental savings beyond our initial targets.",
+        "speaker": "Will Schwartz",
+        "role": "President and CEO",
+        "doc_title": "UFP Industries Inc Q1 2026 Earnings Call",
+        "date": "2026-04-30",
+        "document_id": 180268
+      },
+      {
+        "quote": "The company's long-term goals remain unchanged and include: 1) achieving 7-10 percent unit sales growth annually (including bolt-on acquisitions) with at least 10 percent of all sales coming from new products; 2) achieving 12.5 percent adjusted EBITDA margins;",
+        "speaker": "Press release",
+        "role": "Company (8-K EX-99.1)",
+        "doc_title": "UFP Industries 8-K, Q2 2026 results",
+        "date": "2026-07-29",
+        "document_id": 144464
+      }
+    ],
+    "first_stated": null,
+    "times_repeated": 4
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 8.02,
+      "FY2027": 8.7,
+      "FY2028": 9.21
+    },
+    "consensus_margin_at_target_year_pct": 9.21,
+    "gap_bps_vs_target": 329,
+    "gap_assumption": "Calendar fiscal year, Baba labels match. No target year for 12.5%, so the gap uses FY2028, the last consensus year with data (FY2029 is empty). Same metric on both sides (adjusted EBITDA over net sales). Only 5 brokers. The $60M cost-out is about 95 bps on FY2026 consensus sales but is largely already in the run-rate.",
+    "ebitda_uplift_pct_if_target_hit": 35.8,
+    "source": "Baba data_financials consensus (Visible Alpha), summary and fundamentals"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      -129,
+      -127
+    ],
+    "note": "Order [Q1 2026, Q2 2026]. Q1 7.62% vs 8.91% (Baba actuals; CFO confirmed 7.6% vs 8.9%, document_id 180268). Q2 8.22% vs 9.49%: $154.5M on $1.88B (rounded, 8-K 0000912767-26-000044) vs Baba actual $174.15M on $1,835.4M. H1 2026 adjusted EBITDA margin 7.9% per the 8-K. Margin keeps falling despite about $42M of cost-out already done; Site Built pricing, transportation costs and housing are swamping savings. Lumber price moves also shift the margin denominator, so part of any recovery would be commodity-driven."
+  },
+  "score": {
+    "A_underperformance": 1,
+    "B_catalyst": 1,
+    "C_numeric_framing": 3,
+    "D_unproven": 2,
+    "total": 7
+  },
+  "disqualified": true,
+  "disqualifier_reason": "Catalyst older than 18 months with no pending change: the internal CEO succession was effective 2024-12-29 (21 months ago, before the 2025-04-01 cutoff), the CFO is unchanged, and the only in-window events are $122M of tuck-in acquisitions (about 3% of market cap). Margin is also partly lumber-price and housing-cycle driven.",
+  "verdict": "Big gap but stale catalyst: 12.5% target vs 9.2% FY2028 consensus and a dated $60M cost-out, yet the internal CEO is 21 months in, margins are still falling, and nothing new is scheduled.",
+  "open_questions": [
+    "Will management ever put a year on 12.5%, or will it reset the framework once the $60M program ends in December 2026?",
+    "How much of the 130 bps yearly margin decline is Site Built pricing and freight (cyclical) versus lost share (structural)?",
+    "Does the roughly $1.9B liquidity and 'meaningful M&A' language point to a transformational deal that would restart the catalyst clock?"
+  ],
+  "sources": [
+    {
+      "document_id": 180270,
+      "title": "UFP Industries Inc Q4 2025 Earnings Call",
+      "date": "2026-02-24"
+    },
+    {
+      "document_id": 180268,
+      "title": "UFP Industries Inc Q1 2026 Earnings Call",
+      "date": "2026-04-30"
+    },
+    {
+      "document_id": 112244,
+      "title": "UFP Industries Inc Q2 2026 Earnings Call",
+      "date": "2026-07-30"
+    },
+    {
+      "document_id": 144464,
+      "title": "UFP Industries 8-K, Q2 2026 results (0000912767-26-000044)",
+      "date": "2026-07-29"
+    },
+    {
+      "document_id": 91814,
+      "title": "UFP Industries Inc Q4 2023 Earnings Call (12.5% first seen, snippet only)",
+      "date": null
+    },
+    {
+      "document_id": 0,
+      "title": "SEC 8-K Item 5.02: 0000912767-24-000028, 0000912767-25-000005; no Item 2.01/1.01 8-K 2024-07-01 to 2026-10-02",
+      "date": "2024-08-27 to 2025-02-14"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01); stage1_ranked.csv for industry median",
+      "date": "2026-10-01"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_financials summary and fundamentals consensus (Visible Alpha)",
+      "date": "2026-10-01"
+    }
+  ],
+  "tool_calls": 22
+}

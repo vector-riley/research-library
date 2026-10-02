@@ -1,0 +1,83 @@
+{
+  "ticker": "PYPL",
+  "cid": 1000415,
+  "name": "PayPal Holdings, Inc.",
+  "industry": "Payment Processing",
+  "as_of": "2026-10-02",
+  "business": "Runs a two-sided digital payments network (PayPal, Venmo, Braintree, PayPal Credit) connecting merchants and consumers worldwide for checkout, transfers and consumer credit.",
+  "quant": {
+    "mcap_usd": 46798920000.0,
+    "drawdown": -0.4229,
+    "pctile_ev_ebitda_60m": 0.1667,
+    "price_ltm_pct": -0.2079,
+    "ebitda_margin_ltm": 0.2478,
+    "ebitda_margin_fwd_consensus": 0.2031,
+    "industry_median_margin": 0.264,
+    "ev_ebitda_fy": 6.31,
+    "net_debt_ltm_ebitda": -0.05,
+    "ebitda_revision_12m": -0.1843,
+    "ebitda_brokers": 19
+  },
+  "catalyst": {
+    "type": ["new_ceo", "board_refresh", "strategy_update"],
+    "events": [
+      {"what": "President and CEO (Alex Chriss resigned 2026-02-02; Jamie Miller interim CEO 2026-02-02 to 2026-03-01 while continuing as CFO and COO)", "who": "Enrique Lores", "from": "Former CEO of HP Inc. (30 years at HP); PayPal Chair of the Board before appointment", "effective": "2026-03-01", "source": "8-K 0001193125-26-035860", "external_hire": true},
+      {"what": "New independent Chair of the Board", "who": "David Dorman", "from": "PayPal director", "effective": "2026-02-02", "source": "8-K 0001193125-26-035860", "external_hire": false},
+      {"what": "Director added (former CEO of Block); Gail McGovern retired from board", "who": "Alyssa H. Henry", "from": "Block Inc.", "effective": "2026-03-25", "source": "8-K 0001633917-26-000059", "external_hire": true},
+      {"what": "Business-unit heads departed in realignment into three businesses", "who": "Michelle Gill (Small Business and Financial Services), Diego Scotti (Consumer Group)", "from": null, "effective": "2026-06-02", "source": "8-K 0001193125-26-197533; 8-K 0001633917-26-000076", "external_hire": null},
+      {"what": "Cost program: at least $1.5B gross run-rate savings over two to three years, largely reinvested", "who": "Enrique Lores / Jamie Miller", "from": null, "effective": "2026-05-05", "source": "document_id 198377", "external_hire": null},
+      {"what": "Directors added (context, pre-CEO change)", "who": "Joy Chik (2025-03-10), Deirdre Stanley (2025-06-24)", "from": null, "effective": "2025-06-24", "source": "8-K 0001193125-25-050929; 8-K 0001633917-25-000124", "external_hire": true}
+    ],
+    "months_since_primary": 7.0,
+    "ceo_months_in_seat": 7.0,
+    "next_event": {"type": "framework update", "date": null, "source": "CFO Jamie Miller, Q1 2026 call 2026-05-05 (document_id 198377): 'In the coming months ... we plan to share more details on the expected cadence of savings and our reinvestment framework for the years ahead. We intend to follow that up with external reporting, including segments sometime next year.' Not delivered by the Q2 call (2026-07-28, document_id 107420); no investor day date found."}
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "No margin level or annual rate has been stated. The only number is at least $1.5B of GROSS run-rate savings over two to three years (from May 2026, so about 2028 to 2029), which management says will be mostly reinvested ('much of those savings', 'majority of these investments will be self-funded'). The other framing is qualitative ('stronger operating leverage', 'attractive double-digit earnings growth profile over time'). Scored C=2 because the net margin effect is not quantified; a literal reading of the rubric (dollar savings with a horizon) would give 3. synergy_year uses the far end of the two-to-three-year horizon.",
+    "current_level_pct": 24.8,
+    "target_level_pct": null,
+    "target_year": null,
+    "has_year": false,
+    "annual_bps": null,
+    "synergy_usd": 1500000000,
+    "synergy_year": 2029,
+    "statements": [
+      {"quote": "Combined, the savings will be significant. We expect to see at least $1.5 billion of gross run rate savings over the next two to three years.", "speaker": "Enrique Lores", "role": "President and CEO (first earnings call)", "doc_title": "PayPal Holdings, Inc. Q1 2026 Earnings Call", "date": "2026-05-05", "document_id": 198377},
+      {"quote": "Looking ahead, we expect to deploy these cost savings to reinvest in growth and respond to business headwinds, improving our overall financial profile over time.", "speaker": "Jamie Miller", "role": "CFO and COO", "doc_title": "PayPal Holdings, Inc. Q1 2026 Earnings Call", "date": "2026-05-05", "document_id": 198377},
+      {"quote": "We are making good progress on our plan to deliver at least $1.5 billion of gross run rate savings over the next two to three years.", "speaker": "Enrique Lores", "role": "CEO", "doc_title": "PayPal Holdings, Inc. Q2 2026 Earnings Call", "date": "2026-07-28", "document_id": 107420},
+      {"quote": "In connection with that, we do expect to reinvest much of those savings over the next few years back into the areas that support our strategy.", "speaker": "Jamie Miller", "role": "CFO and COO", "doc_title": "PayPal Holdings, Inc. Q2 2026 Earnings Call", "date": "2026-07-28", "document_id": 107420}
+    ],
+    "first_stated": "2026-05-05",
+    "times_repeated": 2
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {"FY2026": 21.43, "FY2027": 20.31, "FY2028": 19.86},
+    "consensus_margin_at_target_year_pct": null,
+    "gap_bps_vs_target": null,
+    "gap_assumption": "No margin level stated, so no gap in bps. Consensus EBITDA margin (EBITDA/revenue, calendar years) falls from 25.40% FY2025 actual to 21.43% FY2026, 20.31% FY2027, 19.86% FY2028, 19.84% FY2029 and 19.92% FY2030: the street models the reinvestment and none of the net savings. For scale (illustrative only, not a target): $1.5B is about 4.0% of FY2028 consensus revenue ($37.8B) and 20% of FY2028 consensus EBITDA ($7.51B). FY2027 EBITDA consensus fell 18.4% in 12 months but only 0.02% in the last 4 months.",
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials summary consensus (Visible Alpha), 2026-10-01"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [-262, null],
+    "note": "Order [Q1 2026, Q2 2026]. Q1 EBITDA margin 24.70% vs 27.31% (VA actuals), -262 bps, with growth investments pulled forward (non-GAAP operating income -5%, document_id 198377). Q2 2026 actuals not yet in VA; on the call (document_id 107420) revenue +5%, TM dollars +1%, non-GAAP EPS $1.38 (-1%) and above guidance, FY2026 TM dollar and EPS guidance raised; savings to become 'more meaningful in the fourth quarter'. The CEO declined to comment on M&A speculation (2026-07-28). LTM margin covers Q2 2025 to Q1 2026."
+  },
+  "score": {"A_underperformance": 2, "B_catalyst": 3, "C_numeric_framing": 2, "D_unproven": 2, "total": 9},
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Closest of the four to the GXO setup: new outside CEO, board and leadership changes, a $1.5B savings program, a promised framework, and a street modeling margin compression. But management itself frames reinvestment, not margin expansion.",
+  "open_questions": [
+    "When will the promised savings-cadence and reinvestment framework come (said 'in the coming months' on 2026-05-05), and will it carry a net margin or EBITDA number?",
+    "How much of the $1.5B gross is net of reinvestment by 2028? Consensus assumes about none and has margins near 19.9% through FY2030.",
+    "Does the M&A speculation (no comment on 2026-07-28) cap or replace the operating story?"
+  ],
+  "sources": [
+    {"document_id": 198377, "title": "PayPal Holdings, Inc. Q1 2026 Earnings Call", "date": "2026-05-05"},
+    {"document_id": 107420, "title": "PayPal Holdings, Inc. Q2 2026 Earnings Call", "date": "2026-07-28"},
+    {"document_id": 0, "title": "Baba data_comps and data_financials summary (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0001193125-26-035860, 0001633917-26-000059, 0001193125-26-197533, 0001633917-26-000076, 0001193125-25-050929, 0001633917-25-000124", "date": "2025-03-10 to 2026-05-21"}
+  ],
+  "tool_calls": 13
+}

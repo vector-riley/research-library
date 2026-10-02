@@ -1,0 +1,47 @@
+{
+  "ticker": "VRNS", "cid": 1000986, "name": "Varonis Systems Inc", "industry": "Systems Software", "as_of": "2026-10-02",
+  "business": "Sells SaaS data security software that finds, monitors and protects sensitive enterprise data, including data feeding AI systems, to corporate security teams.",
+  "quant": {"mcap_usd": 6204852726.15, "drawdown": -0.2505, "pctile_ev_ebitda_60m": 0.4333, "price_ltm_pct": -0.1744,
+            "ebitda_margin_ltm": 0.0237, "ebitda_margin_fwd_consensus": 0.0862, "industry_median_margin": 0.339, "ev_ebitda_fy": 78.75,
+            "net_debt_ltm_ebitda": -9.09, "ebitda_revision_12m": 0.0862, "ebitda_brokers": 14},
+  "catalyst": {"type": ["strategy_update"],
+               "events": [
+                 {"what": "No CEO or CFO change. Own 8-K Item 5.02 query (2024-07-01 to 2026-10-02) returned only two annual-meeting equity plan filings; no 'first earnings call' or 'since joining' language. Co-founder Yakov (Yaki) Faitelson CEO; Guy Melamed CFO and COO; their employment terms unchanged since 2018 per the 2026 proxy.", "who": "Yakov Faitelson (CEO), Guy Melamed (CFO and COO)", "from": null, "effective": null, "source": "8-K 0001171843-26-003887, 0001171843-25-003769; DEF 14A 0001140361-26-015263 (document_id 40098)", "external_hire": null},
+                 {"what": "Strategy update: end of life for the self-hosted platform and move to 100% SaaS by end of 2026, announced on the Q3 2025 call (date of call not in fetched text); 2026 guided as a $30 million to $50 million headwind year", "who": "Faitelson, Melamed", "from": null, "effective": null, "source": "document_id 44633; document_id 44631", "external_hire": null},
+                 {"what": "Unconfirmed media speculation about a potential transaction involving Varonis; company declined comment. Not a confirmed catalyst.", "who": null, "from": null, "effective": "2026-07-28", "source": "document_id 110498", "external_hire": null},
+                 {"what": "Small tuck-in acquisitions (Altru AI security announced 2026-02-03; about $11.9 million of acquisition-related costs year to date); no Item 1.01/2.01 8-K", "who": null, "from": null, "effective": null, "source": "document_id 44631; document_id 110498", "external_hire": null}
+               ],
+               "months_since_primary": null, "ceo_months_in_seat": null,
+               "next_event": {"type": "none known", "date": null, "source": "No Investor Day or framework update announced in corpus (last Investor Day March 2023, document_id 44639). Next touchpoint is the Q3 2026 call (late October 2026, date not in corpus); 2027 is the first full post-transition year, so a new long-term model is plausible but unannounced."}},
+  "margin_framing": {"numeric": true, "metric": "ARR contribution margin",
+                     "metric_basis_note": "Management's margin target is a 20% ARR contribution margin by 2027, set at the March 2023 Investor Day (before the window), not an EBITDA level. CFO said in February 2026 that 2025 reached levels just below the 2027 model; 2026 is dragged down by the end-of-life transition (Q2 2026 ARR contribution margin 13.3% vs 16.5%). No consensus exists for ARR contribution margin, so no direct gap. Q2 2026 non-GAAP operating margin 2.1%. December FYE, Baba labels equal fiscal years. ceo_months_in_seat left null: CEO start date not stated in fetched text.",
+                     "current_level_pct": 13.3, "target_level_pct": 20.0, "target_year": 2027, "has_year": true,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "As a reminder, we set a long-term target of 20% ARR contribution margins by 2027 at our Investor Day in March 2023 and ended 2024 at 16.6%, so we are well ahead of that plan.", "speaker": "Guy Melamed", "role": "CFO and COO", "doc_title": "VARONIS SYSTEMS INC Q4 2024 Earnings Call", "date": "2025-02-04", "document_id": 44639},
+                       {"quote": "And when you look at the ARR contribution margin, we've actually increased it to levels that are just below the 2027 model that we laid out in our 2023 Investor Day.", "speaker": "Guy Melamed", "role": "CFO and COO", "doc_title": "VARONIS SYSTEMS INC Q4 2025 Earnings Call", "date": "2026-02-03", "document_id": 44631},
+                       {"quote": "Second quarter ARR contribution margin was 13.3%, down from 16.5% last year. This is in line with our expectations and, as a reminder, is impacted in 2026 due to the end of life for our self-hosted platform.", "speaker": "Guy Melamed", "role": "CFO and COO", "doc_title": "VARONIS SYSTEMS INC Q2 2026 Earnings Call", "date": "2026-07-28", "document_id": 110498}
+                     ],
+                     "first_stated": "2025-02-04", "times_repeated": 2},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 4.48, "FY2027": 8.62, "FY2028": 11.84},
+             "consensus_margin_at_target_year_pct": 8.62, "gap_bps_vs_target": null, "gap_assumption": "Not computable: target is ARR contribution margin, consensus is EBITDA margin (FY2027 8.62%); the metrics differ in definition. Consensus already models a steep ramp (4.48% to 11.84% FY2026 to FY2028) and the 4-month EBITDA revision is +14.9%, so D=0 on the re-rating rule.",
+             "ebitda_uplift_pct_if_target_hit": null, "source": "Baba data_financials consensus (Visible Alpha), data_comps revisions asof 2026-10-01"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [468, 330], "note": "Order [Q1 2026, Q2 2026]. Q1 is VA EBITDA margin (1.7% vs -3.0%); Q2 2026 is non-GAAP operating margin from CFO (2.1% vs -1.2%, document_id 110498), not yet in VA actuals. LTM EBITDA margin 2.4% is Q2 2025 to Q1 2026 VA actuals. Low margin reflects the SaaS transition and stock-based compensation (SBC about 204% of EBITDA per data_comps), not an operating-cost problem."},
+  "score": {"A_underperformance": 1, "B_catalyst": 1, "C_numeric_framing": 3, "D_unproven": 0, "total": 5},
+  "disqualified": true, "disqualifier_reason": "Margin path already in consensus and re-rating: the 2027 ARR contribution margin target was nearly reached in 2025 (CFO, document_id 44631), consensus already models EBITDA margin rising from 4.5% to 11.8% by FY2028, and the 4-month EBITDA revision is +14.9%. No leadership change; the in-window catalyst is the founder-CEO's own end-of-life and SaaS strategy plus unconfirmed takeover speculation.",
+  "verdict": "Not the archetype: a SaaS-transition margin trough under the founder CEO, not a low-margin operator fixed by new management; estimates already rising fast and multiple mid-range.",
+  "open_questions": ["Is there a real transaction behind the June 2026 media speculation, and does it cap or set the valuation?", "Will management give a post-transition (2027 and beyond) operating margin or FCF model once non-SaaS ARR is gone at end 2026?", "How much of the EBITDA ramp is SBC-flattered, given SBC is about twice EBITDA?"],
+  "sources": [
+    {"document_id": 44639, "title": "VARONIS SYSTEMS INC Q4 2024 Earnings Call", "date": "2025-02-04"},
+    {"document_id": 44633, "title": "VARONIS SYSTEMS INC Q3 2025 Earnings Call", "date": "2025-10"},
+    {"document_id": 44631, "title": "VARONIS SYSTEMS INC Q4 2025 Earnings Call", "date": "2026-02-03"},
+    {"document_id": 44629, "title": "VARONIS SYSTEMS INC Q1 2026 Earnings Call", "date": "2026-04-28"},
+    {"document_id": 110498, "title": "VARONIS SYSTEMS INC Q2 2026 Earnings Call", "date": "2026-07-28"},
+    {"document_id": 40098, "title": "VARONIS SYSTEMS INC DEF 14A", "date": "2026"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02 query 2024-07-01 to 2026-10-02 (2 filings, no officer changes): 0001171843-26-003887, 0001171843-25-003769; Item 1.01/2.01 query returned none", "date": "2025-06-06 to 2026-06-02"},
+    {"document_id": 0, "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary consensus (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Stage 1 stage1_ranked.csv (industry median margin 0.339)", "date": "2026-10-02"}
+  ],
+  "tool_calls": 21
+}

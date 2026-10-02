@@ -1,0 +1,190 @@
+{
+  "ticker": "SYM",
+  "cid": 1005408,
+  "name": "Symbotic Inc",
+  "industry": "Industrial Machinery and Equipment",
+  "as_of": "2026-10-02",
+  "business": "Designs, installs and services AI-driven robotic warehouse automation systems for large retailers, grocers and wholesalers, led by Walmart.",
+  "quant": {
+    "mcap_usd": 26068807930.26,
+    "drawdown": -0.5181,
+    "pctile_ev_ebitda_60m": 0.2222,
+    "price_ltm_pct": -0.2195,
+    "ebitda_margin_ltm": 0.1034,
+    "ebitda_margin_fwd_consensus": 0.1387,
+    "industry_median_margin": 0.218,
+    "ev_ebitda_fy": 49.55,
+    "net_debt_ltm_ebitda": -4.07,
+    "ebitda_revision_12m": 0.0451,
+    "ebitda_brokers": 12
+  },
+  "catalyst": {
+    "type": [
+      "new_cfo",
+      "board_refresh"
+    ],
+    "events": [
+      {
+        "what": "Chief Financial Officer and Treasurer (replaced Carol Hibbard, who moved to SVP and consulting)",
+        "who": "Izilda (Izzy) Martins",
+        "from": "external, EVP and CFO of Avis Budget Group",
+        "effective": "2025-08-09",
+        "source": "8-K 0001193125-25-137836",
+        "external_hire": true
+      },
+      {
+        "what": "Director added, board expanded 7 to 8",
+        "who": "Eric Branderiz",
+        "from": "external, ex CFO Enphase Energy, ex CAO Tesla",
+        "effective": "2025-05-14",
+        "source": "8-K 0001193125-25-120805",
+        "external_hire": true
+      },
+      {
+        "what": "Director added, board expanded 8 to 9",
+        "who": "Andrew Ross",
+        "from": "external, President and COO Parker-Hannifin",
+        "effective": "2025-08-26",
+        "source": "8-K 0001837240-25-000270",
+        "external_hire": true
+      },
+      {
+        "what": "Director added, board expanded 9 to 10",
+        "who": "Stephen G. Pagliuca",
+        "from": "external, ex Co-Chair Bain Capital",
+        "effective": "2026-08-04",
+        "source": "8-K 0001837240-26-000042",
+        "external_hire": true
+      },
+      {
+        "what": "Restatement of Q1 to Q3 FY2024 (Item 4.02, revenue recognition on milestones and cost overruns, material weakness); outside window, context for disqualifier test",
+        "who": "",
+        "from": "",
+        "effective": "2024-11-18",
+        "source": "8-K 0001837240-24-000213 and 8-K/A 0001193125-24-266541",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 13.8,
+    "ceo_months_in_seat": 47,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "No Investor Day or framework update found in Baba corpus for FY2026 (last Investor Day 2023, doc 92984). Founder Rick Cohen CEO since November 2022 per DEF 14A doc 39942; Item 5.02 sweep 2024-07-01 to 2026-10-02 shows no CEO or President change."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "gross margin",
+    "metric_basis_note": "Total company gross margin. Only current framing is the CFO's 'longer term margin being in the 30 plus' (no year), first heard by us from the new CFO on 2026-05-06; the 2023 Investor Day carried an older 'low 30s' target that analysts dated to 2025 (doc 92984, analyst question only, not verified as management words). Fiscal year ends late September; Baba VA FY = company fiscal year. FY2029 consensus gross margin derived as gross profit / revenue because VA's Gross margin line is blank for FY2029.",
+    "current_level_pct": 21.47,
+    "target_level_pct": 30.0,
+    "target_year": null,
+    "has_year": false,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "I think the bigger message is we do continue to drive for that longer term margin being in the 30 plus.",
+        "speaker": "Izzy Martins",
+        "role": "CFO",
+        "doc_title": "Symbotic Inc Q2 2026 Earnings Call",
+        "date": "2026-05-06",
+        "document_id": 189042
+      },
+      {
+        "quote": "I would say not necessarily, right. It's not as easy as you would suggest. I think what we manage to is the things that we talked about is really the efficiencies on the execution side and the cost discipline.",
+        "speaker": "Izzy Martins",
+        "role": "CFO",
+        "doc_title": "Symbotic Inc Q2 2026 Earnings Call",
+        "date": "2026-05-06",
+        "document_id": 189042
+      }
+    ],
+    "first_stated": "2026-05-06",
+    "times_repeated": 1
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 10.96,
+      "FY2027": 13.8,
+      "FY2028": 17.47
+    },
+    "consensus_margin_at_target_year_pct": 30.63,
+    "gap_bps_vs_target": -62.6,
+    "gap_assumption": "Gross margin basis. No target year, so the test uses the last consensus year, FY2029 (VA FY = company fiscal year ending September): 30.63% (gross profit $1,726M / revenue $5,636M) vs management's '30 plus' = -62.6 bps; the street already models the target. Consensus gross margin path: FY2025 actual 21.47%, FY2026 23.49%, FY2027 25.14%, FY2028 27.22%, FY2029 30.63%.",
+    "ebitda_uplift_pct_if_target_hit": 0.0,
+    "source": "Baba data_financials fundamentals consensus (Visible Alpha), cid 1005408; data_compute. Uplift is zero because FY2029 consensus already sits above 30%."
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      545.7,
+      180.5
+    ],
+    "note": "Gross margin basis, VA actuals: Q1 FY2026 23.37% vs 17.92% = +545.7 bps; Q2 FY2026 24.51% vs 22.70% = +180.5 bps. Q3 FY2026 (reported 2026-08-05) gross margin expanded sequentially and year over year per CFO (doc 129566), VA row still holds consensus. First double-digit adjusted EBITDA margin in Q1 FY2026. 4-month forward EBITDA revision +0.3%, 12-month +4.5%. Net cash $1.32B. Disqualifier tests: FY2025 10-K (doc 24920) still reports a material weakness as of 2025-09-27 tied to the FY2024 restatement; no going-concern or covenant stress; margin is project-execution driven, not commodity driven. EV/EBITDA FY 49.5x: the A leg is mechanical, the stock is not cheap in absolute terms, and pctile covers only 54 months since the 2022 SPAC listing."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 2,
+    "C_numeric_framing": 2,
+    "D_unproven": 0,
+    "total": 6
+  },
+  "disqualified": true,
+  "disqualifier_reason": "Margin target already reflected in consensus: the undated '30 plus' gross margin goal sits 62.6 bps BELOW FY2029 consensus (30.63%). Also flagged, not a listed disqualifier: material weakness from the FY2024 restatement still unremediated at the FY2025 10-K.",
+  "verdict": "Not a GXO setup: new external CFO but founder CEO in place, the only margin goal is undated and already exceeded by FY2029 consensus, and the stock trades near 50x EBITDA despite the drawdown.",
+  "open_questions": [
+    "Will the new CFO give a dated long-term model (for example at a future Investor Day), and would it sit above the street's 30.6% FY2029 gross margin?",
+    "Has the material weakness from the FY2024 restatement been remediated in FY2026?",
+    "How much of the FY2028 to FY2029 margin ramp depends on the next-generation storage structure mix that the CFO named as the unlock?"
+  ],
+  "sources": [
+    {
+      "document_id": 189042,
+      "title": "Symbotic Inc Q2 2026 Earnings Call",
+      "date": "2026-05-06"
+    },
+    {
+      "document_id": 129566,
+      "title": "Symbotic Inc Q3 2026 Earnings Call",
+      "date": "2026-08-05"
+    },
+    {
+      "document_id": 24920,
+      "title": "Symbotic Inc. 10-K FY2025 (material weakness)",
+      "date": "2025-09-27"
+    },
+    {
+      "document_id": 39942,
+      "title": "Symbotic Inc. DEF 14A (CEO since November 2022)",
+      "date": "2026-01-16"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001193125-25-137836 (CFO appointment)",
+      "date": "2025-06-09"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001193125-25-120805 (director Branderiz)",
+      "date": "2025-05-15"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001837240-25-000270 (director Ross)",
+      "date": "2025-08-27"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001837240-26-000042 (director Pagliuca)",
+      "date": "2026-08-05"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001837240-24-000213 and 8-K/A 0001193125-24-266541 (restatement)",
+      "date": "2024-11-18"
+    }
+  ],
+  "tool_calls": 17
+}
