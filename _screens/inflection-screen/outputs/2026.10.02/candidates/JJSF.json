@@ -114,7 +114,7 @@
     "consensus_ebitda_margin_by_fy": {"FY2026": 0.1162, "FY2027": 0.1203, "FY2028": 0.1221},
     "consensus_margin_at_target_year_pct": 11.62,
     "gap_bps_vs_target": null,
-    "gap_assumption": "No margin level was stated, so no gap is computed. Fiscal year ends September; Baba FY2026 = company fiscal 2026 (ended Sep-2026), FY2027 = fiscal 2027. Illustrative only: FY2025 adjusted EBITDA ($180.9M, Fachner, doc 54358) plus the full $25M Apollo run-rate on FY2027 consensus revenue gives a margin 131 bps above FY2027 consensus (12.03%); consensus FY2027 EBITDA of $185.6M is only about $4.7M above FY2025, so the street nets most of Apollo against bakery volume losses, service revenue insourcing and freight.",
+    "gap_assumption": "No margin level was stated, so no gap is computed. Fiscal year ends September; Baba FY2026 = company fiscal 2026 (ended Sep-2026), FY2027 = fiscal 2027. Illustrative only: FY2025 adjusted EBITDA ($180.9M, Fachner, doc 54358) plus the full $25M Apollo run-rate on FY2027 consensus revenue gives a margin 131 bps above FY2027 consensus (12.03%); consensus FY2027 EBITDA of $185.6M is only about $4.8M above FY2025, so the street nets most of Apollo against bakery volume losses, service revenue insourcing and freight.",
     "ebitda_uplift_pct_if_target_hit": 13.47,
     "source": "Baba data_financials consensus (summary), data_comps"
   },
