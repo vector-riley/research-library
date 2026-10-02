@@ -1,0 +1,170 @@
+{
+ "ticker": "TNET",
+ "metric": "EBITDA margin",
+ "fy_label_note": "Baba/Visible Alpha FY-YYYY = TriNet calendar year (FY-2025 adjusted EBITDA $425M on $5,010M revenue matches the company's reported 8.5%, doc 141105). Window FY2021 to FY2026E. Peer labels: NSP and PAYC calendar years; ADP and PCTY fiscal years end June, PAYX ends May, so those three lead the calendar label by about half a year.",
+ "company": {
+  "peak_fy": "FY2022",
+  "peak_margin_pct": 14.0208,
+  "trough_fy": "FY2025",
+  "trough_margin_pct": 8.483,
+  "ltm_margin_pct": 9.06,
+  "decline_bps": 553.7752699207251,
+  "revenue_peak_to_trough_pct": 2.0990421846341922,
+  "inputs": {
+   "ebitda_fy2022_usd": 688000000.0,
+   "revenue_fy2022_usd": 4907000000.0,
+   "ebitda_fy2025_usd": 425000000.0,
+   "revenue_fy2025_usd": 5010000000.0
+  },
+  "margin_path_pct": {
+   "FY2021": 12.43,
+   "FY2022": 14.02,
+   "FY2023": 13.96,
+   "FY2024": 9.6,
+   "FY2025": 8.48,
+   "FY2026E": 8.83,
+   "FY2027E": 8.45
+  },
+  "ltm_source": "Stage 3 record quant.ebitda_margin_ltm (Baba ltm_ebitda dataset)"
+ },
+ "peers": {
+  "tickers": [
+   "NSP",
+   "ADP",
+   "PAYX",
+   "PAYC",
+   "PCTY"
+  ],
+  "median_peak_margin_pct": 27.8895,
+  "median_trough_margin_pct": 36.5465,
+  "median_decline_bps": -865.6984048058997,
+  "median_path_pct": {
+   "FY2021": 26.7497,
+   "FY2022": 27.8895,
+   "FY2023": 31.9414,
+   "FY2024": 36.0462,
+   "FY2025": 36.5465,
+   "FY2026E": 36.9717,
+   "FY2027E": 36.3315
+  },
+  "per_peer_fy2022_to_fy2025_pct": {
+   "NSP": [
+    5.9321,
+    1.9231
+   ],
+   "ADP": [
+    25.5414,
+    28.685
+   ],
+   "PAYX": [
+    44.4543,
+    45.5803
+   ],
+   "PAYC": [
+    42.1541,
+    42.9985
+   ],
+   "PCTY": [
+    27.8895,
+    36.5465
+   ]
+  },
+  "peo_only_sensitivity": {
+   "ticker": "NSP",
+   "decline_bps": 400.8995755358415,
+   "ratio": 0.7239391090780051,
+   "tnet_minus_nsp_bps": {
+    "at_peak": 808.87,
+    "at_trough": 655.99,
+    "change": -152.8756943848837
+   }
+  },
+  "notes": "Baba has no PEO industry bucket: TNET sits in Application Software and Insperity in HR services (Baba comps for 'Human resource training and employment services' returned staffing and recruiting names, none closer than NSP). Barrett (BBSI) is not in the Baba universe. ADP and PAYX run large PEOs but are mostly payroll/HCM software; PAYC and PCTY compete for the same SMB HR buyer but carry no insurance risk. The 5-name median is therefore driven by software margins that the health-claims shock cannot touch; NSP is the only risk-bearing PEO comparator and is shown as a sensitivity.",
+  "source": "Baba data_financials fundamentals"
+ },
+ "attribution_ratio": -1.5632666387031466,
+ "relative_position_bps": {
+  "at_peak": -1386.8701564882674,
+  "at_trough": -2806.3438312148924
+ },
+ "management_attribution": [
+  {
+   "quote": "Over the last two years, the U.S. economy has experienced high medical cost inflation and low job growth, and TriNet could not escape the impact of these factors.",
+   "speaker": "Mala Murthy, CFO",
+   "date": "2026-02-12",
+   "document_id": 141105
+  },
+  {
+   "quote": "We took these pricing actions to address a cohort that had been significantly underpriced.",
+   "speaker": "Mala Murthy, CFO",
+   "date": "2026-02-12",
+   "document_id": 141105
+  },
+  {
+   "quote": "I think we did jump on the fact that it felt like trend was taking off and that we weren't adequately pricing for that.",
+   "speaker": "Mike Simonds, CEO",
+   "date": "2025-11-18",
+   "document_id": 45576
+  },
+  {
+   "quote": "The reality is we're not facing anything unique at TriNet when it comes to health care cost claim trend.",
+   "speaker": "Mike Simonds, CEO",
+   "date": "2025-11-18",
+   "document_id": 45576
+  },
+  {
+   "quote": "We had anticipated health care inflation to come a little bit earlier than it really did, and so we were trying to price to bring it back within our targeted range and health trends kind of outpace that a little bit",
+   "speaker": "Kelly Tuminelli, then CFO",
+   "date": "2024-11-14",
+   "document_id": 64402
+  }
+ ],
+ "track_record": {
+  "prior_dated_targets": [
+   {
+    "target": "FY2024 insurance cost ratio guide",
+    "set": "early 2024",
+    "due": "FY2024",
+    "outcome": "missed (ICR guide raised mid-year at Q2 2024 per CFO, doc 41311 search hit; passage not fetched)"
+   },
+   {
+    "target": "FY2025 insurance cost ratio 90% to 92%",
+    "set": "early 2025",
+    "due": "FY2025",
+    "outcome": "hit (90.8%, doc 141105)"
+   },
+   {
+    "target": "FY2025 adjusted EBITDA margin within guidance range",
+    "set": "early 2025",
+    "due": "FY2025",
+    "outcome": "hit (8.5%, doc 141105)"
+   },
+   {
+    "target": "10% to 11% adjusted EBITDA margin, medium term",
+    "set": "2025-02-13 (doc 41309)",
+    "due": "no year stated",
+    "outcome": "pending"
+   }
+  ],
+  "notes": "10-K FY2025 ICFR language shows no material weakness; no restatement found. Retention fell to about 80% in 2025 with 'pricing cited most often as the reason for leaving TriNet' and co-employed WSEs down 11% (doc 141105): client loss on price, recorded as share loss.",
+  "restatement_or_weakness": false,
+  "share_loss_admitted": true
+ },
+ "tenure": {
+  "ceo": "Michael Q. Simonds (external hire from Unum; not founder). Predecessor Burton Goldfield ran the company through the FY2022 to FY2023 peak, so the people promising the reversal are not the people who presided over the peak.",
+  "ceo_start": "2024-02-16",
+  "ceo_months": 31.50718685831622,
+  "founder": false,
+  "cfo_start": "2025-11-28 (Mala Murthy, external; 8-K 0000937098-25-000184)",
+  "cfo_months": 10.119096509240247,
+  "long_tenured": "ceo_months >= 84 or founder: NO (31.5 months, not founder)"
+ },
+ "verdict": "execution_led",
+ "deciding_facts": [
+  "Margin fell 554 bps (14.02% FY2022 to 8.48% FY2025) while revenue rose 2.1%, a cost and pricing problem, and management concedes a cohort was 'significantly underpriced'; the 5-name peer median rose 866 bps (ratio -1.56).",
+  "Against the only risk-bearing PEO (Insperity, -401 bps) the ratio is 0.72, so the health-claims shock was real and industry-wide, but TriNet still lost 153 bps of its lead over NSP and lost clients on price (retention about 80%)."
+ ],
+ "confidence": "medium",
+ "confidence_note": "Rule triggers (negative ratio on the 5-name set, margin down on rising revenue) are robust, but the 5-name median is mostly HCM software with no claims exposure. On a PEO-only lens this reads closer to mixed: a genuine external claims shock amplified by underpricing.",
+ "tool_calls": 22
+}

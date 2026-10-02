@@ -1,0 +1,176 @@
+{
+ "ticker": "BWXT",
+ "metric": "EBITDA margin",
+ "fy_label_note": "Baba/Visible Alpha FY-YYYY = BWXT calendar year (FY-2025 EBITDA $574.3M on $3,198M revenue). Window FY2021 to FY2026E; FY2026 is consensus with Q1 actual. Company targets use adjusted EBITDA margin (17.5% for 2026 per Investor Day), close to VA's 17.46%. Peers: CW, HII, GD, DRS, MIR calendar years; Moog (MOGA) fiscal year ends late September. FY2021 has no Mirion (MIR) data in Baba, so the ratio uses the 5 peers present in both years; the 6-peer FY2026E median is 14.32%.",
+ "company": {
+  "peak_fy": "FY2021",
+  "peak_margin_pct": 20.0667,
+  "trough_fy": "FY2026E",
+  "trough_margin_pct": 17.4626,
+  "ltm_margin_pct": 17.55,
+  "decline_bps": 260.40941578645726,
+  "revenue_peak_to_trough_pct": 79.82327185342595,
+  "inputs": {
+   "ebitda_fy2021_usd": 426232142.85714287,
+   "revenue_fy2021_usd": 2124074000.0,
+   "ebitda_fy2026e_usd": 666999141.9196967,
+   "revenue_fy2026e_usd": 3819579363.3879385
+  },
+  "margin_path_pct": {
+   "FY2021": 20.07,
+   "FY2022": 19.68,
+   "FY2023": 18.9,
+   "FY2024": 18.45,
+   "FY2025": 17.96,
+   "FY2026E": 17.46,
+   "FY2027E": 17.8
+  },
+  "ltm_source": "Stage 3 record quant.ebitda_margin_ltm (Baba ltm_ebitda dataset)",
+  "base_vs_acquired": {
+   "government_operations_adj_ebitda_margin": {
+    "FY2024": "20.2% (doc 47218)",
+    "Q2_2026": "20.9% (doc 115268)",
+    "FY2026_guide": "about 20.5%, raised from greater than 19% (doc 115268)"
+   },
+   "commercial_operations_adj_ebitda_margin": {
+    "FY2024": "14.1% (doc 47218)",
+    "Q2_2026": "11.9% (doc 115268)",
+    "FY2026_guide": "about 13%, cut from about 14% (doc 115268)"
+   },
+   "read": "The base defense business (Government Operations, naval propulsion and special materials) held its margin at about 20% to 21%. The consolidated decline is mix: Commercial Operations grew fastest (FY2026 segment revenue growth guided about 45%, slightly more than half of the raise from PCG) at a 12% to 14% margin, diluted further by Kinectrics and PCG capacity investment, plus higher corporate expense. Segment EBITDA dollars by year were not pulled, so the split is directional, not a quantified bridge. The medical business being sold carries a margin 'modestly accretive to the Commercial segment average' (doc 115268), so its exit does not lift the commercial margin."
+  }
+ },
+ "peers": {
+  "tickers": [
+   "CW",
+   "HII",
+   "GD",
+   "DRS",
+   "MOGA",
+   "MIR (FY2022 onward only)"
+  ],
+  "median_peak_margin_pct": 11.4946,
+  "median_trough_margin_pct": 13.5459,
+  "median_decline_bps": -205.12942572827612,
+  "median_path_pct_5_consistent": {
+   "FY2021": 11.4946,
+   "FY2026E": 13.5459
+  },
+  "median_path_pct_all_available": {
+   "FY2021": 11.4946,
+   "FY2022": 12.3688,
+   "FY2023": 11.7743,
+   "FY2024": 12.1709,
+   "FY2025": 12.535,
+   "FY2026E": 14.3152,
+   "FY2027E": 14.7077
+  },
+  "per_peer_fy2021_to_fy2026e_pct": {
+   "CW": [
+    21.6654,
+    22.4435
+   ],
+   "HII": [
+    8.4628,
+    8.1422
+   ],
+   "GD": [
+    13.1353,
+    12.2321
+   ],
+   "DRS": [
+    10.7676,
+    13.5459
+   ],
+   "MOGA": [
+    11.4946,
+    15.0845
+   ],
+   "MIR": [
+    null,
+    26.5228
+   ]
+  },
+  "notes": "Defense and nuclear component peers from the Baba Aerospace & Defense comps (US, 53 names) plus Mirion (nuclear measurement, Baba industry Health Care Technology). Negative median decline means the peer median rose. No pure naval-nuclear comparator exists; CW (naval nuclear pumps and valves) is closest and also rose.",
+  "source": "Baba data_financials fundamentals"
+ },
+ "attribution_ratio": -0.7877189275540166,
+ "relative_position_bps": {
+  "at_peak": 857.2134134984884,
+  "at_trough": 391.674571983755
+ },
+ "management_attribution": [
+  {
+   "quote": "However, our year-over-year margin comparisons continue to be impacted by a mixed shift toward cost-reimbursable micro-reactor projects and contracts that are earlier in their life cycle, providing less opportunity to recognize cost savings.",
+   "speaker": "Robb LeMasters, then CFO",
+   "date": "2025-02-24",
+   "document_id": 47218
+  },
+  {
+   "quote": "in commercial operations, we anticipate EBITDA margin to be in the 14% to 15% range, compared to 14.1% in 2024, as the increase of higher margin medical sales will be somewhat offset by the large contribution of acquired commercial power revenue.",
+   "speaker": "Robb LeMasters, then CFO",
+   "date": "2025-02-24",
+   "document_id": 47218
+  },
+  {
+   "quote": "We now expect Commercial Operations adjusted EBITDA margin of approximately 13%, compared with approximately 14% previously. The revision reflects incremental investments in U.S. capacity expansion, including at PCG, as well as continued investment in Canada.",
+   "speaker": "Mike Fitzgerald, CFO",
+   "date": "2026-08-03",
+   "document_id": 115268
+  },
+  {
+   "quote": "These investments will moderate near-term margin expansion, but they are essential to establishing the industrial scale required to lead this market and support our customers over the long term.",
+   "speaker": "Rex Geveden, CEO",
+   "date": "2026-08-03",
+   "document_id": 115268
+  }
+ ],
+ "track_record": {
+  "prior_dated_targets": [
+   {
+    "target": "FY2025 adjusted EBITDA $550M to $570M",
+    "set": "2025-02-24 (doc 47218)",
+    "due": "FY2025",
+    "outcome": "hit (VA FY2025 EBITDA $574.3M)"
+   },
+   {
+    "target": "FY2026 adjusted EBITDA guide, raised to $650M to $665M (Q1) and $662M to $672M (Q2)",
+    "set": "2026-05 and 2026-08-03 (docs 174898, 115268)",
+    "due": "FY2026",
+    "outcome": "pending (raised twice)"
+   },
+   {
+    "target": "FY2026 Commercial Operations adjusted EBITDA margin about 14%",
+    "set": "early 2026",
+    "due": "FY2026",
+    "outcome": "pending (cut to about 13% on 2026-08-03)"
+   },
+   {
+    "target": "About 20% adjusted EBITDA margin by 2030",
+    "set": "2026-09-29 (doc 225471)",
+    "due": "FY2030",
+    "outcome": "pending"
+   }
+  ],
+  "notes": "10-K ICFR language FY2022 to FY2025 shows effective controls (FY2025 audit excluded Kinectrics as a new acquisition); no restatement or material weakness found. No share-loss admission; this is a sole-source naval nuclear supplier.",
+  "restatement_or_weakness": false,
+  "share_loss_admitted": false
+ },
+ "tenure": {
+  "ceo": "Rex D. Geveden (President and CEO since January 2017; COO from October 2015; not founder)",
+  "ceo_start": "2017-01-01 (month per DEF 14A doc 37763; day assumed 1st)",
+  "ceo_months": 116.99383983572895,
+  "founder": false,
+  "cfo_start": "2025-05-12 interim, permanent 2025-07-31 (Mike Fitzgerald, internal; 8-Ks 0001104659-25-047051 and 0001104659-25-072738)",
+  "cfo_months": 16.689938398357288,
+  "long_tenured": "ceo_months >= 84 or founder: YES (117 months)"
+ },
+ "verdict": "execution_led",
+ "deciding_facts": [
+  "No downturn to attribute: the 5-peer median rose 205 bps (11.49% to 13.55%) while BWXT fell 260 bps (20.07% to 17.46%) on revenue up 80%, so the ratio is -0.79 and the premium to peers halved from +857 to +392 bps.",
+  "The compression is self-chosen mix, not operating failure: Government Operations held about 20% to 21% while lower-margin Commercial Operations (Kinectrics, PCG, capacity investment) grew fastest, and management cut the 2026 commercial margin guide to about 13% for investment."
+ ],
+ "confidence": "high",
+ "confidence_note": "High confidence that the decline is not macro or cycle. 'Execution' here means deliberate acquisition and investment mix, not poor operations; the base defense margin is intact. The long-tenure condition (a) passes, condition (b) fails.",
+ "tool_calls": 21
+}

@@ -1,0 +1,146 @@
+{
+ "ticker": "NWL",
+ "metric": "operating margin",
+ "fy_label_note": "Baba/Visible Alpha FY-YYYY = Newell calendar year. Metric is VA operating income over revenue (closer to GAAP than the company's 'normalized' operating margin that the 12% to 15% target uses), applied identically to peers. Window FY2021 to FY2026E; FY2026E (10.35%) includes about $100M of out-of-period tariff refunds per stage 3. Peer labels: Clorox fiscal year ends June; Spectrum and Central Garden end September; Reynolds, Whirlpool, YETI are calendar years.",
+ "company": {
+  "peak_fy": "FY2021",
+  "peak_margin_pct": 11.6536,
+  "trough_fy": "FY2023",
+  "trough_margin_pct": 6.1355,
+  "ltm_margin_pct": 8.298033232362767,
+  "decline_bps": 551.8105438904635,
+  "revenue_peak_to_trough_pct": -23.193880441968084,
+  "inputs": {
+   "operating_income_fy2021_usd": 1234000000.0,
+   "revenue_fy2021_usd": 10589000000.0,
+   "operating_income_fy2023_usd": 499000000.0,
+   "revenue_fy2023_usd": 8133000000.0
+  },
+  "margin_path_pct": {
+   "FY2021": 11.65,
+   "FY2022": 10.11,
+   "FY2023": 6.14,
+   "FY2024": 8.15,
+   "FY2025": 8.41,
+   "FY2026E": 10.35,
+   "FY2027E": 9.34
+  },
+  "ltm_source": "Derived: VA quarters 3Q2025 to 2Q2026 (2Q2026 still a VA estimate in the dataset although reported 2026-07-31). Stage 3 LTM EBITDA margin was 14.4%."
+ },
+ "peers": {
+  "tickers": [
+   "SPB",
+   "CLX",
+   "REYN",
+   "CENT",
+   "WHR",
+   "YETI"
+  ],
+  "median_peak_margin_pct": 12.2579,
+  "median_trough_margin_pct": 9.5017,
+  "median_decline_bps": 275.6164509894876,
+  "median_path_pct": {
+   "FY2021": 12.2579,
+   "FY2022": 9.3045,
+   "FY2023": 9.5017,
+   "FY2024": 11.0451,
+   "FY2025": 11.3838,
+   "FY2026E": 11.5192,
+   "FY2027E": 12.2111
+  },
+  "per_peer_fy2021_to_fy2023_pct": {
+   "SPB": [
+    8.0518,
+    5.5855
+   ],
+   "CLX": [
+    17.4908,
+    12.6397
+   ],
+   "REYN": [
+    13.8358,
+    13.6315
+   ],
+   "CENT": [
+    7.7034,
+    6.3638
+   ],
+   "WHR": [
+    10.68,
+    5.2172
+   ],
+   "YETI": [
+    20.9167,
+    15.6383
+   ]
+  },
+  "notes": "Household products and consumer durables peers sharing Newell's mass-retail categories (food storage and trash, home appliances and cookware, outdoor and coolers, home and garden). Baba Household Products comps (US, 10 names) plus WHR and YETI from the cached universe. Staples majors (PG, CL, KMB, CHD) excluded as consumables. WHR had a negative FY2022 margin but is positive at both window endpoints, so it is kept. Peer revenue was roughly flat over the window (WHR -11.5%) while Newell's fell 23%.",
+  "source": "Baba data_financials fundamentals"
+ },
+ "attribution_ratio": 0.49947659398874866,
+ "relative_position_bps": {
+  "at_peak": -60.42870175441209,
+  "at_trough": -336.6227946553879
+ },
+ "management_attribution": [
+  {
+   "quote": "our Q2 results continued to reflect the significant macro-driven top-line pressures we have been contending with since the Q3 of last year. Namely, soft consumer demand, as inflation continues to put pressure on discretionary spending and some categories continue to normalize, along with trade inventory destocking and the bankruptcy of a major retailer.",
+   "speaker": "Mark Erceg, CFO",
+   "date": "2023-07-28",
+   "document_id": 98987
+  },
+  {
+   "quote": "In the second half of 2022, we took a pretty big step backwards. The reason for that is because we pulled back on our supply plan significantly to right-size our inventories to get our working capital back.",
+   "speaker": "Chris Peterson, then President (CEO from May 2023)",
+   "date": "2023-02-24",
+   "document_id": 94333
+  },
+  {
+   "quote": "Nonetheless, Newell's normalized operating margin contracted 490 basis points versus last year to 9.1%, as normalized gross margin declined 320 basis points versus last year to 29.9%, and top line softness resulted in a 160 basis point increase in the normalized SG&A sales ratio.",
+   "speaker": "Mark Erceg, CFO",
+   "date": "2023-07-28",
+   "document_id": 98987
+  }
+ ],
+ "track_record": {
+  "prior_dated_targets": [
+   {
+    "target": "Evergreen 50 bps a year operating margin improvement",
+    "set": "evergreen algorithm, reaffirmed CAGNY 2026 (doc 54259)",
+    "due": "annual",
+    "outcome": "hit (CFO says about 100 bps delivered each of the past three years on the normalized basis, doc 54260; VA basis +201 bps FY2024, +26 bps FY2025)"
+   },
+   {
+    "target": "Q2 2023 normalized EPS $0.10 to $0.18",
+    "set": "2023-04",
+    "due": "Q2 2023",
+    "outcome": "hit ($0.24, doc 98987)"
+   },
+   {
+    "target": "12% to 15% normalized operating margin",
+    "set": "CAGNY 2026-02-20 (doc 54259)",
+    "due": "no year stated",
+    "outcome": "pending"
+   }
+  ],
+  "notes": "Restatement and ICFR were not searched for NWL in this run (tool budget), so restatement_or_weakness=false means none found, not verified. The inventory overbuild and abrupt supply-plan cut in 2H 2022 are a self-inflicted part of the compression, under a team in which Peterson was President and CFO. No explicit share-loss admission in fetched passages.",
+  "restatement_or_weakness": false,
+  "share_loss_admitted": false
+ },
+ "tenure": {
+  "ceo": "Christopher H. Peterson (internal; CFO and President 2020 to 2023, at Newell since about 2018 to 2019 per his CAGNY 2023 remarks; not founder). Not long-tenured as CEO, but he was President and CFO through the FY2021 to FY2023 compression.",
+  "ceo_start": "2023-05 (exact day not found; Saligram was CEO on the 2023-04-28 Q1 call, Peterson thanks employees for 'welcoming me as their new CEO' on the 2023-07-28 call; months computed from 2023-05-15, about +/-0.5 month)",
+  "ceo_months": 40.60780287474333,
+  "founder": false,
+  "cfo_start": "2023-01-09 (Mark J. Erceg, external; 8-K 0001193125-22-302341)",
+  "cfo_months": 44.747433264887064,
+  "long_tenured": "ceo_months >= 84 or founder: NO (about 41 months as CEO, not founder)"
+ },
+ "verdict": "mixed",
+ "deciding_facts": [
+  "The ratio is 0.50 (peer median -276 bps vs Newell -552 bps, FY2021 to FY2023): the post-COVID normalization, destocking and inflation hit the whole group, but Newell fell twice as far and its gap to the peer median widened from -60 to -337 bps.",
+  "Revenue fell 23% with margin (a volume shock consistent with the macro story), but peers' revenue was roughly flat and management concedes the 2H 2022 step back came from its own decision to cut the supply plan to fix an inventory overbuild."
+ ],
+ "confidence": "medium",
+ "tool_calls": 25
+}

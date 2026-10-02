@@ -12,3 +12,10 @@ Open questions:
 1. Will Murthy re-commit with a year or reset the scenarios at Q4 2026 results?
 2. How much of the 2026 margin gain is one-time insurance recovery vs durable repricing, with WSEs down 11%?
 3. Is an ICR-driven margin a cycle the street is right to discount?
+
+## Macro or execution
+Verdict: execution_led (confidence medium). Ratio -1.56 = 5-peer median change -866 bps (NSP, ADP, PAYX, PAYC, PCTY: 27.89% to 36.55%) / TriNet decline 554 bps (EBITDA margin 14.02% FY2022 to 8.48% FY2025, calendar years); LTM 9.06%. Risk-bearing PEO only (Insperity, -401 bps): ratio 0.72.
+Relative position: -1,387 bps at peak, -2,806 bps at trough vs the median; vs NSP the lead shrank 153 bps (809 to 656). Revenue rose 2.1% as margin fell (pricing up, WSEs down).
+Management admits pricing lag on a real claims shock: "We took these pricing actions to address a cohort that had been significantly underpriced." (Mala Murthy, CFO, 2026-02-12, doc 141105).
+Track record: FY2024 ICR guide raised mid-year (miss); FY2025 ICR 90.8% and 8.5% margin hit guidance; 10-11% target has no year. Retention fell to about 80% on price. No restatement found.
+Tenure: CEO Mike Simonds since 2024-02-16 (31.5 months, external, not founder; predecessor ran the peak); CFO Mala Murthy since 2025-11-28 (10.1 months). Fails the long-tenure test.

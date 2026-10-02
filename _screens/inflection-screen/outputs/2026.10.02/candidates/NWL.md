@@ -10,3 +10,10 @@ Open questions:
 1. Will management attach a year to 12-15%, given the CFO would not change the 50 bps algorithm?
 2. How much FY2026 margin is left once about $126M of tariff refunds drop out, and does FY2027 consensus already reflect that?
 3. Is a board-driven leadership or portfolio change coming, which would supply the missing catalyst?
+
+## Macro or execution
+Verdict: mixed (confidence medium). Ratio 0.50 = peer median decline 276 bps (SPB, CLX, REYN, CENT, WHR, YETI: 12.26% to 9.50%) / Newell decline 552 bps (VA operating margin 11.65% FY2021 to 6.14% FY2023, calendar years); LTM 8.30%.
+Relative position: -60 bps at peak, -337 bps at trough. Revenue fell 23% with margin (volume shock), while peer revenue was roughly flat.
+Management blames macro but admits a self-made step: "In the second half of 2022, we took a pretty big step backwards. The reason for that is because we pulled back on our supply plan significantly to right-size our inventories to get our working capital back." (Chris Peterson, then President, 2023-02-24, doc 94333).
+Track record: evergreen 50 bps a year hit on the normalized basis (VA basis +26 bps in FY2025); 12-15% has no year; restatement not checked this run.
+Tenure: CEO Chris Peterson since May 2023 (about 41 months; internal, not founder, but President and CFO through the 2021 to 2023 compression); CFO Mark Erceg since 2023-01-09 (44.7 months). Fails the long-tenure test as CEO.

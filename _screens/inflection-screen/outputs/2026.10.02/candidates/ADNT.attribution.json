@@ -1,0 +1,148 @@
+{
+ "ticker": "ADNT",
+ "metric": "EBITDA margin",
+ "fy_label_note": "Baba/Visible Alpha FY-YYYY = Adient fiscal year ending September YYYY (FY-2025 revenue $14,535M matches company FY2025). Window FY2021 to FY2026; FY2026 (ended 2026-09-30, not yet reported) is still a VA estimate (Q1, Q2 actual, Q3, Q4 estimated). VA EBITDA excludes equity income and runs below company adjusted EBITDA (VA FY2026 $793M vs company guide about $885M), so all margins here are VA basis for both company and peers. Peers: LEA, MGA, THRM, FRVIA are calendar years; Toyota Boshoku (3116) and TS Tech (7313) are March fiscal years under VA labels, so roughly a one-quarter offset. Longer context outside the window: VA EBITDA margin was 6.78% in FY2017.",
+ "company": {
+  "peak_fy": "FY2025",
+  "peak_margin_pct": 5.5728,
+  "trough_fy": "FY2026E",
+  "trough_margin_pct": 5.2768,
+  "ltm_margin_pct": 5.84,
+  "decline_bps": 29.594878590916,
+  "revenue_peak_to_trough_pct": 3.421948190845292,
+  "inputs": {
+   "ebitda_fy2025_usd": 810000000.0,
+   "revenue_fy2025_usd": 14535000000.0,
+   "ebitda_fy2026e_usd": 793229633.7408457,
+   "revenue_fy2026e_usd": 15032380169.539362
+  },
+  "margin_path_pct": {
+   "FY2021": 4.72,
+   "FY2022": 4.16,
+   "FY2023": 5.51,
+   "FY2024": 5.37,
+   "FY2025": 5.57,
+   "FY2026E": 5.28,
+   "FY2027E": 5.72
+  },
+  "ltm_source": "Stage 3 record quant.ebitda_margin_ltm (Baba ltm_ebitda dataset); company-reported Q3 FY2026 adjusted EBITDA margin 5.7% (doc 129577)"
+ },
+ "peers": {
+  "tickers": [
+   "LEA",
+   "3116 (Toyota Boshoku)",
+   "7313 (TS Tech)",
+   "FRVIA",
+   "MGA",
+   "THRM"
+  ],
+  "median_peak_margin_pct": 8.2362,
+  "median_trough_margin_pct": 8.8109,
+  "median_decline_bps": -57.47065908160043,
+  "median_path_pct": {
+   "FY2021": 9.867,
+   "FY2022": 8.9332,
+   "FY2023": 7.9665,
+   "FY2024": 8.1642,
+   "FY2025": 8.2362,
+   "FY2026E": 8.8109,
+   "FY2027E": 9.0677
+  },
+  "per_peer_fy2025_to_fy2026e_pct": {
+   "LEA": [
+    7.1628,
+    7.366
+   ],
+   "3116": [
+    5.0358,
+    5.1438
+   ],
+   "7313": [
+    6.6751,
+    5.6005
+   ],
+   "FRVIA": [
+    13.7332,
+    13.6878
+   ],
+   "MGA": [
+    9.3097,
+    10.2559
+   ],
+   "THRM": [
+    11.6655,
+    10.8863
+   ]
+  },
+  "notes": "Seating and interiors peers from the Baba Auto Parts comps (85 names). Median of six = mean of 3rd and 4th ranked (LEA and MGA in both years). FY2021 median uses five peers (TS Tech history starts FY2022). Forvia VA revenue series is discontinuous (FY2023 $30.1B, FY2024 $22.7B), so its margin is used with caution; removing it does not change the sign. Negative median decline means the peer median rose.",
+  "source": "Baba data_financials fundamentals"
+ },
+ "attribution_ratio": -1.941912311113206,
+ "relative_position_bps": {
+  "at_peak": -266.34826158200735,
+  "at_trough": -353.4137992545238
+ },
+ "management_attribution": [
+  {
+   "quote": "The point I want to highlight is that the pressure we are seeing this year has been largely external and, in our view, temporary.",
+   "speaker": "Jerome Dorlack, CEO",
+   "date": "2026-08-05",
+   "document_id": 129577
+  },
+  {
+   "quote": "if you look at that 70 basis points, I'd say 60 of that basis points is really related to mix. As I indicated in my prepared remarks, you know, a lot of that mix was obviously, we were very transparent that as we continue to shift and pivot to the Chinese local manufacturers there's gonna be margin compression.",
+   "speaker": "Mark Oswald, CFO",
+   "date": "2026-05-06",
+   "document_id": 174627
+  },
+  {
+   "quote": "While that shift has created some expected margin pressure, the impact is occurring more gradually than we initially anticipated. As a result, we do expect some additional margin compression as we move into fiscal year 2027.",
+   "speaker": "Jerome Dorlack, CEO",
+   "date": "2026-08-05",
+   "document_id": 129577
+  },
+  {
+   "quote": "Lower customer production levels and ongoing market softness are pressuring volumes and profitability.",
+   "speaker": "Jerome Dorlack, CEO (on EMEA)",
+   "date": "2026-08-05",
+   "document_id": 129577
+  }
+ ],
+ "track_record": {
+  "prior_dated_targets": [
+   {
+    "target": "8% adjusted EBITDA margin exiting fiscal 2027 (company basis)",
+    "set": "2024-05-03 (doc 86068)",
+    "due": "exit FY2027 (September 2027)",
+    "outcome": "pending"
+   },
+   {
+    "target": "Restated without a year as walking up to '7, 7.5, approaching that target'",
+    "set": "2025-11-05 (doc 46917)",
+    "due": "no date",
+    "outcome": "pending"
+   }
+  ],
+  "notes": "8% target is at risk: VA FY2027E EBITDA margin 5.72% (company basis about 6.32% per stage 3), and the CEO now expects additional China margin compression into FY2027. No prior dated target has yet come due, so no recorded miss. 10-K searches (FY2021 to FY2025) return only standard auditor ICFR language; no restatement or material weakness found. No share-loss admission found; management says it outpaces the China market.",
+  "restatement_or_weakness": false,
+  "share_loss_admitted": false
+ },
+ "tenure": {
+  "ceo": "Jerome J. Dorlack (internal promotion from EVP and CFO; not founder)",
+  "ceo_start": "2024-01-01",
+  "ceo_months": 33.01848049281314,
+  "founder": false,
+  "cfo_start": "2024-01-01 (Mark A. Oswald, departing 2026-11-16; successor Peter H. Carlin effective 2026-11-16 per 8-K 0001670541-26-000105)",
+  "cfo_months": 33.01848049281314,
+  "long_tenured": "ceo_months >= 84 or founder: NO (33 months, not founder)",
+  "sources": "FY2023 10-K doc 88798; stage 3 record"
+ },
+ "verdict": "execution_led",
+ "deciding_facts": [
+  "Over FY2025 to FY2026E the peer median EBITDA margin rose 57 bps (8.24% to 8.81%) while Adient fell 30 bps (5.57% to 5.28%) on revenue up 3.4%, so the ratio is negative (-1.94) and the gap to peers widened from -266 to -353 bps.",
+  "Management itself attributes most of the compression to mix (60 of 70 bps in Q2 FY2026, the deliberate pivot to Chinese local OEMs) rather than volume; the Middle East cost and EMEA volume headwinds are real but external drivers did not hit peers' medians the same way."
+ ],
+ "confidence": "low",
+ "confidence_note": "The company decline is only 30 bps on a mostly estimated FY2026, so the ratio is unstable; the classification rests as much on the widened relative gap and rising revenue as on the ratio. Mix is partly strategic choice (China local-OEM wins), not operational failure.",
+ "tool_calls": 23
+}

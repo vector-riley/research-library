@@ -10,3 +10,10 @@ Open questions:
 1. Does the November FY2027 guide re-date, re-base or retire the 8% target?
 2. Why move an investor-background director (Blue Harbour, Saddle Point) into the CFO seat: capital allocation shift or margin reset?
 3. How much of the FY2026 shortfall is temporary (Middle East costs, China mix) versus structural EMEA weakness?
+
+## Macro or execution
+Verdict: execution_led (confidence low). Ratio -1.94 = peer median decline -57.5 bps / Adient decline 29.6 bps, VA EBITDA margin FY2025 5.57% to FY2026E 5.28% (fiscal years ending September) vs peer median (LEA, MGA, THRM, FRVIA, Toyota Boshoku, TS Tech) 8.24% to 8.81%.
+Relative position: -266 bps at FY2025, -353 bps at FY2026E; margin fell while revenue rose 3.4%. LTM 5.84%; window decline is small, so the ratio is unstable.
+Management blames mix, not volume: "if you look at that 70 basis points, I'd say 60 of that basis points is really related to mix." (Mark Oswald, CFO, 2026-05-06, doc 174627); CEO calls the pressure "largely external and, in our view, temporary" (doc 129577).
+Track record: 8% exit-FY2027 target (2024-05-03) still pending but softened to "7, 7.5" with no year; no restatement or weakness found.
+Tenure: CEO Jerome Dorlack since 2024-01-01 (33 months, internal, not founder); CFO Mark Oswald since 2024-01-01 (33 months), leaving 2026-11-16 for Peter Carlin. Fails the long-tenure test.
