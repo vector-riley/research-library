@@ -1,0 +1,212 @@
+{
+  "ticker": "AI",
+  "cid": 1004924,
+  "name": "C3.ai Inc",
+  "industry": "Application Software",
+  "as_of": "2026-10-02",
+  "business": "Sells enterprise AI software, including its agentic AI platform, development studio and industry-specific AI applications, to organizations across North America, Europe and Asia Pacific.",
+  "quant": {
+    "mcap_usd": 1722038890.0,
+    "drawdown": -0.7441,
+    "pctile_ev_ebitda_60m": 0.4833,
+    "price_ltm_pct": -0.3662,
+    "ebitda_margin_ltm": -0.7862,
+    "ebitda_margin_fwd_consensus": -0.5916,
+    "industry_median_margin": 0.282,
+    "ev_ebitda_fy": -8.16,
+    "net_debt_ltm_ebitda": null,
+    "ebitda_revision_12m": -0.1729,
+    "ebitda_brokers": 9
+  },
+  "catalyst": {
+    "type": [
+      "new_ceo",
+      "board_refresh",
+      "strategy_update"
+    ],
+    "events": [
+      {
+        "what": "Founder reappointed CEO and Chairman; Stephen Ehikian moved from CEO to President",
+        "who": "Thomas M. Siebel",
+        "from": "founder, Executive Chairman",
+        "effective": "2026-05-08",
+        "source": "8-K 0001193125-26-218253",
+        "external_hire": false
+      },
+      {
+        "what": "External CEO hire (replaced eight months later)",
+        "who": "Stephen Ehikian",
+        "from": "external, ex Airkit.ai CEO, Salesforce, GSA acting administrator",
+        "effective": "2025-09-01",
+        "source": "8-K 0001577526-25-000026",
+        "external_hire": true
+      },
+      {
+        "what": "Siebel CEO search announced (health), to become Executive Chairman",
+        "who": "Thomas M. Siebel",
+        "from": "",
+        "effective": "2025-07-21",
+        "source": "8-K 0001628280-25-035846",
+        "external_hire": null
+      },
+      {
+        "what": "Restructuring: $135M non-GAAP opex reduction, headcount 1,075 to about 700 (about 40%), new CRO and federal leader",
+        "who": "Stephen Ehikian, then Thomas Siebel",
+        "from": "",
+        "effective": "2026-02-25",
+        "source": "Baba document_id 186930 and 186929",
+        "external_hire": null
+      },
+      {
+        "what": "New directors: Kenneth A. Goldman (2025-05-21), Mike Clayville (2025-11-09), John C. Dwyer (2026-08-25); Jim Snabe leave of absence (2026-06-11)",
+        "who": "Goldman, Clayville, Dwyer",
+        "from": "external",
+        "effective": "2026-08-25",
+        "source": "8-K 0001628280-25-027907, 0001577526-25-000048, 0001577526-26-000103, 0001577526-26-000063",
+        "external_hire": true
+      }
+    ],
+    "months_since_primary": 4.8,
+    "ceo_months_in_seat": 4.8,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "No Investor Day or framework event found in Baba corpus (FY2027 search). Next scheduled datapoint is fiscal Q2 2027 results (quarter ends 2026-10-31), date not announced; Q2 guide revenue $51M to $55M, non-GAAP operating loss $34.5M to $42.5M (doc 217344)."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "operating margin",
+    "metric_basis_note": "Framing is a dollar cost-out ($135M annualized non-GAAP opex) plus an undated goal of non-GAAP profitability, not a margin level. Guide and street compared on non-GAAP operating margin; VA EBITDA basis differs by about $3M per quarter of D&A.",
+    "current_level_pct": -69.1,
+    "target_level_pct": null,
+    "target_year": 2027,
+    "has_year": true,
+    "annual_bps": null,
+    "synergy_usd": 135000000,
+    "synergy_year": 2027,
+    "statements": [
+      {
+        "quote": "Considering these productivity enhancements, my management team and I have identified expense reductions of $135 million in non-GAAP operating expenses in the coming year. Headcount-related changes are $60 million, which represents approximately a 26% reduction in headcount.",
+        "speaker": "Stephen Ehikian",
+        "role": "CEO",
+        "doc_title": "C3.ai Inc Q3 2026 Earnings Call",
+        "date": "2026-02-25",
+        "document_id": 186930
+      },
+      {
+        "quote": "The restructuring of the company, first introduced by Stephen Ehikian in February, has been expanded and accelerated by my return. Headcount has been reduced from 1,075 to roughly 700. We have taken almost $135 million in annual operating cost out of the business structure.",
+        "speaker": "Thomas Siebel",
+        "role": "Chairman and CEO",
+        "doc_title": "C3.ai Inc Q4 2026 Earnings Call",
+        "date": "2026-06-03",
+        "document_id": 186929
+      },
+      {
+        "quote": "Return the company to quarter-over-quarter consistent revenue growth, attain free cash flow from operations, and reach non-GAAP profitability.",
+        "speaker": "Tom Siebel",
+        "role": "Chairman and CEO",
+        "doc_title": "C3.ai Inc Q1 2027 Earnings Call",
+        "date": "2026-09-02",
+        "document_id": 217344
+      },
+      {
+        "quote": "Our revenue guidance for fiscal year 2027 is $210 million to $240 million. Our guidance for non-GAAP loss from operations for fiscal year 2027 is $123 million to $155 million.",
+        "speaker": "Hitesh Lath",
+        "role": "CFO",
+        "doc_title": "C3.ai Inc Q1 2027 Earnings Call",
+        "date": "2026-09-02",
+        "document_id": 217344
+      }
+    ],
+    "first_stated": "2026-02-25",
+    "times_repeated": 4
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": -81.61,
+      "FY2027": -58.25,
+      "FY2028": -38.17
+    },
+    "consensus_margin_at_target_year_pct": -63.71,
+    "gap_bps_vs_target": 193.2,
+    "gap_assumption": "VA labels keyed to fiscal year end (April): FY2027 = fiscal year ending April 2027, the year the $135M savings are fully realized (from H2). No margin level was stated, so the comparison is FY2027 guide midpoint non-GAAP operating margin (-$139M on $225M = -61.8%) minus VA consensus operating income / revenue (-$141.3M on $221.8M = -63.7%) = +193 bps; consensus sits inside both guide ranges, so the savings are modeled. FY2029 consensus EBITDA margin is still -38.3%: the street does not model non-GAAP profitability through FY2029.",
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials fundamentals consensus (Visible Alpha) cid 1004924; guide from document_id 217344; data_compute"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      -7668.0,
+      1321.5
+    ],
+    "note": "Operating margin basis. Fiscal Q4 2026 (VA): -105.3% vs -28.7% a year earlier (-7,668 bps) as revenue fell from $108.7M to $51.6M. Fiscal Q1 2027 (CFO, doc 217344): non-GAAP operating loss $36.2M on $52.4M revenue, -69.1% vs -82.3% (+1,321 bps), non-GAAP expenses down almost $40M yoy, free cash flow +$2.1M, cash $651.1M. Revenue still about 25% below the prior-year quarter; bookings +73%."
+  },
+  "score": {
+    "A_underperformance": 1,
+    "B_catalyst": 2,
+    "C_numeric_framing": 3,
+    "D_unproven": 1,
+    "total": 7
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Mechanical 7 overstates the fit: a founder-led cost-out on a shrinking, deeply loss-making software business, not a low-margin GXO setup; the $135M savings are already in guide and consensus.",
+  "open_questions": [
+    "Can revenue return to sequential growth (Q2 FY2027 guide $51M to $55M) so the cost-out converts to a dated profitability target?",
+    "Will Siebel give a numeric non-GAAP breakeven date, the step that would make the undated goal testable against consensus still at -38% EBITDA margin in FY2029?",
+    "How much of the federal bookings surge (+138%) converts to subscription revenue given forward-deployed engineering spend pushes gross margin back to the mid-40s?"
+  ],
+  "sources": [
+    {
+      "document_id": 186930,
+      "title": "C3.ai Inc Q3 2026 Earnings Call",
+      "date": "2026-02-25"
+    },
+    {
+      "document_id": 186929,
+      "title": "C3.ai Inc Q4 2026 Earnings Call",
+      "date": "2026-06-03"
+    },
+    {
+      "document_id": 217344,
+      "title": "C3.ai Inc Q1 2027 Earnings Call",
+      "date": "2026-09-02"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001193125-26-218253 (Siebel CEO and Chairman, Ehikian President)",
+      "date": "2026-05-12"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001577526-25-000026 (Ehikian CEO)",
+      "date": "2025-09-05"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001628280-25-035846 (CEO search)",
+      "date": "2025-07-24"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001577526-26-000103 (director Dwyer)",
+      "date": "2026-08-27"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps cid 1004924 (market_data asof 2026-09-30, revisions asof 2026-10-01)",
+      "date": "2026-10-01"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_financials fundamentals consensus cid 1004924",
+      "date": "2026-10-01"
+    },
+    {
+      "document_id": 0,
+      "title": "Stage 1 stage1_ranked.csv (industry median margin 0.282)",
+      "date": "2026-10-02"
+    }
+  ],
+  "tool_calls": 15
+}

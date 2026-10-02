@@ -1,0 +1,46 @@
+{
+  "ticker": "HLF", "cid": 1003471, "name": "Herbalife Ltd.", "industry": "Personal Products", "as_of": "2026-10-02",
+  "business": "Sells weight management, targeted nutrition, sports and skin care products to consumers worldwide through independent distributors and company-operated retail and digital platforms.",
+  "quant": {"mcap_usd": 1283260000.0, "drawdown": -0.3923, "pctile_ev_ebitda_60m": 0.20, "price_ltm_pct": 0.4372,
+            "ebitda_margin_ltm": 0.1281, "ebitda_margin_fwd_consensus": 0.1342, "industry_median_margin": 0.181, "ev_ebitda_fy": 4.05,
+            "net_debt_ltm_ebitda": 2.46, "ebitda_revision_12m": -0.0220, "ebitda_brokers": 3},
+  "catalyst": {"type": ["new_ceo", "new_cfo"],
+               "events": [
+                 {"what": "CEO appointed (internal: President since January 2024, Chief Strategy Officer 2023, former independent distributor for 32 years); Michael O. Johnson moved to Executive Chairman", "who": "Stephan Paulo Gratziani", "from": "Herbalife President", "effective": "2025-05-01", "source": "8-K 0001213900-25-015314", "external_hire": false},
+                 {"what": "President, Worldwide Markets appointed (31-year insider)", "who": "Rob Levy", "from": "Herbalife Managing Director, International", "effective": "2025-05-01", "source": "8-K 0001213900-25-015314", "external_hire": false},
+                 {"what": "CFO succession announced: John DeSimone retires 2026-12-31; successor joined Herbalife in 2025 as SVP Finance and Transformation after 16 years at Zappos (ex President and CEO, ex CFO)", "who": "Scott Schaefer", "from": "Herbalife SVP Finance and Transformation; formerly Zappos", "effective": "2027-01-01", "source": "8-K 0001213900-26-085702", "external_hire": false},
+                 {"what": "PENDING: CEO Gratziani to transition out of the CEO role; 8-K names no successor and no interim CEO", "who": "Stephan Gratziani (departing)", "from": null, "effective": "2026-10-31", "source": "8-K 0001213900-26-095328 (document_id 216217)", "external_hire": null}
+               ],
+               "months_since_primary": 17.1, "ceo_months_in_seat": 17.1,
+               "next_event": {"type": "none known", "date": null, "source": "No investor day or framework update found in Baba corpus (2026 transcripts) or 8-Ks. Nearest dated milestones: CEO Gratziani exit effective 2026-10-31 with successor not yet named (8-K 0001213900-26-095328); new CFO Schaefer effective 2027-01-01 (8-K 0001213900-26-085702)."}},
+  "margin_framing": {"numeric": false, "metric": "adjusted EBITDA margin",
+                     "metric_basis_note": "Management guides adjusted EBITDA in dollars (FY2026 $670M to $690M reported), not a margin level. Only margin statements are backward-looking (100 bps over two years, 240 bps Q1 vs Q1 2024) plus a quantified 40 to 50 bps India GST headwind for 2026. No forward margin target or annual rate. Baba FY labels equal calendar years (December FYE).",
+                     "current_level_pct": 12.6, "target_level_pct": null, "target_year": null, "has_year": false,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "We have also expanded our Q1 adjusted EBITDA margins by 240 basis points since Q1 of 2024, we have reduced our total leverage ratio from 3.9x at the end of 2023 to 2.7x at the end of the first quarter, driven by $540 million of debt reduction", "speaker": "John DeSimone", "role": "CFO", "doc_title": "Herbalife Ltd. Q1 2026 Earnings Call", "date": "2026-05-06", "document_id": 175965},
+                       {"quote": "We expect full year adjusted EBITDA to be in the range of $670 million-$690 million on a reported basis, and in the range of $690 million-$710 million on a constant currency basis.", "speaker": "John DeSimone", "role": "CFO", "doc_title": "Herbalife Ltd. Q2 2026 Earnings Call", "date": "2026-08-05", "document_id": 129660},
+                       {"quote": "Together, we've returned the business to growth and improved EBITDA margins. We have meaningfully reduced both our total debt and our leverage ratios.", "speaker": "John DeSimone", "role": "CFO", "doc_title": "Herbalife Ltd. Q2 2026 Earnings Call", "date": "2026-08-05", "document_id": 129660}
+                     ],
+                     "first_stated": null, "times_repeated": 3},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 12.82, "FY2027": 13.42, "FY2028": 13.87},
+             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": null, "gap_assumption": "No management margin target exists, so no gap. FY2026 adjusted EBITDA guide midpoint $680M vs VA consensus FY2026 EBITDA $674.1M: the street sits inside the guided range. Consensus already models about 105 bps of margin expansion FY2026 to FY2028.",
+             "ebitda_uplift_pct_if_target_hit": null, "source": "Baba data_financials consensus (summary); data_comps revisions asof 2026-10-01"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-20, -120], "note": "Order [Q1 2026, Q2 2026], company adjusted EBITDA margin YoY: Q1 13.3% down 20 bps (DeSimone, doc 175965); Q2 12.6% down 120 bps incl. about 53 bps FX (8-K EX-99.1, doc 142646). LTM margin 12.81% is VA actuals Q2 2025 to Q1 2026 (Q2 2026 not yet in VA actuals); VA quarterly EBITDA differs from company adjusted EBITDA (VA Q1 2026 164.9 vs company 176)."},
+  "score": {"A_underperformance": 2, "B_catalyst": 2, "C_numeric_framing": 1, "D_unproven": 2, "total": 7},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Partial match: cheap and stabilized, but the internal CEO who drove the turnaround leaves 2026-10-31 with no successor, CFO also changes, and management has never stated a forward margin target.",
+  "open_questions": ["Who replaces Gratziani after 2026-10-31, is the search external, and will the new CEO set a margin framework or investor day?", "Why is Gratziani leaving 18 months in, one month after the CFO succession, and does Michael Johnson return to an executive role?", "Can adjusted EBITDA margin re-expand after Q2 2026's 120 bps decline given India GST (40 to 50 bps) and country-mix headwinds?"],
+  "sources": [
+    {"document_id": 216217, "title": "HERBALIFE LTD. 8-K (CEO transition, accession 0001213900-26-095328)", "date": "2026-08-31"},
+    {"document_id": 142646, "title": "HERBALIFE LTD. 8-K with EX-99.1 Q2 2026 results and CFO transition (accession 0001213900-26-085702)", "date": "2026-08-05"},
+    {"document_id": 129660, "title": "Herbalife Ltd. Q2 2026 Earnings Call", "date": "2026-08-05"},
+    {"document_id": 175965, "title": "Herbalife Ltd. Q1 2026 Earnings Call", "date": "2026-05-06"},
+    {"document_id": 175966, "title": "Herbalife Ltd. Q4 2025 Earnings Call", "date": null},
+    {"document_id": 38846, "title": "HERBALIFE LTD. DEF 14A (Gratziani CEO since May 1, 2025)", "date": null},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0001213900-25-015314 (CEO appointment), 0001213900-26-085702 (CFO), 0001213900-26-095328 (CEO exit); Item 1.01/2.01 query returned none", "date": "2025-02-19 to 2026-08-31"},
+    {"document_id": 0, "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01) and data_financials summary (Visible Alpha consensus)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Stage 1 stage1_ranked.csv (industry median margin 0.181)", "date": "2026-10-02"}
+  ],
+  "tool_calls": 19
+}

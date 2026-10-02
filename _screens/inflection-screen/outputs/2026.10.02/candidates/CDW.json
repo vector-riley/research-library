@@ -1,0 +1,45 @@
+{
+  "ticker": "CDW", "cid": 1000546, "name": "CDW CORPORATION DE", "industry": "Technology Distributors", "as_of": "2026-10-02",
+  "business": "Resells and integrates hardware, software, cloud, security and IT services for business, government, education and healthcare customers in the US, UK and Canada.",
+  "quant": {"mcap_usd": 17304742000.0, "drawdown": -0.4854, "pctile_ev_ebitda_60m": 0.0167, "price_ltm_pct": -0.1790,
+            "ebitda_margin_ltm": 0.0942, "ebitda_margin_fwd_consensus": 0.0968, "industry_median_margin": 0.047, "ev_ebitda_fy": 9.40,
+            "net_debt_ltm_ebitda": 2.43, "ebitda_revision_12m": -0.0052, "ebitda_brokers": 8},
+  "catalyst": {"type": ["new_cfo", "strategy_update"],
+               "events": [
+                 {"what": "CFO retirement announced for 2027; stays until a successor is named, then Executive Advisor to 2028-03-31. Successor not yet named (pending)", "who": "Albert J. Miralles (outgoing)", "from": null, "effective": "2026-08-03", "source": "8-K 0001402057-26-000064", "external_hire": null},
+                 {"what": "Geared for Growth launched: multi-year AI-enabled operating model program, $100M gross run-rate savings in 2027 and $200M line of sight into 2028, up to about half reinvested", "who": "Al Miralles (CFO), Chris Leahy (CEO)", "from": null, "effective": "2026-05-06", "source": "document_id 153385", "external_hire": null},
+                 {"what": "Chief Services and Solutions Officer and EVP appointed, in role since August 2025 (below CEO/CFO level)", "who": "Mukesh Kumar", "from": "Slalom Consulting (President)", "effective": null, "source": "Baba data_profile (10-K executive officer table)", "external_hire": true},
+                 {"what": "Chief Growth and Innovation Officer retired; director Sanjay Mehrotra did not stand for re-election", "who": "Sona Chawla; Sanjay Mehrotra", "from": null, "effective": "2025-12-31", "source": "8-K 0001402057-25-000188; 8-K 0001402057-26-000016", "external_hire": null}
+               ],
+               "months_since_primary": 2.0, "ceo_months_in_seat": 93.0,
+               "next_event": {"type": "framework update", "date": null, "source": "CFO promised 'further updates on the timing of these efforts and the financial impacts as we move forward' (doc 153385, 2026-05-06); CFO successor announcement pending (8-K 0001402057-26-000064). No Investor Day date found in Baba corpus."}},
+  "margin_framing": {"numeric": true, "metric": "operating margin",
+                     "metric_basis_note": "The target is a dollar savings figure (gross run rate), not a margin level. Converted to non-GAAP operating margin points on VA FY2028 consensus revenue ($25.62B): $200M gross = 78 bps, about $100M net of stated reinvestment = 39 bps. CDW margins are already ABOVE the industry median (EBITDA 9.7% fwd vs 4.7%), so the stage 1 'below peers' leg does not hold here.",
+                     "current_level_pct": 8.5, "target_level_pct": null, "target_year": 2028, "has_year": true,
+                     "annual_bps": null, "synergy_usd": 200000000, "synergy_year": 2028,
+                     "statements": [
+                       {"quote": "As we look forward into 2027 and 2028, we would anticipate run rate improvements in the range of $100 million-$200 million. These savings will be balanced with some reinvestment back into the business to fuel our broader growth strategy.", "speaker": "Al Miralles", "role": "CFO", "doc_title": "CDW CORPORATION DE Q1 2026 Earnings Call", "date": "2026-05-06", "document_id": 153385},
+                       {"quote": "If you scroll that forward, Adam, to 2027, you should think of that $100 million estimate that we gave as a gross annual run rate impact. As you noted, some of that will get reinvested. I would say, you know, upwards of half, maybe a little bit less there [...] The $200 million would be what we see in the way of line of sight if we go further out a year or so and into 2028.", "speaker": "Al Miralles", "role": "CFO", "doc_title": "CDW CORPORATION DE Q1 2026 Earnings Call", "date": "2026-05-06", "document_id": 153385},
+                       {"quote": "I would just add, to be clear that our ultimate goal is to drive productivity that translates into operating leverage that allows us to reinvest in the growth areas of the business and obviously return value to shareholders.", "speaker": "Christine Leahy", "role": "Chair and CEO", "doc_title": "J.P. Morgan 54th Annual Global Technology, Media and Communications Conference", "date": "2026-05-19", "document_id": 46649}
+                     ],
+                     "first_stated": "2026-05-06", "times_repeated": 3},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 9.40, "FY2027": 9.68, "FY2028": 9.67},
+             "consensus_margin_at_target_year_pct": 9.22, "gap_bps_vs_target": -1, "gap_assumption": "December year end, Baba FY labels equal calendar years. Implied target = FY2026 consensus non-GAAP operating margin 8.83% + net savings of ~$100M (half of $200M reinvested, per CFO) on FY2028 consensus revenue = 9.22%, vs FY2028 consensus operating margin 9.22% = -1 bps. On the gross $200M with no reinvestment the gap is +38 bps. Consensus already models ~40 bps of operating margin expansion 2026 to 2028.",
+             "ebitda_uplift_pct_if_target_hit": 0.0, "source": "Baba data_financials consensus (fundamentals, Visible Alpha)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-50, -20], "note": "Order is [Q1 2026, Q2 2026], non-GAAP operating margin. Q1 2026 8.0%, down 50 bps (Miralles, doc 153385). Q2 2026 8.5% (Miralles, doc 129606) vs 8.70% in Q2 2025 (VA). CFO says Q2 leverage came from expense discipline, 'less contribution at large from Geared for Growth'; benefits expected in 2H 2026. VA has not loaded Q2 2026 actuals, so LTM EBITDA margin uses Q2 2025 to Q1 2026."},
+  "score": {"A_underperformance": 2, "B_catalyst": 2, "C_numeric_framing": 3, "D_unproven": 0, "total": 7},
+  "disqualified": true, "disqualifier_reason": "Margin target already reflected in consensus: Geared for Growth savings net of the stated ~half reinvestment add ~39 bps by 2028, and VA consensus already has non-GAAP operating margin rising ~40 bps from 8.83% (FY2026) to 9.22% (FY2028); gap -1 bps (gross case +38 bps). Borderline: management says savings 'could exceed those levels' and a new CFO is pending.",
+  "verdict": "Closest of the four on framing (dated dollar savings target from the CFO plus a pending CFO change), but CDW is already an above-peer-margin business and consensus already prices the net savings, so the GXO gap is not there yet.",
+  "open_questions": ["Who succeeds CFO Miralles, internal or external, and will the successor restate Geared for Growth as a margin target with a year?", "How much of the $200M gross run rate drops through versus is reinvested, and does it exceed the ~40 bps of 2026 to 2028 margin expansion consensus already models?", "Does the netted-down software and services mix shift (34.5% of gross profit in Q1 2026) depress reported margins enough to mask the savings?"],
+  "sources": [
+    {"document_id": 153385, "title": "CDW CORPORATION DE Q1 2026 Earnings Call", "date": "2026-05-06"},
+    {"document_id": 46649, "title": "J.P. Morgan 54th Annual Global Technology, Media and Communications Conference", "date": "2026-05-19"},
+    {"document_id": 129606, "title": "CDW CORPORATION DE Q2 2026 Earnings Call", "date": "2026-08-05"},
+    {"document_id": 218690, "title": "Citi's 2026 Global TMT Conference (search snippet only)", "date": null},
+    {"document_id": 0, "title": "Baba data_profile (10-K business description and executive officer table)", "date": "2026-09-23"},
+    {"document_id": 0, "title": "Baba data_comps (market_data, revisions, estimates; asof 2026-09-30 to 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials fundamentals consensus (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02 filings: 0001402057-26-000064, 0001402057-26-000016, 0001193125-25-329779, 0001402057-25-000188, 0001193125-24-243443, 0001171843-18-006585; Item 2.01/1.01 query returned only 0001193125-25-329779 (credit agreement, not an acquisition)", "date": "2018-09-18 to 2026-08-05"}
+  ],
+  "tool_calls": 22
+}

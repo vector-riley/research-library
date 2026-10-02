@@ -1,0 +1,134 @@
+{
+  "ticker": "ITRI",
+  "cid": 1000744,
+  "name": "Itron, Inc.",
+  "industry": "Electronic Equipment & Instruments",
+  "as_of": "2026-10-02",
+  "business": "Itron sells smart meters, communication networks, grid edge software and services to electric, gas and water utilities and cities worldwide.",
+  "quant": {
+    "mcap_usd": 3846993920.0,
+    "drawdown": -0.37624620719549196,
+    "pctile_ev_ebitda_60m": 0.0,
+    "price_ltm_pct": -0.3068400770712909,
+    "ebitda_margin_ltm": 0.161,
+    "ebitda_margin_fwd_consensus": 0.16566942229914783,
+    "industry_median_margin": 0.241,
+    "ev_ebitda_fy": 11.121785175999912,
+    "net_debt_ltm_ebitda": 2.13958663226729,
+    "ebitda_revision_12m": -0.03487002333724787,
+    "ebitda_brokers": 8.0
+  },
+  "catalyst": {
+    "type": ["acquisition", "board_refresh"],
+    "events": [
+      {
+        "what": "Acquisition of Urbint closed (AI resiliency software); with Locusview forms new Resiliency Solutions segment, about $16M revenue in Q2 2026",
+        "who": "Urbint",
+        "from": "",
+        "effective": "2025-12",
+        "source": "doc 154833 (Q4 2025 call key points: closed Urbint for $325 million during the quarter); doc 107480 (Q2 2026 segment revenue). No Item 2.01 or 1.01 8-K returned by sec-api; exact close date not found",
+        "external_hire": null
+      },
+      {
+        "what": "New independent director (Audit/Finance Committee)",
+        "who": "Sheri Savage",
+        "from": "SVP Finance and CFO, Ultra Clean Holdings",
+        "effective": "2025-08-11",
+        "source": "8-K 0001171843-25-005428",
+        "external_hire": true
+      },
+      {
+        "what": "New independent director",
+        "who": "Scott Drury",
+        "from": "Retired CEO, Southern California Gas Company",
+        "effective": "2025-08-20",
+        "source": "8-K 0001171843-25-005548; 8-K/A 0000780571-25-000057",
+        "external_hire": true
+      }
+    ],
+    "months_since_primary": 10,
+    "ceo_months_in_seat": 86,
+    "next_event": {
+      "type": "investor day",
+      "date": null,
+      "source": "doc 154833, Deitrich 2026-02-17: 'We think it's appropriate to reset long-term targets with an investor day. We haven't really picked a date yet'; doc 107480, Hooper 2026-07-28: 2027 guidance on the February 2027 call, then 'sometime next year, we'll give the longer range target framework by segment'"
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "Target is adjusted EBITDA margin of 15% to 17% for 2027 (with revenue of $2.6B to $2.8B), set at the March 2024 Investor Day and anchored on 2023 actuals. Management says the margin, gross margin, free cash flow and EPS legs were already achieved in 2025. No new target yet; a reset is promised for 2027.",
+    "current_level_pct": 16.1,
+    "target_level_pct": 16.0,
+    "target_year": 2027,
+    "has_year": true,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "So what I was relating to is first comment would be 2027 targets are still appropriate, and that was a revenue range of $2.6 billion-$2.8 billion, and we had the EBITDA range of 15%-17%.",
+        "speaker": "Joan Hooper",
+        "role": "SVP and CFO",
+        "doc_title": "ITRON INC Q3 2024 Earnings Call",
+        "date": "2024-10-31",
+        "document_id": 43064
+      },
+      {
+        "quote": "I would say that it's really important to point out that gross margin, EBITDA, free cash flow for the 27 targets, we already achieved them in 2025.",
+        "speaker": "Tom Deitrich",
+        "role": "President and CEO",
+        "doc_title": "ITRON INC Q4 2025 Earnings Call",
+        "date": "2026-02-17",
+        "document_id": 154833
+      },
+      {
+        "quote": "We think it's appropriate to reset long-term targets with an investor day. We haven't really picked a date yet, but I would suspect sometime in the next year or so, we will set up that and set out some new longer-term targets.",
+        "speaker": "Tom Deitrich",
+        "role": "President and CEO",
+        "doc_title": "ITRON INC Q4 2025 Earnings Call",
+        "date": "2026-02-17",
+        "document_id": 154833
+      },
+      {
+        "quote": "What we plan to do is obviously provide guidance on the February call for 27, and then shortly thereafter, sometime next year, we'll give the longer range target framework by segment.",
+        "speaker": "Joan Hooper",
+        "role": "SVP and CFO",
+        "doc_title": "ITRON INC Q2 2026 Earnings Call",
+        "date": "2026-07-28",
+        "document_id": 107480
+      }
+    ],
+    "first_stated": "2024-03-12",
+    "times_repeated": 7
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {"FY2026": 0.1644, "FY2027": 0.1657, "FY2028": 0.1728},
+    "consensus_margin_at_target_year_pct": 16.57,
+    "gap_bps_vs_target": -57,
+    "gap_assumption": "Target midpoint 16% adjusted EBITDA margin for 2027 versus VA consensus FY2027 EBITDA margin 16.57%; calendar fiscal year, so Baba FY2027 equals company 2027. Against the top of the range (17%) the gap is about +43 bps; the street is already inside the range.",
+    "ebitda_uplift_pct_if_target_hit": -3.42,
+    "source": "Baba data_financials consensus (summary), data_comps"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [400, 118],
+    "note": "VA EBITDA margin yoy: Q4 2025 +400 bps, Q1 2026 +118 bps. VA has not loaded Q2 2026 actuals; per the Q2 2026 call (doc 107480) adjusted gross margin was a record 41.4%, up 460 bps, and full-year EPS guidance was raised to $6.30 to $6.50. LTM uses Q2 2025 to Q1 2026 (EBITDA $377.8M on revenue $2,347.0M)."
+  },
+  "score": {"A_underperformance": 2, "B_catalyst": 1, "C_numeric_framing": 3, "D_unproven": 0, "total": 6},
+  "disqualified": true,
+  "disqualifier_reason": "Margin target already reflected in consensus: the 15% to 17% 2027 EBITDA margin target was achieved in 2025 per the CEO, and FY2027 consensus (16.57%) sits above the midpoint. No CEO or CFO change since 2019 and 2017; the only in-window catalysts are a small acquisition (Urbint, $325M) and two board additions.",
+  "verdict": "Cheap and down 38%, but the stated margin target is already met and modeled; the setup depends on a not-yet-dated 2027 Investor Day reset.",
+  "open_questions": [
+    "What new long-term margin target comes out of the 2027 Investor Day, and does it sit at least 100 bps above the FY2028 consensus of 17.3%?",
+    "Why is the stock at the bottom of its five-year multiple range when margins beat plan: revenue (lower end of $2.6B to $2.8B) and bookings, or something else?",
+    "Does Resiliency Solutions (Urbint, Locusview) dilute or lift group EBITDA margin once integrated?"
+  ],
+  "sources": [
+    {"document_id": 43064, "title": "ITRON INC Q3 2024 Earnings Call", "date": "2024-10-31"},
+    {"document_id": 154833, "title": "ITRON INC Q4 2025 Earnings Call", "date": "2026-02-17"},
+    {"document_id": 154832, "title": "ITRON INC Q1 2026 Earnings Call", "date": null},
+    {"document_id": 107480, "title": "ITRON INC Q2 2026 Earnings Call", "date": "2026-07-28"},
+    {"document_id": 86825, "title": "Investor Day 2024", "date": "2024-03-12"}
+  ],
+  "tool_calls": 21
+}

@@ -1,0 +1,204 @@
+{
+  "ticker": "ALKT",
+  "cid": 1005044,
+  "name": "Alkami Technology Inc",
+  "industry": "Application Software",
+  "as_of": "2026-10-02",
+  "business": "Provides a cloud-based digital banking, onboarding, account opening and data and marketing platform to U.S. community, regional and super-regional credit unions and banks.",
+  "quant": {
+    "mcap_usd": 1525797122.57,
+    "drawdown": -0.6757,
+    "pctile_ev_ebitda_60m": 0.0,
+    "price_ltm_pct": -0.4489,
+    "ebitda_margin_ltm": 0.1569,
+    "ebitda_margin_fwd_consensus": 0.2167,
+    "industry_median_margin": 0.282,
+    "ev_ebitda_fy": 13.26,
+    "net_debt_ltm_ebitda": 2.91,
+    "ebitda_revision_12m": -0.1197,
+    "ebitda_brokers": 4
+  },
+  "catalyst": {
+    "type": [
+      "new_cfo",
+      "board_refresh",
+      "strategy_update"
+    ],
+    "events": [
+      {
+        "what": "New CFO, succeeding retiring Bryan Hill",
+        "who": "Cassandra Hudson",
+        "from": "external, ex CFO of StackAdapt and EngageSmart",
+        "effective": "2025-11-01",
+        "source": "8-K 0001529274-25-000159",
+        "external_hire": true
+      },
+      {
+        "what": "New long-term model: Rule of 45 by 2030, about 300 bps average annual adjusted EBITDA margin expansion, gross margin approaching 70%, SBC to about 10% of revenue",
+        "who": "Cassandra Hudson",
+        "from": "",
+        "effective": "2026-02-25",
+        "source": "Baba document_id 146356",
+        "external_hire": null
+      },
+      {
+        "what": "Two new directors, board expanded 9 to 11",
+        "who": "Jeffrey Fox (ex CEO Endurance International, Convergys), Judson Linville (ex Citi, American Express)",
+        "from": "external",
+        "effective": "2026-03-31",
+        "source": "8-K 0001529274-26-000014",
+        "external_hire": true
+      },
+      {
+        "what": "New director, Audit Committee",
+        "who": "Susanna Morgan (ex Remitly CFO)",
+        "from": "external",
+        "effective": "2025-07-23",
+        "source": "8-K 0001529274-25-000130",
+        "external_hire": true
+      }
+    ],
+    "months_since_primary": 11.0,
+    "ceo_months_in_seat": 59.0,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "No Investor Day found in Baba corpus (FY2026 search). CEO Alex Shootman, Q1 2026 call (doc 146355): 'We're not yet ready to change the long-term model'. Next datapoint is Q3 2026 results (guide revenue $132.7M to $134.2M, adjusted EBITDA $23.5M to $24.3M), date not announced. CEO tenure from DEF 14A doc 37369 (since November 2021; day not stated, month start used)."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "Rate is adjusted EBITDA margin (about 300 bps a year average) with the Rule of 45 dated 2030; no explicit margin level. Implied path from the 2026 guide midpoint 18.3%: about 21.3% in 2027 and 24.3% in 2028.",
+    "current_level_pct": 15.69,
+    "target_level_pct": null,
+    "target_year": 2030,
+    "has_year": true,
+    "annual_bps": 300,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "We remain confident in our long-term trajectory and expect to achieve Rule of 45 by 2030.",
+        "speaker": "Cassandra Hudson",
+        "role": "CFO",
+        "doc_title": "Alkami Technology Inc Q4 2025 Earnings Call",
+        "date": "2026-02-25",
+        "document_id": 146356
+      },
+      {
+        "quote": "Average annual Adjusted EBITDA margin expansion of approximately 300 basis points, driven by efficiencies from our offshore efforts in India and operational improvements from achieving greater scale, particularly in R&D and G&A.",
+        "speaker": "Cassandra Hudson",
+        "role": "CFO",
+        "doc_title": "Alkami Technology Inc Q4 2025 Earnings Call",
+        "date": "2026-02-25",
+        "document_id": 146356
+      },
+      {
+        "quote": "For the full-year, we expect revenue of $528 million to $531 million, representing growth of 19%-19.7%, and adjusted EBITDA of $96 million to $98 million, or 18.3% margin at the midpoint, reflecting expanded operating leverage as we scale the business.",
+        "speaker": "Cassandra Hudson",
+        "role": "CFO",
+        "doc_title": "Alkami Technology Inc Q2 2026 Earnings Call",
+        "date": "2026-07-29",
+        "document_id": 110705
+      },
+      {
+        "quote": "Approximately 300 basis points of annual adjusted EBITDA margin expansion driven by gross margin improvement and continued operating leverage, and stock-based compensation declining to approximately 10% of revenue.",
+        "speaker": "Cassandra Hudson",
+        "role": "CFO",
+        "doc_title": "Alkami Technology Inc Q2 2026 Earnings Call",
+        "date": "2026-07-29",
+        "document_id": 110705
+      }
+    ],
+    "first_stated": "2026-02-25",
+    "times_repeated": 3
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 18.4,
+      "FY2027": 21.61,
+      "FY2028": 24.53
+    },
+    "consensus_margin_at_target_year_pct": 21.61,
+    "gap_bps_vs_target": -30.8,
+    "gap_assumption": "December fiscal year, VA FY label = company fiscal year. Framework path = 2026 guide midpoint 18.3% + 300 bps a year: 2027 21.3% vs consensus 21.61% = -30.8 bps; 2028 24.3% vs consensus 24.53% = -23.5 bps. FY2026 consensus 18.40% matches the 18.3% guide. The street models the framework exactly (slightly above it). FY2029 consensus not available.",
+    "ebitda_uplift_pct_if_target_hit": -0.0143,
+    "source": "Baba data_financials fundamentals consensus (Visible Alpha) cid 1005044; guide from document_id 110705; data_compute"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      537.6,
+      430
+    ],
+    "note": "Adjusted EBITDA margin: Q1 2026 17.71% vs 12.34% (+537.6 bps, VA actuals); Q2 2026 14.9% on $19.4M, 'an expansion of approximately 430 basis points year-over-year' (CFO, doc 110705). 2026 guide about 500 bps of expansion to 18.3%. Delivery is on plan; the issue is growth (revenue consensus FY2027 down 9.7% over 12 months), not margin."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 2,
+    "C_numeric_framing": 3,
+    "D_unproven": 0,
+    "total": 7
+  },
+  "disqualified": true,
+  "disqualifier_reason": "Margin target already reflected in consensus: the new CFO's 300 bps a year framework implies about 21.3% in 2027 and 24.3% in 2028, and consensus sits at 21.61% and 24.53%. The 4-month EBITDA revision is flat (-0.01%), so the street has underwritten it; the 12-month cut (-12.0% EBITDA, -9.7% revenue) is a growth issue.",
+  "verdict": "Cheap versus its own history with a new external CFO and a dated numeric framework, but the street already models the 300 bps a year exactly, so there is no margin gap to underwrite; the debate is growth.",
+  "open_questions": [
+    "Why did FY2027 revenue consensus fall 9.7% in 12 months while the margin path held: bank win rates, DSSP implementation timing, or termination fee roll-off?",
+    "Does Rule of 45 by 2030 need faster growth than the street's 2027 to 2028 revenue path, and will management give a dated EBITDA margin level?",
+    "What prompted the two-seat board expansion in March 2026 (Fox, Linville): shareholder pressure or planned refresh?"
+  ],
+  "sources": [
+    {
+      "document_id": 146356,
+      "title": "Alkami Technology Inc Q4 2025 Earnings Call",
+      "date": "2026-02-25"
+    },
+    {
+      "document_id": 146355,
+      "title": "Alkami Technology Inc Q1 2026 Earnings Call",
+      "date": "2026-05"
+    },
+    {
+      "document_id": 110705,
+      "title": "Alkami Technology Inc Q2 2026 Earnings Call",
+      "date": "2026-07-29"
+    },
+    {
+      "document_id": 37369,
+      "title": "Alkami Technology DEF 14A 2026 (CEO since November 2021)",
+      "date": "2026-04-07"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001529274-25-000159 (CFO Cassandra Hudson)",
+      "date": "2025-10-30"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001529274-26-000014 (directors Fox, Linville)",
+      "date": "2026-04-01"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001529274-25-000130 (director Morgan)",
+      "date": "2025-06-30"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps cid 1005044 (market_data asof 2026-09-30, revisions asof 2026-10-01; pctile over 52 months)",
+      "date": "2026-10-01"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_financials fundamentals consensus cid 1005044",
+      "date": "2026-10-01"
+    },
+    {
+      "document_id": 0,
+      "title": "Stage 1 stage1_ranked.csv (industry median margin 0.282)",
+      "date": "2026-10-02"
+    }
+  ],
+  "tool_calls": 15
+}
