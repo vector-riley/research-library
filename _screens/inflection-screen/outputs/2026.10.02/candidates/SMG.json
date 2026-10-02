@@ -1,0 +1,226 @@
+{
+  "ticker": "SMG",
+  "cid": 1000955,
+  "name": "SCOTTS MIRACLE-GRO CO",
+  "industry": "Agrichemicals",
+  "as_of": "2026-10-02",
+  "business": "Makes and sells branded lawn care, garden, plant food, soil and pest control products to home centers, mass merchants and other retailers.",
+  "quant": {
+    "mcap_usd": 2961184000.0,
+    "drawdown": -0.4226,
+    "pctile_ev_ebitda_60m": 0.1,
+    "price_ltm_pct": -0.0804,
+    "ebitda_margin_ltm": 0.1809,
+    "ebitda_margin_fwd_consensus": 0.1819,
+    "industry_median_margin": 0.19,
+    "ev_ebitda_fy": 5.23,
+    "net_debt_ltm_ebitda": 0.42,
+    "ebitda_revision_12m": -0.0938,
+    "ebitda_brokers": 6
+  },
+  "catalyst": {
+    "type": [
+      "new_ceo",
+      "board_refresh",
+      "strategy_update"
+    ],
+    "events": [
+      {
+        "what": "President and CEO (succeeds James Hagedorn, who resigned as CEO and Chairman and left the board)",
+        "who": "Nathan E. Baxter",
+        "from": "internal, President and COO; earlier EVP Technology and Operations, ex President of Tokyo Electron U.S. Holdings",
+        "effective": "2026-06-26",
+        "source": "8-K 0000825542-26-000032",
+        "external_hire": false
+      },
+      {
+        "what": "Chairman of the Board (was Lead Independent Director)",
+        "who": "Peter Shumlin",
+        "from": "internal, existing director",
+        "effective": "2026-06-26",
+        "source": "8-K 0000825542-26-000032",
+        "external_hire": false
+      },
+      {
+        "what": "Resigned from the board (continues as EVP and Chief Brand Officer)",
+        "who": "Nick Miaritis",
+        "from": "",
+        "effective": "2026-06-26",
+        "source": "8-K 0000825542-26-000032",
+        "external_hire": null
+      },
+      {
+        "what": "EVP and Chief Strategy Officer departs (Hagedorn family member)",
+        "who": "Christopher J. Hagedorn",
+        "from": "",
+        "effective": "2026-09-30",
+        "source": "8-K 0000825542-26-000045",
+        "external_hire": null
+      },
+      {
+        "what": "Director retired/resigned, continues consulting via Hanft Ideas LLC",
+        "who": "Adam Hanft",
+        "from": "",
+        "effective": "2026-09-08",
+        "source": "8-K 0000825542-26-000047 and 8-K/A 0000825542-26-000054",
+        "external_hire": null
+      },
+      {
+        "what": "Named EVP and CFO after serving as interim CFO (announced on Q2 2025 call; no Item 5.02 8-K found for the appointment)",
+        "who": "Mark Scheiwer",
+        "from": "internal, interim CFO and Chief Accounting Officer",
+        "effective": "2025-04-30",
+        "source": "Baba document_id 43813 (Q2 2025 call, Jim Hagedorn)",
+        "external_hire": false
+      },
+      {
+        "what": "Director appointed (replaced retiring John R. Vines)",
+        "who": "Austin Scott Miller",
+        "from": "external",
+        "effective": "2025-08-01",
+        "source": "8-K 0000825542-25-000005",
+        "external_hire": true
+      },
+      {
+        "what": "Investor Day: new FY2027 to FY2029 algorithm (2 to 4% sales growth, 50 to 100 bps gross margin a year, 5 to 8% EPS growth, leverage 3 to 3.5x); SMG 2.0 targets ($1B EBITDA) de-dated; Hawthorne divested April 2026",
+        "who": "Nate Baxter, Mark Scheiwer",
+        "from": "",
+        "effective": "2026-08-04",
+        "source": "Baba document_id 129021",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 3.2,
+    "ceo_months_in_seat": 3.2,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "Investor Day already held 2026-08-04 (doc 129021). Next is the Q4 FY2026 call with the first FY2027 guide (date not in Baba corpus); CFO said a long-term update would come 'as we get closer to fiscal 2029'."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "gross margin",
+    "metric_basis_note": "Operative frame is a rate: 50 to 100 bps of gross margin improvement annually over FY2027 to FY2029 (CFO, Investor Day 2026-08-04); annual_bps 75 is the midpoint. Long-term level 'nearly 40%' has no year. Legacy targets (gross margin north of 35% and $700M EBITDA by end of fiscal 2027, Hagedorn 2025-04-30; $1B EBITDA and near 40% gross margin by 2030, Hagedorn 2026-04-29) were de-dated by the new CEO on 2026-07-29. Company fiscal year ends September 30; Baba VA FY labels equal company fiscal years. Company quotes non-GAAP gross margin; street uses VA gross margin (FY2025 VA 31.63% vs reported non-GAAP 31.2%). Investor Day transcript tags the CFO's words under IR head Brad Chelton; the text marks them as Mark Scheiwer.",
+    "current_level_pct": 31.63,
+    "target_level_pct": null,
+    "target_year": 2029,
+    "has_year": true,
+    "annual_bps": 75,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "Looking ahead from a midterm perspective, we are targeting 50-100 basis points of gross margin improvement annually.",
+        "speaker": "Mark Scheiwer",
+        "role": "EVP, CFO and Chief Accounting Officer",
+        "doc_title": "Investor Day 2026",
+        "date": "2026-08-04",
+        "document_id": 129021
+      },
+      {
+        "quote": "Longer term, we are targeting a gross margin rate of nearly 40%. We don't expect to be there in the next few years, but over the long term, as we bring this innovation to market, including packaging innovation in the e-commerce space and other areas, our goal is to get to that target.",
+        "speaker": "Mark Scheiwer",
+        "role": "EVP, CFO and Chief Accounting Officer",
+        "doc_title": "Investor Day 2026",
+        "date": "2026-08-04",
+        "document_id": 129021
+      },
+      {
+        "quote": "While the $1 billion increase in net sales and $1 billion in EBITDA remain the targets, our immediate focus is on quality earnings growth and margin expansion, which will naturally lead us to those long-term financial milestones on a consistent basis that might push achievement beyond 2030.",
+        "speaker": "Nate Baxter",
+        "role": "President and CEO",
+        "doc_title": "SCOTTS MIRACLE-GRO CO Q3 2026 Earnings Call",
+        "date": "2026-07-29",
+        "document_id": 110813
+      },
+      {
+        "quote": "As we continue to build success each quarter, we move closer to achieving these four financial goals by the end of fiscal 2027. One, sustained sales growth of at least 3%. Two, gross margin rate north of 35%. Three, $700 million in EBITDA.",
+        "speaker": "Jim Hagedorn",
+        "role": "Chairman and CEO (former)",
+        "doc_title": "SCOTTS MIRACLE-GRO CO Q2 2025 Earnings Call",
+        "date": "2025-04-30",
+        "document_id": 43813
+      }
+    ],
+    "first_stated": "2026-08-04",
+    "times_repeated": 2
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 17.84,
+      "FY2027": 18.49,
+      "FY2028": 19.21
+    },
+    "consensus_margin_at_target_year_pct": 34.18,
+    "gap_bps_vs_target": -7.5,
+    "gap_assumption": "Gross margin basis, Baba VA FY = company fiscal year (ends September). Consensus gross margin FY2026 32.60%, FY2027 33.35%, FY2028 34.18%; FY2029 not available, so the test is run at FY2028. Rate-implied FY2028 = FY2026 consensus 32.60% + 2 x 75 bps = 34.10%, 7.5 bps BELOW consensus 34.18% (street already models about 79 bps a year, the midpoint of 50 to 100). Legacy frame for comparison only: 35% gross margin in FY2027 is 164.7 bps above FY2027 consensus 33.35%; $700M FY2027 EBITDA is 14.1% above FY2027 consensus EBITDA $613.4M. Both legacy figures were de-dated by the new CEO and replaced by the FY2027 to FY2029 algorithm.",
+    "ebitda_uplift_pct_if_target_hit": 0.1412,
+    "source": "Baba data_financials summary and fundamentals consensus (Visible Alpha), cid 1000955. ebitda_uplift refers ONLY to the superseded $700M FY2027 EBITDA target vs FY2027 consensus $613.4M (data_compute); on the operative 50 to 100 bps frame the uplift is about zero because consensus already models it."
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      244.0,
+      -100.0
+    ],
+    "note": "Gross margin basis. Q2 FY2026 (VA 2QFY-2026 actual) 41.83% vs 39.39% = +244 bps (data_compute). Q3 FY2026 non-GAAP gross margin 31.3% vs 32.3% = -100 bps on freight and commodity costs (CFO Mark Scheiwer, doc 110813, 2026-07-29); VA 3QFY-2026 row still holds consensus, so LTM uses it (revenue $1,172M vs reported $1.17B). FY2025 non-GAAP gross margin up 490 bps to 31.2% (Hagedorn, Q4 2025 call, doc 43811). About $100M of low-margin mulch and soil sales exited in FY2026; Hawthorne divested April 2026. 4-month forward EBITDA revision -2.7% (stabilized); 12-month -9.4%. Data flag: data_comps net_debt $249.3M (0.42x) conflicts with VA consensus FY2026 net debt $1.97B and management's leverage 'below 4x'; treat 0.42x as a data error, though no covenant stress is evident."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 2,
+    "C_numeric_framing": 3,
+    "D_unproven": 0,
+    "total": 7
+  },
+  "disqualified": true,
+  "disqualifier_reason": "Margin target already reflected in consensus: the operative dated frame (50 to 100 bps of gross margin a year, FY2027 to FY2029) is what the street models (consensus +75 bps FY2027, +82 bps FY2028). The only targets above consensus are the legacy FY2027 goals (35%+ gross margin, $700M EBITDA) that the new CEO de-dated on his first call, and an undated 'nearly 40%' long-term gross margin.",
+  "verdict": "Cheap, fresh internal CEO, and a numeric dated margin algorithm, but the algorithm sits exactly on consensus and the new CEO walked back the dated FY2027 and 2030 goals, so there is no gap to close.",
+  "open_questions": [
+    "Will the first FY2027 guide on the Q4 FY2026 call land at the top of the 50 to 100 bps range, given Q3 gross margin fell 100 bps on freight and commodities?",
+    "Is anything left of the $700M EBITDA and 35% gross margin FY2027 goals, or are they formally retired (FY2027 consensus is $613M and 33.4%)?",
+    "What is the real net debt and leverage (data_comps shows 0.42x against VA net debt near $2.0B)?"
+  ],
+  "sources": [
+    {
+      "document_id": 129021,
+      "title": "Investor Day 2026",
+      "date": "2026-08-04"
+    },
+    {
+      "document_id": 110813,
+      "title": "SCOTTS MIRACLE-GRO CO Q3 2026 Earnings Call",
+      "date": "2026-07-29"
+    },
+    {
+      "document_id": 43813,
+      "title": "SCOTTS MIRACLE-GRO CO Q2 2025 Earnings Call",
+      "date": "2025-04-30"
+    },
+    {
+      "document_id": 156237,
+      "title": "SCOTTS MIRACLE-GRO CO Q2 2026 Earnings Call (2030 targets, Hagedorn)",
+      "date": "2026-04-29"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0000825542-26-000032 (CEO succession, Chairman)",
+      "date": "2026-07-01"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0000825542-26-000045 (Chief Strategy Officer departure)",
+      "date": "2026-09-03"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0000825542-26-000047 and 8-K/A 0000825542-26-000054 (director Hanft)",
+      "date": "2026-09-11"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0000825542-25-000005 (director Miller)",
+      "date": "2025-08-05"
+    }
+  ],
+  "tool_calls": 19
+}

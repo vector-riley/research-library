@@ -1,0 +1,46 @@
+{
+  "ticker": "USPH", "cid": 1006357, "name": "U.S. Physical Therapy Inc", "industry": "Health Care Facilities", "as_of": "2026-10-02",
+  "business": "Operates outpatient physical therapy clinics for orthopedic, sports and work injuries, plus onsite injury prevention services for Fortune 500 employers and insurers.",
+  "quant": {"mcap_usd": 1244782000.0, "drawdown": -0.2006, "pctile_ev_ebitda_60m": 0.2167, "price_ltm_pct": 0.0352,
+            "ebitda_margin_ltm": 0.1180, "ebitda_margin_fwd_consensus": 0.1301, "industry_median_margin": 0.179, "ev_ebitda_fy": 12.20,
+            "net_debt_ltm_ebitda": 1.92, "ebitda_revision_12m": 0.0664, "ebitda_brokers": 5},
+  "catalyst": {"type": ["new_cfo", "board_refresh"],
+               "events": [
+                 {"what": "No CEO change. Premise of a 2024 to 2025 Reading to Williams CEO handoff is not supported: Chris Reading has been CEO since 2004 and added Chairman on 2024-05-21; Eric Williams was promoted to President (continuing as COO East) on 2024-05-21, outside the window. Reading still CEO and Chairman on the Q2 2026 call and in the 2026 DEF 14A.", "who": "Christopher J. Reading (CEO), Eric Williams (President and COO East)", "from": null, "effective": "2024-05-21", "source": "8-K 0000885978-24-000033; DEF 14A 0001140361-26-014952 (document_id 223503); document_id 130428", "external_hire": false},
+                 {"what": "CFO Carey Hendrickson resigned to take another public-company CFO role; Jason Curtis (SVP Finance and Accounting) interim CFO", "who": "Carey Hendrickson (departing), Jason Curtis (interim)", "from": "internal", "effective": "2026-04-24", "source": "8-K 0001140361-26-006882", "external_hire": false},
+                 {"what": "New EVP and CFO appointed", "who": "Nchacha Etta", "from": "Omnicell (former EVP and CFO); earlier Essilor of America, J&J Vision", "effective": "2026-09-01", "source": "8-K 0000885978-26-000052", "external_hire": true},
+                 {"what": "New independent director appointed", "who": "Myra Davis", "from": "Texas Children's Hospital (EVP and Chief Information Innovation Officer)", "effective": "2026-10-01", "source": "8-K 0000885978-26-000057", "external_hire": true},
+                 {"what": "Hospital affiliation agreements (NYU Langone via Metro partnership, plus a Gulf Coast system) phasing in during H2 2026; tuck-in acquisitions in 2026 totaling $38 million purchase price (no Item 2.01 8-K)", "who": "NYU Langone; Gulf Coast hospital partner", "from": null, "effective": null, "source": "document_id 140879; document_id 140878 (first Metro clinics began phasing in the week before the 2026-05-07 call); document_id 130428", "external_hire": null}
+               ],
+               "months_since_primary": 1, "ceo_months_in_seat": 263,
+               "next_event": {"type": "none known", "date": null, "source": "No Investor Day or framework event found in Baba corpus or 8-Ks. Next touchpoint is the Q3 2026 earnings call (early November 2026, date not in corpus), the new CFO's first call; 2027 guidance would normally come with the Q4 call (FY2026 guide was given 2026-02-26, document_id 140879)."}},
+  "margin_framing": {"numeric": true, "metric": "adjusted EBITDA margin",
+                     "metric_basis_note": "No margin level or annual bps target. The only dated numeric figure is a dollar EBITDA contribution: at least $7.3 million of USPH adjusted EBITDA (at least $14 million at the partnership level) from the two hospital affiliations in 2027. That is a growth contribution, not a cost saving or a margin target. FY2026 adjusted EBITDA guide $102 million to $106 million. Baba FY labels equal company fiscal years (December FYE).",
+                     "current_level_pct": 11.8, "target_level_pct": null, "target_year": 2027, "has_year": true,
+                     "annual_bps": null, "synergy_usd": 7300000, "synergy_year": 2027,
+                     "statements": [
+                       {"quote": "As discussed in our release, those original clinics will provide an enterprise lift for these two partnerships of at least $14 million in EBITDA in 2027, and a USPH portion after minority interest of over $7 million.", "speaker": "Chris Reading", "role": "CEO and Chairman", "doc_title": "U.S. Physical Therapy Inc Q4 2025 Earnings Call", "date": "2026-02-26", "document_id": 140879},
+                       {"quote": "When fully implemented, which we expect to happen by year-end 2026, these two hospital affiliation agreements are expected to contribute at least $14 million on a combined basis to our PT revenue and income, with a corresponding impact to USPH's adjusted EBITDA of at least $7.3 million, reflecting our ownership interest", "speaker": "Carey Hendrickson", "role": "CFO (departed 2026-04-24)", "doc_title": "U.S. Physical Therapy Inc Q4 2025 Earnings Call", "date": "2026-02-26", "document_id": 140879},
+                       {"quote": "Taking into account the year-to-date 2026 results and the expected increasing benefit of hospital affiliations in the back half of the year, we are reaffirming our full year 2026 adjusted EBITDA guidance of $102 million-$106 million.", "speaker": "Jason Curtis", "role": "Interim CFO", "doc_title": "U.S. Physical Therapy Inc Q2 2026 Earnings Call", "date": "2026-08-06", "document_id": 130428}
+                     ],
+                     "first_stated": "2026-02-26", "times_repeated": 2},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 12.28, "FY2027": 13.01, "FY2028": 13.10},
+             "consensus_margin_at_target_year_pct": 13.01, "gap_bps_vs_target": null, "gap_assumption": "No margin level stated, so no bps gap. The $7.3 million 2027 hospital contribution is 7.0% of FY2026 consensus EBITDA ($104.0 million); FY2027 consensus EBITDA ($118.0 million) is already $14.0 million above FY2026, so the street very likely already carries it. D scored on the no-level rule (4-month revision +2.9%).",
+             "ebitda_uplift_pct_if_target_hit": null, "source": "Baba data_financials consensus (Visible Alpha), data_comps revisions asof 2026-10-01"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-42, -100], "note": "Order [Q1 2026, Q2 2026]. Q1 from VA actuals; Q2 2026 from interim CFO on the call (revenue $214 million, adjusted EBITDA $27.0 million, document_id 130428; not yet in VA actuals). Margin compressed on self-insured medical claims (about $3.2 million swing) and front-loaded hiring for hospital clinics; PT adjusted gross margin 19.9% vs 21.4%. LTM 11.8% is Q3 2025 to Q2 2026."},
+  "score": {"A_underperformance": 1, "B_catalyst": 2, "C_numeric_framing": 2, "D_unproven": 2, "total": 7},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Score flatters the setup: a 22-year CEO, a new external CFO one month in, and a dated $7.3 million hospital EBITDA contribution the street likely already models; weak GXO match.",
+  "open_questions": ["Does new CFO Nchacha Etta (ex Omnicell) bring a margin or cost framework at the Q3 2026 call or with 2027 guidance?", "Is the $7.3 million 2027 hospital EBITDA contribution already inside the $118.0 million FY2027 consensus, and how much more do additional hospital deals add?", "Is the Q1 and Q2 2026 margin compression (medical claims, pre-hiring) transitory, and does WelcomeWare front-desk virtualization show up as a quantified saving?"],
+  "sources": [
+    {"document_id": 140879, "title": "U.S. Physical Therapy Inc Q4 2025 Earnings Call", "date": "2026-02-26"},
+    {"document_id": 140878, "title": "U.S. Physical Therapy Inc Q1 2026 Earnings Call", "date": "2026-05-07"},
+    {"document_id": 130428, "title": "U.S. Physical Therapy Inc Q2 2026 Earnings Call", "date": "2026-08-06"},
+    {"document_id": 223503, "title": "U S Physical Therapy Inc DEF 14A", "date": "2026"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02 query 2024-01-01 to 2026-10-02 (9 filings): 0000885978-26-000057, 0000885978-26-000052, 0000885978-26-000014, 0001140361-26-006882, 0000885978-25-000017, 0001140361-25-010807, 0000885978-24-000059, 0000885978-24-000033, 0000885978-24-000011; Item 1.01/2.01 query returned only the credit agreement 8-K 0000885978-26-000052", "date": "2024-03-07 to 2026-09-21"},
+    {"document_id": 0, "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary consensus (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Stage 1 stage1_ranked.csv (industry median margin 0.179)", "date": "2026-10-02"}
+  ],
+  "tool_calls": 24
+}

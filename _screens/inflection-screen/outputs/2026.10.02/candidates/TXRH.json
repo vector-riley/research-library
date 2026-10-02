@@ -1,0 +1,44 @@
+{
+  "ticker": "TXRH", "cid": 1000137, "name": "Texas Roadhouse, Inc.", "industry": "Restaurants & Bars", "as_of": "2026-10-02",
+  "business": "Operates and franchises Texas Roadhouse, Bubba's 33 and Jaggers casual dining restaurants serving steaks and American food to US and international diners.",
+  "quant": {"mcap_usd": 10329664000.0, "drawdown": -0.2676, "pctile_ev_ebitda_60m": 0.10, "price_ltm_pct": -0.0434,
+            "ebitda_margin_ltm": 0.1156, "ebitda_margin_fwd_consensus": 0.1198, "industry_median_margin": 0.166, "ev_ebitda_fy": 11.86,
+            "net_debt_ltm_ebitda": -0.209, "ebitda_revision_12m": -0.0598, "ebitda_brokers": 21},
+  "catalyst": {"type": ["new_cfo", "board_refresh"],
+               "events": [
+                 {"what": "No CEO change in window. Jerry Morgan named Executive Vice Chairman while continuing as CEO, described as long-term succession planning; Paul Marshall named Chief Growth Officer; Hugh Carroll added to board", "who": "Gerald L. (Jerry) Morgan; Lloyd Paul Marshall; Hugh J. Carroll", "from": null, "effective": "2025-08-14", "source": "8-K 0001104659-25-079036", "external_hire": false},
+                 {"what": "CFO D. Christopher Monroe terminated without cause; Keith Humpich interim CFO", "who": "Keith Humpich (interim)", "from": "D. Christopher Monroe", "effective": "2025-06-09", "source": "8-K 0001104659-25-058022", "external_hire": false},
+                 {"what": "New CFO after national search", "who": "Michael Lenihan (ex CFO and Chief US Development Officer, CKE Restaurants; Yum! Brands)", "from": "Keith Humpich (interim)", "effective": "2025-12-03", "source": "8-K 0001104659-25-117423", "external_hire": true},
+                 {"what": "Board: Kathleen Widmer retired; Elizabeth Ingram (CEO, White Castle) appointed", "who": "Elizabeth K. Ingram", "from": "Kathleen M. Widmer", "effective": "2026-03-05", "source": "8-K 0001104659-26-015177; 8-K 0001104659-26-024099", "external_hire": true}
+               ],
+               "months_since_primary": 10.0, "ceo_months_in_seat": 66.5,
+               "next_event": {"type": "framework update", "date": null, "source": "CFO Mike Lenihan, Q2 2026 call (document_id 130420): initial 2027 commodity inflation outlook on the November 2026 quarterly call; exact date not in Baba. No Investor Day found."}},
+  "margin_framing": {"numeric": false, "metric": "operating margin",
+                     "metric_basis_note": "Company frames restaurant margin (restaurant-level, before G&A and D&A; 16.4% in Q2 2026) and stresses margin dollars per store week over percentages. No multi-year level, annual rate or savings target. Consensus is EBITDA.",
+                     "current_level_pct": 16.4, "target_level_pct": null, "target_year": null, "has_year": false,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "I think there's opportunity on the labor line, as well as on the other op line to continue to get leverage. That leverage could, you know, look fairly similar to what we, you know, saw in the first quarter. ... Certainly, you know, what's more important to us are the margin dollars and the dollars per store week.", "speaker": "Michael Bailen", "role": "VP of Investor Relations", "doc_title": "Texas Roadhouse, Inc. Q1 2026 Earnings Call", "date": "2026-05-07", "document_id": 140816},
+                       {"quote": "Based on our updated forecast, we are reducing our full year 2026 commodity inflation guidance from between 6% and 7% to approximately 5%. We will provide an initial outlook on 2027 commodity inflation during our quarterly call in November.", "speaker": "Mike Lenihan", "role": "CFO", "doc_title": "Texas Roadhouse, Inc. Q2 2026 Earnings Call", "date": "2026-08-06", "document_id": 130420},
+                       {"quote": "Restaurant margin as a percentage of total sales decreased 66 basis points to 16.4% as compared to the same period last year. Food and beverage costs as a percentage of total sales were 35.4% for the second quarter. The 136 basis point year-over-year increase was primarily driven by 7% commodity inflation.", "speaker": "Michael Bailen", "role": "VP of Investor Relations", "doc_title": "Texas Roadhouse, Inc. Q2 2026 Earnings Call", "date": "2026-08-06", "document_id": 130420}
+                     ],
+                     "first_stated": null, "times_repeated": 0},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 11.41, "FY2027": 11.98, "FY2028": 12.70},
+             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": null,
+             "gap_assumption": "No management target, so no gap. December fiscal year (52/53 week), Baba FY labels equal company fiscal years. Street already models about 128 bps of EBITDA margin recovery from FY2026 to FY2028 (11.41% to 12.70%), largely beef deflation.",
+             "ebitda_uplift_pct_if_target_hit": null, "source": "Baba data_financials consensus (Visible Alpha), 2026-10-01"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-24, -66], "note": "Q1 2026 EBITDA margin down 24 bps YoY (VA actuals: 12.44% vs 12.68%; restaurant margin down 36 bps to 16.3%, document_id 140816); Q2 2026 restaurant margin down 66 bps to 16.4% on 7% commodity inflation (document_id 130420). Labor and other op levered; food cost did not. VA has not loaded Q2 2026 EBITDA actual, so LTM (11.56%) runs 2Q25 to 1Q26."},
+  "score": {"A_underperformance": 2, "B_catalyst": 2, "C_numeric_framing": 1, "D_unproven": 2, "total": 7},
+  "disqualified": true, "disqualifier_reason": "Margin is commodity-price driven: the 2025 to 2026 margin squeeze and the street's FY2027 to FY2028 recovery both turn on beef inflation (2026 commodity guide cut from about 7% to about 5%). The below-peer EBITDA margin reflects a company-operated model against a franchise-heavy restaurant peer set, not fixable inefficiency; restaurant margin of about 16% is already high for casual dining. CEO unchanged since 2021; only the CFO is new.",
+  "verdict": "Not the archetype: cheap, with an outside CFO, but no CEO change, no margin target, and margin follows beef prices; the margin-room premise fails.",
+  "open_questions": [
+    "Does the 2025-08-14 succession move (Morgan to Executive Vice Chairman) lead to a named CEO successor in the next 12 months?",
+    "What 2027 commodity inflation outlook does the CFO give on the November 2026 call, and how much FY2027 recovery is already in the 11.98% consensus?",
+    "Does the new CFO from CKE and Yum bring any G&A or margin framework, given G&A dollars grew 15.4% in Q2 2026?"
+  ],
+  "sources": [
+    {"document_id": 130420, "title": "Texas Roadhouse, Inc. Q2 2026 Earnings Call", "date": "2026-08-06"},
+    {"document_id": 140816, "title": "Texas Roadhouse, Inc. Q1 2026 Earnings Call", "date": "2026-05-07"}
+  ],
+  "tool_calls": 14
+}

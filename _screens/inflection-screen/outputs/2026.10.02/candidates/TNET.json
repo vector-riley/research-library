@@ -1,0 +1,46 @@
+{
+  "ticker": "TNET", "cid": 1000315, "name": "TriNet Group Inc", "industry": "Application Software", "as_of": "2026-10-02",
+  "business": "Provides outsourced HR, payroll, benefits, risk management and compliance services, as a PEO taking insurance risk, to US small and medium-size businesses.",
+  "quant": {"mcap_usd": 2983560000.0, "drawdown": -0.516, "pctile_ev_ebitda_60m": 0.2167, "price_ltm_pct": -0.0436,
+            "ebitda_margin_ltm": 0.0906, "ebitda_margin_fwd_consensus": 0.0845, "industry_median_margin": 0.282, "ev_ebitda_fy": 8.32,
+            "net_debt_ltm_ebitda": 1.266, "ebitda_revision_12m": -0.1034, "ebitda_brokers": 5},
+  "catalyst": {"type": ["new_cfo"],
+               "events": [
+                 {"what": "New CEO and President (outside the 18-month window; effective 2024-02-16)", "who": "Michael Q. Simonds (ex EVP and COO, Unum Group)", "from": "Burton M. Goldfield (retired)", "effective": "2024-02-16", "source": "8-K 0000937098-24-000023", "external_hire": true},
+                 {"what": "New CFO and EVP", "who": "Mala Murthy (ex CFO Teladoc Health, ex CFO Global Commercial Services American Express)", "from": "Kelly Tuminelli", "effective": "2025-11-28", "source": "8-K 0000937098-25-000184", "external_hire": true},
+                 {"what": "Item 5.02 8-K filed 2025-09-30 with no structured personnel detail in sec-api; content not verified", "who": null, "from": null, "effective": null, "source": "8-K 0000937098-25-000166", "external_hire": null}
+               ],
+               "months_since_primary": 10.1, "ceo_months_in_seat": 31.5,
+               "next_event": {"type": "none known", "date": null, "source": "No Investor Day or framework update found in Baba; CFO said in Feb 2026 (document_id 141105) that macro will determine performance vs the medium-term scenarios. Next scheduled item is the Q3 2026 earnings call, date not in Baba."}},
+  "margin_framing": {"numeric": true, "metric": "adjusted EBITDA margin",
+                     "metric_basis_note": "Target is adjusted EBITDA margin over total revenues, matching the consensus basis. Stated as 'medium term' with no year in the fetched passages; the 2027 framing in the task brief was not found verbatim. The new CFO hedged the scenarios in Feb 2026.",
+                     "current_level_pct": 9.06, "target_level_pct": 10.0, "target_year": null, "has_year": false,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "Our investments in offering and go-to-market will drive 4%-6% revenue growth. We will achieve 10%-11% margins through strong insurance risk management and expense efficiencies.", "speaker": "Mike Simonds", "role": "CEO", "doc_title": "TriNet Group Inc Q4 2024 Earnings Call", "date": "2025-02-13", "document_id": 41309},
+                       {"quote": "Returning to our medium term strategy, the second feature is achieving our target margin of 10 to 11%.", "speaker": "Mike Simonds", "role": "CEO", "doc_title": "TriNet Group Inc Q2 2025 Earnings Call", "date": "2025-07-25", "document_id": 41307},
+                       {"quote": "Finally, I want to comment briefly on the multiple medium-term financial scenarios that the company provided a year ago. Since then, the SMB macro business environment has shown little improvement. Our CIE remains below normal levels, and medical cost trends remain high. The extent to which this weakness persists will determine how we perform vis-a-vis those financial scenarios.", "speaker": "Mala Murthy", "role": "CFO", "doc_title": "TriNet Group Inc Q4 2025 Earnings Call", "date": "2026-02-12", "document_id": 141105}
+                     ],
+                     "first_stated": "2025-02-13", "times_repeated": 2},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 8.83, "FY2027": 8.45, "FY2028": null},
+             "consensus_margin_at_target_year_pct": 8.45, "gap_bps_vs_target": 155,
+             "gap_assumption": "December fiscal year, Baba FY labels equal company fiscal years. No target year stated, so the low end (10%) of the 10% to 11% medium-term range is compared with FY2027, the last year with EBITDA consensus (FY2028 EBITDA is null in Baba). Midpoint would be about 205 bps.",
+             "ebitda_uplift_pct_if_target_hit": 18.4, "source": "Baba data_financials consensus (Visible Alpha), 2026-10-01"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [263, 240], "note": "Q1 2026 adj EBITDA margin 15.2% vs 12.5% (VA actuals); Q2 2026 10.9% vs 8.5% (8-K 0000937098-26-000048, document_id 144171), but the CFO said about half of the Q2 ICR improvement was a one-time recovery benefit. FY2026 adj EBITDA margin guide raised to 8.5% to 9.0% from 7.5% to 8.7%. Revenue -5% and WSEs -11% in Q2: margin gains come on a shrinking base."},
+  "score": {"A_underperformance": 2, "B_catalyst": 2, "C_numeric_framing": 2, "D_unproven": 2, "total": 8},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Scores well mechanically (cheap, outside CFO, undated 10% to 11% target 155 bps above street, estimates stabilized), but the CEO is 31 months in and the new CFO hedged the target.",
+  "open_questions": [
+    "Does Mala Murthy re-commit to 10% to 11% with a year, or reset the medium-term scenarios, at Q4 2026 results?",
+    "How much of the 2026 margin recovery is one-time insurance recovery versus durable ICR repricing, given WSEs down 11%?",
+    "Margin is driven by health insurance claims trend (ICR); is that a cycle the street is right to discount?"
+  ],
+  "sources": [
+    {"document_id": 41309, "title": "TriNet Group Inc Q4 2024 Earnings Call", "date": "2025-02-13"},
+    {"document_id": 41307, "title": "TriNet Group Inc Q2 2025 Earnings Call", "date": "2025-07-25"},
+    {"document_id": 141105, "title": "TriNet Group Inc Q4 2025 Earnings Call", "date": "2026-02-12"},
+    {"document_id": 112236, "title": "TriNet Group Inc Q2 2026 Earnings Call", "date": "2026-07-30"},
+    {"document_id": 144171, "title": "TriNet Group, Inc. 8-K (Q2 2026 results EX-99.1)", "date": "2026-07-30"}
+  ],
+  "tool_calls": 15
+}

@@ -1,0 +1,44 @@
+{
+  "ticker": "TXT", "cid": 1000263, "name": "Textron Inc", "industry": "Aerospace & Defense", "as_of": "2026-10-02",
+  "business": "Makes business jets and turboprops (Textron Aviation), Bell helicopters and tiltrotors, defense systems, and industrial products for commercial, military and government customers.",
+  "quant": {"mcap_usd": 13505213020.0, "drawdown": -0.2433, "pctile_ev_ebitda_60m": 0.0, "price_ltm_pct": -0.0973,
+            "ebitda_margin_ltm": 0.1244, "ebitda_margin_fwd_consensus": 0.1240, "industry_median_margin": 0.178, "ev_ebitda_fy": 7.76,
+            "net_debt_ltm_ebitda": 1.178, "ebitda_revision_12m": 0.0122, "ebitda_brokers": 10},
+  "catalyst": {"type": ["new_ceo", "board_refresh", "strategy_update"],
+               "events": [
+                 {"what": "New President and CEO; prior CEO becomes Executive Chairman", "who": "Lisa M. Atherton (joined Textron 2007; ex President and CEO of Bell and of Textron Systems)", "from": "Scott C. Donnelly (now Executive Chairman)", "effective": "2026-01-04", "source": "8-K 0001104659-25-101558", "external_hire": false},
+                 {"what": "New EVP and CFO (internal, ex CFO Textron Aviation); effective one month before the 18-month window", "who": "David Rosenberg", "from": "Frank T. Connor (retired)", "effective": "2025-03-01", "source": "8-K 0001552781-24-000573", "external_hire": false},
+                 {"what": "Director elected (EVP and CFO of Otis Worldwide)", "who": "Cristina Mendez", "from": null, "effective": "2026-02-15", "source": "8-K 0000217346-26-000004", "external_hire": true},
+                 {"what": "Announced intent to separate the Industrial segment (Kautex, Textron Specialized Vehicles) by sale or tax-free spin within 12 to 18 months; sale process launched by Q2 2026. Pending; no Item 1.01 or 2.01 8-K filed through 2026-10-02", "who": "Industrial segment", "from": null, "effective": null, "source": "document_id 141108 (Q1 2026 call, 2026-04-30); document_id 107425 (Q2 2026 call, 2026-07-28)", "external_hire": null}
+               ],
+               "months_since_primary": 8.9, "ceo_months_in_seat": 8.9,
+               "next_event": {"type": "framework update", "date": null, "source": "CFO David Rosenberg, Q2 2026 call (document_id 107425): 'I'll probably wait till January to give you guidance on 2027' (Q4 2026 call, January 2027, date not set). Industrial separation targeted within 12 to 18 months of 2026-04-30. No Investor Day found."}},
+  "margin_framing": {"numeric": true, "metric": "operating margin",
+                     "metric_basis_note": "Framing is Textron Aviation segment profit margin (about $150M or about 200 bps over the medium term, via 20% to 25% incremental margins), not a company-level target, and has no year. At company level $150M is about 88 bps of FY2028 consensus revenue. Atherton also said pure-play New Textron would have segment margin 120 bps higher, which is portfolio mix, not improvement. Consensus is company EBITDA.",
+                     "current_level_pct": null, "target_level_pct": null, "target_year": null, "has_year": false,
+                     "annual_bps": null, "synergy_usd": 150000000, "synergy_year": null,
+                     "statements": [
+                       {"quote": "Looking at the overall opportunity set that Lisa just highlighted, it's probably worth about $150 million of incremental profit to us, or about 200 basis points, which would then tie to that 20%-25% incremental margins. Obviously, we're not going to achieve that tomorrow, but with the focus that Lisa highlighted of our engineering resources, our capital investments back into the factory, we believe over the medium term, we're going to get there.", "speaker": "David Rosenberg", "role": "CFO", "doc_title": "TEXTRON INC Q2 2026 Earnings Call", "date": "2026-07-28", "document_id": 107425},
+                       {"quote": "Moving to slide eight, the separation significantly improves the financial profile for Textron. New Textron would have top-line growth 150 basis points higher. Segment profit margin would be 120 basis points higher.", "speaker": "Lisa Atherton", "role": "CEO", "doc_title": "TEXTRON INC Q1 2026 Earnings Call", "date": "2026-04-30", "document_id": 141108},
+                       {"quote": "I think you described 2026 very well, I'll probably wait till January to give you guidance on 2027.", "speaker": "David Rosenberg", "role": "CFO", "doc_title": "TEXTRON INC Q2 2026 Earnings Call", "date": "2026-07-28", "document_id": 107425}
+                     ],
+                     "first_stated": "2026-07-28", "times_repeated": 1},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 12.03, "FY2027": 12.40, "FY2028": 12.60},
+             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": null,
+             "gap_assumption": "No company-level target or year, so no gap computed. Baba FY labels equal company fiscal years (52/53 week year ending near December 31). Street models +57 bps of company EBITDA margin FY2026 to FY2028; the $150M Aviation opportunity equals about 88 bps of FY2028 consensus revenue and about 7.0% of FY2028 consensus EBITDA if fully incremental. Consensus still includes Industrial, which is being sold.",
+             "ebitda_uplift_pct_if_target_hit": 7.0, "source": "Baba data_financials consensus (Visible Alpha), 2026-10-01"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-4, null], "note": "Q1 2026 EBITDA margin flat YoY (-4 bps, VA actuals: 431/3,695 vs 387/3,306). Q2 2026 EBITDA actual not yet loaded in VA; CEO and CFO cited Aviation manufacturing productivity problems and the CFO said margin growth should not show until Q4 2026 (document_id 107425). LTM EBITDA margin 12.44% runs 2Q25 to 1Q26."},
+  "score": {"A_underperformance": 1, "B_catalyst": 2, "C_numeric_framing": 2, "D_unproven": 2, "total": 7},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Partial match: new internal CEO, pending Industrial sale, cheapest in five years, and a CFO-quantified $150M Aviation productivity gap with no year; January 2027 guide is the dating event.",
+  "open_questions": [
+    "Does the January 2027 guidance (Q4 2026 call) put a year on the $150M or 200 bps Aviation productivity recovery, and at company or segment level?",
+    "How do Industrial sale proceeds and the stranded-cost plan change the New Textron EBITDA margin base that consensus will roll to?",
+    "Is the Aviation shortfall internal factory productivity or supplier-driven (UBS asked; answer not read here), which sets how controllable the 200 bps is?"
+  ],
+  "sources": [
+    {"document_id": 107425, "title": "TEXTRON INC Q2 2026 Earnings Call", "date": "2026-07-28"},
+    {"document_id": 141108, "title": "TEXTRON INC Q1 2026 Earnings Call", "date": "2026-04-30"}
+  ],
+  "tool_calls": 14
+}

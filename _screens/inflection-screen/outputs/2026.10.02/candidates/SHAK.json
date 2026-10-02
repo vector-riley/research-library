@@ -1,0 +1,82 @@
+{
+  "ticker": "SHAK",
+  "cid": 1000911,
+  "name": "SHAKE SHACK INC",
+  "industry": "Restaurants & Bars",
+  "as_of": "2026-10-02",
+  "business": "Shake Shack owns, operates and licenses fast-casual burger restaurants selling burgers, chicken, fries, shakes and custard to consumers in the US and abroad.",
+  "quant": {
+    "mcap_usd": 2666116050.0,
+    "drawdown": -0.5868,
+    "pctile_ev_ebitda_60m": 0.05,
+    "price_ltm_pct": -0.3731,
+    "ebitda_margin_ltm": 0.1382,
+    "ebitda_margin_fwd_consensus": 0.1373,
+    "industry_median_margin": 0.166,
+    "ev_ebitda_fy": 10.07,
+    "net_debt_ltm_ebitda": -0.27,
+    "ebitda_revision_12m": -0.0943,
+    "ebitda_brokers": 19
+  },
+  "catalyst": {
+    "type": ["new_cfo", "board_refresh"],
+    "events": [
+      {"what": "New CFO succeeding Katherine Fogertey (resignation announced 2025-11-25, interim PFO Peter Herpich from 2026-02-23)", "who": "Michelle Hook", "from": "CFO of Portillo's Inc. since December 2020; ex VP Finance (global FP&A and IR) at Domino's Pizza", "effective": "2026-05-11", "source": "8-K 0001104659-26-056664; departure 8-K 0001104659-25-115689", "external_hire": true},
+      {"what": "New Class II director; board expands from eight to nine", "who": "Christiane Pendarvis", "from": "Co-CEO of PATTERN Beauty; ex Co-President Savage X Fenty", "effective": "2026-07-02", "source": "8-K 0001104659-26-073466", "external_hire": true},
+      {"what": "Director Joshua Silverman resigns; board shrinks from nine to eight", "who": "Joshua Silverman", "from": "", "effective": "2026-05-01", "source": "8-K 0001104659-26-025312", "external_hire": null},
+      {"what": "CEO appointment, outside the 18-month window (context only)", "who": "Robert Lynch", "from": "President and CEO of Papa John's; ex President of Arby's", "effective": "2024-05-20", "source": "8-K 0001104659-24-037341", "external_hire": true}
+    ],
+    "months_since_primary": 4.7,
+    "ceo_months_in_seat": 28.4,
+    "next_event": {"type": "framework update", "date": null, "source": "Michelle Hook, CFO, SHAKE SHACK INC Q2 2026 Earnings Call, 2026-08-05, document_id 129730: the 2025 to 2027 targets are under review and any update will come with the 2027 planning process (no date given). No investor day found in Baba (lexical 'investor day' search, cid 1000911)."}
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "Two frames on different metrics. (1) Three-year target for fiscal 2025 to 2027: restaurant-level profit (RLP) margin expansion of at least 50 bps a year (an RLP rate on Shack sales, with a horizon), plus adjusted EBITDA growth of low to high teens; stated by then CFO Fogertey, last reaffirmed 2026-02-26 by the VP FP&A, dropped from the Q2 2026 release and put 'under review' by the new CFO on 2026-08-05. (2) Live one-year guide (Q2 2026 shareholder letter): fiscal 2026 RLP margin 22.0% to 23.0%, adjusted EBITDA $225M to $235M on revenue $1.6B to $1.7B. The gap uses (2), an adjusted EBITDA margin, against VA EBITDA consensus (VA FY2025 EBITDA of $209.9M matches the company's adjusted EBITDA basis).",
+    "current_level_pct": 13.82,
+    "target_level_pct": 13.94,
+    "target_year": 2026,
+    "has_year": true,
+    "annual_bps": 50,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {"quote": "We're, you know, aiming to grow total revenue by a low teens %, expand our restaurant margins by 50 basis points a year, and grow our adjusted EBITDA anywhere between low teens-high teens %.", "speaker": "Katie Fogertey", "role": "CFO (former)", "doc_title": "Baird Global Consumer, Technology & Services Conference 2025", "date": "2025-06-05", "document_id": 65731},
+      {"quote": "We remain confident in continuing to achieve our three-year targets for fiscal 2025-2027 of total revenue growth in the low teens, system-wide unit growth in the low teens, Restaurant-level profit margin expansion of at least 50 basis points per year, and Adjusted EBITDA growth in the low to high teens range.", "speaker": "Kerry Britton", "role": "VP of Financial Planning and Analysis", "doc_title": "SHAKE SHACK INC Q4 2025 Earnings Call", "date": "2026-02-26", "document_id": 156102},
+      {"quote": "We're continuing to review those long-term targets. As you know, that guidance has been out there for the time period of 2025 to 2027. As we go into our planning process for 2027, we're going to look at those targets, and any updates that we have, we'll provide those to you.", "speaker": "Michelle Hook", "role": "CFO", "doc_title": "SHAKE SHACK INC Q2 2026 Earnings Call", "date": "2026-08-05", "document_id": 129730},
+      {"quote": "Adjusted EBITDA increased 3.9% year-over-year to $61.2m, or 14.7% of Total revenue – 180 bps lower than last year.", "speaker": "Company (Q2 2026 shareholder letter)", "role": "8-K EX-99.2", "doc_title": "Shake Shack Inc. 8-K (0001620533-26-000033)", "date": "2026-08-05", "document_id": 143992}
+    ],
+    "first_stated": "2025-06-05",
+    "times_repeated": 2
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {"FY2026": 13.45, "FY2027": 13.73, "FY2028": 13.90},
+    "consensus_margin_at_target_year_pct": 13.45,
+    "gap_bps_vs_target": 48.6,
+    "gap_assumption": "December fiscal year, so VA labels equal company fiscal years. Gap compares the FY2026 guide midpoint ($230M adjusted EBITDA on $1.65B revenue = 13.94%) with VA FY2026 consensus (221.8M / 1,648.3M = 13.45%); consensus EBITDA sits below the low end of the $225M to $235M guide. The stale three-year RLP target (+50 bps a year through 2027) has no matching RLP consensus line in Baba and is under review, so it is not used for the gap. The street models only about 28 bps and 17 bps of EBITDA margin expansion in FY2027 and FY2028.",
+    "ebitda_uplift_pct_if_target_hit": 3.7,
+    "source": "Baba data_financials summary consensus (Visible Alpha) cid 1000911; guide from 8-K EX-99.2 document_id 143992; margins and gap via data_compute"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [-262, -180],
+    "note": "Q1 2026: VA EBITDA 37.0M on 366.7M revenue (10.08%) vs Q1 2025 12.70%, -262 bps (includes $1.1M executive transition cost). Q2 2026: adjusted EBITDA margin 14.7%, -180 bps yoy, per 8-K EX-99.2 (document_id 143992); RLP margin 23.0% vs 23.9% in Q2 and 22.2% vs 22.4% for 26 weeks (same table). Beef inflation is the main stated driver. VA has not loaded Q2 2026. LTM 13.82% uses VA 2Q25 to 1Q26. The 2026 RLP guide of 22.0% to 23.0% means the 50 bps a year target is not being met in year two."
+  },
+  "score": {"A_underperformance": 2, "B_catalyst": 2, "C_numeric_framing": 2, "D_unproven": 1, "total": 7},
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Cheap and broken (down 59%, 5th pctile) with a new external CFO, but the numeric margin frame is moving the wrong way: the 50 bps a year RLP target is under review after beef-driven margin declines, and the CEO is 28 months in.",
+  "open_questions": [
+    "Does the 2027 planning update (date not given) cut or replace the 50 bps a year RLP target, and where does a new frame land versus the 13.73% FY2027 consensus EBITDA margin?",
+    "How much of the 2026 margin decline is beef (a commodity input) versus G&A and marketing investment (Project Catalyst, loyalty, 2% to 3% of revenue on marketing)?",
+    "Does Hook, a Portillo's and Domino's finance veteran, bring a G&A or unit-cost program with a number attached?"
+  ],
+  "sources": [
+    {"document_id": 65731, "title": "Baird Global Consumer, Technology & Services Conference 2025", "date": "2025-06-05"},
+    {"document_id": 156102, "title": "SHAKE SHACK INC Q4 2025 Earnings Call", "date": "2026-02-26"},
+    {"document_id": 156101, "title": "SHAKE SHACK INC Q1 2026 Earnings Call", "date": "2026-05-07"},
+    {"document_id": 129730, "title": "SHAKE SHACK INC Q2 2026 Earnings Call", "date": "2026-08-05"},
+    {"document_id": 143992, "title": "Shake Shack Inc. 8-K Q2 2026 shareholder letter (EX-99.2)", "date": "2026-08-05"}
+  ],
+  "tool_calls": 21
+}

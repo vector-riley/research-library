@@ -1,0 +1,47 @@
+{
+  "ticker": "VC", "cid": 1000975, "name": "Visteon Corp", "industry": "Auto Parts", "as_of": "2026-10-02",
+  "business": "Designs and manufactures cockpit electronics (digital clusters, displays, infotainment, domain controllers, battery management) for global automakers.",
+  "quant": {"mcap_usd": 2403392000.0, "drawdown": -0.3645, "pctile_ev_ebitda_60m": 0.0167, "price_ltm_pct": -0.2670,
+            "ebitda_margin_ltm": 0.1188, "ebitda_margin_fwd_consensus": 0.1251, "industry_median_margin": 0.126, "ev_ebitda_fy": 3.99,
+            "net_debt_ltm_ebitda": -0.73, "ebitda_revision_12m": -0.0296, "ebitda_brokers": 7},
+  "catalyst": {"type": ["strategy_update", "board_refresh"],
+               "events": [
+                 {"what": "No CEO or CFO change in window. Own 8-K Item 5.02 query (2024-07-01 to 2026-10-02) shows only two director elections and 2025 pay amendments. Sachin Lawande CEO since 2015-06-29 (contract extended to 2030-09-30); Jerome Rouquet CFO since 2020-03-01. No 'first earnings call' or 'since joining' language in 2026 calls.", "who": "Sachin Lawande (CEO), Jerome Rouquet (CFO) unchanged", "from": null, "effective": null, "source": "8-K 0001111335-25-000005; DEF 14A 0001111335-26-000021 (document_id 40073)", "external_hire": null},
+                 {"what": "Investor Day: 2029 framework (high single-digit sales growth, 14.1% EBITDA margin by 2029, about $1 billion cumulative FCF 2026 to 2029, about $1 billion returned, new $800 million buyback authorization)", "who": "Lawande, Rouquet", "from": null, "effective": "2026-06-25", "source": "document_id 48340", "external_hire": null},
+                 {"what": "Director elected", "who": "Marjorie T. Sennett", "from": null, "effective": "2025-07-17", "source": "8-K 0001111335-25-000127", "external_hire": true},
+                 {"what": "Director elected (Technology Committee)", "who": "Gary D. Hicok", "from": null, "effective": "2026-07-01", "source": "8-K 0001111335-26-000036", "external_hire": true},
+                 {"what": "$200 million accelerated share repurchase announced; $20 million engineering services tuck-in closed in June 2026 (no Item 1.01/2.01 8-K in window)", "who": null, "from": null, "effective": "2026-07-23", "source": "document_id 81949", "external_hire": null}
+               ],
+               "months_since_primary": 3, "ceo_months_in_seat": 135,
+               "next_event": {"type": "none known", "date": null, "source": "Investor Day already held 2026-06-25 (document_id 48340); no further framework event found. Next touchpoint is the Q3 2026 earnings call (date not in corpus) and 2027 guidance with Q4."}},
+  "margin_framing": {"numeric": true, "metric": "adjusted EBITDA margin",
+                     "metric_basis_note": "Same metric for target and consensus (adjusted EBITDA). 2026 guide $455 million to $495 million, about 12.8% at midpoint. CFO flagged about 100 bps of memory-inflation headwind in 2027 before expansion in 2028 and 2029. Baba FY labels equal company fiscal years (December FYE).",
+                     "current_level_pct": 11.9, "target_level_pct": 14.1, "target_year": 2029, "has_year": true,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "Turning now to profitability. We're targeting an EBITDA margin of 14.1% by 2029, with steady expansion over the period.", "speaker": "Jerome Rouquet", "role": "SVP and CFO", "doc_title": "Visteon Investor Day 2026", "date": "2026-06-25", "document_id": 48340},
+                       {"quote": "From a phasing standpoint, 2027 includes an incremental headwind from memory inflation of approximately 100 basis points of margin. This is compounded by the rollout of legacy recoveries and the non-recurrence of certain 2026 one-time items. Margin expands more meaningfully in 2028 and 2029, supported by volume growth, easing inflation, and operational efficiencies.", "speaker": "Jerome Rouquet", "role": "SVP and CFO", "doc_title": "Visteon Investor Day 2026", "date": "2026-06-25", "document_id": 48340},
+                       {"quote": "We're targeting high single-digit sales growth, continued margin expansion to over 14%, and cumulative free cash flow generation of approximately $1 billion over the period.", "speaker": "Jerome Rouquet", "role": "SVP and CFO", "doc_title": "Visteon Investor Day 2026", "date": "2026-06-25", "document_id": 48340},
+                       {"quote": "With regards to adjusted EBITDA, we continue to expect between $455 million and $495 million and are trending towards the midpoint of the range of approximately $475 million.", "speaker": "Jerome Rouquet", "role": "SVP and CFO", "doc_title": "VISTEON CORP Q2 2026 Earnings Call", "date": "2026-07-23", "document_id": 81949}
+                     ],
+                     "first_stated": "2026-06-25", "times_repeated": 1},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 12.46, "FY2027": 12.51, "FY2028": 13.25},
+             "consensus_margin_at_target_year_pct": 13.96, "gap_bps_vs_target": 14, "gap_assumption": "Same metric (adjusted EBITDA). FY2029 consensus $650.2 million EBITDA on $4,658 million revenue = 13.96% vs 14.1% target. The street already models the Investor Day path, including a flat 2027.",
+             "ebitda_uplift_pct_if_target_hit": 0.010, "source": "Baba data_financials consensus (Visible Alpha), data_comps revisions asof 2026-10-01"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-291, -175], "note": "Order [Q1 2026, Q2 2026]. Q1 from VA actuals; Q2 2026 from CFO on call (sales $960 million, adjusted EBITDA $116 million, document_id 81949), not yet in VA actuals. Compression from memory and semiconductor cost inflation with recoveries lagging; Q2 was best margin since Q3 2025. LTM 11.9% is Q3 2025 to Q2 2026."},
+  "score": {"A_underperformance": 2, "B_catalyst": 1, "C_numeric_framing": 3, "D_unproven": 0, "total": 6},
+  "disqualified": true, "disqualifier_reason": "Margin target already reflected in consensus: FY2029 consensus EBITDA margin 13.96% vs management's 14.1% target (14 bps gap, 1.0% EBITDA uplift). Also no leadership change: CEO since 2015, CFO since 2020; the only in-window catalyst is the June 2026 Investor Day by the same team.",
+  "verdict": "Not the archetype: very cheap at about 4x EBITDA and down 36%, with a dated 14.1% 2029 margin target, but the street already models it and leadership is unchanged.",
+  "open_questions": ["Can Visteon recover memory cost inflation fast enough that 2027 is not the flat year consensus (12.51%) assumes?", "Does the $1 billion 2026 to 2029 capital return, about 40% of the market cap, matter more than the margin path?", "Is customer concentration (Ford 26% of 2025 sales) a structural cap on margin?"],
+  "sources": [
+    {"document_id": 48340, "title": "Visteon Investor Day 2026", "date": "2026-06-25"},
+    {"document_id": 44359, "title": "VISTEON CORP Q1 2026 Earnings Call", "date": "2026-04-23"},
+    {"document_id": 81949, "title": "VISTEON CORP Q2 2026 Earnings Call", "date": "2026-07-23"},
+    {"document_id": 40073, "title": "VISTEON CORP DEF 14A", "date": "2026-04-28"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02 query 2024-07-01 to 2026-10-02 (3 filings, none CEO/CFO): 0001111335-26-000036, 0001111335-25-000127, 0001111335-25-000005; Item 1.01/2.01 query returned none", "date": "2025-02-18 to 2026-06-17"},
+    {"document_id": 0, "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary consensus (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Stage 1 stage1_ranked.csv (industry median margin 0.126)", "date": "2026-10-02"}
+  ],
+  "tool_calls": 21
+}

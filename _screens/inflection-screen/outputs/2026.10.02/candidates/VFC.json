@@ -1,0 +1,47 @@
+{
+  "ticker": "VFC", "cid": 1003850, "name": "VF Corp", "industry": "Clothing and Accessories", "as_of": "2026-10-02",
+  "business": "Owns and sells outdoor, active and workwear apparel and footwear brands (The North Face, Vans, Timberland) through wholesale and direct-to-consumer channels.",
+  "quant": {"mcap_usd": 5650261870.0, "drawdown": -0.4604, "pctile_ev_ebitda_60m": 0.05, "price_ltm_pct": -0.0035,
+            "ebitda_margin_ltm": 0.1001, "ebitda_margin_fwd_consensus": 0.1057, "industry_median_margin": 0.136, "ev_ebitda_fy": 8.46,
+            "net_debt_ltm_ebitda": 2.94, "ebitda_revision_12m": 0.0992, "ebitda_brokers": 14},
+  "catalyst": {"type": ["new_cfo", "strategy_update"],
+               "events": [
+                 {"what": "New EVP and CFO, combined with existing COO role; Paul Vogel steps down to an advisory role. Missed by the Stage 2 sweep.", "who": "Abhishek Dalmia", "from": "internal (joined VF March 2024 as Chief Strategy, Transformation and Digital Officer; ex BCG, lululemon)", "effective": "2026-08-01", "source": "8-K 0000103379-26-000113", "external_hire": false},
+                 {"what": "Appointed EVP and Chief Operating Officer", "who": "Abhishek Dalmia", "from": "internal", "effective": "2025-04-03", "source": "8-K 0000103379-25-000017", "external_hire": false},
+                 {"what": "Chief Commercial Officer change: Brent Hyder (President, Americas) becomes CCO; Martino Scabbia Guerrini moves to senior advisor", "who": "Brent Hyder", "from": "internal", "effective": "2026-01-28", "source": "8-K 0000103379-26-000013", "external_hire": false},
+                 {"what": "Outside the window: CEO Bracken Darrell effective 2023-07-17; CFO Paul Vogel (ex Spotify) effective 2024-07-08; October 2024 Investor Day set the fiscal 2028 at least 10% operating margin target.", "who": "Bracken Darrell; Paul Vogel", "from": "Logitech; Spotify", "effective": "2023-07-17", "source": "DEF 14A 0001193125-26-270610 (document_id 40080); 8-K 0001193125-24-144961; document_id 49030", "external_hire": true},
+                 {"what": "Target restated in window: the fiscal 2028 10% operating margin became an exit run rate, which the CEO says means 10% or better for full fiscal 2029", "who": "Bracken Darrell", "from": null, "effective": "2026-05-20", "source": "document_id 49020", "external_hire": null}
+               ],
+               "months_since_primary": 2, "ceo_months_in_seat": 38,
+               "next_event": {"type": "none known", "date": null, "source": "No new Investor Day found in Baba corpus or 8-Ks. Next touchpoint is the Q2 fiscal 2027 earnings call (late October 2026, date not in corpus), Dalmia's first as CFO."}},
+  "margin_framing": {"numeric": true, "metric": "operating margin",
+                     "metric_basis_note": "Target is adjusted operating margin: at least 10% exit run rate in fiscal 2028, restated as 10% or better for full fiscal 2029. Gap computed against VA consensus operating income / revenue (VA FY2026 operating margin 6.99% matches the company's stated 7% for fiscal 2026, so the basis aligns). VF names fiscal years by end year (fiscal 2029 ends about March 2029), so Baba FY labels equal VF fiscal years. Fiscal 2027 guide about 8% operating margin.",
+                     "current_level_pct": 7.0, "target_level_pct": 10.0, "target_year": 2029, "has_year": true,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "That's part of our approach to delivering our medium term operating margin target in fiscal year 2028 of at least 10% before any growth. So far so good. Everything's on track.", "speaker": "Bracken Darrell", "role": "CEO", "doc_title": "VF Corp Q3 2025 Earnings Call", "date": "2025-01-29", "document_id": 49030},
+                       {"quote": "You can kind of count on as an exit rate fiscal year, as we exit fiscal year 2028, we've got a 10% operating margin run rate. The other way we could've said it, maybe we should have said it, is full fiscal 2029, you can count on 10% or better.", "speaker": "Bracken Darrell", "role": "President and CEO", "doc_title": "VF Corp Q4 2026 Earnings Call", "date": "2026-05-20", "document_id": 49020},
+                       {"quote": "First, an operating margin exit run rate of at least 10% in fiscal 2028. As we clarified on our last call, it really means that we'll be 10% or better for full year 2029. Second, a leverage ratio of 2.5x or better by fiscal 2028.", "speaker": "Abhishek Dalmia", "role": "COO, CFO-designate (CFO from 2026-08-01)", "doc_title": "VF Corp Q1 2027 Earnings Call", "date": "2026-07-29", "document_id": 110833},
+                       {"quote": "Second, we continue to expect our operating margin to be approximately 8% for the full year.", "speaker": "Abhishek Dalmia", "role": "COO, CFO-designate", "doc_title": "VF Corp Q1 2027 Earnings Call", "date": "2026-07-29", "document_id": 110833}
+                     ],
+                     "first_stated": "2025-01-29", "times_repeated": 6},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 10.01, "FY2027": 10.57, "FY2028": 11.23},
+             "consensus_margin_at_target_year_pct": 9.26, "gap_bps_vs_target": 74, "gap_assumption": "Operating margin target vs VA consensus operating margin (operating income / revenue) for FY2029: $940.3 million / $10,159 million = 9.26%. EBITDA margins shown are context only. Uplift = incremental operating income at 10% ($75.6 million) over FY2029 consensus EBITDA ($1,145.4 million). first_stated is the earliest fetched statement (2025-01-29); management says the target originated at the October 2024 Investor Day (exact date not verified). Repeats counted: Vogel Q3 and Q4 fiscal 2026, Dalmia Q4 fiscal 2026 and Q1 fiscal 2027, Darrell Q4 fiscal 2026 (twice).",
+             "ebitda_uplift_pct_if_target_hit": 0.066, "source": "Baba data_financials consensus (Visible Alpha, summary and fundamentals), data_comps revisions asof 2026-10-01"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [169, -213], "note": "Adjusted operating margin YoY, order [Q4 fiscal 2026, Q1 fiscal 2027]. Q4 from VA actuals. Q1 fiscal 2027 (reported 2026-07-29) adjusted operating loss $95 million vs $59.8 million, revenue approximately flat at about $1.7 billion per CFO (document_id 110833), so the -213 bps uses flat revenue and is approximate; Q1 is seasonally a loss quarter and SG&A was deliberately front-loaded. Fiscal 2026 operating margin 7.0%, up 220 bps over fiscal 2024. LTM EBITDA margin 10.0% is fiscal 2026 (last four VA actual quarters)."},
+  "score": {"A_underperformance": 2, "B_catalyst": 2, "C_numeric_framing": 3, "D_unproven": 1, "total": 8},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Partial match despite 8/10: cheap, down 46%, dated 10% fiscal 2029 margin target 74 bps above consensus, but CEO is 38 months in, CFO swap internal, target already slipped once.",
+  "open_questions": ["Does Dalmia, now CFO and COO, hold the 10% full fiscal 2029 target or soften it again at the Q2 fiscal 2027 call, given Q1 margin went backwards on front-loaded SG&A?", "Can Vans (down 9% in Q1 fiscal 2027) turn by the second half as guided, or does the 10% depend on it?", "With 12-month EBITDA revisions already +9.9%, how much of the setup has the street already re-rated?"],
+  "sources": [
+    {"document_id": 49030, "title": "VF Corp Q3 2025 Earnings Call", "date": "2025-01-29"},
+    {"document_id": 49020, "title": "VF Corp Q4 2026 Earnings Call", "date": "2026-05-20"},
+    {"document_id": 110833, "title": "VF Corp Q1 2027 Earnings Call", "date": "2026-07-29"},
+    {"document_id": 40080, "title": "V F CORP DEF 14A", "date": "2026"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02 query 2024-01-01 to 2026-10-02 (10 filings): 0000103379-26-000113, 0000103379-26-000013, 0000103379-25-000026, 0000103379-25-000017, 0000103379-25-000014, 0001193125-24-183768, 0001193125-24-153036, 0001193125-24-144961, 0001193125-24-034764, 0001193125-24-025375; Item 1.01/2.01 query returned none", "date": "2024-02-06 to 2026-07-29"},
+    {"document_id": 0, "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary and fundamentals consensus (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Stage 1 stage1_ranked.csv (industry median margin 0.136)", "date": "2026-10-02"}
+  ],
+  "tool_calls": 22
+}

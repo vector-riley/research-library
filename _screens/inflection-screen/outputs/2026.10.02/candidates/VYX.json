@@ -1,0 +1,46 @@
+{
+  "ticker": "VYX", "cid": 1000797, "name": "NCR Voyix Corp.", "industry": "Application Software", "as_of": "2026-10-02",
+  "business": "Sells point-of-sale, self-checkout and commerce platform software, payments and services to retailers and restaurants worldwide.",
+  "quant": {"mcap_usd": 1028736000.0, "drawdown": -0.6009, "pctile_ev_ebitda_60m": 0.0333, "price_ltm_pct": -0.4550,
+            "ebitda_margin_ltm": 0.1702, "ebitda_margin_fwd_consensus": 0.2130, "industry_median_margin": 0.282, "ev_ebitda_fy": 4.08,
+            "net_debt_ltm_ebitda": 2.05, "ebitda_revision_12m": -0.0954, "ebitda_brokers": 5},
+  "catalyst": {"type": ["strategy_update"],
+               "events": [
+                 {"what": "CEO change: David Wilkinson terminated without cause; Executive Chair James G. Kelly appointed President and CEO. Effective 2 months BEFORE the 2025-04-01 window start, so it does not count. Task premise that Wilkinson is still CEO is wrong.", "who": "James G. Kelly", "from": "Executive Chair of NCR Voyix board since 2023-10-16; ex CEO EVO Payments, ex President/COO and CFO Global Payments", "effective": "2025-02-04", "source": "8-K 0001193125-25-020393", "external_hire": false},
+                 {"what": "No CFO change in window. Brian Webb-Walsh has been EVP and CFO since the Atleos spin (2023-10-16); task premise of a 2024 to 2025 CFO change is wrong. Only finance change in window is Chief Accounting Officer (Radesca out, James Wise in, internal).", "who": "James Wise (CAO)", "from": "VP Assistant Controller, NCR Voyix", "effective": "2025-09-12", "source": "8-K 0000070866-25-000080; CFO appointment in 8-K 0001193125-23-257806", "external_hire": false},
+                 {"what": "Board add: Jeffrey S. Sloan (ex CEO Global Payments) as independent director, also before window", "who": "Jeffrey S. Sloan", "from": "Global Payments", "effective": "2025-03-03", "source": "8-K 0000070866-25-000007", "external_hire": true},
+                 {"what": "Hardware ODM transition to Ennoconn implemented (hardware sold as agent, net commission revenue); announced 2024-08-06, implementation began 2026-01-08, completed about 2026-04-01. Business-model change in window, but not a leadership catalyst. Digital Banking sale closed 2024-09-30 (outside window). No Item 1.01/2.01 8-K filed 2024-07-01 to 2026-10-02.", "who": "Ennoconn Corporation", "from": null, "effective": "2026-04-01", "source": "Baba data_profile 10-K description; document_id 55579 (CFO, Q4 2025 call)", "external_hire": null}
+               ],
+               "months_since_primary": 20, "ceo_months_in_seat": 20,
+               "next_event": {"type": "none known", "date": null, "source": "No investor day or capital markets day found in 2025/2026 corpus (last Investor Day 2023-09-05, doc 94946). CFO said new site metrics start in 2027 (doc 129762), a KPI change not a margin framework. Next routine event is the Q3 2026 earnings call, date not in corpus."}},
+  "margin_framing": {"numeric": true, "metric": "adjusted EBITDA margin",
+                     "metric_basis_note": "Only live numeric framing is the one-year FY2026 guide: adjusted EBITDA $440M to $455M and about 3.5 to 4 points of margin improvement (Feb 2026), of which 250 to 300 bps is mechanical from the ODM net revenue change; guide cut in May 2026 to $432M to $447M on revenue $2.188B to $2.303B (midpoint margin about 19.6%). The 2027 targets (400 to 500 bps margin expansion, 40% to 45% FCF conversion) come from the September 2023 Investor Day for a perimeter that still included Digital Banking and hardware revenue; they have not been restated by the Kelly team in the 2025/2026 corpus, so they are treated as stale. Company adjusted EBITDA runs a few $M above the Visible Alpha EBITDA line.",
+                     "current_level_pct": 17.0, "target_level_pct": 19.6, "target_year": 2026, "has_year": true,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "The range of 440-455, it's about a 3.5-4 point margin improvement over last year. Some of that, about 250-300 basis points of that is from the shift to the ODM model, April 1st. Then the rest of it is margin improvement as we deliver cost actions that we've already taken and new actions as we go through the year.", "speaker": "Brian Webb-Walsh", "role": "CFO", "doc_title": "NCR Voyix Corp. Q4 2025 Earnings Call", "date": "2026-02-26", "document_id": 55579},
+                       {"quote": "Turning to our full year 2026 outlook. We are maintaining the guidance we provided in May and expect revenue to be between $2.188 billion and $2.303 billion, and adjusted EBITDA to be between $432 million and $447 million, with adjusted EPS between $0.89 and $0.92.", "speaker": "Brian Webb-Walsh", "role": "CFO", "doc_title": "NCR Voyix Corp. Q2 2026 Earnings Call", "date": "2026-08-05", "document_id": 129762},
+                       {"quote": "Adjusted EBITDA margin expanded 460 basis points to 18.7%, reflective of the hardware transition, revenue growth, and efficiency actions. Excluding the hardware impact, adjusted EBITDA margin expanded 80 basis points.", "speaker": "Brian Webb-Walsh", "role": "CFO", "doc_title": "NCR Voyix Corp. Q2 2026 Earnings Call", "date": "2026-08-05", "document_id": 129762},
+                       {"quote": "Then from an EBITDA perspective, we're going to improve margin 400-500 basis points. It's coming from mix shift and cost takeout, and we expect we can get margin improvement in all the segments.", "speaker": "Brian Webb-Walsh", "role": "CFO (2023 Investor Day, pre Digital Banking sale, stale)", "doc_title": "Voyix Investor Day 2023", "date": "2023-09-05", "document_id": 94946}
+                     ],
+                     "first_stated": "2026-02-26", "times_repeated": 2},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 18.97, "FY2027": 21.30, "FY2028": 21.12},
+             "consensus_margin_at_target_year_pct": 18.97, "gap_bps_vs_target": 60, "gap_assumption": "FY2026 guide midpoint (EBITDA $439.5M on revenue $2,245.5M = 19.57%) minus VA consensus FY2026 (421.5/2,221.7 = 18.97%). December FYE, so Baba labels equal company fiscal years. Consensus EBITDA $421.5M sits below the $432M low end of the cut guide, partly definitional (VA EBITDA a few $M below company adjusted EBITDA) and partly skepticism after the May cut. No multi-year target to compare with FY2027/FY2028.",
+             "ebitda_uplift_pct_if_target_hit": 4.3, "source": "Baba data_financials consensus (Visible Alpha, fetched 2026-10-01)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [88, 460], "note": "Order [Q1 2026, Q2 2026]. Q1 from VA actuals (78/606 vs 74/617). Q2 is the CFO's reported +460 bps to 18.7%, but only +80 bps excluding the hardware ODM accounting change (doc 129762); restaurant margin ex hardware fell 380 bps. LTM 17.0% = VA Q3'25 to Q1'26 plus company Q2'26 ($98M on $523M), mixing pre and post ODM revenue bases."},
+  "score": {"A_underperformance": 2, "B_catalyst": 1, "C_numeric_framing": 2, "D_unproven": 1, "total": 6},
+  "disqualified": true, "disqualifier_reason": "Primary catalyst is stale: the CEO change (Kelly replacing Wilkinson) was effective 2025-02-04, about 20 months ago and outside the 18-month window; CFO Webb-Walsh unchanged since 2023; no acquisition 8-K; no investor day or other pending leadership change found. The ODM hardware transition in window is an accounting/model change that lifts reported margin mechanically, not a new margin story.",
+  "verdict": "Not a live GXO setup: very cheap with stabilized estimates, but the CEO change is 20 months old, the CFO is unchanged, and margin framing is a single cut one-year guide.",
+  "open_questions": ["Will Kelly reset long-term targets (the 2023 Investor Day 2027 framework is stale) at the Q4 2026 call or a 2027 investor event?", "Does VCP and Aloha Next deployment in H2 2026 turn restaurant margin (ex hardware down 380 bps in Q2 2026) back up?", "Why does consensus FY2026 EBITDA ($421M) sit below the cut guide low end ($432M): definition or disbelief?"],
+  "sources": [
+    {"document_id": 55579, "title": "NCR Voyix Corp. Q4 2025 Earnings Call", "date": "2026-02-26"},
+    {"document_id": 129762, "title": "NCR Voyix Corp. Q2 2026 Earnings Call", "date": "2026-08-05"},
+    {"document_id": 94946, "title": "Voyix Investor Day 2023", "date": "2023-09-05"},
+    {"document_id": 55594, "title": "NCR Voyix Corp. Q2 2024 Earnings Call", "date": "2024-08-06"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0001193125-25-020393 (CEO), 0000070866-25-000080 (CAO), 0000070866-25-000007 (board), 0001193125-23-257806 (CFO appointment 2023); Item 1.01/2.01 query 2024-07-01 to 2026-10-02 returned none", "date": "2023-10-17 to 2026-06-08"},
+    {"document_id": 0, "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary consensus (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Stage 1 stage1_ranked.csv (industry median margin 0.282)", "date": "2026-10-02"}
+  ],
+  "tool_calls": 23
+}

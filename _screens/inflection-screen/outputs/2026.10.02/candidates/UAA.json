@@ -1,0 +1,196 @@
+{
+  "ticker": "UAA",
+  "cid": 1005345,
+  "name": "Under Armour Inc",
+  "industry": "Clothing and Accessories",
+  "as_of": "2026-10-02",
+  "business": "Under Armour designs and sells performance apparel, footwear and accessories to athletes through wholesale partners, its own stores and e-commerce.",
+  "quant": {
+    "mcap_usd": 2004187680.0,
+    "drawdown": -0.5993,
+    "pctile_ev_ebitda_60m": 0.4,
+    "price_ltm_pct": -0.1062,
+    "ebitda_margin_ltm": 0.0488,
+    "ebitda_margin_fwd_consensus": 0.0521,
+    "industry_median_margin": 0.136,
+    "ev_ebitda_fy": 8.9,
+    "net_debt_ltm_ebitda": 0.84,
+    "ebitda_revision_12m": -0.1145,
+    "ebitda_brokers": 16
+  },
+  "catalyst": {
+    "type": [
+      "new_cfo",
+      "board_refresh"
+    ],
+    "events": [
+      {
+        "what": "New CFO (EVP, CFO and principal financial officer); David Bergman to senior advisor",
+        "who": "Reza Taleghani",
+        "from": "EVP, CFO and Treasurer, Samsonite Group; earlier President and CFO, Brightstar",
+        "effective": "2026-02-11",
+        "source": "8-K 0001336917-26-000029 (effective date); announced 8-K 0001336917-25-000193 (2025-11-06)",
+        "external_hire": true
+      },
+      {
+        "what": "Three directors elected (board refresh)",
+        "who": "Dawn N. Fitzpatrick, Eugene D. Smith, Robert J. Sweeney",
+        "from": null,
+        "effective": "2025-04-15",
+        "source": "8-K 0001336917-25-000042",
+        "external_hire": true
+      },
+      {
+        "what": "Chief Product Officer departs to special advisor; internal reshuffle (Kara Trent Chief Merchandising Officer, Adam Peake President Americas, Eric Liedtke CMO and EVP Strategy)",
+        "who": "Yassine Saidi (departing)",
+        "from": null,
+        "effective": "2026-02-02",
+        "source": "8-K 0001336917-26-000017; Plank, Q3 FY2026 call 2026-02-06, document_id 188820",
+        "external_hire": false
+      },
+      {
+        "what": "Founder Kevin Plank returned as President and CEO (outside the 18-month window)",
+        "who": "Kevin Plank",
+        "from": "Founder, Executive Chair",
+        "effective": "2024-04-01",
+        "source": "Plank, Q3 FY2026 call 2026-02-06, document_id 188820 ('coming back in the CEO chair in April 2024'); 8-K not in queried window",
+        "external_hire": false
+      }
+    ],
+    "months_since_primary": 7.7,
+    "ceo_months_in_seat": 30.0,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "Lexical 'investor day' search over FY2026 and FY2027 UAA corpus returned only IR website references; no Investor Day or framework update promised. Restructuring plan to be substantially complete by 2026-12-31 (8-K 0001336917-26-000108)."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "gross margin",
+    "metric_basis_note": "Only numeric framing is the one-year FY2027 guide (UA fiscal year ends March 31, so Baba FY2027 = UA fiscal 2027): gross margin +220 to 270 bps, of which about 150 bps is a one-off IEEPA tariff refund, and adjusted operating income of $140M to $160M (a dollar figure, not a margin). No multi-year margin level or annual rate has been stated by Plank or Taleghani. The old 'low double-digit operating margin' long-term objective dates from 2019 to 2021 under prior plans and has not been repeated in FY2026 or FY2027 calls.",
+    "current_level_pct": 4.88,
+    "target_level_pct": null,
+    "target_year": 2027,
+    "has_year": true,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "For gross margin, we expect expansion of approximately 220 basis points-270 basis points versus last year's gross margin. This outlook assumes a potential refund related to IEEPA tariffs expensed through the P&L in fiscal 2026. This positive impact is expected to contribute roughly 150 basis points, with most of the benefit recognized in the first quarter.",
+        "speaker": "Reza Taleghani",
+        "role": "CFO",
+        "doc_title": "Under Armour Inc Q4 2026 Earnings Call",
+        "date": "2026-05-12",
+        "document_id": 188819
+      },
+      {
+        "quote": "Putting that together and excluding anticipated transformation expenses and restructuring charges, we expect adjusted operating income for fiscal 2027 to be in the range of $140 million-$160 million.",
+        "speaker": "Reza Taleghani",
+        "role": "CFO",
+        "doc_title": "Under Armour Inc Q4 2026 Earnings Call",
+        "date": "2026-05-12",
+        "document_id": 188819
+      },
+      {
+        "quote": "Operating Income is still expected to be in the range of $96 million to $116 million. Excluding expected transformation expenses and restructuring charges, Adjusted Operating Income is still expected to be $140 million to $160 million.",
+        "speaker": "Press release",
+        "role": "Company (8-K EX-99.1, signed by CFO Reza Taleghani)",
+        "doc_title": "Under Armour, Inc. 8-K, Q1 fiscal 2027 results",
+        "date": "2026-08-07",
+        "document_id": 144298
+      },
+      {
+        "quote": "We do believe that the inflection point is upon us in fiscal 2027. This is turnaround.",
+        "speaker": "Kevin Plank",
+        "role": "President and CEO",
+        "doc_title": "Under Armour Inc Q4 2026 Earnings Call",
+        "date": "2026-05-12",
+        "document_id": 188819
+      },
+      {
+        "quote": "What Kevin's getting at absolutely should be able to drive a little bit better margin as far as pricing on raw materials and actual, you know, production based on volumes and less SKUs. That's clear, and that's what we're gonna be driving for, and that'll probably benefit more, you know, think about, like, back half of fiscal 2027, more into fiscal 2028 and beyond.",
+        "speaker": "Dave Bergman",
+        "role": "CFO (outgoing)",
+        "doc_title": "Under Armour Inc Q3 2026 Earnings Call",
+        "date": "2026-02-06",
+        "document_id": 188820
+      }
+    ],
+    "first_stated": "2026-05-12",
+    "times_repeated": 2
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 4.36,
+      "FY2027": 5.21,
+      "FY2028": 5.72
+    },
+    "consensus_margin_at_target_year_pct": 5.21,
+    "gap_bps_vs_target": 18,
+    "gap_assumption": "Baba FY labels equal UA fiscal years (year ending March 31). No margin target exists, so the 'target' is the FY2027 adjusted operating income guide midpoint ($150M) plus consensus FY2027 D&A ($105.8M) over consensus FY2027 revenue ($4,744M) = 5.39% EBITDA margin vs consensus 5.21%, +18 bps. Consensus FY2027 operating income $144.9M sits inside the $140M to $160M guide. FY2026 4.36% is actual; FY2029 consensus 6.49%.",
+    "ebitda_uplift_pct_if_target_hit": 3.5,
+    "source": "Baba data_financials consensus (Visible Alpha), summary and fundamentals"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      217,
+      234
+    ],
+    "note": "Order [Q4 fiscal 2026, Q1 fiscal 2027]. Q4 FY2026 2.46% vs 0.29% (Baba actual EBITDA $28.8M on $1,171.2M vs $3.4M on $1,180.6M). Q1 FY2027 7.05% vs 4.71%: adjusted operating income $52M plus D&A $25.4M on revenue $1,097.9M (8-K 0001336917-26-000108) vs Baba actual $53.4M on $1,134.1M. Q1 is flattered by the IEEPA tariff refund (gross margin +590 bps 'primarily due to refunds'); the full-year guide carries about $70M of refund benefit, so underlying progress is much smaller. Revenue guide was cut to a mid-single-digit decline on 2026-08-07."
+  },
+  "score": {
+    "A_underperformance": 1,
+    "B_catalyst": 2,
+    "C_numeric_framing": 2,
+    "D_unproven": 1,
+    "total": 6
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Weak GXO match: down 60% with a new external CFO, but the founder CEO has been back 30 months, the only numeric framing is a one-year guide inflated by a tariff refund, and consensus already sits inside it.",
+  "open_questions": [
+    "Will Taleghani publish a multi-year operating margin framework once the restructuring completes at 2026-12-31, and when?",
+    "Excluding the roughly $70M IEEPA refund, is FY2027 adjusted operating income growing at all on a mid-single-digit revenue decline?",
+    "Does the board refresh of April 2025 signal pressure on Plank if the fiscal 2027 'inflection' does not show up in North America?"
+  ],
+  "sources": [
+    {
+      "document_id": 188819,
+      "title": "Under Armour Inc Q4 2026 Earnings Call (UA fiscal Q4 2026)",
+      "date": "2026-05-12"
+    },
+    {
+      "document_id": 188820,
+      "title": "Under Armour Inc Q3 2026 Earnings Call (UA fiscal Q3 2026)",
+      "date": "2026-02-06"
+    },
+    {
+      "document_id": 130905,
+      "title": "Under Armour Inc Q1 2027 Earnings Call (UA fiscal Q1 2027)",
+      "date": "2026-08-07"
+    },
+    {
+      "document_id": 144298,
+      "title": "Under Armour, Inc. 8-K, Q1 fiscal 2027 results (0001336917-26-000108)",
+      "date": "2026-08-07"
+    },
+    {
+      "document_id": 0,
+      "title": "SEC 8-K Item 5.02 (sec-api, ticker field is UA not UAA): 0001336917-26-000029, 0001336917-25-000193, 0001336917-26-000017, 0001336917-25-000042",
+      "date": "2025-04-15 to 2026-02-12"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01); stage1_ranked.csv for industry median",
+      "date": "2026-10-01"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_financials summary and fundamentals consensus (Visible Alpha)",
+      "date": "2026-10-01"
+    }
+  ],
+  "tool_calls": 24
+}

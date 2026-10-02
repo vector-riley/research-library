@@ -1,0 +1,86 @@
+{
+  "ticker": "PTON",
+  "cid": 1004597,
+  "name": "Peloton Interactive Inc",
+  "industry": "Leisure Facilities",
+  "as_of": "2026-10-02",
+  "business": "Sells connected fitness equipment (Bike, Tread, Row, Precor) and All-Access and App subscriptions to consumers and commercial fitness operators in North America and abroad.",
+  "quant": {
+    "mcap_usd": 2590120092.28,
+    "drawdown": -0.5279,
+    "pctile_ev_ebitda_60m": 0.0444,
+    "price_ltm_pct": -0.4456,
+    "ebitda_margin_ltm": 0.1914,
+    "ebitda_margin_fwd_consensus": 0.2113,
+    "industry_median_margin": 0.283,
+    "ev_ebitda_fy": 5.37,
+    "net_debt_ltm_ebitda": 0.19,
+    "ebitda_revision_12m": 0.0433,
+    "ebitda_brokers": 15
+  },
+  "catalyst": {
+    "type": ["new_cfo", "strategy_update"],
+    "events": [
+      {"what": "CEO and President (outside the 18-month window by three months; 8-K for the appointment not returned by sec-api; the 2025-01-17 director 8-K lists Stern as sitting CEO and President)", "who": "Peter Stern", "from": null, "effective": "2025-01-01", "source": "8-K 0001639825-25-000008 (director appointment 2025-01-16, continued positions CEO, President); effective date per Stage 2 brief", "external_hire": true},
+      {"what": "COO appointed; Chief Supply Chain Officer moved to advisory role", "who": "Charles Kirol", "from": "iRobot (EVP, Chief Global Operations and Technology Officer)", "effective": "2025-04-14", "source": "8-K 0001639825-25-000062", "external_hire": true},
+      {"what": "CFO Liz Coddington departed to pursue an external opportunity; CAO Saqib Baig interim CFO", "who": "Saqib Baig (interim)", "from": "Peloton Chief Accounting Officer", "effective": "2026-03-27", "source": "8-K 0001639825-26-000005; 8-K 0001639825-26-000011", "external_hire": false},
+      {"what": "Chief Content and Member Development Officer appointed (Jen Cotter to advisory role)", "who": "Sarah Robb O'Hagan", "from": "Former CEO of EXOS and Flywheel Sports", "effective": "2026-04-01", "source": "8-K 0001639825-26-000014", "external_hire": true},
+      {"what": "CFO appointed (missed by the Stage 2 sweep)", "who": "Siddharth (Sid) Thacker", "from": "CFO of Rent the Runway", "effective": "2026-06-22", "source": "8-K 0001639825-26-000024", "external_hire": true},
+      {"what": "Second restructuring: $100M run-rate cost savings plan by end of fiscal 2026 (reported as exceeded on 2026-08-06); refinancing under way", "who": "Liz Coddington (CFO) / Peter Stern (CEO)", "from": null, "effective": "2025-08-07", "source": "document_id 50220; document_id 130364", "external_hire": null}
+    ],
+    "months_since_primary": 3.3,
+    "ceo_months_in_seat": 21.0,
+    "next_event": {"type": "none known", "date": null, "source": "No investor day or multi-year framework promised in FY2026 transcripts (lexical search, document_ids 130364, 185774, 185775, 50217). CFO said refinancing news would come 'in the coming weeks' (document_id 130364, 2026-08-06). Next scheduled event is the Q1 fiscal 2027 call (date not in corpus)."}
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "No long-term margin level target has been given. Numeric framing is (1) a $100M run-rate cost savings plan by end of fiscal 2026, already exceeded, and (2) one-year guides: fiscal 2027 adjusted EBITDA $475M to $525M on revenue $2.3B to $2.4B (21.3% at the midpoints) and total gross margin about 54% (+140 bps). Fiscal year ends June; Baba FY labels match Peloton fiscal years (FY2027 = July 2026 to June 2027).",
+    "current_level_pct": 19.1,
+    "target_level_pct": 21.3,
+    "target_year": 2027,
+    "has_year": true,
+    "annual_bps": null,
+    "synergy_usd": 100000000,
+    "synergy_year": 2026,
+    "statements": [
+      {"quote": "Our fiscal 2026 adjusted EBITDA guidance range of $400 million-$450 million reflects an increase of $21 million, or 5% year-over-year at the midpoint, primarily driven by operating expense savings connected to the new restructuring plan we introduced today. We've actioned roughly half of the run rate cost savings as of today and expect the remainder to be realized over the course of the year. Roughly 15% of the $100 million run rate savings goal is expected to come from lower stock-based compensation.", "speaker": "Liz Coddington", "role": "CFO", "doc_title": "Peloton Interactive Inc Q4 2025 Earnings Call", "date": "2025-08-07", "document_id": 50220},
+      {"quote": "We committed to a $100 million run rate cost savings initiative in FY 2026, and I can report that we exceeded this goal.", "speaker": "Peter Stern", "role": "CEO", "doc_title": "Peloton Interactive Inc Q4 2026 Earnings Call", "date": "2026-08-06", "document_id": 130364},
+      {"quote": "Full year fiscal 2027 total gross margin is expected to be roughly 54%, reflecting an increase of approximately 140 basis points year over year, primarily driven by higher expected connected fitness gross margins.", "speaker": "Sid Thacker", "role": "CFO", "doc_title": "Peloton Interactive Inc Q4 2026 Earnings Call", "date": "2026-08-06", "document_id": 130364},
+      {"quote": "Since I started, two things have become very clear to me. The first is that the underlying strength of this business and brand are real.", "speaker": "Sid Thacker", "role": "CFO (first earnings call)", "doc_title": "Peloton Interactive Inc Q4 2026 Earnings Call", "date": "2026-08-06", "document_id": 130364}
+    ],
+    "first_stated": "2025-08-07",
+    "times_repeated": 2
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {"FY2026": 19.14, "FY2027": 21.13, "FY2028": 21.51},
+    "consensus_margin_at_target_year_pct": 21.13,
+    "gap_bps_vs_target": 15,
+    "gap_assumption": "Target is the fiscal 2027 guide midpoint ($500M EBITDA on $2.35B revenue = 21.28%) versus FY2027 consensus 21.13%: +15 bps (data_compute). FY2026 is actual ($468.2M on $2,445.9M). Consensus is flat after FY2027: 21.51% FY2028, 21.16% FY2031. The $100M savings target is already delivered and in the base.",
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials consensus (Visible Alpha), 2026-10-01"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [569, 29],
+    "note": "Order [Q3 fiscal 2026, Q4 fiscal 2026], adj. EBITDA / revenue. Q3 20.0% ($126.2M on $630.9M) vs 14.3% ($89.3M on $624.0M), VA actuals. Q4 23.4% ($142M on $608M, CFO, document_id 130364) vs 23.1%; excluding the $24M patent-litigation accrual Q4 was 27.3%, about +423 bps. Fiscal 2026 was the first full year of positive operating income ($161M) and net income ($63M)."
+  },
+  "score": {"A_underperformance": 2, "B_catalyst": 2, "C_numeric_framing": 2, "D_unproven": 0, "total": 6},
+  "disqualified": true,
+  "disqualifier_reason": "Margin target already reflected in consensus. The dated $100M savings target is delivered and in the base, and FY2027 consensus (21.13%) sits 15 bps under the guide midpoint. CEO Stern (2025-01-01) is outside the 18-month window; the in-window catalyst is a new external CFO (2026-06-22) with no promised framework event.",
+  "verdict": "Cheap and down 53%, with a new external CFO and COO, but there is no multi-year margin target and the street already sits on the FY2027 guide, so the GXO-type gap is missing.",
+  "open_questions": [
+    "Will Thacker set a multi-year margin or EBITDA framework with the refinancing or an investor event?",
+    "Revenue is guided down 3.9% for FY2027 and consensus is flat through FY2031: is the setup a revenue question rather than a margin one?",
+    "How much of the FY2027 EBITDA growth is the non-recurring $24M legal accrual rolling off versus real cost leverage?"
+  ],
+  "sources": [
+    {"document_id": 50220, "title": "Peloton Interactive Inc Q4 2025 Earnings Call", "date": "2025-08-07"},
+    {"document_id": 130364, "title": "Peloton Interactive Inc Q4 2026 Earnings Call", "date": "2026-08-06"},
+    {"document_id": 185775, "title": "Peloton Interactive Inc Q2 2026 Earnings Call", "date": null},
+    {"document_id": 185774, "title": "Peloton Interactive Inc Q3 2026 Earnings Call", "date": null},
+    {"document_id": 67370, "title": "Morgan Stanley Technology, Media & Telecom Conference ($200M run-rate savings by end of fiscal 2025)", "date": null},
+    {"document_id": 0, "title": "Baba data_comps and data_financials summary (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0001639825-25-000008, 0001639825-25-000062, 0001639825-26-000005, 0001639825-26-000011, 0001639825-26-000014, 0001639825-26-000024", "date": "2025-01-17 to 2026-05-26"}
+  ],
+  "tool_calls": 12
+}

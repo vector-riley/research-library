@@ -1,0 +1,181 @@
+{
+  "ticker": "RPM",
+  "cid": 1000349,
+  "name": "RPM International Inc.",
+  "industry": "Paint & Coating",
+  "as_of": "2026-10-02",
+  "business": "RPM makes specialty coatings, sealants, roofing, waterproofing and flooring systems and consumer repair brands for construction, industrial and DIY customers.",
+  "quant": {
+    "mcap_usd": 12610762780.0,
+    "drawdown": -0.272498544734475,
+    "pctile_ev_ebitda_60m": 0.0,
+    "price_ltm_pct": -0.14601368213952648,
+    "ebitda_margin_ltm": 0.1539,
+    "ebitda_margin_fwd_consensus": 0.15853499009776006,
+    "industry_median_margin": 0.19,
+    "ev_ebitda_fy": 11.27588609383004,
+    "net_debt_ltm_ebitda": 1.7828303917985338,
+    "ebitda_revision_12m": -0.05271663509791502,
+    "ebitda_brokers": 10.0
+  },
+  "catalyst": {
+    "type": [
+      "strategy_update",
+      "board_refresh"
+    ],
+    "events": [
+      {
+        "what": "Named President and COO (internal; group presidents now report to him, also leads strategy and corporate development); Sullivan stays Chair and CEO but gives up President title. Reads as succession grooming, not a CEO change.",
+        "who": "David C. Dennsteadt",
+        "from": "RPM EVP since 2025-10-02; before that Group President, Performance Coatings Group; about 25 years at RPM",
+        "effective": "2026-07-17",
+        "source": "8-K 0001193125-26-311276 (Item 5.02 not parsed by the structured sweep; read from the filing)",
+        "external_hire": false
+      },
+      {
+        "what": "Elected Executive Vice President over finance, legal, HR, manufacturing and operations",
+        "who": "David C. Dennsteadt",
+        "from": "Group President, Performance Coatings Group",
+        "effective": "2025-10-02",
+        "source": "8-K 0001193125-25-234548",
+        "external_hire": false
+      },
+      {
+        "what": "Next operating improvement plan (MAP 3.0) and strategy update to be laid out at Investor Day; $75M of SG&A savings in fiscal 2027 called a down payment",
+        "who": "Frank Sullivan, Russell Gordon",
+        "from": "",
+        "effective": "2026-11-09",
+        "source": "doc 68799 (Q4 FY2026 call, 2026-07-22)",
+        "external_hire": null
+      },
+      {
+        "what": "Directors added: Julie Beck (Terex CFO) 2025-04-07; Thomas Gentile (ex CEO Hexcel, Spirit AeroSystems) 2026-04-20; nominee Jeffrey Rowe (ex CEO Syngenta, ADM COO) for the 2026-10-08 annual meeting",
+        "who": "Beck, Gentile, Rowe",
+        "from": "",
+        "effective": "2026-04-20",
+        "source": "8-K 0001193125-25-008451; 8-K 0001193125-26-173804; DEF 14A doc 159267",
+        "external_hire": true
+      },
+      {
+        "what": "VP Operations (MAP program lead) retires to Project Management Officer",
+        "who": "Timothy R. Kinser",
+        "from": "",
+        "effective": "2026-05-29",
+        "source": "8-K 0001193125-26-253577",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 2,
+    "ceo_months_in_seat": 286,
+    "next_event": {
+      "type": "investor day",
+      "date": "2026-11-09",
+      "source": "doc 68799, Sullivan 2026-07-22: 'We are looking forward to providing a strategy update and additional details on our next operating improvement plan at an Investor Day, which will be held on Monday, November 9th of this year.'"
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "operating margin",
+    "metric_basis_note": "Target is adjusted EBIT margin 16% (first set fall 2018 under MAP to Growth, re-set for MAP 2025 at Investor Day 2022 for fiscal 2025, missed). Gap is measured against VA consensus operating margin (FY2028 14.45%), not EBITDA. VA operating margin ran below company adjusted EBIT (FY2026 VA 12.84% vs adjusted EBIT 13.3% per DEF 14A PSU table), so the true gap may be 30 to 50 bps smaller. Board's own FY2026-FY2028 PSU target is only 14% adjusted EBIT margin by May 31, 2028 (threshold 13%, max 15%), below consensus. ceo_months_in_seat 286 is a lower bound: Sullivan CEO since 2002 (month not stated in DEF 14A doc 159267).",
+    "current_level_pct": 13.3,
+    "target_level_pct": 16.0,
+    "target_year": 2028,
+    "has_year": true,
+    "annual_bps": null,
+    "synergy_usd": 75000000,
+    "synergy_year": 2027,
+    "statements": [
+      {
+        "quote": "I fully expect over the next two or three years that we're going to get to that 16% margin target. It did not come as quickly as we wanted, but it's still front of mind. It still has some incentive compensation tied to it. It is still a goal that we expect to achieve. We will not get to a 16% EBIT margin in fiscal 2026, but we'll make progress.",
+        "speaker": "Frank Sullivan",
+        "role": "Chair and CEO",
+        "doc_title": "RPM INTERNATIONAL INC Q4 2025 Earnings Call",
+        "date": "2025-07-24",
+        "document_id": 55158
+      },
+      {
+        "quote": "The SG&A-focused actions we implemented last fiscal year are on track to deliver $75 million of savings in the new 2027 fiscal year. As a reminder, we consider this a down payment on our new MAP 3.0 strategic plan.",
+        "speaker": "Frank Sullivan",
+        "role": "Chairman and CEO",
+        "doc_title": "RPM INTERNATIONAL INC Q4 2026 Earnings Call",
+        "date": "2026-07-22",
+        "document_id": 68799
+      },
+      {
+        "quote": "Yes, we do have line of sight to meaningful margin improvement in the coming years. We'll provide more detail on that at our November 9th investor meeting. Yes, it will require a return to unit volume growth in our Consumer business",
+        "speaker": "Frank Sullivan",
+        "role": "Chairman and CEO",
+        "doc_title": "RPM INTERNATIONAL INC Q4 2026 Earnings Call",
+        "date": "2026-07-22",
+        "document_id": 68799
+      },
+      {
+        "quote": "As we launch MAP 2025, MAP is now an acronym for Margin Achievement Plan, and the margin we are most focused on achieving is a 16% EBIT margin.",
+        "speaker": "Tim Kinser",
+        "role": "VP Operations",
+        "doc_title": "Investor Day 2022",
+        "date": null,
+        "document_id": 94647
+      }
+    ],
+    "first_stated": "2018 (fall; exact date not stated, per Sullivan doc 55158)",
+    "times_repeated": 3
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 0.1537,
+      "FY2027": 0.1585,
+      "FY2028": 0.1679
+    },
+    "consensus_margin_at_target_year_pct": 14.45,
+    "gap_bps_vs_target": 155,
+    "gap_assumption": "16% adjusted EBIT target vs VA consensus operating margin for Baba FY2028 (company fiscal 2028, ending May 2028; May year end so labels match company years). Target year 2028 taken as the outer end of Sullivan's 'next two or three years' from 2025-07-24. Consensus operating margin FY2026 12.84%, FY2027 13.32%, FY2028 14.45%. VA has not loaded Q4 FY2026 actuals.",
+    "ebitda_uplift_pct_if_target_hit": 9.25,
+    "source": "Baba data_financials consensus (summary and fundamentals), data_comps"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      -164,
+      187
+    ],
+    "note": "VA EBITDA margin yoy: Q2 FY2026 -164 bps, Q3 FY2026 +187 bps (Q4 FY2026 not loaded). LTM 15.39% is Q4 FY2025 to Q3 FY2026. Fiscal 2026 adjusted EBIT margin 13.3% vs MAP 2025 16% goal; 2024-2026 PSUs forfeited (0% vested) and fiscal 2026 PERS EBIT margin result 13.0% vs 15.3% target (DEF 14A doc 159267). Raw material inflation guided 5%-6% in Q1 FY2027 and up to 6%-8% in Q2 FY2027."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 1,
+    "C_numeric_framing": 3,
+    "D_unproven": 2,
+    "total": 8
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Cheap, stabilized, with a CEO-stated 16% EBIT target 155 bps above consensus and an Investor Day on 2026-11-09, but the CEO has run RPM since 2002 and the target has slipped since 2018.",
+  "open_questions": [
+    "Does the 2026-11-09 Investor Day (MAP 3.0) restate 16% adjusted EBIT with a fiscal year, or reset lower toward the board's 14% PSU target for fiscal 2028?",
+    "Is Dennsteadt's promotion to President and COO the start of a CEO handover, and on what timeline ('next couple of years' per Sullivan)?",
+    "How much of fiscal 2027 margin is lost to 5%-8% raw material inflation before pricing catches up?"
+  ],
+  "sources": [
+    {
+      "document_id": 68799,
+      "title": "RPM INTERNATIONAL INC Q4 2026 Earnings Call",
+      "date": "2026-07-22"
+    },
+    {
+      "document_id": 55158,
+      "title": "RPM INTERNATIONAL INC Q4 2025 Earnings Call",
+      "date": "2025-07-24"
+    },
+    {
+      "document_id": 159267,
+      "title": "RPM INTERNATIONAL INC/DE/ DEF 14A",
+      "date": "2026-08-25"
+    },
+    {
+      "document_id": 94647,
+      "title": "Investor Day 2022",
+      "date": null
+    }
+  ],
+  "tool_calls": 27
+}

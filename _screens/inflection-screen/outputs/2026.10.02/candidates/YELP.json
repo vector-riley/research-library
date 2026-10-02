@@ -1,0 +1,47 @@
+{
+  "ticker": "YELP", "cid": 1000062, "name": "Yelp Inc.", "industry": "Interactive Media & Services", "as_of": "2026-10-02",
+  "business": "Runs a local business review platform and sells advertising, lead and subscription tools to local service, restaurant and retail businesses.",
+  "quant": {"mcap_usd": 1009197860.0, "drawdown": -0.6180, "pctile_ev_ebitda_60m": 0.0, "price_ltm_pct": -0.4071,
+            "ebitda_margin_ltm": 0.2403, "ebitda_margin_fwd_consensus": 0.2190, "industry_median_margin": 0.304, "ev_ebitda_fy": 3.07,
+            "net_debt_ltm_ebitda": 0.02, "ebitda_revision_12m": -0.1090, "ebitda_brokers": 6},
+  "catalyst": {"type": ["acquisition", "strategy_update"],
+               "events": [
+                 {"what": "No CEO or CFO change: founder Jeremy Stoppelman remains CEO and David Schwarzbach CFO. Own 8-K Item 5.02 query (2024-07-01 to 2026-10-02) shows only CTO and CPO successions and board moves.", "who": "Jeremy Stoppelman (CEO), David Schwarzbach (CFO)", "from": null, "effective": null, "source": "8-K query; Baba data_profile (CEO); doc 130448 speaker roster", "external_hire": null},
+                 {"what": "CTO succession: Sam Eaton steps down, Alex Levy appointed CTO", "who": "Alex Levy", "from": null, "effective": "2026-06-30", "source": "8-K 0001345016-26-000033", "external_hire": null},
+                 {"what": "CPO succession: Craig Saldanha resigns, internal SVP Product Akhil Kuduvalli Ramesh promoted", "who": "Akhil Kuduvalli Ramesh", "from": "SVP Product, Yelp", "effective": "2026-07-03", "source": "8-K 0001345016-26-000051", "external_hire": false},
+                 {"what": "Board add: Logan Green (Lyft co-founder) as independent director, board expanded to nine", "who": "Logan Green", "from": "Lyft", "effective": "2025-08-19", "source": "8-K 0001345016-25-000044", "external_hire": true},
+                 {"what": "Acquisition of Hatch (AI lead management, about $35M annual run-rate revenue in June 2026), funded partly with revolver; small tuck-in, no Item 1.01/2.01 8-K, purchase price not sourced; margin dilutive near term", "who": "Hatch", "from": null, "effective": "2026-02-17", "source": "10-K document_id 26486; doc 130448 (CEO, Q2 2026 call)", "external_hire": null},
+                 {"what": "Capital allocation update: return more than 50% of FCF annually via buybacks, pursue acquisitions with cash and financing; buyback paused to repay revolver, resume in 2027; target $250M other revenue run-rate by end of 2028; SBC under 6% of revenue by end of 2027", "who": "David Schwarzbach", "from": null, "effective": "2026-08-06", "source": "document_id 130448", "external_hire": null}
+               ],
+               "months_since_primary": 8, "ceo_months_in_seat": 261,
+               "next_event": {"type": "none known", "date": null, "source": "No investor day found in the 2026 corpus (lexical search). Next routine events: Q3 2026 call (Q3 EBITDA guided $70M to $75M, doc 130448) and FY2027 outlook with Q4 results, about February 2027 by the 2026-02-12 precedent (doc 40476); dates not announced. ceo_months_in_seat is a lower bound from the 2004 incorporation (founder CEO; start month not sourced)."}},
+  "margin_framing": {"numeric": false, "metric": "adjusted EBITDA margin",
+                     "metric_basis_note": "No margin expansion target. The only margin numbers are the FY2026 guide, which CONTRACTS margin (adjusted EBITDA $315M to $325M on revenue $1.460B to $1.470B, about 21.8% versus 25% in 2025) to fund Hatch, AI and consumer marketing, and an SBC target (under 6% of revenue by end of 2027) that improves GAAP but not adjusted EBITDA margin. Hatch margin to 'converge with the typical SaaS margin profile' is undated and unquantified. The $250M other revenue run-rate by end of 2028 is a revenue target, not a margin target.",
+                     "current_level_pct": 24.0, "target_level_pct": null, "target_year": null, "has_year": false,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "Margin, driving margin is not the immediate focus for us. We actually wanna go and really realize the opportunity by providing the solution to as many service pros as we can. Again, I do think over time that the margin profile will converge with the typical SaaS margin profile, but that's not immediate.", "speaker": "David Schwarzbach", "role": "CFO", "doc_title": "YELP INC. Q4 2025 Earnings Call", "date": "2026-02-12", "document_id": 40476},
+                       {"quote": "For the full year, we are narrowing our range and now expect Adjusted EBITDA will be between $315 million and $325 million.", "speaker": "David Schwarzbach", "role": "CFO", "doc_title": "YELP INC. Q2 2026 Earnings Call", "date": "2026-08-06", "document_id": 130448},
+                       {"quote": "As these accretive revenue streams continue to gain traction, we are targeting an annual run rate of $250 million in other revenue by the end of 2028.", "speaker": "David Schwarzbach", "role": "CFO", "doc_title": "YELP INC. Q2 2026 Earnings Call", "date": "2026-08-06", "document_id": 130448}
+                     ],
+                     "first_stated": "2026-02-12", "times_repeated": 1},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 21.96, "FY2027": 21.90, "FY2028": 22.02},
+             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": null, "gap_assumption": "No margin target, so no gap. Consensus FY2026 margin 21.96% vs guide midpoint 21.84% (-12 bps): the street sits on the guide and models flat margins about 22% through FY2028 (FY2030 24.0%: 372.3/1,626.7). December FYE; Baba labels equal company fiscal years.",
+             "ebitda_uplift_pct_if_target_hit": null, "source": "Baba data_financials consensus (Visible Alpha, fetched 2026-10-01)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-174, -293], "note": "Order [Q1 2026, Q2 2026]. Q1 from VA actuals (79.4/361.5 vs 84.9/358.5); Q2 from company-reported $91M on $376M (doc 130448) vs VA Q2 2025. Margin is falling by design (investment year); Q3 2026 guide $70M to $75M implies further compression. LTM 24.0%."},
+  "score": {"A_underperformance": 2, "B_catalyst": 1, "C_numeric_framing": 1, "D_unproven": 2, "total": 6},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Not the archetype despite 6/10: founder-run with no CEO/CFO change, margins deliberately compressing, and no margin target to underwrite; deep value, not a margin inflection.",
+  "open_questions": ["Will the FY2027 outlook (about February 2027) show margin recovering toward 25% as Hatch scales, or another investment year?", "What did Hatch cost, and how much of the revolver draw and paused buyback relates to it?", "Does the new CTO/CPO pair plus Logan Green on the board presage a broader strategic review given 3x EBITDA?"],
+  "sources": [
+    {"document_id": 40476, "title": "YELP INC. Q4 2025 Earnings Call", "date": "2026-02-12"},
+    {"document_id": 40475, "title": "YELP INC. Q1 2026 Earnings Call", "date": "2026-05 (exact date not fetched)"},
+    {"document_id": 130448, "title": "YELP INC. Q2 2026 Earnings Call", "date": "2026-08-06"},
+    {"document_id": 26486, "title": "YELP INC 10-K (FY2025)", "date": "2026-02"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0001345016-26-000051 (CPO), 0001345016-26-000033 (CTO), 0001345016-25-000044 and 0001345016-25-000051 (Logan Green), 0001345016-25-000010 (director); Item 1.01/2.01 query returned none", "date": "2025-03-27 to 2026-06-10"},
+    {"document_id": 0, "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary consensus (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Stage 1 stage1_ranked.csv (industry median margin 0.304)", "date": "2026-10-02"}
+  ],
+  "tool_calls": 18
+}

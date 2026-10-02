@@ -1,0 +1,193 @@
+{
+  "ticker": "UBER",
+  "cid": 1004500,
+  "name": "Uber Technologies Inc",
+  "industry": "Application Software",
+  "as_of": "2026-10-02",
+  "business": "Uber runs ride-hailing, food and grocery delivery, and freight marketplaces connecting consumers, merchants and shippers with drivers and carriers worldwide.",
+  "quant": {
+    "mcap_usd": 139169273000.0,
+    "drawdown": -0.3156,
+    "pctile_ev_ebitda_60m": 0.167,
+    "price_ltm_pct": -0.3007,
+    "ebitda_margin_ltm": 0.1818,
+    "ebitda_margin_fwd_consensus": 0.2072,
+    "industry_median_margin": 0.282,
+    "ev_ebitda_fy": 10.41,
+    "net_debt_ltm_ebitda": 0.5,
+    "ebitda_revision_12m": 0.0314,
+    "ebitda_brokers": 35
+  },
+  "catalyst": {
+    "type": [
+      "new_cfo",
+      "board_refresh"
+    ],
+    "events": [
+      {
+        "what": "New CFO (internal promotion); Prashanth Mahendra-Rajah to Senior Finance Advisor until 2026-07-01",
+        "who": "Balaji Krishnamurthy",
+        "from": "Uber VP Strategic Finance since 2023; Head of Investor Relations 2020 to 2023",
+        "effective": "2026-02-16",
+        "source": "8-K 0001543151-26-000011",
+        "external_hire": false
+      },
+      {
+        "what": "President and COO appointed (internal); SVP Delivery departs",
+        "who": "Andrew 'Mac' Macdonald",
+        "from": "Uber SVP Mobility and Business Operations",
+        "effective": "2025-06-02",
+        "source": "8-K 0001552781-25-000201",
+        "external_hire": false
+      },
+      {
+        "what": "Director appointed",
+        "who": "Nikesh Arora",
+        "from": "Chairman and CEO, Palo Alto Networks",
+        "effective": "2025-05-31",
+        "source": "8-K 0001552781-25-000203",
+        "external_hire": true
+      },
+      {
+        "what": "President and Chief Corporate Affairs Officer appointed (internal); Chief People Officer departs",
+        "who": "Jill Hazelbaker",
+        "from": "Uber CMO and SVP Communications and Public Policy",
+        "effective": "2026-05-11",
+        "source": "8-K 0001552781-26-000320",
+        "external_hire": false
+      }
+    ],
+    "months_since_primary": 7.5,
+    "ceo_months_in_seat": 109.0,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "The 2024 three-year framework ends with FY2026; CFO declined to give a new one at Bernstein SDC 2026-05-28 (document_id 54873). Lexical 'investor day' search over FY2026 calls returned nothing scheduled. Next routine event is Q3 2026 earnings, date not in corpus."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "Uber frames profitability as adjusted EBITDA CAGR (high 30s to 40%, 2024 to 2026, from the 2024-02-14 Investor Update) and reports adjusted EBITDA as a percent of gross bookings (4.6% in Q4 2025). No margin level target is public; the score uses a dated EBITDA growth rate, not a margin. Street margins here are EBITDA over revenue (Visible Alpha does not carry gross bookings in this dataset). Uber is not founder-run: Khosrowshahi has been CEO since September 2017 (DEF 14A, document_id 6799); data_comps founder_led is false.",
+    "current_level_pct": 18.18,
+    "target_level_pct": null,
+    "target_year": 2026,
+    "has_year": true,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "Over the next 3 years, we expect to deliver gross bookings CAGR of mid- to high-teens and adjusted EBITDA CAGR from the high 30s to 40%, with 90% or more annual free cash flow conversion.",
+        "speaker": "Dara Khosrowshahi",
+        "role": "CEO",
+        "doc_title": "Investor Update",
+        "date": "2024-02-14",
+        "document_id": 114705
+      },
+      {
+        "quote": "Two years ago, we gave you a 3-year outlook, and I'm pleased to report that we're currently exceeding every target that we set for gross bookings, adjusted EBITDA growth, and free cash flow conversion.",
+        "speaker": "Dara Khosrowshahi",
+        "role": "CEO",
+        "doc_title": "AGM 2026",
+        "date": "2026-05-04",
+        "document_id": 54871
+      },
+      {
+        "quote": "Our profits compounded at about 50% CAGR in that period of time, relative to the high 30s to 40% CAGR we were talking about.",
+        "speaker": "Balaji Krishnamurthy",
+        "role": "CFO",
+        "doc_title": "Bernstein 42nd Annual Strategic Decisions Conference",
+        "date": "2026-05-28",
+        "document_id": 54873
+      },
+      {
+        "quote": "With that sort of a lens, I would think about the path forward as a continued refinement of what we're doing versus something that we need to change, right?",
+        "speaker": "Balaji Krishnamurthy",
+        "role": "CFO",
+        "doc_title": "Bernstein 42nd Annual Strategic Decisions Conference",
+        "date": "2026-05-28",
+        "document_id": 54873
+      }
+    ],
+    "first_stated": "2024-02-14",
+    "times_repeated": 3
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 19.62,
+      "FY2027": 20.72,
+      "FY2028": 21.62
+    },
+    "consensus_margin_at_target_year_pct": 19.62,
+    "gap_bps_vs_target": -41,
+    "gap_assumption": "Calendar fiscal year, Baba labels match. Framework top (40% CAGR on FY2023 adjusted EBITDA of $4,052M) implies $11,119M for 2026; low end (37%) implies $10,419M. Consensus FY2026 EBITDA is $11,358M, 2.2% above the top of the range. Expressed over consensus FY2026 revenue ($57,899M) the framework top is 19.20% vs consensus 19.62%, so the target sits 41 bps BELOW the street.",
+    "ebitda_uplift_pct_if_target_hit": -2.2,
+    "source": "Baba data_financials consensus (Visible Alpha), summary and fundamentals"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      259,
+      312
+    ],
+    "note": "Order [Q1 2026, Q2 2026], adjusted EBITDA over revenue from Baba actuals: Q1 18.79% vs 16.20%; Q2 19.86% vs 16.75%. Delivery bookings include Trendyol Go (closed June 2025) and Getir and Careem additions per the Q2 2026 call review (document_id 129329); no Item 2.01 or 1.01 8-K in the window."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 2,
+    "C_numeric_framing": 2,
+    "D_unproven": 0,
+    "total": 6
+  },
+  "disqualified": true,
+  "disqualifier_reason": "Margin target already reflected in consensus: FY2026 consensus EBITDA ($11.36B) is 2.2% above the top of the 2024 framework, and management says it is exceeding every target. The framework was set 2024-02-14 (outside the 18-month window) and the only leadership changes are internal promotions under a CEO in the seat since 2017.",
+  "verdict": "Not a GXO setup: cheap on its own history after a 32% drawdown, but the CEO has run it since 2017, the new CFO is an internal promotion promising continuity, and the street already models more than the 2024 framework.",
+  "open_questions": [
+    "Will Uber issue a new multi-year framework when the 2024 to 2026 one expires, and would it include a margin-on-gross-bookings target?",
+    "Is the multiple compression driven by autonomous-vehicle disruption risk, which no margin framework addresses?",
+    "How much of the roughly $10B multi-year AV investment flows through adjusted EBITDA versus investing cash flow?"
+  ],
+  "sources": [
+    {
+      "document_id": 114705,
+      "title": "Uber Investor Update",
+      "date": "2024-02-14"
+    },
+    {
+      "document_id": 54871,
+      "title": "Uber AGM 2026",
+      "date": "2026-05-04"
+    },
+    {
+      "document_id": 54873,
+      "title": "Bernstein 42nd Annual Strategic Decisions Conference",
+      "date": "2026-05-28"
+    },
+    {
+      "document_id": 129329,
+      "title": "Uber Technologies Inc Q2 2026 Earnings Call",
+      "date": "2026-08-05"
+    },
+    {
+      "document_id": 6799,
+      "title": "Uber Technologies, Inc DEF 14A (0001308179-26-000125)",
+      "date": "2026-03-23"
+    },
+    {
+      "document_id": 0,
+      "title": "SEC 8-K Item 5.02: 0001543151-26-000011, 0001552781-25-000201, 0001552781-25-000203, 0001552781-26-000320; no Item 2.01/1.01 8-K 2024-07-01 to 2026-10-02",
+      "date": "2025-06-02 to 2026-05-11"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-09-28); stage1_ranked.csv for industry median",
+      "date": "2026-10-01"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_financials summary and fundamentals consensus (Visible Alpha)",
+      "date": "2026-09-28"
+    }
+  ],
+  "tool_calls": 22
+}

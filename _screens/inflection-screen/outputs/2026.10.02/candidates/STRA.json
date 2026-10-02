@@ -1,0 +1,182 @@
+{
+  "ticker": "STRA",
+  "cid": 1000926,
+  "name": "Strategic Education Inc",
+  "industry": "Educational and Vocational Training Services",
+  "as_of": "2026-10-02",
+  "business": "Runs Strayer and Capella online universities, Australian and New Zealand institutions, and Sophia Learning courses for working adults and employer partners.",
+  "quant": {
+    "mcap_usd": 1712579440.0,
+    "drawdown": -0.3284,
+    "pctile_ev_ebitda_60m": 0.0,
+    "price_ltm_pct": -0.0694,
+    "ebitda_margin_ltm": 0.2189,
+    "ebitda_margin_fwd_consensus": 0.2438,
+    "industry_median_margin": 0.247,
+    "ev_ebitda_fy": 5.18,
+    "net_debt_ltm_ebitda": -0.08,
+    "ebitda_revision_12m": 0.0065,
+    "ebitda_brokers": 3
+  },
+  "catalyst": {
+    "type": [
+      "strategy_update"
+    ],
+    "events": [
+      {
+        "what": "AI and technology productivity program sized: 'upwards of $100 million in operating expenses' saved by end of 2027 (about $30M realized in 2025, at least $70M more through 2027)",
+        "who": "Karl McDonnell",
+        "from": "",
+        "effective": "2025-11-06",
+        "source": "Baba document_id 55037 (Q3 2025 call); 145875 (Q4 2025 call)",
+        "external_hire": null
+      },
+      {
+        "what": "Director Jerry Johnson resigned (only Item 5.02 8-K 2024-07-01 to 2026-10-02)",
+        "who": "Jerry Johnson",
+        "from": "",
+        "effective": "2025-05-21",
+        "source": "8-K 0001013934-25-000022",
+        "external_hire": null
+      },
+      {
+        "what": "Auditor change, PwC dismissed, Deloitte engaged (Item 4.01, no disagreements)",
+        "who": "",
+        "from": "",
+        "effective": "2025-02-27",
+        "source": "8-K 0001013934-25-000009",
+        "external_hire": null
+      },
+      {
+        "what": "CEO appointment (context only, far outside window); CFO Daniel Jackson also long tenured (on calls since at least 2021)",
+        "who": "Karl McDonnell",
+        "from": "internal, President and COO 2006 to 2013",
+        "effective": "2013-05-01",
+        "source": "Baba document_id 39922 (DEF 14A 2026); month only, day not disclosed",
+        "external_hire": false
+      }
+    ],
+    "months_since_primary": 10.8,
+    "ceo_months_in_seat": 161,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "No Investor Day or framework update found in Baba corpus for 2026; the operative 'notional model' dates from the 2023 Investor Day (doc 145875)."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "operating margin",
+    "metric_basis_note": "Adjusted operating (EBIT) margin. Rate frame: 200 bps of expansion a year in the 2023 'notional model' (five-year basis), which the CEO tied explicitly to 2026 and 2027 on 2026-07-29. Plus a dollar program: upwards of $100M of operating expense savings by end of 2027, partly reinvested. Street comparison uses VA consensus operating margin (FY2025 VA 15.47% matches reported adjusted 15.5%). Calendar fiscal year, VA FY = company FY. first_stated is null: the 200 bps notional model was set at the 2023 Investor Day, whose exact date is not in the fetched sources. A $13M Australia FWO labor reserve hit Q2 2026; CEO said 200 bps is achievable 'potentially even including' it.",
+    "current_level_pct": 15.47,
+    "target_level_pct": 19.47,
+    "target_year": 2027,
+    "has_year": true,
+    "annual_bps": 200,
+    "synergy_usd": 100000000,
+    "synergy_year": 2027,
+    "statements": [
+      {
+        "quote": "As I also just said, I'm more than confident in the 200 basis point EBIT margin expansion over this year, next year. That's how I think about the notional model relative to both 2026 and 2027.",
+        "speaker": "Karl McDonnell",
+        "role": "President and CEO",
+        "doc_title": "Strategic Education Inc Q2 2026 Earnings Call",
+        "date": "2026-07-29",
+        "document_id": 110818
+      },
+      {
+        "quote": "I'm very confident that we will outperform the notional model's 200 basis points of EBIT margin expansion, potentially even including the $13 million FWO charge. If you exclude it, most definitely we would.",
+        "speaker": "Karl McDonnell",
+        "role": "President and CEO",
+        "doc_title": "Strategic Education Inc Q2 2026 Earnings Call",
+        "date": "2026-07-29",
+        "document_id": 110818
+      },
+      {
+        "quote": "Our expectation is that we'll probably be able to save upwards of $100 million in operating expenses by the end of 2027.",
+        "speaker": "Karl McDonnell",
+        "role": "President and CEO",
+        "doc_title": "Strategic Education Inc Q3 2025 Earnings Call",
+        "date": "2025-11-06",
+        "document_id": 55037
+      },
+      {
+        "quote": "Our notional model, which contemplates 200 basis points of expansion per year on a five-year basis, that assumes some amount of productivity benefit.",
+        "speaker": "Daniel Jackson",
+        "role": "EVP and CFO",
+        "doc_title": "Strategic Education Inc Q4 2025 Earnings Call",
+        "date": "2026-02-26",
+        "document_id": 145875
+      }
+    ],
+    "first_stated": null,
+    "times_repeated": 8
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 22.47,
+      "FY2027": 24.05,
+      "FY2028": 25.31
+    },
+    "consensus_margin_at_target_year_pct": 18.35,
+    "gap_bps_vs_target": 111.7,
+    "gap_assumption": "Operating margin basis throughout, VA FY = calendar fiscal year. Target FY2027 = FY2025 VA operating margin 15.47% + 200 bps x 2 = 19.47% vs FY2027 consensus 18.35% = +111.7 bps. FY2026: 17.47% vs consensus 16.84% = +63.1 bps (part of the FY2026 gap may be the $13M FWO reserve, about 100 bps of revenue, if brokers include it). FY2028 consensus 19.66%. Only 3 brokers.",
+    "ebitda_uplift_pct_if_target_hit": 0.0458,
+    "source": "Baba data_financials fundamentals consensus (Visible Alpha), cid 1000926. Uplift = 111.7 bps x FY2027 revenue $1,338.5M / FY2027 consensus EBITDA $326.4M = 4.6%, flat D&A (data_compute)."
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      37.8,
+      null
+    ],
+    "note": "Operating margin basis. Q1 2026 (VA 1QFY-2026 actual) 14.12% vs 13.74% = +37.8 bps. Q2 2026 VA row still holds consensus; reported revenue $330M (+3%) and adjusted EPS $1.76 (+16%) with a $13M FWO reserve, margin YoY not computed. Q4 2025 operating margin +390 bps to 16.9%; FY2025 +260 bps to 15.5% (CEO, doc 145875). Revenue growth is below the 4% to 6% model on Australia visa caps and US enrollment declines. 4-month forward EBITDA revision +1.1%, 12-month +0.6%. Net cash, no debt."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 1,
+    "C_numeric_framing": 3,
+    "D_unproven": 2,
+    "total": 8
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Mechanically scores well (cheap, 200 bps a year through 2027 and about 112 bps above FY2027 consensus) but no management catalyst: a 13-year CEO restating a 2023 model, so it lacks the GXO change-of-hands trigger.",
+  "open_questions": [
+    "Is the 112 bps FY2027 gap real or an artifact of only 3 brokers and how they treat the $13M FWO reserve and reinvested savings?",
+    "Does revenue (Australia visa caps, US unaffiliated enrollment declines) fall far enough below the 4% to 6% model to cap the margin path?",
+    "Will the board refresh management or hold a new Investor Day, since the notional model dates from 2023 and there is no new leadership?"
+  ],
+  "sources": [
+    {
+      "document_id": 110818,
+      "title": "Strategic Education Inc Q2 2026 Earnings Call",
+      "date": "2026-07-29"
+    },
+    {
+      "document_id": 145875,
+      "title": "Strategic Education Inc Q4 2025 Earnings Call",
+      "date": "2026-02-26"
+    },
+    {
+      "document_id": 55037,
+      "title": "Strategic Education Inc Q3 2025 Earnings Call",
+      "date": "2025-11-06"
+    },
+    {
+      "document_id": 39922,
+      "title": "Strategic Education, Inc. DEF 14A 0001104659-26-026380 (CEO tenure)",
+      "date": null
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001013934-25-000022 (director resignation)",
+      "date": "2025-05-23"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001013934-25-000009 (auditor change)",
+      "date": "2025-03-03"
+    }
+  ],
+  "tool_calls": 20
+}

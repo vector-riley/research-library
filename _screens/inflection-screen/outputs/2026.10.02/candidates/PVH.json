@@ -1,0 +1,88 @@
+{
+  "ticker": "PVH",
+  "cid": 1001292,
+  "name": "PVH CORP",
+  "industry": "Clothing and Accessories",
+  "as_of": "2026-10-02",
+  "business": "Designs and markets Calvin Klein and Tommy Hilfiger apparel, underwear, jeans and accessories, sold wholesale to department stores and directly through its stores and e-commerce worldwide.",
+  "quant": {
+    "mcap_usd": 3527025000.0,
+    "drawdown": -0.4713,
+    "pctile_ev_ebitda_60m": 0.1333,
+    "price_ltm_pct": -0.1143,
+    "ebitda_margin_ltm": 0.1212,
+    "ebitda_margin_fwd_consensus": 0.1189,
+    "industry_median_margin": 0.136,
+    "ev_ebitda_fy": 4.54,
+    "net_debt_ltm_ebitda": 1.21,
+    "ebitda_revision_12m": -0.0053,
+    "ebitda_brokers": 10
+  },
+  "catalyst": {
+    "type": ["new_cfo"],
+    "events": [
+      {"what": "CFO departed to pursue an opportunity in another industry", "who": "Zachary (Zac) Coughlin", "from": null, "effective": "2025-12-31", "source": "8-K 0000078239-25-000081", "external_hire": null},
+      {"what": "Interim CFO", "who": "Melissa Stone", "from": "PVH EVP Global Financial Planning and Analysis", "effective": "2026-01-01", "source": "8-K 0000078239-25-000081", "external_hire": false},
+      {"what": "CFO appointed (missed by the Stage 2 sweep); Stone returns to EVP FP&A", "who": "Alexis Rollier", "from": "Sephora (Global COO and Global CFO; 14 years)", "effective": "2026-09-07", "source": "8-K 0001213900-26-077971 (filed 2026-07-14; 'early September 2026', Stone's interim role ends 2026-09-07)", "external_hire": true},
+      {"what": "Global President, Calvin Klein (internal; Eva Serrano left)", "who": "David Savman", "from": "PVH Chief Supply Chain Officer", "effective": null, "source": "8-K 0000078239-25-000034 (filed 2025-05-08)", "external_hire": false},
+      {"what": "Principal accounting officer change (internal)", "who": "Erik Graf", "from": "PVH SVP External Reporting", "effective": "2025-05-01", "source": "8-K 0000078239-25-000006", "external_hire": false},
+      {"what": "CEO (unchanged, context)", "who": "Stefan Larsson", "from": null, "effective": "2021-02-01", "source": "8-K 0000078239-20-000099", "external_hire": true}
+    ],
+    "months_since_primary": 0.8,
+    "ceo_months_in_seat": 68.0,
+    "next_event": {"type": "none known", "date": null, "source": "No investor day or framework update found in Baba FY2027-label transcripts; CEO on 2026-09-14: 'We are not going to guide 2027' (Goldman Sachs Global Consumer and Retail Conference, document_id 221001). Next event is the Q3 fiscal 2026 call (date not in corpus); fiscal 2027 guidance would come with Q4 in about March or April 2027."}
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "operating margin",
+    "metric_basis_note": "Target is a 15% non-GAAP EBIT (operating) margin from the PVH+ Plan (2022; an analyst described it on 2023-09-12, document_id 88376, as '15% EBIT target by 2025'). The 2025 date lapsed (CFO, 2024-04-02: 'may take a year or two longer'); last management restatement found was 'medium term' (2025-09-04). Fiscal 2026 guide is about 8.8% operating margin, 11% excluding gross tariffs. Comparisons below use consensus operating margin, not EBITDA. PVH fiscal year ends about Feb 1; Baba labels by end year (Baba FY2027 = PVH fiscal 2026).",
+    "current_level_pct": 8.8,
+    "target_level_pct": 15.0,
+    "target_year": null,
+    "has_year": false,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {"quote": "I think, though, with respect to timing of achieving the 15%, our expectations for 2024 obviously makes our 2025 target timing exceedingly difficult. The PVH+ Plan and the five growth drivers are absolutely the right strategy for us to drive sustainable, long-term profitable growth. And importantly, given our progress across the P&L, our path to the 15% remains fully intact, even if it may take a year or two longer.", "speaker": "Zac Coughlin", "role": "CFO", "doc_title": "PVH CORP Q4 2024 Earnings Call (Baba label; PVH fiscal Q4 2023)", "date": "2024-04-02", "document_id": 83096},
+      {"quote": "Yeah, I think what gives us confidence is that the building blocks ahead of us from where we are today, moving forward up towards 15%, are very much in our control.", "speaker": "Zac Coughlin", "role": "CFO", "doc_title": "Goldman Sachs 32nd Annual Global Retailing Conference 2025", "date": "2025-09-04", "document_id": 48590},
+      {"quote": "We expect our non-GAAP operating margins to hold steady at 8.8% or 11% excluding the gross impact from tariffs.", "speaker": "Stefan Larsson", "role": "CEO", "doc_title": "PVH CORP Q4 2026 Earnings Call (Baba label; PVH fiscal Q4 2025)", "date": "2026-04-01", "document_id": 45049},
+      {"quote": "We are not going to guide 2027, but we have done a lot of the heavy lifting.", "speaker": "Stefan Larsson", "role": "CEO (answering whether PVH can get back to double digit and potentially 15%)", "doc_title": "Goldman Sachs Global Consumer and Retail Conference", "date": "2026-09-14", "document_id": 221001}
+    ],
+    "first_stated": "2024-04-02",
+    "times_repeated": 3
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {"FY2026": 11.87, "FY2027": 11.93, "FY2028": 11.56},
+    "consensus_margin_at_target_year_pct": 8.48,
+    "gap_bps_vs_target": 652,
+    "gap_assumption": "No target year, so the gap uses the last full consensus year with an operating margin row: Baba FY2029 (PVH fiscal 2028) operating margin 8.48% vs 15%, so +652 bps (data_compute). Consensus operating margin: 8.83% FY2026 (actual), 8.75% FY2027 (equals the ~8.8% guide), 8.44% FY2028, 8.48% FY2029; FY2030 8.78% from operating income over revenue. EBITDA margins shown by FY are consensus EBITDA/revenue. The street models no expansion at all.",
+    "ebitda_uplift_pct_if_target_hit": 57.8,
+    "source": "Baba data_financials fundamentals (Visible Alpha consensus), 2026-10-01"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [-161, -222],
+    "note": "Order [Q1 fiscal 2026, Q2 fiscal 2026], operating margin. Q1 6.5% vs 8.1% (document_id 45048; VA 1QFY-2026). Q2 reported 11.1% includes about 510 bps of tariff refunds (interim CFO Stone, document_id 217510); excluding refunds about 6.0% vs 8.2%. Q3 guided about 7.5%. Spring 2027 Europe order book down mid-single digits. About $45M of annualized cost savings confirmed. LTM EBITDA margin 12.1% is approximate (Q2 revenue derived from the reported -3% and Q2 D&A from the VA estimate) and includes the refunds."
+  },
+  "score": {"A_underperformance": 2, "B_catalyst": 2, "C_numeric_framing": 2, "D_unproven": 2, "total": 8},
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Rubric 8, but a weak GXO match: the only catalyst is a new external CFO under a five-year CEO, and the 15% EBIT target already missed its 2025 date and is no longer reaffirmed.",
+  "open_questions": [
+    "Will new CFO Alexis Rollier reset or drop the 15% EBIT target when fiscal 2027 guidance is given (about March 2027)?",
+    "How much of the 2.2-point gap between guided 11% ex-tariff and 8.8% reported margin is recoverable versus permanent tariff cost?",
+    "With Europe wholesale orders down mid-single digits, can margin expand at all without revenue growth?"
+  ],
+  "sources": [
+    {"document_id": 83096, "title": "PVH CORP Q4 2024 Earnings Call (fiscal Q4 2023)", "date": "2024-04-02"},
+    {"document_id": 48590, "title": "Goldman Sachs 32nd Annual Global Retailing Conference 2025", "date": "2025-09-04"},
+    {"document_id": 45049, "title": "PVH CORP Q4 2026 Earnings Call (fiscal Q4 2025)", "date": "2026-04-01"},
+    {"document_id": 45048, "title": "PVH CORP Q1 2027 Earnings Call (fiscal Q1 2026)", "date": null},
+    {"document_id": 217510, "title": "PVH CORP Q2 2027 Earnings Call (fiscal Q2 2026)", "date": "2026-09-03"},
+    {"document_id": 221001, "title": "Goldman Sachs Global Consumer and Retail Conference", "date": "2026-09-14"},
+    {"document_id": 88376, "title": "Goldman Sachs 30th Annual Global Retailing Conference", "date": "2023-09-12"},
+    {"document_id": 0, "title": "Baba data_comps and data_financials fundamentals (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0000078239-25-000081, 0001213900-26-077971, 0000078239-25-000034, 0000078239-25-000006, 0000078239-20-000099", "date": "2020-11-23 to 2026-07-14"}
+  ],
+  "tool_calls": 15
+}

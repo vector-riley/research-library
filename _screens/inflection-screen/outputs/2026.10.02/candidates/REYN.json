@@ -1,0 +1,170 @@
+{
+  "ticker": "REYN",
+  "cid": 1004687,
+  "name": "Reynolds Consumer Products Inc.",
+  "industry": "Household Products",
+  "as_of": "2026-10-02",
+  "business": "Reynolds sells Reynolds Wrap foil, Hefty trash and storage bags, disposable tableware and store-brand equivalents to US grocers, mass merchants and clubs.",
+  "quant": {
+    "mcap_usd": 4649086000.0,
+    "drawdown": -0.2882505804622659,
+    "pctile_ev_ebitda_60m": 0.016666666666666666,
+    "price_ltm_pct": -0.08156705943257703,
+    "ebitda_margin_ltm": 0.1804,
+    "ebitda_margin_fwd_consensus": 0.17967004681468382,
+    "industry_median_margin": 0.18,
+    "ev_ebitda_fy": 8.802119000957529,
+    "net_debt_ltm_ebitda": 2.19319312113503,
+    "ebitda_revision_12m": -0.0062511150479585,
+    "ebitda_brokers": 5.0
+  },
+  "catalyst": {
+    "type": [
+      "new_ceo",
+      "new_cfo",
+      "board_refresh",
+      "strategy_update"
+    ],
+    "events": [
+      {
+        "what": "CEO and President (internal promotion from CFO); Lance Mitchell retires",
+        "who": "Scott E. Huckins",
+        "from": "Reynolds CFO since November 2023; before that CFO of SunOpta and Claire's Stores",
+        "effective": "2025-01-01",
+        "source": "8-K 0001193125-24-246994",
+        "external_hire": false
+      },
+      {
+        "what": "CFO (internal promotion from VP FP&A)",
+        "who": "Nathan D. Lowe",
+        "from": "Reynolds VP Financial Planning and Analysis since 2021",
+        "effective": "2025-01-01",
+        "source": "8-K 0001193125-24-246994",
+        "external_hire": false
+      },
+      {
+        "what": "Director added, board 8 to 9 (son-in-law of controlling holder Graeme Hart, PFL)",
+        "who": "Duncan Hawkesby",
+        "from": "Hawkesby Management; Graham Packaging board",
+        "effective": "2025-07-23",
+        "source": "8-K 0001628280-25-036054",
+        "external_hire": null
+      },
+      {
+        "what": "Operating segments realigned into Hefty Waste and Clean-Up, Hefty Storage and Organization, Reynolds Cooking and Kitchen Essentials, Hefty Home and Tableware",
+        "who": "Management",
+        "from": "",
+        "effective": "2026-01-01",
+        "source": "doc 186028 (Q1 2026 call, Huckins)",
+        "external_hire": null
+      },
+      {
+        "what": "Non-executive Chairman appointed (outside window)",
+        "who": "Rolf Stangl",
+        "from": "ex CEO SIG Group; Apollo senior advisor",
+        "effective": "2024-09-23",
+        "source": "8-K 0001193125-24-223772",
+        "external_hire": true
+      }
+    ],
+    "months_since_primary": 21,
+    "ceo_months_in_seat": 21,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "No Investor Day or framework update found in Baba 2025 to 2026 transcripts; Q3 2026 earnings call date not stated. Huckins's amended employment agreement term ends 2026-12-31 (8-K 0001193125-24-246994), no successor or extension announced."
+    }
+  },
+  "margin_framing": {
+    "numeric": false,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "No margin target, rate or savings figure with a horizon. Only one-year absolute guides: FY2026 adjusted EBITDA $660M to $675M and revenue +1% to +3%. CFO says July pricing will be 'a numerical headwind to margin rate' in H2 2026. Margin is driven by aluminum and resin costs ($400M annualized commodity headwind, about 10% of revenue).",
+    "current_level_pct": 18.04,
+    "target_level_pct": null,
+    "target_year": null,
+    "has_year": null,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "We now expect approximately $400 million of commodity headwinds on an annualized basis, up from $200 million when we reported in April, reflecting changes in commodity rates from the end of March to where markets settled at the end of June.",
+        "speaker": "Nathan Lowe",
+        "role": "CFO",
+        "doc_title": "Reynolds Consumer Products Inc Q2 2026 Earnings Call",
+        "date": "2026-07-29",
+        "document_id": 110804
+      },
+      {
+        "quote": "Productivity gains from lean deployment and automation are expanding margins. The savings they generate help fund reinvestment back into the business.",
+        "speaker": "Nathan Lowe",
+        "role": "CFO",
+        "doc_title": "Reynolds Consumer Products Inc Q2 2026 Earnings Call",
+        "date": "2026-07-29",
+        "document_id": 110804
+      },
+      {
+        "quote": "What remains true in the back half of the year is we've continued to focus on those productivity initiatives that will drive profitability, but I would expect the incremental pricing that's taking effect in July to be a numerical headwind to margin rate.",
+        "speaker": "Nathan Lowe",
+        "role": "CFO",
+        "doc_title": "Reynolds Consumer Products Inc Q2 2026 Earnings Call",
+        "date": "2026-07-29",
+        "document_id": 110804
+      }
+    ],
+    "first_stated": null,
+    "times_repeated": 0
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 0.1757,
+      "FY2027": 0.1797,
+      "FY2028": 0.1825
+    },
+    "consensus_margin_at_target_year_pct": null,
+    "gap_bps_vs_target": null,
+    "gap_assumption": "No management margin target, so no gap. Calendar fiscal year, Baba FY labels equal company years. Consensus EBITDA FY2026 $667.7M (inside the $660M to $675M guide), FY2027 $694.5M, FY2028 $717.2M.",
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials consensus (summary), data_comps"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      41,
+      63
+    ],
+    "note": "VA EBITDA margin yoy: Q4 2025 +41 bps, Q1 2026 +63 bps. VA has not loaded Q2 2026; per Huckins H1 2026 adjusted EBITDA $302M (+8%) on revenue of $1.8B (+4%), and per Lowe H1 gross margin +120 bps (doc 110804). LTM 18.04% uses Q2 2025 to Q1 2026."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 1,
+    "C_numeric_framing": 1,
+    "D_unproven": 2,
+    "total": 6
+  },
+  "disqualified": true,
+  "disqualifier_reason": "Catalyst older than 18 months with no pending change: Huckins (internal, ex CFO) and CFO Lowe both took office 2025-01-01, 21 months ago; in-window items are a controlling-holder board seat and a segment realignment. Margin is also commodity driven (aluminum and resin, $400M annualized headwind passed through by pricing), and management has given no numeric margin framework.",
+  "verdict": "Cheap, controlled foil and bag maker with stable estimates, but the CEO change is 21 months old, internal, and margins track aluminum and resin with no target.",
+  "open_questions": [
+    "Is Huckins's employment agreement (term ends 2026-12-31) extended, or is a further CEO change coming?",
+    "Does management ever set a margin or productivity savings target, or stay with one-year EBITDA dollar guides?",
+    "How much of the H1 2026 gross margin gain reverses as July pricing on the $400M commodity headwind flows through?"
+  ],
+  "sources": [
+    {
+      "document_id": 110804,
+      "title": "Reynolds Consumer Products Inc Q2 2026 Earnings Call",
+      "date": "2026-07-29"
+    },
+    {
+      "document_id": 186028,
+      "title": "Reynolds Consumer Products Inc Q1 2026 Earnings Call",
+      "date": "2026-05-06"
+    },
+    {
+      "document_id": 50319,
+      "title": "Reynolds Consumer Products Inc Q1 2025 Earnings Call",
+      "date": null
+    }
+  ],
+  "tool_calls": 14
+}

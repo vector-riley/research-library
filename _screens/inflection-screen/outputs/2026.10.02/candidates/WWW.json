@@ -1,0 +1,46 @@
+{
+  "ticker": "WWW", "cid": 1000226, "name": "Wolverine World Wide Inc", "industry": "Footwear", "as_of": "2026-10-02",
+  "business": "Designs, sources and sells branded footwear and apparel (Merrell, Saucony, Sweaty Betty, Wolverine, Cat) to retailers, distributors and consumers worldwide.",
+  "quant": {"mcap_usd": 1578500000.0, "drawdown": -0.3974, "pctile_ev_ebitda_60m": 0.30, "price_ltm_pct": -0.2885,
+            "ebitda_margin_ltm": 0.1059, "ebitda_margin_fwd_consensus": 0.1142, "industry_median_margin": 0.203, "ev_ebitda_fy": 8.38,
+            "net_debt_ltm_ebitda": 2.05, "ebitda_revision_12m": 0.0102, "ebitda_brokers": 6},
+  "catalyst": {"type": ["board_refresh"],
+               "events": [
+                 {"what": "No CEO change in window: Christopher Hufnagel became President and CEO when the board terminated Brendan Hoffman (internal promotion; was President of the company)", "who": "Christopher E. Hufnagel", "from": "President, Wolverine World Wide", "effective": "2023-08-06", "source": "8-K 0000110471-23-000108, 0000110471-23-000124", "external_hire": false},
+                 {"what": "No CFO change in window: Taryn Miller replaced retiring CFO Michael Stornant 29 months ago", "who": "Taryn Miller", "from": "VP Corporate and Commercial Finance, Corteva; ex Kimberly-Clark", "effective": "2024-05-09", "source": "8-K 0000110471-24-000107", "external_hire": true},
+                 {"what": "Two new independent directors added (board size increase); routine refresh", "who": "Cheryl Abel-Hodges, Jack Boyle", "from": null, "effective": "2025-07-01", "source": "8-K 0000110471-25-000100", "external_hire": true},
+                 {"what": "President, Active Group position eliminated (Susie Kuhn departs); follows elimination of President, International Group (effective 2026-03-03). Org simplification, not a CEO/CFO change. No Item 1.01/2.01 8-K 2024-07-01 to 2026-10-02.", "who": "Susie Kuhn", "from": null, "effective": "2026-09-21", "source": "8-K 0001628280-26-062912; 8-K 0000110471-25-000055", "external_hire": null}
+               ],
+               "months_since_primary": 38, "ceo_months_in_seat": 38,
+               "next_event": {"type": "none known", "date": null, "source": "No investor day or framework update found in 2025/2026 corpus. CFO Miller (Q4 2024 call, doc 41179): 'too early to provide a date on the mid-teens profit margin aspiration'. Next routine event is the Q3 2026 earnings call (Q3 guide given on doc 139594), date not in corpus."}},
+  "margin_framing": {"numeric": true, "metric": "operating margin",
+                     "metric_basis_note": "Company frames adjusted operating margin: long-term 'mid-teens' aspiration (Feb 2025, no date) and FY2026 guide of about 9.9% (raised from 9.5% in Aug 2026). Consensus is EBITDA; converted using the FY2026 spread between consensus EBITDA margin (11.13%) and the guided adjusted operating margin (9.9%), about 123 bps, held flat. The 12% operating margin target with a 2024 year (2023, prior CFO Stornant, Hufnagel co-stated) was missed and is superseded; caller's '12%' premise is outdated. Baba FY labels equal company fiscal years (52/53 week year ending near December 31).",
+                     "current_level_pct": 9.9, "target_level_pct": 15.0, "target_year": null, "has_year": false,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "It's too early to provide a date on the mid-teens profit margin aspiration that we set for our objectives. We are encouraged, as I shared, about the progress in 2024, up 360 basis points, and in 2025, the guide would have another 80, so 440 basis points in two years.", "speaker": "Taryn Miller", "role": "CFO", "doc_title": "WOLVERINE WORLD WIDE INC Q4 2024 Earnings Call", "date": "2025-02-19", "document_id": 41179},
+                       {"quote": "Adjusted operating margin is now expected to be approximately 9.9% compared to our prior outlook of 9.5%, reflecting the higher gross margin and meaningful operating leverage for the year, while also making strategic investments in our brands and key capabilities.", "speaker": "Taryn Miller", "role": "CFO", "doc_title": "WOLVERINE WORLD WIDE INC Q2 2026 Earnings Call", "date": "2026-08-13", "document_id": 139594},
+                       {"quote": "We continue to find opportunity, look for and find opportunities to expand growth and operating margin. We're obviously going to be doing that now in the face of a larger tariff impact. Our value creation model stays intact.", "speaker": "Taryn Miller", "role": "CFO", "doc_title": "WOLVERINE WORLD WIDE INC Q3 2025 Earnings Call", "date": "2025-11-05", "document_id": 41176}
+                     ],
+                     "first_stated": "2025-02-19", "times_repeated": 1},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 11.13, "FY2027": 11.42, "FY2028": 11.58},
+             "consensus_margin_at_target_year_pct": 10.35, "gap_bps_vs_target": 465, "gap_assumption": "No target year, so compared with the furthest broadly covered year FY2028: consensus EBITDA margin 11.58% less the FY2026 EBITDA-to-adjusted-operating-margin spread (11.13% minus 9.9% guide = 1.23 pts) gives an implied 10.35% operating margin; mid-teens taken as 15.0%. Even consensus FY2030 EBITDA margin is only 12.12%. Uplift assumes FY2028 revenue and a flat spread.",
+             "ebitda_uplift_pct_if_target_hit": 40.1, "source": "Baba data_financials consensus (Visible Alpha, fetched 2026-10-01)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [140, 80], "note": "Order [Q1 2026, Q2 2026], adjusted operating margin as stated by CFO Taryn Miller (doc 41174 chunk 8; doc 139594 chunk 9, Q2 at 10.0%). Q3 2026 guided 10.4%, up 130 bps. Gross margin guide 46.9% for 2026 despite about 250 bps unmitigated tariff impact. LTM EBITDA margin 10.6% from VA actuals Q2'25 to Q1'26 (Q2'26 not yet in VA actuals)."},
+  "score": {"A_underperformance": 1, "B_catalyst": 0, "C_numeric_framing": 2, "D_unproven": 2, "total": 5},
+  "disqualified": true, "disqualifier_reason": "No catalyst in the 18-month window and none pending: CEO Hufnagel in seat since 2023-08-06 (38 months) and CFO Miller since 2024-05-09 (29 months); own 8-K Item 5.02 query shows only two routine director adds and eliminations of segment president roles; Item 1.01/2.01 returned nothing; no investor day scheduled.",
+  "verdict": "Not the archetype: a real, undated mid-teens margin aspiration well above consensus with estimates stable, but the turnaround team is 3 years in and no new catalyst exists.",
+  "open_questions": ["Will management put a year on the mid-teens operating margin aspiration (CFO said too early in Feb 2025), for example with 2027 guidance in February 2027?", "Does the 2026-09-21 elimination of the Active Group president role signal a broader restructuring or cost program?", "How much of 2026 margin progress reverses if IEEPA tariff refunds do not come and Work Group stays flat?"],
+  "sources": [
+    {"document_id": 41179, "title": "WOLVERINE WORLD WIDE INC Q4 2024 Earnings Call", "date": "2025-02-19"},
+    {"document_id": 41176, "title": "WOLVERINE WORLD WIDE INC Q3 2025 Earnings Call", "date": "2025-11-05"},
+    {"document_id": 41174, "title": "WOLVERINE WORLD WIDE INC Q1 2026 Earnings Call", "date": "2026-05-14"},
+    {"document_id": 139594, "title": "WOLVERINE WORLD WIDE INC Q2 2026 Earnings Call", "date": "2026-08-13"},
+    {"document_id": 76418, "title": "WOLVERINE WORLD WIDE INC Q2 2023 Earnings Call (old 12% target)", "date": "2023-08-10"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0001628280-26-062912, 0000110471-25-000100, 0000110471-25-000055, 0000110471-25-000004, 0000110471-24-000107 (CFO), 0000110471-23-000108 (CEO); Item 1.01/2.01 query returned none", "date": "2023-08-10 to 2026-09-21"},
+    {"document_id": 0, "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary consensus (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Stage 1 stage1_ranked.csv (industry median margin 0.203)", "date": "2026-10-02"}
+  ],
+  "tool_calls": 22
+}

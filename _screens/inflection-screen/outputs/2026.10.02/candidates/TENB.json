@@ -1,0 +1,48 @@
+{
+  "ticker": "TENB", "cid": 1004232, "name": "Tenable Holdings Inc", "industry": "Systems Software", "as_of": "2026-10-02",
+  "business": "Sells cyber exposure management software (Tenable One, vulnerability management, cloud, identity, OT and AI exposure tools) to enterprises and governments worldwide.",
+  "quant": {"mcap_usd": 4108162480.0, "drawdown": -0.2987, "pctile_ev_ebitda_60m": 0.2167, "price_ltm_pct": 0.2479,
+            "ebitda_margin_ltm": 0.2422, "ebitda_margin_fwd_consensus": 0.2628, "industry_median_margin": 0.339, "ev_ebitda_fy": 13.92,
+            "net_debt_ltm_ebitda": 0.455, "ebitda_revision_12m": 0.0349, "ebitda_brokers": 15},
+  "catalyst": {"type": ["new_ceo", "new_cfo"],
+               "events": [
+                 {"what": "Interim co-CEOs after CEO Amit Yoran took medical leave", "who": "Stephen A. Vintz (also CFO) and Mark Thurmond (also COO)", "from": "Amit Yoran", "effective": "2024-12-05", "source": "8-K 0001660280-24-000176", "external_hire": false},
+                 {"what": "Amit Yoran died; interim co-CEOs continue; Arthur Coviello named Chairman", "who": "Stephen A. Vintz, Mark Thurmond; Arthur W. Coviello Jr. (Chairman)", "from": "Amit Yoran", "effective": "2025-01-04", "source": "8-K 0001660280-25-000002", "external_hire": false},
+                 {"what": "Vintz and Thurmond made permanent Co-CEOs (no further CEO change filed through 2026-10-02; Baba roster still lists both as Co-CEO)", "who": "Stephen A. Vintz, Mark Thurmond", "from": "interim co-CEOs", "effective": "2025-04-16", "source": "8-K 0001660280-25-000065", "external_hire": false},
+                 {"what": "Co-CEOs added to the board", "who": "Stephen A. Vintz, Mark Thurmond", "from": null, "effective": "2025-05-14", "source": "8-K 0001628280-25-025526", "external_hire": false},
+                 {"what": "New CFO, succeeding Vintz in the CFO role", "who": "Matthew Brown (ex CFO Altair Engineering, interim CFO NortonLifeLock)", "from": "Stephen A. Vintz", "effective": "2025-08-21", "source": "8-K 0001660280-25-000095", "external_hire": true}
+               ],
+               "months_since_primary": 17.5, "ceo_months_in_seat": 17.5,
+               "next_event": {"type": "none known", "date": null, "source": "Investor Day already held 2026-05-21 (document_id 54669) and set 2029 targets; next is the Q3 2026 earnings call, date not in Baba"}},
+  "margin_framing": {"numeric": true, "metric": "operating margin",
+                     "metric_basis_note": "Targets are non-GAAP operating margin (about 28% exiting 2029, about 1.5 points a year from 2025); consensus in Baba is EBITDA. FY2026 consensus EBITDA margin 25.57% vs guided non-GAAP op margin 24.2% gives a 1.37 point D&A-type spread, held flat to restate consensus to the op basis.",
+                     "current_level_pct": 24.7, "target_level_pct": 28.0, "target_year": 2029, "has_year": true,
+                     "annual_bps": 150, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "Within OpEx, we expect to get about 4 percentage points of leverage spread out across sales and marketing, little tiny bit in R&D, and then some in G&A as well, resulting in operating income, operating margin of about 28%, unlevered free cash flow of 31%. That means we hit rule of 40 exiting 2029.", "speaker": "Matt Brown", "role": "CFO", "doc_title": "Tenable Investor Day 2026", "date": "2026-05-21", "document_id": 54669},
+                       {"quote": "What this ends up translating to is about 1.5 points of operating margin growth each year.", "speaker": "Matt Brown", "role": "CFO", "doc_title": "Tenable Investor Day 2026", "date": "2026-05-21", "document_id": 54669},
+                       {"quote": "For full year 2026, we are raising our guidance range for non-GAAP operating income to $258 million-$264 million or 24.2% of revenue at the midpoint, representing a year-over-year increase of 230 basis points.", "speaker": "Matt Brown", "role": "CFO", "doc_title": "Tenable Holdings Inc Q2 2026 Earnings Call", "date": "2026-07-29", "document_id": 110825}
+                     ],
+                     "first_stated": "2026-05-21", "times_repeated": 1},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 25.57, "FY2027": 26.28, "FY2028": 27.97},
+             "consensus_margin_at_target_year_pct": 29.86, "gap_bps_vs_target": -49,
+             "gap_assumption": "December fiscal year, Baba FY labels equal company fiscal years. Compares 28% non-GAAP op margin target (exiting 2029) with FY2029 consensus EBITDA margin 29.86% less a 1.37 point EBITDA-minus-op spread taken from FY2026 (consensus EBITDA margin 25.57% vs guided op margin 24.2%), i.e. street about 28.5% on an op basis.",
+             "ebitda_uplift_pct_if_target_hit": null, "source": "Baba data_financials consensus (Visible Alpha), 2026-10-01"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [289, 540], "note": "Q1 2026 EBITDA margin up 289 bps YoY (VA actuals: 24.9% vs 22.0%); Q2 2026 non-GAAP operating margin 24.7%, up 540 bps YoY (8-K 0001660280-26-000032 EX-99.1, document_id 144178). VA has not yet loaded Q2 2026 EBITDA actual, so LTM EBITDA margin (24.2%) runs 2Q25 to 1Q26."},
+  "score": {"A_underperformance": 2, "B_catalyst": 2, "C_numeric_framing": 3, "D_unproven": 0, "total": 7},
+  "disqualified": true, "disqualifier_reason": "Margin target already reflected in consensus: FY2029 consensus EBITDA margin 29.86% restates to about 28.5% on an op basis, about 49 bps above the 28% exit-2029 target. Leadership change is internal (co-CEOs were the CFO and COO), and the Investor Day that made the framing numeric has already passed.",
+  "verdict": "Clean numeric 2029 target and an outside CFO, but the street already models more than the 28% op margin; no unproven gap.",
+  "open_questions": [
+    "Does the co-CEO structure persist, or is a single CEO search pending (nothing filed through 2026-10-02)?",
+    "Is the 540 bps Q2 operating margin jump sustainable given planned second-half reinvestment in sales capacity and product?",
+    "Does consensus FY2029 revenue (high single digit growth) assume the platform-led growth acceleration management described, which would make the margin path easier?"
+  ],
+  "sources": [
+    {"document_id": 54669, "title": "Tenable Investor Day 2026", "date": "2026-05-21"},
+    {"document_id": 110825, "title": "Tenable Holdings Inc Q2 2026 Earnings Call", "date": "2026-07-29"},
+    {"document_id": 195871, "title": "Tenable Holdings Inc Q1 2026 Earnings Call", "date": "2026-04-29"},
+    {"document_id": 144178, "title": "Tenable Holdings, Inc. 8-K (Q2 2026 results EX-99.1)", "date": "2026-07-29"},
+    {"document_id": 94770, "title": "52nd J.P. Morgan Global TMC Conference (prior 25% op margin LT model)", "date": null}
+  ],
+  "tool_calls": 17
+}

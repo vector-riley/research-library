@@ -1,0 +1,161 @@
+{
+  "ticker": "RXO",
+  "cid": 1005443,
+  "name": "RXO, Inc.",
+  "industry": "Trucking",
+  "as_of": "2026-10-02",
+  "business": "RXO brokers truckload freight and provides managed transportation, last mile and forwarding services to shippers in North America, Europe and Asia.",
+  "quant": {
+    "mcap_usd": 3623638560.0,
+    "drawdown": -0.35862068965517235,
+    "pctile_ev_ebitda_60m": 0.24324324324324326,
+    "price_ltm_pct": 0.330299089726918,
+    "ebitda_margin_ltm": 0.0162,
+    "ebitda_margin_fwd_consensus": 0.03360757137700036,
+    "industry_median_margin": 0.175,
+    "ev_ebitda_fy": 16.173944004978623,
+    "net_debt_ltm_ebitda": 3.726690136147333,
+    "ebitda_revision_12m": -0.09103715623094588,
+    "ebitda_brokers": 19.0
+  },
+  "catalyst": {
+    "type": [
+      "acquisition"
+    ],
+    "events": [
+      {
+        "what": "Acquired Coyote Logistics from UPS for $1.038B cash (+$10M post-close adjustment); outside the 18-month window",
+        "who": "Coyote Logistics",
+        "from": "UPS",
+        "effective": "2024-09-16",
+        "source": "10-K business description via Baba data_profile; no Item 2.01 8-K returned by sec-api",
+        "external_hire": null
+      },
+      {
+        "what": "Chief Accounting Officer succession (internal); the only Item 5.02 8-K since 2024-07-01",
+        "who": "Daniel Morris succeeds Jason Kerr",
+        "from": "RXO VP Accounting",
+        "effective": "2026-05-15",
+        "source": "8-K 0000950142-26-000221",
+        "external_hire": false
+      },
+      {
+        "what": "CEO since spin-off from XPO (no change); CFO James Harris also in seat since the spin",
+        "who": "Drew Wilkerson",
+        "from": "President, XPO North American transportation",
+        "effective": "2022-11-01",
+        "source": "10-K executive officers via Baba data_profile",
+        "external_hire": false
+      }
+    ],
+    "months_since_primary": 24,
+    "ceo_months_in_seat": 47,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "No Investor Day or framework update found in Baba; last long-term targets were set at the 2022 Investor Day (pre-Coyote) and Wilkerson said in June 2024 'as we get closer, we'll roll something' (doc 68239). Q3 2026 adjusted EBITDA guided $35M to $45M (doc 130108)."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "Through-cycle 'at least mid-single-digit' / 'at least a 5%' EBITDA margin stated by the Chief Strategy Officer, not the CEO or CFO, with no year. The Coyote synergy target ($70M cash: $60M opex, $10M capex) was set and mostly realized in 2025; CFO guided an incremental $10M of P&L benefit in 2026. Margin is driven by the freight cycle (truckload spot rates and gross profit per load), not a self-help program.",
+    "current_level_pct": 1.62,
+    "target_level_pct": 5.0,
+    "target_year": null,
+    "has_year": false,
+    "annual_bps": null,
+    "synergy_usd": 70000000,
+    "synergy_year": 2025,
+    "statements": [
+      {
+        "quote": "When we think about this business through cycle, I think it would be at least a mid-single-digit EBITDA margin business. That's prior to any type of advantage that we'll have as we think about deploying technology across the organization to lead to further productivity gains.",
+        "speaker": "Jared Weisfeld",
+        "role": "Chief Strategy Officer",
+        "doc_title": "RXO, Inc. Q2 2026 Earnings Call",
+        "date": "2026-08-06",
+        "document_id": 130108
+      },
+      {
+        "quote": "You think about just getting volume back, more opportunities for gross profit per load and at least a 5% EBITDA-type margin. We're talking about a long runway from growth from current levels.",
+        "speaker": "Jared Weisfeld",
+        "role": "Chief Strategy Officer",
+        "doc_title": "RXO, Inc. Q2 2026 Earnings Call",
+        "date": "2026-08-06",
+        "document_id": 130108
+      },
+      {
+        "quote": "We talked about around $70 million of synergies, 60 of which was to hit OpEx, 10 of which to hit CapEx. A majority of that has flown through the P&L in 2025. We see about an incremental $10 million of additional P&L realized in 2026 versus 2025 related to synergies alone.",
+        "speaker": "Jamie Harris",
+        "role": "CFO",
+        "doc_title": "RXO, Inc. Q4 2025 Earnings Call",
+        "date": "2026-02-06",
+        "document_id": 52197
+      }
+    ],
+    "first_stated": "2026-05-07",
+    "times_repeated": 2
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 0.0198,
+      "FY2027": 0.0336,
+      "FY2028": 0.044
+    },
+    "consensus_margin_at_target_year_pct": 4.4,
+    "gap_bps_vs_target": 60,
+    "gap_assumption": "No target year stated; 5% through-cycle EBITDA margin compared with the furthest consensus year, Baba FY2028 (calendar FY, labels match company years). Against FY2027 consensus (3.36%) the gap would be about 164 bps.",
+    "ebitda_uplift_pct_if_target_hit": 13.59,
+    "source": "Baba data_financials consensus (summary), data_comps"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      -136,
+      -111
+    ],
+    "note": "VA adjusted EBITDA margin yoy: Q4 2025 -136 bps, Q1 2026 -111 bps (Q1 2026 adjusted EBITDA $6M on $1.425B). VA has not loaded Q2 2026; per Harris Q2 2026 revenue was $1.8B and adjusted EBITDA $40M, above guidance (doc 130108). LTM 1.62% uses Q2 2025 to Q1 2026. Forward estimates are now rising fast: the 4-month EBITDA revision is +11.9% and the 4-month revenue revision +11.9%, on a supply-driven truckload tightening (spot mix 42%)."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 0,
+    "C_numeric_framing": 2,
+    "D_unproven": 0,
+    "total": 4
+  },
+  "disqualified": true,
+  "disqualifier_reason": "Catalyst older than 18 months with no pending change: Coyote closed 2024-09-16 (24 months ago) and its $70M synergy target is mostly realized; CEO and CFO unchanged since the November 2022 spin, and the only in-window 5.02 is a CAO succession. Margin is set by the truckload freight cycle, and the 4-month forward EBITDA revision of +11.9% means the street is already moving (D = 0).",
+  "verdict": "A freight-cycle recovery trade, not a GXO-style setup: no leadership change, Coyote is 24 months old, and estimates are already rising 12% in four months.",
+  "open_questions": [
+    "Will management restate long-term targets post-Coyote, given the last set dates from the 2022 Investor Day?",
+    "How much of the +11.9% four-month EBITDA revision is spot-rate driven and reversible?",
+    "Does the Supreme Court Montgomery broker-liability case raise RXO's insurance cost or carrier vetting cost?"
+  ],
+  "sources": [
+    {
+      "document_id": 130108,
+      "title": "RXO, Inc. Q2 2026 Earnings Call",
+      "date": "2026-08-06"
+    },
+    {
+      "document_id": 189031,
+      "title": "RXO, Inc. Q1 2026 Earnings Call",
+      "date": "2026-05-07"
+    },
+    {
+      "document_id": 52197,
+      "title": "RXO, Inc. Q4 2025 Earnings Call",
+      "date": "2026-02-06"
+    },
+    {
+      "document_id": 52202,
+      "title": "RXO, Inc. Q1 2025 Earnings Call",
+      "date": null
+    },
+    {
+      "document_id": 68239,
+      "title": "M&A Announcement",
+      "date": "2024-06-24"
+    }
+  ],
+  "tool_calls": 18
+}

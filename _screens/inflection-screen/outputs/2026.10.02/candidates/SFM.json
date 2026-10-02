@@ -1,0 +1,183 @@
+{
+  "ticker": "SFM",
+  "cid": 1001026,
+  "name": "Sprouts Farmers Market, Inc.",
+  "industry": "Food Retailers",
+  "as_of": "2026-10-02",
+  "business": "Sprouts runs US specialty grocery stores selling fresh, natural and organic food, produce, vitamins and private-label Sprouts products to health-focused consumers.",
+  "quant": {
+    "mcap_usd": 6087556800.0,
+    "drawdown": -0.6304,
+    "pctile_ev_ebitda_60m": 0.1,
+    "price_ltm_pct": -0.3902,
+    "ebitda_margin_ltm": 0.0944,
+    "ebitda_margin_fwd_consensus": 0.0907,
+    "industry_median_margin": 0.054,
+    "ev_ebitda_fy": 6.45,
+    "net_debt_ltm_ebitda": -0.13,
+    "ebitda_revision_12m": -0.1323,
+    "ebitda_brokers": 12
+  },
+  "catalyst": {
+    "type": [
+      "new_ceo",
+      "board_refresh"
+    ],
+    "events": [
+      {
+        "what": "Announced and pending: President and COO becomes CEO and director; Jack Sinclair (CEO since June 2019) becomes Executive Chairman; Joe Fortunato moves from Chairman to lead independent director",
+        "who": "Nick Konat",
+        "from": "Sprouts President and COO since March 2022; ex Petco Chief Merchandising Officer, Target, Accenture",
+        "effective": "2027-01-04",
+        "source": "8-K 0001575515-26-000041 filed 2026-09-01 (Baba document_id 216806)",
+        "external_hire": false
+      },
+      {
+        "what": "New director appointed (Audit Committee); Doug Rauch retires from board",
+        "who": "Andrew Jhawar",
+        "from": "",
+        "effective": "2026-05-19",
+        "source": "8-K 0001575515-26-000025",
+        "external_hire": true
+      },
+      {
+        "what": "Chief Merchandising Officer J. Scott Neal retires; Don Clark appointed",
+        "who": "Don Clark",
+        "from": "",
+        "effective": "2026-02-16",
+        "source": "8-K 0001575515-26-000007",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 1.0,
+    "ceo_months_in_seat": 0,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "Lexical 'investor day' search over FY2026 corpus (cid 1001026) returned no hits. The first natural framing point is the Q4 2026 call with 2027 guidance (about February 2027), the first under Konat as CEO; Q3 2026 earnings (late October, date not in Baba) is the last under Sinclair."
+    }
+  },
+  "margin_framing": {
+    "numeric": false,
+    "metric": "operating margin",
+    "metric_basis_note": "Management frames EBIT margin as 'stable' within its long-term algorithm, not expanding. The only numbers are near-term and negative: Q1 2026 EBIT margin pressure of about 85 bps, Q2 about 75 bps, Q3 about 50 bps, and a fiscal 2026 EBIT guide of $675M to $685M (52-week basis, CFO 2026-07-29). No margin level, annual rate or savings target with a year. The incoming CEO has given no framing.",
+    "current_level_pct": 9.44,
+    "target_level_pct": null,
+    "target_year": null,
+    "has_year": false,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "Yeah, I think it's flat for EBIT margins is how we think about it, stable EBIT margins. It'll be a little bit positive on the gross side, and then a little bit of pressure at a 0% to 2% comp.",
+        "speaker": "Curtis Valentine",
+        "role": "CFO",
+        "doc_title": "Sprouts Farmers Market, Inc. Q3 2025 Earnings Call",
+        "date": "2025-10-29",
+        "document_id": 44589
+      },
+      {
+        "quote": "As we think about the second half, you know, we expect margins to stabilize. Really think about that from an EBIT perspective. There'll be a little bit of pressure as the comp continues to improve and get back into the algorithm. Once we're there, we'd expect that stable margin kind of posture that we talk about.",
+        "speaker": "Curtis Valentine",
+        "role": "CFO",
+        "doc_title": "Sprouts Farmers Market, Inc. Q1 2026 Earnings Call",
+        "date": "2026-04-29",
+        "document_id": 157060
+      },
+      {
+        "quote": "Earnings before interest and taxes is expected to be between $675 million and $685 million.",
+        "speaker": "Curtis Valentine",
+        "role": "CFO",
+        "doc_title": "Sprouts Farmers Market, Inc. Q2 2026 Earnings Call",
+        "date": "2026-07-29",
+        "document_id": 110816
+      },
+      {
+        "quote": "EBIT margin pressure is expected to be approximately 50 basis points due to fixed cost deleverage from lower comp sales and the impact of more new store openings when compared to the third quarter last year.",
+        "speaker": "Curtis Valentine",
+        "role": "CFO",
+        "doc_title": "Sprouts Farmers Market, Inc. Q2 2026 Earnings Call",
+        "date": "2026-07-29",
+        "document_id": 110816
+      },
+      {
+        "quote": "We remain focused on executing our growth strategy, expanding into new markets and strengthening our connection with customers as we navigate an evolving consumer environment.",
+        "speaker": "Nick Konat",
+        "role": "incoming CEO (press release)",
+        "doc_title": "Sprouts Farmers Market, Inc. 8-K EX-99.1 CEO succession",
+        "date": "2026-09-01",
+        "document_id": 216806
+      }
+    ],
+    "first_stated": "2025-10-29",
+    "times_repeated": 3
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 9.28,
+      "FY2027": 9.07,
+      "FY2028": 8.77
+    },
+    "consensus_margin_at_target_year_pct": null,
+    "gap_bps_vs_target": null,
+    "gap_assumption": "No margin target, so no gap. Fiscal year ends late December, so VA labels equal company fiscal years (fyem 12; fiscal 2026 is a 53-week year). The street models EBITDA margin falling from 9.28% (FY2026) to 9.07% (FY2027) and 8.77% (FY2028). Management's qualitative 'stable margin' posture, if read as holding the FY2026 level, would sit about 50 bps above FY2028 consensus, but no number has been stated.",
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials summary consensus (Visible Alpha) cid 1001026; margins via data_compute"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      52,
+      -62
+    ],
+    "note": "VA EBITDA margin: 4Q FY2025 +52 bps yoy; 1Q FY2026 -62 bps yoy (loyalty investment, lapping double-digit comps). VA has not loaded the Q2 2026 actual (reported 2026-07-29; comps -1%, Q2 EBIT margin pressure guided at about 75 bps). Estimates: 12-month forward EBITDA revision -13.2%, but the 4-month revision is +0.6%, so cuts have stopped. LTM 9.44% uses VA 2Q25 to 1Q26."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 2,
+    "C_numeric_framing": 0,
+    "D_unproven": 2,
+    "total": 6
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Broken, cheap stock (down 63%, 10th pctile) with estimates stabilizing and an internal CEO handover set for 2027-01-04, but management frames margins as stable, not expanding; no GXO-style margin story unless Konat sets one.",
+  "open_questions": [
+    "Will Konat give a multi-year margin or EBIT framework with 2027 guidance (about February 2027), and does 'stable' become a number above the 8.77% FY2028 consensus?",
+    "Does the street's modeled margin decline (9.28% to 8.77%) reflect price investment and new-store drag that management also expects, or a disagreement?",
+    "Was the board's 'comprehensive search' a real external search, and does the Sinclair Executive Chairman role limit any change in strategy?"
+  ],
+  "sources": [
+    {
+      "document_id": 216806,
+      "title": "Sprouts Farmers Market, Inc. 8-K CEO succession (0001575515-26-000041)",
+      "date": "2026-09-01"
+    },
+    {
+      "document_id": 157060,
+      "title": "Sprouts Farmers Market, Inc. Q1 2026 Earnings Call",
+      "date": "2026-04-29"
+    },
+    {
+      "document_id": 110816,
+      "title": "Sprouts Farmers Market, Inc. Q2 2026 Earnings Call",
+      "date": "2026-07-29"
+    },
+    {
+      "document_id": 157061,
+      "title": "Sprouts Farmers Market, Inc. Q4 2025 Earnings Call",
+      "date": "2026-02-19"
+    },
+    {
+      "document_id": 44589,
+      "title": "Sprouts Farmers Market, Inc. Q3 2025 Earnings Call",
+      "date": "2025-10-29"
+    },
+    {
+      "document_id": 39851,
+      "title": "Sprouts Farmers Market, Inc. DEF 14A",
+      "date": "2026-04-07"
+    }
+  ],
+  "tool_calls": 21
+}
