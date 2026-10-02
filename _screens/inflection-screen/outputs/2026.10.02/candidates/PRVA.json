@@ -1,0 +1,88 @@
+{
+  "ticker": "PRVA",
+  "cid": 1005072,
+  "name": "Privia Health Group Inc",
+  "industry": "Health Care Services",
+  "as_of": "2026-10-02",
+  "business": "Physician-enablement company giving US physician practices, health plans and health systems technology, practice management, a single-TIN medical group and ACOs for value-based care.",
+  "quant": {
+    "mcap_usd": 2640499476.99,
+    "drawdown": -0.2993,
+    "pctile_ev_ebitda_60m": 0.0,
+    "price_ltm_pct": -0.2092,
+    "ebitda_margin_ltm": 0.061,
+    "ebitda_margin_fwd_consensus": 0.0647,
+    "industry_median_margin": 0.10,
+    "ev_ebitda_fy": 12.85,
+    "net_debt_ltm_ebitda": -2.80,
+    "ebitda_revision_12m": 0.0865,
+    "ebitda_brokers": 15
+  },
+  "catalyst": {
+    "type": ["board_refresh"],
+    "events": [
+      {"what": "CEO succession (planned internal promotion; founder-era CEO Shawn Morris retired to the board)", "who": "Parth Mehrotra", "from": "Privia President and COO", "effective": "2023-07-01", "source": "8-K 0001759655-23-000062", "external_hire": false},
+      {"what": "CEO employment agreement amended (salary $650K, LTI target $8M); not a leadership change", "who": "Parth Mehrotra", "from": null, "effective": "2025-03-24", "source": "8-K 0001759655-25-000023", "external_hire": null},
+      {"what": "Director added (board 9 to 10), Audit Committee", "who": "Lance Berberian", "from": null, "effective": "2025-07-15", "source": "8-K 0001759655-25-000080", "external_hire": true},
+      {"what": "Former CEO resigned from the board", "who": "Shawn Morris", "from": null, "effective": "2026-07-06", "source": "8-K 0001759655-26-000056", "external_hire": null},
+      {"what": "Director added, Compliance Committee", "who": "Opella Ernest, M.D.", "from": null, "effective": "2026-09-01", "source": "8-K 0001759655-26-000068", "external_hire": true},
+      {"what": "Tuck-in acquisition of an Arizona medical group (IMS), $95M cash", "who": "IMS (Arizona)", "from": null, "effective": null, "source": "Q1 2025 call document_id 51129 (CFO: $95 million deployed in April 2025); Q2 2025 call document_id 51128; no Item 2.01/1.01 8-K returned", "external_hire": null},
+      {"what": "Acquisition of Evolent Health's ACO business (closed in late 2025, date and price not verified)", "who": "Evolent ACO business", "from": null, "effective": null, "source": "Q3 2025 call document_id 51126; Q4 2025 call document_id 187390; no Item 2.01/1.01 8-K returned", "external_hire": null}
+    ],
+    "months_since_primary": 39.0,
+    "ceo_months_in_seat": 39.0,
+    "next_event": {"type": "none known", "date": null, "source": "Lexical search for 'investor day' in FY2026 PRVA corpus returned no scheduled event; next catalyst is the Q3 2026 earnings call (date not in corpus)"}
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "Privia defines Adjusted EBITDA Margin as Adjusted EBITDA as a percentage of Care Margin (10-Q document_id 130552), not of GAAP revenue. The 30% to 35% target is on that basis. On GAAP revenue the same EBITDA is about 6% (data_comps 6.47% forward, 6.10% LTM), which is why the screen flagged it as below the industry median; that comparison is not like for like.",
+    "current_level_pct": 28.3,
+    "target_level_pct": 35.0,
+    "target_year": null,
+    "has_year": false,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {"quote": "We're well on our track to get to 25% EBITDA as a percentage of care margin, a long-term trajectory or targets for 30%-35%. I think we'll be there in the next few years.", "speaker": "Parth Mehrotra", "role": "CEO", "doc_title": "Privia Health Group Inc Q2 2025 Earnings Call", "date": "2025-08-07", "document_id": 51128},
+      {"quote": "I mean, we are already approaching the low end of our long-term margin target, EBITDA care margin of 30%-35%. Our guidance this year, you know, gets us close to 29%. I think if we look at the next five years with everything we see that we can do with AI, I think we'll easily be, you know, at close to the high end, if not exceed the high end of that margin target.", "speaker": "Parth Mehrotra", "role": "CEO", "doc_title": "Privia Health Group Inc Q1 2026 Earnings Call", "date": "2026-05-07", "document_id": 187389},
+      {"quote": "If you see our guidance, we expect to be 29% this year, EBITDA to care margin. It's pretty much very close to the 30%. Given all the work we are doing with different AI applications, with just scaling our business with growth, I think we're pretty confident that we can keep accreting that. There's no set timeline. We said over the next few years.", "speaker": "Parth Mehrotra", "role": "CEO", "doc_title": "Privia Health Group Inc Q2 2026 Earnings Call", "date": "2026-08-06", "document_id": 130363}
+    ],
+    "first_stated": "2021-05-19",
+    "times_repeated": 4
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {"FY2026": 28.94, "FY2027": 29.69, "FY2028": 30.53},
+    "consensus_margin_at_target_year_pct": null,
+    "gap_bps_vs_target": null,
+    "gap_assumption": "Margins are consensus EBITDA (data_financials summary, 2026-10-01) over consensus Care Margin (data_company_data Supplemental, fetched 2026-08-29), calendar fiscal years. No target year, so no formal gap. Street crosses the 30% low end in FY2028 (30.53%), reaches 32.74% FY2029 and 34.12% FY2030, 88 bps short of the 35% high end; versus FY2028 the gap to 35% is +447 bps. The street already models the range. On GAAP revenue consensus is 6.21% FY2026, 6.47% FY2027, 6.66% FY2028.",
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials consensus (Visible Alpha) and data_company_data Care margin (pid 14180700)"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [290, 310],
+    "note": "Order [Q1 2026, Q2 2026], adjusted EBITDA as % of Care Margin. Q1 28.5% vs 25.6% (10-Q document_id 38653); Q2 28.3% vs 25.2%, +310 bps (CEO, document_id 130363; 8-K 0001759655-26-000061: adj. EBITDA $37.4M on Care Margin $132.1M vs $29.0M on $115.2M). FY2026 guidance raised to the high end on 2026-08-06, about 29%."
+  },
+  "score": {"A_underperformance": 2, "B_catalyst": 0, "C_numeric_framing": 2, "D_unproven": 0, "total": 4},
+  "disqualified": true,
+  "disqualifier_reason": "No leadership catalyst in window: CEO Parth Mehrotra has been in seat since 2023-07-01 (internal promotion, 39 months) and CFO David Mountcastle since 2022-03-21; in-window events are two board additions and tuck-in acquisitions. The task premise of a 2025 CEO change is wrong. The 30% to 35% EBITDA-to-Care-Margin target is also already reflected in consensus (30.5% FY2028, 34.1% FY2030).",
+  "verdict": "Not a GXO setup: cheap and down 30%, but the CEO is a 2023 internal successor, the margin target dates from the 2021 IPO and the street already models it.",
+  "open_questions": [
+    "How much of the AI-driven cost story could push EBITDA to Care Margin above 35%, the only scenario not in consensus?",
+    "Is the de-rating driven by value-based care risk (V28, utilization) rather than margin skepticism?",
+    "What did the Evolent ACO deal cost and when did it close (no 8-K found)?"
+  ],
+  "sources": [
+    {"document_id": 51128, "title": "Privia Health Group Inc Q2 2025 Earnings Call", "date": "2025-08-07"},
+    {"document_id": 187389, "title": "Privia Health Group Inc Q1 2026 Earnings Call", "date": "2026-05-07"},
+    {"document_id": 130363, "title": "Privia Health Group Inc Q2 2026 Earnings Call", "date": "2026-08-06"},
+    {"document_id": 143463, "title": "Privia Health Group 8-K Q2 2026 earnings release (0001759655-26-000061)", "date": "2026-08-06"},
+    {"document_id": 38653, "title": "Privia Health Group 10-Q (quarter ended 2026-03-31)", "date": null},
+    {"document_id": 51137, "title": "Privia Health Group Inc Q2 2024 Earnings Call", "date": null},
+    {"document_id": 51129, "title": "Privia Health Group Inc Q1 2025 Earnings Call", "date": null},
+    {"document_id": 0, "title": "Baba data_comps, data_financials summary, data_company_data (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0001759655-23-000062, 0001759655-25-000023, 0001759655-25-000080, 0001759655-26-000056, 0001759655-26-000068", "date": "2023-04-12 to 2026-08-18"}
+  ],
+  "tool_calls": 17
+}

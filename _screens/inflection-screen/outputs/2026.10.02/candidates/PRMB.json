@@ -1,0 +1,221 @@
+{
+  "ticker": "PRMB",
+  "cid": 1005780,
+  "name": "Primo Brands Corporation",
+  "industry": "Soft Drinks",
+  "as_of": "2026-10-02",
+  "business": "Primo Brands sells branded bottled and spring water (Poland Spring, Saratoga, Primo) through retailers and direct home and office water delivery in North America.",
+  "quant": {
+    "mcap_usd": 6966070650.0,
+    "drawdown": -0.4521144661033626,
+    "pctile_ev_ebitda_60m": null,
+    "price_ltm_pct": -0.11849499190773605,
+    "ebitda_margin_ltm": 0.2114,
+    "ebitda_margin_fwd_consensus": 0.22662994611765552,
+    "industry_median_margin": 0.23,
+    "ev_ebitda_fy": 7.324086826580506,
+    "net_debt_ltm_ebitda": 3.2502621780498417,
+    "ebitda_revision_12m": -0.08816300483742034,
+    "ebitda_brokers": 9.0
+  },
+  "catalyst": {
+    "type": [
+      "new_ceo",
+      "board_refresh",
+      "strategy_update"
+    ],
+    "events": [
+      {
+        "what": "Executive Chairman and CEO, replacing Robbert Rietbroek (resigned as CEO and director the same day, so no gap); C. Dean Metropoulos stepped down as non-executive Chairman",
+        "who": "Eric J. Foss",
+        "from": "Primo Brands board member (listed as director in the S-1, doc 101757); ex Chairman and CEO of Aramark and Pepsi Bottling Group per board bio",
+        "effective": "2025-11-05",
+        "source": "8-K 0001193125-25-267981",
+        "external_hire": false
+      },
+      {
+        "what": "COO role eliminated, Robert Austin out (support through 2026-12-31); new President of Customer Direct and Go-to-Market added, supply chain chief reports to CEO",
+        "who": "Robert Austin",
+        "from": "Primo Brands COO",
+        "effective": "2026-07-07",
+        "source": "8-K 0001193125-26-297539",
+        "external_hire": null
+      },
+      {
+        "what": "New director (Audit and Sustainability committees)",
+        "who": "Sudhanshu Priyadarshi",
+        "from": "Planet Fitness CFO; ex Keurig Dr Pepper CFO",
+        "effective": "2026-07-14",
+        "source": "8-K 0001193125-26-306163",
+        "external_hire": true
+      },
+      {
+        "what": "New director, board enlarged to 11",
+        "who": "Andrea Brimmer",
+        "from": "Ally Financial (CMO)",
+        "effective": "2026-05-15",
+        "source": "8-K 0001193125-26-230783",
+        "external_hire": true
+      },
+      {
+        "what": "Sponsor-linked director resignations as ORCP ownership fell (Reed 2026-01-15, Pak 2026-07-14, Spector 2026-08-18)",
+        "who": "Kimberly Reed; Minsok Pak; Allison Spector",
+        "from": "Primo Brands board",
+        "effective": "2026-08-18",
+        "source": "8-K 0001193125-26-014611; 0001193125-26-306163; 0001193125-26-359209",
+        "external_hire": null
+      },
+      {
+        "what": "Primo Water and BlueTriton merger closed November 2024, outside the 18-month window; it is context for the synergy target, not a scored catalyst",
+        "who": "Primo Brands",
+        "from": "Primo Water Corporation and BlueTriton Brands",
+        "effective": null,
+        "source": "doc 68453 (M&A Announcement); doc 52865",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 11,
+    "ceo_months_in_seat": 11,
+    "next_event": {
+      "type": "framework update",
+      "date": null,
+      "source": "CFO David Hass: 'we would say for our traditional sort of guidance reveal on 2027 in the spring of next year' (Q2 2026 call, 2026-08-05, doc 129714); Foss: 'As we go forward into 2027, we will provide more specifics' (Barclays conference, 2026-09-09, doc 219517). Q3 2026 results date not in Baba. Rietbroek's move to GPK is the Stage 2 claim and was not verified in Baba."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "Two numeric targets, both set under the prior CEO: 25% adjusted EBITDA margin by 2027 (from the February 2025 Investor Day, which is not in Baba; restated by CEO Rietbroek and CFO Hass in August 2025) and $300M run-rate cost synergies captured by year-end 2026 (CFO Hass, 2025-02-20). Foss kept the synergy target ('We are not changing our synergy capture targets', 2025-11-06) but has not restated 25%. He describes the targets as inherited and under review, with 2027 specifics due in spring 2027. FY2026 guide is 21.8% at the midpoint, flat on 2025.",
+    "current_level_pct": 21.1,
+    "target_level_pct": 25.0,
+    "target_year": 2027,
+    "has_year": true,
+    "annual_bps": null,
+    "synergy_usd": 300000000,
+    "synergy_year": 2026,
+    "statements": [
+      {
+        "quote": "We believe the total estimated $300 million cost synergy opportunity will be captured by year-end 2026, providing the run rate benefit of our integration activities in 2027.",
+        "speaker": "David Hass",
+        "role": "CFO",
+        "doc_title": "Primo Brands Corporation Q4 2024 Earnings Call",
+        "date": "2025-02-20",
+        "document_id": 52865
+      },
+      {
+        "quote": "We are in the early stages of a substantial margin capture, which you know of, and we have the path to get through 25% adjusted EBITDA margins by 2027 through synergies and efficiency gains and pricing optimizations.",
+        "speaker": "Robbert Rietbroek",
+        "role": "CEO (departed 2025-11-05)",
+        "doc_title": "Status Update",
+        "date": "2025-08-11",
+        "document_id": 53136
+      },
+      {
+        "quote": "Yes, that would stand on a multi-year look as we approach the year-end 2027.",
+        "speaker": "David Hass",
+        "role": "CFO",
+        "doc_title": "Primo Brands Corporation Q2 2025 Earnings Call",
+        "date": "2025-08-07",
+        "document_id": 52863
+      },
+      {
+        "quote": "Dollars, obviously, will be slightly different than the original outline. We are not changing our synergy capture targets.",
+        "speaker": "Eric Foss",
+        "role": "Executive Chairman and CEO",
+        "doc_title": "Primo Brands Corporation Q3 2025 Earnings Call",
+        "date": "2025-11-06",
+        "document_id": 52860
+      },
+      {
+        "quote": "At the midpoint, this implies an adjusted EBITDA margin of 21.8%, which is flat compared to the prior year, as we invest behind growth and manage a dynamic cost environment.",
+        "speaker": "David Hass",
+        "role": "CFO",
+        "doc_title": "Primo Brands Corporation Q2 2026 Earnings Call",
+        "date": "2026-08-05",
+        "document_id": 129714
+      },
+      {
+        "quote": "As we go forward into 2027, we will provide more specifics.",
+        "speaker": "Eric Foss",
+        "role": "Executive Chairman and CEO",
+        "doc_title": "Barclays 19th Annual Global Consumer Conference",
+        "date": "2026-09-09",
+        "document_id": 219517
+      }
+    ],
+    "first_stated": "2025-02-20",
+    "times_repeated": 4
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 0.2167,
+      "FY2027": 0.2266,
+      "FY2028": 0.2311
+    },
+    "consensus_margin_at_target_year_pct": 22.66,
+    "gap_bps_vs_target": 234,
+    "gap_assumption": "25% adjusted EBITDA margin target for 2027 vs VA FY-2027 consensus EBITDA 1,605.1M on revenue 7,082.3M = 22.66% (VA labels equal calendar years, fyem 12); VA EBITDA and company adjusted EBITDA are treated as the same basis (FY2026 consensus 21.67% vs company guide midpoint 21.8%). Even FY2028 consensus (23.11%) sits 189 bps below 25%. The target predates the CEO change and is under review, so the gap may close by the target being cut rather than by margins rising. pctile_ev_ebitda_60m is null in data_comps (only 27 months of history since the merger); data_financials puts NTM EV/EBITDA at the 7th percentile of that short history (7.43x vs 6.72x to 11.01x). LTM margin is Q2 2025 to Q1 2026 VA quarters (Q2 2026 actuals not yet loaded).",
+    "ebitda_uplift_pct_if_target_hit": 0.1031,
+    "source": "Baba data_financials consensus; data_comps"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      -260,
+      10
+    ],
+    "note": "Comparable adjusted EBITDA margin: Q1 2026 18.8%, down 260 bps (Hass, doc 189930; VA basis -234 bps); Q2 2026 21.4%, up 10 bps and up 260 bps sequentially (Hass, doc 129714). Direct delivery returned to growth (+0.4%) in Q2 2026. Net leverage 3.42x vs a target below 3x; no covenant stress seen. PET and diesel costs matter (diesel hedged into 2027) but margin is not commodity-price driven."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 2,
+    "C_numeric_framing": 3,
+    "D_unproven": 2,
+    "total": 9
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Highest mechanical score of the four, but the 234 bps gap is to an inherited 2027 target the board-insider CEO is reviewing, so a spring 2027 reset is as likely as a re-rating.",
+  "open_questions": [
+    "Will Foss reaffirm, push out or cut the 25% 2027 margin target at the spring 2027 guidance? That decides whether the gap is opportunity or reset risk.",
+    "How much of the $300M synergy is already in the 21.8% FY2026 guide, and what is left for 2027?",
+    "Is the A score robust? data_comps has no 60-month EV/EBITDA percentile (27 months of post-merger history), so A=2 rests on the short-history 7th percentile."
+  ],
+  "sources": [
+    {
+      "document_id": 129714,
+      "title": "Primo Brands Corporation Q2 2026 Earnings Call",
+      "date": "2026-08-05"
+    },
+    {
+      "document_id": 219517,
+      "title": "Barclays 19th Annual Global Consumer Conference",
+      "date": "2026-09-09"
+    },
+    {
+      "document_id": 52860,
+      "title": "Primo Brands Corporation Q3 2025 Earnings Call",
+      "date": "2025-11-06"
+    },
+    {
+      "document_id": 53136,
+      "title": "Status Update",
+      "date": "2025-08-11"
+    },
+    {
+      "document_id": 52863,
+      "title": "Primo Brands Corporation Q2 2025 Earnings Call",
+      "date": "2025-08-07"
+    },
+    {
+      "document_id": 52865,
+      "title": "Primo Brands Corporation Q4 2024 Earnings Call",
+      "date": "2025-02-20"
+    },
+    {
+      "document_id": 101757,
+      "title": "Primo Brands Corp S-1",
+      "date": "2025-01-24"
+    }
+  ],
+  "tool_calls": 17
+}
