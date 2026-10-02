@@ -55,6 +55,14 @@ SEC (MCP server sec-api):
 If a tool result is too large the host writes it to a file and tells you the path. Parse it with python3 or jq
 in Bash. Never read a 100K-character file sequentially.
 
+## Two facts that surprised every pilot subagent (do not rediscover them)
+
+- Visible Alpha fiscal-year labels in Baba are keyed to the fiscal year END. For a company whose fiscal year ends in
+  January or later in the following calendar year (Chewy, Burlington, Core & Main, Albertsons), Baba's FY2027 is the
+  company's fiscal 2026. State which label you are using every time you cite a consensus year.
+- data_comps `ebitda_margin` is the forward-year consensus margin, not trailing. Compute LTM from the last four
+  reported quarters and record both.
+
 ## Rules
 
 1. Never invent a number. Every figure carries its source: a Baba document_id with speaker and date, an 8-K
@@ -67,6 +75,11 @@ in Bash. Never read a 100K-character file sequentially.
 5. A catalyst counts only if effective within the last 18 months (after 2025-04-01) or announced and pending.
 6. Budget: about 20 to 30 tool calls per ticker, data_compute included. Stop when the schema is filled; do not write a memo.
 7. No em dashes anywhere in your output. Plain words.
+8. Always record the NEXT scheduled event (Investor Day, capital markets day, analyst day, or a promised "framework
+   update") with its date and source, and the months the CEO has been in the seat. Vague framing becomes numeric at
+   those events, so a name with a new CEO and an Investor Day inside six months is a live setup even when C is 1.
+9. Write one plain sentence of at most 25 words on what the business sells and to whom, from data_profile's
+   profile.summary, into the `business` field.
 
 ## Scoring (0 to 10 total, record each component)
 
@@ -74,11 +87,14 @@ in Bash. Never read a 100K-character file sequentially.
 - B. Catalyst (0 to 3): 3 = new external CEO or transformational acquisition closed in window AND other
   leadership or board changes; 2 = new CEO (internal) or new CFO or large acquisition; 1 = strategy update or
   activist without leadership change; 0 = nothing in window.
-- C. Numeric margin framing by management (0 to 3): 3 = explicit level or annual rate with a year, stated by
-  CEO or CFO, repeated on at least two occasions; 2 = explicit number stated once or only as a synergy dollar
-  figure; 1 = qualitative "margin expansion" language or a peer-parity statement without a number; 0 = none.
+- C. Numeric margin framing by management (0 to 3). Horizon decides, not repetition: 3 = a margin level, an annual
+  rate, or a dollar synergy or savings figure WITH a target year, stated by the CEO or CFO; 2 = a number with no year
+  (a "10%+ long term" level, a peer-parity gap in points, a one-year guide such as "20 bps in 2026"); 1 = qualitative
+  "margin expansion" language or an unquantified peer-parity claim; 0 = none. Record how many times it was repeated
+  and by whom; that is confidence, not score.
 - D. Unproven (0 to 2). First test stabilization: if the 4-month forward EBITDA revision (data_comps ebitda_turn_pct)
-  is below -3%, estimates are still falling and D = 0 whatever else is true. A deep cut over the prior 12 months is NOT
+  is below -6%, estimates are still falling and D = 0 whatever else is true. Between -6% and -3% the most D can be is 1,
+  and only if the stated target sits at least 100 bps above consensus. A deep cut over the prior 12 months is NOT
   by itself disqualifying: GXO's own FY2026 consensus fell 20% in 2023-24 and was still -8% over the 12 months before
   the new CEO's first call; what mattered was that it had stopped falling. If stabilized: 2 if the consensus-implied
   margin at the target year sits at least 100 bps below management's stated target (or, with no level stated, if the
@@ -103,20 +119,22 @@ Schema:
 ```json
 {
   "ticker": "", "cid": 0, "name": "", "industry": "", "as_of": "2026-10-02",
+  "business": "one sentence, at most 25 words, from data_profile summary",
   "quant": {"mcap_usd": null, "drawdown": null, "pctile_ev_ebitda_60m": null, "price_ltm_pct": null,
             "ebitda_margin_ltm": null, "ebitda_margin_fwd_consensus": null, "industry_median_margin": null, "ev_ebitda_fy": null,
             "net_debt_ltm_ebitda": null, "ebitda_revision_12m": null, "ebitda_brokers": null},
   "catalyst": {"type": ["new_ceo","new_cfo","acquisition","strategy_update","activist","board_refresh"],
                "events": [{"what": "", "who": "", "from": "", "effective": "YYYY-MM-DD", "source": "8-K accession or document_id", "external_hire": null}],
-               "months_since_primary": null},
+               "months_since_primary": null, "ceo_months_in_seat": null,
+               "next_event": {"type": "investor day | framework update | none known", "date": "YYYY-MM-DD or null", "source": ""}},
   "margin_framing": {"numeric": null, "metric": "adjusted EBITDA margin | operating margin | EBITA margin | gross margin",
                      "metric_basis_note": "when the level and the rate use different metrics (EBIT level, EBITDA rate), say so here",
-                     "current_level_pct": null, "target_level_pct": null, "target_year": null,
+                     "current_level_pct": null, "target_level_pct": null, "target_year": null, "has_year": null,
                      "annual_bps": null, "synergy_usd": null, "synergy_year": null,
                      "statements": [{"quote": "", "speaker": "", "role": "", "doc_title": "", "date": "", "document_id": 0}],
                      "first_stated": "YYYY-MM-DD", "times_repeated": 0},
   "street": {"consensus_ebitda_margin_by_fy": {"FY2026": null, "FY2027": null, "FY2028": null},
-             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": null, "gap_assumption": "e.g. compares EBIT target with EBITDA consensus assuming flat D&A/revenue",
+             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": "target minus consensus in bps, POSITIVE when the target is above the street", "gap_assumption": "e.g. compares EBIT target with EBITDA consensus assuming flat D&A/revenue",
              "ebitda_uplift_pct_if_target_hit": null, "source": "Baba data_financials consensus"},
   "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [null, null], "note": ""},
   "score": {"A_underperformance": 0, "B_catalyst": 0, "C_numeric_framing": 0, "D_unproven": 0, "total": 0},

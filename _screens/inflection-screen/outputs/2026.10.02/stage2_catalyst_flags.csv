@@ -29,3 +29,19 @@ OMCL,new_ceo_first_call_hit,Hybrid search hit on first-call language (needs veri
 KNF,margin_target_mention,Analyst references a margin target on Q2 2026 call,Baba corpus sweep,2026
 BURL,margin_expansion_track,80 bps operating margin expansion on top of 100 bps prior year,Baba corpus sweep,2026
 DKS,margin_expansion_track,Repeated gross margin expansion commentary FY2026,Baba corpus sweep,2026
+GBX,ceo_succession_announced,Brian Comstock (internal) to succeed Lorie Tekorius as CEO and President effective 2027-01-06,8-K 5.02 0001193125-26-376734,2027-01-06
+AI,ceo_change,Founder Thomas Siebel reappointed CEO and Chairman; Stephen Ehikian moves to President,8-K 5.02 0001193125-26-218253,2026-05-08
+BAH,new_cfo,Troy Lahr (external; ex Sierra Space and Boeing Defense CFO) appointed CFO; Kristine Martin Anderson adds President,8-K 5.02 0001443646-26-000007,2026-05-04
+CNMD,cfo_departure,CFO Todd Garner separation effective 2026-03-15 or on successor appointment; CFO search,8-K 5.02 0001174947-26-000017,2026-03-15
+NVST,ceo_chairman,CEO Paul Keel (CEO since 2024) adds Chairman with new retention grant,8-K 5.02 0001757073-26-000074,2026-08-24
+OC,new_cfo,Jonathan Collins (external; ex Clarivate and Dana CFO) appointed CFO; Todd Fister President and COO,8-K 5.02 0001370946-26-000169,2026-08-10
+PFGC,new_ceo,Scott McPherson (internal; ex COO) CEO succeeding George Holm who becomes Executive Chair,8-K 5.02 0001193125-25-323612,2026-01-01
+ICFI,new_president_cfo,Anne Choate President; James Morgan combined COO and CFO; Barry Broadus retiring,8-K 5.02 0001437749-25-032425,2026-01-01
+PLUG,new_ceo,Jose Luis Crespo (internal) President 2025-10-10 and CEO on or about 2026-03-02; Andy Marsh to Executive Chair,8-K 5.02 0001104659-25-097346,2026-03-02
+PATK,new_president,Jeff Rodino assumes President role,8-K 5.02 0000076605-25-000209,2025-10-01
+KVYO,president_departure,President Steve Rowland retiring 2025-12-31,8-K 5.02 0001835830-25-000082,2025-12-31
+SMG,new_ceo,Nathan Baxter (internal; ex President and COO) CEO succeeding Jim Hagedorn; Peter Shumlin Chairman,8-K 5.02 0000825542-26-000032,2026-06-26
+POOL,new_ceo,John Watwood (joined Jan 2026 from Motion Industries) President and CEO replacing Peter Arvan; John Stokely Executive Chair,8-K 5.02 0001193125-26-204112,2026-05-04
+PYPL,new_ceo,Enrique Lores (external; ex HP Inc CEO) President and CEO after Alex Chriss resigned; Jamie Miller interim,8-K 5.02 0001193125-26-035860,2026-03-01
+SLVM,new_ceo,John Sims (internal; ex COO) CEO and President succeeding Jean-Michel Ribieras; David Petratis Chairman,8-K 5.02 0001193125-25-322777,2026-01-01
+TXT,new_ceo,Lisa Atherton (internal; ex Bell CEO) President and CEO succeeding Scott Donnelly who becomes Executive Chairman,8-K 5.02 0001104659-25-101558,2026-01-04
