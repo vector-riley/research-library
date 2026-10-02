@@ -1,0 +1,234 @@
+{
+  "ticker": "TDOC",
+  "cid": 1002934,
+  "name": "TELADOC, INC.",
+  "industry": "Health Care Services",
+  "as_of": "2026-10-02",
+  "business": "Provides virtual medical care and BetterHelp online therapy to employers, health plans, health systems and individual consumers worldwide.",
+  "quant": {
+    "mcap_usd": 1026417442.68,
+    "drawdown": -0.7376,
+    "pctile_ev_ebitda_60m": 0.2167,
+    "price_ltm_pct": -0.2497,
+    "ebitda_margin_ltm": 0.1116,
+    "ebitda_margin_fwd_consensus": 0.1208,
+    "industry_median_margin": 0.1,
+    "ev_ebitda_fy": 4.35,
+    "net_debt_ltm_ebitda": 0.79,
+    "ebitda_revision_12m": -0.0943,
+    "ebitda_brokers": 18
+  },
+  "catalyst": {
+    "type": [
+      "new_cfo",
+      "board_refresh",
+      "strategy_update"
+    ],
+    "events": [
+      {
+        "what": "Chief Financial Officer (seat vacant since Mala Murthy resigned 2025-11-21)",
+        "who": "Michael Grasher",
+        "from": "external, CFO of IFG Companies; ex CFO Fortegra Group and AMERISAFE",
+        "effective": "2026-08-31",
+        "source": "8-K 0001477449-26-000044",
+        "external_hire": true
+      },
+      {
+        "what": "CFO Mala Murthy resigned to pursue an opportunity outside healthcare",
+        "who": "Mala Murthy",
+        "from": "",
+        "effective": "2025-11-21",
+        "source": "8-K 0001477449-25-000114",
+        "external_hire": null
+      },
+      {
+        "what": "Director appointed; Thomas G. McKinley retired 2026-02-20",
+        "who": "Michael S. Smith",
+        "from": "external",
+        "effective": "2026-02-18",
+        "source": "8-K 0001477449-26-000004 and 0001477449-26-000002",
+        "external_hire": true
+      },
+      {
+        "what": "Director appointed (audit and compensation committees)",
+        "who": "Susan R. Salka",
+        "from": "external",
+        "effective": "2026-03-30",
+        "source": "8-K 0001477449-26-000016",
+        "external_hire": true
+      },
+      {
+        "what": "Director appointed, board to ten (audit and compensation committees)",
+        "who": "Mark V. Anquillare",
+        "from": "external",
+        "effective": "2026-08-03",
+        "source": "8-K 0001477449-26-000040",
+        "external_hire": true
+      },
+      {
+        "what": "Directors retiring: J. Eric Evans after 2026 annual meeting; David B. Snow, Jr. effective 2026-09-30",
+        "who": "J. Eric Evans; David B. Snow, Jr.",
+        "from": "",
+        "effective": "2026-09-30",
+        "source": "8-K 0001477449-25-000126 and 0001477449-26-000042",
+        "external_hire": null
+      },
+      {
+        "what": "Chief Legal Officer Adam Vandervoort resigns (good reason), Jonathan Dorfman succeeds",
+        "who": "Jonathan Dorfman",
+        "from": "internal, SVP Securities and Corporate Law",
+        "effective": "2026-11-01",
+        "source": "8-K 0001477449-26-000046",
+        "external_hire": false
+      },
+      {
+        "what": "BetterHelp strategy pivot to U.S. insurance (20 more states, cuts to international and cash-pay advertising); small UpLift acquisition April 2025 (about $15M 2024 revenue)",
+        "who": "Chuck Divita",
+        "from": "",
+        "effective": "2026-07-29",
+        "source": "Baba document_id 110826; 45392",
+        "external_hire": null
+      },
+      {
+        "what": "CEO appointment (context only, outside the 18-month window)",
+        "who": "Charles (Chuck) Divita III",
+        "from": "external, ex EVP Commercial Markets GuideWell / Florida Blue",
+        "effective": "2024-06-10",
+        "source": "8-K 0001477449-24-000157",
+        "external_hire": true
+      }
+    ],
+    "months_since_primary": 1.05,
+    "ceo_months_in_seat": 27.7,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "No Investor Day found in Baba corpus. Next scheduled items: new CFO Grasher's first earnings call with Q3 2026 results (date not in corpus) and the first 2027 outlook; Teladoc One broad availability January 2027 (doc 110826)."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "Only one-year (FY2026) guides, all stated by the CEO because the CFO seat was vacant from 2025-11-21 to 2026-08-31: consolidated adjusted EBITDA $271M to $303M, about 85 bps of margin expansion vs 2025; Integrated Care 15.6% to 16.4%; BetterHelp 3.0% to 4.6%. Longer-term BetterHelp margin framing is qualitative. target_level_pct 11.93% is the guide midpoint ($287M / $2,405M revenue midpoint), derived. Calendar fiscal year, VA FY = company FY. current_level_pct = FY2025 VA EBITDA / revenue.",
+    "current_level_pct": 11.11,
+    "target_level_pct": 11.93,
+    "target_year": 2026,
+    "has_year": true,
+    "annual_bps": 85,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "We expect adjusted EBITDA of $271 million-$303 million, up slightly at the midpoint versus the prior range, and representing approximately 85 basis points of margin expansion versus 2025.",
+        "speaker": "Chuck Divita",
+        "role": "CEO",
+        "doc_title": "TELADOC, INC. Q2 2026 Earnings Call",
+        "date": "2026-07-29",
+        "document_id": 110826
+      },
+      {
+        "quote": "Our full year Integrated Care adjusted EBITDA margin guidance of 15.6%-16.4% is up 40 basis points at the midpoint versus our prior guidance range and represents an increase of approximately 85 basis points over 2025.",
+        "speaker": "Chuck Divita",
+        "role": "CEO",
+        "doc_title": "TELADOC, INC. Q2 2026 Earnings Call",
+        "date": "2026-07-29",
+        "document_id": 110826
+      },
+      {
+        "quote": "With respect to BetterHelp's adjusted EBITDA margin, we continue to expect a range of 3.0%-4.6% for the full year and have aligned our actions to support our ability to invest in the insurance opportunity ahead.",
+        "speaker": "Chuck Divita",
+        "role": "CEO",
+        "doc_title": "TELADOC, INC. Q2 2026 Earnings Call",
+        "date": "2026-07-29",
+        "document_id": 110826
+      },
+      {
+        "quote": "Ultimately, as that matures, you know, we do believe we're gonna see a margin profile that is certainly expands from where we are right now.",
+        "speaker": "Chuck Divita",
+        "role": "CEO",
+        "doc_title": "TELADOC, INC. Q1 2026 Earnings Call",
+        "date": "2026-04-29",
+        "document_id": 172434
+      }
+    ],
+    "first_stated": "2026-07-29",
+    "times_repeated": 2
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 11.63,
+      "FY2027": 12.08,
+      "FY2028": 12.67
+    },
+    "consensus_margin_at_target_year_pct": 11.63,
+    "gap_bps_vs_target": 30.6,
+    "gap_assumption": "consensus_ebitda_margin_by_fy = VA consensus EBITDA / revenue (same basis as data_comps ebitda_margin). Adjusted EBITDA margin basis, calendar FY. FY2026 guide midpoint 11.93% vs FY2026 consensus 11.63% ($279.9M / $2,406.9M) = +30.6 bps (data_compute); consensus EBITDA sits in the lower half of the $271M to $303M range. No dated target beyond 2026. FY2027 consensus revenue ($2,379M) is below FY2026, margin 12.08%.",
+    "ebitda_uplift_pct_if_target_hit": 0.0255,
+    "source": "Baba data_financials fundamentals consensus (Visible Alpha), cid 1002934. Uplift = guide midpoint $287M vs FY2026 consensus $279.9M = +2.5% (one-year guide only)."
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      24.6,
+      -9.6
+    ],
+    "note": "Consolidated adjusted EBITDA margin. Q1 2026 (VA actual) 9.48% vs 9.23% = +24.6 bps. Q2 2026 10.87% ($66M / $607M, CEO doc 110826; VA row still consensus) vs 10.97% = -9.6 bps. Integrated Care Q2 margin 16.5%, up about 190 bps YoY; BetterHelp Q2 margin 0.2% with revenue -11.6% as cash pay shrinks faster than insurance grows. 4-month forward EBITDA revision -2.99% (just inside the stabilized band), 12-month -9.4%. Net debt / LTM EBITDA 0.8x, 3.6x gross; 2027 convertibles to be addressed in two phases (doc 172434); cash $774M. No going-concern or covenant stress found."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 2,
+    "C_numeric_framing": 2,
+    "D_unproven": 1,
+    "total": 7
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Very cheap with a brand-new external CFO and a refreshed board, but margin framing is only a one-year guide about 31 bps above consensus and BetterHelp is still shrinking, so the setup awaits the CFO's first 2027 frame.",
+  "open_questions": [
+    "Will CFO Grasher's first call (Q3 2026) or the 2027 outlook put a dated multi-year margin target on Integrated Care or BetterHelp?",
+    "Does the BetterHelp cash-pay decline push the 4-month EBITDA revision (now -2.99%) below -3% and cap D?",
+    "How will the 2027 convertible notes be refinanced, and at what cost to free cash flow?"
+  ],
+  "sources": [
+    {
+      "document_id": 110826,
+      "title": "TELADOC, INC. Q2 2026 Earnings Call",
+      "date": "2026-07-29"
+    },
+    {
+      "document_id": 172434,
+      "title": "TELADOC, INC. Q1 2026 Earnings Call",
+      "date": "2026-04-29"
+    },
+    {
+      "document_id": 45392,
+      "title": "TELADOC, INC. Q1 2025 Earnings Call (UpLift acquisition)",
+      "date": null
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001477449-26-000044 (CFO Grasher)",
+      "date": "2026-08-31"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001477449-25-000114 (CFO Murthy resignation)",
+      "date": "2025-10-23"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001477449-26-000004, -000016, -000040 (directors Smith, Salka, Anquillare)",
+      "date": "2026-08-03"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001477449-26-000046 (Chief Legal Officer)",
+      "date": "2026-09-25"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001477449-24-000157 (CEO Divita)",
+      "date": "2024-06-10"
+    }
+  ],
+  "tool_calls": 16
+}

@@ -1,0 +1,195 @@
+{
+  "ticker": "UHS",
+  "cid": 1000113,
+  "name": "Universal Health Services, Inc.",
+  "industry": "Health Care Facilities",
+  "as_of": "2026-10-02",
+  "business": "UHS owns and operates acute care hospitals and behavioral health facilities in the US, serving patients paid for by Medicare, Medicaid and commercial insurers.",
+  "quant": {
+    "mcap_usd": 10488443700.0,
+    "drawdown": -0.2832,
+    "pctile_ev_ebitda_60m": 0.167,
+    "price_ltm_pct": -0.1439,
+    "ebitda_margin_ltm": 0.1497,
+    "ebitda_margin_fwd_consensus": 0.1399,
+    "industry_median_margin": 0.179,
+    "ev_ebitda_fy": 5.59,
+    "net_debt_ltm_ebitda": 1.78,
+    "ebitda_revision_12m": -0.0018,
+    "ebitda_brokers": 14
+  },
+  "catalyst": {
+    "type": [
+      "acquisition",
+      "strategy_update"
+    ],
+    "events": [
+      {
+        "what": "Acquisition of Talkspace (virtual behavioral health), $5.25 per share, about $835M (about 5.5% of UHS EV); announced 2026-03-09, closed mid-August 2026",
+        "who": "Talkspace, Inc.",
+        "from": null,
+        "effective": "2026-08-17",
+        "source": "8-K 0001193125-26-354078 (document_id 140610, report date 2026-08-17); 10-Q document_id 131008. Not returned by the sec-api Item 2.01/1.01 query",
+        "external_hire": null
+      },
+      {
+        "what": "EVP and President of Behavioral Health resigned; CEO Marc Miller takes interim responsibility, permanent search under way",
+        "who": "Matthew J. Peterson",
+        "from": null,
+        "effective": "2026-06-19",
+        "source": "8-K 0001193125-26-233402",
+        "external_hire": null
+      },
+      {
+        "what": "CEO employment agreement amended and extended to 2029-01-01 (no CEO change; this is what the Stage 2 sweep found)",
+        "who": "Marc D. Miller",
+        "from": "CEO and President since 2021-01-01",
+        "effective": "2025-12-30",
+        "source": "8-K 0001193125-25-337662",
+        "external_hire": false
+      }
+    ],
+    "months_since_primary": 1.5,
+    "ceo_months_in_seat": 69.0,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "No Investor Day or framework update found in FY2025 to FY2026 calls. Pending items: naming a permanent Behavioral Health president (8-K 0001193125-26-233402) and the Q3 2026 call (date not in corpus)."
+    }
+  },
+  "margin_framing": {
+    "numeric": false,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "UHS gives one-year dollar guidance for adjusted EBITDA net of NCI (2026: $2.61B to $2.72B after a $50M cut on 2026-07-28) and no margin target, level or rate. The only margin language is qualitative (Filton, 2025-10-28). Guidance is net of NCI while Visible Alpha consensus EBITDA is before NCI, so dollar comparisons carry a basis gap. About $1.5B of 2026 EBITDA is Medicaid supplemental payments, so the margin path is driven by policy more than by operations.",
+    "current_level_pct": 14.97,
+    "target_level_pct": null,
+    "target_year": null,
+    "has_year": false,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "As I think has been the case with the historical model for these two businesses for many years, you know, there should be an opportunity for EBITDA growth and margin expansion. In an environment of relatively stable operating costs and I think relatively stable demand and pricing, you know, we're looking at margins in both businesses able to continue to improve.",
+        "speaker": "Steve Filton",
+        "role": "CFO",
+        "doc_title": "Universal Health Services, Inc. Q3 2025 Earnings Call",
+        "date": "2025-10-28",
+        "document_id": 40659
+      },
+      {
+        "quote": "Focusing my remarks specifically on adjusted EBITDA less NCI, our updated 2026 forecast is in a range of $2.61 billion-$2.72 billion, representing a decrease of approximately $50 million from our prior outlook at the $2.66 billion midpoint.",
+        "speaker": "Steve G. Filton",
+        "role": "EVP and CFO",
+        "doc_title": "Universal Health Services, Inc. Q2 2026 Earnings Call",
+        "date": "2026-07-28",
+        "document_id": 107427
+      },
+      {
+        "quote": "First, we now expect the net benefit for Medicaid supplemental funding to be approximately one and a half billion for the year, or an increase of approximately $150 million from our prior outlook.",
+        "speaker": "Steve G. Filton",
+        "role": "EVP and CFO",
+        "doc_title": "Universal Health Services, Inc. Q2 2026 Earnings Call",
+        "date": "2026-07-28",
+        "document_id": 107427
+      },
+      {
+        "quote": "Talkspace represents not only a unique opportunity for us to accelerate our presence in the outpatient market, but also creates the nation's first end-to-end continuum of behavioral healthcare services",
+        "speaker": "Marc D. Miller",
+        "role": "President and CEO",
+        "doc_title": "Universal Health Services, Inc. Q2 2026 Earnings Call",
+        "date": "2026-07-28",
+        "document_id": 107427
+      }
+    ],
+    "first_stated": "2025-10-28",
+    "times_repeated": 1
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 14.32,
+      "FY2027": 13.99,
+      "FY2028": 13.88
+    },
+    "consensus_margin_at_target_year_pct": null,
+    "gap_bps_vs_target": null,
+    "gap_assumption": "Calendar fiscal year, Baba labels match. No margin target, so no gap. The street models margin COMPRESSION from 14.97% LTM to 13.88% by FY2028. Consensus FY2026 EBITDA of $2,666M sits at the $2.665B guide midpoint, though the guide is net of NCI and consensus is not.",
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials consensus (Visible Alpha), summary and fundamentals"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      -7,
+      -22
+    ],
+    "note": "Order [Q1 2026, Q2 2026], EBITDA over revenue from Baba VA values: Q1 14.64% vs 14.71%; Q2 15.01% vs 15.23%. Q2 includes a $100M out-of-period Florida DPP benefit; the CFO said underlying Q2 fell about $63M short of plan (PL/GL reserves, Laurel Ridge, Cedar Hill). Q2 VA revenue was not cross-checked against the 10-Q."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 1,
+    "C_numeric_framing": 1,
+    "D_unproven": 1,
+    "total": 5
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Cheap but not a GXO setup: CEO in seat since 2021, no CEO or CFO change, a mid-sized Talkspace deal, no margin target, and a street that already models margin compression.",
+  "open_questions": [
+    "How much of the roughly $1.5B Medicaid supplemental benefit is at risk from OBBA, and is that what the 5.6x EV/EBITDA prices in?",
+    "Will the new Behavioral Health president be an external hire with a margin mandate, and when?",
+    "Does Talkspace ($835M) come with any stated synergy or margin target for the behavioral segment?"
+  ],
+  "sources": [
+    {
+      "document_id": 40659,
+      "title": "Universal Health Services, Inc. Q3 2025 Earnings Call",
+      "date": "2025-10-28"
+    },
+    {
+      "document_id": 140718,
+      "title": "Universal Health Services, Inc. Q4 2025 Earnings Call",
+      "date": null
+    },
+    {
+      "document_id": 140717,
+      "title": "Universal Health Services, Inc. Q1 2026 Earnings Call",
+      "date": null
+    },
+    {
+      "document_id": 107427,
+      "title": "Universal Health Services, Inc. Q2 2026 Earnings Call",
+      "date": "2026-07-28"
+    },
+    {
+      "document_id": 131008,
+      "title": "UHS 10-Q, quarter ended 2026-06-30 (0001193125-26-340278)",
+      "date": null
+    },
+    {
+      "document_id": 140610,
+      "title": "UHS 8-K, Talkspace merger completed (0001193125-26-354078)",
+      "date": "2026-08-17"
+    },
+    {
+      "document_id": 25622,
+      "title": "UHS 10-K FY2025 (Marc Miller CEO effective 2021-01-01)",
+      "date": null
+    },
+    {
+      "document_id": 0,
+      "title": "SEC 8-K Item 5.02: 0001193125-26-233402, 0001193125-25-337662, 0001193125-26-131809, 0000950170-25-042671",
+      "date": "2025-03-20 to 2026-05-21"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01); stage1_ranked.csv for industry median",
+      "date": "2026-10-01"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_financials summary and fundamentals consensus (Visible Alpha)",
+      "date": "2026-10-01"
+    }
+  ],
+  "tool_calls": 21
+}
