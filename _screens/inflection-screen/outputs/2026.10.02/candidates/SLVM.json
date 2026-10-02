@@ -1,0 +1,81 @@
+{
+  "ticker": "SLVM",
+  "cid": 1005218,
+  "name": "Sylvamo Corp",
+  "industry": "Paper Products",
+  "as_of": "2026-10-02",
+  "business": "Sylvamo makes uncoated freesheet paper (cutsize, offset) and pulp, selling to distributors, retailers, converters and printers in the Americas and Europe.",
+  "quant": {
+    "mcap_usd": 1326800000.0,
+    "drawdown": -0.6359,
+    "pctile_ev_ebitda_60m": null,
+    "price_ltm_pct": -0.2293,
+    "ebitda_margin_ltm": 0.1178,
+    "ebitda_margin_fwd_consensus": 0.1484,
+    "industry_median_margin": 0.19,
+    "ev_ebitda_fy": 4.16,
+    "net_debt_ltm_ebitda": 2.37,
+    "ebitda_revision_12m": -0.0889,
+    "ebitda_brokers": 4
+  },
+  "catalyst": {
+    "type": ["new_ceo", "new_cfo", "board_refresh", "activist"],
+    "events": [
+      {"what": "CEO and President, succeeding retiring CEO and Chairman Jean-Michel Ribieras; joins board", "who": "John V. Sims", "from": "Sylvamo SVP and CFO since the October 2021 spin-off from International Paper, then SVP and COO from 2025-05-01; ex SVP Corporate Development, International Paper", "effective": "2026-01-01", "source": "8-K 0001193125-25-082221 and 8-K/A 0001193125-25-322777", "external_hire": false},
+      {"what": "SVP and CFO", "who": "Don Devlin", "from": "25+ years at International Paper, most recently VP Transformation and Strategy Deployment", "effective": "2025-05-01", "source": "8-K 0001193125-25-082221", "external_hire": true},
+      {"what": "Non-executive Chairman (was lead independent director)", "who": "David Petratis", "from": "", "effective": "2026-01-01", "source": "8-K/A 0001193125-25-322777", "external_hire": false},
+      {"what": "Directors Karl Meyers and Mark Wilde resign as the Atlas Group cooperation agreement period ends", "who": "Karl Meyers, Mark Wilde", "from": "", "effective": "2025-11-05", "source": "8-K 0001193125-25-270084", "external_hire": null},
+      {"what": "Director Stan Askren resigns (health)", "who": "Stan Askren", "from": "", "effective": "2025-09-01", "source": "8-K 0001193125-25-185647", "external_hire": null}
+    ],
+    "months_since_primary": 9.0,
+    "ceo_months_in_seat": 9.0,
+    "next_event": {"type": "none known", "date": null, "source": "Lexical 'investor day' search over FY2026 corpus (cid 1005218) returned no hits. Sims set 2030 goals on the Q2 2026 call (2026-08-07, document_id 130850); the Eastover paper machine speed-up completes in the Q4 2026 outage."}
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "No margin level or rate. Numeric items are dollar benefits from capital projects: about $50M a year from the Eastover paper machine speed-up and new sheeter ($30M to $40M of it in 2027) plus up to $5M a year of warehouse savings, $55M a year in total (CEO, 2026-08-07). Also a 2030 cost goal of 3 to 5 times the 2022 to 2025 average annual cash cost improvement rate (no dollar base given) and 'over $300 million' of free cash flow and more than 15% ROIC 'as industry conditions turn' (no year). The benefits mix cost, mix and added volume (60,000 tons), so they are not pure savings.",
+    "current_level_pct": 11.78,
+    "target_level_pct": null,
+    "target_year": 2027,
+    "has_year": true,
+    "annual_bps": null,
+    "synergy_usd": 55000000,
+    "synergy_year": 2027,
+    "statements": [
+      {"quote": "We expect $50 million of annual benefits from the paper machine speed up and a new sheeter. We estimate roughly $30 million-$40 million of that in 2027.", "speaker": "John Sims", "role": "CEO", "doc_title": "Sylvamo Corp Q2 2026 Earnings Call", "date": "2026-08-07", "document_id": 130850},
+      {"quote": "On cost leadership, we challenge ourselves to set aggressive goal in order to drive margin improvement despite the significant inflationary cost pressures. Our goal is to achieve three to five times our 2022 through 2025 average annual cash cost improvement rate.", "speaker": "John Sims", "role": "CEO", "doc_title": "Sylvamo Corp Q2 2026 Earnings Call", "date": "2026-08-07", "document_id": 130850},
+      {"quote": "Price and mix were favorable by $32 million, reflecting the implementation of paper price increases in all regions. Better mix in the Americas, as well as the implementation of pulp price increases in Europe.", "speaker": "Don Devlin", "role": "CFO", "doc_title": "Sylvamo Corp Q2 2026 Earnings Call", "date": "2026-08-07", "document_id": 130850},
+      {"quote": "We communicated another paper price increase effective mid-June as costs continue to increase and margins are at unacceptable levels.", "speaker": "Don Devlin", "role": "CFO", "doc_title": "Sylvamo Corp Q2 2026 Earnings Call", "date": "2026-08-07", "document_id": 130850},
+      {"quote": "As industry conditions turn our capital spending normalized, the benefits from our investments begin to materialize with the potential to generate annually greater than $300 million of free cash flow and greater than 15% returns on invested capital.", "speaker": "John Sims", "role": "CEO", "doc_title": "Sylvamo Corp Q1 2026 Earnings Call", "date": "2026-05-08", "document_id": 199553}
+    ],
+    "first_stated": "2026-05-08",
+    "times_repeated": 2
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {"FY2026": 9.75, "FY2027": 14.84, "FY2028": 16.08},
+    "consensus_margin_at_target_year_pct": 14.84,
+    "gap_bps_vs_target": null,
+    "gap_assumption": "No margin level stated, so no gap. December fiscal year, so VA labels equal company fiscal years. The street already models a sharp recovery from 9.75% (FY2026) to 14.84% (FY2027) and 16.08% (FY2028), mostly paper and pulp price and the end of the Riverdale and Eastover transition, which exceeds anything management has quantified ($30M to $40M in 2027 is about 1 point of margin on $3.5B revenue). FY2027 EBITDA consensus fell from $550.1M (2026-06-30) to $520.6M (2026-10-01), -5.4% in 4 months, and from $571.4M at first coverage (2026-02-28); only 2 to 4 brokers.",
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials summary and consensus_history pid 4250 FY-2027 (Visible Alpha) cid 1005218; margins and revision via data_compute"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [-712, -333],
+    "note": "Q1 2026: VA EBITDA $29M on $755M revenue (3.84%) vs Q1 2025 10.96%, -712 bps. Q2 2026: adjusted EBITDA $60M, 'margin of 7%' (CEO, document_id 130850) vs Q2 2025 VA 10.33%, -333 bps; VA has not loaded Q2 2026. Sequential recovery was driven by +$32M price and mix (paper and pulp price increases) and +$22M operations and costs, largely European green energy credits. LTM 11.78% uses VA 2Q25 to 1Q26. data_comps ebitda_turn_pct is null (revision history starts 2026-02-28), so the 4-month revision was computed from consensus_history. pctile is null because only 17 months of EV/EBITDA history exist; the NTM EV/EBITDA of 4.54x sits at the minimum of that short series."
+  },
+  "score": {"A_underperformance": 1, "B_catalyst": 2, "C_numeric_framing": 3, "D_unproven": 0, "total": 6},
+  "disqualified": true,
+  "disqualifier_reason": "Margin is commodity-price driven: uncoated freesheet paper and pulp prices, energy, chemicals, wood and freight drive the swings (Q1 2026 margin 3.8%, Q2 7%, street 14.8% for FY2027). The Q2 2026 recovery was led by price and mix (+$32M), and the CFO says margins are 'at unacceptable levels' pending further price increases. Also, the 4-month FY2027 EBITDA revision is -5.4% (still falling) with no stated margin level, so D = 0.",
+  "verdict": "Disqualified: an internal CEO (ex CFO and COO, 9 months in) and a new CFO, but a commodity paper producer whose margins follow paper and pulp prices, with estimates still falling and the street already modeling a recovery.",
+  "open_questions": [
+    "How much of the 14.84% FY2027 consensus margin is price recovery versus the $55M a year of Eastover and warehouse benefits management controls?",
+    "Does the European footprint review (determination possibly early 2027) lead to closures or a sale that changes the margin mix?",
+    "What dollar base sits behind the 3 to 5 times cash cost improvement goal for 2030?"
+  ],
+  "sources": [
+    {"document_id": 199553, "title": "Sylvamo Corp Q1 2026 Earnings Call", "date": "2026-05-08"},
+    {"document_id": 130850, "title": "Sylvamo Corp Q2 2026 Earnings Call", "date": "2026-08-07"}
+  ],
+  "tool_calls": 18
+}
