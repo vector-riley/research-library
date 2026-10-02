@@ -1,0 +1,138 @@
+{
+  "ticker": "STRA",
+  "metric": "operating margin",
+  "fy_label_note": "VA FY = calendar fiscal year for STRA (no offset). Peers: CVSA (Adtalem, renamed Covista) and LRN fiscal years end June, UTI ends September, LOPE and LINC are calendar; VA labels used as given, so peer FY2020 for June and September filers is partly pre-pandemic. Operating margin = VA operating_income / revenue (FY2025 15.47% matches reported adjusted 15.5%).",
+  "company": {
+    "peak_fy": "FY2020",
+    "peak_margin_pct": 20.314471643940173,
+    "trough_fy": "FY2022",
+    "trough_margin_pct": 8.291286556293876,
+    "ltm_margin_pct": 15.553717343088627,
+    "decline_bps": 1202.3185087646298,
+    "revenue_peak_to_trough_pct": 2.553638340284259,
+    "inputs": {
+      "FY2020": {
+        "revenue": 1038949000,
+        "operating_income": 211057000
+      },
+      "FY2021": {
+        "revenue": 1135332000,
+        "operating_income": 165726000
+      },
+      "FY2022": {
+        "revenue": 1065480000,
+        "operating_income": 88342000
+      },
+      "FY2025": {
+        "revenue": 1268220000,
+        "operating_income": 196140000
+      },
+      "ltm": "2QFY2025 to 1QFY2026 actuals: operating income 48.543M + 51.293M + 54.596M + 43.187M over revenue 321.471M + 319.949M + 323.210M + 305.928M"
+    },
+    "note": "Revenue rose 2.55% over the margin peak-to-trough window (FY2020 to FY2022); revenue itself peaked in FY2021 at $1,135.3M and fell in FY2022 (CEO: 'Our revenue for the full year declined 5.8%'), so the volume shock lagged the margin drop."
+  },
+  "peers": {
+    "tickers": [
+      "CVSA",
+      "LOPE",
+      "LRN",
+      "UTI",
+      "LINC"
+    ],
+    "median_peak_margin_pct": 5.9647470850768425,
+    "median_trough_margin_pct": 11.156091366044018,
+    "median_decline_bps": -519.1344280967177,
+    "source": "Baba data_financials fundamentals",
+    "per_peer_op_margin_pct_FY2020_FY2022": {
+      "CVSA": [
+        15.789813888009611,
+        19.365600408729797
+      ],
+      "LOPE": [
+        35.848647547198425,
+        29.47176908744154
+      ],
+      "LRN": [
+        5.9647470850768425,
+        11.156091366044018
+      ],
+      "UTI": [
+        0.30988060287071795,
+        5.342853390326317
+      ],
+      "LINC": [
+        5.043074770978693,
+        4.673731721252874
+      ]
+    },
+    "excluded": "LAUR (negative operating margin FY2020 and FY2021 on impairments), COUR (negative margins), PXED (no pre-IPO history fetched), non-US and K-12/childcare/test-prep names (BFAM, EDU, TAL, Offcn, etc.) not sharing end markets.",
+    "note": "Median peer is LRN in both years. Peer median operating margin rose 519 bps while STRA fell 1,202 bps; only LOPE (-638 bps) and LINC (-37 bps) declined."
+  },
+  "attribution_ratio": -0.4317777895893186,
+  "relative_position_bps": {
+    "at_peak": 1434.9724558863331,
+    "at_trough": -286.4804809750142
+  },
+  "management_attribution": [
+    {
+      "quote": "Clearly, we're below that now, but we're below that because of a multi-year decline in enrollment at Strayer for a variety of reasons, mostly pandemic impacted.",
+      "speaker": "Karl McDonnell, President and CEO",
+      "date": "2022-04-28",
+      "document_id": 99298
+    },
+    {
+      "quote": "While we were disappointed by the year-over-year declines in our full year financial results in 2022, which were primarily driven by the enrollment declines that we had in 2020 and 2021, we have been more than pleased with our current operating performance, which will inform 2023's financial performance and beyond.",
+      "speaker": "Karl McDonnell, President and CEO",
+      "date": "2023-02-22",
+      "document_id": 99295
+    },
+    {
+      "quote": "Strayer will be below 2019 because they had a sharp decline as a result of having to close all of our campuses for a couple of years.",
+      "speaker": "Karl McDonnell, President and CEO",
+      "date": "2023-07-27",
+      "document_id": 99293
+    }
+  ],
+  "track_record": {
+    "prior_dated_targets": [
+      {
+        "target": "Pre-pandemic notional model: mid to high single-digit enrollment and revenue growth with operating margins in the mid-20s (restated by CEO 2022-04-28, doc 99298)",
+        "set": "pre-pandemic (exact date not in fetched sources)",
+        "due": "undated",
+        "outcome": "missed"
+      },
+      {
+        "target": "2023 Investor Day notional model: 200 bps operating margin expansion per year on a five-year basis",
+        "set": "2023 Investor Day (doc 94546)",
+        "due": "annually from FY2023",
+        "outcome": "hit"
+      },
+      {
+        "target": "200 bps EBIT margin expansion in each of 2026 and 2027 (CEO, doc 110818)",
+        "set": "2026-07-29",
+        "due": "FY2027",
+        "outcome": "pending"
+      }
+    ],
+    "note": "FY2022 to FY2025 VA operating margin expanded 717.4 bps vs 600 bps implied by three years of the notional model (FY2023 +271, FY2024 +190, FY2025 +257 from VA rows). Auditor changed PwC to Deloitte 2025-02-27 with no disagreements (stage 3).",
+    "restatement_or_weakness": false,
+    "share_loss_admitted": false
+  },
+  "tenure": {
+    "ceo": "Karl McDonnell",
+    "ceo_start": "2013-05 (DEF 14A doc 39922: named CEO May 2013; President and COO 2006 to 2013)",
+    "ceo_months": 161,
+    "founder": false,
+    "cfo_start": "2015-03-01 (Daniel W. Jackson promoted from SVP and Treasurer; 8-K 0001213900-15-001555)",
+    "cfo_months": 139,
+    "long_tenured": true
+  },
+  "verdict": "execution_led",
+  "deciding_facts": [
+    "Peer median operating margin rose 519 bps (5.96% to 11.16%) over FY2020 to FY2022 while STRA fell 1,202 bps (20.31% to 8.29%): attribution ratio -0.43, and STRA went from +1,435 bps above the peer median to -286 bps below it.",
+    "Margin fell on rising revenue over the window (+2.55%, FY2020 to FY2022); the pandemic hit was specific to Strayer's campus and working-adult model (CEO: 'a multi-year decline in enrollment at Strayer'), not an industry-wide margin cycle."
+  ],
+  "confidence": "medium",
+  "confidence_note": "Peer set is small and mixed fiscal years; LRN, UTI and CVSA grew through the pandemic via K-12 online, trades and the Walden acquisition, so the peer median flatters the comparison. LOPE, the closest adult online peer, fell 638 bps. Management has since hit the 2023 notional model, which argues the recovery is real even if the decline was company-specific.",
+  "tool_calls": 27
+}

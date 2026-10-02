@@ -10,3 +10,11 @@ Open questions:
 1. Was 13.5% set on the pre-2026 net revenue basis, and does gross revenue treatment make it harder to reach as reported?
 2. How many brokers sit behind FY2029 and FY2030 consensus, and do they model 3 million units by 2030?
 3. Will management narrow 2030 to 2035 to one year, the only way the gap becomes testable?
+
+## Macro or execution
+- Verdict: execution_led (confidence high). Adjusted EBITDA margin, calendar FY; KMX aligned one VA label ahead (Feb FYE).
+- Ratio 0.05 = peer median decline 38 bps (KMX, AN, LAD, SAH, ABG, GPI: 7.50% to 7.11%) / CVNA decline 815 bps (0.50% FY2021 to -7.65% FY2022) on revenue +6.2%; LTM 10.33% (includes gross revenue treatment).
+- Relative position: -700 bps at FY2021, -1,477 bps at FY2022, then +636 bps in FY2025 while peers compressed: the trough and the recovery are both self-help, so the 13.5% gap is a self-help question, not a cycle rebound. Gross revenue treatment cut Q2 2026 margin to 10.4% from 12.4% with no change in EBITDA dollars.
+- "We generally prepare for sales volume 6-12 months in advance, meaning we built capacity in most of our business functions for significantly more volume than we fulfilled in Q1." Q1 2022 shareholder letter, 2022-04-20, doc 226503
+- Track record: late 2022 EBITDA breakeven missed; 2023 breakeven step hit (FY2023 $339M); 13.5% by 2030 to 2035 pending.
+- Tenure: CEO Ernest Garcia III, co-founder, CEO since 2012 (at least 165 months); CFO Mark Jenkins since at least the 2017-04-28 IPO (at least 113 months). Founder-led.

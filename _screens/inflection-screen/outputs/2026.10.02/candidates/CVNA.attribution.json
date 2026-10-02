@@ -1,0 +1,161 @@
+{
+  "ticker": "CVNA",
+  "metric": "EBITDA margin",
+  "fy_label_note": "Adjusted EBITDA margin (VA ebitda = reported adjusted EBITDA: FY2024 $1,378M, FY2022 -$1,041M). CVNA calendar FY, VA label = company FY. Peers AN, LAD, SAH, ABG, GPI calendar FY. KMX fiscal year ends late February, so VA FY-2022 (revenue $31,900M) is roughly calendar 2021 and FY-2023 roughly calendar 2022; KMX was aligned one label ahead (FY-2022 vs FY-2023) to match CVNA FY2021 vs FY2022. From Q1 2026 reported revenue includes traditional gross revenue treatment for vehicles from a large retail marketplace partner, which lowers the margin denominator-side; year-over-year comparisons normalize from Q3 2026 (CFO, doc 110739).",
+  "company": {
+    "peak_fy": "FY2021",
+    "peak_margin_pct": 0.4994536444513813,
+    "trough_fy": "FY2022",
+    "trough_margin_pct": -7.652161129079682,
+    "ltm_margin_pct": 10.33202969111661,
+    "decline_bps": 815.1614851570707,
+    "revenue_peak_to_trough_pct": 6.165131886998587,
+    "inputs": {
+      "FY2021": {
+        "revenue": 12814000000,
+        "ebitda": 64000000
+      },
+      "FY2022": {
+        "revenue": 13604000000,
+        "ebitda": -1041000000
+      },
+      "FY2023": {
+        "revenue": 10771000000,
+        "ebitda": 339000000
+      },
+      "FY2024": {
+        "revenue": 13673000000,
+        "ebitda": 1378000000
+      },
+      "FY2025": {
+        "revenue": 20322000000,
+        "ebitda": 2237000000
+      },
+      "FY2026E": {
+        "revenue": 28828461000,
+        "ebitda": 2947103000,
+        "margin_pct": 10.22
+      },
+      "ltm": "3QFY2025 to 2QFY2026 actuals: EBITDA 637M + 511M + 672M + 769M over revenue 5,647M + 5,603M + 6,432M + 7,376M; includes two quarters of gross revenue treatment"
+    },
+    "note": "CVNA had no prior margin peak to reverse: FY2021 0.50% was its first positive year, FY2025 11.01% is its all-time high, and 13.5% is a new high. Revenue rose 6.2% into the FY2022 trough while retail units fell 3% (Q4 2022 call summary, doc 225076); revenue then fell to $10,771M in FY2023."
+  },
+  "peers": {
+    "tickers": [
+      "KMX",
+      "AN",
+      "LAD",
+      "SAH",
+      "ABG",
+      "GPI"
+    ],
+    "median_peak_margin_pct": 7.497794278062773,
+    "median_trough_margin_pct": 7.114000154168572,
+    "median_decline_bps": 38.379412389420025,
+    "source": "Baba data_financials fundamentals",
+    "per_peer_ebitda_margin_pct_cal2021_cal2022": {
+      "KMX": [
+        5.817252434142319,
+        3.546635272546296
+      ],
+      "AN": [
+        8.056802352577,
+        8.297943301834353
+      ],
+      "LAD": [
+        7.950349733046598,
+        7.301030942464471
+      ],
+      "SAH": [
+        5.140103056255413,
+        5.274585427757793
+      ],
+      "ABG": [
+        8.49080577777326,
+        8.70362451243375
+      ],
+      "GPI": [
+        7.045238823078948,
+        6.926969365872673
+      ]
+    },
+    "excluded": "PAG (commercial truck and UK mix), parts retailers (AZO, ORLY, AAP), OPENLANE, Valvoline, non-US dealers and Auto1; six closest US used and franchised auto retailers kept.",
+    "note": "Median of six = average of GPI and LAD in both years. Peers held record margins through 2022; their compression came in 2023 to 2025 (GPI 6.93% to 4.34%, LAD 7.30% to 4.96%) while CVNA expanded. FY2025 CVNA was +636 bps above the peer median (GPI/LAD average 4.65%)."
+  },
+  "attribution_ratio": 0.04708197466177493,
+  "relative_position_bps": {
+    "at_peak": -699.8340555571747,
+    "at_trough": -1476.6161283248252,
+    "fy2025": 635.8378741567574
+  },
+  "management_attribution": [
+    {
+      "quote": "Some of these impacted the used vehicle industry as a whole (e.g., Omicron, used vehicle prices, interest rates, other macro factors), and others were more specific to Carvana (e.g., reconditioning and logistics network disruptions).",
+      "speaker": "Ernie Garcia (Q1 2022 shareholder letter, CEO signatory)",
+      "date": "2022-04-20",
+      "document_id": 226503
+    },
+    {
+      "quote": "We generally prepare for sales volume 6-12 months in advance, meaning we built capacity in most of our business functions for significantly more volume than we fulfilled in Q1.",
+      "speaker": "Ernie Garcia (Q1 2022 shareholder letter, CEO signatory)",
+      "date": "2022-04-20",
+      "document_id": 226503
+    },
+    {
+      "quote": "One, we came into the year positioned for growth similar to what we'd experienced in the prior nine years. Two, after the pandemic snarled automotive supply chains and historically rapidly rising interest rates combined to dramatically impact the affordability of used cars. Three, rising interest rates and market sentiment drove a significant shift in our priorities away from growth and toward profitability. Four, this combined to lead to markedly lower volumes than we had positioned for. As a result, we've been carrying excess costs.",
+      "speaker": "Ernie Garcia, CEO",
+      "date": "2023-02-23",
+      "document_id": 225076
+    },
+    {
+      "quote": "Adjusted EBITDA margin was 10.4%, a decrease from 12.4%, primarily driven by increased retail revenue per unit resulting from the traditional gross revenue treatment mentioned previously.",
+      "speaker": "Mark Jenkins, CFO",
+      "date": "2026-07-29",
+      "document_id": 110739
+    }
+  ],
+  "track_record": {
+    "prior_dated_targets": [
+      {
+        "target": "$4,000+ GPU and EBITDA breakeven (pre-2022 target)",
+        "set": "before Q1 2022 (exact date not in fetched sources)",
+        "due": "late 2022",
+        "outcome": "missed",
+        "source": "doc 226503 Baba summary: breakeven pushed from late 2022 to 'a few quarters out'; not a verbatim quote"
+      },
+      {
+        "target": "Step 1: drive the business to break even Adjusted EBITDA",
+        "set": "2023-02-23 (doc 225076)",
+        "due": "near term (next two quarters of SG&A cuts)",
+        "outcome": "hit",
+        "source": "VA FY2023 adjusted EBITDA $339M"
+      },
+      {
+        "target": "3 million annual retail units at 13.5% adjusted EBITDA margin",
+        "set": "2025-05-07 (doc 225067)",
+        "due": "2030 to 2035",
+        "outcome": "pending"
+      }
+    ],
+    "restatement_or_weakness": false,
+    "share_loss_admitted": false,
+    "note": "No restatement or control weakness surfaced in searched sources (not specifically searched in 10-K Item 9A). Management claimed share gains through 2022 ('Carvana is gaining meaningful market share in a difficult industry environment', doc 226503)."
+  },
+  "tenure": {
+    "ceo": "Ernest Garcia III (co-founder, Chairman and CEO)",
+    "ceo_start": "2012 (DEF 14A doc 7: 'Mr. Garcia, who has served as our CEO since 2012'; month not disclosed)",
+    "ceo_months": 165,
+    "founder": true,
+    "cfo_start": "on or before 2017-04-28 IPO (Mark Jenkins on every call since Q1 2017 per stage 3, doc 225100; exact appointment date not in fetched sources)",
+    "cfo_months": 113,
+    "long_tenured": true,
+    "note": "ceo_months is a floor measured from 2012-12-31; cfo_months is a floor from the 2017-04-28 IPO."
+  },
+  "verdict": "execution_led",
+  "deciding_facts": [
+    "Over FY2021 to FY2022 CVNA adjusted EBITDA margin fell 815 bps (0.50% to -7.65%) on revenue up 6.2%, while the six-peer auto retail median slipped only 38 bps (7.50% to 7.11%): ratio 0.05, relative gap widened from -700 to -1,477 bps.",
+    "Management's own account is capacity built for growth that did not come ('we built capacity in most of our business functions for significantly more volume than we fulfilled'), and the 2023 to 2025 recovery to 11.0% (+636 bps over peers) happened while peer margins compressed, so both the trough and the path to 13.5% are self-help, not cycle. The 2026 gross revenue treatment cuts reported margin (Q2 2026 10.4% vs 12.4%) without changing EBITDA dollars, so the street's FY2026 10.22% understates the like-for-like run rate."
+  ],
+  "confidence": "high",
+  "tool_calls": 25
+}

@@ -1,0 +1,149 @@
+{
+  "ticker": "EFOR",
+  "metric": "EBITDA margin",
+  "fy_label_note": "Adjusted EBITDA margin (VA ebitda; FY2025 10.62% matches the stage 3 record). EFOR (ASGN, renamed Everforth 2026-04-24) is calendar FY, VA label = company FY. Peers RHI, CTSH, EPAM calendar; ACN (August FYE) and CACI (June FYE) use the same VA label, so their 'FY2022' is partly calendar 2021; SAIC (late January FYE) labels run one year ahead, so SAIC VA FY2023 and FY2026 were used for calendar 2022 and 2025.",
+  "company": {
+    "peak_fy": "FY2022",
+    "peak_margin_pct": 12.211041016349785,
+    "trough_fy": "FY2025",
+    "trough_margin_pct": 10.617023414732188,
+    "ltm_margin_pct": 10.103862055056972,
+    "decline_bps": 159.40176016175977,
+    "revenue_peak_to_trough_pct": -13.112571216520053,
+    "inputs": {
+      "FY2022": {
+        "revenue": 4581100000,
+        "ebitda": 559400000
+      },
+      "FY2023": {
+        "revenue": 4450600000,
+        "ebitda": 517200000
+      },
+      "FY2024": {
+        "revenue": 4099700000,
+        "ebitda": 452000000
+      },
+      "FY2025": {
+        "revenue": 3980400000,
+        "ebitda": 422600000
+      },
+      "FY2026E": {
+        "revenue": 3971559000,
+        "ebitda": 378099000,
+        "margin_pct": 9.52
+      },
+      "ltm": "3QFY2025 to 2QFY2026 actuals: EBITDA 112.6M + 107.9M + 83.6M + 96.7M over revenue 1,011.4M + 980.1M + 968.3M + 1,007.0M"
+    },
+    "note": "FY2025 is the last full-year actual, but the decline has not ended: LTM 10.10% and FY2026 consensus 9.52%, after Q1 2026 came in at 8.6%."
+  },
+  "peers": {
+    "tickers": [
+      "RHI",
+      "CTSH",
+      "EPAM",
+      "ACN",
+      "CACI",
+      "SAIC"
+    ],
+    "median_peak_margin_pct": 15.705343670185963,
+    "median_trough_margin_pct": 13.71098892394514,
+    "median_decline_bps": 199.43547462408227,
+    "source": "Baba data_financials fundamentals",
+    "per_peer_ebitda_margin_pct_cal2022_cal2025": {
+      "RHI": [
+        13.205004820297805,
+        4.5186732523864395
+      ],
+      "CTSH": [
+        18.20568252007412,
+        18.3674436232708
+      ],
+      "EPAM": [
+        18.410561655879807,
+        16.21641779010514
+      ],
+      "ACN": [
+        18.598143123783927,
+        19.06418036364371
+      ],
+      "CACI": [
+        10.277551674478314,
+        11.205560057785139
+      ],
+      "SAIC": [
+        8.826583592938734,
+        9.749380335995593
+      ]
+    },
+    "excluded": "Kforce not tracked in Baba (companies_search returned nothing); IBM, Gartner, Amdocs, Kyndryl, DXC, Innodata, ExlService, Globant and LDOS dropped as further from ASGN's commercial IT staffing/consulting plus federal IT mix.",
+    "note": "Peer set is split three ways and the median is an average of different names at peak (RHI, CTSH) and trough (CACI, EPAM). Pure IT/professional staffing (RHI) fell 869 bps; offshore and large consulting (CTSH, ACN) were flat to up; federal IT (CACI, SAIC) rose. EFOR's 159 bps fall sits between the staffing and consulting groups, consistent with its mix."
+  },
+  "attribution_ratio": 1.251149764103587,
+  "relative_position_bps": {
+    "at_peak": -349.4302653836176,
+    "at_trough": -309.3965509212951
+  },
+  "management_attribution": [
+    {
+      "quote": "Growth in commercial consulting revenue was offset by 19.5% year-over-year decline in Assignment revenues, reflecting the continued softness in more discretionary and cyclical parts of our business.",
+      "speaker": "Marie Perry, EVP and CFO",
+      "date": "2023-10-25",
+      "document_id": 148951
+    },
+    {
+      "quote": "The year-over-year compression in gross margin was mainly related to business mix, including a lower mix of certain high-margin revenues within our Commercial segment and a higher mix of revenues from our Federal Government segment, which carry a lower gross margin than Commercial segment revenues.",
+      "speaker": "Marie Perry, EVP and CFO",
+      "date": "2023-10-25",
+      "document_id": 148951
+    },
+    {
+      "quote": "Financial targets for 2023 had been achieved at zero percent as macroeconomic conditions had significantly impacted performance after targets had been set.",
+      "speaker": "Compensation Committee, DEF 14A (2025 proxy)",
+      "date": "2025-04-24",
+      "document_id": 133125
+    }
+  ],
+  "track_record": {
+    "prior_dated_targets": [
+      {
+        "target": "2023 annual incentive financial targets (adjusted EBITDA and revenue growth, internal)",
+        "set": "early 2023",
+        "due": "FY2023",
+        "outcome": "missed",
+        "note": "Achieved at zero percent, attributed by the board to macro (doc 133125); 2024 targets achieved only at threshold levels."
+      },
+      {
+        "target": "Q1 2026 adjusted EBITDA margin expectation",
+        "set": "Q4 2025 earnings call guidance (date not fetched)",
+        "due": "Q1 2026",
+        "outcome": "missed",
+        "note": "CEO: 'Adjusted EBITDA margin of 8.6% was below our expectations for the quarter. This miss was driven largely by business mix related to lower than expected contribution of some of our higher margin solutions within the commercial segment.' (doc 140736, fetched in stage 3)"
+      },
+      {
+        "target": "12.5% to 13.5% organic adjusted EBITDA margin in 2028, 200 to 300 bps improvement, up to $80M annualized SG&A savings",
+        "set": "2025-11-20 (Investor Day, doc 200681)",
+        "due": "FY2028",
+        "outcome": "pending"
+      }
+    ],
+    "restatement_or_weakness": false,
+    "share_loss_admitted": false,
+    "note": "No restatement, control weakness or share-loss admission surfaced in the searches run (not specifically searched in 10-K Item 9A)."
+  },
+  "tenure": {
+    "ceo": "Theodore (Ted) Hanson",
+    "ceo_start": "2019-04-30 (8-K 0000890564-19-000028; President since 2017-01-01)",
+    "ceo_months": 89,
+    "founder": false,
+    "cfo_start": "2022-08 (Marie Perry promoted from EVP Finance; DEF 14A doc 133125)",
+    "cfo_months": 50,
+    "long_tenured": true
+  },
+  "verdict": "mixed",
+  "deciding_facts": [
+    "Over FY2022 to FY2025 the numbers read macro: peer median adjusted EBITDA margin fell 199 bps vs EFOR 159 bps (ratio 1.25), EFOR's gap to the peer median narrowed from -349 to -309 bps, and revenue fell 13.1% with margin as discretionary assignment work shrank (pure staffing peer RHI fell 869 bps).",
+    "But the compression is still running after peers stabilized (LTM 10.10%, FY2026 consensus 9.52%) and the CEO called the Q1 2026 8.6% margin a miss on company mix, on top of zero-percent achievement of 2023 internal targets; that missed target keeps it at mixed rather than macro_led."
+  ],
+  "confidence": "medium",
+  "tool_calls": 24
+}

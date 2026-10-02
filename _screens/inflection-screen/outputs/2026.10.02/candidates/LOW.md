@@ -8,3 +8,11 @@ Open questions:
 1. Does December 2026 restate a dated margin target, and is it rebased below 14% for FBM/ADG?
 2. How much is self-help (PPI, FBM synergies) versus comp leverage from a housing recovery?
 3. Will FBM synergies get a dollar figure and date?
+
+## Macro or execution
+- Verdict: mixed, leaning macro (confidence medium). Operating margin; Baba labels one year ahead (VA FY2026 = company fiscal 2025); FND and BLDR calendar-aligned.
+- Ratio 1.30 = peer median decline 151.7 bps (FND median of HD, FND, KGF, HBH, BLDR: 7.28% to 5.77%) / LOW decline 116.9 bps (13.31% VA FY2024 to 12.14% VA FY2026, revenue -0.1% with FBM/ADG added); HD fell 127.5 bps; LTM 11.99%.
+- Relative position: +602 bps vs peer median at peak, +637 bps at trough (held and improved).
+- "that headwind is driven almost exclusively by elevated mortgage rates. As you know, I think housing turnover is at its lowest level since the 1990s" Marvin Ellison, CEO, 2025-06-11, doc 67401
+- Missed target: 14.5% op margin by fiscal 2025 (robust) or 2027 (moderate), set 2022-12-07 (doc 90692), actual 12.14% and replaced by undated "14% plus"; that one miss is what keeps it out of macro_led.
+- Tenure: CEO Marvin Ellison since 2018-07-02 (99 months, not founder); CFO Brandon Sink since 2022-04-30 (53 months). CEO long tenured.

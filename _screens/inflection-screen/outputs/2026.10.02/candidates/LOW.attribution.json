@@ -1,0 +1,132 @@
+{
+  "ticker": "LOW",
+  "metric": "operating margin",
+  "fy_label_note": "Lowe's fiscal year ends late January/early February, so Baba/VA labels run one year ahead: VA FY2024 = company fiscal 2023 (about calendar 2023), VA FY2026 = company fiscal 2025 (about calendar 2025). HD, KGF and HBH (January/February year ends) share LOW's label convention; FND and BLDR are calendar filers, so their VA FY2023 and FY2025 were used to align with LOW VA FY2024 and FY2026. Operating margin = VA operating_income / revenue (GAAP-like; close to adjusted).",
+  "company": {
+    "peak_fy": "VA FY2024 (company fiscal 2023)",
+    "peak_margin_pct": 13.306937112160785,
+    "trough_fy": "VA FY2026 (company fiscal 2025)",
+    "trough_margin_pct": 12.137542590918573,
+    "ltm_margin_pct": 11.987470882239863,
+    "decline_bps": 116.93945212422119,
+    "revenue_peak_to_trough_pct": -0.10419560989163301,
+    "inputs": {
+      "VA FY2023": {
+        "revenue": 97059000000,
+        "operating_income": 12661000000
+      },
+      "VA FY2024": {
+        "revenue": 86376000000,
+        "operating_income": 11494000000
+      },
+      "VA FY2025": {
+        "revenue": 83673000000,
+        "operating_income": 10289000000
+      },
+      "VA FY2026": {
+        "revenue": 86286000000,
+        "operating_income": 10473000000
+      },
+      "VA FY2027E": {
+        "revenue": 92240845000,
+        "operating_income": 10702552000,
+        "margin_pct": 11.6
+      },
+      "ltm": "VA 2QFY2026 to 1QFY2027 actuals: operating income 3,512M + 2,582M + 1,857M + 2,650M over revenue 23,959M + 20,813M + 20,584M + 23,078M"
+    },
+    "note": "Reported revenue was flat (-0.1%) across the window only because ADG (June 2025) and FBM (October 2025) were added in VA FY2026; VA FY2025 revenue fell to $83,673M. VA FY2023 to FY2024 revenue drop also includes the Canada retail sale. Comparable sales were not pulled, so the organic decline is not quantified here."
+  },
+  "peers": {
+    "tickers": [
+      "HD",
+      "FND",
+      "KGF",
+      "HBH",
+      "BLDR"
+    ],
+    "median_peak_margin_pct": 7.282203157128733,
+    "median_trough_margin_pct": 5.76569014074885,
+    "median_decline_bps": 151.65130163798827,
+    "source": "Baba data_financials fundamentals",
+    "per_peer_op_margin_pct_cal2023_cal2025": {
+      "HD": [
+        14.328383627324474,
+        13.053563512930904
+      ],
+      "FND": [
+        7.282203157128733,
+        5.76569014074885
+      ],
+      "KGF": [
+        5.184899845916795,
+        5.028968713789108
+      ],
+      "HBH": [
+        4.126029924916644,
+        4.114152420099259
+      ],
+      "BLDR": [
+        15.34920364758708,
+        8.076652414478643
+      ]
+    },
+    "excluded": "HMPRO (Thai home improvement, fetched but dropped: no shared end market), Clas Ohlson, Siam Global House, MR DIY (non-US, different formats).",
+    "note": "Median peer is FND in both years. HD, the closest comparable on the same fiscal calendar, fell 127.5 bps vs LOW 116.9 bps. BLDR (new construction building products) fell 727 bps."
+  },
+  "attribution_ratio": 1.29683608810561,
+  "relative_position_bps": {
+    "at_peak": 602.4733955032052,
+    "at_trough": 637.1852450169724
+  },
+  "management_attribution": [
+    {
+      "quote": "Specific to home improvement, I mean, we still are seeing a bit of headwind, and that headwind is driven almost exclusively by elevated mortgage rates. As you know, I think housing turnover is at its lowest level since the 1990s, and that is almost exclusively driven by these elevated rates. Also, short-term borrowing rates are up, and that's putting a little bit of a damper on discretionary big-ticket DIY projects.",
+      "speaker": "Marvin Ellison, CEO",
+      "date": "2025-06-11",
+      "document_id": 67401
+    }
+  ],
+  "track_record": {
+    "prior_dated_targets": [
+      {
+        "target": "Long-term adjusted operating margin of 14.5%, by 2025 in the robust scenario or by 2027 in the moderate scenario ('if there is a brief downturn in home improvement in the next 18 months')",
+        "set": "2022-12-07 (Investor Update, doc 90692)",
+        "due": "company fiscal 2025 (robust) / fiscal 2027 (moderate)",
+        "outcome": "missed",
+        "note": "Fiscal 2025 (VA FY2026) operating margin 12.14%; moderate-case fiscal 2027 (VA FY2028) consensus 11.76%. Replaced on 2024-12-11 by an undated '14% plus' path (doc 67403). Both scenarios assumed a milder housing downturn than occurred."
+      },
+      {
+        "target": "2023 scenarios: operating margin expansion of 30 to 90 bps vs 13% adjusted in 2022",
+        "set": "2022-12-07 (doc 90692)",
+        "due": "company fiscal 2023",
+        "outcome": "hit",
+        "note": "VA FY2023 to FY2024 operating margin 13.04% to 13.31% (+27 bps on VA GAAP-like basis; adjusted basis not pulled)."
+      },
+      {
+        "target": "Profit algorithm update relative to top-line growth",
+        "set": "2026-09-15 (doc 221465)",
+        "due": "December 2026",
+        "outcome": "pending"
+      }
+    ],
+    "restatement_or_weakness": false,
+    "share_loss_admitted": false,
+    "note": "No restatement, control weakness or share-loss admission surfaced in the searches run (not specifically searched in 10-K Item 9A)."
+  },
+  "tenure": {
+    "ceo": "Marvin Ellison",
+    "ceo_start": "2018-07-02",
+    "ceo_months": 99,
+    "founder": false,
+    "cfo_start": "2022-04-30 (Brandon Sink, internal; 8-K 0001193125-22-100399)",
+    "cfo_months": 53,
+    "long_tenured": true
+  },
+  "verdict": "mixed",
+  "deciding_facts": [
+    "The numbers are macro: peer median operating margin fell 151.7 bps (FND, 7.28% to 5.77%) vs LOW 116.9 bps (13.31% to 12.14%), ratio 1.30; LOW's lead over the peer median widened from +602 to +637 bps, and HD fell 127.5 bps over the same years.",
+    "But management missed its own dated target: the December 2022 14.5% operating margin goal (by fiscal 2025 robust, fiscal 2027 moderate) landed at 12.14% in fiscal 2025 and was replaced by an undated '14% plus' path, and reported revenue was flat (acquisitions) rather than falling with margin. One missed target puts it in mixed under the rules; on the attribution numbers alone it would be macro_led."
+  ],
+  "confidence": "medium",
+  "tool_calls": 22
+}
