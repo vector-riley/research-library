@@ -1,0 +1,49 @@
+{
+  "ticker": "GXO", "cid": 1000007, "name": "GXO Logistics Inc", "industry": "Delivery, Air Freight & Logistics", "as_of": "2026-10-02",
+  "quant": {"mcap_usd": 5318399280.0, "drawdown": -0.3223, "pctile_ev_ebitda_60m": 0.0167, "price_ltm_pct": -0.1596,
+            "ebitda_margin_ltm": 0.0678, "industry_median_margin": 0.1037,
+            "ev_ebitda_fy": 7.44,
+            "net_debt_ltm_ebitda": 2.60, "ebitda_revision_12m": 0.0039, "ebitda_brokers": 14},
+  "catalyst": {"type": ["new_ceo", "new_cfo", "board_refresh", "acquisition"],
+               "events": [
+                 {"what": "CEO appointed", "who": "Patrick Kelleher", "from": "DHL Supply Chain (CEO North America)", "effective": "2025-08-19", "source": "8-K 0001104659-25-060942", "external_hire": true},
+                 {"what": "Directors added (board expanded 9 to 10)", "who": "Patrick J. Byrne; Michael Kneeland", "from": "ex GE / GE Digital; ex CEO United Rentals", "effective": "2025-07-29", "source": "8-K 0001852244-25-000077", "external_hire": true},
+                 {"what": "Chairman resigned; new Chairman; board cut 10 to 9", "who": "Brad Jacobs out; Patrick Byrne Chairman", "from": "GXO independent director since 2025-07-29", "effective": "2025-12-31", "source": "8-K 0001104659-25-120872", "external_hire": false},
+                 {"what": "COO appointed", "who": "Bart Beeks", "from": "CEVA Logistics (COO)", "effective": "2026-01-02", "source": "8-K 0001852244-25-000114", "external_hire": true},
+                 {"what": "CFO appointed (Baris Oran departure announced 8-K 0001104659-25-074265)", "who": "Mark Suchinski", "from": "The GEO Group (CFO)", "effective": "2026-04-01", "source": "8-K 0001104659-26-024439", "external_hire": true},
+                 {"what": "Chief Accounting Officer appointed", "who": "Christina Carvalho", "from": "Amer Sports (CAO)", "effective": "2026-09-14", "source": "8-K 0001104659-26-099267", "external_hire": true},
+                 {"what": "Wincanton acquisition, $60M run-rate cost synergy target by end of 2026 (closed 2024 per stage 2; closing date not verified, no Item 2.01/1.01 8-K returned; outside 18-month window)", "who": "Wincanton", "from": null, "effective": null, "source": "document_id 184", "external_hire": null}
+               ],
+               "months_since_primary": 13.4},
+  "margin_framing": {"numeric": true, "metric": "operating margin",
+                     "current_level_pct": 3.5, "target_level_pct": 6.0, "target_year": null,
+                     "annual_bps": 20, "synergy_usd": 60000000, "synergy_year": 2026,
+                     "statements": [
+                       {"quote": "If you look into 2026 onwards, our guidance implies in 2026 an EBITDA margin expansion around 20 basis points.", "speaker": "Baris Oran", "role": "CFO", "doc_title": "GXO Logistics Inc Q4 2025 Earnings Call", "date": "2026-02-11", "document_id": 140565},
+                       {"quote": "But I can confidently say right now, we are aiming to deliver at margin levels at or better than our peer group.", "speaker": "Patrick Kelleher", "role": "CEO", "doc_title": "GXO Logistics Inc Q4 2025 Earnings Call", "date": "2026-02-11", "document_id": 140565},
+                       {"quote": "we are at a 3.5%-4% EBIT margin business right now. We really deserve to be above six, and we will share more details on November 16th at the Investor Day in terms of our path to achieve that.", "speaker": "Patrick Kelleher", "role": "CEO", "doc_title": "GXO Logistics Inc Q2 2026 Earnings Call", "date": "2026-08-05", "document_id": 129356},
+                       {"quote": "We're a 3.5% EBIT business. Our good peers are 6% or better.", "speaker": "Patrick Kelleher", "role": "CEO", "doc_title": "Jefferies Global Industrials Conference 2026", "date": "2026-09-09", "document_id": 219277},
+                       {"quote": "We expect integration benefits to be about GBP 10 million in this year and $60 million by the end of 2026 is the full run rate. These are mainly cost, and we do expect sizable revenue synergies.", "speaker": "Baris Oran", "role": "CFO", "doc_title": "GXO Logistics Inc Q3 FY2025 Earnings Call", "date": "2025-11-05", "document_id": 184},
+                       {"quote": "We remain on track to deliver run rate cost synergies of $60 million by year-end 2026.", "speaker": "Mark Suchinski", "role": "CFO", "doc_title": "GXO Logistics Inc Q1 2026 Earnings Call", "date": "2026-05-06", "document_id": 140564}
+                     ],
+                     "first_stated": "2026-02-11", "times_repeated": 2},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 6.83, "FY2027": 7.08, "FY2028": 7.47},
+             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": null,
+             "ebitda_uplift_pct_if_target_hit": 35.3, "source": "Baba data_financials consensus"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [60, -6], "note": "Q1 2026 adj. EBITDA margin 6.1%, up 60 bps YoY (Suchinski, doc 140564); Q2 2026 6.4%, 'consistent with the second quarter of last year' (Suchinski, doc 129356), -6 bps computed from consensus actuals (219/3441 vs 212/3299). Order is [Q1 2026, Q2 2026]. FY2026 EBITDA guide tightened to $945M-$965M on 2026-08-05."},
+  "score": {"A_underperformance": 2, "B_catalyst": 3, "C_numeric_framing": 2, "D_unproven": 2, "total": 9},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Archetype confirmed: external CEO plus new CFO, COO and Chairman, CEO twice framed a 3.5% to above 6% EBIT gap to peers, yet FY2027 consensus EBITDA moved only +0.4% in 12 months; C scores 2 not 3 because the level has no target year until the 2026-11-16 Investor Day.",
+  "open_questions": ["What target year and EBITDA-basis level will the 2026-11-16 Investor Day attach to the 'above six' EBIT ambition?", "Q2 2026 margin was flat YoY despite Wincanton synergies; how much of the $60M run rate is in the 2026 guide versus reinvested in vertical and AI spend?", "Does consensus FY2028 EBITDA margin of 7.47% move after the Investor Day, or does the street wait for delivery?"],
+  "sources": [
+    {"document_id": 184, "title": "GXO Logistics Inc Q3 FY2025 Earnings Call", "date": "2025-11-05"},
+    {"document_id": 140565, "title": "GXO Logistics Inc Q4 2025 Earnings Call", "date": "2026-02-11"},
+    {"document_id": 140564, "title": "GXO Logistics Inc Q1 2026 Earnings Call", "date": "2026-05-06"},
+    {"document_id": 129356, "title": "GXO Logistics Inc Q2 2026 Earnings Call", "date": "2026-08-05"},
+    {"document_id": 219277, "title": "Jefferies Global Industrials Conference 2026", "date": "2026-09-09"},
+    {"document_id": 0, "title": "Baba data_comps (market_data, revisions, estimates; asof 2026-09-28 to 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary consensus (Visible Alpha)", "date": "2026-09-28"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02 filings: 0001104659-25-060942, 0001852244-25-000077, 0001104659-25-120872, 0001852244-25-000114, 0001104659-26-024439, 0001104659-26-099267", "date": "2025-06-20 to 2026-08-20"}
+  ],
+  "tool_calls": 30
+}

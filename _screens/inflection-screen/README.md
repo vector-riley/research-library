@@ -15,7 +15,7 @@ primary sources and fills a fixed JSON schema. Stage 4 aggregates and ranks.
 | drawdown (from Oct 2023 window) | -32% | the stock has underperformed |
 | pctile (own-history EV/EBITDA, 60 months) | 1.7% | trading near the bottom of its own range |
 | price_ltm_pct | -16% | still underperforming over the last year |
-| ebitda_margin | 7.1% vs industry median 9.8% | low margin, so each 100 bps matters (about 14% of EBITDA) |
+| ebitda_margin (forward-year consensus, FY2027, not LTM) | 7.1% vs industry median 9.8% (LTM actual 6.8% vs 10.4%) | low margin, so each 100 bps matters (about 14% of EBITDA) |
 | ebitda_revision (12 months, forward year) | +0.4% | the street has not underwritten the story |
 | ebitda_inflection | 0 | consensus does not yet show an inflection |
 | ev_ebitda_fy / net_debt_ltm_ebitda | 7.4x / 2.6x | cheap, leverage survivable |
@@ -39,7 +39,7 @@ Gates (every gate calibrated so GXO passes):
 1. Universe hygiene: market cap >= $1bn; >= 3 EBITDA brokers; exclude Financials, Utilities, Energy, Biotech,
    Pharma, and mining industries (margin there is commodity or pipeline driven, not a management lever).
 2. Underperforming, two of three: drawdown <= -20%, own-history EV/EBITDA percentile <= 25%, LTM price <= -10%.
-3. Room to expand: EBITDA margin <= 15% absolute, or below the industry median (sector median if the industry has
+3. Room to expand: EBITDA margin (note: the grid's `ebitda_margin` is the forward-year consensus margin, not LTM) <= 15% absolute, or below the industry median (sector median if the industry has
    fewer than 5 names) and <= 30%.
 4. Unproven but not broken: 12-month forward EBITDA consensus revision between -30% and +10%.
 5. Survivable: net debt / LTM EBITDA <= 5x.
@@ -105,6 +105,17 @@ what goes to the pipeline bucket in Baba. Nothing is written to Baba by the scre
   stage 1 list) so new CEO announcements surface within days.
 
 ## 4. Known gaps and next steps
+
+Calibration run on GXO (2026-10-02): the archetype scored 9/10 on its own rubric (A2 B3 C2 D2). It lost the point on C
+because the CEO's quantified level ("3.5% to 4% EBIT ... deserve to be above six", Q2 2026 call and Jefferies
+conference) carries no year yet; the dated plan is promised for the 2026-11-16 Investor Day. Decision: keep C strict.
+A 9 for the archetype is the reference point, and a candidate that already has a dated level is a better setup than
+GXO was. Other calibration lessons now folded into the prompt: management may state the level in EBIT and the rate in
+EBITDA, so the schema records the metric basis and any assumption behind the gap; `data_guidance` field labels are
+unreliable but its verbatim quotes are good; hybrid search on the peer-parity phrasing found the key quotes in one
+call, while lexical search needs a fiscal_year filter or it returns 2021 to 2024 material; the run took 30 tool calls,
+9 of them data_compute, so the budget is now 20 to 30.
+
 
 - Baba's composite score recipes (`score_config`) only offer FCF yield, growth, leverage, and founder-led legs, so
   this screen cannot live as a Baba recipe today. The drawdown, pctile, ebitda_revision and ebitda_inflection fields

@@ -36,7 +36,12 @@ Baba (the firm's research workbench, MCP server BQBQ):
 - mcp__BQBQ__data_financials with sections=["summary"]: consensus revenue and EBITDA for the current and next two
   fiscal years. Use it to compute the consensus-implied EBITDA margin path. If you need more, sections=["fundamentals"].
 - mcp__BQBQ__data_comps with cid: the screening row (drawdown, pctile = own-history EV/EBITDA percentile over 60
-  months, ebitda_revision = 12-month change in forward EBITDA consensus, ebitda_margin, ev_ebitda_fy, net_debt_ltm_ebitda).
+  months, ebitda_revision = 12-month change in forward EBITDA consensus, ebitda_margin = FORWARD-YEAR consensus
+  margin not LTM, ev_ebitda_fy, net_debt_ltm_ebitda). Compute the LTM margin yourself from the last four reported
+  quarters (data_financials fundamentals or data_as_reported) and record both.
+- Search tip from the GXO calibration: a hybrid corpus_search on the management phrasing ("margin at or better than
+  our peer group", "deserve to be above", "path to X% margin") found every key quote in one call. Lexical search needs
+  a fiscal_year filter or it returns old material.
 - mcp__BQBQ__data_compute for any derived number (gap in basis points, EBITDA uplift). Never do mental arithmetic.
 - mcp__BQBQ__data_executives: current roster (no start dates; use the 8-K for dates).
 
@@ -60,7 +65,7 @@ in Bash. Never read a 100K-character file sequentially.
    annual rate (50 bps a year), a dollar synergy target with a date, or a quantified gap to peers. "We see
    meaningful margin opportunity" is qualitative. Record it, but it scores lower.
 5. A catalyst counts only if effective within the last 18 months (after 2025-04-01) or announced and pending.
-6. Budget: about 12 to 20 tool calls per ticker. Stop when the schema is filled; do not write a memo.
+6. Budget: about 20 to 30 tool calls per ticker, data_compute included. Stop when the schema is filled; do not write a memo.
 7. No em dashes anywhere in your output. Plain words.
 
 ## Scoring (0 to 10 total, record each component)
@@ -94,18 +99,19 @@ Schema:
 {
   "ticker": "", "cid": 0, "name": "", "industry": "", "as_of": "2026-10-02",
   "quant": {"mcap_usd": null, "drawdown": null, "pctile_ev_ebitda_60m": null, "price_ltm_pct": null,
-            "ebitda_margin_ltm": null, "industry_median_margin": null, "ev_ebitda_fy": null,
+            "ebitda_margin_ltm": null, "ebitda_margin_fwd_consensus": null, "industry_median_margin": null, "ev_ebitda_fy": null,
             "net_debt_ltm_ebitda": null, "ebitda_revision_12m": null, "ebitda_brokers": null},
   "catalyst": {"type": ["new_ceo","new_cfo","acquisition","strategy_update","activist","board_refresh"],
                "events": [{"what": "", "who": "", "from": "", "effective": "YYYY-MM-DD", "source": "8-K accession or document_id", "external_hire": null}],
                "months_since_primary": null},
   "margin_framing": {"numeric": null, "metric": "adjusted EBITDA margin | operating margin | EBITA margin | gross margin",
+                     "metric_basis_note": "when the level and the rate use different metrics (EBIT level, EBITDA rate), say so here",
                      "current_level_pct": null, "target_level_pct": null, "target_year": null,
                      "annual_bps": null, "synergy_usd": null, "synergy_year": null,
                      "statements": [{"quote": "", "speaker": "", "role": "", "doc_title": "", "date": "", "document_id": 0}],
                      "first_stated": "YYYY-MM-DD", "times_repeated": 0},
   "street": {"consensus_ebitda_margin_by_fy": {"FY2026": null, "FY2027": null, "FY2028": null},
-             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": null,
+             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": null, "gap_assumption": "e.g. compares EBIT target with EBITDA consensus assuming flat D&A/revenue",
              "ebitda_uplift_pct_if_target_hit": null, "source": "Baba data_financials consensus"},
   "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [null, null], "note": ""},
   "score": {"A_underperformance": 0, "B_catalyst": 0, "C_numeric_framing": 0, "D_unproven": 0, "total": 0},
