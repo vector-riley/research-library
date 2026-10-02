@@ -1,0 +1,32 @@
+{"ticker": "DXC", "metric": "operating margin",
+ "fy_label_note": "DXC fiscal year ends March; Baba FY labels follow the fiscal year end (FY2027 = April 2026 to March 2027). Metric is adjusted EBIT margin (VA operating_income equals company adjusted EBIT; FY2026 $970M). Window: last five fiscal years FY2022 to FY2026 (actuals) plus FY2027 consensus. Peak FY2022 8.45%; lowest actual FY2024 7.38%; trough FY2027E 6.40% (company guide 6% to 7%). Peers on their own fiscal labels: ACN (August), GIB (September), CTSH and CAPP (December), INFO (March). KD excluded from the operating-margin set because its VA operating margin is below zero at FY2022 (-8.61%); an EBITDA-margin cross-check including KD gives the same answer (peer median expands 41 bps FY2022 to FY2027E while DXC EBITDA margin falls 325 bps). LTM = FY2026 (latest VA actuals); Q1 FY2027 adjusted EBIT margin was 5.0%, down 180 bps (doc 112121), not yet in VA.",
+ "company": {"peak_fy": "FY2022 (March 2022)", "peak_margin_pct": 8.4537, "trough_fy": "FY2027E (March 2027, consensus)", "trough_margin_pct": 6.3979, "ltm_margin_pct": 7.6716,
+             "decline_bps": 205.58, "revenue_peak_to_trough_pct": -25.21},
+ "peers": {"tickers": ["ACN", "CTSH", "CAPP", "GIB", "INFO"], "median_peak_margin_pct": 15.2769, "median_trough_margin_pct": 16.2559, "median_decline_bps": -64.1,
+           "per_peer_fy2022_to_fy2027e": {"ACN": [15.2079, 15.8952, -68.7], "CTSH": [15.2769, 16.2559, -97.9], "CAPP": [13.0348, 13.6754, -64.1], "GIB": [16.0018, 16.4473, -44.6], "INFO": [23.0227, 20.8362, 218.7]},
+           "peer_note": "Format [FY2022 %, FY2027E %, decline bps; negative = expansion]. To the lowest actual year (FY2024) the peer median decline is -5.5 bps against DXC 107 bps, so the answer does not depend on using an estimate year. Peer revenue grew over the window (ACN 61.6B to 76.4B, CTSH 19.4B to 23.3B) while DXC revenue fell 25%.",
+           "source": "Baba data_financials fundamentals"},
+ "attribution_ratio": -0.312, "relative_position_bps": {"at_peak": -682.32, "at_trough": -985.8},
+ "management_attribution": [
+   {"quote": "In the first quarter, the revenue decline is the main driver of the decline in margins. First quarter's normally seasonally low, the revenue performance in the quarter drove the margin down below where we expected.", "speaker": "Rob Del Bene, CFO", "date": "2026-07-30", "document_id": 112121},
+   {"quote": "pre-proposal, proposal, pitching, smarter, better, faster, and also eliminating, frankly, you know, some self-inflicted delivery issues that we have had, and in some cases, we're still working our way out of.", "speaker": "Raul Fernandez, President and CEO", "date": "2024-05-16", "document_id": 91608},
+   {"quote": "the pressure associated with the revenue declining and both the variable and fixed costs that we have to take out of the system as a result of the revenue declining, where we've been very successful in keeping pace with the revenue declines and ripping out enough cost.", "speaker": "Rob Del Bene, CFO", "date": "2025-05-29", "document_id": 66962}
+ ],
+ "track_record": {"prior_dated_targets": [
+     {"target": "FY2024 adjusted EBIT margin 10% to 11%", "set": "Prior team (CEO Mike Salvino, CFO Ken Sharp); restated by Sharp on the Q3 FY2023 call (doc 91618)", "due": "FY2024 (March 2024)", "outcome": "missed"},
+     {"target": "FY2026 adjusted EBIT margin 7% to 8%", "set": "Current team, fiscal 2026 guide (cited by TD Cowen, 2025-05-29, doc 66962)", "due": "FY2026 (March 2026)", "outcome": "hit"},
+     {"target": "FY2027 adjusted EBIT margin 6% to 7%", "set": "Current team (doc 112121)", "due": "FY2027 (March 2027)", "outcome": "pending"},
+     {"target": "Adjusted EBIT margin 8% to 10% within the plan horizon", "set": "Investor Day 2026-06-11 (doc 50431)", "due": "FY2029 (March 2029)", "outcome": "pending"}],
+   "track_record_note": "FY2024 actual 7.38% (VA) was 262 bps below the 10% low end; Del Bene was CFO from June 2023 for that miss, but the target predates him and Fernandez. FY2026 actual 7.7% (DEF 14A doc 38295; VA 7.67%) landed inside the current team's 7% to 8% guide. Q1 FY2027 adjusted EBIT 5.0%, down 180 bps.",
+   "restatement_or_weakness": false, "share_loss_admitted": true,
+   "share_loss_note": "CEO concedes 'self-inflicted delivery issues' (doc 91608); revenue fell 25% FY2022 to FY2027E while every peer grew."},
+ "tenure": {"ceo": "Raul J. Fernandez", "ceo_start": "2024-02-01 (interim from 2023-12-18; director since 2020-08-13)", "ceo_months": 32, "founder": false, "cfo_start": "2023-06 (Rob Del Bene, ex IBM)", "cfo_months": 40,
+            "long_tenured": "no (ceo_months 32 < 84, not founder)",
+            "tenure_note": "10-K executive officer section via data_profile. External President Paul Taylor effective 2026-08-10 (stage 3, 8-K 0001688568-26-000068)."},
+ "verdict": "execution_led",
+ "deciding_facts": [
+   "Peers expanded while DXC compressed: peer median adjusted EBIT margin rose 64 bps FY2022 to FY2027E against a 206 bps DXC decline (ratio -0.31), and DXC's gap to the peer median widened from -682 to -986 bps.",
+   "Revenue fell 25% over a window in which every peer grew, management itself cites revenue decline and 'self-inflicted delivery issues', and the last multi-year target (10% to 11% by FY2024) was missed by 262 bps."
+ ],
+ "confidence": "high",
+ "tool_calls": 21}

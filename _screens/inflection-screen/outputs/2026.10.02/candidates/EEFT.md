@@ -7,3 +7,9 @@ Open questions:
 1. Can margins expand while cross-border (42% of revenue) is hit by US immigration policy?
 2. FY2026 consensus EBITDA is about 5% below the roughly $800M guide. Is a cut coming at Q3?
 3. Is there any succession plan for Mike Brown (CEO since 1996)?
+
+## Macro or execution
+Verdict: mixed (medium confidence). Ratio 2.73 = peer median EBITDA margin decline 159.75 bps / EEFT decline 58.56 bps (FY2025 17.52% to FY2026E consensus 16.94%; LTM 17.32%). Peers: WU, WISE, NATL, EVTC, GPN, PAYO (Baba data_financials).
+Relative position vs peer median: -1,296 bps at FY2025, -811 bps at FY2026E (improved), but margin falls on revenue up 5.5%, FY2025 EPS growth of 11.6% missed the 12% to 16% guide, and FY2025 margin is still 455 bps below the FY2019 peak (22.08%).
+Management: "U.S. immigration enforcement continued to weigh on cross-border transaction volumes, primarily from the U.S. to Mexico. This was a market-wide dynamic" (Mike Brown, Q2 2026 call, 2026-07-30, doc 112124).
+Tenure: CEO Michael Brown, co-founder, CEO since July 1994 (387 months); CFO Rick Weller since November 2002 (287 months). Long-tenured: yes.

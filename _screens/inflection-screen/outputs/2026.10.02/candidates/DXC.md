@@ -7,3 +7,9 @@ Open questions:
 1. Is Taylor the CEO successor (Fernandez contract to 2028-03-31)?
 2. How much of the $1B to $1.5B of savings reaches margin rather than going to AI-era price cuts?
 3. The prior FY2024 outlook of 10% to 11% ended at 7.4% (doc 91623; VA), and Q1 FY2027 fell 180 bps to 5.0%. Why trust this one?
+
+## Macro or execution
+Verdict: execution_led (high confidence). Ratio -0.31 = peer median adjusted EBIT margin change -64.1 bps (peers expanded) / DXC decline 205.58 bps (FY2022 8.45% to FY2027E consensus 6.40%, March fiscal years; LTM FY2026 7.67%). Peers: ACN, CTSH, CAPP, GIB, INFO (Baba data_financials).
+Relative position vs peer median: -682 bps at FY2022, -986 bps at FY2027E (slipped 304 bps); revenue -25.2% while every peer grew; the prior 10% to 11% FY2024 target ended at 7.38% (262 bps short), though the current team did hit its FY2026 7% to 8% guide (7.7%).
+Management: "In the first quarter, the revenue decline is the main driver of the decline in margins." (Rob Del Bene, Q1 FY2027 call, 2026-07-30, doc 112121); Fernandez also cites "self-inflicted delivery issues" (doc 91608).
+Tenure: CEO Raul Fernandez since 2024-02-01 (32 months, not founder); CFO Rob Del Bene since June 2023 (40 months). Long-tenured: no.

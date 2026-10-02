@@ -1,0 +1,135 @@
+{
+ "ticker": "OC",
+ "metric": "EBITDA margin",
+ "fy_label_note": "December fiscal year; Baba FY labels equal calendar years. Window: last five fiscal years FY2021 to FY2025 (actuals) plus FY2026 consensus. Peak FY2024 25.05%, trough FY2026E 20.12% (company Q3 2026 guide 20% to 22%). Portfolio changes: VA consolidated EBITDA from FY2024 on excludes glass reinforcements (Composites, now discontinued; FY2024 total 2,468 = Roofing 1,532 + Insulation 945 + Doors 232 + Corporate -241) while FY2021 to FY2023 still include Composites; Doors (Masonite, closed 2024-05-15) is in FY2024 for about 7.5 months and in FY2025 onward for a full year. Organic view = Roofing plus Insulation segment EBITDA over their segment revenue (VA company data; revenue backed out of segment EBITDA and segment margin), before corporate cost: 28.95% FY2024 to 25.45% FY2026E (-350 bps) on segment revenue -4.7%. Doors segment margin 16.02% FY2024 to 9.11% FY2026E. LTM = Q2 2025 to Q1 2026 (VA has not loaded Q2 2026).",
+ "company": {
+  "peak_fy": "FY2024",
+  "peak_margin_pct": 25.0533,
+  "trough_fy": "FY2026E (consensus)",
+  "trough_margin_pct": 20.1224,
+  "ltm_margin_pct": 21.0612,
+  "decline_bps": 493.09,
+  "revenue_peak_to_trough_pct": 1.13,
+  "organic_roofing_insulation": {
+   "peak_margin_pct": 28.9504,
+   "trough_margin_pct": 25.4463,
+   "decline_bps": 350.41,
+   "revenue_change_pct": -4.74
+  },
+  "doors_segment_margin_pct": {
+   "FY2024": 16.02,
+   "FY2025": 10.92,
+   "FY2026E": 9.11
+  }
+ },
+ "peers": {
+  "tickers": [
+   "CSL",
+   "ROCKB",
+   "KRX",
+   "MAS",
+   "FBIN",
+   "SGOB"
+  ],
+  "median_peak_margin_pct": 20.0915,
+  "median_trough_margin_pct": 19.2567,
+  "median_decline_bps": 119.8,
+  "per_peer_fy2024_to_fy2026e": {
+   "CSL": [
+    26.6348,
+    24.4453,
+    219.0
+   ],
+   "ROCKB": [
+    24.2831,
+    20.9741,
+    330.9
+   ],
+   "KRX": [
+    13.2272,
+    13.7154,
+    -48.8
+   ],
+   "MAS": [
+    19.443,
+    20.1119,
+    -66.9
+   ],
+   "FBIN": [
+    20.7399,
+    18.4015,
+    233.8
+   ],
+   "SGOB": [
+    15.471,
+    15.2658,
+    20.5
+   ]
+  },
+  "peer_note": "Format [FY2024 %, FY2026E %, decline bps]. Roofing and insulation (CSL, ROCKB, KRX, SGOB), doors and residential repair and remodel (FBIN, MAS). Sensitivity: the three closest end-market peers (CSL commercial roofing, ROCKB insulation, FBIN doors) have a median decline of 233.8 bps, which gives an organic ratio of 0.667. ROCKB FY2025 (12.11%) is an outlier year inside the window and does not affect the FY2024 and FY2026E endpoints.",
+  "source": "Baba data_financials fundamentals"
+ },
+ "attribution_ratio": 0.243,
+ "attribution_ratio_organic": 0.342,
+ "attribution_ratio_organic_closest_peers": 0.667,
+ "relative_position_bps": {
+  "at_peak": 496.18,
+  "at_trough": 86.57
+ },
+ "management_attribution": [
+  {
+   "quote": "Roofing sales were $960 million, down 14% year-over-year, driven primarily by lower volumes. The U.S. asphalt shingle market was down approximately 10% compared to the prior year. The main drivers were lower storm-related carryover demand and severe weather in parts of the country.",
+   "speaker": "Todd Fister, Chief Financial and Operating Officer",
+   "date": "2026-05-06",
+   "document_id": 155426
+  },
+  {
+   "quote": "Doors continues to operate in a challenging demand environment with ongoing pressure across residential construction markets, including existing home sales that are impacted by higher mortgage rates.",
+   "speaker": "Todd Fister, Chief Financial and Operating Officer",
+   "date": "2026-05-06",
+   "document_id": 155426
+  },
+  {
+   "quote": "The decrease was primarily driven by higher inflation, including transportation, that resulted in negative price cost as a result of relatively flat pricing in the quarter.",
+   "speaker": "Todd Fister, Chief Financial and Operating Officer (Roofing, Q2 2026)",
+   "date": "2026-08-05",
+   "document_id": 129698
+  }
+ ],
+ "track_record": {
+  "prior_dated_targets": [
+   {
+    "target": "$125M run-rate Doors (Masonite) cost synergies by end of year two",
+    "set": "2024-05 (acquisition close)",
+    "due": "2026-05",
+    "outcome": "hit"
+   },
+   {
+    "target": "$12.5B revenue and mid-20s adjusted EBITDA margin by 2028 (20% to 27% range in normal conditions)",
+    "set": "2025-05-14 (Investor Day, doc 65560)",
+    "due": "FY2028",
+    "outcome": "pending"
+   }
+  ],
+  "track_record_note": "Synergies reached $135M vs $125M (Chambers, doc 129698). The 2028 targets are tracking behind: FY2028 consensus is $10.72B revenue and 21.27% margin (stage 3), and management says housing starts sit at the low end of the 1.2M to 1.6M assumption (Fister, doc 129698). Fister says Q1 2026 shingle volumes were 'slightly behind the overall market' but calls it timing and claims outperformance over 12 months, so no share-loss admission. No restatement or control weakness surfaced in stage 3 or stage 4 sources.",
+  "restatement_or_weakness": false,
+  "share_loss_admitted": false
+ },
+ "tenure": {
+  "ceo": "Brian Chambers (Chair and CEO)",
+  "ceo_start": "2019-04-18",
+  "ceo_months": 89,
+  "founder": false,
+  "cfo_start": "2026-08-10 (Jonathan Collins, external; Todd Fister, CFO before him, moved to President and COO the same day)",
+  "cfo_months": 1,
+  "long_tenured": "yes (ceo_months 89 >= 84)",
+  "tenure_note": "CEO date from 8-K 0001193125-19-001650 and CFO date from 8-K 0001370946-26-000169 (both as recorded in the stage 3 record)."
+ },
+ "verdict": "execution_led",
+ "deciding_facts": [
+  "Against the six-peer set the ratio is below 0.4 on both bases: consolidated 0.24 (peer median -120 bps vs OC -493 bps) and organic Roofing plus Insulation 0.34 (-350 bps), and OC's premium to the peer median shrank from +496 to +87 bps.",
+  "The consolidated decline is about 143 bps larger than the organic one (493 vs 350 bps), and the main difference is Doors, whose margin fell from 16.0% to 9.1% after the Masonite deal. That is the same team's capital allocation, not the cycle. Borderline: the organic core fell on falling revenue (-4.7%, volume and storms, which matches management's account), and against the three closest end-market peers (CSL, ROCKB, FBIN) the organic ratio is 0.67, which would read as mixed."
+ ],
+ "confidence": "low",
+ "tool_calls": 25
+}

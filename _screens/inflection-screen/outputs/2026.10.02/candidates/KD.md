@@ -8,3 +8,9 @@ Open questions:
 1. Does Johnson keep or re-base the fiscal 2028 targets on her first call, and is the 20% to 22% EBITDA target still alive?
 2. How much past FCF came from deferring vendor payments, and what is normalized FCF?
 3. Are the $400M to $500M of workforce savings in consensus, when FY2028 EBITDA consensus is only $145M above FY2027?
+
+## Macro or execution
+Verdict: execution_led (medium confidence). Ratio not applicable: no decline in the window. EBITDA margin went from 11.98% (FY2022) to 18.08% (FY2027E consensus, March fiscal years), +609 bps; FY2023 low 11.60%; LTM FY2026 17.70%. The peer median (ACN, CTSH, CAPP, GIB, INFO, DXC) moved +5 bps over the same window.
+Relative position vs peer median: -642 bps at FY2022, -91 bps at FY2027E (gap closed). Revenue -19.1% from deliberate low-margin exits and IBM channel shifts. Record since the target: FY2026 adjusted pretax $581M vs at least $725M guided (-19.9%), material weaknesses (no restatement), and the target-setting CFO has left.
+Management: "both revenue and signings were impacted by extended sales cycles, particularly in the U.K. and strategic markets, and the evolution of our relationship with IBM." (Harsh Chugh, Q4 FY2026 call, 2026-05-06, doc 188392)
+Tenure: CEO Martin Schroeter since the November 2021 spin (59 months, not founder); CFO Ellen Johnson since 2026-08-06 (1 month, external). Long-tenured: no.

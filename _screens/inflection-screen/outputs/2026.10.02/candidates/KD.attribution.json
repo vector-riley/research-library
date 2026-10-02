@@ -1,0 +1,32 @@
+{"ticker": "KD", "metric": "EBITDA margin",
+ "fy_label_note": "Kyndryl fiscal year ends March; Baba FY labels follow the fiscal year end (FY2027 = April 2026 to March 2027). Spun from IBM in November 2021, so FY2022 is the first full year. Window: FY2022 to FY2026 (actuals) plus FY2027 consensus. Metric is VA EBITDA, which equals company adjusted EBITDA (FY2026 $2,672M; Chugh: '$2.7 billion', doc 188392). The 20% to 22% FY2028 target is on this metric. There is no peak-to-trough decline in the window: the margin troughs at FY2023 (11.60%) and then rises every year to FY2027E (18.08%). So there is no compression for a peer ratio to explain, and attribution_ratio is null. The only recent slip is quarterly: Q1 FY2027 adjusted EBITDA $512M vs $647M a year earlier, which management puts on $152M of workforce rebalancing charges (doc 129669); this is not yet in VA actuals. Peers on their own fiscal labels: ACN (August), GIB (September), CTSH and CAPP (December), INFO and DXC (March).",
+ "company": {"peak_fy": "none (no decline after any peak; highest is FY2027E 18.08%, highest actual FY2026 17.70%)", "peak_margin_pct": null, "trough_fy": "FY2023 (lowest, before the rise)", "trough_margin_pct": 11.60, "ltm_margin_pct": 17.7047,
+             "decline_bps": -609.46, "decline_note": "FY2022 11.98% to FY2027E 18.08%; negative = expansion",
+             "revenue_peak_to_trough_pct": -19.14, "revenue_note": "FY2022 $18,317M to FY2027E $14,811M; management attributes it to deliberate exits from low-margin IBM-era contracts ('not by macro factors', Wyshner, doc 51835) and, more recently, customers buying direct from IBM and extended sales cycles."},
+ "peers": {"tickers": ["ACN", "CTSH", "CAPP", "GIB", "INFO", "DXC"], "median_peak_margin_pct": 18.4019, "median_trough_margin_pct": 18.9902, "median_decline_bps": -5.3,
+           "per_peer_fy2022_to_fy2027e": {"ACN": [18.5981, 19.0506, -45.2], "CTSH": [18.2057, 18.9299, -72.4], "CAPP": [15.6854, 15.4164, 26.9], "GIB": [19.9053, 20.2799, -37.5], "INFO": [25.4353, 23.5103, 192.5], "DXC": [16.3418, 13.0972, 324.5]},
+           "peer_note": "Format [FY2022 %, FY2027E %, decline bps]; the medians are taken at the same FY2022 and FY2027E endpoints as KD. Over FY2025 to FY2027E the peer median declines 18.4 bps while KD expands 137 bps.",
+           "source": "Baba data_financials fundamentals"},
+ "attribution_ratio": null, "relative_position_bps": {"at_peak": -641.85, "at_trough": -91.22, "note": "Measured at FY2022 (start) and FY2027E (end) because the window has no peak-to-trough decline. KD closed 551 bps of its gap to the peer median."},
+ "management_attribution": [
+   {"quote": "As previously discussed, both revenue and signings were impacted by extended sales cycles, particularly in the U.K. and strategic markets, and the evolution of our relationship with IBM.", "speaker": "Harsh Chugh, Interim CFO", "date": "2026-05-06", "document_id": 188392},
+   {"quote": "The year-over-year declines in earnings and margin were primarily driven by $152 million of workforce rebalancing charges incurred in the quarter. These charges had more than a 4-point impact on adjusted pre-tax income margin in the quarter.", "speaker": "Harsh Chugh, Interim CFO", "date": "2026-08-05", "document_id": 129669},
+   {"quote": "The year-over-year trend was anticipated and primarily driven by our intentional exit, primarily in prior quarters, from negative, and low-margin revenue streams within ongoing customer relationships, not by macro factors.", "speaker": "David Wyshner, CFO (departed 2026-02-05)", "date": "2024-11-07", "document_id": 51835}
+ ],
+ "track_record": {"prior_dated_targets": [
+     {"target": "FY2025 adjusted pretax income of at least $460M", "set": "2024-11-07 (Q2 FY2025 call, doc 51835; Baba facts summary)", "due": "FY2025 (March 2025)", "outcome": "hit"},
+     {"target": "FY2026 adjusted pretax income of at least $725M", "set": "Q4 FY2025 call (Wyshner, doc 51831, per stage 3)", "due": "FY2026 (March 2026)", "outcome": "missed"},
+     {"target": "FY2028 adjusted EBITDA margin 20% to 22%", "set": "2024-11-21 (Investor Day, Wyshner, doc 68122)", "due": "FY2028 (March 2028)", "outcome": "pending"},
+     {"target": "FY2028 adjusted pretax income above $1.2B and FCF of $1B", "set": "2024-11-21, repeated 2026-08-05 (Schroeter, doc 129669)", "due": "FY2028 (March 2028)", "outcome": "pending"}],
+   "track_record_note": "FY2025 VA pretax $482M against the $460M floor. FY2026 actual $581M (Chugh, doc 188392) = 19.9% below the $725M floor. FY2027 guide is $600M to $700M including about $200M of workforce charges. The 20% to 22% EBITDA target was set by the CFO who has since departed and has not been repeated in 2026 calls (stage 3). Material weaknesses (senior finance 'tone at the top', disclosure of vendor-payment deferral) were disclosed in the 10-K/A (doc 20596) and 10-K (doc 20588); the 10-K/A states the prior financial statements were included 'without restatement or revision', so it is a control weakness, not a restatement. Remediation is targeted for 2027-03-31.",
+   "restatement_or_weakness": true, "share_loss_admitted": false},
+ "tenure": {"ceo": "Martin Schroeter (Chairman and CEO, ex IBM)", "ceo_start": "2021-11 (IBM spin)", "ceo_months": 59, "founder": false, "cfo_start": "2026-08-06 (Ellen Johnson, external, ex Interpublic; interim Harsh Chugh from 2026-02-05 after David Wyshner left)", "cfo_months": 1,
+            "long_tenured": "no (ceo_months 59 < 84, not founder)",
+            "tenure_note": "Dates from the stage 3 record (8-K 0001104659-26-011745, 8-K 0001104659-26-080558; CEO in seat since the spin)."},
+ "verdict": "execution_led",
+ "deciding_facts": [
+   "There is no cyclical compression to reverse. KD's EBITDA margin rose 609 bps from FY2022 to FY2027E while the IT services peer median was flat (+5 bps), so the gap to the 20% to 22% target is a self-help expansion promise, not a recovery of a cycle loss, and the ratio test does not apply.",
+   "Since the target was set, the record is company-specific: FY2026 adjusted pretax income came in 19.9% below the $725M floor; material weaknesses were tied to senior finance and vendor-payment deferral; the CFO who set the EBITDA target left; and the Q1 FY2027 margin drop came from the company's own workforce charges."
+ ],
+ "confidence": "medium",
+ "tool_calls": 12}

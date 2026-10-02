@@ -1,0 +1,31 @@
+{"ticker": "EEFT", "metric": "EBITDA margin",
+ "fy_label_note": "December fiscal year; Baba FY labels equal calendar years. Window per stage 4 rule: last five fiscal years (FY2021 to FY2025, actuals) plus FY2026 consensus. Within that window margins rose every year to an FY2025 peak, so the only peak-to-trough move is FY2025 actual (17.52%) to FY2026 consensus (16.94%); the trough is an estimate. Context outside the window: FY2019 was the all-time high at 22.08% and FY2020 the COVID trough at 12.17%; FY2025 is still 455 bps below FY2019, while the peer median rose 443 bps over FY2019 to FY2025 (WU, WISE, EVTC, GPN, PAYO). WISE uses a March fiscal year (Baba FY2026 = year to March 2026). Metric is VA standardized EBITDA, which reconciles to company adjusted EBITDA (FY2025 $743.7M; Weller doc 175256 says $743M).",
+ "company": {"peak_fy": "FY2025", "peak_margin_pct": 17.5227, "trough_fy": "FY2026E (consensus)", "trough_margin_pct": 16.9371, "ltm_margin_pct": 17.3206,
+             "decline_bps": 58.56, "revenue_peak_to_trough_pct": 5.51},
+ "peers": {"tickers": ["WU", "WISE", "NATL", "EVTC", "GPN", "PAYO"], "median_peak_margin_pct": 30.4785, "median_trough_margin_pct": 25.0469, "median_decline_bps": 159.75,
+           "per_peer_fy2025_to_fy2026e": {"WU": [23.5984, 19.1247, 447.4], "WISE": [35.1565, 24.1769, 1098.0], "NATL": [19.0629, 20.4107, -134.8], "EVTC": [40.0704, 39.4018, 66.9], "GPN": [48.6863, 46.1605, 252.6], "PAYO": [25.8006, 25.9169, -11.6]},
+           "peer_note": "Format [FY2025 %, FY2026E %, decline bps]. Money transfer (WU, WISE), ATM networks (NATL), card and merchant processing (EVTC, GPN), cross-border B2B payments (PAYO). RELY dropped (negative EBITDA in the window); IMXI not tracked in Baba. GPN FY2026 includes the Worldpay deal, so its decline is partly mix.",
+           "source": "Baba data_financials fundamentals"},
+ "attribution_ratio": 2.728, "relative_position_bps": {"at_peak": -1295.58, "at_trough": -810.98},
+ "management_attribution": [
+   {"quote": "First, U.S. immigration enforcement continued to weigh on cross-border transaction volumes, primarily from the U.S. to Mexico. This was a market-wide dynamic as the broader U.S. outbound remittance market experienced its first annual decline in more than a decade.", "speaker": "Mike Brown, Chairman and CEO", "date": "2026-07-30", "document_id": 112124},
+   {"quote": "The second-largest driver of the softness was a difficult comp to the prior year's second quarter, where we saw unusually high margins from a non-recurring fee rebate in Pakistan and certain one-time FX opportunities.", "speaker": "Mike Brown, Chairman and CEO", "date": "2026-07-30", "document_id": 112124},
+   {"quote": "Our Money Transfer results tracked the industry in the fourth quarter, reflecting the same macroeconomic and immigration-related pressures facing U.S. senders. However, while the broader market contracted on a full-year basis, our business delivered a modest increase in remittance volumes for 2025.", "speaker": "Rick Weller, CFO", "date": "2026-02-12", "document_id": 175256}
+ ],
+ "track_record": {"prior_dated_targets": [
+     {"target": "FY2024 adjusted EPS growth 10% to 15%", "set": "Q4 2023 earnings call (doc 87179)", "due": "FY2024", "outcome": "hit"},
+     {"target": "FY2025 adjusted EPS growth 12% to 16%", "set": "2025-02-13 (Q4 2024 call, doc 47507)", "due": "FY2025", "outcome": "missed"},
+     {"target": "FY2026 EBITDA about $800M on about $4.5B revenue; adjusted EPS growth 10% to 15%", "set": "2026-05-20 (Investor Day, doc 49690)", "due": "FY2026", "outcome": "pending"},
+     {"target": "EBITDA margin +100 to 200 bps over three years", "set": "2026-05-20 (Investor Day, doc 49690)", "due": "FY2028", "outcome": "pending"}],
+   "track_record_note": "FY2024 adjusted EPS $8.61, 'rounding down to 15%' (Weller, doc 47507). FY2025 adjusted EPS $9.61 (Weller, doc 175256) = 11.61% growth, just under the 12% low end. FY2026 consensus EBITDA $758.5M sits about 5% below the $800M guide.",
+   "restatement_or_weakness": false, "share_loss_admitted": false},
+ "tenure": {"ceo": "Michael J. Brown (co-founder)", "ceo_start": "1994-07", "ceo_months": 387, "founder": true, "cfo_start": "2002-11 (Rick L. Weller)", "cfo_months": 287,
+            "long_tenured": "yes (founder; ceo_months >= 84)",
+            "tenure_note": "10-K executive officer table via data_profile: Brown 'July 1994', 'co-founded Euronet in 1994 and has served as its chief executive officer ever since'. The stage 3 record's 'CEO since 1996' is superseded."},
+ "verdict": "mixed",
+ "deciding_facts": [
+   "The current dip is industry-wide: peer median EBITDA margin falls 160 bps FY2025 to FY2026E (WU -447 bps on the same US immigration shock) against 59 bps at EEFT, ratio 2.73, and EEFT's gap to the peer median narrows from -1,296 to -811 bps.",
+   "It is not clean macro: margin falls on revenue up 5.5% (FX and CoreCard), FY2025 EPS growth of 11.6% missed the 12% to 16% guide, and FY2025 margin is still 455 bps below the FY2019 peak while the peer median rose 443 bps over the same span."
+ ],
+ "confidence": "medium",
+ "tool_calls": 24}

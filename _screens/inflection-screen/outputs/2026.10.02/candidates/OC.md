@@ -8,3 +8,9 @@ Open questions:
 1. Does Collins reaffirm or reset the 2028 mid-20s and $12.5B targets on the Q3 2026 call?
 2. How much of the shortfall is price over cost (asphalt, transport, Iran inflation) versus housing volume?
 3. Can the $75M of new structural cost work and Doors margin progress move margins without a housing recovery?
+
+## Macro or execution
+Verdict: execution_led (low confidence, borderline). Ratio 0.24 = peer median EBITDA margin decline 119.8 bps / OC decline 493.09 bps (FY2024 25.05% to FY2026E consensus 20.12%; LTM 21.06%). Organic Roofing plus Insulation (ex Doors, ex glass reinforcements): 28.95% to 25.45%, -350 bps on segment revenue -4.7%, ratio 0.34 (0.67 against the closest peers CSL, ROCKB, FBIN). Peers: CSL, ROCKB, KRX, MAS, FBIN, SGOB.
+Relative position vs peer median: +496 bps at FY2024, +87 bps at FY2026E (premium mostly lost); Doors margin 16.0% (FY2024) to 9.1% (FY2026E) after Masonite. Doors synergies beat ($135M vs $125M); the 2028 mid-20s target is pending and tracking behind.
+Management: "Roofing sales were $960 million, down 14% year-over-year, driven primarily by lower volumes. The U.S. asphalt shingle market was down approximately 10%" (Todd Fister, Q1 2026 call, 2026-05-06, doc 155426).
+Tenure: CEO Brian Chambers since 2019-04-18 (89 months, not founder); CFO Jonathan Collins since 2026-08-10 (1 month, external). Long-tenured: yes (CEO).
