@@ -1,0 +1,187 @@
+{
+  "ticker": "TOST",
+  "cid": 1000021,
+  "name": "Toast Inc",
+  "industry": "Application Software",
+  "as_of": "2026-10-02",
+  "quant": {
+    "mcap_usd": 17245700000.0,
+    "drawdown": -0.412,
+    "pctile_ev_ebitda_60m": 0.3051,
+    "price_ltm_pct": -0.206,
+    "ebitda_margin_ltm": 0.1086,
+    "ebitda_margin_fwd_consensus": 0.1187,
+    "industry_median_margin": 0.282,
+    "ev_ebitda_fy": 14.78,
+    "net_debt_ltm_ebitda": -2.19,
+    "ebitda_revision_12m": -0.0101,
+    "ebitda_brokers": 23
+  },
+  "catalyst": {
+    "type": [],
+    "events": [
+      {
+        "what": "Chief Accounting Officer appointed (not a CEO or CFO change)",
+        "who": "Rossana Niola",
+        "from": "Mastercard (Assistant Corporate Controller)",
+        "effective": "2026-01-26",
+        "source": "8-K 0001650164-26-000024",
+        "external_hire": true
+      },
+      {
+        "what": "Director added",
+        "who": "Anutthara Ramamurthy Bharadwaj",
+        "from": null,
+        "effective": "2025-10-24",
+        "source": "8-K 0001193125-25-250778",
+        "external_hire": true
+      },
+      {
+        "what": "Chief Revenue Officer retiring (announced, pending)",
+        "who": "Jonathan Vassil",
+        "from": null,
+        "effective": "2026-12-31",
+        "source": "8-K 0001650164-26-000191",
+        "external_hire": null
+      },
+      {
+        "what": "CFO Elena Gomez also named President (role expansion, same person; outside the 18-month window)",
+        "who": "Elena Gomez",
+        "from": "Toast CFO",
+        "effective": "2025-02-12",
+        "source": "8-K 0001193125-25-027376",
+        "external_hire": false
+      }
+    ],
+    "months_since_primary": null
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "Toast's margin is adjusted EBITDA as a percent of RECURRING GROSS PROFIT (subscription plus fintech gross profit), not of revenue. The 40%+ long-term target has no year ('timing firmly in our control'). The earlier dated target was 30% to 35% medium-term (2 to 3 years from Feb 2023), reached in 2025 (34%). Street margins in consensus_ebitda_margin_by_fy are EBITDA / revenue (11.0%, 11.9%, 13.1%) and are not comparable; the gap math uses consensus EBITDA over VA consensus recurring gross profit (data_company_data, fetched 2026-09-28). No dated rate: 2026 is framed as 'modest margin expansion'.",
+    "current_level_pct": 35.5,
+    "target_level_pct": 40.0,
+    "target_year": null,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "Finally, we are confident in our path to adjusted EBITDA margins of 40% or more.",
+        "speaker": "Elena Gomez",
+        "role": "President and CFO",
+        "doc_title": "Toast Investor Day 2024",
+        "date": "2024-05-29",
+        "document_id": 18906
+      },
+      {
+        "quote": "When you think about the growth equation, we've talked about, you know, 20% recurring gross profit. We think of that as a floor for the next few years, while at the same time driving 30%-35% adjusted EBITDA margins, and so we have ambition over the long term to drive that adjusted EBITDA to 40%. That's over the long term.",
+        "speaker": "Elena Gomez",
+        "role": "CFO",
+        "doc_title": "Goldman Sachs Communacopia + Technology Conference 2024",
+        "date": "2024-09-11",
+        "document_id": 18903
+      },
+      {
+        "quote": "That said, our margin framework is to hit that head on remains unchanged, right? We're targeting 40% margins over the long term. And that pace, this is really important. The pace at which we drive that margin is in our control.",
+        "speaker": "Elena Gomez",
+        "role": "President and CFO",
+        "doc_title": "Toast Inc Q4 FY2025 Earnings Call",
+        "date": "2026-02-12",
+        "document_id": 279
+      },
+      {
+        "quote": "We plan to continue operating with this general framework focused on sustained growth and gradual margin expansion as long as our investments are meeting our expectations. That keeps us on a path to 40%+ long-term adjusted EBITDA margins with the timing firmly in our control.",
+        "speaker": "Elena Gomez",
+        "role": "President and CFO",
+        "doc_title": "Toast Inc Q2 2026 Earnings Call",
+        "date": "2026-08-04",
+        "document_id": 121323
+      }
+    ],
+    "first_stated": "2024-05-29",
+    "times_repeated": 3
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 11.01,
+      "FY2027": 11.87,
+      "FY2028": 13.1
+    },
+    "consensus_margin_at_target_year_pct": 40.92,
+    "gap_bps_vs_target": -92,
+    "gap_assumption": "No target year, so FY2028 is used as the first year consensus reaches the target. Recurring gross profit basis on both sides: consensus EBITDA / VA consensus recurring gross profit = 35.6% FY2026, 37.7% FY2027, 40.9% FY2028, 44.1% FY2029. The street is 92 bps ABOVE 40% in FY2028. Revenue-basis figures are shown in consensus_ebitda_margin_by_fy only for reference.",
+    "ebitda_uplift_pct_if_target_hit": 6.2,
+    "source": "Baba data_financials consensus (Visible Alpha) plus data_company_data recurring gross profit"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      67,
+      176
+    ],
+    "note": "Order [Q1 2026, Q2 2026], adj. EBITDA over VA recurring gross profit (Q1 $179M/$520M vs $133M/$394M; Q2 $221M/$585M vs $161M/$447M). Management stated Q2 margin 'expanded 240 basis points to 37%', helped by about a $10M tariff refund (Gomez, doc 121323); the computed figure differs because it uses VA rounded recurring gross profit. FY2026 adj. EBITDA guide raised to $805M to $825M, by less than the Q2 beat because upside is reinvested."
+  },
+  "score": {
+    "A_underperformance": 1,
+    "B_catalyst": 0,
+    "C_numeric_framing": 2,
+    "D_unproven": 0,
+    "total": 3
+  },
+  "disqualified": true,
+  "disqualifier_reason": "Margin target already reflected in consensus: the 40%+ adjusted EBITDA / recurring gross profit target has no year, and consensus reaches 40.9% in FY2028 and 44.1% in FY2029. Also there is no CEO, CFO, deal or activist event in the window (only CAO, CRO and one director), and 12-month forward EBITDA revisions are -1.0%.",
+  "verdict": "Not a GXO setup: down 41% but only at the 31st percentile of its EV/EBITDA range, with no CEO, CFO or deal catalyst, and the CFO's undated 40%+ (of recurring gross profit) target is already exceeded by FY2028 consensus (40.9%). Management is choosing to reinvest rather than expand margin faster.",
+  "open_questions": [
+    "Does the street's 40.9% FY2028 margin assume less reinvestment than management's 'gradual margin expansion' framework, so the risk is a cut rather than upside?",
+    "Will Toast attach a year to 40%+ or raise the long-term target given the core already runs above 40%?",
+    "Who replaces CRO Jonathan Vassil (leaving 2026-12-31), and does go-to-market spend change?"
+  ],
+  "sources": [
+    {
+      "document_id": 18906,
+      "title": "Toast Investor Day 2024 (transcript)",
+      "date": "2024-05-29"
+    },
+    {
+      "document_id": 158239,
+      "title": "Toast Investor Day 2024 presentation, Long Term Financial Framework pages 122 to 126",
+      "date": null
+    },
+    {
+      "document_id": 18903,
+      "title": "Goldman Sachs Communacopia + Technology Conference 2024",
+      "date": "2024-09-11"
+    },
+    {
+      "document_id": 279,
+      "title": "Toast Inc Q4 FY2025 Earnings Call",
+      "date": "2026-02-12"
+    },
+    {
+      "document_id": 121323,
+      "title": "Toast Inc Q2 2026 Earnings Call",
+      "date": "2026-08-04"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps (market_data, revisions, estimates; asof 2026-09-28 to 2026-10-01)",
+      "date": "2026-10-01"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_financials summary consensus (Visible Alpha)",
+      "date": "2026-09-28"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_company_data recurring gross profit (Visible Alpha, fetched 2026-09-28)",
+      "date": "2026-09-28"
+    },
+    {
+      "document_id": 0,
+      "title": "SEC 8-K Item 5.02: 0001650164-26-000191, 0001650164-26-000024, 0001193125-25-250778, 0001193125-25-027376; Items 2.01/1.01 query returned none",
+      "date": "2025-02-14 to 2026-10-01"
+    }
+  ],
+  "tool_calls": 22
+}

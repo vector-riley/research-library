@@ -1,0 +1,230 @@
+{
+  "ticker": "LYFT",
+  "cid": 1004464,
+  "name": "Lyft, Inc",
+  "industry": "Application Software",
+  "as_of": "2026-10-02",
+  "quant": {
+    "mcap_usd": 5876140140.0,
+    "drawdown": -0.3891,
+    "pctile_ev_ebitda_60m": 0.0,
+    "price_ltm_pct": -0.318,
+    "ebitda_margin_ltm": 0.089,
+    "ebitda_margin_fwd_consensus": 0.1073,
+    "industry_median_margin": 0.282,
+    "ev_ebitda_fy": 5.67,
+    "net_debt_ltm_ebitda": -1.22,
+    "ebitda_revision_12m": 0.0395,
+    "ebitda_brokers": 31
+  },
+  "catalyst": {
+    "type": [
+      "new_cfo",
+      "board_refresh",
+      "acquisition"
+    ],
+    "events": [
+      {
+        "what": "CFO appointed (Erin Brewer retiring, advisor to 2026-12-15)",
+        "who": "Michael Brous",
+        "from": "Lyft insider for nearly eight years (Head of Lyft Urban Solutions, Head of Strategy and Growth, Head of FP&A)",
+        "effective": "2026-09-28",
+        "source": "8-K 0001628280-26-061020",
+        "external_hire": false
+      },
+      {
+        "what": "Co-founders Logan Green and John Zimmer left the board; Sean Aggarwal named Chair; board cut 9 to 7",
+        "who": "Sean Aggarwal (Chair)",
+        "from": "Lyft lead independent director",
+        "effective": "2025-08-14",
+        "source": "8-K 0001759509-25-000134",
+        "external_hire": false
+      },
+      {
+        "what": "Director added",
+        "who": "Deborah Hersman",
+        "from": "ex Waymo Chief Safety Officer, ex NTSB Chair",
+        "effective": "2026-01-25",
+        "source": "8-K 0001628280-26-003601",
+        "external_hire": true
+      },
+      {
+        "what": "Director added",
+        "who": "Ben Minicucci",
+        "from": "CEO, Alaska Air Group",
+        "effective": "2026-07-23",
+        "source": "8-K 0001628280-26-049801",
+        "external_hire": true
+      },
+      {
+        "what": "Chief Accounting Officer appointed",
+        "who": "Stephen Hope",
+        "from": "Autodesk (CAO)",
+        "effective": "2025-07-07",
+        "source": "8-K 0001759509-25-000113",
+        "external_hire": true
+      },
+      {
+        "what": "Acquisition of Freenow (European taxi app), EUR 204.1M ($234.8M); TBR Global Chauffeuring also acquired in 2025 (terms not verified)",
+        "who": "Freenow",
+        "from": null,
+        "effective": "2025-07-31",
+        "source": "10-K document_id 21203; 10-Q document_id 131344 (no Item 2.01/1.01 8-K returned)",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 0.1
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "Lyft's target is adjusted EBITDA as a percent of GROSS BOOKINGS (about 4% in 2027, from about 2.1% targeted for 2024), not of revenue. Consensus margins in this record (FY2026 to FY2028, and the grid's 10.7%) are EBITDA over REVENUE. Gap math uses the gross bookings basis: consensus FY2027 EBITDA ($894M, data_financials 2026-10-01) over consensus FY2027 gross bookings ($24.76B, VA company data fetched 2026-08-29). Translated to a revenue basis, 4% of consensus gross bookings is 11.88% of consensus revenue versus 10.73% modeled (about 115 bps), but that is a basis translation, not the stated target.",
+    "current_level_pct": 2.97,
+    "target_level_pct": 4.0,
+    "target_year": 2027,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "By 2027, we expect to reach adjusted EBITDA margin as a percentage of gross bookings of approximately 4% on a full-year basis, driven by the pillars of our customer-obsessed strategy.",
+        "speaker": "Erin Brewer",
+        "role": "CFO",
+        "doc_title": "Lyft Investor Day 2024",
+        "date": "2024-06-06",
+        "document_id": 67195
+      },
+      {
+        "quote": "Importantly, we expect that conversion of Adjusted EBITDA to Free Cash Flow will grow from at least 70% in 2024 to more than 90% from 2025 to 2027, driven by our growing profitability, our asset-light model, and contributions from working capital, supported by the progress in our insurance strategy.",
+        "speaker": "Erin Brewer",
+        "role": "CFO",
+        "doc_title": "Lyft Investor Day 2024",
+        "date": "2024-06-06",
+        "document_id": 67195
+      },
+      {
+        "quote": "When you put that all together, we expect that in 2027, Lyft will grow to a company with approximately $25 billion in gross bookings, approximately $1 billion in adjusted EBITDA, and generate over $900 million in free cash flow.",
+        "speaker": "Erin Brewer",
+        "role": "CFO",
+        "doc_title": "Lyft Investor Day 2024",
+        "date": "2024-06-06",
+        "document_id": 67195
+      },
+      {
+        "quote": "We did all this and more while tracking relentlessly towards our 2027 goals we outlined at our Investor Day back in 2024. That's $25 billion in Gross Bookings, 4% Adjusted EBITDA margin, and Free Cash Flow of over $1 billion.",
+        "speaker": "David Risher",
+        "role": "CEO",
+        "doc_title": "Lyft, Inc Q4 2025 Earnings Call",
+        "date": "2026-02-10",
+        "document_id": 184827
+      },
+      {
+        "quote": "As I think about the targets we set out for 2027, right? We talked about our goals around top-line growth. We said steady margin expansion and, of course, Free Cash Flow. So the components of margin expansion remain the same as we outlined at Investor Day.",
+        "speaker": "Erin Brewer",
+        "role": "CFO",
+        "doc_title": "Lyft, Inc Q4 2025 Earnings Call",
+        "date": "2026-02-10",
+        "document_id": 184827
+      }
+    ],
+    "first_stated": "2024-06-06",
+    "times_repeated": 1
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 9.54,
+      "FY2027": 10.73,
+      "FY2028": 11.18
+    },
+    "consensus_margin_at_target_year_pct": 3.61,
+    "gap_bps_vs_target": 39,
+    "gap_assumption": "Gross bookings basis on both sides: 4.0% target versus consensus FY2027 EBITDA / consensus FY2027 gross bookings = 3.61%. consensus_ebitda_margin_by_fy is EBITDA / revenue and is not comparable to the target. Consensus FY2027 gross bookings $24.76B versus about $25B target; consensus EBITDA $894M versus about $1B target.",
+    "ebitda_uplift_pct_if_target_hit": 10.8,
+    "source": "Baba data_financials consensus (Visible Alpha) plus data_company_data gross bookings"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      13,
+      34
+    ],
+    "note": "Order [Q1 2026, Q2 2026], adj. EBITDA as % of gross bookings. Q1 2.7% vs 2.6% (+13 bps computed, $132.8M on $4,946.0M vs $106.5M on $4,162.4M); Q2 3.2% vs 2.9% (+34 bps computed, $177.2M on $5,504.2M vs $129.4M on $4,490.1M), 8-K EX-99.1 document_id 142981. Q3 2026 guide 3.3% to 3.6%, reconfirmed 2026-09-30 alongside a $272.5M California misclassification settlement (excluded from adj. EBITDA; 8-K 0001628280-26-064095). LTM 2.97% leaves about 100 bps to reach 4% in 2027."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 2,
+    "C_numeric_framing": 3,
+    "D_unproven": 1,
+    "total": 8
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Partial match: cheap (0th pctile EV/EBITDA, down 39%) with a dated, CEO and CFO repeated 4%-of-gross-bookings 2027 target, but the target is from June 2024, the new CFO is an insider effective 2026-09-28, and consensus already sits at 3.61% of gross bookings for 2027, only 39 bps short.",
+  "open_questions": [
+    "Will Michael Brous restate the 2027 framework (now including Freenow and TBR) or set a new long-range plan with the Q3 2026 print in November?",
+    "Can the margin jump from 2.97% LTM to about 4% in 2027 when the last two quarters expanded only 13 and 34 bps year over year?",
+    "Does the AV transition (Waymo depot in Nashville, AV partnerships) add cost that pushes the 4% beyond 2027?"
+  ],
+  "sources": [
+    {
+      "document_id": 67195,
+      "title": "Lyft Investor Day 2024",
+      "date": "2024-06-06"
+    },
+    {
+      "document_id": 184827,
+      "title": "Lyft, Inc Q4 2025 Earnings Call",
+      "date": "2026-02-10"
+    },
+    {
+      "document_id": 184826,
+      "title": "Lyft, Inc Q1 2026 Earnings Call",
+      "date": null
+    },
+    {
+      "document_id": 130312,
+      "title": "Lyft, Inc Q2 2026 Earnings Call",
+      "date": "2026-08-06"
+    },
+    {
+      "document_id": 142981,
+      "title": "Lyft, Inc. 8-K, Q2 2026 results EX-99.1",
+      "date": "2026-08-06"
+    },
+    {
+      "document_id": 130579,
+      "title": "Lyft, Inc. 10-Q (quarter ended 2026-06-30)",
+      "date": null
+    },
+    {
+      "document_id": 21203,
+      "title": "Lyft, Inc. 10-K FY2025",
+      "date": null
+    },
+    {
+      "document_id": 226103,
+      "title": "Lyft, Inc. 8-K, California settlement and guidance reconfirmation",
+      "date": "2026-10-01"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps (market_data, revisions, estimates; asof 2026-09-30 to 2026-10-01)",
+      "date": "2026-10-01"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_financials summary consensus (Visible Alpha)",
+      "date": "2026-10-01"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_company_data gross bookings (Visible Alpha, fetched 2026-08-29)",
+      "date": "2026-08-29"
+    },
+    {
+      "document_id": 0,
+      "title": "SEC 8-K Item 5.02: 0001628280-26-061020, 0001759509-25-000134, 0001628280-26-003601, 0001628280-26-049801, 0001759509-25-000113",
+      "date": "2025-07-01 to 2026-09-09"
+    }
+  ],
+  "tool_calls": 28
+}
