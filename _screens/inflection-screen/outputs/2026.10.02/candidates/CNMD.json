@@ -1,0 +1,47 @@
+{
+  "ticker": "CNMD", "cid": 1006380, "name": "CONMED", "industry": "Health Care Equipment", "as_of": "2026-10-02",
+  "business": "Sells surgical devices (AirSeal insufflation, Buffalo Filter smoke evacuation, orthopedic soft-tissue repair, powered tools) to hospitals and surgery centers, directly and via distributors.",
+  "quant": {"mcap_usd": 1383273810.0, "drawdown": -0.5887, "pctile_ev_ebitda_60m": 0.20, "price_ltm_pct": -0.0170,
+            "ebitda_margin_ltm": 0.2045, "ebitda_margin_fwd_consensus": 0.2062, "industry_median_margin": 0.211, "ev_ebitda_fy": 7.37,
+            "net_debt_ltm_ebitda": 2.85, "ebitda_revision_12m": -0.0969, "ebitda_brokers": 6},
+  "catalyst": {"type": ["new_cfo", "board_refresh", "strategy_update"],
+               "events": [
+                 {"what": "CFO appointed (Todd Garner separation announced 2026-01-08, 8-K 0001174947-26-000017; Andrew Moller interim PFO from 2026-03-15, 8-K 0001213900-26-027658)", "who": "John E. Gallagher", "from": "Certara (CFO); previously Cue Health CFO and CFO of BD Medical segment", "effective": "2026-07-15", "source": "8-K 0002077096-26-000203", "external_hire": true},
+                 {"what": "Two directors added, board expanded to nine", "who": "Celine Martin; Jeff Mirviss", "from": "J&J MedTech (Company Group Chairman); Boston Scientific (EVP, Global President Peripheral Interventions)", "effective": "2026-07-01", "source": "8-K 0000816956-26-000057", "external_hire": true},
+                 {"what": "Director appointed", "who": "Kim Kelderman", "from": "Bio-Techne (President and CEO)", "effective": "2025-09-08", "source": "8-K 0001174947-25-001185", "external_hire": true},
+                 {"what": "Strategy update: exit of gastroenterology product lines (announced December 2025, completed Q2 2026), dividend suspended for a $150M buyback", "who": "Patrick Beyer", "from": null, "effective": null, "source": "document_id 140855 (announced December 2025, exact date not verified); document_id 149459", "external_hire": null},
+                 {"what": "CEO appointed (internal, outside 18-month window)", "who": "Patrick J. Beyer", "from": "CONMED COO since April 2024", "effective": "2025-01-01", "source": "8-K 0001193125-24-247545", "external_hire": false}
+               ],
+               "months_since_primary": 2.6, "ceo_months_in_seat": 21.0,
+               "next_event": {"type": "none known", "date": null, "source": "No investor day or framework update found in Baba corpus FY2026 search (Q1 and Q2 2026 calls, docs 140854, 140853)"}},
+  "margin_framing": {"numeric": true, "metric": "gross margin",
+                     "metric_basis_note": "All numeric framing is adjusted GROSS margin (2026 guide +50 to 100 bps; GI exit worth about 80 bps once complete, no year). Management offset it with higher SG&A (38.0% to 38.5% of sales vs 37.1%) and R&D (4.5% to 5% vs 4.0%); initial 2026 adjusted EBITDA guide $255M to $265M on $1.345B to $1.375B revenue implies about 19.1% EBITDA margin vs 20.1% FY2025 consensus actual. No operating or EBITDA margin target exists.",
+                     "current_level_pct": 56.4, "target_level_pct": null, "target_year": null, "has_year": false,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "As part of that portfolio review, in December, we announced the decision to exit our gastroenterology product lines. While this creates some near-term earnings dilution, the move aligns with our resources tightly to our strongest growth drivers and is expected to improve our long-term consolidated growth margin profile by approximately 80 basis points once complete.", "speaker": "Patrick Beyer", "role": "CEO", "doc_title": "CONMED Q4 2025 Earnings Call", "date": "2026-01-28", "document_id": 140855},
+                       {"quote": "That deck also shows the moving pieces in adjusted gross margin from 2025 to 2026. We're guiding a net improvement of 50-100 basis points for the full year, despite digesting headwinds from incremental tariffs between 100-110 basis points.", "speaker": "Todd Garner", "role": "CFO", "doc_title": "CONMED Q4 2025 Earnings Call", "date": "2026-01-28", "document_id": 140855},
+                       {"quote": "We project adjusted EBITDA between $255 million and $265 million for 2026.", "speaker": "Todd Garner", "role": "CFO", "doc_title": "CONMED Q4 2025 Earnings Call", "date": "2026-01-28", "document_id": 140855},
+                       {"quote": "Excluding the aforementioned tariff refund benefit, our adjusted operating income and operating margin were essentially flat year-over-year, modestly better than our expectations.", "speaker": "John Gallagher", "role": "CFO", "doc_title": "CONMED Q2 2026 Earnings Call", "date": "2026-07-29", "document_id": 140853}
+                     ],
+                     "first_stated": "2026-01-28", "times_repeated": 2},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 20.52, "FY2027": 20.62, "FY2028": 21.31},
+             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": null, "gap_assumption": "No EBITDA or operating margin level target stated, so no gap computed. FY labels are calendar (December FYE, Baba FY2026 = company fiscal 2026). Consensus FY2026 EBITDA $280.3M sits above the company's initial $255M to $265M adjusted EBITDA guide, likely a definitional difference plus the $8.5M Q2 tariff refund; not reconciled.",
+             "ebitda_uplift_pct_if_target_hit": null, "source": "Baba data_financials consensus"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-130, 271], "note": "Order [Q1 2026, Q2 2026], consensus actual EBITDA/revenue. Q2 includes an $8.5M tariff refund (about 250 bps of gross margin); CFO Gallagher said adjusted operating margin was essentially flat YoY excluding it (doc 140853). GI exit completed in Q2 2026 depresses reported revenue."},
+  "score": {"A_underperformance": 2, "B_catalyst": 2, "C_numeric_framing": 1, "D_unproven": 2, "total": 7},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Partial match: cheap and down 59% with an external CFO and two MedTech directors added, but the CEO is internal and 21 months in, and margin framing is gross-margin only while EBITDA margin was guided down for 2026; C scored 1 (a strict letter read of the one-year gross margin guide would give 2).",
+  "open_questions": ["Will new CFO Gallagher set an operating or EBITDA margin target, and is any investor day planned after the GI exit?", "Ex tariff refunds operating margin was flat in Q2 2026; when does the GI-exit 80 bps gross margin uplift show up net of growth-driver opex?", "Why does FY2026 consensus EBITDA ($280M) sit above the company's $255M to $265M adjusted EBITDA guide?"],
+  "sources": [
+    {"document_id": 140855, "title": "CONMED Q4 2025 Earnings Call", "date": "2026-01-28"},
+    {"document_id": 140854, "title": "CONMED Q1 2026 Earnings Call", "date": "2026-04-30"},
+    {"document_id": 140853, "title": "CONMED Q2 2026 Earnings Call", "date": "2026-07-29"},
+    {"document_id": 149459, "title": "CONMED Q3 2025 Earnings Call", "date": "2025-11-05"},
+    {"document_id": 0, "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary consensus (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0002077096-26-000203, 0000816956-26-000057, 0001213900-26-027658, 0001174947-26-000017, 0001174947-25-001185, 0001193125-24-247545; Item 1.01/2.01 query returned none", "date": "2024-10-30 to 2026-06-17"},
+    {"document_id": 0, "title": "Stage 1 stage1_ranked.csv (industry median margin 0.211)", "date": "2026-10-02"}
+  ],
+  "tool_calls": 22
+}

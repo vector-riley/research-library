@@ -1,0 +1,138 @@
+{
+  "ticker": "AMC",
+  "cid": 1000422,
+  "name": "AMC Entertainment Holdings, Inc.",
+  "industry": "Out-of-Home Entertainment",
+  "as_of": "2026-10-02",
+  "business": "AMC operates movie theatres in the United States and internationally, selling admissions, food and beverages to moviegoers.",
+  "quant": {
+    "mcap_usd": 2166045000.0,
+    "drawdown": -0.7272727272727273,
+    "pctile_ev_ebitda_60m": 0.23333333333333334,
+    "price_ltm_pct": 0.034482758620689724,
+    "ebitda_margin_ltm": 0.1177,
+    "ebitda_margin_fwd_consensus": 0.13273670143184965,
+    "industry_median_margin": 0.226,
+    "ev_ebitda_fy": 6.817538278631317,
+    "net_debt_ltm_ebitda": 4.788966877453139,
+    "ebitda_revision_12m": 0.044734793881101576,
+    "ebitda_brokers": 6.0
+  },
+  "catalyst": {
+    "type": [],
+    "events": [
+      {
+        "what": "No CEO, CFO or other executive appointment in window; only a director retirement (board shrinks 11 to 10) and an equity plan share increase",
+        "who": "Kathleen M. Pawlus (director retirement)",
+        "from": "Board of Directors",
+        "effective": "2025-12-10",
+        "source": "8-K 0001411579-25-000066",
+        "external_hire": null
+      },
+      {
+        "what": "Incumbent CEO appointment (outside window, for tenure only)",
+        "who": "Adam M. Aron",
+        "from": "Former CEO of Starwood Hotels and Resorts",
+        "effective": "2016-01-04",
+        "source": "8-K 0001104659-15-084779",
+        "external_hire": true
+      }
+    ],
+    "months_since_primary": null,
+    "ceo_months_in_seat": 128,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "Baba corpus search FY2026 (investor day, capital markets day): no hits"
+    }
+  },
+  "margin_framing": {
+    "numeric": false,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "Management frames the ambition as returning to pre-pandemic Adjusted EBITDA dollars (VA FY2019 EBITDA $771.4M), not as a margin level; no year attached. Earliest hit in corpus search: Q3 2024 call (doc 41781, Aron); call date not fetched. Repeats counted from search hits: Q3 2024 Aron, Q2 2025 Goodman, Q3 2025 Goodman and Aron, Q1 2026 Goodman twice.",
+    "current_level_pct": 11.77,
+    "target_level_pct": null,
+    "target_year": null,
+    "has_year": false,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "This is why the box office does not need to fully recover to pre-pandemic levels for us to be able to achieve pre-pandemic levels of Adjusted EBITDA.",
+        "speaker": "Sean Goodman",
+        "role": "CFO",
+        "doc_title": "AMC Entertainment Holdings, Inc. Q1 2026 Earnings Call",
+        "date": "2026-05-05",
+        "document_id": 41775
+      },
+      {
+        "quote": "With so much zeal in cost management, our adjusted EBITDA margin jumped from 13.6% in last year's 2Q to 20.1% in the quarter just completed. This all demonstrates the inherent operating leverage in our business model, which is significant at a time of rising revenues.",
+        "speaker": "Adam Aron",
+        "role": "Chairman and CEO",
+        "doc_title": "AMC Entertainment Holdings, Inc. Q2 2026 Earnings Call",
+        "date": "2026-07-20",
+        "document_id": 41774
+      }
+    ],
+    "first_stated": null,
+    "times_repeated": 6
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 0.1308,
+      "FY2027": 0.1327,
+      "FY2028": 0.1435
+    },
+    "consensus_margin_at_target_year_pct": null,
+    "gap_bps_vs_target": null,
+    "gap_assumption": "No margin level or year stated. The implicit dollar ambition (pre-pandemic Adjusted EBITDA, VA FY2019 $771.4M) compares with FY2027 consensus EBITDA $768.5M (0.4% below) and FY2028 $867.0M (above); the street already models it. Calendar fiscal year, so Baba FY labels equal company fiscal years.",
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials consensus (summary), data_comps"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      1039,
+      650
+    ],
+    "note": "Q1 2026 adj EBITDA $38.3M on $1,045.4M revenue vs -$58.0M on $862.5M (VA actuals): +1,039 bps. Q2 2026 adj EBITDA margin 20.1% vs 13.6% (Aron, doc 41774): +650 bps. Box office driven operating leverage, not a management reset. VA has not yet loaded Q2 2026 actuals; LTM uses Aron's $321.4M and revenue derived as 321.4/0.201."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 0,
+    "C_numeric_framing": 1,
+    "D_unproven": 0,
+    "total": 3
+  },
+  "disqualified": true,
+  "disqualifier_reason": "No CEO or CFO change in the 18-month window and none pending (Aron CEO since 2016-01-04, Goodman CFO); the pre-pandemic EBITDA ambition is already in FY2027-28 consensus, and 4-month forward EBITDA revision is +10.8% (already re-rating).",
+  "verdict": "Cheap and beaten down, but no leadership catalyst, no numeric margin target, and estimates are rising with the box office; not a GXO setup.",
+  "open_questions": [
+    "How much of the 2026 margin gain survives a weaker 2027 film slate?",
+    "Does net debt of about 4.8x LTM EBITDA (data_comps) constrain the equity regardless of margin?",
+    "Will management ever convert the pre-pandemic EBITDA language into a dated margin target?"
+  ],
+  "sources": [
+    {
+      "document_id": 41775,
+      "title": "AMC Entertainment Holdings, Inc. Q1 2026 Earnings Call",
+      "date": "2026-05-05"
+    },
+    {
+      "document_id": 41774,
+      "title": "AMC Entertainment Holdings, Inc. Q2 2026 Earnings Call",
+      "date": "2026-07-20"
+    },
+    {
+      "document_id": 41777,
+      "title": "AMC Entertainment Holdings, Inc. Q3 2025 Earnings Call",
+      "date": null
+    },
+    {
+      "document_id": 41781,
+      "title": "AMC Entertainment Holdings, Inc. Q3 2024 Earnings Call",
+      "date": null
+    }
+  ],
+  "tool_calls": 21
+}

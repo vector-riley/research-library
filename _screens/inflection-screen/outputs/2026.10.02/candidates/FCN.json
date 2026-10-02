@@ -1,0 +1,46 @@
+{
+  "ticker": "FCN", "cid": 1002925, "name": "FTI Consulting Inc", "industry": "Research & Consulting Services", "as_of": "2026-10-02",
+  "business": "Business advisory firm selling corporate finance, forensic and litigation, economic consulting, technology and strategic communications services to corporates, lenders and law firms worldwide.",
+  "quant": {"mcap_usd": 4115265360.0, "drawdown": -0.4177, "pctile_ev_ebitda_60m": 0.0, "price_ltm_pct": -0.1679,
+            "ebitda_margin_ltm": 0.1117, "ebitda_margin_fwd_consensus": 0.1150, "industry_median_margin": 0.156, "ev_ebitda_fy": 10.08,
+            "net_debt_ltm_ebitda": 1.93, "ebitda_revision_12m": -0.0015, "ebitda_brokers": 3},
+  "catalyst": {"type": ["new_cfo", "board_refresh"],
+               "events": [
+                 {"what": "New CFO appointed (external); overseeing finance and IT. MISSED by the Stage 2 sweep, which only saw the CEO contract extension", "who": "Eun Angela Nam", "from": "CFO and CAO, FTAI Aviation Ltd.; previously SVP Private Equity, Fortress Investment Group", "effective": "2026-05-01", "source": "8-K 0001193125-26-097589", "external_hire": true},
+                 {"what": "Prior CFO resigned; Chief Strategy and Transformation Officer named interim CFO", "who": "Ajay Sabherwal (departed); Paul Linton (interim)", "from": "internal", "effective": "2025-09-12", "source": "8-K 0001193125-25-178952; 8-K 0001193125-25-198449", "external_hire": false},
+                 {"what": "New Chief Human Resources Officer; CEO Steven Gunby employment term extended to 2029-06-06 (no CEO change)", "who": "Ulrike Rabl (CHRO); Steven H. Gunby (CEO)", "from": null, "effective": "2026-01-01", "source": "8-K 0001193125-25-312770", "external_hire": null},
+                 {"what": "Two independent directors added, board 9 to 11; effective just before the 18-month window", "who": "Eric Steigerwalt, Janet Zelenka", "from": null, "effective": "2025-03-25", "source": "8-K 0001193125-25-067859", "external_hire": true}
+               ],
+               "months_since_primary": 5.1, "ceo_months_in_seat": 152.4,
+               "next_event": {"type": "none known", "date": null, "source": "Lexical search for 'investor day' across FY2026 FCN documents returned no hits; no Item 2.01 or 1.01 8-K since 2024-07-01"}},
+  "margin_framing": {"numeric": false, "metric": "adjusted EBITDA margin",
+                     "metric_basis_note": "No margin level, rate or savings target found. Management frames recovery qualitatively around Economic Consulting (segment adj. EBITDA margin 4.7% in Q2 2026 vs 7.4%) and non-recurring first-half SG&A. Q1 2026 prepared remarks are attributed to Gunby in the transcript index but the text is Paul Linton (interim CFO).",
+                     "current_level_pct": 11.17, "target_level_pct": null, "target_year": null, "has_year": false,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "Any given quarter can be funky, but go up in any medium term in our EBITDA lines and as well as our EPS lines.", "speaker": "Steven Gunby", "role": "CEO and Chairman", "doc_title": "FTI Consulting Q2 2026 Earnings Call", "date": "2026-07-30", "document_id": 112129},
+                       {"quote": "our adjusted segment EBITDA in Economic Consulting has hit its low point this quarter, as Steve said, we have multiple quarters of work ahead to get the P&L back to the levels we are happy with.", "speaker": "Paul Linton", "role": "Interim CFO and Chief Strategy and Transformation Officer", "doc_title": "FTI Consulting Q1 2026 Earnings Call", "date": "2026-04-30", "document_id": 172261},
+                       {"quote": "Despite the revenue growth, adjusted EBITDA declined year-over-year because of higher direct costs and SG&A expenses.", "speaker": "Angela Nam", "role": "CFO", "doc_title": "FTI Consulting Q2 2026 Earnings Call", "date": "2026-07-30", "document_id": 112129}
+                     ],
+                     "first_stated": null, "times_repeated": 0},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 10.93, "FY2027": 11.50, "FY2028": 11.61},
+             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": null,
+             "gap_assumption": "No stated margin target, so no gap. Fiscal year ends December, so Baba FY labels equal company fiscal years. Street path is about +70 bps from FY2026 to FY2028 (10.93% to 11.61%), roughly back to the LTM level (11.17%).",
+             "ebitda_uplift_pct_if_target_hit": null, "source": "Baba data_financials consensus (summary)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-297, -130], "note": "Order is [Q1 2026, Q2 2026]. Q1 2026 9.85% vs 12.82% (Baba consensus actuals). Q2 2026 adj. EBITDA $104.5M, 10.5% vs $111.6M, 11.8% (8-K EX-99.1 0001193125-26-328715, doc 142732), excluding $6.6M extraordinary litigation expense. 2026 EPS guidance cut to $8.70 to $9.30 on 2026-07-30. Margins still going backwards; the second-half recovery is a forecast, not evidence."},
+  "score": {"A_underperformance": 2, "B_catalyst": 2, "C_numeric_framing": 1, "D_unproven": 2, "total": 7},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Mechanical 7 that overstates the setup: cheap at the bottom of its range with a new external CFO and flat estimates, but a 12-year CEO and no numeric margin framing to underwrite.",
+  "open_questions": ["Will the new CFO (ex FTAI, 5 months in seat) introduce a margin or SG&A framework, or is the role cost discipline and buybacks?", "Is the Economic Consulting drag (segment margin 4.7% vs 7.4%) cyclical or a permanent talent loss tied to the litigation against a former employee?", "How large and long are the extraordinary litigation expenses now excluded from adjusted EBITDA?"],
+  "sources": [
+    {"document_id": 112129, "title": "FTI Consulting Q2 2026 Earnings Call", "date": "2026-07-30"},
+    {"document_id": 172261, "title": "FTI Consulting Q1 2026 Earnings Call", "date": "2026-04-30"},
+    {"document_id": 142732, "title": "FTI Consulting 8-K (Q2 2026 results, EX-99.1)", "date": "2026-07-31"},
+    {"document_id": 38501, "title": "FTI Consulting DEF 14A (Gunby CEO since 2014-01-20)", "date": "2026-04-21"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0001193125-26-097589 (new CFO), 0001193125-25-312770, 0001193125-25-198449, 0001193125-25-178952, 0001193125-25-067859", "date": "2026-03-09"},
+    {"document_id": 0, "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01; ebitda_turn_pct -0.25%)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary consensus (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_guidance: no targets or guidance issuances on file", "date": "2026-10-02"}
+  ],
+  "tool_calls": 21
+}

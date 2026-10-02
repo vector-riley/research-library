@@ -1,0 +1,126 @@
+{
+  "ticker": "GBX",
+  "cid": 1000689,
+  "name": "Greenbrier Companies Inc",
+  "industry": "Heavy Transportation Equipment",
+  "as_of": "2026-10-02",
+  "business": "Greenbrier designs, builds and leases freight railcars and provides wheel, parts and maintenance services to railroads, lessors, shippers and carriers.",
+  "quant": {
+    "mcap_usd": 1272657050.0,
+    "drawdown": -0.4063,
+    "pctile_ev_ebitda_60m": 0.7833,
+    "price_ltm_pct": -0.1077,
+    "ebitda_margin_ltm": 0.1302,
+    "ebitda_margin_fwd_consensus": 0.1319,
+    "industry_median_margin": 0.166,
+    "ev_ebitda_fy": 7.76,
+    "net_debt_ltm_ebitda": 4.91,
+    "ebitda_revision_12m": -0.2793,
+    "ebitda_brokers": 3
+  },
+  "catalyst": {
+    "type": ["new_ceo", "board_refresh"],
+    "events": [
+      {
+        "what": "CEO succession announced and pending: Lorie Tekorius retires as CEO and President; Brian Comstock appointed successor (effective on her departure)",
+        "who": "Brian J. Comstock",
+        "from": "Greenbrier EVP and President, The Americas (since January 2024); at the company since 1998, previously EVP Chief Commercial and Leasing Officer",
+        "effective": "2027-01-06",
+        "source": "8-K 0001193125-26-376734 (filed 2026-08-31; Baba document_id 216439)",
+        "external_hire": false
+      },
+      {
+        "what": "Board expanded from eight to ten; two new directors",
+        "who": "Stevan Bobb, Jeffrey Songer",
+        "from": null,
+        "effective": "2025-06-19",
+        "source": "8-K 0001193125-25-144058",
+        "external_hire": true
+      }
+    ],
+    "months_since_primary": 1.1,
+    "ceo_months_in_seat": 55.1,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "No Investor Day or framework update found in Baba corpus (FY2026 search). The CEO handover itself is 2027-01-06 per 8-K 0001193125-26-376734; fiscal 2027 guidance would normally come with the Q4 FY2026 report, date not sourced."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "gross margin",
+    "metric_basis_note": "The framework is aggregate GROSS margin (mid-teens by fiscal 2026) plus ROIC 10% to 14% by fiscal 2026 and doubling recurring leasing revenue by fiscal 2028, set at the April 2023 Investor Day. No EBITDA or operating margin long-term target. FY2026 guide on the Q2 FY2026 call (doc 154262) was aggregate gross margin 14.8% to 15.2% and operating margin 7% to 7.8%. Greenbrier fiscal year ends August 31, so Baba FY-2026 = fiscal 2026 (Sep 2025 to Aug 2026); no label shift.",
+    "current_level_pct": 14.1,
+    "target_level_pct": 15.0,
+    "target_year": 2026,
+    "has_year": true,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "We expect the actions we are taking throughout the organization will result in aggregate gross margin in the mid-teens by fiscal 2026, if not sooner. Finally, we are targeting a return on invested capital of between 10% and 14% by fiscal 2026.",
+        "speaker": "Adrian Downes",
+        "role": "CFO",
+        "doc_title": "Q2 2023 & Investor Day 2023",
+        "date": "2023-04-12",
+        "document_id": 86295
+      },
+      {
+        "quote": "Notably, this marks the eighth consecutive quarter in which we've met or exceeded our mid-teens gross margin target.",
+        "speaker": "Michael Donfris",
+        "role": "CFO",
+        "doc_title": "GREENBRIER COMPANIES INC Q4 2025 Earnings Call",
+        "date": "2025-10-28",
+        "document_id": 42688
+      },
+      {
+        "quote": "Aggregate gross margin was 14.1% within our long-term target range and improved from Q2.",
+        "speaker": "Michael Donfris",
+        "role": "CFO",
+        "doc_title": "GREENBRIER COMPANIES INC Q3 2026 Earnings Call",
+        "date": "2026-07-01",
+        "document_id": 144771
+      }
+    ],
+    "first_stated": "2023-04-12",
+    "times_repeated": 8
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {"FY2026": 11.98, "FY2027": 13.19, "FY2028": 14.35},
+    "consensus_margin_at_target_year_pct": null,
+    "gap_bps_vs_target": null,
+    "gap_assumption": "Target metric is gross margin; Baba consensus summary carries EBITDA, not gross margin, so no like-for-like gap. The target year (fiscal 2026) has ended and management's own FY2026 guide (14.8% to 15.2% aggregate gross margin) sits on the mid-teens target; consensus FY2026 EPS 3.03 is inside the narrowed 3.00 to 3.15 guide (CFO, 2026-07-01, doc 144771). Target is achieved and modeled, gap effectively zero. Street EBITDA margin recovers 12.0% to 14.4% FY2026 to FY2028 on volume, still below the 15.8% FY2025 actual (512.3/3,240.2).",
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials consensus (Visible Alpha), fetched 2026-10-01"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [-591, -326],
+    "note": "Order [Q2 FY2026, Q3 FY2026], EBITDA margin from Baba reported actuals: Q2 10.3% vs 16.3%, Q3 12.0% vs 15.2%. Margins are falling with railcar deliveries (industry 2026 deliveries under 25,000, lowest since 2010, per CEO 2026-07-01). FY2026 guide cut from 16% to 16.5% gross / 9% to 9.5% operating (2025-10-28) to 14.8% to 15.2% / 7% to 7.8% (Q2 FY2026 call, doc 154262). Cyclical volume, not a self-help gap."
+  },
+  "score": {
+    "A_underperformance": 1,
+    "B_catalyst": 2,
+    "C_numeric_framing": 3,
+    "D_unproven": 0,
+    "total": 6
+  },
+  "disqualified": true,
+  "disqualifier_reason": "Margin target already reflected: the only numeric margin target (mid-teens aggregate gross margin by fiscal 2026, set April 2023) has been met for eight-plus quarters and is embedded in the FY2026 guide that consensus matches. Margin swings are driven by the railcar delivery cycle, and net debt is 4.9x LTM EBITDA. The pending CEO change is an internal 28-year veteran promising continuity.",
+  "verdict": "Not a GXO setup: internal continuity CEO succession, an already-achieved 2023 gross margin target, and cyclical rather than self-help margin compression; EV/EBITDA sits at the 78th percentile of its range.",
+  "open_questions": [
+    "Will Comstock set a new post-2026 margin or ROIC framework after taking over on 2027-01-06?",
+    "How much of the 2026 margin drop reverses if North American deliveries recover to the 34,000 forecast for calendar 2027?",
+    "Does leverage near 4.9x net debt to LTM EBITDA (lease fleet growth funded with debt) constrain buybacks through the trough?"
+  ],
+  "sources": [
+    {"document_id": 216439, "title": "Greenbrier 8-K, CEO succession (accession 0001193125-26-376734)", "date": "2026-08-31"},
+    {"document_id": 86295, "title": "Q2 2023 & Investor Day 2023", "date": "2023-04-12"},
+    {"document_id": 42688, "title": "GREENBRIER COMPANIES INC Q4 2025 Earnings Call", "date": "2025-10-28"},
+    {"document_id": 154262, "title": "GREENBRIER COMPANIES INC Q2 2026 Earnings Call", "date": null},
+    {"document_id": 144771, "title": "GREENBRIER COMPANIES INC Q3 2026 Earnings Call", "date": "2026-07-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0001193125-25-144058 (board), 0001193125-21-307159 and 0001193125-22-088632 (Tekorius CEO effective 2022-03-01)", "date": "2025-06-23"},
+    {"document_id": 0, "title": "Baba data_comps and data_financials summary (Visible Alpha consensus, market_data asof 2026-09-30)", "date": "2026-10-01"}
+  ],
+  "tool_calls": 21
+}
