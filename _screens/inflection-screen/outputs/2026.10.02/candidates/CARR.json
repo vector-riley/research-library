@@ -1,0 +1,47 @@
+{
+  "ticker": "CARR", "cid": 1004710, "name": "Carrier Global Corporation", "industry": "Industrial Machinery and Equipment", "as_of": "2026-10-02",
+  "business": "Sells HVAC equipment, heat pumps, building controls, aftermarket service and transport refrigeration to residential, commercial, data center and transportation customers worldwide.",
+  "quant": {"mcap_usd": 46191530000.0, "drawdown": -0.3204, "pctile_ev_ebitda_60m": 0.1167, "price_ltm_pct": -0.0669,
+            "ebitda_margin_ltm": 0.1977, "ebitda_margin_fwd_consensus": 0.2027, "industry_median_margin": 0.218, "ev_ebitda_fy": 11.45,
+            "net_debt_ltm_ebitda": 2.33, "ebitda_revision_12m": -0.0778, "ebitda_brokers": 17},
+  "catalyst": {"type": ["strategy_update", "board_refresh"],
+               "events": [
+                 {"what": "Investor Day 2025: refreshed value creation framework (6% to 8% medium-term organic growth, continued margin expansion, mid-teens adjusted EPS growth, 21% tax rate from 2026)", "who": "David Gitlin (CEO), Patrick Goris (CFO)", "from": null, "effective": "2025-05-19", "source": "document_id 68465", "external_hire": null},
+                 {"what": "Chief Accounting Officer appointed (not CEO or CFO)", "who": "Beril Yildiz", "from": "International Flavors & Fragrances (SVP, Controller and CAO)", "effective": "2025-09-22", "source": "8-K 0000950142-25-002375", "external_hire": true},
+                 {"what": "New President of Climate Solutions Europe segment, tasked with mid-teen segment margins", "who": "Thomas Donato", "from": null, "effective": null, "source": "document_id 107396", "external_hire": null},
+                 {"what": "Independent director appointed", "who": "Neil Barua", "from": null, "effective": "2026-07-24", "source": "8-K 0000950142-26-002161", "external_hire": true},
+                 {"what": "Portfolio pruning after the 2024 transformation: Riello sale to Ariston (about $430M gross proceeds, expected close 1H 2026) and NORESCO exit; no Item 2.01 or 1.01 8-K returned 2024-07-01 to 2026-10-02", "who": "Riello; NORESCO", "from": null, "effective": null, "source": "Baba data_profile (10-K description); document_id 107396", "external_hire": null}
+               ],
+               "months_since_primary": 16.4, "ceo_months_in_seat": 78.0,
+               "next_event": {"type": "none known", "date": null, "source": "No Investor Day or framework update date found in Baba corpus (lexical 'investor day' FY2026 search; Q1 2026 doc 190041, Q2 2026 doc 107396). Last Investor Day 2025-05-19 (doc 68465)."}},
+  "margin_framing": {"numeric": true, "metric": "operating margin",
+                     "metric_basis_note": "Carrier frames adjusted operating margin (rate of over 50 bps a year, no end year); the street test uses VA consensus 'Operating margin' (FY2025 actual 15.14% = $3,292M / $21,747M). EBITDA consensus shown for reference only.",
+                     "current_level_pct": 15.2, "target_level_pct": null, "target_year": null, "has_year": false,
+                     "annual_bps": 50, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "You also have heard us say that we target over 50 basis points of margin expansion each year. We have done better than that the last several years, and this year, again, we will do better than that, than 50 basis points. Clearly, we would expect all else equal to continue on that path.", "speaker": "David Gitlin", "role": "Chairman and CEO", "doc_title": "Carrier Global Corporation Q1 2025 Earnings Call", "date": "2025-05-01", "document_id": 52923},
+                       {"quote": "We want to continue doing what we do well, expand our margins, strong free cash flow, mid-teens adjusted EPS growth, with a top line that's growing a little bit faster, 6-8% over the medium term. We will continue our strong track record of operating margin expansion", "speaker": "Patrick Goris", "role": "CFO", "doc_title": "Investor Day 2025", "date": "2025-05-19", "document_id": 68465},
+                       {"quote": "We now expect adjusted operating profit of about $3.5 billion, and adjusted EPS of about $2.90, up from our prior guide of $3.4 billion and $2.80 of EPS.", "speaker": "Patrick Goris", "role": "CFO", "doc_title": "Carrier Global Corporation Q2 2026 Earnings Call", "date": "2026-07-28", "document_id": 107396},
+                       {"quote": "I am confident that Thomas and the team will take the right actions to get this business to mid-teen operating margins over the next few years.", "speaker": "David Gitlin", "role": "Chairman and CEO", "doc_title": "Carrier Global Corporation Q2 2026 Earnings Call", "date": "2026-07-28", "document_id": 107396}
+                     ],
+                     "first_stated": null, "first_stated_note": "Framework dates from Investor Day 2022 (doc 93215, date not loaded in Baba); earliest fetched restatement in window 2025-05-01", "times_repeated": 5},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 19.50, "FY2027": 20.27, "FY2028": 20.62},
+             "consensus_margin_at_target_year_pct": 16.97, "gap_bps_vs_target": -75, "gap_assumption": "December year end, Baba FY labels equal calendar years. No stated level or year, so the framework is projected: FY2026 guided adjusted operating margin 15.2% ($3.5B AOP / ~$23B sales, doc 107396) plus 50 bps a year to FY2028 = 16.2%, versus VA consensus FY2028 operating margin 16.97% (FY2027 16.27%). Consensus already sits above the framework.",
+             "ebitda_uplift_pct_if_target_hit": -3.6, "source": "Baba data_financials consensus (fundamentals, Visible Alpha)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-513, -187], "note": "Order is [Q1 2026, Q2 2026]. Q1 2026 adjusted operating margin 11.1% vs 16.3% (VA actuals $594M/$5,341M vs $848M/$5,218M). Q2 2026 17.2% (Goris, doc 107396) vs 19.1% in Q2 2025 (VA). Guided FY2026 margin about 15.2%, roughly flat on FY2025 15.1%; 2H 2026 AOP guided up about 50% YoY. VA has not loaded Q2 2026 actuals, so LTM EBITDA margin uses Q2 2025 to Q1 2026."},
+  "score": {"A_underperformance": 2, "B_catalyst": 1, "C_numeric_framing": 2, "D_unproven": 0, "total": 5},
+  "disqualified": true, "disqualifier_reason": "Margin framework already reflected in consensus: 50 bps a year from the ~15.2% FY2026 guide gives ~16.2% in FY2028, 75 bps BELOW VA consensus operating margin of 16.97%. The portfolio transformation closed in 2024 (outside 18 months) and there is no CEO or CFO change (Gitlin CEO since 2020-04-01; Goris CFO since 2020-11-16).",
+  "verdict": "Not a GXO setup: cheap after a 32% drawdown, but long-tenured management, an evergreen 50 bps a year framework with no end year, and a street that already models faster margin recovery than the framework.",
+  "open_questions": ["Will Carrier restate the over 50 bps a year margin framework for 2027 given flat 2026 margins and dilutive data center commercial mix?", "What year does 'mid-teen operating margins over the next few years' for Climate Solutions Europe under new president Thomas Donato refer to?", "Is consensus FY2027 operating margin of 16.27% (+100 bps on the 2026 guide) too high if commercial and data center mix keeps diluting margins?"],
+  "sources": [
+    {"document_id": 52923, "title": "Carrier Global Corporation Q1 2025 Earnings Call", "date": "2025-05-01"},
+    {"document_id": 68465, "title": "Investor Day 2025", "date": "2025-05-19"},
+    {"document_id": 190041, "title": "Carrier Global Corporation Q1 2026 Earnings Call", "date": "2026-04-30"},
+    {"document_id": 107396, "title": "Carrier Global Corporation Q2 2026 Earnings Call (Baba doc-level summary is mislabeled with Carrefour content; transcript segments are Carrier)", "date": "2026-07-28"},
+    {"document_id": 93215, "title": "Investor Day 2022 (origin of the over 50 bps a year framework; search snippet only)", "date": null},
+    {"document_id": 0, "title": "Baba data_comps (market_data, revisions, estimates; asof 2026-09-30 to 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials fundamentals consensus (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02 filings: 0000950142-26-002161, 0000950142-25-002375, 0000950142-25-001103, 0000950142-25-000133, 0001140361-20-023241, 0001140361-20-007888; Item 2.01/1.01 query returned none", "date": "2020-04-03 to 2026-07-24"}
+  ],
+  "tool_calls": 27
+}

@@ -1,0 +1,47 @@
+{
+  "ticker": "CVLT", "cid": 1000621, "name": "COMMVAULT SYSTEMS INC", "industry": "Systems Software", "as_of": "2026-10-02",
+  "business": "Sells cyber-resilience software and SaaS for enterprise data backup, recovery and ransomware protection to businesses and government agencies worldwide.",
+  "quant": {"mcap_usd": 6186982130.0, "drawdown": -0.2328, "pctile_ev_ebitda_60m": 0.5833, "price_ltm_pct": -0.2058,
+            "ebitda_margin_ltm": 0.2108, "ebitda_margin_fwd_consensus": 0.2182, "industry_median_margin": 0.339, "ev_ebitda_fy": 21.55,
+            "net_debt_ltm_ebitda": -0.18, "ebitda_revision_12m": -0.0198, "ebitda_brokers": 14},
+  "catalyst": {"type": ["new_cfo", "board_refresh"],
+               "events": [
+                 {"what": "CFO appointed (rehire of former CFO 2022 to 2024, Chief Commercial Officer since August 2024); Jennifer DiRico resigned as CFO effective 2025-12-31 (8-K 0001169561-25-000094)", "who": "Gary Merrill", "from": "Commvault Chief Commercial Officer", "effective": "2026-04-13", "source": "8-K 0001169561-26-000008", "external_hire": false},
+                 {"what": "President of Customer and Field Operations appointed (resigned as director 2026-04-08)", "who": "Geoff Haydon", "from": "Ontinue (CEO); Commvault director since 2025-10-17", "effective": "2026-04-13", "source": "8-K 0001169561-26-000008; 8-K 0001169561-25-000080", "external_hire": true},
+                 {"what": "Director appointed and named Chairperson of the board's Operating Committee", "who": "David Morton, Jr.", "from": "Intapp (EVP and CFO); previously CFO of DigiCert, Anaplan, Seagate", "effective": "2026-09-22", "source": "8-K 0001169561-26-000030", "external_hire": true},
+                 {"what": "No CEO change: Sanjay Mirchandani CEO since February 2019", "who": "Sanjay Mirchandani", "from": null, "effective": null, "source": "10-K document_id 12357", "external_hire": null}
+               ],
+               "months_since_primary": 5.7, "ceo_months_in_seat": 92.0,
+               "next_event": {"type": "framework update", "date": null, "source": "Merrill, William Blair conference 2026-06-02, document_id 55998: no long-term operating margin target 'yet', working on a long-term algorithm 'at some point'; no date or investor day announced"}},
+  "margin_framing": {"numeric": true, "metric": "operating margin",
+                     "metric_basis_note": "Company guides non-GAAP EBIT margin (one-year: FY2027 about 21%, raised 50 bps from 20.5%). Gap uses VA consensus non-GAAP operating margin (Operating income, Primary), same metric. Baba FY2027 equals company fiscal 2027 ending 2027-03-31 (March FYE, both keyed to the year end). No long-term target.",
+                     "current_level_pct": 22.8, "target_level_pct": 21.0, "target_year": 2027, "has_year": true,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "In addition, for fiscal 2027, we are increasing our full year non-GAAP EBIT margin guidance by 50 basis points to approximately 21%.", "speaker": "Gary Merrill", "role": "CFO", "doc_title": "COMMVAULT SYSTEMS INC Q1 2027 Earnings Call", "date": "2026-07-28", "document_id": 107401},
+                       {"quote": "Non-GAAP EBIT grew to $71 million, representing a Non-GAAP EBIT margin of 22.8%, a 210 basis point improvement year over year. This was our best quarterly EBIT margin performance in over a decade", "speaker": "Gary Merrill", "role": "CFO", "doc_title": "COMMVAULT SYSTEMS INC Q1 2027 Earnings Call", "date": "2026-07-28", "document_id": 107401},
+                       {"quote": "Do you have a long-term target for operating margin? We do not yet. I'm just back in the CFO role now for a month. I think one of the priorities will be to work through that to get that long-term algorithm here at some point.", "speaker": "Gary Merrill", "role": "CFO", "doc_title": "46th Annual William Blair Growth Stock Conference", "date": "2026-06-02", "document_id": 55998}
+                     ],
+                     "first_stated": "2026-04-28", "times_repeated": 3},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 21.08, "FY2027": 21.82, "FY2028": 22.46},
+             "consensus_margin_at_target_year_pct": 20.45, "gap_bps_vs_target": 55, "gap_assumption": "FY2027 non-GAAP EBIT margin guide about 21% minus VA consensus FY2027 operating margin (Primary) 20.45%; same metric. FY2026 EBITDA margin is reported (year ended 2026-03-31). VA EBITDA margins shown are a different, D&A-inclusive basis.",
+             "ebitda_uplift_pct_if_target_hit": null, "source": "Baba data_financials consensus (summary and fundamentals)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-22, 210], "note": "Order [Q4 FY2026 (March 2026), Q1 FY2027 (June 2026)]. Q4 is VA EBITDA margin YoY; Q1 FY2027 (not yet in VA actuals) is the CFO's stated non-GAAP EBIT margin +210 bps to 22.8% (doc 107401). Q2 FY2027 EBIT margin guided to about 20%."},
+  "score": {"A_underperformance": 0, "B_catalyst": 2, "C_numeric_framing": 2, "D_unproven": 1, "total": 5},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Weak match: CFO rehire, new field president and a CFO-heavy director chairing a new Operating Committee, but the stock is not cheap (21.5x EBITDA, 58th percentile), the CEO is seven years in, and framing is a one-year 21% EBIT guide only 55 bps above consensus.",
+  "open_questions": ["What is the board's new Operating Committee under David Morton mandated to do, and does it signal a margin or cost program?", "When will Merrill publish the long-term margin algorithm he said Commvault does not have yet?", "Is the Q1 FY2027 22.8% EBIT margin sustainable given the guided step down to about 20% in Q2?"],
+  "sources": [
+    {"document_id": 197966, "title": "COMMVAULT SYSTEMS INC Q4 2026 Earnings Call", "date": "2026-04-28"},
+    {"document_id": 55998, "title": "46th Annual William Blair Growth Stock Conference", "date": "2026-06-02"},
+    {"document_id": 107401, "title": "COMMVAULT SYSTEMS INC Q1 2027 Earnings Call", "date": "2026-07-28"},
+    {"document_id": 12357, "title": "COMMVAULT SYSTEMS INC 10-K (FY ended 2026-03-31)", "date": null},
+    {"document_id": 38128, "title": "COMMVAULT SYSTEMS INC DEF 14A", "date": "2026-06-24"},
+    {"document_id": 224290, "title": "COMMVAULT SYSTEMS INC 8-K EX-99.1 (Morton appointment)", "date": "2026-09-24"},
+    {"document_id": 0, "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary and fundamentals consensus (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0001169561-26-000030, 0001169561-26-000008, 0001169561-25-000094, 0001169561-25-000080; Item 1.01/2.01 query returned none", "date": "2025-10-20 to 2026-09-24"},
+    {"document_id": 0, "title": "Stage 1 stage1_ranked.csv (industry median margin 0.339)", "date": "2026-10-02"}
+  ],
+  "tool_calls": 18
+}

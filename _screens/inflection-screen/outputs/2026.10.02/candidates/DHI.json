@@ -1,0 +1,44 @@
+{
+  "ticker": "DHI", "cid": 1000295, "name": "HORTON D R INC", "industry": "Home Building", "as_of": "2026-10-02",
+  "business": "D.R. Horton develops land and builds and sells homes to US homebuyers in 126 markets, with mortgage, title and rental operations.",
+  "quant": {"mcap_usd": 38787980000.0, "drawdown": -0.2925, "pctile_ev_ebitda_60m": 0.65, "price_ltm_pct": -0.184,
+            "ebitda_margin_ltm": 0.1176, "ebitda_margin_fwd_consensus": 0.1239, "industry_median_margin": 0.096, "ev_ebitda_fy": 10.44,
+            "net_debt_ltm_ebitda": 1.40, "ebitda_revision_12m": -0.2067, "ebitda_brokers": 7},
+  "catalyst": {"type": [],
+               "events": [
+                 {"what": "CEO succession (internal; David Auld CEO 2014 to September 2023, then Executive Vice Chair, Executive Chairman since May 2024). OUTSIDE the 18-month window", "who": "Paul J. Romanowski", "from": "D.R. Horton Co-COO", "effective": "2023-10-01", "source": "DEF 14A 0000882184-25-000114 (document_id 38220); Q4 FY2023 call document_id 76842", "external_hire": false},
+                 {"what": "Three independent directors added, board to 10. OUTSIDE the window", "who": "Barbara R. Smith; M. Chad Crow; Elaine D. Crowley", "from": "ex CEO Commercial Metals; ex CEO Builders FirstSource; ex CFO Michaels", "effective": "2024-08-26", "source": "8-K 0000882184-24-000043", "external_hire": true},
+                 {"what": "No CEO or CFO change since 2025-04-01. Own 8-K Item 5.02 query (2024-07-01 to 2026-10-02) returned only the 2024 board filing; Items 2.01/1.01 none. Baba 'first earnings call / since joining' check: CFO Bill Wheat on every call back to at least FY2021 (document_id 76850, 41398)", "who": "Bill W. Wheat (CFO)", "from": null, "effective": null, "source": "8-K 0000882184-24-000043; document_id 41398", "external_hire": false}
+               ],
+               "months_since_primary": 36.0, "ceo_months_in_seat": 36.0,
+               "next_event": {"type": "none known", "date": null, "source": "No Investor Day or framework update found in corpus; guidance is quarterly (home sales gross margin and pre-tax margin ranges)."}},
+  "margin_framing": {"numeric": false, "metric": "gross margin",
+                     "metric_basis_note": "Management guides home sales gross margin and consolidated pre-tax margin one quarter ahead (Q4 FY2026: 20.5% to 21% gross, 12.3% to 12.8% pre-tax) and frames the outlook as 'relatively stable'. There is no expansion target, level with a year, or peer gap. Margin is set by incentives and mortgage rate buydowns (the housing cycle), not by a self-help program. Fiscal year ends September; Baba FY labels equal company fiscal years.",
+                     "current_level_pct": 20.7, "target_level_pct": null, "target_year": null, "has_year": false,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "We expect our home sales gross margin for the fourth quarter to be in the range of 20.5%-21%, and our consolidated pre-tax profit margin to be between 12.3% and 12.8%.", "speaker": "Jessica Hansen", "role": "SVP of Communications and Head of IR", "doc_title": "HORTON D R INC Q3 2026 Earnings Call", "date": "2026-07-21", "document_id": 41398},
+                       {"quote": "We do expect incentives to remain elevated. As Mike just discussed, we may still see some stick and brick savings, but we have achieved a lot of what we expect to achieve today.", "speaker": "Bill Wheat", "role": "CFO", "doc_title": "HORTON D R INC Q3 2026 Earnings Call", "date": "2026-07-21", "document_id": 41398},
+                       {"quote": "Right now, the visibility we have points to a relatively stable margin going into Q4.", "speaker": "Bill Wheat", "role": "CFO", "doc_title": "HORTON D R INC Q3 2026 Earnings Call", "date": "2026-07-21", "document_id": 41398}
+                     ],
+                     "first_stated": null, "times_repeated": 0},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 12.16, "FY2027": 12.39, "FY2028": 12.67},
+             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": null,
+             "gap_assumption": "No management target, so no gap. Fiscal year ends September; Baba FY = company fiscal year. Street path continues to 14.55% FY2029 and 15.07% FY2030. D is scored on the no-level rule (4-month revision -2.4%), but the 12-month revision is -20.7%, so estimates only just stopped falling.",
+             "ebitda_uplift_pct_if_target_hit": null, "source": "Baba data_financials consensus (Visible Alpha, summary)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-231, -115], "note": "Order [Q2 FY2026, Q3 FY2026], EBITDA / revenue from consensus actuals: Q2 828.1/7,558.1 = 11.0% vs 1,026.1/7,734.0 = 13.3%; Q3 1,184.0/9,227.1 = 12.8% vs 1,290.1/9,225.7 = 14.0%. Q3 home sales gross margin 20.7% beat the guide on lower stick and brick costs and slightly lower incentives (Hansen, document_id 41398). FY2026 closings guide cut to 83,800 to 84,300."},
+  "score": {"A_underperformance": 1, "B_catalyst": 0, "C_numeric_framing": 0, "D_unproven": 2, "total": 3},
+  "disqualified": true, "disqualifier_reason": "Catalyst older than 18 months with no pending change: the internal CEO succession was effective 2023-10-01 (36 months ago), and the last board additions were 2024-08-26. There is no CFO change, no acquisition and no Investor Day. Margin is also cycle-driven (incentives and mortgage rates), close to the commodity-driven exclusion. EBITDA margin (12.4% forward) is above the industry median (9.6%), so this is not a below-peer margin story.",
+  "verdict": "Not a GXO setup: no leadership change or deal in the window, no margin target, cycle-driven margins already above the industry median, and only A (down 29%) and the mechanical D score.",
+  "open_questions": ["Does the Q4 FY2026 call (late October) give a fiscal 2027 gross margin outlook, the first annual framing?", "How much of FY2029 consensus margin expansion (14.55%) depends on lower mortgage rates rather than anything D.R. Horton controls?", "Is there any pending succession at CFO (Wheat, born 1966) or COO that could create a catalyst?"],
+  "sources": [
+    {"document_id": 41398, "title": "HORTON D R INC Q3 2026 Earnings Call", "date": "2026-07-21"},
+    {"document_id": 151764, "title": "HORTON D R INC Q2 2026 Earnings Call", "date": "2026-04"},
+    {"document_id": 38220, "title": "D.R. Horton DEF 14A (0000882184-25-000114)", "date": "2025-12-10"},
+    {"document_id": 76842, "title": "HORTON D R INC Q4 2023 Earnings Call (Romanowski as CEO)", "date": "2023-11"},
+    {"document_id": 0, "title": "Baba data_comps (market_data, revisions, estimates; asof 2026-09-30 to 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary consensus (Visible Alpha); data_executives (fmp)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: only 0000882184-24-000043 (2024 board adds); Items 2.01/1.01: none", "date": "2024-08-28"}
+  ],
+  "tool_calls": 11
+}

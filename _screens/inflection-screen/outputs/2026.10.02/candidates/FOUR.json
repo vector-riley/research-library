@@ -1,0 +1,45 @@
+{
+  "ticker": "FOUR", "cid": 1004769, "name": "Shift4 Payments Inc", "industry": "Payment Processing", "as_of": "2026-10-02",
+  "business": "Integrated payment processing and point-of-sale software (Shift4 Dine/SkyTab, tax-free shopping via Global Blue) sold to restaurants, hotels, venues and retailers in the US and internationally.",
+  "quant": {"mcap_usd": 3202200000.0, "drawdown": -0.7122, "pctile_ev_ebitda_60m": 0.0, "price_ltm_pct": -0.5327,
+            "ebitda_margin_ltm": 0.2332, "ebitda_margin_fwd_consensus": 0.2279, "industry_median_margin": 0.264, "ev_ebitda_fy": 4.99,
+            "net_debt_ltm_ebitda": 3.06, "ebitda_revision_12m": -0.0958, "ebitda_brokers": 21},
+  "catalyst": {"type": ["new_ceo", "new_cfo", "acquisition", "board_refresh"],
+               "events": [
+                 {"what": "Founder Jared Isaacman stepped down as CEO and became Executive Chairman; President and Chief Strategy Officer promoted to CEO and director", "who": "Taylor Lauber", "from": "Shift4 President and Chief Strategy Officer", "effective": "2025-06-05", "source": "8-K 0001193125-25-135018; employment agreement 8-K/A 0001193125-25-142142", "external_hire": false},
+                 {"what": "New CFO (a sitting Shift4 director who resigned from the board to take the role); prior CFO Nancy Disman to Senior Advisor and director", "who": "Christopher N. Cruz", "from": "Shift4 board member", "effective": "2025-09-01", "source": "8-K/A 0001794669-25-000025", "external_hire": false},
+                 {"what": "Global Blue acquisition closed (tax-free shopping, dynamic currency conversion, luxury retail); Global Blue CEO became President of Shift4 International. Exact close date not in the fetched text and no Item 2.01 8-K returned", "who": "Global Blue", "from": null, "effective": null, "source": "document_id 193687 (Q4 2025 call: closed 'back in July' 2025); document_id 130247 (one-year anniversary of the July closing)", "external_hire": null},
+                 {"what": "Isaacman resigned as Executive Chairman and director to become NASA Administrator; CEO Lauber named Chairman. No 8-K through 2026-10-02 shows Isaacman returning in any role (only later Item 5.02 is a CAO change, 0001193125-26-098532)", "who": "Jared Isaacman (departed); Taylor Lauber (Chairman)", "from": null, "effective": "2025-12-18", "source": "8-K 0001193125-25-325098", "external_hire": false}
+               ],
+               "months_since_primary": 15.9, "ceo_months_in_seat": 15.9,
+               "next_event": {"type": "none known", "date": null, "source": "Lexical search for 'investor day' across FY2026 FOUR documents found no announcement; company guides one quarter ahead (Q3 and Q4 2026 guides given 2026-08-06, document_id 130247)"}},
+  "margin_framing": {"numeric": true, "metric": "adjusted EBITDA margin",
+                     "metric_basis_note": "Management's margin is adjusted EBITDA over gross revenue less network fees (GRLNF): 43% Q1 2026, 46% Q2 2026, FY2026 guide midpoint 46.5% ($1.15B to $1.18B on $2.48B to $2.53B). The screen metric (data_comps 22.8%, LTM 23.3%) is over gross revenue, inflated by pass-through network fees, so the 'below industry median' signal is an accounting artifact. The 50% is a return to the pre-Global Blue level (FY2024 actual 50.0%, 677.4M / 1,354.4M), diluted by the acquisition and international build-out. No year attached.",
+                     "current_level_pct": 46.0, "target_level_pct": 50.0, "target_year": null, "has_year": false,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "I am of the view that there is always room for improvement, and while we already deliver margins that are commendable relative to peers, I do see a path to 50% margins as we scale our international operations and continue to better leverage the resources that we have across the global organization.", "speaker": "Taylor Lauber", "role": "CEO and Chairman", "doc_title": "Shift4 Payments Q2 2026 Earnings Call", "date": "2026-08-06", "document_id": 130247},
+                       {"quote": "We do see a path back to 50% margins as we sufficiently scale our international operations, but will balance the growth opportunity appropriately.", "speaker": "Taylor Lauber", "role": "CEO and Chairman", "doc_title": "Shift4 Payments Q1 2026 Earnings Call", "date": "2026-05-07", "document_id": 193686},
+                       {"quote": "Adjusted EBITDA margins were 46%, and while an improvement from the first quarter, it is worth noting that we continue to scale our international operations and are continuously making investments in both product and internal initiatives.", "speaker": "Christopher Cruz", "role": "CFO", "doc_title": "Shift4 Payments Q2 2026 Earnings Call", "date": "2026-08-06", "document_id": 130247}
+                     ],
+                     "first_stated": "2026-05-07", "times_repeated": 2},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 46.23, "FY2027": 47.01, "FY2028": 47.66},
+             "consensus_margin_at_target_year_pct": 44.88, "gap_bps_vs_target": 512,
+             "gap_assumption": "Margins here are consensus EBITDA (data_financials summary, 2026-10-01) over GRLNF from VA Company Data (fetched 2026-08-29), matching management's metric; the two inputs are a month apart. No target year, so the gap uses the last consensus year FY2030 (1,648.7M / 3,673.9M = 44.88%, which looks like a thin-coverage drop). On the peak year FY2028 (47.66%) the gap is 234 bps. Fiscal year ends December, so Baba FY labels equal company fiscal years. On the gross-revenue basis used by the screen, consensus is about 23% flat through FY2028 (fundamentals EBITDA margin row).",
+             "ebitda_uplift_pct_if_target_hit": 6.4, "source": "Baba data_financials consensus (summary) and data_company_data (Visible Alpha GRLNF)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [101, 79], "note": "Order is [Q1 2026, Q2 2026], on adj. EBITDA over GROSS revenue (Q1 234.0M / 1,121M vs 168.5M / 848.3M; Q2 284M / 1,290M vs 205.1M / 966.2M; Q2 2026 figures from CFO, document_id 130247). On management's GRLNF basis the YoY change was not computed because prior-year GRLNF quarters were not fetched; adj. EBITDA grew 39% vs GRLNF 49% to 51% in both quarters, so the GRLNF margin fell YoY on Global Blue mix. Sequentially 43% to 46%."},
+  "score": {"A_underperformance": 2, "B_catalyst": 3, "C_numeric_framing": 2, "D_unproven": 2, "total": 9},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Rubric gives 9 but archetype fit is poor: the low-margin flag is a gross-revenue artifact, the CEO is an insider, and hitting 50% adds only about 6% to EBITDA.",
+  "open_questions": ["Is the stock down 71% on margin at all, or on leverage (3.1x), Global Blue integration, Middle East travel exposure and founder exit?", "Will Lauber put a year on 50% now that Global Blue rolls into organic growth from Q3 2026?", "data_comps still flags FOUR as founder-led; should the founder-led bucket be updated after Isaacman's 2025-12-18 exit?"],
+  "sources": [
+    {"document_id": 130247, "title": "Shift4 Payments Q2 2026 Earnings Call", "date": "2026-08-06"},
+    {"document_id": 193686, "title": "Shift4 Payments Q1 2026 Earnings Call", "date": "2026-05-07"},
+    {"document_id": 193687, "title": "Shift4 Payments Q4 2025 Earnings Call", "date": "2026-02"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0001193125-25-135018, 0001193125-25-142142, 0001794669-25-000025, 0001193125-25-325098, 0001193125-26-098532; Item 1.01/2.01 query returned only 0001193125-25-325098", "date": "2026-03-09"},
+    {"document_id": 0, "title": "Baba data_guidance targets: guidance.lt_gross_margin_target (path to 50%, issued 2026-08-06, doc 130247)", "date": "2026-10-02"},
+    {"document_id": 0, "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01; ebitda_turn_pct -2.5%)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary and fundamentals consensus; data_company_data GRLNF (Visible Alpha, fetched 2026-08-29)", "date": "2026-10-01"}
+  ],
+  "tool_calls": 30
+}

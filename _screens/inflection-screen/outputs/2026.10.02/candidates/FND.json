@@ -1,0 +1,198 @@
+{
+  "ticker": "FND",
+  "cid": 1000015,
+  "name": "Floor & Decor Holdings, Inc.",
+  "industry": "Home Improvement Retailers",
+  "as_of": "2026-10-02",
+  "business": "Warehouse-format specialty retailer selling hard-surface flooring, tile, wood and installation materials to professional installers, commercial businesses and homeowners across the United States.",
+  "quant": {
+    "mcap_usd": 4976763600.0,
+    "drawdown": -0.6575,
+    "pctile_ev_ebitda_60m": 0.0,
+    "price_ltm_pct": -0.3784,
+    "ebitda_margin_ltm": 0.1128,
+    "ebitda_margin_fwd_consensus": 0.1159,
+    "industry_median_margin": 0.163,
+    "ev_ebitda_fy": 8.19,
+    "net_debt_ltm_ebitda": -0.23,
+    "ebitda_revision_12m": -0.1417,
+    "ebitda_brokers": 16
+  },
+  "catalyst": {
+    "type": [
+      "new_ceo",
+      "board_refresh"
+    ],
+    "events": [
+      {
+        "what": "New CEO and director (external hire; joined as President 2025-03-10 as the planned successor). MISSED by the Stage 2 sweep",
+        "who": "Bradley S. Paulsen",
+        "from": "CEO North America, Rentokil Initial; previously CEO Rexel USA, COO HD Supply, The Home Depot",
+        "effective": "2025-12-26",
+        "source": "8-K 0001628280-25-047541; President hire 8-K 0001507079-25-000004 and 8-K/A 0001507079-25-000007",
+        "external_hire": true
+      },
+      {
+        "what": "Founding-era CEO moves to Executive Chair",
+        "who": "Thomas V. Taylor",
+        "from": "CEO",
+        "effective": "2025-12-26",
+        "source": "8-K 0001628280-25-047541",
+        "external_hire": false
+      },
+      {
+        "what": "Director retires from the board (effective date not stated in the structured 8-K)",
+        "who": "Richard Sullivan",
+        "from": null,
+        "effective": null,
+        "source": "8-K 0001628280-25-047541",
+        "external_hire": null
+      },
+      {
+        "what": "CFO unchanged (Bryan Langley); severance terms enhanced for CFO, CAO/CLO and EVP Merchandising",
+        "who": "Bryan Langley",
+        "from": null,
+        "effective": "2025-10-28",
+        "source": "8-K 0001628280-25-047541",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 9.2,
+    "ceo_months_in_seat": 9.2,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "Lexical search for 'investor day' across FY2026 FND documents found no announcement; last Investor Day in corpus is 2022 (document_id 18784). No Item 2.01 or 1.01 8-K since 2024-07-01"
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "Long-term goal with no year. Wording has drifted: mid-teens target (2019), high teens (2022 Investor Day), mid- to high teens (Q1 FY2024), mid-teens (Q2 FY2025, Paulsen as President). Target taken as 15%. Not found restated in the Q1 or Q2 FY2026 calls since Paulsen became CEO. FY2026 guide: adj. EBITDA $550M to $585M on sales $4,770M to $4,990M (53-week year). Earliest statement found: Q4 FY2019 call (document_id 5615, mid-teens long-term target with 15 to 30 bps a year); exact call date not fetched, so first_stated is null.",
+    "current_level_pct": 11.28,
+    "target_level_pct": 15.0,
+    "target_year": null,
+    "has_year": false,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "So I mean there's a lot that we're doing internal to do that, and we'll keep a focus on cost as well. So longer term, we still believe in that goal of mid-teens EBITDA. That's -- we're still on that path.",
+        "speaker": "Bradley S. Paulsen",
+        "role": "President (CEO-designate; CEO from 2025-12-26)",
+        "doc_title": "Floor & Decor Q2 FY2025 Earnings Call",
+        "date": "2025-07-31",
+        "document_id": 234
+      },
+      {
+        "quote": "We still see a path to achieving our long-term goal of mid- to high teens adjusted EBITDA margin.",
+        "speaker": "Bryan Langley",
+        "role": "EVP and CFO",
+        "doc_title": "Floor & Decor Q1 FY2024 Earnings Call",
+        "date": "2024-05-02",
+        "document_id": 5288
+      },
+      {
+        "quote": "Our second quarter adjusted EBITDA margin was 12.2%, compared with 12.4% in the prior year period.",
+        "speaker": "Bryan Langley",
+        "role": "EVP and CFO",
+        "doc_title": "Floor & Decor Q2 2026 Earnings Call",
+        "date": "2026-07-30",
+        "document_id": 112140
+      },
+      {
+        "quote": "Adjusted EBITDA is expected to be approximately $550 million-$585 million. The 53rd week is expected to contribute approximately $11 million to adjusted EBITDA.",
+        "speaker": "Bryan Langley",
+        "role": "EVP and CFO",
+        "doc_title": "Floor & Decor Q2 2026 Earnings Call",
+        "date": "2026-07-30",
+        "document_id": 112140
+      }
+    ],
+    "first_stated": null,
+    "times_repeated": 4
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 11.54,
+      "FY2027": 11.59,
+      "FY2028": 11.92
+    },
+    "consensus_margin_at_target_year_pct": 12.7,
+    "gap_bps_vs_target": 230,
+    "gap_assumption": "No target year, so the gap uses the last consensus year, FY2030 (837.8M / 6,598.9M = 12.70%), against a 15% reading of 'mid-teens', same metric. Fiscal year ends late December, so Baba FY labels equal company fiscal years. Against FY2028 (11.92%) the gap is 308 bps.",
+    "ebitda_uplift_pct_if_target_hit": 29.5,
+    "source": "Baba data_financials consensus (summary)"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      -70,
+      -20
+    ],
+    "note": "Order is [Q1 2026, Q2 2026], as stated by the CFO: Q1 10.5% vs 11.2% (document_id 231), Q2 12.2% vs 12.4% (document_id 112140), with about 110 bps of Q2 SG&A deleverage from one-time IEEPA tariff refund costs. Comps -3.7% Q1 and -2.1% Q2; existing home sales near 4 million annualized. Store-level margin is intact (stores 5+ years old at about 23% EBITDA per the CFO, Q2 FY2025), so the gap is deleverage from new stores and weak comps, not broken unit economics."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 3,
+    "C_numeric_framing": 2,
+    "D_unproven": 2,
+    "total": 9
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Closest structural match so far: new external CEO, a standing mid-teens EBITDA goal about 230 bps above consensus and stabilized estimates, but the goal is inherited, undated and tied to a housing recovery.",
+  "open_questions": [
+    "Will Paulsen restate or date the mid-teens goal as CEO (not found in Q1 or Q2 FY2026 calls), and is an Investor Day planned?",
+    "How much of the gap closes on housing turnover and comp leverage versus self-help (cost, merchandising system, slower store growth)?",
+    "Does slowing new store openings to fund buybacks lift reported margin mechanically by cutting pre-opening and young-store drag?"
+  ],
+  "sources": [
+    {
+      "document_id": 234,
+      "title": "Floor & Decor Q2 FY2025 Earnings Call",
+      "date": "2025-07-31"
+    },
+    {
+      "document_id": 5288,
+      "title": "Floor & Decor Q1 FY2024 Earnings Call",
+      "date": "2024-05-02"
+    },
+    {
+      "document_id": 112140,
+      "title": "Floor & Decor Q2 2026 Earnings Call",
+      "date": "2026-07-30"
+    },
+    {
+      "document_id": 231,
+      "title": "Floor & Decor Q1 FY2026 Earnings Call",
+      "date": "2026-04-30"
+    },
+    {
+      "document_id": 18784,
+      "title": "Floor & Decor Investor Day 2022",
+      "date": "2022"
+    },
+    {
+      "document_id": 5615,
+      "title": "Floor & Decor Q4 FY2019 Earnings Call",
+      "date": "2020-02"
+    },
+    {
+      "document_id": 0,
+      "title": "SEC 8-K Item 5.02: 0001628280-25-047541 (CEO), 0001507079-25-000004 and 0001507079-25-000007 (President hire); no Item 2.01/1.01",
+      "date": "2025-10-30"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-09-28; ebitda_turn_pct -1.38%)",
+      "date": "2026-09-28"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_financials summary consensus (Visible Alpha) FY2026 to FY2030",
+      "date": "2026-09-28"
+    }
+  ],
+  "tool_calls": 24
+}

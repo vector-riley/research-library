@@ -1,0 +1,46 @@
+{
+  "ticker": "FUL", "cid": 1004155, "name": "HB Fuller Co", "industry": "Industrial Chemicals", "as_of": "2026-10-02",
+  "business": "Formulates and sells industrial adhesives, sealants and specialty chemicals to packaging, hygiene, medical, electronics, automotive, aerospace and construction manufacturers worldwide.",
+  "quant": {"mcap_usd": 2757928380.0, "drawdown": -0.4107, "pctile_ev_ebitda_60m": 0.0, "price_ltm_pct": -0.1520,
+            "ebitda_margin_ltm": 0.1848, "ebitda_margin_fwd_consensus": 0.1897, "industry_median_margin": 0.202, "ev_ebitda_fy": 6.50,
+            "net_debt_ltm_ebitda": 2.99, "ebitda_revision_12m": 0.0500, "ebitda_brokers": 3},
+  "catalyst": {"type": ["acquisition", "strategy_update", "board_refresh"],
+               "events": [
+                 {"what": "Recommended cash acquisition of Advanced Medical Solutions Group plc (UK surgical adhesives), 285p per share, equity about GBP 659M, EV about GBP 715M, about $300M revenue; expected to add about 100 bps to EBITDA margin within 24 months and about $55M run-rate synergies by 2031. Announced, pending, close expected before fiscal year end. The sec-api Item 1.01/2.01 query missed this filing (items 1.01, 2.03, 7.01, 9.01)", "who": "Advanced Medical Solutions Group plc", "from": null, "effective": null, "source": "8-K 0001437749-26-021844 (EX-2.1, document_id 74113, announced 2026-06-25); close timing per CEO, document_id 224337", "external_hire": null},
+                 {"what": "Investor Day: >20% EBITDA margin roadmap, Project Quantum Leap footprint program (82 plants to 55, about $75M annualized savings by end of 2030)", "who": "Celeste Mastin (CEO), John Corkrean (CFO)", "from": null, "effective": "2025-10-20", "source": "document_id 50571", "external_hire": null},
+                 {"what": "New independent directors (board to nine); separately a director resigned and a former UFP Technologies CEO joined", "who": "Celine Martin (2025-12-01); R. Jeffrey Bailly replacing Ruth Kimmelshue (2026-09-23)", "from": "Johnson & Johnson MedTech; UFP Technologies", "effective": "2026-09-23", "source": "8-K 0001437749-25-030677; 8-K 0001437749-26-031283", "external_hire": true},
+                 {"what": "No CEO or CFO change since 2024-07-01 (CEO Mastin since December 2022, CFO Corkrean since May 2016). Chair Lee Mitau retired 2025-01-21, outside the window. Shareholder pressure raised on the Q3 2026 call; CEO said a divestiture is being taken 'very seriously' to delever", "who": null, "from": null, "effective": null, "source": "8-K 0001437749-24-031581; 10-K FY2025 executive officers table (data_profile description); document_id 224337", "external_hire": null}
+               ],
+               "months_since_primary": 3.3, "ceo_months_in_seat": 46.0,
+               "next_event": {"type": "none known", "date": null, "source": "Last Investor Day 2025-10-20 (document_id 50571). Next dated item is the AMS close, guided 'before year-end' (fiscal year ends late November), document_id 224337; no new framework update promised"}},
+  "margin_framing": {"numeric": true, "metric": "adjusted EBITDA margin",
+                     "metric_basis_note": "Level and year from the CFO at the 2025 Investor Day: above 20% by end of 2028 (about 200 bps from Quantum Leap, 100 to 150 bps from mix, about 50 bps from pricing over five years; about 50 bps in 2026). Dollar savings with a year from the CEO: about $75M Quantum Leap savings by end of 2030 (about $25M by end of 2026, $20M to $25M more in 2027). AMS synergies $55M by 2031 sit on top and were announced after the 20% roadmap. FY2026 guide: adj. EBITDA $655M to $670M, excluding AMS.",
+                     "current_level_pct": 18.48, "target_level_pct": 20.0, "target_year": 2028, "has_year": true,
+                     "annual_bps": null, "synergy_usd": 75000000, "synergy_year": 2030,
+                     "statements": [
+                       {"quote": "As we move forward, the cumulative impact of these drivers will continue to build, driving our EBITDA margin from approximately 18% this year to well above 20% in the next five years, eclipsing the 20% level by the end of 2028 based on our current estimates.", "speaker": "John Corkrean", "role": "EVP and CFO", "doc_title": "H.B. Fuller Investor Day 2025", "date": "2025-10-20", "document_id": 50571},
+                       {"quote": "We continue to target approximately $75 million of annualized conversion cost savings by the end of 2030.", "speaker": "Celeste Mastin", "role": "President and CEO", "doc_title": "H.B. Fuller Q3 2026 Earnings Call", "date": "2026-09-24", "document_id": 224337},
+                       {"quote": "Through disciplined execution, we delivered strong revenue, EBITDA, and EPS growth in the quarter and continued to improve profitability and advance toward our EBITDA margin target of greater than 20%.", "speaker": "Celeste Mastin", "role": "President and CEO", "doc_title": "H.B. Fuller Q3 2026 Earnings Call", "date": "2026-09-24", "document_id": 224337}
+                     ],
+                     "first_stated": null, "times_repeated": 6},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 18.41, "FY2027": 18.97, "FY2028": 19.64},
+             "consensus_margin_at_target_year_pct": 19.64, "gap_bps_vs_target": 36,
+             "gap_assumption": "Same metric. Fiscal year ends late November, so Baba FY labels equal company fiscal years (Baba FY2028 = fiscal 2028). Gap uses 20.0% for '>20%' against FY2028 consensus (782.0M / 3,982.7M). Only 3 brokers. Unclear whether consensus includes AMS (company guidance excludes it); if not, the AMS +100 bps would widen the gap. first_stated is null: the >20% target was raised from 'high teens' on the Q4 FY2023 call (document_id 92199, fiscal period Q4 2023), date not fetched; times_repeated counts calls where the target was seen in search hits (Q4 2023, Q3 2024, Q4 2024, Q2 2025, Investor Day 2025, Q3 2026).",
+             "ebitda_uplift_pct_if_target_hit": 5.4, "source": "Baba data_financials consensus (summary)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [61, 80], "note": "Order is [Q2 2026, Q3 2026]. Q2 181.0M / 950.3M vs 165.7M / 898.1M (Baba consensus actuals); Q3 record 19.9%, up 80 bps, on $938M revenue and $187M adj. EBITDA (8-K EX-99.1 0001437749-26-031113, document_id 224288). Driven by 7.4% pricing against petrochemical raw material inflation plus restructuring savings, with volume down, so part of the gain is price-cost timing rather than structural."},
+  "score": {"A_underperformance": 2, "B_catalyst": 2, "C_numeric_framing": 3, "D_unproven": 1, "total": 8},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Best numeric framing of the four (>20% by end 2028, $75M savings by 2030), but no leadership change, the street is only 36 bps short and the AMS deal is the real catalyst.",
+  "open_questions": ["Does the 3-broker consensus include AMS; if not, does the target-year gap widen to about 100 bps or more once AMS is modelled?", "How much of the Q3 2026 record 19.9% is price-cost lag from the petrochemical disruption that reverses when raw materials fall (a commodity-margin check)?", "Will shareholder pressure produce a divestiture or a leadership change (CEO said divestiture is taken 'very seriously'), which would add the missing catalyst leg?"],
+  "sources": [
+    {"document_id": 50571, "title": "H.B. Fuller Investor Day 2025", "date": "2025-10-20"},
+    {"document_id": 224337, "title": "H.B. Fuller Q3 2026 Earnings Call", "date": "2026-09-24"},
+    {"document_id": 224288, "title": "H.B. Fuller 8-K (Q3 2026 results, EX-99.1)", "date": "2026-09-24"},
+    {"document_id": 74113, "title": "H.B. Fuller 8-K (AMS Rule 2.7 announcement, EX-2.1)", "date": "2026-06-26"},
+    {"document_id": 92199, "title": "H.B. Fuller Q4 2023 Earnings Call (target raised to >20%)", "date": "2024-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0001437749-26-031283, 0001437749-25-030677, 0001437749-24-037522, 0001437749-24-031581, 0001437749-24-030746 (no CEO/CFO change)", "date": "2026-09-28"},
+    {"document_id": 0, "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01; ebitda_turn_pct -0.76%)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary consensus (Visible Alpha); data_profile (10-K FY2025 executive officers)", "date": "2026-10-01"}
+  ],
+  "tool_calls": 21
+}

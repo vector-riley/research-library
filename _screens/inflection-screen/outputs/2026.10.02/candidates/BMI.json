@@ -1,0 +1,173 @@
+{
+ "ticker": "BMI",
+ "cid": 1003499,
+ "name": "Badger Meter",
+ "industry": "Electronic Equipment & Instruments",
+ "as_of": "2026-10-02",
+ "business": "Sells water meters, cellular AMI endpoints, BEACON software, water quality and sewer monitoring sensors to municipal water utilities and industrial flow customers.",
+ "quant": {
+  "mcap_usd": 3740957384.67,
+  "drawdown": -0.5088359974975653,
+  "pctile_ev_ebitda_60m": 0.0,
+  "price_ltm_pct": -0.30022982539466103,
+  "ebitda_margin_ltm": 0.2271375949963392,
+  "ebitda_margin_fwd_consensus": 0.23535502557470417,
+  "industry_median_margin": 0.241,
+  "ev_ebitda_fy": 15.481953724130475,
+  "net_debt_ltm_ebitda": -0.6638606019427161,
+  "ebitda_revision_12m": -0.04069139846165526,
+  "ebitda_brokers": 4.0
+ },
+ "catalyst": {
+  "type": [
+   "new_cfo",
+   "acquisition",
+   "strategy_update"
+  ],
+  "events": [
+   {
+    "what": "New VP, CFO and Treasurer (internal promotion from Controller); prior CFO Robert Wrocklage moved to EVP North America Municipal Utility. Missed by the Stage 2 sweep",
+    "who": "Daniel R. Weltzien",
+    "from": "Internal (VP Controller since 2019)",
+    "effective": "2026-01-01",
+    "source": "8-K 0001193125-25-316007",
+    "external_hire": false
+   },
+   {
+    "what": "Acquisition of UDlive (UK sewer line monitoring, about $22M TTM revenue) for $100M cash plus contingent consideration, closed effective 2026-05-01; bolt-on, about 2.7% of market cap",
+    "who": "UDlive Limited",
+    "from": null,
+    "effective": "2026-05-01",
+    "source": "doc 176102 (Bockhorst, Q1 2026 call); 8-K 0001193125-26-311374 (doc 142119)",
+    "external_hire": null
+   },
+   {
+    "what": "Investor Day held: five-year framework of 6% to 8% revenue CAGR from the 2025 base, 25% to 30% EBITDA incrementals, 39% to 42% gross margins, 10% to 15% EPS growth",
+    "who": "Management",
+    "from": null,
+    "effective": "2026-05-21",
+    "source": "doc 148698 (Investor Day deck p.66); doc 50058 (transcript)",
+    "external_hire": null
+   }
+  ],
+  "months_since_primary": 9,
+  "ceo_months_in_seat": 93,
+  "next_event": {
+   "type": "none known",
+   "date": null,
+   "source": "Investor Day already held 2026-05-21 (doc 50058), which set the five-year framework. No further framework event found. Q3 2026 earnings date not sourced. CEO tenure: Bockhorst CEO effective 2019-01-01 (8-K 0001157523-18-002643)."
+  }
+ },
+ "margin_framing": {
+  "numeric": true,
+  "metric": "adjusted EBITDA margin",
+  "metric_basis_note": "Framework gives EBITDA INCREMENTAL margin (25% to 30%) on 6% to 8% revenue CAGR from the 2025 base over a five-year horizon (to 2030), plus a 39% to 42% gross margin range. No EBITDA margin level is stated; the implied 2030 level is DERIVED: 2025 EBITDA $218.0M on $916.7M revenue, 7% CAGR and 27.5% incrementals give 24.85% (range about 24.1% to 25.8% at the low and high ends). CFO switched the incrementals basis from EBIT to EBITDA at the Investor Day.",
+  "current_level_pct": 22.71,
+  "target_level_pct": 24.85,
+  "target_year": 2030,
+  "has_year": true,
+  "annual_bps": null,
+  "synergy_usd": null,
+  "synergy_year": null,
+  "statements": [
+   {
+    "quote": "In terms of the EBITDA target, that's how we've thought about it more recently in terms of what those incremental margins could look like. Again, I'd like to point out, it's on the back of really two levers. It's gross margin, which I did talk about. The other piece is we feel like we can continue to leverage the SCA. ... That's why we've switched from, call it low 20s to high 20s incremental margins on that base.",
+    "speaker": "Daniel Weltzien",
+    "role": "VP, CFO and Treasurer",
+    "doc_title": "Investor Day 2026",
+    "date": "2026-05-21",
+    "document_id": 50058
+   },
+   {
+    "quote": "Financial Modeling Framework Built for High-Quality Returns Compounding ... >100% Free Cash Flow Conversion 1.5-2.5X Net Debt to EBITDA leverage 10-15% EPS Growth 25-30% EBITDA Incrementals 39-42% Gross Margins 6-8% Revenue CAGR (1. From the 2025 base year)",
+    "speaker": "Company slide",
+    "role": "Investor Day deck p.66",
+    "doc_title": "Badger Meter 2026 Investor Day Presentation",
+    "date": "2026-05-21",
+    "document_id": 148698
+   },
+   {
+    "quote": "Number one, the 39%-42% range, we still have confidence in, and that's still where we anticipate operating for the rest of the year.",
+    "speaker": "Dan Weltzien",
+    "role": "CFO",
+    "doc_title": "Badger Meter Q1 2026 Earnings Call",
+    "date": "2026-04-17",
+    "document_id": 176102
+   }
+  ],
+  "first_stated": "2026-05-21",
+  "times_repeated": 2
+ },
+ "street": {
+  "consensus_ebitda_margin_by_fy": {
+   "FY2026": 0.23204565745735944,
+   "FY2027": 0.23535502557470417,
+   "FY2028": 0.2362873873474439
+  },
+  "consensus_margin_at_target_year_pct": 24.93,
+  "gap_bps_vs_target": -8,
+  "gap_assumption": "Calendar fiscal year. Target is the DERIVED 2030 EBITDA margin from framework midpoints (7% revenue CAGR, 27.5% EBITDA incrementals on the 2025 VA base) = 24.85%, versus consensus FY2030 EBITDA $303.9M / revenue $1,219.1M = 24.93%. Same metric (EBITDA/revenue). The street already models the framework.",
+  "ebitda_uplift_pct_if_target_hit": null,
+  "source": "Baba data_financials consensus (Visible Alpha), fetched 2026-10-01"
+ },
+ "evidence_of_progress": {
+  "last_two_quarters_margin_yoy_bps": [
+   -411,
+   -39
+  ],
+  "note": "VA EBITDA margin Q1 2026 -411 bps YoY (sales -9% on AMI project pacing), Q2 2026 -39 bps YoY (sales -7%, +10% sequential). Operating margin 17.4% in Q1 vs 22.2%; Q2 base 18.4% vs 18.8% (Q2 slides doc 150331). Gross margin 41.7% and 40.8%, inside the 39% to 42% range. Electronic component cost pressure flagged in Q2."
+ },
+ "score": {
+  "A_underperformance": 2,
+  "B_catalyst": 2,
+  "C_numeric_framing": 2,
+  "D_unproven": 0,
+  "total": 6
+ },
+ "disqualified": true,
+ "disqualifier_reason": "Margin framework already reflected in consensus: the derived 2030 EBITDA margin at framework midpoints (24.85%) sits 8 bps BELOW consensus FY2030 (24.93%). Also not a low-margin setup: forward EBITDA margin 23.5% is in line with the 24.1% industry median; the de-rating is a revenue (project pacing) story, not a margin gap. Catalyst is an internal CFO promotion plus a $100M bolt-on.",
+ "verdict": "Cheap and down 51%, with a new internal CFO and a fresh Investor Day framework, but the street already models the implied 2030 margin and margins sit at peer level.",
+ "open_questions": [
+  "Do the awarded AMI projects ramp in the second half so revenue returns to the 6% to 8% CAGR path?",
+  "How large is the electronic component cost headwind to the 39% to 42% gross margin range?",
+  "Will management convert the incrementals framework into an explicit EBITDA margin level?"
+ ],
+ "sources": [
+  {
+   "document_id": 50058,
+   "title": "Investor Day 2026 (transcript)",
+   "date": "2026-05-21"
+  },
+  {
+   "document_id": 148698,
+   "title": "Badger Meter 2026 Investor Day Presentation",
+   "date": "2026-05-21"
+  },
+  {
+   "document_id": 176102,
+   "title": "Badger Meter Q1 2026 Earnings Call",
+   "date": "2026-04-17"
+  },
+  {
+   "document_id": 68555,
+   "title": "Badger Meter Q2 2026 Earnings Call",
+   "date": "2026-07-22"
+  },
+  {
+   "document_id": 142119,
+   "title": "BADGER METER INC 8-K (Q2 2026 results, 0001193125-26-311374)",
+   "date": "2026-07-22"
+  },
+  {
+   "document_id": 0,
+   "title": "8-K 0001193125-25-316007 (Weltzien CFO, Wrocklage EVP, effective 2026-01-01)",
+   "date": "2025-12-11"
+  },
+  {
+   "document_id": 0,
+   "title": "8-K 0001157523-18-002643 (Bockhorst CEO effective 2019-01-01)",
+   "date": "2018-12-28"
+  }
+ ],
+ "tool_calls": 25
+}

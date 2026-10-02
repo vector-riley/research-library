@@ -1,0 +1,43 @@
+{
+  "ticker": "CNXC", "cid": 1005325, "name": "Concentrix Corporation", "industry": "Data Processing & Outsourcing Services", "as_of": "2026-10-02",
+  "business": "Designs and runs outsourced customer experience operations, AI and automation, and digital services for enterprise clients in technology, retail, telecom, financial services and healthcare.",
+  "quant": {"mcap_usd": 1645179100.0, "drawdown": -0.7440, "pctile_ev_ebitda_60m": 0.15, "price_ltm_pct": -0.4333,
+            "ebitda_margin_ltm": 0.1433, "ebitda_margin_fwd_consensus": 0.1514, "industry_median_margin": 0.18, "ev_ebitda_fy": 3.58,
+            "net_debt_ltm_ebitda": 2.56, "ebitda_revision_12m": -0.1129, "ebitda_brokers": 3},
+  "catalyst": {"type": [],
+               "events": [
+                 {"what": "No CEO or CFO change in window: own 8-K Item 5.02 query (2024-07-01 to 2026-10-02) returned only director resignations (Olivier Duha 2025-06-03; GBL designee Bilge Ogut 2026-04-29 after GBL cut its stake below the nomination threshold), plan amendments, and EVP Customer Success Cormac Twomey stepping down 2026-12-31", "who": "Chris Caldwell (CEO), Andre Valentine (CFO) unchanged", "from": null, "effective": null, "source": "8-K 0001803599-25-000123, 0001803599-26-000126, 0001803599-26-000142", "external_hire": null},
+                 {"what": "Tuck-in acquisition of CastleHill Managed Risk Solutions, funding in fiscal Q4 2026 (small, no Item 1.01/2.01 8-K)", "who": "CastleHill Managed Risk Solutions", "from": null, "effective": null, "source": "document_id 225528", "external_hire": null}
+               ],
+               "months_since_primary": null, "ceo_months_in_seat": 70.0,
+               "next_event": {"type": "framework update", "date": null, "source": "Caldwell, Q2 2026 call, document_id 196282: margin expansion magnitude to be discussed 'at the end of this fiscal year' (fiscal year ends November 2026, so likely the Q4 FY2026 call; date not announced)"}},
+  "margin_framing": {"numeric": false, "metric": "operating margin",
+                     "metric_basis_note": "Company frames non-GAAP operating margin; only near-term guides exist (Q4 FY2026 about 12.9%, up 20 bps YoY; Q3 FY2026 actual 12.6% operating and 14.8% adjusted EBITDA, both up 30 bps). No multi-year level, annual rate or savings target. Baba FY labels match company fiscal years (November FYE).",
+                     "current_level_pct": 12.6, "target_level_pct": null, "target_year": null, "has_year": false,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "All of that would lead to believe that there's still margin expansion capabilities. The magnitude of that, I think we'll talk about at the end of this fiscal year.", "speaker": "Chris Caldwell", "role": "CEO", "doc_title": "Concentrix Corporation Q2 2026 Earnings Call", "date": "2026-06-29", "document_id": 196282},
+                       {"quote": "The midpoint of our profitability expectations for the fourth quarter implies a non-GAAP operating income margin of approximately 12.9%, up 20 basis points from the fourth quarter last year. This is consistent with our expectation all year that we would generate year-over-year margin expansion in the second half of the fiscal year.", "speaker": "Andre Valentine", "role": "CFO", "doc_title": "Concentrix Corporation Q3 2026 Earnings Call", "date": "2026-09-29", "document_id": 225528},
+                       {"quote": "Our non-GAAP operating income margin was 12.6%, and our adjusted EBITDA margin was 14.8%, with both measures up 30 basis points from the third quarter last year.", "speaker": "Andre Valentine", "role": "CFO", "doc_title": "Concentrix Corporation Q3 2026 Earnings Call", "date": "2026-09-29", "document_id": 225528}
+                     ],
+                     "first_stated": "2026-06-29", "times_repeated": 2},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 14.50, "FY2027": 15.14, "FY2028": 15.12},
+             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": null, "gap_assumption": "No margin target stated, so no gap. Consensus already models about 64 bps of EBITDA margin expansion FY2026 to FY2027 then flat. Only 3 EBITDA brokers.",
+             "ebitda_uplift_pct_if_target_hit": null, "source": "Baba data_financials consensus"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-67, 30], "note": "Order [FQ2 2026, FQ3 2026]. FQ2 from consensus actual EBITDA/revenue; FQ3 (reported 2026-09-29, not yet in VA actuals) is the CFO's stated +30 bps adjusted EBITDA margin (doc 225528). LTM 14.3% is FQ3'25 to FQ2'26 VA actuals. Revenue now declining (Q4 guide -3% to -5% constant currency); $1.05B goodwill impairment in FQ3."},
+  "score": {"A_underperformance": 2, "B_catalyst": 0, "C_numeric_framing": 1, "D_unproven": 2, "total": 5},
+  "disqualified": true, "disqualifier_reason": "No catalyst in the 18-month window and none pending: CEO Caldwell in seat since December 2020 (DEF 14A, doc 461) and CFO Valentine unchanged; own 8-K Item 5.02 query shows only director resignations and an EVP departure, and Item 1.01/2.01 returned nothing; only acquisition is the small CastleHill tuck-in.",
+  "verdict": "Not the archetype: deeply cheap (3.6x EBITDA, down 74%) with stabilized estimates, but no leadership change or transformational deal, and margin talk is qualitative with the magnitude deferred to the fiscal year-end call.",
+  "open_questions": ["What margin magnitude does Caldwell put on the 'margin expansion capabilities' at the Q4 FY2026 call (likely January 2027)?", "Does AI-driven service compression (revenue guided -3% to -5% constant currency in Q4) structurally lift margin or just shrink the base?", "Does GBL's exit from the board and stake reduction change governance or invite an activist?"],
+  "sources": [
+    {"document_id": 196283, "title": "Concentrix Corporation Q1 2026 Earnings Call", "date": "2026-03-24"},
+    {"document_id": 196282, "title": "Concentrix Corporation Q2 2026 Earnings Call", "date": "2026-06-29"},
+    {"document_id": 225528, "title": "Concentrix Corporation Q3 2026 Earnings Call", "date": "2026-09-29"},
+    {"document_id": 461, "title": "Concentrix Corp DEF 14A", "date": "2026-02-12"},
+    {"document_id": 0, "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary consensus (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02 query (6 filings, none CEO/CFO): 0001803599-26-000142, 0001803599-26-000139, 0001803599-26-000126, 0001803599-26-000092, 0001803599-25-000123, 0001803599-24-000179; Item 1.01/2.01 query returned none", "date": "2024-10-29 to 2026-09-18"},
+    {"document_id": 0, "title": "Stage 1 stage1_ranked.csv (industry median margin 0.18)", "date": "2026-10-02"}
+  ],
+  "tool_calls": 16
+}

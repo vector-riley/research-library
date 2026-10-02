@@ -1,0 +1,159 @@
+{
+  "ticker": "AMSC",
+  "cid": 1003214,
+  "name": "American Superconductor Corporation",
+  "industry": "Heavy Electrical Equipment",
+  "as_of": "2026-10-02",
+  "business": "AMSC sells megawatt-scale power resiliency systems, transformers and wind turbine electrical controls to utilities, industrial facilities, energy developers and navies.",
+  "quant": {
+    "mcap_usd": 1390158000.0,
+    "drawdown": -0.5634373125374925,
+    "pctile_ev_ebitda_60m": null,
+    "price_ltm_pct": -0.5098501431217377,
+    "ebitda_margin_ltm": 0.0629,
+    "ebitda_margin_fwd_consensus": 0.09197176655355976,
+    "industry_median_margin": 0.004,
+    "ev_ebitda_fy": 36.86507863522449,
+    "net_debt_ltm_ebitda": -5.288635452925205,
+    "ebitda_revision_12m": -0.06300255070322758,
+    "ebitda_brokers": 4.0
+  },
+  "catalyst": {
+    "type": [
+      "acquisition"
+    ],
+    "events": [
+      {
+        "what": "Acquisition of Comtrafo (Brazilian distribution and power transformer maker) closed; $88.3M cash consideration; about $4.6M revenue in 19 days, roughly 30% of FY revenue annualized",
+        "who": "Comtrafo",
+        "from": "Brazil, 30-year operating history",
+        "effective": "2025-12-05",
+        "source": "doc 46478 (Q3 FY2025 call, Kosiba and McGahn); no Item 2.01 or 1.01 8-K returned by sec-api",
+        "external_hire": null
+      },
+      {
+        "what": "Director elected (Audit Committee)",
+        "who": "Terence R. Donnelly",
+        "from": "",
+        "effective": "2025-05-27",
+        "source": "8-K 0001437749-25-017983",
+        "external_hire": true
+      },
+      {
+        "what": "Director resigned",
+        "who": "Barbara G. Littlefield",
+        "from": "Board of Directors",
+        "effective": "2026-09-18",
+        "source": "8-K 0001437749-26-030822",
+        "external_hire": null
+      },
+      {
+        "what": "CEO tenure: Daniel McGahn is Chairman, President and CEO on every call in the corpus back to the Baba Q3 FY2023 call (doc 85556); appointment 8-K not in sec-api coverage, so ceo_months_in_seat is null",
+        "who": "Daniel McGahn",
+        "from": "",
+        "effective": null,
+        "source": "doc 85556; sec-api 8-K 5.02 query for 2011 returned no CEO appointment",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 9,
+    "ceo_months_in_seat": null,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "Baba corpus lexical search FY2027 (investor day): no hits; next scheduled item is the Q2 fiscal 2026 (Baba FY2027) earnings call, date not stated"
+    }
+  },
+  "margin_framing": {
+    "numeric": false,
+    "metric": "gross margin",
+    "metric_basis_note": "Management talks gross margin (about 30%, guided to improve incrementally) and opex leverage; no EBITDA or operating margin level, rate or year. Baba FY labels are keyed to fiscal year END (March): Baba FY2027 = company fiscal 2026.",
+    "current_level_pct": 6.29,
+    "target_level_pct": null,
+    "target_year": null,
+    "has_year": false,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "gross margin will continue to improve probably incrementally, really, but going forward, it's growing the top line and getting the leverage over the operating expenses that we're going to see really help drive profit.",
+        "speaker": "Daniel McGahn",
+        "role": "Chairman, President and CEO",
+        "doc_title": "American Superconductor Corporation Q4 2026 Earnings Call",
+        "date": "2026-05-28",
+        "document_id": 46476
+      },
+      {
+        "quote": "We'll have some growth as the business scales up, but not to the level of, hopefully, the revenue growth that we get.",
+        "speaker": "John Kosiba",
+        "role": "SVP, CFO and Treasurer",
+        "doc_title": "American Superconductor Corporation Q4 2026 Earnings Call",
+        "date": "2026-05-28",
+        "document_id": 46476
+      },
+      {
+        "quote": "gross margin for the first quarter of fiscal 2026 was 26.3%. Included in cost of goods sold in the first quarter was approximately $1.5 million of purchase accounting and non-cash adjustments related to Comtrafo. This had an impact of approximately 160 basis points on the quarter.",
+        "speaker": "John Kosiba",
+        "role": "SVP, CFO and Treasurer",
+        "doc_title": "American Superconductor Corporation Q1 2027 Earnings Call",
+        "date": "2026-08-06",
+        "document_id": 130170
+      }
+    ],
+    "first_stated": "2026-05-28",
+    "times_repeated": 1
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 0.0629,
+      "FY2027": 0.092,
+      "FY2028": 0.1112
+    },
+    "consensus_margin_at_target_year_pct": null,
+    "gap_bps_vs_target": null,
+    "gap_assumption": "No management margin target, so no gap. Baba FY2026 is actual (company fiscal 2025, year ended 2026-03-31); FY2027 and FY2028 are consensus for company fiscal 2026 and 2027. The street already models EBITDA margin rising from 6.3% to 11.1% over two years.",
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials consensus (summary and consensus_history pid 4250 FY-2027)"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      218,
+      -189
+    ],
+    "note": "VA EBITDA margin yoy for Baba Q3 and Q4 FY2026 (Dec 2025 and Mar 2026 quarters). Latest reported quarter (June 2026, Baba Q1 FY2027) is not yet in VA: revenue $94.1M (+30%) but gross margin fell to 26.3% from 30%+ on Comtrafo purchase accounting, Brazil labor and mix; GAAP net income $9.5M included an $8.1M contingent consideration gain, non-GAAP net income fell to $7.6M from $11.6M. LTM margin uses Baba FY2026 (four quarters to 2026-03-31). Stage 1 industry median margin of 0.4% looks unreliable. pctile is null because only 19 months of multiple history exist; the 19-month NTM EV/EBITDA sits at the 5th percentile (data_financials summary)."
+  },
+  "score": {
+    "A_underperformance": 1,
+    "B_catalyst": 2,
+    "C_numeric_framing": 1,
+    "D_unproven": 0,
+    "total": 4
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Growth story, not a margin reset: long-tenured management, a mid-size Brazil deal, no numeric margin target, and estimates still falling (4-month -6.2%).",
+  "open_questions": [
+    "What is Comtrafo's standalone margin and when does purchase accounting roll off?",
+    "Does the Q2 fiscal 2026 call reverse the 4-month estimate decline after the guided step-down to above $85M revenue?",
+    "Will management ever state an EBITDA or operating margin target now revenue is near $400M?"
+  ],
+  "sources": [
+    {
+      "document_id": 46478,
+      "title": "American Superconductor Corporation Q3 2026 Earnings Call",
+      "date": "2026-02-05"
+    },
+    {
+      "document_id": 46476,
+      "title": "American Superconductor Corporation Q4 2026 Earnings Call",
+      "date": "2026-05-28"
+    },
+    {
+      "document_id": 130170,
+      "title": "American Superconductor Corporation Q1 2027 Earnings Call",
+      "date": "2026-08-06"
+    }
+  ],
+  "tool_calls": 19
+}

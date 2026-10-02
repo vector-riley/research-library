@@ -1,0 +1,50 @@
+{
+  "ticker": "CRH", "cid": 1000350, "name": "CRH PUBLIC LTD CO", "industry": "Building and Construction Materials", "as_of": "2026-10-02",
+  "business": "Supplies aggregates, cement, concrete, asphalt, paving and infrastructure products to public infrastructure, commercial and residential construction customers, mainly in North America and Europe.",
+  "quant": {"mcap_usd": 54640960000.0, "drawdown": -0.3633, "pctile_ev_ebitda_60m": 0.3333, "price_ltm_pct": -0.3005,
+            "ebitda_margin_ltm": 0.2042, "ebitda_margin_fwd_consensus": 0.2113, "industry_median_margin": 0.261, "ev_ebitda_fy": 7.86,
+            "net_debt_ltm_ebitda": 1.84, "ebitda_revision_12m": 0.0266, "ebitda_brokers": 20},
+  "catalyst": {"type": ["acquisition", "new_cfo", "board_refresh"],
+               "events": [
+                 {"what": "Agreement to acquire Arcosa for $150 per share cash, $8.5B EV, about $175M run-rate cost synergies by year three ($60M in year one); pending Arcosa stockholder and regulatory approval, close expected Q1 2027", "who": "Arcosa", "from": null, "effective": null, "source": "document_id 52032 (announced 2026-06-22); 8-K 0001193125-26-276686 (EX-99.2 presentation, doc 72619); no Item 1.01/2.01 8-K returned", "external_hire": null},
+                 {"what": "CFO appointed (internal) after Nancy Buese stepped down by mutual agreement 2026-05-11", "who": "Aylwyn Bryan", "from": "CRH Americas Division CFO, Group Head of Finance", "effective": "2026-05-12", "source": "8-K 0001628280-26-035552", "external_hire": false},
+                 {"what": "CFO appointed (external), replacing interim CFO Alan Connolly; departed after 12 months", "who": "Nancy Buese", "from": "Baker Hughes (EVP and CFO), previously Newmont CFO", "effective": "2025-05-12", "source": "8-K 0001628280-25-018116", "external_hire": true},
+                 {"what": "Director added, board 12 to 13", "who": "W. Anthony (Tony) Will", "from": null, "effective": "2026-07-01", "source": "8-K 0001628280-26-043417", "external_hire": true},
+                 {"what": "Director added then resigned (unforeseen circumstances)", "who": "Patrick Decker", "from": null, "effective": "2025-10-01", "source": "8-K 0000849395-25-000005; resignation 8-K 0001193125-25-309854 (2025-12-01)", "external_hire": true},
+                 {"what": "CEO appointed (internal, outside 18-month window)", "who": "Jim Mintern", "from": "CRH CFO and Chief of Staff to the CEO", "effective": "2025-01-01", "source": "8-K 0001628280-24-041477", "external_hire": false}
+               ],
+               "months_since_primary": 3.4, "ceo_months_in_seat": 21.0,
+               "next_event": {"type": "none known", "date": null, "source": "Investor Day already held 2025-09-30 (document_id 52026) where the 2030 targets were set; next dated milestone found is the Arcosa close, expected Q1 2027 (document_id 52032)"}},
+  "margin_framing": {"numeric": true, "metric": "adjusted EBITDA margin",
+                     "metric_basis_note": "Level and year in the same metric (adjusted EBITDA margin 22% to 24% by 2030). CEO says Arcosa (over 21% EBITDA margin) is aligned with and accretive to margins.",
+                     "current_level_pct": 20.4, "target_level_pct": 23.0, "target_year": 2030, "has_year": true,
+                     "annual_bps": null, "synergy_usd": 175000000, "synergy_year": null,
+                     "statements": [
+                       {"quote": "We are targeting further margin expansion across our businesses with an adjusted EBITDA target of between 22% and 24% by 2030.", "speaker": "Jim Mintern", "role": "CEO", "doc_title": "Investor Day 2025", "date": "2025-09-30", "document_id": 52026},
+                       {"quote": "The acquisition of Arcosa is fully aligned with the delivery of our 2030 financial targets, annual revenue growth of between 7%-9%, an adjusted EBITDA margin of 22%-24% by 2030, and average adjusted free cash flow conversion of over 100%.", "speaker": "Jim Mintern", "role": "CEO", "doc_title": "M&A announcement (Arcosa)", "date": "2026-06-22", "document_id": 52032},
+                       {"quote": "We currently expect approximately $175 million of run rate cost synergies to be achieved by year three. Here we have outlined the expected phasing with $60 million anticipated in the first year of ownership.", "speaker": "Randy Lake", "role": "COO", "doc_title": "M&A announcement (Arcosa)", "date": "2026-06-22", "document_id": 52032}
+                     ],
+                     "first_stated": "2025-09-30", "times_repeated": 4},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 20.77, "FY2027": 21.13, "FY2028": 21.27},
+             "consensus_margin_at_target_year_pct": 22.51, "gap_bps_vs_target": 49, "gap_assumption": "Target midpoint 23.0% minus FY2030 consensus adjusted EBITDA margin 22.51% (11,320M / 50,297M), same metric. Consensus already sits inside the 22% to 24% range and 51 bps above its low end. Unknown whether brokers include Arcosa (pending). Calendar FY labels (December FYE).",
+             "ebitda_uplift_pct_if_target_hit": 2.2, "source": "Baba data_financials consensus"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [70, 30], "note": "Order [Q1 2026, Q2 2026], group adjusted EBITDA margin YoY as stated by CEO Mintern (docs 187765, 112107). Q2 2026 actuals not yet in VA, so LTM 20.4% is Q2 2025 to Q1 2026. FY2025 was the 12th consecutive year of margin expansion (+100 bps, doc 187766)."},
+  "score": {"A_underperformance": 1, "B_catalyst": 2, "C_numeric_framing": 3, "D_unproven": 0, "total": 6},
+  "disqualified": true, "disqualifier_reason": "Margin target already reflected in consensus: FY2030 consensus adjusted EBITDA margin is 22.51%, inside management's 22% to 24% by 2030 range and only 49 bps below the midpoint; hitting the midpoint adds just 2.2% to FY2030 consensus EBITDA. CRH is also not a low-margin laggard by its own history (12 straight years of expansion); stage 2 missed its CFO changes and the pending Arcosa deal.",
+  "verdict": "Not the archetype: dated 22% to 24% EBITDA margin target by 2030 and a pending $8.5B Arcosa deal with $175M synergies, but the street already models 22.5% for 2030, the CEO is an internal 2025 successor, and A is only 1.",
+  "open_questions": ["Do FY2029 and FY2030 consensus include Arcosa, and does the deal plus $175M synergies push the street toward the 24% top end?", "Why did external CFO Nancy Buese leave after 12 months, and does the internal successor change capital allocation?", "Is the 36% drawdown a multiple de-rating on construction volumes rather than a margin problem?"],
+  "sources": [
+    {"document_id": 52026, "title": "CRH Investor Day 2025", "date": "2025-09-30"},
+    {"document_id": 52028, "title": "CRH Q3 2025 Trading Update", "date": null},
+    {"document_id": 187766, "title": "CRH PUBLIC LTD CO Q4 2025 Earnings Call", "date": null},
+    {"document_id": 187765, "title": "CRH PUBLIC LTD CO Q1 2026 Earnings Call", "date": null},
+    {"document_id": 112107, "title": "CRH PUBLIC LTD CO Q2 2026 Earnings Call", "date": null},
+    {"document_id": 52032, "title": "CRH M&A announcement (Arcosa)", "date": "2026-06-22"},
+    {"document_id": 72619, "title": "CRH 8-K 0001193125-26-276686 EX-99.2", "date": null},
+    {"document_id": 0, "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary consensus (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0001628280-26-043417, 0001628280-26-035552, 0001193125-25-309854, 0000849395-25-000005, 0001628280-25-018116, 0001628280-24-050142, 0001628280-24-041477; Item 1.01/2.01 query returned none", "date": "2024-09-27 to 2026-06-16"},
+    {"document_id": 0, "title": "Stage 1 stage1_ranked.csv (industry median margin 0.261)", "date": "2026-10-02"}
+  ],
+  "tool_calls": 17
+}

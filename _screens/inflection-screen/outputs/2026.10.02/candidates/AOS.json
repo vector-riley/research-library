@@ -1,0 +1,192 @@
+{
+  "ticker": "AOS",
+  "cid": 1000535,
+  "name": "A. O. Smith Corporation",
+  "industry": "Industrial Machinery and Equipment",
+  "as_of": "2026-10-02",
+  "business": "A. O. Smith makes water heaters, boilers and water treatment products for homes and commercial buildings in North America, China and India.",
+  "quant": {
+    "mcap_usd": 7812696210.0,
+    "drawdown": -0.3626382055033759,
+    "pctile_ev_ebitda_60m": 0.016666666666666666,
+    "price_ltm_pct": -0.21500065668052126,
+    "ebitda_margin_ltm": 0.2086,
+    "ebitda_margin_fwd_consensus": 0.20960577308454037,
+    "industry_median_margin": 0.218,
+    "ev_ebitda_fy": 9.727806817116358,
+    "net_debt_ltm_ebitda": 0.564153550959405,
+    "ebitda_revision_12m": -0.05210269752843544,
+    "ebitda_brokers": 8.0
+  },
+  "catalyst": {
+    "type": [
+      "new_ceo",
+      "new_cfo",
+      "acquisition",
+      "board_refresh",
+      "strategy_update"
+    ],
+    "events": [
+      {
+        "what": "CEO appointed and elected to board (Wheeler moves to Executive Chairman)",
+        "who": "Stephen M. Shafer",
+        "from": "President and COO of A. O. Smith since 2024-03-18; before that 3M (President, Automotive and Aerospace Solutions; former Chief Strategy Officer), McKinsey",
+        "effective": "2025-07-01",
+        "source": "8-K 0000091142-25-000071",
+        "external_hire": true
+      },
+      {
+        "what": "Shafer hired from outside as President and COO (CEO succession track)",
+        "who": "Stephen M. Shafer",
+        "from": "3M Company (14+ years)",
+        "effective": "2024-03-18",
+        "source": "8-K 0000091142-24-000095",
+        "external_hire": true
+      },
+      {
+        "what": "New EVP and CFO, succeeding retiring Charles Lauber",
+        "who": "Carrie Anderson",
+        "from": "EVP and CFO of The Campbell's Company (2023-2025); CFO Integra LifeSciences; Dover; Delphi",
+        "effective": "2026-07-01",
+        "source": "8-K 0000091142-26-000086",
+        "external_hire": true
+      },
+      {
+        "what": "Executive Chairman retires; CEO becomes Chairman",
+        "who": "Kevin J. Wheeler (retiring); Stephen M. Shafer (Chairman)",
+        "from": "",
+        "effective": "2026-07-01",
+        "source": "8-K 0000091142-26-000091",
+        "external_hire": false
+      },
+      {
+        "what": "Acquisition of Leonard Valve closed (water management, digital mixing valves); about $70M of 2026 sales guided",
+        "who": "Leonard Valve",
+        "from": "",
+        "effective": "2026-01",
+        "source": "doc 153014 (Q4 2025 call, Shafer: 'completed earlier this month'); doc 112075 (Anderson: approximately $70 million of sales); no Item 2.01 or 1.01 8-K returned by sec-api, price not found",
+        "external_hire": null
+      },
+      {
+        "what": "China strategic assessment (initiated Q3 2025) plus North America water treatment footprint and brand restructuring (about $20M charge, $6M-$8M annual savings from 2027)",
+        "who": "Management",
+        "from": "",
+        "effective": "2026-04-30",
+        "source": "doc 153013; 10-K description in data_profile",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 15,
+    "ceo_months_in_seat": 15,
+    "next_event": {
+      "type": "framework update",
+      "date": null,
+      "source": "doc 112075, Shafer 2026-07-30: 'We expect to share our conclusion on that assessment [China] by our next quarterly earnings call' (Q3 2026 call, date not stated). No Investor Day announced; last Investor Day 2023-11-06 (doc 85150)."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "operating margin",
+    "metric_basis_note": "Dated margin target exists only at segment level: North America water treatment (about $250M of sales) operating margin up 200 bps to about 15% in 2026 and about 200 bps more in 2027. Company-level framing is a one-year 2026 guide of about 24% North America segment margin and 6%-7% Rest of World, flat to down versus 2025. No consolidated EBITDA margin target. SCORING NOTE: C scored 2, not 3: a literal reading of the rubric gives 3 for the CEO's dated water treatment margin level (15% in 2026) and $6M-$8M 2027 savings, but both apply to a segment of about 6% of sales and are worth under 1% of EBITDA. The company-level framing is a one-year segment margin guide (a 2). Literal scoring would make the total 10. B scored 3 because Shafer was hired from outside (3M) and the CFO is external, with a Chairman change and an acquisition in window; a stricter reading of Shafer as an internal promotion gives B = 2. A 'water treatment operating margin improvement' guide also appears in data_guidance dated 2026-01-29 (Q4 2025 call), not fetched.",
+    "current_level_pct": 20.86,
+    "target_level_pct": 15.0,
+    "target_year": 2026,
+    "has_year": true,
+    "annual_bps": 200,
+    "synergy_usd": 7000000,
+    "synergy_year": 2027,
+    "statements": [
+      {
+        "quote": "You know, think of it in terms of in 2026, we're looking to expand 200 basis points in our margins to move about 15% operating margins in North America water treatment. We would expect in 2027, with this next restructuring, an incremental 200 basis points.",
+        "speaker": "Steve Shafer",
+        "role": "President and CEO",
+        "doc_title": "AO SMITH CORP Q1 2026 Earnings Call",
+        "date": "2026-04-30",
+        "document_id": 153013
+      },
+      {
+        "quote": "We expect to recognize a restructuring charge of approximately $20 million in the second quarter and a projected annual savings of between $6 million and $8 million beginning in 2027.",
+        "speaker": "Steve Shafer",
+        "role": "President and CEO",
+        "doc_title": "AO SMITH CORP Q1 2026 Earnings Call",
+        "date": "2026-04-30",
+        "document_id": 153013
+      },
+      {
+        "quote": "We expect our North America segment margin to be approximately 24% and rest of world segment margin to be between 6% and 7%.",
+        "speaker": "Steve Shafer",
+        "role": "President and CEO",
+        "doc_title": "AO SMITH CORP Q1 2026 Earnings Call",
+        "date": "2026-04-30",
+        "document_id": 153013
+      },
+      {
+        "quote": "We expect to share our conclusion on that assessment by our next quarterly earnings call, and remain focused on identifying the best path forward to support long-term value creation.",
+        "speaker": "Stephen Shafer",
+        "role": "Chairman, President and CEO",
+        "doc_title": "AO SMITH CORP Q2 2026 Earnings Call",
+        "date": "2026-07-30",
+        "document_id": 112075
+      }
+    ],
+    "first_stated": "2026-04-30",
+    "times_repeated": 2
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 0.2073,
+      "FY2027": 0.2096,
+      "FY2028": 0.2119
+    },
+    "consensus_margin_at_target_year_pct": 20.73,
+    "gap_bps_vs_target": null,
+    "gap_assumption": "The only dated target is a segment operating margin (water treatment, about 6% of sales) and cannot be compared with consolidated EBITDA consensus, so no gap is computed. Calendar fiscal year, Baba FY labels equal company years. Sizing: +200 bps on about $250M of sales is about $5M, or 0.6% of FY2026 consensus EBITDA; the $6M-$8M savings midpoint is under 1%.",
+    "ebitda_uplift_pct_if_target_hit": 0.62,
+    "source": "Baba data_financials consensus (summary), data_comps"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      117,
+      -147
+    ],
+    "note": "VA EBITDA margin yoy for Q4 2025 (+117 bps) and Q1 2026 (-147 bps). VA has not yet loaded Q2 2026 actuals; per Lauber (doc 112075) Q2 2026 North America adjusted segment margin was 24.4%, down 100 bps, and China sales fell 28% in local currency. LTM uses Q2 2025 to Q1 2026. Steel costs guided about 15% higher in 2026; price increases of 4%-7% announced."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 3,
+    "C_numeric_framing": 2,
+    "D_unproven": 2,
+    "total": 9
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Full leadership reset (outside-hired CEO, external CFO, new Chairman) plus a pending China decision on a stabilized, 1st-percentile multiple, but no company-level margin target yet.",
+  "open_questions": [
+    "Does the China assessment (due by the Q3 2026 call) end in an exit or partnership, and what does that do to consolidated margin given Rest of World runs 6%-7% versus about 24% in North America?",
+    "Will Shafer and Anderson put a consolidated margin or EBITDA target with a year on the table, for example at a new Investor Day?",
+    "How much of the 2026 margin pressure is steel and tariff timing that the 4%-7% price increases recover?"
+  ],
+  "sources": [
+    {
+      "document_id": 153013,
+      "title": "AO SMITH CORP Q1 2026 Earnings Call",
+      "date": "2026-04-30"
+    },
+    {
+      "document_id": 112075,
+      "title": "AO SMITH CORP Q2 2026 Earnings Call",
+      "date": "2026-07-30"
+    },
+    {
+      "document_id": 153014,
+      "title": "AO SMITH CORP Q4 2025 Earnings Call",
+      "date": null
+    },
+    {
+      "document_id": 85150,
+      "title": "Investor Day 2023",
+      "date": "2023-11-06"
+    }
+  ],
+  "tool_calls": 21
+}

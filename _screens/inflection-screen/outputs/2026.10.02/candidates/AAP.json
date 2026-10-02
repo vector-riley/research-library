@@ -1,0 +1,216 @@
+{
+  "ticker": "AAP",
+  "cid": 1000072,
+  "name": "ADVANCE AUTO PARTS, INC.",
+  "industry": "Automotive Retailers",
+  "as_of": "2026-10-02",
+  "business": "Sells automotive aftermarket parts, batteries, accessories and maintenance items through Advance Auto Parts and Carquest stores to professional installers and do-it-yourself customers.",
+  "quant": {
+    "mcap_usd": 2363140000.0,
+    "drawdown": -0.5262,
+    "pctile_ev_ebitda_60m": 0.0167,
+    "price_ltm_pct": -0.3536,
+    "ebitda_margin_ltm": 0.0672,
+    "ebitda_margin_fwd_consensus": 0.0806,
+    "industry_median_margin": 0.06,
+    "ev_ebitda_fy": 3.74,
+    "net_debt_ltm_ebitda": 0.46,
+    "ebitda_revision_12m": -0.0025,
+    "ebitda_brokers": 19
+  },
+  "catalyst": {
+    "type": [
+      "board_refresh",
+      "strategy_update"
+    ],
+    "events": [
+      {
+        "what": "CEO appointment (outside the 18-month window, context only)",
+        "who": "Shane O'Kelly",
+        "from": "external, CEO of HD Supply",
+        "effective": "2023-09-11",
+        "source": "Baba document_id 97650 (Q2 2023 call, Gene Lee); structured 8-K sweep did not return the appointment 8-K",
+        "external_hire": true
+      },
+      {
+        "what": "CFO appointment (outside window, context only)",
+        "who": "Ryan P. Grimsland",
+        "from": "external, Lowe's SVP Strategy and Transformation",
+        "effective": "2023-11-27",
+        "source": "8-K 0001158449-23-000238",
+        "external_hire": true
+      },
+      {
+        "what": "New independent director, Compensation Committee",
+        "who": "Richard A. Johnson",
+        "from": "external",
+        "effective": "2026-01-12",
+        "source": "8-K 0001628280-26-001962",
+        "external_hire": true
+      },
+      {
+        "what": "New independent director",
+        "who": "Cynthia T. Jamison",
+        "from": "external",
+        "effective": "2026-03-09",
+        "source": "8-K 0001193125-26-100177",
+        "external_hire": true
+      },
+      {
+        "what": "Director Jeffrey J. Jones II retired, board cut to eight",
+        "who": "Jeffrey J. Jones II",
+        "from": "",
+        "effective": "2025-12-31",
+        "source": "8-K 0001628280-25-047277",
+        "external_hire": null
+      },
+      {
+        "what": "Strategy timeline reset: 7% adjusted operating margin moved from 2027 to medium term; 2026 guide 3.8% to 4.5%; at least 100 bps more in 2027. New SVPs of Supply Chain (Ron Gilbert, Dec 2025) and U.S. Stores (Tony Hurst, Jan 2026) named on the call",
+        "who": "Shane O'Kelly",
+        "from": "",
+        "effective": "2026-02-13",
+        "source": "Baba document_id 191033",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 36.7,
+    "ceo_months_in_seat": 36.7,
+    "next_event": {
+      "type": "framework update",
+      "date": null,
+      "source": "Baba document_id 144770, Q2 2026 call 2026-08-20: CFO said it is too premature to give specific 2027 guidance; first 2027 guide expected with Q4 2026 results (date not announced). No Investor Day found in corpus."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "operating margin",
+    "metric_basis_note": "Targets are adjusted operating income margin (EBIT basis). Street comparison uses VA consensus operating margin; EBITDA margins shown in quant are a separate basis (D&A about 3.1% of sales). Horizon: 7% was dated (end of fiscal 2027) from 2024-11-14 until 2026-02-13, when the CEO said the pace implies an outcome below 7% in 2027 and it became 'medium-term'; has_year is false and target_year null for the operative frame. annual_bps 100 is the stated 2027 step (at least 100 bps).",
+    "current_level_pct": 4.34,
+    "target_level_pct": 7.0,
+    "target_year": null,
+    "has_year": false,
+    "annual_bps": 100,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "Our productivity review has identified opportunities to generate over 500 basis points of margin over the next three years to reach our objective of delivering approximately 7% adjusted operating income margin by the end of fiscal 2027.",
+        "speaker": "Shane O'Kelly",
+        "role": "President and CEO",
+        "doc_title": "ADVANCE AUTO PARTS, INC. Q3 2024 Earnings Call",
+        "date": "2024-11-14",
+        "document_id": 53120
+      },
+      {
+        "quote": "We currently believe that we can deliver at least another 100 basis points of margin expansion in 2027, which would mark the third straight year of 100 basis points or more of expansion. Although this pace would imply an outcome below our previous target of achieving 7% in 2027, it is important to note that this is not the result of any change to the execution of our strategic plan.",
+        "speaker": "Shane O'Kelly",
+        "role": "President and CEO",
+        "doc_title": "ADVANCE AUTO PARTS, INC. Q4 2025 Earnings Call",
+        "date": "2026-02-13",
+        "document_id": 191033
+      },
+      {
+        "quote": "Yeah, we're still focused on 7% as a medium-term target. The 100 basis points next year, that's where we're at today. It's a little too premature to give specific guidance for next year.",
+        "speaker": "Ryan Grimsland",
+        "role": "EVP and CFO",
+        "doc_title": "ADVANCE AUTO PARTS, INC. Q2 2026 Earnings Call",
+        "date": "2026-08-20",
+        "document_id": 144770
+      }
+    ],
+    "first_stated": "2024-11-14",
+    "times_repeated": 6
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 7.27,
+      "FY2027": 8.22,
+      "FY2028": 8.44
+    },
+    "consensus_margin_at_target_year_pct": 5.05,
+    "gap_bps_vs_target": 9.75,
+    "gap_assumption": "Operating margin basis throughout. Baba VA labels: FY2026 = company fiscal 2026 (1QFY-2026 holds the reported Q1 2026 actual), FY2027 = company fiscal 2027. Consensus operating margin: FY2026 4.16%, FY2027 5.05%, FY2028 5.59%, FY2029 5.68%. Dated frame for 2027 = 2026 guide midpoint 4.15% plus at least 100 bps = 5.15%, which is 9.75 bps above FY2027 consensus 5.05%, so the street models it. The original 7% in 2027 sits 194.75 bps above FY2027 consensus, and the undated 7% medium-term sits 132.4 bps above even FY2029 consensus 5.68%. Note: VA's broker 'Operating margin' line (used for FY2026 to FY2028) runs about 11 bps above operating_income / revenue (FY2027 4.94%); on that basis the 2027 dated-frame gap is about 21 bps, still under 25 bps. FY2029 uses operating_income / revenue.",
+    "ebitda_uplift_pct_if_target_hit": 0.2557,
+    "source": "Baba data_financials summary and fundamentals consensus (Visible Alpha), cid 1000072. Uplift if 7% hit in FY2027 = (7% minus 4.94% operating_income / revenue) x FY2027 revenue $8.718B / FY2027 consensus EBITDA $702.5M = 25.6%, flat D&A (data_compute)."
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      409.7,
+      256.5
+    ],
+    "note": "Operating margin basis. Q1 2026 (VA 1QFY-2026 actual) 3.79% vs -0.31% = +409.7 bps. Q2 2026 reported adjusted operating margin 5.6% (CFO, doc 144770) vs VA 2QFY-2025 3.03% = +256.5 bps, but $26M of IEEPA tariff refunds added 130 bps; ex refunds Q2 was 4.3%. FY2025 adjusted operating margin 2.5%, up over 200 bps. 2026 guide 3.8% to 4.5% reaffirmed 2026-08-20 despite DIY comps down low double digits in Q2. VA 2QFY-2026 row still shows consensus ($91.9M), not the reported $112M."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 1,
+    "C_numeric_framing": 2,
+    "D_unproven": 1,
+    "total": 6
+  },
+  "disqualified": true,
+  "disqualifier_reason": "Catalyst older than 18 months with no pending change: CEO O'Kelly effective 2023-09-11 (36.7 months) and CFO Grimsland 2023-11-27; Item 5.02 sweep 2024-07-01 to 2026-10-02 shows only two director additions, one director retirement and non-CEO/CFO officer departures. The only dated margin frame (at least 100 bps more in 2027) is already in consensus.",
+  "verdict": "Cheap and still turning, but a mature turnaround rather than a GXO setup: 37-month CEO, the 7% by 2027 target was pushed to medium term in Feb 2026, and the street already models the remaining 2027 step.",
+  "open_questions": [
+    "Will the Q4 2026 call (first 2027 guide) re-date the 7% target, and does supply chain productivity work (SVP Ron Gilbert, 25% through his review) support more than 100 bps in 2027?",
+    "How much of the 2026 margin step is one-time (IEEPA refunds of $26M) versus merchandising, given DIY comps fell low double digits in Q2 2026?",
+    "With EBITDA revisions at -2.8% over four months, does a further DIY slowdown push the 4-month revision below -3% and cap D?"
+  ],
+  "sources": [
+    {
+      "document_id": 53120,
+      "title": "ADVANCE AUTO PARTS, INC. Q3 2024 Earnings Call",
+      "date": "2024-11-14"
+    },
+    {
+      "document_id": 191033,
+      "title": "ADVANCE AUTO PARTS, INC. Q4 2025 Earnings Call",
+      "date": "2026-02-13"
+    },
+    {
+      "document_id": 144770,
+      "title": "ADVANCE AUTO PARTS, INC. Q2 2026 Earnings Call",
+      "date": "2026-08-20"
+    },
+    {
+      "document_id": 97650,
+      "title": "ADVANCE AUTO PARTS, INC. Q2 2023 Earnings Call (CEO appointment)",
+      "date": "2023-08-23"
+    },
+    {
+      "document_id": 53114,
+      "title": "ADVANCE AUTO PARTS, INC. Q2 2025 Earnings Call (7% fiscal 2027 repeated, CFO)",
+      "date": "2025-08-14"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001158449-23-000238 (CFO appointment)",
+      "date": "2023-11-15"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001628280-26-001962 (director Richard A. Johnson)",
+      "date": "2026-01-13"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001193125-26-100177 (director Cynthia T. Jamison)",
+      "date": "2026-03-10"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps cid 1000072 (market_data asof 2026-09-30, revisions asof 2026-10-01)",
+      "date": "2026-10-01"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_financials summary and fundamentals consensus cid 1000072",
+      "date": "2026-10-01"
+    },
+    {
+      "document_id": 0,
+      "title": "Stage 1 stage1_ranked.csv (industry median margin 0.06)",
+      "date": "2026-10-02"
+    }
+  ],
+  "tool_calls": 26
+}

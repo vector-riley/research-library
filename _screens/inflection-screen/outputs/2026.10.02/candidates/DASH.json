@@ -1,0 +1,45 @@
+{
+  "ticker": "DASH", "cid": 1000005, "name": "DoorDash Inc", "industry": "Application Software", "as_of": "2026-10-02",
+  "business": "DoorDash runs local-commerce delivery marketplaces (DoorDash, Wolt, Deliveroo) connecting consumers, merchants and couriers in the US and internationally, plus memberships, ads and merchant software.",
+  "quant": {"mcap_usd": 80037675375.0, "drawdown": -0.3485, "pctile_ev_ebitda_60m": 0.0667, "price_ltm_pct": -0.3252,
+            "ebitda_margin_ltm": 0.2015, "ebitda_margin_fwd_consensus": 0.2271, "industry_median_margin": 0.282, "ev_ebitda_fy": 15.79,
+            "net_debt_ltm_ebitda": -0.75, "ebitda_revision_12m": -0.0443, "ebitda_brokers": 32},
+  "catalyst": {"type": ["acquisition", "board_refresh"],
+               "events": [
+                 {"what": "Deliveroo acquisition completed (180p per share, equity value about GBP 2.8B; UK scheme, so no Item 2.01 8-K; Items 2.01/1.01 query returned none)", "who": "Deliveroo plc", "from": null, "effective": "2025-10-02", "source": "document_id 6658 (10-K FY2025, accession 0001792789-26-000013); document_id 130059 (10-Q Q2 2026)", "external_hire": null},
+                 {"what": "Director added, board to 11 (Nominating and Governance Committee)", "who": "Milan Kovac", "from": "Tesla (VP, Optimus)", "effective": "2026-01-16", "source": "8-K 0001792789-26-000003", "external_hire": true},
+                 {"what": "No CEO or CFO change. Own 8-K Item 5.02 query (2024-07-01 to 2026-10-02) returned only the Kovac board filing. Baba 'first earnings call / since joining' check: every 2026 call is co-founder, Chair and CEO Tony Xu with CFO Ravi Inukonda (document_id 129558)", "who": "Tony Xu (CEO); Ravi Inukonda (CFO)", "from": null, "effective": null, "source": "8-K 0001792789-26-000003; document_id 129558", "external_hire": false}
+               ],
+               "months_since_primary": 12.0, "ceo_months_in_seat": 69.7,
+               "next_event": {"type": "none known", "date": null, "source": "No DoorDash Investor Day exists in the corpus (lexical 'investor day' returned only peer decks such as Uber Investor Day 2022, document_id 208463). data_guidance holds no long-term margin target. ceo_months_in_seat is a FLOOR from the 2020-12-09 IPO; Xu is co-founder (company founded 2013) and has been CEO throughout, exact start date not in sources."}},
+  "margin_framing": {"numeric": false, "metric": "adjusted EBITDA margin",
+                     "metric_basis_note": "DoorDash frames profit as adjusted EBITDA dollars and EBITDA as a percent of Marketplace GOV, not revenue, and gives no long-term margin level. The only margin statement is the CFO's one-year, unquantified 'up slightly' for 2026 excluding Deliveroo. Consensus margins here are EBITDA / revenue and include Deliveroo from Q4 2025. Internal Spruce House underwriting memos (document_id 204358, 218022) cite '7%+ EBITDA/GOV' and 'Mgmt. 10% LT Target', but no management source for either was found.",
+                     "current_level_pct": 20.15, "target_level_pct": null, "target_year": null, "has_year": false,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "If you're thinking about 2026, what I would say is that the EBITDA margin for the existing business, including the investments, think of that as the overall business excluding Deliveroo, I would expect those margins to be up slightly compared to 2025.", "speaker": "Ravi Inukonda", "role": "CFO", "doc_title": "DoorDash Inc Q3 2025 Earnings Call", "date": "2025-11-05", "document_id": 225126},
+                       {"quote": "My view on the full-year EBITDA has not changed. Look, what we've said about the couple of quarters ago is overall, 2026 EBITDA margin is going to be higher slightly compared to 2025, excluding Roo. That view still stands.", "speaker": "Ravi Inukonda", "role": "CFO", "doc_title": "DoorDash Inc Q1 2026 Earnings Call", "date": "2026-05-06", "document_id": 140266},
+                       {"quote": "We're not trying to optimize the last dollar from one quarter to the next. Look, our focus has always been on how do you build a large, durable business over time while continuing to increase the overall profit dollar production.", "speaker": "Ravi Inukonda", "role": "CFO", "doc_title": "DoorDash Inc Q2 2026 Earnings Call", "date": "2026-08-05", "document_id": 129558}
+                     ],
+                     "first_stated": "2025-11-05", "times_repeated": 2},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 20.77, "FY2027": 22.71, "FY2028": 24.56},
+             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": null,
+             "gap_assumption": "No management margin target exists, so no gap. Calendar fiscal year, Baba FY = company FY. The street models EBITDA / revenue rising from 20.77% (FY2026) to 28.95% (FY2030), +818 bps (data_compute), far more than management's 'up slightly' for 2026. Answer to 'does the street already model the target': there is no stated target; the street is ahead of anything management has said. D is scored on the no-level rule (4-month revision +2.3%).",
+             "ebitda_uplift_pct_if_target_hit": null, "source": "Baba data_financials consensus (Visible Alpha, summary)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-78, 58], "note": "Order [Q1 2026, Q2 2026], EBITDA / revenue from consensus actuals: Q1 754/4,036 = 18.7% vs 590/3,032 = 19.5%; Q2 914/4,454 = 20.5% vs 655/3,284 = 19.9%. Both include Deliveroo (consolidated from 2025-10-02), so YoY is not like for like. The Q2 EBITDA beat was called a late-quarter timing effect, not a new run rate (Inukonda, document_id 129558)."},
+  "score": {"A_underperformance": 2, "B_catalyst": 2, "C_numeric_framing": 1, "D_unproven": 2, "total": 7},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Not a GXO setup despite 7/10: cheap, with the Deliveroo deal (2025-10-02) in window, but the founder CEO and CFO are unchanged, management states no margin target and no Investor Day exists, and the street models more expansion than management guides.",
+  "open_questions": ["Where did the 'Mgmt. 10% LT Target' in the 2023 internal underwriting memo come from, and has management ever said it publicly?", "What is EBITDA as a percent of GOV ex Deliveroo for 2026, the only basis management guides on?", "Does +818 bps of consensus margin expansion to FY2030 conflict with the reinvestment philosophy, so the risk is a cut rather than upside?"],
+  "sources": [
+    {"document_id": 225126, "title": "DoorDash Inc Q3 2025 Earnings Call", "date": "2025-11-05"},
+    {"document_id": 140266, "title": "DoorDash Inc Q1 2026 Earnings Call", "date": "2026-05-06"},
+    {"document_id": 129558, "title": "DoorDash Inc Q2 2026 Earnings Call", "date": "2026-08-05"},
+    {"document_id": 6658, "title": "DoorDash 10-K FY2025 (Deliveroo completion 2025-10-02)", "date": "2026-02"},
+    {"document_id": 204358, "title": "Doordash Underwriting Summary 4.21.2024 (internal)", "date": "2024-04-21"},
+    {"document_id": 0, "title": "Baba data_comps (market_data, revisions, estimates; asof 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary consensus (Visible Alpha); data_guidance targets (none for margin)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: only 0001792789-26-000003 (Kovac); Items 2.01/1.01: none", "date": "2026-01-20"}
+  ],
+  "tool_calls": 18
+}

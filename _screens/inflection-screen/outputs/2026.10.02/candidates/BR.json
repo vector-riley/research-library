@@ -1,0 +1,44 @@
+{
+  "ticker": "BR", "cid": 1004330, "name": "Broadridge Financial Solutions Inc", "industry": "Application Software", "as_of": "2026-10-02",
+  "business": "Sells investor communications, proxy processing and trading and wealth technology platforms to banks, broker-dealers, asset managers and corporate issuers.",
+  "quant": {"mcap_usd": 18628940000.0, "drawdown": -0.3840, "pctile_ev_ebitda_60m": 0.0667, "price_ltm_pct": -0.3081,
+            "ebitda_margin_ltm": 0.2409, "ebitda_margin_fwd_consensus": 0.2486, "industry_median_margin": 0.282, "ev_ebitda_fy": 11.00,
+            "net_debt_ltm_ebitda": 1.55, "ebitda_revision_12m": 0.0426, "ebitda_brokers": 5},
+  "catalyst": {"type": ["board_refresh"],
+               "events": [
+                 {"what": "Two directors added, board expanded 8 to 10; Brett Keller resigned from board effective 2026-04-30", "who": "Trish Mosconi; Christopher Perry (President of Broadridge since 2020)", "from": "BCG senior advisor, ex Synchrony CSO; internal (President)", "effective": "2026-02-02", "source": "8-K 0001383312-26-000003", "external_hire": null},
+                 {"what": "Director added, board expanded 9 to 10", "who": "Todd Diganci", "from": "FINRA (EVP, CFO and CAO 2017 to June 2026)", "effective": "2026-08-01", "source": "8-K 0001383312-26-000019", "external_hire": true},
+                 {"what": "CFO appointed (interim since 2024-07-01); OUTSIDE the 18-month window", "who": "Ashima Ghei", "from": "internal (CFO of ICS segment)", "effective": "2024-12-16", "source": "8-K 0001383312-24-000065", "external_hire": false},
+                 {"what": "Four tuck-in acquisitions in fiscal 2026 for $283M including CQG (closed May 2026); not transformational", "who": "CQG, Acolin, iJoin, Signal", "from": null, "effective": null, "source": "document_id 117964", "external_hire": null}
+               ],
+               "months_since_primary": 8.0, "ceo_months_in_seat": 93.0,
+               "next_event": {"type": "none known", "date": null, "source": "No Investor Day or new three-year objectives date found in Baba corpus (lexical 'Investor Day' FY2026 search, doc 117964 Q4 FY2026 call); last Investor Day was 2023 (doc 96058, doc 69634) and the FY2023-FY2026 three-year cycle ended 2026-06-30, so a new cycle is due but unscheduled."}},
+  "margin_framing": {"numeric": true, "metric": "operating margin",
+                     "metric_basis_note": "Management guides adjusted operating income (AOI) margin, not EBITDA; the gap test compares the AOI guide with VA consensus 'Operating margin' (FY2026 consensus actual 20.52% matches the reported 20.5% AOI margin).",
+                     "current_level_pct": 20.5, "target_level_pct": 21.0, "target_year": 2027, "has_year": true,
+                     "annual_bps": 50, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "We expect adjusted operating income margin of approximately 21%, up from 20.5% in fiscal 2026.", "speaker": "Ash Ghei", "role": "CFO", "doc_title": "Broadridge Financial Solutions Inc Q4 2026 Earnings Call", "date": "2026-08-04", "document_id": 117964},
+                       {"quote": "In the past, we have always talked about a 50 basis point sort of average increase in margins per year. [...] We have been talking about over time, we still continue to expect 50 basis points.", "speaker": "Tim Gokey", "role": "CEO", "doc_title": "53rd Annual JPMorgan Global Technology, Media and Communications Conference", "date": "2025-05-14", "document_id": 69634},
+                       {"quote": "we communicated, reaffirmed our guidance for our 2023 to 2026 views, which calls for 5%-8% recurring revenue growth, 1%-2 percentage points from M&A, 8%-12% earnings growth, and 50 basis points plus of margin expansion.", "speaker": "Ashima Ghei", "role": "CFO", "doc_title": "Wolfe Fintech Forum", "date": "2025-03-11", "document_id": 69635}
+                     ],
+                     "first_stated": "2026-08-04", "times_repeated": 3},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 24.09, "FY2027": 24.86, "FY2028": 24.38},
+             "consensus_margin_at_target_year_pct": 20.84, "gap_bps_vs_target": 16, "gap_assumption": "Fiscal year ends June; Baba FY-2027 = company fiscal 2027 (July 2026 to June 2027). Compares the ~21% FY2027 AOI margin guide with VA consensus FY-2027 operating margin 20.844%; FY2026 EBITDA margin is reported actual.",
+             "ebitda_uplift_pct_if_target_hit": 0.6, "source": "Baba data_financials consensus (summary and fundamentals, Visible Alpha)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-90, -10], "note": "Order is [Q3 FY2026, Q4 FY2026]. Q3 FY2026 AOI margin 21.5%, down 90 bps YoY, 80 bps from distribution pass-through and lower rates (Ghei, doc 197508, 2026-04-30). Q4 FY2026 AOI margin 26.9%, down 10 bps YoY (Ghei, doc 117964, 2026-08-04). Full-year FY2026 AOI margin 20.5%, 'rose slightly'."},
+  "score": {"A_underperformance": 2, "B_catalyst": 1, "C_numeric_framing": 2, "D_unproven": 0, "total": 5},
+  "disqualified": true, "disqualifier_reason": "Margin target already reflected in consensus: the FY2027 ~21% AOI margin guide sits only 16 bps above VA consensus operating margin of 20.84%. No CEO or CFO change in the 18-month window (CFO Ghei appointed 2024-12-16; CEO Gokey since 2019-01-02); only board refresh and tuck-in M&A.",
+  "verdict": "Not a GXO setup: cheap and de-rated, but a high-margin, long-tenured management team guiding a one-year 50 bps step the street already models, with no leadership catalyst.",
+  "open_questions": ["When and where will Broadridge publish its next three-year objectives now that the FY2023 to FY2026 cycle has closed, and will the 50 bps a year core margin rate be restated with a horizon?", "Does adding President Christopher Perry to the board in February 2026 signal a CEO succession plan for Gokey (93 months in seat)?", "How much reported margin uplift would the SEC eDelivery rule deliver after fiscal 2027 from lower pass-through distribution revenue?"],
+  "sources": [
+    {"document_id": 117964, "title": "Broadridge Financial Solutions Inc Q4 2026 Earnings Call", "date": "2026-08-04"},
+    {"document_id": 197508, "title": "Broadridge Financial Solutions Inc Q3 2026 Earnings Call", "date": "2026-04-30"},
+    {"document_id": 69634, "title": "53rd Annual JPMorgan Global Technology, Media and Communications Conference", "date": "2025-05-14"},
+    {"document_id": 69635, "title": "Wolfe Fintech Forum", "date": "2025-03-11"},
+    {"document_id": 0, "title": "Baba data_comps (market_data, revisions, estimates; asof 2026-09-30 to 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary and fundamentals consensus (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02 filings: 0001383312-26-000019, 0001383312-26-000003, 0001383312-24-000065, 0001383312-18-000045", "date": "2018-09-12 to 2026-06-10"}
+  ],
+  "tool_calls": 23
+}

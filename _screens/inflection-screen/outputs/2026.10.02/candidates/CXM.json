@@ -1,0 +1,49 @@
+{
+  "ticker": "CXM", "cid": 1005129, "name": "Sprinklr Inc", "industry": "Application Software", "as_of": "2026-10-02",
+  "business": "Sprinklr sells AI-based cloud software that unifies customer service, social media, marketing and consumer insights for large enterprises worldwide, plus implementation services.",
+  "quant": {"mcap_usd": 1241524800.0, "drawdown": -0.7041, "pctile_ev_ebitda_60m": 0.0, "price_ltm_pct": -0.3588,
+            "ebitda_margin_ltm": 0.1835, "ebitda_margin_fwd_consensus": 0.1833, "industry_median_margin": 0.282, "ev_ebitda_fy": 5.22,
+            "net_debt_ltm_ebitda": -2.55, "ebitda_revision_12m": -0.0416, "ebitda_brokers": 8},
+  "catalyst": {"type": ["new_cfo", "board_refresh"],
+               "events": [
+                 {"what": "CFO appointed (succeeds CEO Rory Read as interim CFO after Manish Sarin left 2025-09-19, 8-K 0001569345-25-000043). Stage 2 sweep MISSED this", "who": "Anthony Coletta", "from": "SAP SE (Chief Investor Relations Officer; previously CFO SAP North America)", "effective": "2025-10-07", "source": "8-K 0001193125-25-232582", "external_hire": true},
+                 {"what": "CEO appointed (Ragy Thomas to advisor and Chairman; co-CEO Trac Pham departs). OUTSIDE the 18-month window (cutoff 2025-04-01); Read's first earnings call was Q3 FY2025 (document_id 57211)", "who": "Rory Read", "from": "Vonage (CEO); ex Dell, AMD, Lenovo", "effective": "2024-11-05", "source": "8-K 0001193125-24-250996", "external_hire": true},
+                 {"what": "Chief Accounting Officer appointed", "who": "Michele M. Meyers", "from": "Coursera (CAO)", "effective": "2026-01-05", "source": "8-K 0001193125-25-323772", "external_hire": true},
+                 {"what": "Two directors not standing for re-election, board cut 9 to 7", "who": "Yvette Kanouff; Neeraj Agrawal", "from": null, "effective": "2026-04-23", "source": "8-K 0001569345-26-000017", "external_hire": null},
+                 {"what": "Director added, board 7 to 8 (Strategy Committee)", "who": "Jordi Ribas", "from": "Microsoft (President of Search & AI)", "effective": "2026-08-17", "source": "8-K 0001193125-26-347899", "external_hire": true},
+                 {"what": "Other in-window departures: Chief Customer Officer (2025-07-07, 8-K 0001193125-25-145823) and CAO Marlise Ricci (2025-08-15, 8-K 0001193125-25-177931). Directors Jan Hauser and Stephen Ward added 2025-01-29 (outside window). Items 2.01/1.01 query returned none", "who": "Scott Harvey; Marlise Ricci", "from": null, "effective": "2025-08-15", "source": "8-K 0001193125-25-145823; 8-K 0001193125-25-177931; 8-K 0001569345-25-000004", "external_hire": null}
+               ],
+               "months_since_primary": 11.8, "ceo_months_in_seat": 22.9,
+               "next_event": {"type": "none known", "date": null, "source": "No Investor Day or framework update found in FY2027 corpus; last Investor Day was 2023 (document_id 96411). Management points to an 'acceleration phase' in FY2028 (year starting Feb 2027) without promising an event (Read, document_id 198002)."}},
+  "margin_framing": {"numeric": false, "metric": "operating margin",
+                     "metric_basis_note": "Management frames non-GAAP operating margin; consensus is EBITDA. The only numbers are a one-year FY2027 guide of a 16% non-GAAP operating margin (flat to down versus FY2026, per the William Blair question) and a 'Rule of 40' ambition, which mixes growth and margin and is not a margin level. Sprinklr's fiscal year ends 31 January and the company names it by the end year, so Baba FY2027 = Sprinklr fiscal 2027 (Feb 2026 to Jan 2027).",
+                     "current_level_pct": 15.0, "target_level_pct": null, "target_year": null, "has_year": false,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "The key in the March of the Rule of 40 is that it has to have a combined growth component. You know, we got to get to double-digit plus growth rate over this transformation. That's key. You can't get there all on the bottom line.", "speaker": "Rory Read", "role": "President and CEO", "doc_title": "Sprinklr Inc Q2 2026 Earnings Call", "date": "2025-09-03", "document_id": 57208},
+                       {"quote": "You can be ensured that we are doing everything to build that foundation that will expand on the margin profile for the following years as we deliver on this second wave of transformation.", "speaker": "Anthony Coletta", "role": "CFO", "doc_title": "Sprinklr Inc Q4 2026 Earnings Call", "date": "2026-03-11", "document_id": 198002},
+                       {"quote": "For the full year FY 2027, we estimate non-GAAP operating income to be in the range of $139 million-$141 million, driving a 16% non-GAAP operating margin.", "speaker": "Anthony Coletta", "role": "CFO", "doc_title": "Sprinklr Inc Q2 2027 Earnings Call", "date": "2026-09-02", "document_id": 217177},
+                       {"quote": "Our non-GAAP operating income is pressured by lower professional services revenue in Q3, but more importantly, it's a structural shift for the long term. It reflects strong adoption of our AI products, which is driving higher cloud and data costs, as noted in prior quarters.", "speaker": "Anthony Coletta", "role": "CFO", "doc_title": "Sprinklr Inc Q2 2027 Earnings Call", "date": "2026-09-02", "document_id": 217177}
+                     ],
+                     "first_stated": "2025-06-04", "times_repeated": 3},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 19.28, "FY2027": 18.33, "FY2028": 20.09},
+             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": null,
+             "gap_assumption": "No margin level or year stated, so no gap. Baba FY labels = Sprinklr fiscal years (FYE January, named by end year). FY2026 is actual (165.3M / 857.2M). Street path continues to 21.38% FY2029 and 23.62% FY2030, i.e. the street already models about 530 bps of EBITDA margin expansion from FY2027 to FY2030 that management has not quantified. D is scored on the no-level rule: 4-month EBITDA revision +0.1%.",
+             "ebitda_uplift_pct_if_target_hit": null, "source": "Baba data_financials consensus (Visible Alpha, summary)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-375, -300], "note": "Order [Q1 FY2027, Q2 FY2027]. Q1: VA EBITDA 36.0M / 219.5M = 16.4% vs 41.4M / 205.5M = 20.2%. Q2: VA has no actual yet, so the figure is management's non-GAAP operating margin, 15% (Read, document_id 217177) vs 18% a year earlier (Read, document_id 57208). Margin is falling on AI hosting costs and negative services gross margin (-22% in Q2). LTM EBITDA margin 18.4% uses Q2 FY2026 to Q1 FY2027."},
+  "score": {"A_underperformance": 2, "B_catalyst": 2, "C_numeric_framing": 1, "D_unproven": 2, "total": 7},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Cheap with a real but partial catalyst: external CFO from SAP (2025-10-07) in window, CEO Read (2024-11-05) just outside, and no numeric margin target; margins are falling and the street already models expansion management has not framed.",
+  "open_questions": ["Will Read or Coletta put a margin level and year on the FY2028 'acceleration phase', and at what event?", "How much of the 300 to 375 bps YoY margin decline is structural AI hosting cost versus fixable services losses?", "Is FY2028 to FY2030 consensus (20.1% to 23.6% EBITDA margin) a risk of cuts rather than upside, given flat subscription growth of 3% to 4%?"],
+  "sources": [
+    {"document_id": 57211, "title": "Sprinklr Inc Q3 2025 Earnings Call (Read's first call)", "date": "2024-12"},
+    {"document_id": 57208, "title": "Sprinklr Inc Q2 2026 Earnings Call", "date": "2025-09-03"},
+    {"document_id": 198002, "title": "Sprinklr Inc Q4 2026 Earnings Call", "date": "2026-03-11"},
+    {"document_id": 198001, "title": "Sprinklr Inc Q1 2027 Earnings Call", "date": "2026-06-03"},
+    {"document_id": 217177, "title": "Sprinklr Inc Q2 2027 Earnings Call", "date": "2026-09-02"},
+    {"document_id": 0, "title": "Baba data_comps (market_data, revisions, estimates; asof 2026-09-30 to 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary consensus (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0001193125-24-250996, 0001193125-25-232582, 0001569345-25-000043, 0001193125-25-323772, 0001569345-26-000017, 0001193125-26-347899, 0001193125-25-145823, 0001193125-25-177931, 0001569345-25-000004; Items 2.01/1.01: none", "date": "2024-11-05 to 2026-08-13"}
+  ],
+  "tool_calls": 16
+}

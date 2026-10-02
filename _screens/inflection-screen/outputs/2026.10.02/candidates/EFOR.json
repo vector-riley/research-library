@@ -1,0 +1,193 @@
+{
+  "ticker": "EFOR",
+  "cid": 1006517,
+  "name": "Everforth, Inc. (formerly ASGN Incorporated)",
+  "industry": "IT Consulting & Other Services",
+  "as_of": "2026-10-02",
+  "business": "Provides IT consulting, digital engineering, and IT staffing to Fortune 1000 companies and US federal defense, intelligence, and civilian agencies.",
+  "quant": {
+    "mcap_usd": 1483790000.0,
+    "drawdown": -0.6859488354333716,
+    "pctile_ev_ebitda_60m": 0.2833333333333333,
+    "price_ltm_pct": -0.3051742344244984,
+    "ebitda_margin_ltm": 0.10103862055056972,
+    "ebitda_margin_fwd_consensus": 0.09882298404445464,
+    "industry_median_margin": 0.189,
+    "ev_ebitda_fy": 6.911749590879159,
+    "net_debt_ltm_ebitda": 3.3022127306657025,
+    "ebitda_revision_12m": -0.16317692108308157,
+    "ebitda_brokers": 6.0
+  },
+  "catalyst": {
+    "type": [
+      "acquisition",
+      "strategy_update"
+    ],
+    "events": [
+      {
+        "what": "Closed acquisition of Quinnox Inc. (digital engineering, India offshore delivery) for $290.0M cash; about $100M revenue at low-20s% EBITDA margin per CFO",
+        "who": "Quinnox Inc.",
+        "from": null,
+        "effective": "2026-03",
+        "source": "10-Q 0000890564-26-000050 (doc 133102); announcement 8-K 0000890564-26-000004 (doc 133114, 2026-01-20); Q1 2026 call doc 140736. Exact closing day not stated in the passages read.",
+        "external_hire": null
+      },
+      {
+        "what": "Renamed from ASGN Incorporated to Everforth, Inc.; began trading as EFOR; commercial segment reporting moved to an industry-led view",
+        "who": "Company",
+        "from": "ASGN Incorporated (NYSE: ASGN)",
+        "effective": "2026-04-24",
+        "source": "Q1 2026 Earnings Call doc 140736 (Baba extracted key point: 'will officially begin operating as Everforth and trade under the new ticker EFOR starting this Friday'; call dated Wednesday 2026-04-22); data_profile summary (renamed April 2026)",
+        "external_hire": null
+      },
+      {
+        "what": "Investor Day: three-year targets to 2028 including 12.5% to 13.5% adjusted EBITDA margin, 200 to 300 bps of improvement, up to $80M annualized SG&A savings, $1B buyback authorization",
+        "who": "Ted Hanson, Marie Perry",
+        "from": null,
+        "effective": "2025-11-20",
+        "source": "Investor Day 2025 transcript, doc 200681",
+        "external_hire": null
+      },
+      {
+        "what": "Shiv Iyer appointed President (ex-Accenture); effective one month before the 18-month window opens, so it does not count as an in-window catalyst",
+        "who": "Sadasivam (Shiv) Iyer",
+        "from": "Accenture; Alvarez & Marsal",
+        "effective": "2025-03-01",
+        "source": "8-K 0000890564-25-000012",
+        "external_hire": true
+      }
+    ],
+    "months_since_primary": 6,
+    "ceo_months_in_seat": 89,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "Investor Day already held 2025-11-20 (doc 200681); no further investor event found. Q3 2026 earnings are the next print (date not sourced); Q3 guide is 9.6% to 10.3% adjusted EBITDA margin (doc 140735)."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "The 12.5% to 13.5% level is stated as the ORGANIC 2028 target. Management separately models $800M to $900M of acquired revenue (assumed mid-2027) and expects acquisitions to also expand margin. Consensus FY2028 includes Quinnox but not unannounced deals. Repetition: the $80M savings program was referenced again by the CFO on the Q1 2026 call; the 12.5% to 13.5% level was not found restated in the 2026 calls searched.",
+    "current_level_pct": 10.1,
+    "target_level_pct": 13.0,
+    "target_year": "FY2028 (calendar)",
+    "has_year": true,
+    "annual_bps": null,
+    "synergy_usd": 80000000,
+    "synergy_year": "FY2028 (annualized SG&A savings over the three-year plan)",
+    "statements": [
+      {
+        "quote": "At the end of the 3-year period in 2028, we are projecting Adjusted EBITDA margins ranging from 12.5-13.5% and generating cumulative free cash flow of upwards of $1 billion or a 60-65% conversion rate.",
+        "speaker": "Marie Perry",
+        "role": "CFO",
+        "doc_title": "Investor Day 2025",
+        "date": "2025-11-20",
+        "document_id": 200681
+      },
+      {
+        "quote": "We are projecting margin improvement from EBITDA of 200-300 basis points over the 3-year period. ... A majority of the driver of the margin improvement is from our structural cost changes that I outlined earlier in SG&A and literally generating up to $80 million of annualized savings.",
+        "speaker": "Marie Perry",
+        "role": "CFO",
+        "doc_title": "Investor Day 2025",
+        "date": "2025-11-20",
+        "document_id": 200681
+      },
+      {
+        "quote": "When we talked about the $80 million of savings that we are going to achieve over the three-year period, those dollars that we provided on the call for Q1 relate to the implementation of those.",
+        "speaker": "Marie Perry",
+        "role": "CFO",
+        "doc_title": "Everforth, Inc. Q1 2026 Earnings Call",
+        "date": "2026-04-22",
+        "document_id": 140736
+      },
+      {
+        "quote": "While our revenues were within guidance, Adjusted EBITDA margin of 8.6% was below our expectations for the quarter. This miss was driven largely by business mix related to lower than expected contribution of some of our higher margin solutions within the commercial segment.",
+        "speaker": "Ted Hanson",
+        "role": "CEO",
+        "doc_title": "Everforth, Inc. Q1 2026 Earnings Call",
+        "date": "2026-04-22",
+        "document_id": 140736
+      }
+    ],
+    "first_stated": "2025-11-20",
+    "times_repeated": 1
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 9.52,
+      "FY2027": 9.88,
+      "FY2028": 10.45
+    },
+    "consensus_margin_at_target_year_pct": 10.45,
+    "gap_bps_vs_target": 255,
+    "gap_assumption": "Calendar fiscal year. 13.0% midpoint of the 12.5% to 13.5% organic 2028 target minus FY2028 consensus adjusted EBITDA margin 10.45% ($441.7M on $4,225.5M). Against the 12.5% low end the gap is 205 bps. FY2025 actual was 10.62%, so the street models FY2028 below FY2025.",
+    "ebitda_uplift_pct_if_target_hit": 24.4,
+    "source": "Baba data_financials consensus (fundamentals, Visible Alpha)"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      -103,
+      -103
+    ],
+    "note": "Q1 2026 adjusted EBITDA margin 8.6% vs 9.7% (-103 bps), a miss vs guidance on commercial mix. Q2 2026 9.6% vs 10.6% (-103 bps), though above the 8.8% to 9.5% guide. The Q3 guide of 9.6% to 10.3% compares with 11.1% in Q3 2025 (VA). Margins are moving away from the target; restructuring add-backs were $12.8M in Q1. Net debt is 3.3x LTM EBITDA vs the 2.5x internal target after Quinnox and buybacks."
+  },
+  "score": {
+    "A_underperformance": 1,
+    "B_catalyst": 1,
+    "C_numeric_framing": 3,
+    "D_unproven": 2,
+    "total": 7
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "A large unmodeled gap: the CFO's 12.5% to 13.5% 2028 target vs 10.4% consensus. But the CEO has been in seat since 2019, the catalyst is a rename and a bolt-on, and margins fell about 100 bps in each of the last two quarters, so this is not a GXO setup.",
+  "open_questions": [
+    "How much of the $80M SG&A savings is realized by end 2026, and why are margins still down about 100 bps year over year?",
+    "Is the 2028 target still reiterated after the Q1 2026 miss, and how much depends on the $800M to $900M of assumed acquisitions?",
+    "Is commercial gross margin pressure (perm placement, mix) cyclical IT-services softness or AI-driven pricing?"
+  ],
+  "sources": [
+    {
+      "document_id": 200681,
+      "title": "Investor Day 2025 (ASGN)",
+      "date": "2025-11-20"
+    },
+    {
+      "document_id": 140736,
+      "title": "Everforth, Inc. Q1 2026 Earnings Call",
+      "date": "2026-04-22"
+    },
+    {
+      "document_id": 140735,
+      "title": "Everforth, Inc. Q2 2026 Earnings Call",
+      "date": "2026-07-29"
+    },
+    {
+      "document_id": 133102,
+      "title": "Everforth Inc 10-Q (Q2 2026; Quinnox $290.0M)",
+      "date": "2026"
+    },
+    {
+      "document_id": 133114,
+      "title": "Everforth Inc 8-K 0000890564-26-000004 (Quinnox announcement)",
+      "date": "2026-01-20"
+    },
+    {
+      "document_id": 133107,
+      "title": "Everforth Inc DEF 14A (Hanson CEO since May 2019)",
+      "date": "2026-04-24"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0000890564-25-000012 (Iyer appointed President)",
+      "date": "2025-03-04"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps, data_financials, data_profile (Visible Alpha consensus, market data)",
+      "date": "2026-10-01"
+    }
+  ],
+  "tool_calls": 19
+}

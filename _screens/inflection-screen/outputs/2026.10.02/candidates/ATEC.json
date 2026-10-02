@@ -1,0 +1,154 @@
+{
+  "ticker": "ATEC",
+  "cid": 1000503,
+  "name": "Alphatec Holdings, Inc.",
+  "industry": "Health Care Equipment",
+  "as_of": "2026-10-02",
+  "business": "ATEC designs and sells spine surgery implants, instruments, neuromonitoring and EOS imaging systems to spine surgeons and hospitals in the US and abroad.",
+  "quant": {
+    "mcap_usd": 1550092500.0,
+    "drawdown": -0.5449735449735449,
+    "pctile_ev_ebitda_60m": 0.17647058823529413,
+    "price_ltm_pct": -0.29023383768913336,
+    "ebitda_margin_ltm": 0.1422,
+    "ebitda_margin_fwd_consensus": 0.18525112904802063,
+    "industry_median_margin": 0.211,
+    "ev_ebitda_fy": 10.659754155846647,
+    "net_debt_ltm_ebitda": 3.5810740312259566,
+    "ebitda_revision_12m": 0.048094494722839,
+    "ebitda_brokers": 12.0
+  },
+  "catalyst": {
+    "type": [],
+    "events": [
+      {
+        "what": "No CEO, CFO or acquisition event in window; only a director retirement and 2026 equity plan approval",
+        "who": "Ward W. Woods (director retirement)",
+        "from": "Board of Directors",
+        "effective": "2026-02-27",
+        "source": "8-K 0001193125-26-088220",
+        "external_hire": null
+      },
+      {
+        "what": "Incumbent Chairman and CEO appointment (outside window, for tenure only)",
+        "who": "Patrick S. Miles",
+        "from": "",
+        "effective": "2018-03-06",
+        "source": "8-K 0001193125-18-078133",
+        "external_hire": null
+      },
+      {
+        "what": "New term loan A and revolver (refinancing, maturities to 2031, more than $6M lower annual interest); not a catalyst under the rubric",
+        "who": "J.P. Morgan, TD Cowen",
+        "from": "",
+        "effective": "2026-06",
+        "source": "doc 128921 (Koning)",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": null,
+    "ceo_months_in_seat": 102,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "Baba corpus lexical search FY2026 (investor day, long range plan): no new event announced; the March 2024 long-range plan runs to 2027"
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "Company adjusted EBITDA target compared with VA consensus EBITDA; bases look close (2026 company guide about $140M at 16% vs VA FY2026 consensus $139.1M at 15.8%). Target first set in the March 2024 long-range plan (Q1 2024 call refers to 'the long-range plan in March'); exact date not fetched.",
+    "current_level_pct": 14.22,
+    "target_level_pct": 18.0,
+    "target_year": 2027,
+    "has_year": true,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "This trajectory positions us well to achieve our 2027 adjusted EBITDA margin goal of 18% at $1 billion in revenue.",
+        "speaker": "Todd Koning",
+        "role": "EVP and CFO",
+        "doc_title": "Alphatec Holdings, Inc. Q1 2025 Earnings Call",
+        "date": "2025-05-01",
+        "document_id": 42193
+      },
+      {
+        "quote": "we are raising our adjusted EBITDA guidance to approximately $140 million, representing a 16% margin, up from our prior outlook of $134 million.",
+        "speaker": "Todd Koning",
+        "role": "CFO",
+        "doc_title": "Alphatec Holdings, Inc. Q2 2026 Earnings Call",
+        "date": "2026-08-04",
+        "document_id": 128921
+      },
+      {
+        "quote": "Adjusted EBITDA margin expanded 420 basis points to 17%, further proof of the increasing scalability of our operating model and our ability to deliver expanding profitability.",
+        "speaker": "Todd Koning",
+        "role": "CFO",
+        "doc_title": "Alphatec Holdings, Inc. Q2 2026 Earnings Call",
+        "date": "2026-08-04",
+        "document_id": 128921
+      }
+    ],
+    "first_stated": null,
+    "times_repeated": 4
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 0.1577,
+      "FY2027": 0.1853,
+      "FY2028": 0.2068
+    },
+    "consensus_margin_at_target_year_pct": 18.53,
+    "gap_bps_vs_target": -52.5,
+    "gap_assumption": "Management 18% adjusted EBITDA margin in 2027 vs VA FY2027 consensus EBITDA margin 18.53% (calendar FY, Baba label equals company year). The street sits 52.5 bps ABOVE the target; hitting exactly 18% on consensus revenue would be 2.8% below consensus EBITDA.",
+    "ebitda_uplift_pct_if_target_hit": -2.83,
+    "source": "Baba data_financials consensus (summary), data_comps"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      458,
+      420
+    ],
+    "note": "Q1 2026 VA EBITDA margin 10.8% vs 6.2% (+458 bps); Q2 2026 company adjusted EBITDA margin 17%, +420 bps (Koning, doc 128921). VA has not loaded Q2 2026 actuals; LTM uses VA Q3 2025 to Q1 2026 plus company-reported Q2 2026 ($36M on $214M). Margin expansion is real and already in estimates; the 4-month revision is +3.2% and 12-month +4.8%."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 0,
+    "C_numeric_framing": 3,
+    "D_unproven": 0,
+    "total": 5
+  },
+  "disqualified": true,
+  "disqualifier_reason": "Margin target already reflected in consensus (FY2027 consensus 18.53% vs 18% target, gap -52.5 bps), and no leadership change or acquisition in the 18-month window (Miles CEO since 2018-03-06, Koning CFO on every call).",
+  "verdict": "Cheap and with a dated 18% 2027 EBITDA margin target, but long-tenured management and the street already models above the target; not a GXO setup.",
+  "open_questions": [
+    "Is the share-price drawdown about revenue (EOS and per-case pricing) rather than margin, and does the $1B 2027 revenue goal hold?",
+    "Will management issue a post-2027 long-range plan with a higher margin target, which would reopen the gap?",
+    "Does net debt near 3.6x LTM EBITDA (data_comps) constrain reinvestment?"
+  ],
+  "sources": [
+    {
+      "document_id": 42193,
+      "title": "Alphatec Holdings, Inc. Q1 2025 Earnings Call",
+      "date": "2025-05-01"
+    },
+    {
+      "document_id": 128921,
+      "title": "Alphatec Holdings, Inc. Q2 2026 Earnings Call",
+      "date": "2026-08-04"
+    },
+    {
+      "document_id": 153085,
+      "title": "Alphatec Holdings, Inc. Q1 2026 Earnings Call",
+      "date": null
+    },
+    {
+      "document_id": 78161,
+      "title": "Alphatec Holdings, Inc. Q1 2024 Earnings Call",
+      "date": null
+    }
+  ],
+  "tool_calls": 21
+}

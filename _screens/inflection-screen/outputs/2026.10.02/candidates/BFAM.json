@@ -1,0 +1,159 @@
+{
+ "ticker": "BFAM",
+ "cid": 1000526,
+ "name": "BRIGHT HORIZONS FAMILY SOLUTIONS INC",
+ "industry": "Educational and Vocational Training Services",
+ "as_of": "2026-10-02",
+ "business": "Sells employer-sponsored early education and childcare centers, back-up care and education advisory services to employers and working families in the US, UK, Netherlands and Australia.",
+ "quant": {
+  "mcap_usd": 3355410523.95,
+  "drawdown": -0.5471859010801592,
+  "pctile_ev_ebitda_60m": 0.03333333333333333,
+  "price_ltm_pct": -0.41309754075711524,
+  "ebitda_margin_ltm": 0.16700793616719123,
+  "ebitda_margin_fwd_consensus": 0.1731608534955201,
+  "industry_median_margin": 0.247,
+  "ev_ebitda_fy": 7.916014625160122,
+  "net_debt_ltm_ebitda": 2.1992359886715827,
+  "ebitda_revision_12m": -0.015020109684568905,
+  "ebitda_brokers": 6.0
+ },
+ "catalyst": {
+  "type": [],
+  "events": [
+   {
+    "what": "Compensation only: revised LTIP (more performance equity, no options), higher LTIP targets for CEO and CFO, one-time RSU for Mandy Berman (COO Back-Up Care and Ed Advisory). No change in CEO, CFO or President",
+    "who": "Stephen Kramer, Elizabeth Boland, Mandy Berman",
+    "from": "Internal",
+    "effective": "2026-02-09",
+    "source": "8-K 0001437578-26-000003",
+    "external_hire": false
+   },
+   {
+    "what": "Director retirement, board size reduced (no addition)",
+    "who": "Cathy E. Minehan",
+    "from": null,
+    "effective": "2025-06-03",
+    "source": "8-K 0001193125-25-065602",
+    "external_hire": null
+   },
+   {
+    "what": "CEO 'looking at strategic options' for Australia over the intermediate term (about $140M revenue, $20M to $25M annual losses); no formal review or transaction announced",
+    "who": "Australia full service operations",
+    "from": null,
+    "effective": null,
+    "source": "doc 112089 (Kramer, Q2 2026 call, 2026-07-30)",
+    "external_hire": null
+   }
+  ],
+  "months_since_primary": null,
+  "ceo_months_in_seat": 105,
+  "next_event": {
+   "type": "none known",
+   "date": null,
+   "source": "No Investor Day or framework event found in Baba corpus. Boland: 'Step one is getting back to 10%, and then we'll be commenting later on that' (doc 112089, 2026-07-30), no date. Q3 2026 earnings date not sourced. CEO tenure: Kramer CEO effective 2018-01-01 (8-K 0001437578-17-000017)."
+  }
+ },
+ "margin_framing": {
+  "numeric": true,
+  "metric": "operating margin",
+  "metric_basis_note": "All numeric framing is SEGMENT adjusted operating (EBIT) margin, not consolidated EBITDA: Full Service at 5.5% in 2025, roughly stable in 2026, with a 9% to 10% long-term level (no year) built from 25 to 50 bps a year of enrollment leverage plus roughly 150 bps Australia and 50 bps closed-center drags rolling off; Back-Up Care 28% to 30% for 2026. CFO (Boland) states it, not the CEO. No consolidated margin target exists.",
+  "current_level_pct": 5.5,
+  "target_level_pct": 10.0,
+  "target_year": null,
+  "has_year": false,
+  "annual_bps": "25 to 50 (Full Service segment, per year, no end year)",
+  "synergy_usd": null,
+  "synergy_year": null,
+  "statements": [
+   {
+    "quote": "If we have 150 basis points of headwind from Australia, we are able to be gaining 25-50 basis points a year, we would be adding 25-50 basis points a year as we continue to gain enrollment. ... We're well on our way to that 9%-10% with continued improvement, and we still have some centers to exit from the portfolio.",
+    "speaker": "Elizabeth Boland",
+    "role": "CFO",
+    "doc_title": "BRIGHT HORIZONS FAMILY SOLUTIONS INC Q1 2026 Earnings Call",
+    "date": "2026-05-05",
+    "document_id": 197265
+   },
+   {
+    "quote": "If I'm understanding your question right, it's the sort of opportunity to get back to a 10% EBIT margin, which is where we have historically operated. We certainly see a pathway to that ... Last year, we reported about 5.5% in full service. As I mentioned, we would expect it to be relatively stable with that in 2026.",
+    "speaker": "Elizabeth Boland",
+    "role": "CFO",
+    "doc_title": "BRIGHT HORIZONS FAMILY SOLUTIONS INC Q2 2026 Earnings Call",
+    "date": "2026-07-30",
+    "document_id": 112089
+   },
+   {
+    "quote": "We certainly see a path to getting back to 10% and honestly, beyond that. Step one is getting back to 10%, and then we'll be commenting later on that.",
+    "speaker": "Elizabeth Boland",
+    "role": "CFO",
+    "doc_title": "BRIGHT HORIZONS FAMILY SOLUTIONS INC Q2 2026 Earnings Call",
+    "date": "2026-07-30",
+    "document_id": 112089
+   }
+  ],
+  "first_stated": null,
+  "times_repeated": 2
+ },
+ "street": {
+  "consensus_ebitda_margin_by_fy": {
+   "FY2026": 0.16755498712782932,
+   "FY2027": 0.1731608534955201,
+   "FY2028": 0.17698581133498092
+  },
+  "consensus_margin_at_target_year_pct": null,
+  "gap_bps_vs_target": null,
+  "gap_assumption": "Calendar fiscal year, so Baba FY labels equal company years. No target year and the target is a segment EBIT margin, so no gap is computed against consolidated EBITDA consensus. Street already models consolidated EBITDA margin rising from 16.62% (FY2025 actual) to 17.70% (FY2028), about 108 bps over three years, which is roughly the 25 to 50 bps a year Full Service rate plus Back-Up mix. The 9% to 10% Full Service level (from 5.5%) is not dated and only partly modeled.",
+  "ebitda_uplift_pct_if_target_hit": null,
+  "source": "Baba data_financials consensus (Visible Alpha), fetched 2026-09-28"
+ },
+ "evidence_of_progress": {
+  "last_two_quarters_margin_yoy_bps": [
+   -45,
+   95
+  ],
+  "note": "Consolidated EBITDA margin (VA actuals) Q1 2026 -45 bps YoY, Q2 2026 +95 bps YoY. Full Service adjusted operating margin Q2 2026 7.9%, +50 bps YoY, and more than +75 bps excluding Australia (Boland, doc 112089). FY2026 EPS guide raised to $5.05 to $5.15 in Q2."
+ },
+ "score": {
+  "A_underperformance": 2,
+  "B_catalyst": 0,
+  "C_numeric_framing": 2,
+  "D_unproven": 1,
+  "total": 5
+ },
+ "disqualified": true,
+ "disqualifier_reason": "No catalyst in the 18-month window and none pending: CEO Kramer has been in the seat since 2018-01-01 and CFO Boland is unchanged; the only 2026 Item 5.02 filing is a compensation plan change; no acquisition 8-K (Items 1.01 or 2.01) since 2024-07-01; Australia 'strategic options' is informal language, not an announced review.",
+ "verdict": "Very cheap and down 55%, with a CFO-stated 9% to 10% Full Service margin path, but no leadership change, no deal and no event, so there is no inflection catalyst.",
+ "open_questions": [
+  "Will management exit or sell Australia, removing roughly 150 bps of Full Service margin drag?",
+  "Will the company put a year on the 9% to 10% Full Service margin, and at what event?",
+  "What explains the 41% LTM share price fall when 12-month EBITDA revisions are only -1.5%: a multiple de-rating on enrollment or Back-Up durability?"
+ ],
+ "sources": [
+  {
+   "document_id": 197265,
+   "title": "BRIGHT HORIZONS FAMILY SOLUTIONS INC Q1 2026 Earnings Call",
+   "date": "2026-05-05"
+  },
+  {
+   "document_id": 112089,
+   "title": "BRIGHT HORIZONS FAMILY SOLUTIONS INC Q2 2026 Earnings Call",
+   "date": "2026-07-30"
+  },
+  {
+   "document_id": 0,
+   "title": "8-K 0001437578-26-000003 (LTIP and compensation changes)",
+   "date": "2026-02-12"
+  },
+  {
+   "document_id": 0,
+   "title": "8-K 0001193125-25-065602 (Minehan retirement)",
+   "date": "2025-03-27"
+  },
+  {
+   "document_id": 0,
+   "title": "8-K 0001437578-17-000017 (Kramer CEO effective 2018-01-01)",
+   "date": "2017-08-01"
+  }
+ ],
+ "tool_calls": 20
+}

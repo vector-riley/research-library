@@ -1,0 +1,156 @@
+{
+  "ticker": "EMN",
+  "cid": 1000394,
+  "name": "Eastman Chemical Co",
+  "industry": "Diversified Chemicals",
+  "as_of": "2026-10-02",
+  "business": "Makes specialty materials, additives, chemical intermediates, and acetate fibers for transportation, building, consumer, durables, and industrial markets worldwide.",
+  "quant": {
+    "mcap_usd": 7384965000.0,
+    "drawdown": -0.3845466172946608,
+    "pctile_ev_ebitda_60m": 0.06666666666666667,
+    "price_ltm_pct": 0.07982125106334692,
+    "ebitda_margin_ltm": 0.15476328278735965,
+    "ebitda_margin_fwd_consensus": 0.17550866342673682,
+    "industry_median_margin": 0.19,
+    "ev_ebitda_fy": 7.179213607372738,
+    "net_debt_ltm_ebitda": 2.92035564588432,
+    "ebitda_revision_12m": -0.0790795762032952,
+    "ebitda_brokers": 11.0
+  },
+  "catalyst": {
+    "type": [],
+    "events": [
+      {
+        "what": "CTO and Chief Sustainability Officer change: Chris Killian retired; Stephen Crawford (former EVP, returning) became EVP, CTO and CSO. Not a CEO or CFO change",
+        "who": "Stephen G. Crawford",
+        "from": "Eastman (returning former EVP)",
+        "effective": "2026-01-01",
+        "source": "8-K 0000915389-25-000160",
+        "external_hire": false
+      },
+      {
+        "what": "Damon Audia appointed director (single board addition)",
+        "who": "Damon Audia",
+        "from": null,
+        "effective": "2025-06-27",
+        "source": "8-K 0000915389-25-000136",
+        "external_hire": true
+      },
+      {
+        "what": "No CEO or CFO change and no acquisition 8-K (Items 2.01 or 1.01) found from 2024-07-01 to 2026-10-02; no 'first earnings call' language in 2026 transcripts",
+        "who": null,
+        "from": null,
+        "effective": null,
+        "source": "sec-api form-8k sweeps; Baba corpus_search",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": null,
+    "ceo_months_in_seat": 153,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "No investor day or framework update found in the corpus. Q3 2026 earnings are the next print (date not sourced)."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "No margin level or multi-year margin target was found. The only numeric framing is a one-year 2026 cost reduction of $125M to $150M net of inflation, with 2027 framed only as 'at a minimum, offsetting the inflation'. Eastman reports EBIT by segment; the screen uses VA EBITDA.",
+    "current_level_pct": 15.5,
+    "target_level_pct": null,
+    "target_year": null,
+    "has_year": false,
+    "annual_bps": null,
+    "synergy_usd": 137500000,
+    "synergy_year": "FY2026 (one-year net cost reduction, midpoint of $125M to $150M)",
+    "statements": [
+      {
+        "quote": "The Eastman team has done a tremendous job delivering on $125-$150 net of inflation. I would also say I'm confident with what we've delivered here in the first half and actions implemented, that we will deliver the second half, and also shift our focus into 2027, and focused on, at a minimum, offsetting the inflation.",
+        "speaker": "Willie McLain",
+        "role": "EVP and CFO",
+        "doc_title": "EASTMAN CHEMICAL CO Q2 2026 Earnings Call",
+        "date": "2026-07-31",
+        "document_id": 113196
+      },
+      {
+        "quote": "on the price cost side, team's done a phenomenal job of getting prices up with raw materials. As they've caught up, that will now flip into a tailwind in the back half of the year. ... There'll be some offsets, obviously, in Chemical Intermediates and how those margins may moderate with the state of the Mideast conflict.",
+        "speaker": "Mark Costa",
+        "role": "Board Chair and CEO",
+        "doc_title": "EASTMAN CHEMICAL CO Q2 2026 Earnings Call",
+        "date": "2026-07-31",
+        "document_id": 113196
+      }
+    ],
+    "first_stated": null,
+    "times_repeated": 0
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 17.2,
+      "FY2027": 17.71,
+      "FY2028": 18.09
+    },
+    "consensus_margin_at_target_year_pct": null,
+    "gap_bps_vs_target": null,
+    "gap_assumption": "No management margin target, so there is no gap to compute. D is scored on the no-level rule: the 4-month forward EBITDA revision is -1.3% (between -3% and +5%). Consensus already models recovery from the LTM 15.5% to 17.2% in FY2026 and 18.1% in FY2028 (calendar years).",
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials consensus (fundamentals, Visible Alpha)"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      -590,
+      -388
+    ],
+    "note": "VA EBITDA margin: Q4 2025 13.43% vs 19.33% (-590 bps); Q1 2026 15.20% vs 19.08% (-388 bps). Q2 2026 actuals are not yet loaded in VA. The CEO called Q2 a 'strong beat' and full-year earnings 'better than where we were in April' (doc 113196). The recovery depends on raw-material price-cost, utilization and Chemical Intermediates spreads, not on a new management plan."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 0,
+    "C_numeric_framing": 2,
+    "D_unproven": 2,
+    "total": 6
+  },
+  "disqualified": true,
+  "disqualifier_reason": "No catalyst in the 18-month window: CEO Costa since 2014, CFO unchanged, no acquisition, no investor day; only a CTO swap and one director. Margins are also partly commodity-price driven (raw-material price-cost and Chemical Intermediates spreads tied to the Mideast conflict, per the CEO).",
+  "verdict": "Cheap and down 38%, but there is no leadership change, no acquisition and no multi-year margin target, and margin swings with raw materials and chemical spreads, so it is disqualified as a GXO setup.",
+  "open_questions": [
+    "Will Eastman set multi-year targets (for example, at an investor day) for Kingsport methanolysis EBITDA and the circular platform?",
+    "How much of the FY2026 to FY2028 consensus margin recovery depends on Chemical Intermediates spreads vs the $125M to $150M of cost actions?",
+    "Is there any CEO succession planning after 12 years under Costa?"
+  ],
+  "sources": [
+    {
+      "document_id": 113196,
+      "title": "EASTMAN CHEMICAL CO Q2 2026 Earnings Call",
+      "date": "2026-07-31"
+    },
+    {
+      "document_id": 151382,
+      "title": "EASTMAN CHEMICAL CO Q1 2026 Earnings Call",
+      "date": "2026"
+    },
+    {
+      "document_id": 38351,
+      "title": "EASTMAN CHEMICAL CO DEF 14A (Costa CEO since 2014)",
+      "date": "2026-03-24"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0000915389-25-000160 (CTO change)",
+      "date": "2025-10-09"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0000915389-25-000136 (director Audia)",
+      "date": "2025-06-27"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps, data_financials, data_profile (Visible Alpha consensus, market data)",
+      "date": "2026-10-01"
+    }
+  ],
+  "tool_calls": 15
+}

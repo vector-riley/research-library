@@ -1,0 +1,215 @@
+{
+ "ticker": "BAH",
+ "cid": 1000302,
+ "name": "Booz Allen Hamilton Holding Corp",
+ "industry": "Research & Consulting Services",
+ "as_of": "2026-10-02",
+ "business": "Sells AI, cyber, defense tech, data and digital modernization services and products mainly to US defense, intelligence and civil government agencies.",
+ "quant": {
+  "mcap_usd": 8469447309.09,
+  "drawdown": -0.6115212860923929,
+  "pctile_ev_ebitda_60m": 0.05,
+  "price_ltm_pct": -0.28486687490370144,
+  "ebitda_margin_ltm": 0.1128639682682773,
+  "ebitda_margin_fwd_consensus": 0.11159193955953606,
+  "industry_median_margin": 0.156,
+  "ev_ebitda_fy": 9.326111625743684,
+  "net_debt_ltm_ebitda": 2.715021003715144,
+  "ebitda_revision_12m": -0.09385142365472954,
+  "ebitda_brokers": 12.0
+ },
+ "catalyst": {
+  "type": [
+   "new_cfo",
+   "acquisition",
+   "board_refresh"
+  ],
+  "events": [
+   {
+    "what": "New EVP and CFO (first earnings call 2026-05-22, Q4 FY2026); predecessor Matthew Calderone resigned effective 2026-02-01, Kristine Martin Anderson interim",
+    "who": "Troy Lahr",
+    "from": "Sierra Space (SVP and CFO); earlier CFO of Boeing Defense, Space & Security; 12 years Stifel A&D equity analyst",
+    "effective": "2026-05-04",
+    "source": "8-K 0001443646-26-000007",
+    "external_hire": true
+   },
+   {
+    "what": "COO adds President title; Shannon Fitzgerald to President of Civil; Richard Crowe to Chief Growth Officer (internal reshuffle)",
+    "who": "Kristine Martin Anderson",
+    "from": "Internal (EVP and COO)",
+    "effective": "2026-05-01",
+    "source": "8-K 0001443646-26-000007",
+    "external_hire": false
+   },
+   {
+    "what": "Pending acquisition of Ultra I&C Mission Solutions (defense tech, edge compute, encryption products) for $720 million from Cobham Ultra (Advent); expected to close in fiscal Q2 (Jul to Sep 2026). CFO: strong double-digit growth, EBITDA margins well above 20%. Bolt-on, about 8.5% of market cap",
+    "who": "Cobham Ultra Group / Ultra Mission Solutions",
+    "from": "Advent portfolio company",
+    "effective": null,
+    "source": "8-K 0001104659-26-076094 (agreement dated 2026-06-19); doc 105880 10-Q",
+    "external_hire": null
+   },
+   {
+    "what": "Acquisition of Defy Security (commercial cyber), about $324 million deployed in Q1 FY2027 for Defy plus venture investments",
+    "who": "Defy Security",
+    "from": null,
+    "effective": null,
+    "source": "doc 101215 (Lahr, Q1 FY2027 call, 2026-07-24)",
+    "external_hire": null
+   },
+   {
+    "what": "Board expanded 12 to 13 with new director (Audit Committee)",
+    "who": "Ryan Nolan",
+    "from": null,
+    "effective": "2026-06-01",
+    "source": "8-K 0001443646-26-000014",
+    "external_hire": true
+   },
+   {
+    "what": "Board expanded 12 to 13 with new director",
+    "who": "Robert C. O'Brien",
+    "from": "Former US National Security Advisor",
+    "effective": "2025-06-09",
+    "source": "8-K 0001443646-25-000100",
+    "external_hire": true
+   }
+  ],
+  "months_since_primary": 5,
+  "ceo_months_in_seat": 141,
+  "next_event": {
+   "type": "none known",
+   "date": null,
+   "source": "No Investor Day or capital markets day found in Baba corpus. Lahr: 'We will update guidance next quarter' to include Ultra (Q1 FY2027 call, doc 101215, 2026-07-24); Q2 FY2027 earnings expected late October 2026, date not sourced. CEO tenure from 8-K 0001443646-14-000043 (Rozanski CEO effective 2015-01-01)."
+  }
+ },
+ "margin_framing": {
+  "numeric": false,
+  "metric": "adjusted EBITDA margin",
+  "metric_basis_note": "Company guides adjusted EBITDA margin on revenue (including billable expenses), same basis as VA consensus EBITDA/revenue. The only numeric level is the one-year FY2027 guide of about 11% (fiscal year ending 2027-03-31), equal to FY2026's 11.0%, so it frames no expansion. Multi-year language (fixed price, outcome-based contracting, products, Ultra at well above 20% EBITDA margin) is qualitative with no year.",
+  "current_level_pct": 11.0,
+  "target_level_pct": null,
+  "target_year": null,
+  "has_year": false,
+  "annual_bps": null,
+  "synergy_usd": null,
+  "synergy_year": null,
+  "statements": [
+   {
+    "quote": "We expect to generate adjusted EBITDA in the range of $1.24 billion and $1.29 billion. This implies a full year adjusted EBITDA margin of about 11%.",
+    "speaker": "Troy Lahr",
+    "role": "EVP and CFO",
+    "doc_title": "Booz Allen Hamilton Holding Corp Q4 2026 Earnings Call",
+    "date": "2026-05-22",
+    "document_id": 197119
+   },
+   {
+    "quote": "Finally, from a margin perspective, we continue to expect approximately 11% margins for the year. This implies a step-down in margins for the rest of the year, particularly in 2Q, due to the end of some higher-margin civil programs and back-loaded investment spending.",
+    "speaker": "Troy Lahr",
+    "role": "EVP and CFO",
+    "doc_title": "Booz Allen Hamilton Holding Corp Q1 2027 Earnings Call",
+    "date": "2026-07-24",
+    "document_id": 101215
+   },
+   {
+    "quote": "Then, we've always said that margins are stronger on the fixed price work if we are allowed to deliver it in a way that it can add more value to the customer with more efficiency on our side.",
+    "speaker": "Horacio Rozanski",
+    "role": "Chairman and CEO",
+    "doc_title": "Booz Allen Hamilton Holding Corp Q4 2026 Earnings Call",
+    "date": "2026-05-22",
+    "document_id": 197119
+   },
+   {
+    "quote": "I would say what we said is that really when it comes to revenue, we see strong double-digit growth. I think that that's going to continue for the next several years. EBITDA margins are well above the 20%.",
+    "speaker": "Troy Lahr",
+    "role": "EVP and CFO (on Ultra Mission Solutions)",
+    "doc_title": "Booz Allen Hamilton Holding Corp Q1 2027 Earnings Call",
+    "date": "2026-07-24",
+    "document_id": 101215
+   }
+  ],
+  "first_stated": "2026-05-22",
+  "times_repeated": 2
+ },
+ "street": {
+  "consensus_ebitda_margin_by_fy": {
+   "FY2026": 0.10956583756797718,
+   "FY2027": 0.11159193955953606,
+   "FY2028": 0.1111890703932251
+  },
+  "consensus_margin_at_target_year_pct": 11.16,
+  "gap_bps_vs_target": null,
+  "gap_assumption": "Baba labels are fiscal-year-end keyed and BAH names its fiscal year by the March end, so Baba FY2027 = company fiscal 2027 (ending 2026-03-31 is FY2026, actual). No multi-year target exists, so no gap is scored. Versus the one-year FY2027 guide of about 11%, consensus FY2027 at 11.16% sits about 16 bps ABOVE management (guide minus consensus = -16 bps). Street models flat margins (11.16% FY2027, 11.12% FY2028).",
+  "ebitda_uplift_pct_if_target_hit": null,
+  "source": "Baba data_financials consensus (Visible Alpha), fetched 2026-10-01"
+ },
+ "evidence_of_progress": {
+  "last_two_quarters_margin_yoy_bps": [
+   50,
+   130
+  ],
+  "note": "Q4 FY2026 adj EBITDA margin 11.1%, +50 bps YoY; Q1 FY2027 11.9%, +130 bps YoY (Lahr, docs 197119 and 101215). Driven by contract execution, cost control, award fees and investment timing, while revenue fell 6.4% and 4.2%. Management guides a step-down for the rest of FY2027 to about 11% for the year."
+ },
+ "score": {
+  "A_underperformance": 2,
+  "B_catalyst": 2,
+  "C_numeric_framing": 1,
+  "D_unproven": 2,
+  "total": 7
+ },
+ "disqualified": false,
+ "disqualifier_reason": null,
+ "verdict": "Cheap and down 61% with a new external CFO and a pending $720M defense tech bolt-on, but the 11-year CEO frames only a flat one-year 11% margin guide that the street already models; D scores only on stabilized revisions.",
+ "open_questions": [
+  "Will Lahr introduce a multi-year margin framework once Ultra closes and guidance is updated next quarter?",
+  "How much margin uplift can fixed-price and outcome-based contracting deliver, and on what timeline?",
+  "Does civil revenue stabilize in the second half, or does the 12-month -9.4% EBITDA revision resume?"
+ ],
+ "sources": [
+  {
+   "document_id": 197119,
+   "title": "Booz Allen Hamilton Holding Corp Q4 2026 Earnings Call",
+   "date": "2026-05-22"
+  },
+  {
+   "document_id": 101215,
+   "title": "Booz Allen Hamilton Holding Corp Q1 2027 Earnings Call",
+   "date": "2026-07-24"
+  },
+  {
+   "document_id": 141953,
+   "title": "Booz Allen Hamilton Holding Corp 8-K (Q1 FY2027 results, 0001628280-26-049494)",
+   "date": "2026-07-24"
+  },
+  {
+   "document_id": 71365,
+   "title": "Booz Allen Hamilton Holding Corp 8-K (Ultra Mission Solutions agreement, 0001104659-26-076094)",
+   "date": "2026-06-22"
+  },
+  {
+   "document_id": 105880,
+   "title": "Booz Allen Hamilton Holding Corp 10-Q (quarter ended 2026-06-30)",
+   "date": "2026-07-24"
+  },
+  {
+   "document_id": 0,
+   "title": "8-K 0001443646-26-000007 (Lahr CFO, Anderson President)",
+   "date": "2026-04-27"
+  },
+  {
+   "document_id": 0,
+   "title": "8-K 0001443646-25-000148 (Calderone CFO resignation)",
+   "date": "2025-12-15"
+  },
+  {
+   "document_id": 0,
+   "title": "8-K 0001443646-26-000014 (Nolan director)",
+   "date": "2026-05-12"
+  },
+  {
+   "document_id": 0,
+   "title": "8-K 0001443646-14-000043 (Rozanski CEO effective 2015-01-01)",
+   "date": "2014-12-22"
+  }
+ ],
+ "tool_calls": 25
+}

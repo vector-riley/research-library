@@ -1,0 +1,214 @@
+{
+  "ticker": "DXC",
+  "cid": 1003863,
+  "name": "DXC Technology Co",
+  "industry": "IT Consulting & Other Services",
+  "as_of": "2026-10-02",
+  "business": "Provides IT services, infrastructure management, consulting and engineering, and insurance software to large commercial enterprises and public sector clients worldwide.",
+  "quant": {
+    "mcap_usd": 1935382800.0,
+    "drawdown": -0.5673192169396724,
+    "pctile_ev_ebitda_60m": 0.05,
+    "price_ltm_pct": -0.20542920029347034,
+    "ebitda_margin_ltm": 0.13656129545153967,
+    "ebitda_margin_fwd_consensus": 0.13097209971171367,
+    "industry_median_margin": 0.189,
+    "ev_ebitda_fy": 2.1857364756544375,
+    "net_debt_ltm_ebitda": 0.917369295063654,
+    "ebitda_revision_12m": -0.13828034333685035,
+    "ebitda_brokers": 6.0
+  },
+  "catalyst": {
+    "type": [
+      "strategy_update",
+      "board_refresh"
+    ],
+    "events": [
+      {
+        "what": "Paul J. Taylor appointed President, DXC, taking the President title from CEO Fernandez; leads the global operating business with end-to-end responsibility for growth, operations, profitability and delivery; all three segment presidents report to him",
+        "who": "Paul J. Taylor",
+        "from": "Founder and CEO of HUB (AI-driven fintech acquired by OSTTRA); former partner at IHS Markit",
+        "effective": "2026-08-10",
+        "source": "8-K 0001688568-26-000068 (Item 5.02, EX-99.1, doc 142365)",
+        "external_hire": true
+      },
+      {
+        "what": "Dan Gray appointed President, Global Infrastructure Services, replacing Chris Drumgoole (resigned 2026-07-30)",
+        "who": "Dan Gray",
+        "from": "DXC (VP and CTO, GIS; 19 years at DXC)",
+        "effective": "2026-07-30",
+        "source": "8-K 0001688568-26-000068 (doc 142365)",
+        "external_hire": false
+      },
+      {
+        "what": "Holly Grant announced as President, AI Innovation and Strategy & LabX",
+        "who": "Holly Grant",
+        "from": "DXC (SVP Strategy)",
+        "effective": "2026-07-27",
+        "source": "8-K 0001688568-26-000068 EX-99.1 (doc 142365), announced 'earlier this week' of 2026-07-30; exact date not stated",
+        "external_hire": false
+      },
+      {
+        "what": "Investor Day: three-year framework through fiscal 2029 with adjusted EBIT margin target of 8% to 10% and $1B to $1.5B of targeted spending reductions",
+        "who": "Raul Fernandez, Rob Del Bene",
+        "from": null,
+        "effective": "2026-06-11",
+        "source": "Investor Day 2026 transcript, doc 50431",
+        "external_hire": null
+      },
+      {
+        "what": "Ramnath Venkataraman became President, Consulting & Engineering Services after Howard Boville departed 2025-07-01",
+        "who": "Ramanathan Venkataraman",
+        "from": "RN Advisory; nearly three decades at Accenture",
+        "effective": "2025-07-01",
+        "source": "8-K 0001688568-25-000057 (Boville departure); 10-K executive officer list via data_profile",
+        "external_hire": true
+      },
+      {
+        "what": "Retention awards for incumbent CEO Fernandez (term extended to 2028-03-31) and CFO Del Bene; not a leadership change",
+        "who": "Raul Fernandez, Robert Del Bene",
+        "from": null,
+        "effective": "2025-05-13",
+        "source": "8-K 0001688568-25-000028",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 1,
+    "ceo_months_in_seat": 32,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "Investor Day already held 2026-06-11 (doc 50431); no further investor day or framework update found in the corpus. Q2 FY2027 earnings are the next scheduled print (date not sourced)."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "operating margin",
+    "metric_basis_note": "DXC frames margin as adjusted EBIT margin (non-GAAP; VA operating_income equals company adjusted EBIT, FY2026 $970M = 10-K). Target and consensus are compared on that same adjusted EBIT basis. The stage 1 screen and the quant fields use EBITDA margin.",
+    "current_level_pct": 7.7,
+    "target_level_pct": 9.0,
+    "target_year": "FY2029 (fiscal year ending March 2029)",
+    "has_year": true,
+    "annual_bps": null,
+    "synergy_usd": 1250000000,
+    "synergy_year": "FY2029 (three-year plan horizon); stated as a $1B to $1.5B range of reduced spending, midpoint recorded, not all drops to margin",
+    "statements": [
+      {
+        "quote": "With this improved revenue performance, combined with our customer zero strategy of deploying AI capability internally, we're going to drive margin improvement from our current guidance for fiscal 2027, which is 6%-7%, to an acceleration of 8%-10% within the plan horizon.",
+        "speaker": "Rob Del Bene",
+        "role": "EVP and CFO",
+        "doc_title": "Investor Day 2026",
+        "date": "2026-06-11",
+        "document_id": 50431
+      },
+      {
+        "quote": "Through these efforts, we're targeting reduced spending in the range of $1 billion-$1.5 billion with Agentic productivity improvements in our delivery operations and in our support organizations.",
+        "speaker": "Rob Del Bene",
+        "role": "EVP and CFO",
+        "doc_title": "Investor Day 2026",
+        "date": "2026-06-11",
+        "document_id": 50431
+      },
+      {
+        "quote": "We outlined a disciplined financial framework through fiscal year 2029, including a return to organic growth, non-GAAP EBIT margin expansion, and continued strong free cash flow generation.",
+        "speaker": "Raul Fernandez",
+        "role": "President and CEO",
+        "doc_title": "AGM 2026",
+        "date": "2026-07-21",
+        "document_id": 50432
+      },
+      {
+        "quote": "We continue to anticipate adjusted EBIT margin for the full year in the range of 6%-7%, with margins improving sequentially throughout the year, supported by cost management, operational efficiencies, and improving revenue profile in the second half of the year.",
+        "speaker": "Rob Del Bene",
+        "role": "CFO",
+        "doc_title": "DXC Technology Co Q1 2027 Earnings Call",
+        "date": "2026-07-30",
+        "document_id": 112121
+      }
+    ],
+    "first_stated": "2026-06-11",
+    "times_repeated": 1
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 14.09,
+      "FY2027": 13.04,
+      "FY2028": 13.83
+    },
+    "consensus_margin_at_target_year_pct": 7.71,
+    "gap_bps_vs_target": 129,
+    "gap_assumption": "Baba FY labels follow DXC fiscal years ending March (FY2029 = April 2028 to March 2029). Compares the 9.0% midpoint of the 8% to 10% adjusted EBIT target with FY2029 consensus adjusted EBIT margin of 7.71% ($879.8M on $12,061.6M revenue). Against the 8% low end the gap is 29 bps. FY2029 consensus EBITDA margin is 14.40%; FY2026 is reported actual.",
+    "ebitda_uplift_pct_if_target_hit": 12.6,
+    "source": "Baba data_financials consensus (summary and fundamentals, Visible Alpha)"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      31,
+      -180
+    ],
+    "note": "Q4 FY2026 adjusted EBIT margin 7.57% vs 7.26% (VA, +31 bps). Q1 FY2027 adjusted EBIT margin 5.0%, down 180 bps (Del Bene, doc 112121). Organic revenue fell 6.7% in Q1; FY2027 guide is 6% to 7% adjusted EBIT, below the 7.7% of FY2026, so the plan starts from a step down. Q2 FY2027 guide about 6%."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 2,
+    "C_numeric_framing": 3,
+    "D_unproven": 2,
+    "total": 9
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Closest structural match so far: deeply cheap, a CFO-stated 8% to 10% FY2029 adjusted EBIT target the street models at 7.7%, and an external operating President, but the CEO is not new and margins are still falling.",
+  "open_questions": [
+    "Is Paul Taylor a CEO successor? His remit covers all operations and profitability, and Fernandez's contract runs to 2028-03-31.",
+    "How much of the $1B to $1.5B spending reduction reaches margin versus being reinvested or passed through in AI-driven price competition?",
+    "The prior FY2024 outlook of 10% to 11% adjusted EBIT margin (cited by an analyst on the Q1 FY2023 call, doc 91623) ended at 7.4% (VA FY2024). What makes this plan more credible?"
+  ],
+  "sources": [
+    {
+      "document_id": 50431,
+      "title": "Investor Day 2026",
+      "date": "2026-06-11"
+    },
+    {
+      "document_id": 50432,
+      "title": "AGM 2026",
+      "date": "2026-07-21"
+    },
+    {
+      "document_id": 112121,
+      "title": "DXC Technology Co Q1 2027 Earnings Call",
+      "date": "2026-07-30"
+    },
+    {
+      "document_id": 142365,
+      "title": "DXC Technology Co 8-K 0001688568-26-000068 (Taylor, Gray, Drumgoole)",
+      "date": "2026-07-30"
+    },
+    {
+      "document_id": 142366,
+      "title": "DXC Technology Co 8-K 0001688568-26-000067 (Q1 FY2027 results and guidance)",
+      "date": "2026-07-30"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001688568-25-000028 (CEO and CFO retention awards)",
+      "date": "2025-05-14"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001688568-25-000057 (Boville departure)",
+      "date": "2025-07-08"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps, data_financials, data_profile (Visible Alpha consensus, market data)",
+      "date": "2026-10-01"
+    },
+    {
+      "document_id": 91623,
+      "title": "DXC Technology Co Q1 2023 Earnings Call",
+      "date": "2022"
+    }
+  ],
+  "tool_calls": 21
+}

@@ -1,0 +1,191 @@
+{
+  "ticker": "ADNT",
+  "cid": 1003310,
+  "name": "Adient plc",
+  "industry": "Auto Parts",
+  "as_of": "2026-10-02",
+  "business": "Designs and manufactures automotive seating systems and components (frames, mechanisms, foam, trim) for car and truck OEMs in the Americas, Europe and Asia.",
+  "quant": {
+    "mcap_usd": 1391544000.0,
+    "drawdown": -0.5444,
+    "pctile_ev_ebitda_60m": 0.0,
+    "price_ltm_pct": -0.3007,
+    "ebitda_margin_ltm": 0.0584,
+    "ebitda_margin_fwd_consensus": 0.0572,
+    "industry_median_margin": 0.126,
+    "ev_ebitda_fy": 3.3,
+    "net_debt_ltm_ebitda": 1.85,
+    "ebitda_revision_12m": -0.0733,
+    "ebitda_brokers": 7
+  },
+  "catalyst": {
+    "type": [
+      "new_cfo"
+    ],
+    "events": [
+      {
+        "what": "CFO succession announced: sitting director Peter H. Carlin leaves the board (effective 2026-10-01) to become EVP and CFO; board cut to seven",
+        "who": "Peter H. Carlin",
+        "from": "Adient director; previously Saddle Point Management, GameStop senior technical advisor, Blue Harbour Group managing director, Bernstein analyst",
+        "effective": "2026-11-16",
+        "source": "8-K 0001670541-26-000105",
+        "external_hire": true
+      },
+      {
+        "what": "CFO Mark Oswald announced departure by 2026-12-31 (leaves 2026-11-16 per later 8-K)",
+        "who": "Mark A. Oswald",
+        "from": "",
+        "effective": "2026-07-06",
+        "source": "8-K 0001670541-26-000080",
+        "external_hire": null
+      },
+      {
+        "what": "CEO appointment (outside the 18-month window, context only): internal promotion from EVP and CFO",
+        "who": "Jerome Dorlack",
+        "from": "internal, EVP and CFO",
+        "effective": "2024-01-01",
+        "source": "Baba document_id 88798 (FY2023 10-K)",
+        "external_hire": false
+      }
+    ],
+    "months_since_primary": 0.5,
+    "ceo_months_in_seat": 33.0,
+    "next_event": {
+      "type": "framework update",
+      "date": null,
+      "source": "Baba document_id 129577, Q3 FY2026 call 2026-08-05, CFO Mark Oswald: 'We will issue formal guidance for fiscal 2027 in November, as in prior years'. Exact date not announced; new CFO starts 2026-11-16. No Investor Day found in corpus."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "Company adjusted EBITDA includes equity income; Visible Alpha EBITDA in Baba runs below it (VA FY2026 consensus $793M vs company FY2026 guide about $885M). Street margins are restated to company basis by adding that FY2026 gap. Horizon: 8% was dated (exit fiscal 2027) when first stated 2024-05-03; the latest restatement (2025-11-05) gave no year and a lower '7, 7.5' range, and no FY2026 call repeated 8%, so has_year is false and C is 2 (would be 3 on the original statement alone).",
+    "current_level_pct": 5.84,
+    "target_level_pct": 8.0,
+    "target_year": 2027,
+    "has_year": false,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "The key enablers of margin improvement are listed in order of magnitude and are expected to deliver 200 basis points of margin enhancement. These are the key drivers towards Adient achieving an 8% adjusted EBITDA margin as we exit fiscal year 2027.",
+        "speaker": "Jerome Dorlack",
+        "role": "President and CEO",
+        "doc_title": "Adient plc Q2 2024 Earnings Call",
+        "date": "2024-05-03",
+        "document_id": 86068
+      },
+      {
+        "quote": "I think when you get into 2027, right, you've got your growth, you've got your balance-in, balance-out. Right. You've got your portfolio mix starting to change. Those are all the elements that will continue to walk us up from, you know, the current level of margin up to, you know, call it that, 7, 7.5, you know, approaching that target.",
+        "speaker": "Mark Oswald",
+        "role": "EVP and CFO",
+        "doc_title": "Adient plc Q4 2025 Earnings Call",
+        "date": "2025-11-05",
+        "document_id": 46917
+      },
+      {
+        "quote": "Q3 adjusted EBITDA was $225 million, or 5.7% of sales. During the quarter, we absorbed approximately $32 million of temporary operating related to Middle East conflict and customer supplier-driven disruptions",
+        "speaker": "Mark Oswald",
+        "role": "EVP and CFO",
+        "doc_title": "Adient plc Q3 2026 Earnings Call",
+        "date": "2026-08-05",
+        "document_id": 129577
+      }
+    ],
+    "first_stated": "2024-05-03",
+    "times_repeated": 3
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 5.43,
+      "FY2027": 5.91,
+      "FY2028": 6.28
+    },
+    "consensus_margin_at_target_year_pct": 6.32,
+    "gap_bps_vs_target": 167.8,
+    "gap_assumption": "VA labels keyed to fiscal year end (September): FY2027 = fiscal year ending Sept 2027, the target year. VA-basis consensus EBITDA margin 5.43% / 5.91% / 6.28% (FY2026 to FY2028). Company-basis FY2027 = (VA FY2027 EBITDA $865.9M + ($885M FY2026 guide minus VA FY2026 $793.2M)) / VA FY2027 revenue $15.149B = 6.32%, assuming the equity income gap stays flat. Against 8% the gap is 167.8 bps (208.5 bps on raw VA basis). Against the CFO's softer '7, 7.5' framing the gap is about 68 to 118 bps.",
+    "ebitda_uplift_pct_if_target_hit": 0.2655,
+    "source": "Baba data_financials fundamentals consensus (Visible Alpha) cid 1003310; FY2026 guide from document_id 129577; data_compute"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      -12.3,
+      -52.1
+    ],
+    "note": "VA-basis EBITDA margin: fiscal Q1 2026 4.88% vs 5.01% (-12.3 bps); fiscal Q2 2026 5.43% vs 5.95% (-52.1 bps). Fiscal Q3 2026 (company basis): adjusted EBITDA $225M, 5.7% of sales, 'relatively flat' yoy on sales up 5%, after about $32M of Middle East and supplier disruption costs (CFO says mid 6% ex those items). FY2026 guide held at about $885M EBITDA on about $15B revenue, roughly 5.9%, below FY2025's 6.1%. Margin is moving away from 8%, not toward it."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 2,
+    "C_numeric_framing": 2,
+    "D_unproven": 2,
+    "total": 8
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Very cheap with a pending, unusual CFO hire (ex hedge fund director) and an 8% EBITDA margin target the street sits about 170 bps below, but the target is aging, softened to '7, 7.5' and margins are going backwards.",
+  "open_questions": [
+    "Does the November FY2027 guide (Oswald's last, Carlin's first weeks) re-date or re-base the 8% target, or quietly retire it?",
+    "Why did the board move an investor-background director into the CFO seat: a capital allocation shift (buyback, portfolio exits such as third-party metals) or a margin reset?",
+    "How much of the FY2026 shortfall versus 8% is temporary (Middle East costs, China mix compression of about 100 bps) versus structural EMEA volume weakness?"
+  ],
+  "sources": [
+    {
+      "document_id": 86068,
+      "title": "Adient plc Q2 2024 Earnings Call",
+      "date": "2024-05-03"
+    },
+    {
+      "document_id": 46917,
+      "title": "Adient plc Q4 2025 Earnings Call",
+      "date": "2025-11-05"
+    },
+    {
+      "document_id": 129577,
+      "title": "Adient plc Q3 2026 Earnings Call",
+      "date": "2026-08-05"
+    },
+    {
+      "document_id": 174627,
+      "title": "Adient plc Q2 2026 Earnings Call",
+      "date": "2026-05-06"
+    },
+    {
+      "document_id": 174628,
+      "title": "Adient plc Q1 2026 Earnings Call",
+      "date": "2026-02-04"
+    },
+    {
+      "document_id": 88798,
+      "title": "Adient plc 10-K FY2023 (Dorlack CEO effective 2024-01-01)",
+      "date": "2023-11"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001670541-26-000105 (Carlin to CFO, Oswald departs)",
+      "date": "2026-09-18"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0001670541-26-000080 (Oswald departure notice)",
+      "date": "2026-07-10"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps cid 1003310 (market_data asof 2026-09-30, revisions asof 2026-10-01)",
+      "date": "2026-10-01"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_financials fundamentals consensus cid 1003310",
+      "date": "2026-10-01"
+    },
+    {
+      "document_id": 0,
+      "title": "Stage 1 stage1_ranked.csv (industry median margin 0.126)",
+      "date": "2026-10-02"
+    }
+  ],
+  "tool_calls": 21
+}

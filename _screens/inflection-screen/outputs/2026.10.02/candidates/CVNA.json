@@ -1,0 +1,48 @@
+{
+  "ticker": "CVNA", "cid": 1000004, "name": "Carvana Co", "industry": "Automotive Retailers", "as_of": "2026-10-02",
+  "business": "Carvana runs an online platform that buys, reconditions, finances and delivers used cars to US consumers, and operates wholesale auction sites.",
+  "quant": {"mcap_usd": 71046080000.0, "drawdown": -0.3464, "pctile_ev_ebitda_60m": 0.2069, "price_ltm_pct": -0.1711,
+            "ebitda_margin_ltm": 0.1033, "ebitda_margin_fwd_consensus": 0.1061, "industry_median_margin": 0.06, "ev_ebitda_fy": 19.24,
+            "net_debt_ltm_ebitda": 0.94, "ebitda_revision_12m": 0.0776, "ebitda_brokers": 16},
+  "catalyst": {"type": ["strategy_update"],
+               "events": [
+                 {"what": "New management objective set: 3 million retail units per year at 13.5% adjusted EBITDA margin in 5 to 10 years (now stated as 'by 2030 to 2035'). Strategy update only; no leadership change", "who": "Ernie Garcia (CEO), Mark Jenkins (CFO)", "from": null, "effective": "2025-05-07", "source": "8-K 0001690820-25-000160 (EX-99.1, document_id 108709); Q1 2025 call document_id 225067", "external_hire": null},
+                 {"what": "No CEO or CFO change. Own 8-K Item 5.02 query (2024-07-01 to 2026-10-02) returned one filing, the 2026 annual meeting / 2026 Omnibus Incentive Plan, no personnel change. Items 2.01/1.01 query returned none. Baba 'first earnings call / since joining' search found only Garcia (CEO) and Jenkins (CFO) on every call back to Q1 2017 (document_id 225100)", "who": "Ernest Garcia III, co-founder, Chairman and CEO; Mark Jenkins, CFO", "from": null, "effective": null, "source": "8-K 0001690820-26-000039; ARS 0001690820-26-000025 (document_id 226937)", "external_hire": false}
+               ],
+               "months_since_primary": 16.9, "ceo_months_in_seat": 113.1,
+               "next_event": {"type": "none known", "date": null, "source": "No Investor Day or framework update found in corpus (fiscal_year 2026 search); internal Q2 2026 preview memo (document_id 181094) notes MS saw an investor day announcement as unlikely. ceo_months_in_seat is a FLOOR measured from the 2017-04-28 IPO (Garcia is co-founder and has been CEO since before the IPO; exact start date not in sources)."}},
+  "margin_framing": {"numeric": true, "metric": "adjusted EBITDA margin",
+                     "metric_basis_note": "Target is adjusted EBITDA as % of revenue, tied to 3 million annual retail units. Horizon first stated as '5 to 10 years' (2025-05-07), restated by the CEO as 'by 2030 to 2035' (2026-04-29 and 2026-07-29); target_year uses the earliest bound, 2030. From 2026 reported margins are depressed by 'traditional gross revenue treatment' of vehicles from a marketplace partner (Q2 2026 margin 10.4% vs 12.4%, Jenkins); management has reiterated 13.5% since the change but has not said whether the target was rebased.",
+                     "current_level_pct": 10.4, "target_level_pct": 13.5, "target_year": 2030, "has_year": true,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "In order to continue our rapid march toward fulfilling this mission, we are setting our next objective: to grow to 3 million annual retail sales with 13.5% Adjusted EBITDA margins in the next 5-10 years.", "speaker": "Ernie Garcia", "role": "CEO", "doc_title": "Carvana Co Q1 2025 Earnings Call", "date": "2025-05-07", "document_id": 225067},
+                       {"quote": "Over the next 5-10 years, we plan to prioritize growth over margin within reasonable margin ranges and plan to manage the speed of our growth to ensure we continue to deliver exceptional customer experiences and that we maintain high-quality, efficient operations.", "speaker": "Ernie Garcia", "role": "CEO", "doc_title": "Carvana Co Q1 2025 Earnings Call", "date": "2025-05-07", "document_id": 225067},
+                       {"quote": "I think across the sum of the GPU line items plus expenses, we feel like we've got clear visibility to 13.5% adjusted EBITDA margin, which is our goal.", "speaker": "Ernie Garcia", "role": "CEO", "doc_title": "Carvana Co Q1 2026 Earnings Call", "date": "2026-04-29", "document_id": 140264},
+                       {"quote": "Our midterm goal is to build this machine to sell 3 million cars per year at 13.5% adjusted EBITDA margin by 2030 to 2035. When we announced this goal with our Q1 2025 results, we needed to grow to about six times our scale in order to achieve it. Now, five quarters later, we need to grow to under four times our current scale in order to achieve it.", "speaker": "Ernie Garcia", "role": "CEO", "doc_title": "Carvana Co Q2 2026 Earnings Call", "date": "2026-07-29", "document_id": 110739},
+                       {"quote": "Adjusted EBITDA margin was 10.4%, a decrease from 12.4%, primarily driven by increased retail revenue per unit resulting from the traditional gross revenue treatment mentioned previously.", "speaker": "Mark Jenkins", "role": "CFO", "doc_title": "Carvana Co Q2 2026 Earnings Call", "date": "2026-07-29", "document_id": 110739}
+                     ],
+                     "first_stated": "2025-05-07", "times_repeated": 7},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 10.22, "FY2027": 10.61, "FY2028": 10.77},
+             "consensus_margin_at_target_year_pct": 11.77, "gap_bps_vs_target": 173,
+             "gap_assumption": "Calendar fiscal year (December FYE), so Baba FY labels equal company years. Target year taken as 2030, the EARLIEST end of the 2030 to 2035 window; FY2030 consensus 7,409.6M / 62,960.2M = 11.77% (FY2029 11.34%). Consensus does not extend past FY2030, so the late end of the window cannot be tested; at the FY2028 to FY2030 slope (about 50 bps a year) the street would reach 13.5% around 2033 to 2034, inside management's window. Out-year broker count not checked (16 brokers on the forward year).",
+             "ebitda_uplift_pct_if_target_hit": 14.7, "source": "Baba data_financials consensus (Visible Alpha, summary)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-108, -199], "note": "Order [Q1 2026, Q2 2026]. Q1 2026 672/6,432 = 10.4% vs 488/4,232 = 11.5%; Q2 2026 769/7,376 = 10.4% vs 601/4,840 = 12.4% (consensus actuals). Declines are mainly the gross revenue treatment change (Jenkins, document_id 110739), which stops affecting YoY comparisons from Q3 2026. Absolute adjusted EBITDA hit records; FY2026 guide $2.7B to $3.0B vs $2.24B in 2025. 4-month forward EBITDA revision -2.2% (stabilized), 12-month +7.8%."},
+  "score": {"A_underperformance": 2, "B_catalyst": 1, "C_numeric_framing": 3, "D_unproven": 2, "total": 8},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Scores 8 on mechanics but is not a GXO setup: no leadership change (founder CEO, long-tenured CFO), B=1 only for the May 2025 target; the street sits 173 bps below 13.5% at 2030 but is on a path to reach it inside the 2030 to 2035 window.",
+  "open_questions": ["Was the 13.5% target set on the pre-2026 net revenue basis, and does the gross revenue treatment change make it harder to reach as reported?", "How many brokers sit behind FY2029 and FY2030 consensus, and does the street model 3 million units by 2030?", "Will management narrow 2030 to 2035 to a single year, which is the only way the gap becomes testable?"],
+  "sources": [
+    {"document_id": 225067, "title": "Carvana Co Q1 2025 Earnings Call", "date": "2025-05-07"},
+    {"document_id": 108709, "title": "Carvana 8-K EX-99.1 Q1 2025 shareholder letter (0001690820-25-000160)", "date": "2025-05-07"},
+    {"document_id": 140264, "title": "Carvana Co Q1 2026 Earnings Call", "date": "2026-04-29"},
+    {"document_id": 110739, "title": "Carvana Co Q2 2026 Earnings Call", "date": "2026-07-29"},
+    {"document_id": 6614, "title": "Morgan Stanley Technology, Media & Telecom Conference 2026 (analyst: 'Now it's 4-9 years')", "date": "2026-03-02"},
+    {"document_id": 226937, "title": "Carvana 2025 Annual Report (ARS)", "date": "2026-02-18"},
+    {"document_id": 181094, "title": "Carvana Q2 26 Earnings Preview (internal memo)", "date": "2026-07-29"},
+    {"document_id": 0, "title": "Baba data_comps (market_data, revisions, estimates; asof 2026-09-28 to 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary consensus (Visible Alpha)", "date": "2026-09-28"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02 query 2024-07-01 to 2026-10-02: only 0001690820-26-000039 (annual meeting, incentive plan); Items 2.01/1.01: none", "date": "2026-05-06"}
+  ],
+  "tool_calls": 17
+}

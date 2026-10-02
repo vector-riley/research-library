@@ -1,0 +1,156 @@
+{
+ "ticker": "BJ",
+ "cid": 1004181,
+ "name": "BJ's Wholesale Club Holdings Inc",
+ "industry": "Hypermarkets & Supercenters",
+ "as_of": "2026-10-02",
+ "business": "Operates membership warehouse clubs in the eastern US selling groceries, fresh food, general merchandise and gasoline to paying household and business members.",
+ "quant": {
+  "mcap_usd": 12053996370.0,
+  "drawdown": -0.23294980823745204,
+  "pctile_ev_ebitda_60m": 0.2,
+  "price_ltm_pct": -0.013404825737265424,
+  "ebitda_margin_ltm": 0.0509344947899848,
+  "ebitda_margin_fwd_consensus": 0.05019831072595188,
+  "industry_median_margin": 0.066,
+  "ev_ebitda_fy": 10.508018611077683,
+  "net_debt_ltm_ebitda": 0.5111248768085531,
+  "ebitda_revision_12m": -0.01743585214982224,
+  "ebitda_brokers": 16.0
+ },
+ "catalyst": {
+  "type": [],
+  "events": [
+   {
+    "what": "EVP and Chief Commercial Officer retired, moves to Executive Advisor to 2027-04-01; no successor named in the 8-K. Not a CEO or CFO change",
+    "who": "Paul Cichocki",
+    "from": "Internal",
+    "effective": "2026-08-21",
+    "source": "8-K 0001531152-26-000053",
+    "external_hire": false
+   },
+   {
+    "what": "Chief Membership Officer became EVP Chief Growth Officer (internal title change, per FY2025 10-K executive list)",
+    "who": "Timothy Morningstar",
+    "from": "Internal",
+    "effective": null,
+    "source": "Baba data_profile description (10-K executive officers as of 2026-03-12)",
+    "external_hire": false
+   }
+  ],
+  "months_since_primary": null,
+  "ceo_months_in_seat": 65,
+  "next_event": {
+   "type": "none known",
+   "date": null,
+   "source": "No Investor Day or framework update found after the 2023-03-09 Investor Day (doc 95892). Q3 fiscal 2026 earnings date not sourced. CEO tenure: Eddy President and CEO effective 2021-04-19 (8-K 0001437749-21-012316); CFO Felice since April 2021."
+  }
+ },
+ "margin_framing": {
+  "numeric": false,
+  "metric": "adjusted EBITDA margin",
+  "metric_basis_note": "No margin target. The 2023 Investor Day algorithm is growth-based (low to mid single digit merchandise comps, mid single digit revenue, 'a bit of margin growth', high single to low double digit EPS), and current guidance is merchandise comps 2% to 3% and adjusted EPS $4.60 to $4.80. Management repeatedly prioritizes price investment over margin. EBITDA/revenue is also distorted by gasoline sales, which swing the denominator with fuel prices.",
+  "current_level_pct": 5.09,
+  "target_level_pct": null,
+  "target_year": null,
+  "has_year": false,
+  "annual_bps": null,
+  "synergy_usd": null,
+  "synergy_year": null,
+  "statements": [
+   {
+    "quote": "We think about our long-term financial algorithm, we believe we can build on this momentum and achieve low- to mid-single-digit annual merchandise comps, mid-single-digit total revenue growth, and when we add in a bit of MFI growth and a bit of margin growth, we can deliver high singles to low double-digit annual earnings per share growth.",
+    "speaker": "Bob Eddy",
+    "role": "President and CEO",
+    "doc_title": "Q4 2023 & Investor Day 2023",
+    "date": "2023-03-09",
+    "document_id": 95892
+   },
+   {
+    "quote": "As we sit here today, for the past few years, we've been working towards that economic algorithm that we put forward a couple of years ago on our investor day. This quarter was nice progress towards that, and we do not necessarily see that changing all that much at this point in time, particularly given the level of uncertainty out there in the market.",
+    "speaker": "Bob Eddy",
+    "role": "Chairman and CEO",
+    "doc_title": "BJ's Wholesale Club Holdings Inc Q1 2026 Earnings Call (company Q1 fiscal 2025)",
+    "date": "2025-05-22",
+    "document_id": 146665
+   },
+   {
+    "quote": "Gross profit increased 10.3% to $1.11 billion, and merchandise gross margin rate decreased approximately 20 basis points year-over-year, reflecting the balance of our continued investments in value for our members and our commitment to delivering for our shareholders.",
+    "speaker": "Laura Felice",
+    "role": "CFO",
+    "doc_title": "BJ's Wholesale Club Holdings Inc Q2 2027 Earnings Call (company Q2 fiscal 2026)",
+    "date": "2026-08-21",
+    "document_id": 145010
+   }
+  ],
+  "first_stated": "2023-03-09",
+  "times_repeated": 2
+ },
+ "street": {
+  "consensus_ebitda_margin_by_fy": {
+   "FY2026": 0.05169682784495365,
+   "FY2027": 0.05019831072595188,
+   "FY2028": 0.05040313902703501
+  },
+  "consensus_margin_at_target_year_pct": null,
+  "gap_bps_vs_target": null,
+  "gap_assumption": "Fiscal year ends late January, so Baba FY2026 = company fiscal 2025 (actual, ended 2026-01-31), Baba FY2027 = company fiscal 2026, Baba FY2028 = company fiscal 2027. No margin target, so no gap. Street models margin slightly DOWN from 5.17% to 5.02% then 5.04%, partly gasoline revenue inflation (Q2 net sales +15.9%, total comps +11.9% vs merchandise comps +3.1%).",
+  "ebitda_uplift_pct_if_target_hit": null,
+  "source": "Baba data_financials consensus (Visible Alpha), fetched 2026-10-01"
+ },
+ "evidence_of_progress": {
+  "last_two_quarters_margin_yoy_bps": [
+   -31,
+   -8
+  ],
+  "note": "Q1 fiscal 2026 (Baba 1QFY2027) VA EBITDA margin -31 bps YoY. Q2 fiscal 2026 adjusted EBITDA $347M (+14.3%) on net sales $6.1B (+15.9%), about -8 bps YoY, derived from rounded stated growth rates (Felice, doc 145010). LTM uses VA quarters Baba 2QFY2026 to 1QFY2027 because VA has not yet loaded Q2 fiscal 2026 actuals. Merchandise gross margin -20 bps in Q2 on price investment."
+ },
+ "score": {
+  "A_underperformance": 1,
+  "B_catalyst": 0,
+  "C_numeric_framing": 1,
+  "D_unproven": 2,
+  "total": 4
+ },
+ "disqualified": true,
+ "disqualifier_reason": "No catalyst in the 18-month window and none pending: CEO Eddy since 2021-04-19 and CFO Felice since April 2021; the only Item 5.02 change is the Chief Commercial Officer retirement (2026-08-21); no acquisition 8-K since 2024-07-01. Margin ratio is also partly gasoline-price driven.",
+ "verdict": "Not a GXO setup: stable 5-year CEO and CFO, no deal, no margin target, and management steers to price investment over margin; only modestly cheap.",
+ "open_questions": [
+  "Who replaces Cichocki as Chief Commercial Officer, and is it an external merchant with a margin mandate?",
+  "Will management refresh the 2023 algorithm with an explicit margin component?",
+  "How much of the Q2 EBITDA beat is fuel profit that may not recur?"
+ ],
+ "sources": [
+  {
+   "document_id": 145010,
+   "title": "BJ's Wholesale Club Holdings Inc Q2 2027 Earnings Call",
+   "date": "2026-08-21"
+  },
+  {
+   "document_id": 146665,
+   "title": "BJ's Wholesale Club Holdings Inc Q1 2026 Earnings Call",
+   "date": "2025-05-22"
+  },
+  {
+   "document_id": 95892,
+   "title": "Q4 2023 & Investor Day 2023",
+   "date": "2023-03-09"
+  },
+  {
+   "document_id": 56856,
+   "title": "BJ's Wholesale Club Holdings Inc Q1 2027 Earnings Call",
+   "date": "2026-05-22"
+  },
+  {
+   "document_id": 0,
+   "title": "8-K 0001531152-26-000053 (Cichocki retirement)",
+   "date": "2026-08-21"
+  },
+  {
+   "document_id": 0,
+   "title": "8-K 0001437749-21-012316 (Eddy CEO, Felice CFO effective 2021-04-19)",
+   "date": "2021-05-14"
+  }
+ ],
+ "tool_calls": 20
+}

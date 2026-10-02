@@ -1,0 +1,162 @@
+{
+  "ticker": "GEHC",
+  "cid": 1005488,
+  "name": "GE HealthCare Technologies Inc.",
+  "industry": "Health Care Equipment",
+  "as_of": "2026-10-02",
+  "business": "GE HealthCare sells imaging and ultrasound systems, patient monitoring devices, imaging agents and related services and software to hospitals and healthcare providers worldwide.",
+  "quant": {
+    "mcap_usd": 29046920000.0,
+    "drawdown": -0.3013,
+    "pctile_ev_ebitda_60m": 0.10,
+    "price_ltm_pct": -0.1279,
+    "ebitda_margin_ltm": 0.1717,
+    "ebitda_margin_fwd_consensus": 0.1837,
+    "industry_median_margin": 0.211,
+    "ev_ebitda_fy": 8.87,
+    "net_debt_ltm_ebitda": 2.10,
+    "ebitda_revision_12m": 0.0152,
+    "ebitda_brokers": 13
+  },
+  "catalyst": {
+    "type": ["new_cfo", "board_refresh", "strategy_update", "acquisition"],
+    "events": [
+      {
+        "what": "New CFO appointed after Jay Saccaro resigned (effective 2026-08-14; George Newcomb interim)",
+        "who": "William K. (Bill) Grogan",
+        "from": "EVP and CFO of Xylem since October 2023; SVP and CFO of IDEX 2017 to 2023",
+        "effective": "2026-09-14",
+        "source": "8-K 0001932393-26-000050 (Baba document_id 141465); resignation 8-K 0001932393-26-000039",
+        "external_hire": true
+      },
+      {
+        "what": "Director added; two directors not standing for re-election",
+        "who": "Kevin A. Lobo",
+        "from": "Not stated in the 8-K extract",
+        "effective": "2026-03-13",
+        "source": "8-K 0001932393-26-000013",
+        "external_hire": true
+      },
+      {
+        "what": "Director appointed (pending)",
+        "who": "Pascal Desroches",
+        "from": "Not stated in the 8-K extract",
+        "effective": "2027-01-04",
+        "source": "8-K 0001932393-26-000053",
+        "external_hire": true
+      },
+      {
+        "what": "Strategic review of Patient Care Solutions (sale, continued ownership or other transaction)",
+        "who": "Patient Care Solutions segment",
+        "from": null,
+        "effective": "2026-07-29",
+        "source": "Q2 2026 earnings call, document_id 110756 (Baba call summary)",
+        "external_hire": null
+      },
+      {
+        "what": "Tuck-in acquisition of Intelerad (cloud PACS); no Item 2.01 or 1.01 8-K returned, so not material by SEC test",
+        "who": "Intelerad",
+        "from": null,
+        "effective": null,
+        "source": "J.P. Morgan Healthcare Conference, Arduini, 2026-01-13, document_id 52661",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 0.6,
+    "ceo_months_in_seat": 57.0,
+    "next_event": {
+      "type": "framework update",
+      "date": null,
+      "source": "No Investor Day scheduled in the Baba corpus (last Investor Day 2024-11-21, document_id 68251). 2027 guidance not yet given (Biegelsen to Arduini, Wells Fargo conference 2026-09-09, document_id 219348); the Q3 2026 call will be Grogan's first as CFO, date not sourced."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "operating margin",
+    "metric_basis_note": "Target is ADJUSTED EBIT margin, high teens to 20%+ over the 2026 to 2028 medium term (first set by CFO Helmut Zodl at the December 2022 Investor Day on a three to five year view, doc 93030 search hit; the 20%+ wording and 2026 to 2028 window came later, an analyst noting at Investor Day 2024-11-21, doc 68251, that management had added the plus). Baba VA operating_income matches company adjusted EBIT (Q3 2025 14.8% both). The CEO most recently called the range 17 to 20; target_level_pct uses the 17% floor. Calendar fiscal year, no label shift.",
+    "current_level_pct": 14.2,
+    "target_level_pct": 17.0,
+    "target_year": 2028,
+    "has_year": true,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "But if you think about our aspiration, what we've said is we want to be 17% to high teens to 20% plus by 2028, okay. In order to do that, we need to accelerate some margin improvement.",
+        "speaker": "James (Jay) Saccaro",
+        "role": "CFO",
+        "doc_title": "Wells Fargo 20th Annual Healthcare Conference 2025",
+        "date": "2025-09-04",
+        "document_id": 52654
+      },
+      {
+        "quote": "And we feel very good about this midterm look between 2026 and 2028 of mid-single-digit revenue growth, high-teens to 20%+ adjusted EBIT, high single-digits to low double-digit on EPS, and 90%+ free cash flow.",
+        "speaker": "Peter Arduini",
+        "role": "CEO",
+        "doc_title": "44th Annual J.P. Morgan Healthcare Conference",
+        "date": "2026-01-13",
+        "document_id": 52661
+      },
+      {
+        "quote": "We're maintaining full year guidance. This reflects 3%-4% organic sales growth and 10 basis points to 40 basis points adjusted EBIT margin expansion. That gets us to a range of 15.4%-15.7%.",
+        "speaker": "Peter Arduini",
+        "role": "CEO",
+        "doc_title": "GE Healthcare Technologies, Inc. Q2 2026 Earnings Call",
+        "date": "2026-07-29",
+        "document_id": 110756
+      },
+      {
+        "quote": "Even having those laid on top, which could be worth almost a couple of hundred basis points of headwind. When we said we would be 17-20, we're still on track to that even with those headwinds.",
+        "speaker": "Pete Arduini",
+        "role": "CEO",
+        "doc_title": "Wells Fargo 21st Annual Healthcare Conference",
+        "date": "2026-09-09",
+        "document_id": 219348
+      }
+    ],
+    "first_stated": "2022-12-08",
+    "times_repeated": 9
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {"FY2026": 17.90, "FY2027": 18.55, "FY2028": 18.92},
+    "consensus_margin_at_target_year_pct": 16.44,
+    "gap_bps_vs_target": 56,
+    "gap_assumption": "Like for like: management adjusted EBIT target vs VA consensus operating income (adjusted EBIT) over revenue. FY2028 consensus 16.44%; FY2026 15.27% and FY2027 about 15.9%. Gap is 56 bps to the 17% floor and 206 bps to the 18.5% midpoint of 17 to 20. Street also sits below the FY2026 guide (15.27% vs 15.4% to 15.7%), and its FY2026 to FY2028 path adds about 58 bps a year.",
+    "ebitda_uplift_pct_if_target_hit": 3.0,
+    "source": "Baba data_financials summary and fundamentals (Visible Alpha consensus), fetched 2026-10-01"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [-150, -40],
+    "note": "Order [Q1 2026, Q2 2026], adjusted EBIT margin, CFO on the calls: Q1 13.5% down about 150 bps (tariffs; doc 189150), Q2 14.2% down 40 bps (PCS problems plus memory chip, oil and freight inflation; doc 110756). FY2026 guide 15.4% to 15.7% (+10 to 40 bps) needs about 250 bps of second-half lift over the first half (Wells Fargo conference summary, doc 219348). Orders +11.1% organic, book-to-bill 1.15x in Q2. Q2 2026 actuals are not yet loaded in Baba VA, so LTM EBITDA uses Q2 2025 to Q1 2026."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 2,
+    "C_numeric_framing": 3,
+    "D_unproven": 1,
+    "total": 8
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Partial GXO match: cheap (10th pctile EV/EBITDA, down 30%) with a dated 17% to 20%+ 2028 adjusted EBIT target the street models only to 16.4%, but the catalyst is a new external CFO under a 57-month CEO, and the target is four years old.",
+  "open_questions": [
+    "Will Grogan reaffirm or re-base the 17% to 20%+ 2028 target on his first call (Q3 2026) or with 2027 guidance?",
+    "Does a Patient Care Solutions sale lift group adjusted EBIT margin enough to close the gap mechanically, and what is the dilution?",
+    "Can the second half deliver the roughly 250 bps lift over the first half needed for the 15.4% to 15.7% FY2026 guide, given the street is already below the low end?"
+  ],
+  "sources": [
+    {"document_id": 141465, "title": "GE HealthCare 8-K, CFO appointment (0001932393-26-000050)", "date": "2026-08-18"},
+    {"document_id": 52654, "title": "Wells Fargo 20th Annual Healthcare Conference 2025", "date": "2025-09-04"},
+    {"document_id": 52661, "title": "44th Annual J.P. Morgan Healthcare Conference", "date": "2026-01-13"},
+    {"document_id": 189150, "title": "GE Healthcare Technologies, Inc. Q1 2026 Earnings Call", "date": null},
+    {"document_id": 110756, "title": "GE Healthcare Technologies, Inc. Q2 2026 Earnings Call", "date": "2026-07-29"},
+    {"document_id": 219348, "title": "Wells Fargo 21st Annual Healthcare Conference", "date": "2026-09-09"},
+    {"document_id": 93030, "title": "Investor Day 2022", "date": "2022-12-08"},
+    {"document_id": 68251, "title": "Investor Day 2024", "date": "2024-11-21"},
+    {"document_id": 101060, "title": "GE Healthcare Holding LLC S-1 (Arduini CEO of GE healthcare business since January 2022)", "date": "2022-12-14"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0001932393-26-000039, -000050, -000053, -000013, 0001932393-25-000044; no Item 2.01/1.01 filings since 2024-07-01", "date": "2026-09-22"},
+    {"document_id": 0, "title": "Baba data_comps and data_financials (Visible Alpha consensus, market_data asof 2026-09-30)", "date": "2026-10-01"}
+  ],
+  "tool_calls": 15
+}

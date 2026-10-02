@@ -1,0 +1,135 @@
+{
+  "ticker": "HIMS",
+  "cid": 1004973,
+  "name": "Hims & Hers Health, Inc.",
+  "industry": "Health Care Services",
+  "as_of": "2026-10-02",
+  "business": "Hims & Hers runs a subscription telehealth platform selling prescription and wellness treatments (weight loss, sexual health, hair, dermatology, mental health) directly to consumers.",
+  "quant": {
+    "mcap_usd": 6790161491.8,
+    "drawdown": -0.5666,
+    "pctile_ev_ebitda_60m": 0.2807,
+    "price_ltm_pct": -0.4748,
+    "ebitda_margin_ltm": 0.1144,
+    "ebitda_margin_fwd_consensus": 0.1002,
+    "industry_median_margin": 0.10,
+    "ev_ebitda_fy": 18.15,
+    "net_debt_ltm_ebitda": 1.75,
+    "ebitda_revision_12m": -0.1804,
+    "ebitda_brokers": 14
+  },
+  "catalyst": {
+    "type": ["acquisition"],
+    "events": [
+      {
+        "what": "Acquisition of Eucalyptus (Australia-based digital health; Australia, UK, Germany, Canada, Japan) closed; up to $1.15B aggregate consideration, about 17% of market cap; running at break-even to moderate losses per CFO; no Item 2.01 or 1.01 8-K returned",
+        "who": "Eucalyptus",
+        "from": null,
+        "effective": "2026-06-01",
+        "source": "10-Q for quarter ended 2026-06-30, document_id 131752 (Risk Factors: closed June 1, 2026, up to $1.15 billion)",
+        "external_hire": null
+      },
+      {
+        "what": "COO change: Nader Kabbani to advisory role; Mike Chi (Hims since April 2021, previously Chief Commercial Officer) appointed COO",
+        "who": "Mike Chi",
+        "from": "Hims & Hers Chief Commercial Officer; earlier CMO at Zola",
+        "effective": "2025-11-02",
+        "source": "8-K 0001773751-25-000331; DEF 14A document_id 38839",
+        "external_hire": false
+      },
+      {
+        "what": "Earlier bolt-ons: Zava (July 2025) and Medici (November 2025)",
+        "who": "Zava, Medici",
+        "from": null,
+        "effective": "2025-07-01",
+        "source": "10-Q document_id 37744 (month only stated; day not given)",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 4.0,
+    "ceo_months_in_seat": null,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "No Investor Day found in Baba for 2026. CFO declined to speak to 2027 yet (Q2 2026 call, 2026-08-10, document_id 131674); the company is moving to an annual shareholder letter (Q1 2026 call, document_id 187001). Q3 2026 results date not sourced."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "Target is dollars plus implied level: at least $6.5B revenue and $1.3B adjusted EBITDA by 2030 (20%), set by the CEO on 2025-05-05 and repeated by CFO and CEO every quarter since; it succeeds a 2024 'at least 20% no later than 2030' margin goal (CFO, Q2 2024 call, doc 50887 search hit) and an older 20% to 30% long-term range. Near term runs the other way: FY2026 guide cut from $300M to $375M (Q4 2025 call) to $275M to $325M, about 9% margin (Q2 2026 call), on branded weight loss and international mix. Calendar fiscal year, no label shift.",
+    "current_level_pct": 8.0,
+    "target_level_pct": 20.0,
+    "target_year": 2030,
+    "has_year": true,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "Consistent execution is allowing us to confidently outline new long-term financial objectives. By 2030, we expect to generate at least $6.5 billion in revenue and $1.3 billion in adjusted EBITDA.",
+        "speaker": "Andrew Dudum",
+        "role": "CEO",
+        "doc_title": "Hims & Hers Health Inc Q1 2025 Earnings Call",
+        "date": "2025-05-05",
+        "document_id": 50879
+      },
+      {
+        "quote": "This supports our continued confidence in the 2030 ambitions we outlined last year. It'll be $6.5 billion in revenue and $1.3 billion in adjusted EBITDA.",
+        "speaker": "Yemi Okupe",
+        "role": "CFO",
+        "doc_title": "Hims & Hers Health Inc Q1 2026 Earnings Call",
+        "date": "2026-05-11",
+        "document_id": 187001
+      },
+      {
+        "quote": "It is our expectation that 2026 adjusted EBITDA will be between $275 million and $325 million. These adjusted EBITDA and revenue ranges imply an adjusted EBITDA margin of 9% at the midpoint of both ranges.",
+        "speaker": "Yemi Okupe",
+        "role": "CFO",
+        "doc_title": "Hims & Hers Health Inc Q2 2026 Earnings Call",
+        "date": "2026-08-10",
+        "document_id": 131674
+      }
+    ],
+    "first_stated": "2025-05-05",
+    "times_repeated": 7
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {"FY2026": 9.18, "FY2027": 10.02, "FY2028": 11.09},
+    "consensus_margin_at_target_year_pct": 15.03,
+    "gap_bps_vs_target": 497,
+    "gap_assumption": "Like for like: management's implied 20% adjusted EBITDA margin in 2030 ($1.3B / $6.5B) vs VA consensus FY2030 EBITDA / revenue ($753M / $5.01B). FY2030 consensus revenue sits below FY2029 ($5.10B), which points to thin long-dated coverage; the dollar gap ($753M vs $1.3B) is larger than the margin gap.",
+    "ebitda_uplift_pct_if_target_hit": 33.1,
+    "source": "Baba data_financials summary consensus (Visible Alpha), fetched 2026-10-01"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [-826, -709],
+    "note": "Order [Q1 2026, Q2 2026]. Q1 from Baba VA actuals (7.3% vs 15.5%); Q2 uses the CFO's rounded 8% (doc 131674) vs the VA Q2 2025 actual of 15.1%. Q3 2026 guide is 10% at the midpoint. Margins are falling by choice (branded GLP-1 and international mix, reinvestment), and the 12-month forward EBITDA revision is -18% even as revenue estimates rose 25%."
+  },
+  "score": {
+    "A_underperformance": 1,
+    "B_catalyst": 2,
+    "C_numeric_framing": 3,
+    "D_unproven": 2,
+    "total": 8
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "The rubric says 8, but this is a weak GXO match: a founder CEO with no reset, a 2030 20% EBITDA target set in 2025, and margins halved by choice. The 500 bps street gap reflects credibility, not neglect.",
+  "open_questions": [
+    "Is the 2030 target still intact after the FY2026 EBITDA guide was cut twice, and will management restate it with 2027 guidance?",
+    "How much of the street gap is thin FY2030 coverage (consensus revenue falls from FY2029 to FY2030) rather than real disbelief?",
+    "Does regulatory risk on compounded GLP-1 and peptide offerings cap the margin path regardless of scale?"
+  ],
+  "sources": [
+    {"document_id": 50879, "title": "Hims & Hers Health Inc Q1 2025 Earnings Call", "date": "2025-05-05"},
+    {"document_id": 187001, "title": "Hims & Hers Health Inc Q1 2026 Earnings Call", "date": "2026-05-11"},
+    {"document_id": 131674, "title": "Hims & Hers Health Inc Q2 2026 Earnings Call", "date": "2026-08-10"},
+    {"document_id": 131752, "title": "Hims & Hers Health, Inc. 10-Q (quarter ended 2026-06-30)", "date": "2026-08-10"},
+    {"document_id": 37744, "title": "Hims & Hers Health, Inc. 10-Q (quarter ended 2026-03-31)", "date": null},
+    {"document_id": 38839, "title": "Hims & Hers Health, Inc. DEF 14A", "date": null},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0001773751-25-000331 (COO), 0001773751-26-000149 (CAO resigning 2026-10-09), 0001773751-25-000128; no CEO or CFO change; no Item 2.01/1.01 since 2024-07-01", "date": "2026-07-17"},
+    {"document_id": 0, "title": "Baba data_comps and data_financials summary (Visible Alpha consensus, market_data asof 2026-09-30)", "date": "2026-10-01"}
+  ],
+  "tool_calls": 15
+}

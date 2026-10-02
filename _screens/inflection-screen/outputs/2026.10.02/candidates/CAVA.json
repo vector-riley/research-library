@@ -1,0 +1,43 @@
+{
+  "ticker": "CAVA", "cid": 1005560, "name": "Cava Group, Inc.", "industry": "Restaurants & Bars", "as_of": "2026-10-02",
+  "business": "Operates fast-casual Mediterranean CAVA restaurants for US consumers and sells its dips, spreads and dressings through grocery stores.",
+  "quant": {"mcap_usd": 6436858125.0, "drawdown": -0.6414, "pctile_ev_ebitda_60m": 0.0, "price_ltm_pct": -0.1045,
+            "ebitda_margin_ltm": 0.1329, "ebitda_margin_fwd_consensus": 0.1326, "industry_median_margin": 0.166, "ev_ebitda_fy": 27.47,
+            "net_debt_ltm_ebitda": 1.09, "ebitda_revision_12m": -0.0736, "ebitda_brokers": 19},
+  "catalyst": {"type": ["board_refresh"],
+               "events": [
+                 {"what": "Chief Operations Officer departed (covered termination without cause); SVP Ops named interim head", "who": "Jennifer Somers out; Jonathan Braatvedt interim", "from": null, "effective": "2025-09-23", "source": "8-K 0001628280-25-042935", "external_hire": null},
+                 {"what": "Chief Operations Officer appointed (below CEO/CFO level)", "who": "Douglas W. Thompson", "from": "CEO of Tumble 22; ex COO Texas Roadhouse", "effective": "2026-03-02", "source": "8-K 0001628280-26-001818", "external_hire": true},
+                 {"what": "Director retired at end of term", "who": "Karen Kochevar", "from": null, "effective": "2026-06-22", "source": "8-K 0001628280-26-026283", "external_hire": null},
+                 {"what": "Director appointed, board expanded 8 to 9", "who": "Amiee Lynn Thomas", "from": "Ulta Beauty (Chief Retail Officer)", "effective": "2026-07-29", "source": "8-K 0001628280-26-051556", "external_hire": true}
+               ],
+               "months_since_primary": 7.0, "ceo_months_in_seat": 189.0,
+               "next_event": {"type": "none known", "date": null, "source": "No Investor Day or framework update found in Baba corpus (lexical 'investor day' search across all CAVA documents). CEO tenure is a lower bound: S-1 (doc 100610) says Schulman has been CEO 'since 2010'."}},
+  "margin_framing": {"numeric": false, "metric": "adjusted EBITDA margin",
+                     "metric_basis_note": "The only numbers are one-year FY2026 guides: restaurant-level profit margin 23.7% to 24.3% (a restaurant-level metric, guided below the 25.7% Q2 2026 print and the 26.3% Q2 2025 level) and adjusted EBITDA $181M to $191M. Neither frames an expansion; expansion language is qualitative, so C is scored as qualitative.",
+                     "current_level_pct": 13.3, "target_level_pct": null, "target_year": null, "has_year": false,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "As a reminder, we remain focused on sustainable margin expansion over time, and we will continue to make investments where we believe they strengthen the guest experience, support our teams, and generate attractive returns.", "speaker": "Tricia Tolivar", "role": "CFO", "doc_title": "Cava Group, Inc. Q2 2026 Earnings Call", "date": "2026-08-11", "document_id": 133210},
+                       {"quote": "We are reiterating our guidance to expect the following: 75 to 77 net new CAVA restaurant openings, same restaurant sales at 4.5%-6.5%, CAVA restaurant level profit margin between 23.7%-24.3%, pre-opening costs between $22 million and $22.5 million, and Adjusted EBITDA, including the burden of pre-opening costs between $181 million and $191 million.", "speaker": "Tricia Tolivar", "role": "CFO", "doc_title": "Cava Group, Inc. Q2 2026 Earnings Call", "date": "2026-08-11", "document_id": 133210},
+                       {"quote": "CAVA restaurant level profit in the second quarter was $93.8 million or 25.7% of revenue, compared to $73.3 million or 26.3% of revenue in the prior year period", "speaker": "Tricia Tolivar", "role": "CFO", "doc_title": "Cava Group, Inc. Q2 2026 Earnings Call", "date": "2026-08-11", "document_id": 133210}
+                     ],
+                     "first_stated": "2026-08-11", "times_repeated": 1},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 12.71, "FY2027": 13.26, "FY2028": 14.34},
+             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": null, "gap_assumption": "December year end (52/53 weeks), Baba FY labels equal company fiscal years. No expansion target, so no gap. For reference, the FY2026 adjusted EBITDA guide midpoint ($186M on $1,506M consensus revenue) is 36 bps BELOW consensus EBITDA margin; consensus EBITDA of $191.3M sits at the top of the $181M to $191M guide.",
+             "ebitda_uplift_pct_if_target_hit": null, "source": "Baba data_financials consensus (fundamentals, Visible Alpha)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [57, -3], "note": "Order is [Q1 2026, Q2 2026], adjusted EBITDA margin. Q1 2026 (16 weeks) $61.7M / $438.3M vs $44.9M / $331.8M (VA actuals). Q2 2026 $54.7M / $365.4M (Tolivar, doc 133210) vs $42.1M / $280.6M. Restaurant-level margin fell 60 bps YoY in Q2 2026 to 25.7%; FY2026 RLM guide 23.7% to 24.3%."},
+  "score": {"A_underperformance": 2, "B_catalyst": 1, "C_numeric_framing": 1, "D_unproven": 2, "total": 6},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Not a GXO setup: a de-rated high-growth unit roll-out with a founder CEO of 15+ years, a new COO only, and margins guided down; D scores 2 only mechanically because estimates have flattened.",
+  "open_questions": ["Will the new COO Doug Thompson's operating agenda (pre-marinated chicken, back-of-house simplification) be translated into a numeric restaurant-level or EBITDA margin target?", "Is the 2026 restaurant-level margin step-down (23.7% to 24.3% vs 26.3% in Q2 2025) a reinvestment choice or structural cost pressure from wages and food costs?", "How much of the 12-month -7.4% forward EBITDA revision reflects the Cyclospora-related traffic hit versus lower margin assumptions?"],
+  "sources": [
+    {"document_id": 133210, "title": "Cava Group, Inc. Q2 2026 Earnings Call", "date": "2026-08-11"},
+    {"document_id": 189394, "title": "Cava Group, Inc. Q1 2026 Earnings Call (search snippets: RLM guide raised top end by 10 bps)", "date": "2026-05-19"},
+    {"document_id": 100610, "title": "CAVA GROUP, INC. S-1 (CEO since 2010; 20% new-unit RLM target economics), accession 0001628280-23-018945", "date": null},
+    {"document_id": 0, "title": "Baba data_comps (market_data, revisions, estimates; asof 2026-09-30 to 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials fundamentals consensus (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02 filings: 0001628280-26-051556, 0001628280-26-045042, 0001628280-26-026283, 0001628280-26-001818, 0001628280-25-042935; Item 2.01/1.01 query returned none", "date": "2025-09-26 to 2026-08-03"}
+  ],
+  "tool_calls": 21
+}
