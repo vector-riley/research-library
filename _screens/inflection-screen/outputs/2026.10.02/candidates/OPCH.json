@@ -1,0 +1,43 @@
+{
+  "ticker": "OPCH", "cid": 1000529, "name": "Option Care Health, Inc.", "industry": "Long Term and Alternative Care", "as_of": "2026-10-02",
+  "business": "Provides home and alternate-site infusion therapy, drugs and nursing for acute and chronic conditions, paid mainly by health plans, Medicare and Medicaid across the US.",
+  "quant": {"mcap_usd": 3465691300.0, "drawdown": -0.3854, "pctile_ev_ebitda_60m": 0.05, "price_ltm_pct": -0.1898,
+            "ebitda_margin_ltm": 0.0819, "ebitda_margin_fwd_consensus": 0.0847, "industry_median_margin": 0.111, "ev_ebitda_fy": 8.53,
+            "net_debt_ltm_ebitda": 2.01, "ebitda_revision_12m": -0.0936, "ebitda_brokers": 11},
+  "catalyst": {"type": ["new_cfo"],
+               "events": [
+                 {"what": "EVP and CFO appointed (external hire); prior CFO Michael Shapiro moved to a non-executive role through 2026-03-31. MISSED by the Stage 2 sweep.", "who": "Meenal A. Sethna", "from": "Littelfuse, Inc. (EVP and CFO); earlier Illinois Tool Works, Motorola, Baxter", "effective": "2025-10-01", "source": "8-K 0001104659-25-080912", "external_hire": true},
+                 {"what": "Chief Growth Officer departed (below CEO/CFO level)", "who": "Christopher L. Grashoff", "from": null, "effective": "2026-05-08", "source": "8-K 0001014739-26-000014", "external_hire": null},
+                 {"what": "CID portfolio 'reset' (Stelara biosimilars, patient loss): about 600 bps 2026 revenue headwind and about $55M gross profit headwind; 2026 revenue guide cut", "who": "John Rademacher (CEO), Meenal Sethna (CFO)", "from": null, "effective": "2026-04-30", "source": "document_id 195187", "external_hire": null}
+               ],
+               "months_since_primary": 12.0, "ceo_months_in_seat": 85.9,
+               "next_event": {"type": "none known", "date": null, "source": "No Investor Day or long-term framework date found in Baba corpus (lexical 'investor day', FY2026). CEO declined to restate a multi-year algorithm on the Q2 2026 call (doc 110791, 2026-07-29). Next is the Q3 2026 earnings call (date not in Baba)."}},
+  "margin_framing": {"numeric": false, "metric": "adjusted EBITDA margin",
+                     "metric_basis_note": "No margin level, rate or dated savings figure found. Closest is the CFO's 2026 guide that SG&A growth stays at or slightly below gross profit growth (operating leverage, no number) and unquantified 'programs to drive further reductions in our cost structure'. Implied 2026 guide margin is about 8.5% (EBITDA $480M to $495M on revenue $5.675B to $5.775B).",
+                     "current_level_pct": 8.2, "target_level_pct": null, "target_year": null, "has_year": false,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "Our EBITDA and EPS guidance reflects a number of actions we continue to take, including initiatives to drive additional revenue and gross profit growth, implementing programs to drive further reductions in our cost structure, and reducing operating costs, including other cost management initiatives and variable incentive compensation. We continue to expect SG&A growth to remain at or slightly below gross profit growth for the full-year 2026.", "speaker": "Meenal Sethna", "role": "EVP and CFO", "doc_title": "Option Care Health, Inc. Q2 2026 Earnings Call", "date": "2026-07-29", "document_id": 110791},
+                       {"quote": "There are still significant opportunities to improve process, enhance productivity, strengthen patient access, expand our clinical reach, and drive growth.", "speaker": "John Rademacher", "role": "President and CEO", "doc_title": "Option Care Health, Inc. Q2 2026 Earnings Call", "date": "2026-07-29", "document_id": 110791},
+                       {"quote": "I want to close by emphasizing that while I am not satisfied with our revenue growth momentum, I do believe our business fundamentals remain intact and solid. We are in an execution-driven organization and are focused on building from this reset through coverage, conversion, and enhanced service levels", "speaker": "John Rademacher", "role": "President and CEO", "doc_title": "Option Care Health, Inc. Q1 2026 Earnings Call", "date": "2026-04-30", "document_id": 195187}
+                     ],
+                     "first_stated": "2026-04-30", "times_repeated": 2},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 8.39, "FY2027": 8.52, "FY2028": 8.65},
+             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": null, "gap_assumption": "December year end, Baba FY labels equal calendar years. No management margin target exists, so no gap can be computed; D is scored on the 4-month revision rule (-0.3%, stabilized). Street already models about 25 bps of expansion from FY2026 to FY2028.",
+             "ebitda_uplift_pct_if_target_hit": null, "source": "Baba data_financials consensus (fundamentals, Visible Alpha, fetched 2026-10-01)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-63, 8], "note": "Order is [Q1 2026, Q2 2026]. Q1 2026 7.76% vs 8.38% (VA). Q2 2026 adjusted EBITDA $117.5M, up 3%, on revenue up 2% (Sethna, doc 110791); margin change approximated at +8 bps using Q2 2025 revenue x 1.02 because only a rounded $1.4B is stated. VA has not loaded Q2 2026, so LTM uses Q2 2025 to Q1 2026 (8.19%). SG&A down 3% YoY in Q2 to about 11% of revenue."},
+  "score": {"A_underperformance": 2, "B_catalyst": 2, "C_numeric_framing": 1, "D_unproven": 2, "total": 7},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Cheap, below-peer margin, stabilized estimates and an external CFO a year in, but management has put no number on the margin; it is a CID-reset recovery story waiting for a framework.",
+  "open_questions": ["Will Sethna and Rademacher set a multi-year margin or cost-savings target, and is any investor day or framework update planned?", "Is the CID portfolio reset (about $55M gross profit headwind) fully in the 2026 base, so 2027 margins can expand from 8.5%?", "How much of the Q2 SG&A decline was variable compensation that comes back in 2027?"],
+  "sources": [
+    {"document_id": 110791, "title": "Option Care Health, Inc. Q2 2026 Earnings Call", "date": "2026-07-29"},
+    {"document_id": 195187, "title": "Option Care Health, Inc. Q1 2026 Earnings Call", "date": "2026-04-30"},
+    {"document_id": 54794, "title": "Option Care Health, Inc. Q3 2025 Earnings Call (Sethna's first call; search snippets only)", "date": null},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0001104659-25-080912 (CFO Sethna, effective 2025-10-01), 0001014739-26-000014, 0001014739-24-000041; CEO appointment 0001144204-19-038051 (effective 2019-08-06). Item 2.01/1.01 query 2024-07 to 2026-10 returned nothing.", "date": "2019-08-07 to 2026-05-05"},
+    {"document_id": 0, "title": "Baba data_comps (market_data, revisions, estimates; asof 2026-09-30 to 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials fundamentals consensus (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_profile (profile summary, 10-K business description)", "date": "2026-09-23"}
+  ],
+  "tool_calls": 18
+}

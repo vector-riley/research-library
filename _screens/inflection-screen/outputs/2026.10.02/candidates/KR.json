@@ -1,0 +1,94 @@
+{
+  "ticker": "KR",
+  "cid": 1002959,
+  "name": "THE KROGER CO.",
+  "industry": "Food Retailers",
+  "as_of": "2026-10-02",
+  "business": "Kroger operates US supermarkets, pharmacies and fuel centers, selling groceries, drugs, general merchandise and fuel to consumers in stores and online.",
+  "quant": {
+    "mcap_usd": 36163840000.0,
+    "drawdown": -0.2152,
+    "pctile_ev_ebitda_60m": 0.4167,
+    "price_ltm_pct": -0.1107,
+    "ebitda_margin_ltm": 0.0540,
+    "ebitda_margin_fwd_consensus": 0.0535,
+    "industry_median_margin": 0.054,
+    "ev_ebitda_fy": 6.25,
+    "net_debt_ltm_ebitda": 1.77,
+    "ebitda_revision_12m": -0.0516,
+    "ebitda_brokers": 16
+  },
+  "catalyst": {
+    "type": ["new_ceo", "new_cfo", "acquisition", "board_refresh"],
+    "events": [
+      {"what": "Chairman and CEO Rodney McMullen resigned (personal conduct); director Ron Sargent named interim CEO and Chairman", "who": "Ronald Sargent", "from": "Kroger director since 2006, ex Chairman and CEO of Staples", "effective": "2025-03-02", "source": "8-K 0001104659-25-019465", "external_hire": false},
+      {"what": "New CFO", "who": "David Kennerley", "from": "PepsiCo, CFO Europe", "effective": "2025-04-03", "source": "8-K 0001104659-25-012963", "external_hire": true},
+      {"what": "Permanent CEO and director", "who": "Gregory S. Foran", "from": "CEO Air New Zealand 2020 to 2025; ex EVP, President and CEO Walmart U.S.", "effective": "2026-02-10", "source": "8-K 0001104659-26-012061", "external_hire": true},
+      {"what": "Sargent ceases to be an employee, continues as Non-Executive Chairman", "who": "Ronald Sargent", "from": "", "effective": "2026-07-01", "source": "8-K 0001104659-26-078272", "external_hire": null},
+      {"what": "Agreement to acquire Giant Eagle for about $1.65B ($1.25B cash plus about $400M assumed debt); pending regulatory review, close expected 2027", "who": "Giant Eagle, Inc.", "from": "", "effective": "2026-07-01", "source": "8-K 0001104659-26-079552 (Baba document_id 143346)", "external_hire": null},
+      {"what": "EVP and Chief Store Operations Officer", "who": "Mark Ibbotson", "from": "ex Walmart U.S. EVP Central Operations and Realty; McKinsey senior advisor", "effective": "2026-09-14", "source": "8-K 0001104659-26-104763", "external_hire": true}
+    ],
+    "months_since_primary": 7.7,
+    "ceo_months_in_seat": 7.7,
+    "next_event": {"type": "investor day", "date": "2026-10-20", "source": "Greg Foran, Q1 2027 Earnings Call (company Q1 fiscal 2026), 2026-06-18, document_id 45171: 'investor update on October 20'; reconfirmed for October on Q2 2027 call 2026-09-11, document_id 220696"}
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "operating margin",
+    "metric_basis_note": "Only numeric frame is a dollar figure: about $400M incremental e-commerce operating profit in fiscal 2026 from closing three automated fulfillment centers, set by the interim CEO and CFO in Dec 2025 and embedded in the fiscal 2026 adjusted FIFO operating profit guide of $5.0B to $5.2B. CFO said part of the $400M is depreciation, so the EBITDA effect is smaller, and savings are earmarked for price reinvestment. The new CEO has given no margin level or multi-year number; he deferred 'specific long-term targets' to the 2026-10-20 investor update.",
+    "current_level_pct": 5.40,
+    "target_level_pct": null,
+    "target_year": 2026,
+    "has_year": true,
+    "annual_bps": null,
+    "synergy_usd": 400000000,
+    "synergy_year": 2026,
+    "statements": [
+      {"quote": "From a financial perspective, we're significantly accelerating the profitability of our e-commerce business. Closing three fulfillment centers and increasing store-based delivery will deliver approximately $400 million in incremental e-commerce operating profit in 2026.", "speaker": "David Kennerley", "role": "CFO", "doc_title": "THE KROGER CO. Q3 2026 Earnings Call", "date": "2025-12-04", "document_id": 45174},
+      {"quote": "To invest more aggressively in the customer experience, we have to be disciplined and aggressive on costs. I see significant opportunity here, and we're going after every available margin dollar across the business.", "speaker": "Greg Foran", "role": "CEO", "doc_title": "THE KROGER CO. Q4 2026 Earnings Call", "date": "2026-03-05", "document_id": 45173},
+      {"quote": "Whilst I'm not going to put a number on it, we will share more in the fall about what we think the multi-year opportunity is.", "speaker": "David Kennerley", "role": "CFO", "doc_title": "THE KROGER CO. Q1 2027 Earnings Call", "date": "2026-06-18", "document_id": 45171},
+      {"quote": "As we update you guys in October, that's going to be the model. Generate savings, invest in value, expand the margins over time.", "speaker": "David Kennerley", "role": "CFO", "doc_title": "THE KROGER CO. Q2 2027 Earnings Call", "date": "2026-09-11", "document_id": 220696},
+      {"quote": "In October, we will hold our investor update. We will lay out the long-term framework, how we grow sales in store and online, how we fund the customer experience through cost savings, and what that means for the earnings power of this company.", "speaker": "Greg Foran", "role": "CEO", "doc_title": "THE KROGER CO. Q2 2027 Earnings Call", "date": "2026-09-11", "document_id": 220696}
+    ],
+    "first_stated": "2025-12-04",
+    "times_repeated": 3
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {"FY2026": 5.47, "FY2027": 5.35, "FY2028": 5.35},
+    "consensus_margin_at_target_year_pct": 5.35,
+    "gap_bps_vs_target": null,
+    "gap_assumption": "No margin level stated, so no gap. VA labels are keyed to fiscal year end (January): VA FY2026 = company fiscal 2025 (reported, 5.47%), VA FY2027 = company fiscal 2026 (the $400M year, 5.35% consensus), VA FY2028 = company fiscal 2027 (5.35%). Street models flat to slightly lower margin through fiscal 2027, consistent with savings reinvested in price.",
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials summary consensus (Visible Alpha) cid 1002959; margins via data_compute"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [-2.3, -22.6],
+    "note": "VA quarterly EBITDA margin: 4QFY-2026 (company Q4 fiscal 2025) -2.3 bps yoy; 1QFY-2027 (company Q1 fiscal 2026) -22.6 bps yoy. VA has not yet loaded the Q2 fiscal 2026 actual (reported 2026-09-11), where FIFO gross margin ex fuel rose 13 bps but OG&A rate rose 33 bps; ID sales guide cut to 0.2% to 0.8% from 1% to 2% while the $5.0B to $5.2B operating profit guide was held. LTM uses VA 2QFY-2026 to 1QFY-2027."
+  },
+  "score": {"A_underperformance": 0, "B_catalyst": 3, "C_numeric_framing": 2, "D_unproven": 2, "total": 7},
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Live leadership setup (external ex Walmart U.S. CEO 7.7 months in, external CFO and store ops chief, pending Giant Eagle deal, investor update 2026-10-20) but the stock is not cheap or broken and the only numeric frame is a one-year, reinvested $400M e-commerce item; the real test is whether October brings a margin target above the flat 5.35% street path.",
+  "open_questions": [
+    "Does the 2026-10-20 investor update give a multi-year margin or cost-savings target with a year, and how far above the 5.35% fiscal 2026 to 2027 consensus margin does it sit?",
+    "How much of the savings program drops to EBITDA versus funding price, given Foran's 'savings fund value' formula and an OG&A rate up 33 bps in Q2?",
+    "Does Giant Eagle (about $1.65B) come with a synergy number, and does the ID sales guide cut (0.2% to 0.8%) push fiscal 2026 EBITDA estimates lower before October?"
+  ],
+  "sources": [
+    {"document_id": 45174, "title": "THE KROGER CO. Q3 2026 Earnings Call (company Q3 fiscal 2025)", "date": "2025-12-04"},
+    {"document_id": 45173, "title": "THE KROGER CO. Q4 2026 Earnings Call (company Q4 fiscal 2025, Foran first call)", "date": "2026-03-05"},
+    {"document_id": 45171, "title": "THE KROGER CO. Q1 2027 Earnings Call (company Q1 fiscal 2026)", "date": "2026-06-18"},
+    {"document_id": 220696, "title": "THE KROGER CO. Q2 2027 Earnings Call (company Q2 fiscal 2026)", "date": "2026-09-11"},
+    {"document_id": 143346, "title": "KROGER CO 8-K 0001104659-26-079552 (Giant Eagle merger agreement)", "date": "2026-07-01"},
+    {"document_id": 222861, "title": "KROGER CO 10-Q 0001104659-26-108926 (Giant Eagle terms)", "date": "2026-09"},
+    {"document_id": 0, "title": "8-K 0001104659-25-019465 (McMullen resignation, Sargent interim CEO)", "date": "2025-03-03"},
+    {"document_id": 0, "title": "8-K 0001104659-25-012963 (Kennerley CFO)", "date": "2025-02-13"},
+    {"document_id": 0, "title": "8-K 0001104659-26-012061 (Foran CEO)", "date": "2026-02-09"},
+    {"document_id": 0, "title": "8-K 0001104659-26-078272 (Sargent Non-Executive Chairman)", "date": "2026-06-26"},
+    {"document_id": 0, "title": "8-K 0001104659-26-104763 (Ibbotson Chief Store Operations Officer)", "date": "2026-09-02"},
+    {"document_id": 0, "title": "Baba data_comps cid 1002959 (market_data and revisions as of 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary consensus cid 1002959", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_guidance cid 1002959 (targets, current items)", "date": "2026-10-02"}
+  ],
+  "tool_calls": 23
+}

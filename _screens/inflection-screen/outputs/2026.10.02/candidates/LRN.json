@@ -1,0 +1,183 @@
+{
+ "ticker": "LRN",
+ "cid": 1003631,
+ "name": "Stride Inc",
+ "industry": "Educational and Vocational Training Services",
+ "as_of": "2026-10-02",
+ "business": "Provides online K-12 curriculum, virtual school management, career learning and adult skills training, mainly to public school districts and families in the US.",
+ "quant": {
+  "mcap_usd": 3596006442.24,
+  "drawdown": -0.5408,
+  "pctile_ev_ebitda_60m": 0.0333,
+  "price_ltm_pct": -0.4764,
+  "ebitda_margin_ltm": 0.2453,
+  "ebitda_margin_fwd_consensus": 0.2468,
+  "industry_median_margin": 0.247,
+  "ev_ebitda_fy": 5.14,
+  "net_debt_ltm_ebitda": -0.54,
+  "ebitda_revision_12m": -0.118,
+  "ebitda_brokers": 3
+ },
+ "catalyst": {
+  "type": [
+   "new_ceo",
+   "board_refresh"
+  ],
+  "events": [
+   {
+    "what": "CEO and Chair James J. Rhyu departed (both roles; he did NOT move to Chairman). Board-initiated: 'the board determined that for Stride to reach its full potential, a new leader was needed'. Stock fell about 15% to 18% on the announcement per analyst on the call.",
+    "who": "Robert E. (Bob) Knowling, Jr., age 71",
+    "from": "Stride independent director (since 2018 per Knowling; resigned 2025-04-15 and rejoined 2025-09-16 per 8-Ks); former CEO of Covad Communications, Telwares, NYC Leadership Academy",
+    "effective": "2026-07-29",
+    "source": "8-K 0001140361-26-030147; document_id 128966",
+    "external_hire": true
+   },
+   {
+    "what": "New independent Chair of the Board appointed",
+    "who": "Steven B. Fink",
+    "from": "existing director",
+    "effective": "2026-07-29",
+    "source": "8-K 0001140361-26-030147",
+    "external_hire": false
+   },
+   {
+    "what": "New director elected (audit and compensation committees)",
+    "who": "Brian Shepherd",
+    "from": "former President and CEO, CSG Systems International",
+    "effective": "2026-07-29",
+    "source": "8-K 0001140361-26-030147",
+    "external_hire": true
+   },
+   {
+    "what": "Knowling re-elected to the board (board expanded from seven to eight), after resigning 2025-04-15",
+    "who": "Robert E. Knowling, Jr.",
+    "from": null,
+    "effective": "2025-09-16",
+    "source": "8-K 0001104659-25-091691; 8-K 0001104659-25-036383",
+    "external_hire": null
+   }
+  ],
+  "months_since_primary": 2.1,
+  "ceo_months_in_seat": 2.1,
+  "next_event": {
+   "type": "framework update",
+   "date": null,
+   "source": "CFO Blackman, Q4 FY2026 call, 2026-08-04 (doc 128966): 'we will provide formal enrollment and financial guidance when we report our first quarter results in October.' First guidance under the new CEO; exact date not found. No Investor Day announced."
+  }
+ },
+ "margin_framing": {
+  "numeric": true,
+  "metric": "operating margin",
+  "metric_basis_note": "The FY2028 framework (Investor Day 2023-11-14) is a dollar range for adjusted operating income ($415M to $585M) on revenue of $2.7B to $3.3B, not a margin level. Implied AOI margin is 15.4% (low) to 17.7% (high), 16.7% at the midpoint, which is BELOW the 19.8% AOI margin already delivered in FY2026. It frames no margin expansion. The CFO reaffirmed 'on track' on 2026-08-04 under the new CEO. Stride's EBITDA margin (24.5% LTM) is at, not below, the industry median (24.7%).",
+  "current_level_pct": 19.8,
+  "target_level_pct": 16.7,
+  "target_year": 2028,
+  "has_year": true,
+  "annual_bps": null,
+  "synergy_usd": null,
+  "synergy_year": null,
+  "statements": [
+   {
+    "quote": "Based upon those factors, I expect that our revenue for 2028 will be between $2.7 billion and $3.3 billion. We expect AOI to be between $415 million and $585 million, EPS to be between $6.15 and $8.30.",
+    "speaker": "Donna Blackman",
+    "role": "CFO",
+    "doc_title": "Investor Day 2023",
+    "date": "2023-11-14",
+    "document_id": 89619
+   },
+   {
+    "quote": "We believe the foundation we've built positions us well for the coming year, and we believe we are on track to achieve our FY 2028 financial targets.",
+    "speaker": "Donna Blackman",
+    "role": "CFO",
+    "doc_title": "Stride Inc Q4 2026 Earnings Call",
+    "date": "2026-08-04",
+    "document_id": 128966
+   },
+   {
+    "quote": "Ultimately, the board determined that for Stride to reach its full potential, a new leader was needed to take the reins.",
+    "speaker": "Bob Knowling",
+    "role": "CEO",
+    "doc_title": "Stride Inc Q4 2026 Earnings Call",
+    "date": "2026-08-04",
+    "document_id": 128966
+   },
+   {
+    "quote": "We expect growth margins will be flattish to last year",
+    "speaker": "Donna Blackman",
+    "role": "CFO",
+    "doc_title": "Stride Inc Q4 2026 Earnings Call (transcript reads 'growth margins'; context is gross margins)",
+    "date": "2026-08-04",
+    "document_id": 128966
+   }
+  ],
+  "first_stated": "2023-11-14",
+  "times_repeated": 4
+ },
+ "street": {
+  "consensus_ebitda_margin_by_fy": {
+   "FY2026": 24.53,
+   "FY2027": 24.21,
+   "FY2028": 24.32
+  },
+  "consensus_margin_at_target_year_pct": 20.3,
+  "gap_bps_vs_target": -363,
+  "gap_assumption": "June fiscal year end; Baba labels match company fiscal years (FY2028 = year ending June 2028). FY2026 is actual. Compares the target-implied AOI margin at the midpoint ($500M / $3.0B = 16.67%) with FY2028 consensus operating income / revenue ($544.9M / $2,684.1M = 20.30%). Even the high end ($585M / $3.3B = 17.7%) is about 257 bps below consensus. In dollars, consensus FY2028 AOI $544.9M already sits inside the $415M to $585M range; consensus revenue $2.68B is just below the $2.7B floor. Only 3 brokers.",
+  "ebitda_uplift_pct_if_target_hit": 0.0,
+  "source": "Baba data_financials consensus (fundamentals, Visible Alpha)"
+ },
+ "evidence_of_progress": {
+  "last_two_quarters_margin_yoy_bps": [
+   -81,
+   -143
+  ],
+  "note": "Order is [Q3 FY2026, Q4 FY2026], AOI margin from VA operating income. FY2026 gross margin 37.8%, down 140 bps on platform implementation costs (Blackman, doc 128966); FY2026 AOI margin 19.8% vs 19.4% FY2025 on lower SG&A. FY2027 guide: gross margin flattish; formal guidance in October. The problem at Stride is enrollment and revenue (Gen Ed down 2.5%, Roscoe ISD contract loss), not margin."
+ },
+ "score": {
+  "A_underperformance": 2,
+  "B_catalyst": 3,
+  "C_numeric_framing": 2,
+  "D_unproven": 0,
+  "total": 7
+ },
+ "disqualified": true,
+ "disqualifier_reason": "Margin target already reflected in consensus: the FY2028 framework implies a 16.7% AOI margin (midpoint), below both the 19.8% already achieved and the 20.3% FY2028 consensus; consensus AOI $544.9M is inside the $415M to $585M range. Margins are also at the industry median, so the below-peer margin premise does not hold.",
+ "verdict": "Real GXO-style leadership catalyst (board-forced CEO change two months ago, new Chair, new director) on a stock down 54%, but it is a growth and enrollment story, not a margin gap; the 2028 framework is already exceeded on margin.",
+ "open_questions": [
+  "Does Knowling reset or withdraw the FY2028 framework with the first FY2027 guide in October 2026, and does it include any margin or cost target?",
+  "What drove the board to remove Rhyu, and does the platform rollout that cost 140 bps of gross margin in FY2026 have further costs?",
+  "How much enrollment is lost with Roscoe ISD and the closed in-year enrollment windows?"
+ ],
+ "sources": [
+  {
+   "document_id": 89619,
+   "title": "Investor Day 2023",
+   "date": "2023-11-14"
+  },
+  {
+   "document_id": 128966,
+   "title": "Stride Inc Q4 2026 Earnings Call",
+   "date": "2026-08-04"
+  },
+  {
+   "document_id": 48662,
+   "title": "Stride Inc Q3 2025 Earnings Call (search snippet only)",
+   "date": "2025-04-29"
+  },
+  {
+   "document_id": 90746,
+   "title": "Stride Inc Q3 2024 Earnings Call (search snippet only)",
+   "date": null
+  },
+  {
+   "document_id": 0,
+   "title": "Baba data_comps, data_profile, data_financials fundamentals (Visible Alpha)",
+   "date": "2026-10-01"
+  },
+  {
+   "document_id": 0,
+   "title": "SEC 8-K Item 5.02: 0001140361-26-030147 (CEO, Chair, director 2026-07-29), 0001104659-25-091691, 0001104659-25-036383, 0001104659-25-120014 (plan amendments only). Item 2.01/1.01 query returned none",
+   "date": "2025-04-18 to 2026-07-30"
+  }
+ ],
+ "tool_calls": 14
+}

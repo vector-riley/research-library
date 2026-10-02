@@ -1,0 +1,180 @@
+{
+ "ticker": "LMT",
+ "cid": 1000178,
+ "name": "LOCKHEED MARTIN CORPORATION",
+ "industry": "Aerospace & Defense",
+ "as_of": "2026-10-02",
+ "business": "Designs, builds and sustains fighter jets, missiles, helicopters, radars, ships systems and satellites, mainly for the US government and allied militaries.",
+ "quant": {
+  "mcap_usd": 116821050000.0,
+  "drawdown": -0.2378,
+  "pctile_ev_ebitda_60m": 0.0,
+  "price_ltm_pct": 0.0465,
+  "ebitda_margin_ltm": 0.1088,
+  "ebitda_margin_fwd_consensus": 0.1322,
+  "industry_median_margin": 0.178,
+  "ev_ebitda_fy": 11.75,
+  "net_debt_ltm_ebitda": 1.67,
+  "ebitda_revision_12m": 0.0721,
+  "ebitda_brokers": 14
+ },
+ "catalyst": {
+  "type": [
+   "new_cfo",
+   "acquisition"
+  ],
+  "events": [
+   {
+    "what": "CFO Jay Malave departed; Evan T. Scott (VP and CFO of Missiles and Fire Control, 26-year LMT veteran) appointed CFO. First earnings call as CFO was Q1 2025 on 2025-04-22.",
+    "who": "Evan T. Scott",
+    "from": "Lockheed Martin Missiles and Fire Control (segment CFO)",
+    "effective": "2025-04-17",
+    "source": "8-K 0000936468-25-000026; document_id 40898",
+    "external_hire": false
+   },
+   {
+    "what": "Signed agreement to acquire Ultra Maritime (undersea sensing, autonomous sea drones); described as 'upcoming' on the Q2 2026 call, so pending. No 8-K Item 1.01 or 2.01 filed, size not disclosed in sources read; small relative to LMT.",
+    "who": "Ultra Maritime",
+    "from": null,
+    "effective": null,
+    "source": "document_id 75871 (Taiclet chunk 5, Scott chunk 8); sec-api Item 2.01/1.01 query 2024-07-01 to 2026-10-02 returned 0 filings",
+    "external_hire": null
+   },
+   {
+    "what": "Board: Jeh Johnson resigned 2024-11-13; Adm. John Aquilino elected 2024-12-11 (both before the 18-month window)",
+    "who": "Jeh C. Johnson; John C. Aquilino",
+    "from": null,
+    "effective": "2024-12-11",
+    "source": "8-K 0000936468-24-000112; 8-K 0000936468-24-000118",
+    "external_hire": null
+   }
+  ],
+  "months_since_primary": 17.5,
+  "ceo_months_in_seat": 75.5,
+  "next_event": {
+   "type": "none known",
+   "date": null,
+   "source": "No Investor Day, analyst day or framework update found in the Baba corpus (lexical 'investor day' FY2026 search returned no hits). Next scheduled event is the Q3 2026 earnings call (date not found in sources read)."
+  }
+ },
+ "margin_framing": {
+  "numeric": false,
+  "metric": "operating margin",
+  "metric_basis_note": "Management frames segment operating profit and segment operating margin (pre FAS/CAS pension adjustment), not EBITDA. The only numeric margin statements are a one-year 2026 segment operating profit guide ($8.5B to $8.7B on $79.75B to $81.75B sales, about 10.65% implied) and a segment-level MFC range ('high 13s, low 14s') with 20 to 30 bps of near-term dilution. Neither frames a company-level expansion opportunity with a year; the direction is flat to slightly dilutive.",
+  "current_level_pct": 10.8,
+  "target_level_pct": null,
+  "target_year": null,
+  "has_year": false,
+  "annual_bps": null,
+  "synergy_usd": null,
+  "synergy_year": null,
+  "statements": [
+   {
+    "quote": "I think what you're seeing this year is what we should generally expect to see in the future, which is MFC margins in kind of the high 13s, low 14s, which is what we've managed to do when we're really hitting our ramps and hitting our marks",
+    "speaker": "Evan Scott",
+    "role": "CFO",
+    "doc_title": "LOCKHEED MARTIN CORPORATION Q2 2026 Earnings Call",
+    "date": "2026-07-23",
+    "document_id": 75871
+   },
+   {
+    "quote": "We would still think about near-term dilution in the 20 to 30 basis points over the next few years with a goal to get to higher than historic margins on MFC. For next year, I think generally speaking, this year is a good reflection within 20 to 30 basis points.",
+    "speaker": "Evan Scott (transcript attributes this segment to Jim Taiclet; content continues the CFO's answer)",
+    "role": "CFO",
+    "doc_title": "LOCKHEED MARTIN CORPORATION Q2 2026 Earnings Call",
+    "date": "2026-07-23",
+    "document_id": 75871
+   },
+   {
+    "quote": "Correspondingly, we are increasing our segment operating profit target to now $8.5 billion-$8.7 billion.",
+    "speaker": "Evan Scott",
+    "role": "CFO",
+    "doc_title": "LOCKHEED MARTIN CORPORATION Q2 2026 Earnings Call",
+    "date": "2026-07-23",
+    "document_id": 75871
+   },
+   {
+    "quote": "we get to keep in our own profitability [...] if we're able to hit the top mark of our fully retained margin expansion, we will share it with the government",
+    "speaker": "Jim Taiclet",
+    "role": "Chairman, President and CEO",
+    "doc_title": "LOCKHEED MARTIN CORPORATION Q2 2026 Earnings Call",
+    "date": "2026-07-23",
+    "document_id": 75871
+   }
+  ],
+  "first_stated": "2026-07-23",
+  "times_repeated": 1
+ },
+ "street": {
+  "consensus_ebitda_margin_by_fy": {
+   "FY2026": 13.04,
+   "FY2027": 13.22,
+   "FY2028": 13.38
+  },
+  "consensus_margin_at_target_year_pct": null,
+  "gap_bps_vs_target": null,
+  "gap_assumption": "December year end, Baba FY labels equal calendar years. No company-level margin target exists, so no gap. Consensus EBITDA margin rises about 35 bps FY2026 to FY2028, consistent with management's flat-to-slightly-dilutive segment commentary. D scored on the no-level rule: 4-month EBITDA revision +1.4% (between -3% and +5%).",
+  "ebitda_uplift_pct_if_target_hit": null,
+  "source": "Baba data_financials consensus (fundamentals, Visible Alpha); data_comps revisions asof 2026-10-01"
+ },
+ "evidence_of_progress": {
+  "last_two_quarters_margin_yoy_bps": [
+   765,
+   -149
+  ],
+  "note": "Order is [Q4 2025, Q1 2026], VA EBITDA margin. Q4 2025 +765 bps is a lap of Q4 2024 program charges; Q1 2026 -149 bps on unfavorable F-16 and C-130 adjustments. VA has not loaded Q2 2026 actuals; CFO reported Q2 2026 segment margin 10.8%, improved year on year mainly on the absence of Q2 2025 charges (doc 75871). LTM EBITDA margin 10.9% (Q2 2025 to Q1 2026) includes the Q2 2025 charges."
+ },
+ "score": {
+  "A_underperformance": 1,
+  "B_catalyst": 2,
+  "C_numeric_framing": 1,
+  "D_unproven": 2,
+  "total": 6
+ },
+ "disqualified": false,
+ "disqualifier_reason": null,
+ "verdict": "Weak GXO fit: internal CFO change and a small pending acquisition, but no margin opportunity framed (segment margins guided flat to slightly dilutive) and estimates rose 7% over 12 months; the 6 is mechanical.",
+ "open_questions": [
+  "Does conversion of munitions framework agreements to multi-year contracts produce a stated company-level margin goal, and when?",
+  "How large is Ultra Maritime and when does it close?",
+  "Is the margin gap to peers structural (cost-plus mix, F-35) rather than a fixable execution gap?"
+ ],
+ "sources": [
+  {
+   "document_id": 75871,
+   "title": "LOCKHEED MARTIN CORPORATION Q2 2026 Earnings Call",
+   "date": "2026-07-23"
+  },
+  {
+   "document_id": 141023,
+   "title": "LOCKHEED MARTIN CORPORATION Q1 2026 Earnings Call (search snippets)",
+   "date": null
+  },
+  {
+   "document_id": 40898,
+   "title": "LOCKHEED MARTIN CORPORATION Q1 2025 Earnings Call",
+   "date": "2025-04-22"
+  },
+  {
+   "document_id": 0,
+   "title": "Baba data_comps (market_data, revisions, estimates; asof 2026-09-30 to 2026-10-01)",
+   "date": "2026-10-01"
+  },
+  {
+   "document_id": 0,
+   "title": "Baba data_financials fundamentals consensus (Visible Alpha)",
+   "date": "2026-10-01"
+  },
+  {
+   "document_id": 0,
+   "title": "Baba data_profile (business summary, CEO)",
+   "date": "2026-10-01"
+  },
+  {
+   "document_id": 0,
+   "title": "SEC 8-K Item 5.02: 0000936468-25-000026, 0000936468-24-000118, 0000936468-24-000112; Item 2.01/1.01 query returned none. CEO start (2020-06-15) not returned by the sec-api index; ceo_months_in_seat uses the publicly announced date and is unverified in tools",
+   "date": "2024-11-13 to 2025-04-17"
+  }
+ ],
+ "tool_calls": 22
+}

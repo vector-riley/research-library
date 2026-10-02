@@ -1,0 +1,171 @@
+{
+ "ticker": "IP",
+ "cid": 1001282,
+ "name": "INTERNATIONAL PAPER CO",
+ "industry": "Paper Packaging",
+ "as_of": "2026-10-02",
+ "business": "Makes containerboard and converts it into corrugated boxes and specialty packaging for food, beverage, industrial and consumer goods customers in North America and EMEA.",
+ "quant": {
+  "mcap_usd": 17224635000.0,
+  "drawdown": -0.4111369630528118,
+  "pctile_ev_ebitda_60m": 0.06666666666666667,
+  "price_ltm_pct": -0.2497529198267281,
+  "ebitda_margin_ltm": 0.1212,
+  "ebitda_margin_fwd_consensus": 0.1709851970427308,
+  "industry_median_margin": 0.19,
+  "ev_ebitda_fy": 5.814169969700371,
+  "net_debt_ltm_ebitda": 2.6606559161927854,
+  "ebitda_revision_12m": -0.10907025986187269,
+  "ebitda_brokers": 8.0
+ },
+ "catalyst": {
+  "type": ["new_cfo", "strategy_update", "board_refresh"],
+  "events": [
+   {
+    "what": "New SVP and CFO, succeeding Tim Nicholls. Effective exactly 18 months before as_of, so on the edge of the window",
+    "who": "Lance T. Loeffler",
+    "from": "Halliburton (SVP Middle East and North Africa; EVP and CFO 2018 to 2022)",
+    "effective": "2025-04-01",
+    "source": "8-K 0001193125-25-040518",
+    "external_hire": true
+   },
+   {
+    "what": "Former CFO moved to new role of EVP and President, DS Smith (EMEA)",
+    "who": "Timothy S. Nicholls",
+    "from": "Internal (CFO)",
+    "effective": "2025-04-01",
+    "source": "8-K 0001193125-25-040518",
+    "external_hire": false
+   },
+   {
+    "what": "Announced separation of Packaging Solutions EMEA into a separate public company (LSE and NYSE dual listing), IP to keep about 20% for 12 to 18 months; expected to complete within 12 to 15 months of the announcement; CEO said in July it is on track. Announced and pending",
+    "who": "Packaging Solutions EMEA (legacy DS Smith plus IP EMEA)",
+    "from": null,
+    "effective": null,
+    "source": "docs 198249 (Loeffler, Q4 2025 call, 2026-01-29), 198248 (Q1 2026 call), 112156 (Q2 2026 call)",
+    "external_hire": null
+   },
+   {
+    "what": "Sale of Global Cellulose Fibers business (agreement 8-K Items 1.01, 2.05, 2.06); about $1.1 billion proceeds used partly to repay $660 million of debt",
+    "who": "Global Cellulose Fibers",
+    "from": null,
+    "effective": null,
+    "source": "8-K 0000051434-25-000059 (2025-08-21); doc 198248",
+    "external_hire": null
+   },
+   {
+    "what": "Two new independent directors effective 2026-10-01; two directors (Sullivan, Dorduncu) retire 2026-12-31",
+    "who": "Katherine Collins, Lori J. Ryerkerk",
+    "from": null,
+    "effective": "2026-10-01",
+    "source": "8-K 0000051434-26-000112",
+    "external_hire": true
+   },
+   {
+    "what": "CEO (external, ex IDEX and Madison Industries) effective 2024-05-01, outside the 18-month window; also Chairman from 2024-10-01. DS Smith acquisition closed before the window",
+    "who": "Andrew K. Silvernail",
+    "from": "KKR executive advisor; ex Chair and CEO of IDEX and Madison Industries",
+    "effective": "2024-05-01",
+    "source": "8-K 0001193125-24-070875; 8-K 0001193125-24-216681",
+    "external_hire": true
+   }
+  ],
+  "months_since_primary": 18,
+  "ceo_months_in_seat": 29,
+  "next_event": {
+   "type": "framework update",
+   "date": null,
+   "source": "Silvernail, Q2 2026 call 2026-07-30 (doc 112156): 'You'll hear more in the third quarter, and obviously in the fourth quarter, we'll lay out all of the details of our expectations for 2027.' Q4 2026 results are expected around late January 2027, date not sourced. EMEA separation completion expected within 12 to 15 months of 2026-01-29 (doc 198249), so roughly January to April 2027."
+  }
+ },
+ "margin_framing": {
+  "numeric": true,
+  "metric": "adjusted EBITDA margin",
+  "metric_basis_note": "Management states a dollar EBITDA target ($5 billion in 2027, cut from the Investor Day ambition of $6 billion in Q3 2025 and stated excluding GCF), not a margin level. The margin is derived as $5 billion over Baba FY2027 consensus revenue of $25.87 billion = 19.33%. The CEO's own bridge to it leans on published containerboard price increases ($50 per ton net North America, EUR 100 per tonne Europe) and the company guides about $90 million of EBITDA per $10 per ton. In July 2026 the CEO stopped short of restating $5 billion, citing pre-spin rules, and said full 2027 expectations come with Q4 results.",
+  "current_level_pct": 12.12,
+  "target_level_pct": 19.33,
+  "target_year": 2027,
+  "has_year": true,
+  "annual_bps": null,
+  "synergy_usd": null,
+  "synergy_year": null,
+  "statements": [
+   {
+    "quote": "Our long term ambitions remain. IP has the ability to deliver on the targets we laid out at Investor Day. In the medium term, however, the softer market this year and into 2026 has delayed our progress. We can deliver $5 billion of EBITDA in 2027 and continue to accelerate our progress thereafter.",
+    "speaker": "Andy Silvernail",
+    "role": "Chairman and CEO",
+    "doc_title": "INTERNATIONAL PAPER CO Q3 2025 Earnings Call",
+    "date": "2025-10-30",
+    "document_id": 57478
+   },
+   {
+    "quote": "We believe this is the most certain path to deliver our 2027 target of $5 billion of EBITDA, and enables each business to achieve best-in-class performance and best-in-class valuation as we create long-term value for our shareholders.",
+    "speaker": "Andy Silvernail",
+    "role": "Chairman and CEO",
+    "doc_title": "INTERNATIONAL PAPER CO Q4 2025 Earnings Call",
+    "date": "2026-01-29",
+    "document_id": 198249
+   },
+   {
+    "quote": "we're going to be right in the range of what we said two years ago. Right? That we're going to be right there. If you back out GCF being sold and you look at the split between North America and Europe, we're going to deliver pretty darn near exactly what we said we were going to do two years ago.",
+    "speaker": "Andy Silvernail",
+    "role": "Chairman and CEO",
+    "doc_title": "INTERNATIONAL PAPER CO Q2 2026 Earnings Call",
+    "date": "2026-07-30",
+    "document_id": 112156
+   },
+   {
+    "quote": "Our 2026 target does not include the impact of any future pricing realization, as we do not forecast price until it publishes. However, we would expect to see an incremental Adjusted EBITDA impact of approximately $90 million for every $10 per ton price move on an annualized basis.",
+    "speaker": "Lance Loeffler",
+    "role": "SVP and CFO",
+    "doc_title": "INTERNATIONAL PAPER CO Q4 2025 Earnings Call",
+    "date": "2026-01-29",
+    "document_id": 198249
+   }
+  ],
+  "first_stated": "2025-10-30",
+  "times_repeated": 4
+ },
+ "street": {
+  "consensus_ebitda_margin_by_fy": {
+   "FY2026": 0.1310,
+   "FY2027": 0.1710,
+   "FY2028": 0.1776
+  },
+  "consensus_margin_at_target_year_pct": 17.10,
+  "gap_bps_vs_target": 223,
+  "gap_assumption": "Calendar fiscal year, so Baba FY labels equal company years. Target margin = $5,000M target over FY2027 consensus revenue $25,867M = 19.33% vs FY2027 consensus EBITDA $4,423M = 17.10%; gap +223 bps. Assumes the $5B scope (ex-GCF, NA plus EMEA) matches the consensus perimeter, which still consolidates EMEA for the full year. In dollars the street sits $577M (13%) below the target; at the company's $90M per $10 per ton sensitivity that is roughly $64 per ton of price.",
+  "ebitda_uplift_pct_if_target_hit": 13.05,
+  "source": "Baba data_financials fundamentals (Visible Alpha consensus), fetched 2026-10-02; data_comps for 4-month revision"
+ },
+ "evidence_of_progress": {
+  "last_two_quarters_margin_yoy_bps": [-169, null],
+  "note": "Q1 2026 adj EBITDA margin 11.3% vs 13.0% (-169 bps, VA actuals; CEO said 11.3%, doc 198248). Q2 2026 enterprise total is not in VA or the fetched call text (NA $425M, EMEA $182M before corporate); CFO: 'Earnings and margins declined year-over-year' (doc 112156). The 2026 EBITDA guide was cut from $3.5B to $3.7B (Jan) to $3.2B to $3.5B (Apr) and an analyst cites $3.2B to $3.4B in July. 4-month FY2027 revision +6.7% as containerboard prices rose."
+ },
+ "score": {
+  "A_underperformance": 2,
+  "B_catalyst": 2,
+  "C_numeric_framing": 3,
+  "D_unproven": 2,
+  "total": 9
+ },
+ "disqualified": true,
+ "disqualifier_reason": "Margin is commodity-price driven: IP does not forecast containerboard price and guides about $90M of EBITDA per $10 per ton; the CEO's bridge to the $5B 2027 target adds published price increases ($50 per ton North America, EUR 100 per tonne Europe). The 223 bps gap to consensus is mostly a price and inflation call, not a self-help margin call. Judgment call: on components alone the setup scores 9/10.",
+ "verdict": "Cheap, down 41%, with a $5B 2027 EBITDA target 13% above consensus and a pending EMEA spin, but the gap is mostly a containerboard price bet and the 2026 guide has been cut twice.",
+ "open_questions": [
+  "Will the Q4 2026 call (about January 2027) restate $5B for 2027, and on what perimeter after the EMEA spin and the GCF sale?",
+  "How much of the $577M gap to consensus is published price versus cost-out carryover ($350M to $400M North America, $200M to $250M EMEA)?",
+  "Does the street already model the $50 per ton North American increase, so that the remaining gap is smaller than 223 bps?"
+ ],
+ "sources": [
+  {"document_id": 57478, "title": "INTERNATIONAL PAPER CO Q3 2025 Earnings Call", "date": "2025-10-30"},
+  {"document_id": 198249, "title": "INTERNATIONAL PAPER CO Q4 2025 Earnings Call", "date": "2026-01-29"},
+  {"document_id": 198248, "title": "INTERNATIONAL PAPER CO Q1 2026 Earnings Call", "date": "2026-04-30"},
+  {"document_id": 112156, "title": "INTERNATIONAL PAPER CO Q2 2026 Earnings Call (Baba facts summary mislabeled as Interpump; segments are IP)", "date": "2026-07-30"},
+  {"document_id": 0, "title": "8-K 0001193125-25-040518 (Loeffler CFO, Nicholls President DS Smith)", "date": "2025-02-28"},
+  {"document_id": 0, "title": "8-K 0001193125-24-070875 (Silvernail CEO effective 2024-05-01)", "date": "2024-03-19"},
+  {"document_id": 0, "title": "8-K 0000051434-26-000112 (Collins, Ryerkerk directors)", "date": "2026-07-17"},
+  {"document_id": 0, "title": "8-K 0000051434-25-000059 (GCF sale agreement)", "date": "2025-08-21"}
+ ],
+ "tool_calls": 22
+}

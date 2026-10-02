@@ -1,0 +1,154 @@
+{
+ "ticker": "ICFI",
+ "cid": 1003105,
+ "name": "ICF International Inc",
+ "industry": "Research & Consulting Services",
+ "as_of": "2026-10-02",
+ "business": "Sells management, technology and policy consulting and implementation services to US federal, state and local, international government and commercial clients.",
+ "quant": {
+  "mcap_usd": 1533538560.0,
+  "drawdown": -0.5222877156049698,
+  "pctile_ev_ebitda_60m": 0.16666666666666666,
+  "price_ltm_pct": -0.09758017352750303,
+  "ebitda_margin_ltm": 0.1106,
+  "ebitda_margin_fwd_consensus": 0.11370518695881622,
+  "industry_median_margin": 0.156,
+  "ev_ebitda_fy": 7.992572941521754,
+  "net_debt_ltm_ebitda": 1.4249298563090225,
+  "ebitda_revision_12m": -0.09525940885788231,
+  "ebitda_brokers": 4.0
+ },
+ "catalyst": {
+  "type": ["new_cfo"],
+  "events": [
+   {
+    "what": "COO adds CFO role (combined Chief Operating and Financial Officer); first call in the role Q1 2026 (2026-05-07)",
+    "who": "James Morgan",
+    "from": "Internal (COO since June 2022, earlier EVP and CFO)",
+    "effective": "2026-01-01",
+    "source": "8-K 0001437749-25-032425",
+    "external_hire": false
+   },
+   {
+    "what": "Named President (new role under Chair and CEO Wasson); first official conference call as President Q1 2026",
+    "who": "Anne Choate",
+    "from": "Internal (with ICF since 1995; EVP, Energy, Environment and Infrastructure group)",
+    "effective": "2026-01-01",
+    "source": "8-K 0001437749-25-032425; doc 173367",
+    "external_hire": false
+   },
+   {
+    "what": "CFO retirement (stays as senior advisor through 2027-01-31). Structured 8-K field shows 2025-03-01, which is a parse error; DEF 14A says retirement on March 1, 2026",
+    "who": "Barry Broadus",
+    "from": null,
+    "effective": "2026-03-01",
+    "source": "8-K 0001437749-25-032425; DEF 14A doc 38970",
+    "external_hire": null
+   },
+   {
+    "what": "Temporary 20% base salary cut for named executive officers due to the government shutdown (compensation, not a leadership change)",
+    "who": "Wasson, Choate, Broadus, Morgan, Ostria",
+    "from": null,
+    "effective": "2025-10-30",
+    "source": "8-K 0001193125-25-258534",
+    "external_hire": null
+   },
+   {
+    "what": "New Class I director, board expanded 7 to 8 (effective before the 2025-04-01 window start, so not scored)",
+    "who": "Caroline Angoorly",
+    "from": "GreenTao LLC; Warwick Carbon Solutions",
+    "effective": "2025-03-06",
+    "source": "8-K 0001437749-25-007031",
+    "external_hire": true
+   }
+  ],
+  "months_since_primary": 9,
+  "ceo_months_in_seat": 84,
+  "next_event": {
+   "type": "none known",
+   "date": null,
+   "source": "No Investor Day or framework update found in Baba corpus (lexical 'investor day' FY2026 returns nothing). Next routine event is Q3 2026 earnings, early November 2026, date not sourced. CEO tenure: Wasson CEO since 2019-10-01 per DEF 14A (doc 38970). No Item 1.01 or 2.01 8-K since 2024-07-01; management says it is actively evaluating commercial energy tuck-ins (doc 130283)."
+  }
+ },
+ "margin_framing": {
+  "numeric": true,
+  "metric": "adjusted EBITDA margin",
+  "metric_basis_note": "Company adjusted EBITDA margin on total revenue, same basis as VA consensus EBITDA over revenue (FY2025 company 11.1% vs VA 11.06%). The framing is a standing annual rate of 10 to 20 bps a year, guided for full year 2026 and 'over the longer term', with no end year or level. The CFO says it has been the commitment for a decade.",
+  "current_level_pct": 11.1,
+  "target_level_pct": 11.25,
+  "target_year": 2026,
+  "has_year": true,
+  "annual_bps": 15,
+  "synergy_usd": null,
+  "synergy_year": null,
+  "statements": [
+   {
+    "quote": "we remain well-positioned to achieve our target of 10-20 basis points adjusted EBITDA margin expansion for the full year, as well as over the longer term. We have committed to this level of margin expansion over the last decade, during which we have averaged more than 10 basis points per year",
+    "speaker": "James Morgan",
+    "role": "Chief Operating and Financial Officer",
+    "doc_title": "ICF International Inc Q2 2026 Earnings Call",
+    "date": "2026-08-06",
+    "document_id": 130283
+   },
+   {
+    "quote": "we're looking at having 10-20 basis points margin improvement this year, and that's what we've targeted in the past years. We have the ability to deliver more, we're using those dollars, what we saved, to drive and invest in long-term growth initiatives",
+    "speaker": "James Morgan",
+    "role": "Chief Operating and Financial Officer",
+    "doc_title": "ICF International Inc Q1 2026 Earnings Call",
+    "date": "2026-05-07",
+    "document_id": 173367
+   },
+   {
+    "quote": "Adjusted EBITDA margin was 11.1%, stable with the 11.2% reported a year ago and consistent with the guidance we provided at the start of 2025.",
+    "speaker": "Barry Broadus",
+    "role": "CFO",
+    "doc_title": "ICF International Inc Q4 2025 Earnings Call",
+    "date": "2026-02-26",
+    "document_id": 173368
+   }
+  ],
+  "first_stated": null,
+  "times_repeated": 3
+ },
+ "street": {
+  "consensus_ebitda_margin_by_fy": {
+   "FY2026": 0.1123,
+   "FY2027": 0.1137,
+   "FY2028": 0.1162
+  },
+  "consensus_margin_at_target_year_pct": 11.23,
+  "gap_bps_vs_target": 2,
+  "gap_assumption": "Calendar fiscal year, so Baba FY labels equal company years. FY2026 target = FY2025 actual 11.1% plus the 15 bps midpoint = 11.25% vs consensus 11.23% (+2 bps). Extending 15 bps a year to FY2028 gives 11.55% vs consensus 11.62% (-7 bps). The street already models the full 10 to 20 bps a year path (+17, +14, +25 bps).",
+  "ebitda_uplift_pct_if_target_hit": null,
+  "source": "Baba data_financials fundamentals (Visible Alpha consensus), fetched 2026-10-02"
+ },
+ "evidence_of_progress": {
+  "last_two_quarters_margin_yoy_bps": [-14, 10],
+  "note": "Q1 2026 adj EBITDA margin 11.2% vs 11.3% (-14 bps on VA actuals; company called it stable); Q2 2026 11.2%, +10 bps YoY per CFO (doc 130283). Revenue flat YoY in Q2 ($474.5M); federal -9.5%, non-federal +6.6%. LTM 11.06% (Q3 2025 to Q2 2026; Q2 2026 from the call because VA still carries an estimate)."
+ },
+ "score": {
+  "A_underperformance": 2,
+  "B_catalyst": 2,
+  "C_numeric_framing": 2,
+  "D_unproven": 0,
+  "total": 6
+ },
+ "disqualified": true,
+ "disqualifier_reason": "Margin target already reflected in consensus: the 10 to 20 bps a year framing implies 11.25% for FY2026 vs 11.23% consensus (+2 bps) and about 11.55% for FY2028 vs 11.62% consensus (-7 bps). The only leadership change is an internal reshuffle (Morgan COO/CFO, Choate President) under a 7-year CEO.",
+ "verdict": "Down 52% and cheap with an internal CFO and President reshuffle, but the decade-old 10 to 20 bps a year margin goal is already in consensus; nothing for the street to underwrite.",
+ "open_questions": [
+  "Is Choate's appointment as President a CEO succession step, and would a new CEO reset the margin framework?",
+  "Can ERP and AI back-office savings lift the rate above 20 bps a year, or does management keep reinvesting the excess?",
+  "Does a commercial energy acquisition change the margin mix enough to matter?"
+ ],
+ "sources": [
+  {"document_id": 130283, "title": "ICF International Inc Q2 2026 Earnings Call", "date": "2026-08-06"},
+  {"document_id": 173367, "title": "ICF International Inc Q1 2026 Earnings Call", "date": "2026-05-07"},
+  {"document_id": 173368, "title": "ICF International Inc Q4 2025 Earnings Call", "date": "2026-02-26"},
+  {"document_id": 38970, "title": "ICF International, Inc. DEF 14A", "date": "2026-04-22"},
+  {"document_id": 0, "title": "8-K 0001437749-25-032425 (Choate President, Morgan COO and CFO, Broadus retirement)", "date": "2025-10-30"},
+  {"document_id": 0, "title": "8-K 0001193125-25-258534 (20% executive salary cut, shutdown)", "date": "2025-10-30"},
+  {"document_id": 0, "title": "8-K 0001437749-25-007031 (Angoorly director)", "date": "2025-03-11"}
+ ],
+ "tool_calls": 18
+}

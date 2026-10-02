@@ -1,0 +1,181 @@
+{
+  "ticker": "POOL",
+  "cid": 1003577,
+  "name": "Pool Corporation",
+  "industry": "Distributors for Retailers",
+  "as_of": "2026-10-02",
+  "business": "Pool Corporation distributes swimming pool chemicals, equipment, parts, building materials and irrigation products to pool builders, service firms, retailers and landscape contractors.",
+  "quant": {
+    "mcap_usd": 5805328440.0,
+    "drawdown": -0.5980003100308515,
+    "pctile_ev_ebitda_60m": 0.0,
+    "price_ltm_pct": -0.46481933062851544,
+    "ebitda_margin_ltm": 0.1233,
+    "ebitda_margin_fwd_consensus": 0.12364941628297706,
+    "industry_median_margin": 0.111,
+    "ev_ebitda_fy": 10.22051021819198,
+    "net_debt_ltm_ebitda": 1.9985525408536482,
+    "ebitda_revision_12m": -0.07811627432668511,
+    "ebitda_brokers": 11.0
+  },
+  "catalyst": {
+    "type": [
+      "new_ceo",
+      "board_refresh"
+    ],
+    "events": [
+      {
+        "what": "President and CEO, replacing Peter Arvan (departed by mutual agreement, separation agreement in 8-K/A 0001193125-26-215052)",
+        "who": "John B. Watwood",
+        "from": "Motion Industries (SVP Sales and Operations); joined Pool as EVP January 2026",
+        "effective": "2026-05-04",
+        "source": "8-K 0001193125-26-204112",
+        "external_hire": true
+      },
+      {
+        "what": "Executive Chair (previously non-executive Chair since 2017)",
+        "who": "John E. Stokely",
+        "from": "Pool Corporation board",
+        "effective": "2026-05-04",
+        "source": "8-K 0001193125-26-204112",
+        "external_hire": false
+      },
+      {
+        "what": "New director, board enlarged from eight to nine, joins Strategic Planning Committee",
+        "who": "Jean-Marc Germain",
+        "from": null,
+        "effective": "2026-09-30",
+        "source": "8-K 0001193125-26-402912",
+        "external_hire": null
+      },
+      {
+        "what": "Director did not stand for re-election",
+        "who": "Carlos A. Sabater",
+        "from": "Pool Corporation board",
+        "effective": null,
+        "source": "8-K 0001193125-26-051351",
+        "external_hire": null
+      },
+      {
+        "what": "Senior Vice President retiring in 2026",
+        "who": "Kenneth G. St. Romain",
+        "from": "Pool Corporation",
+        "effective": null,
+        "source": "8-K 0001193125-26-010379",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 5,
+    "ceo_months_in_seat": 5,
+    "next_event": {
+      "type": "framework update",
+      "date": null,
+      "source": "Q3 2026 results on 2026-10-22 (Watwood, doc 90799); Watwood on the long-term algorithm: 'More commentary on that as we get out of 2026 and we look into 2027' (doc 90799). The Investor Day announced for 2026-05-12 (Arvan, doc 176640) is not in Baba and appears not to have been held after the 2026-05-04 CEO change."
+    }
+  },
+  "margin_framing": {
+    "numeric": false,
+    "metric": "operating margin",
+    "metric_basis_note": "No current numeric margin target. Legacy frameworks: 20 to 40 bps annual operating margin improvement (CFO Melanie Hart, Q3 2021 call, doc 90821) and a 30% gross margin target (data_guidance target from 2025-04-24, doc 7134); neither reaffirmed by the new CEO, who declined to reiterate the 6% to 9% sales algorithm. 2026 guide is gross margin about 30 bps below 2025.",
+    "current_level_pct": 12.3,
+    "target_level_pct": null,
+    "target_year": null,
+    "has_year": false,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "We are focused on a clear set of strategic priorities across sales, pricing, supply chain, and operations aimed at unlocking profitability and extending our competitive advantage. While our gross margin reflects cyclical pressure from this environment, we view it as temporary rather than structural.",
+        "speaker": "Melanie Hart",
+        "role": "CFO",
+        "doc_title": "Pool Corporation Q2 2026 Earnings Call",
+        "date": "2026-07-23",
+        "document_id": 90799
+      },
+      {
+        "quote": "Then I think your other question was on, yeah, the long-term growth algorithm. Yeah, not really in a position to reiterate or change that. Obviously, the point I will say on that is we're going to need a little market help.",
+        "speaker": "John Watwood",
+        "role": "President and CEO",
+        "doc_title": "Pool Corporation Q2 2026 Earnings Call",
+        "date": "2026-07-23",
+        "document_id": 90799
+      },
+      {
+        "quote": "Given the second quarter's weight in the year, we now expect full-year gross margin approximately 30 basis points below prior year, versus in line previously.",
+        "speaker": "Melanie Hart",
+        "role": "CFO",
+        "doc_title": "Pool Corporation Q2 2026 Earnings Call",
+        "date": "2026-07-23",
+        "document_id": 90799
+      },
+      {
+        "quote": "From a long-term standpoint, we're still reiterating our 20 to 40 basis points expected improvements on the new higher bases of numbers that we should see going into 2022.",
+        "speaker": "Melanie Hart",
+        "role": "VP and CFO",
+        "doc_title": "Pool Corporation Q3 2021 Earnings Call",
+        "date": "2021-10-21",
+        "document_id": 90821
+      }
+    ],
+    "first_stated": "2026-07-23",
+    "times_repeated": 1
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 0.1208,
+      "FY2027": 0.1236,
+      "FY2028": 0.1262
+    },
+    "consensus_margin_at_target_year_pct": null,
+    "gap_bps_vs_target": null,
+    "gap_assumption": "No stated level or year, so no gap. Consensus EBITDA margin path 12.08% (FY2026) to 12.36% (FY2027) to 12.62% (FY2028), VA labels equal calendar years (fyem 12), i.e. about +27 bps a year, which is inside the legacy 20 to 40 bps operating margin algorithm. LTM EBITDA margin is Q2 2025 to Q1 2026 from VA quarters (Q2 2026 actuals not yet loaded). D scored on the 4-month revision: ebitda_turn_pct -1.7% (FY2027 EBITDA 708.7M on 2026-06-30 to 696.4M on 2026-10-01). Note POOL's margin is above the 11.1% industry median.",
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials consensus; data_comps"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      1,
+      null
+    ],
+    "note": "Q1 2026 VA EBITDA margin 8.92% vs 8.91% (+1 bp, data_compute); management reported +10 bps operating margin (doc 176640). Q2 2026: gross margin 29.7%, down 30 bps; adjusted operating income +1% to $276M on sales +2%, operating margin 15.1% (doc 90799), so roughly flat to slightly down; Q2 EBITDA not yet in VA."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 3,
+    "C_numeric_framing": 1,
+    "D_unproven": 2,
+    "total": 8
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Cheap, de-rated distributor with an outside CEO five months in and a new Executive Chair, but no margin number yet; a pre-framework setup that turns live only if Watwood sets targets for 2027.",
+  "open_questions": [
+    "Will Watwood put a margin or productivity number on the four priorities at Q4 2026 results or a rescheduled Investor Day?",
+    "Is POOL a margin-gap story at all, given its 12.3% EBITDA margin is already above the 11.1% industry median and the issue is cyclical volume?",
+    "Why did Arvan leave by mutual agreement days before the planned 2026-05-12 Investor Day, and what was dropped from that plan?"
+  ],
+  "sources": [
+    {
+      "document_id": 90799,
+      "title": "Pool Corporation Q2 2026 Earnings Call",
+      "date": "2026-07-23"
+    },
+    {
+      "document_id": 176640,
+      "title": "Pool Corporation Q1 2026 Earnings Call",
+      "date": "2026-04-23"
+    },
+    {
+      "document_id": 90821,
+      "title": "Pool Corporation Q3 2021 Earnings Call",
+      "date": "2021-10-21"
+    },
+    {
+      "document_id": 89621,
+      "title": "Investor Day 2024",
+      "date": null
+    }
+  ],
+  "tool_calls": 17
+}

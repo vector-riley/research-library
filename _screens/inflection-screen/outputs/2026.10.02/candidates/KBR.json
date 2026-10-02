@@ -1,0 +1,168 @@
+{
+  "ticker": "KBR",
+  "cid": 1002941,
+  "name": "KBR, Inc.",
+  "industry": "Construction & Engineering",
+  "as_of": "2026-10-02",
+  "business": "KBR sells science, technology and engineering services to defense, space and intelligence agencies, and licenses process technologies to energy and chemical companies worldwide.",
+  "quant": {
+    "mcap_usd": 4451350000.0,
+    "drawdown": -0.4993437695740949,
+    "pctile_ev_ebitda_60m": 0.08333333333333333,
+    "price_ltm_pct": -0.24344838000969393,
+    "ebitda_margin_ltm": 0.1263,
+    "ebitda_margin_fwd_consensus": 0.11795330337589958,
+    "industry_median_margin": 0.115,
+    "ev_ebitda_fy": 6.630880443190106,
+    "net_debt_ltm_ebitda": 2.194737659895936,
+    "ebitda_revision_12m": -0.09356778172580782,
+    "ebitda_brokers": 8.0
+  },
+  "catalyst": {
+    "type": ["new_cfo", "strategy_update", "board_refresh"],
+    "events": [
+      {
+        "what": "Announced spin-off of Mission Technology Solutions (to be named Trinzic) into a separate public company; pending, target distribution 2027-01-04",
+        "who": "KBR board and management",
+        "from": "",
+        "effective": "2025-09-24",
+        "source": "8-K 0001357615-25-000053; doc 112160 (Q2 2026 call, Bradie: 'on track to complete the spin on our target date of January 4th, 2027')",
+        "external_hire": null
+      },
+      {
+        "what": "New EVP and CFO, succeeding Mark Sopp (who moves to lead the spin-off team); first call as CFO 2026-02-26",
+        "who": "Shad E. Evans",
+        "from": "KBR SVP Financial Operations; previously CFO of Sustainable Technology Solutions and Chief Accounting Officer (internal promotion)",
+        "effective": "2026-01-05",
+        "source": "8-K 0001357615-25-000053; 8-K/A 0001357615-25-000059; doc 171997",
+        "external_hire": false
+      },
+      {
+        "what": "COO resigned (role appointed 2025-05-01)",
+        "who": "Byron Bright",
+        "from": "",
+        "effective": "2025-07-11",
+        "source": "8-K 0001357615-25-000038",
+        "external_hire": null
+      },
+      {
+        "what": "New director",
+        "who": "Huibert H. Vigeveno",
+        "from": "Former Shell plc Executive Committee member, Director of Downstream, Renewables and Energy Solutions",
+        "effective": "2025-08-05",
+        "source": "8-K 0001357615-25-000048",
+        "external_hire": true
+      },
+      {
+        "what": "New director",
+        "who": "Rami Qasem",
+        "from": "Former CEO Digital Solutions, Baker Hughes; former CEO APEX Industrial Services",
+        "effective": "2026-10-01",
+        "source": "8-K 0001357615-26-000177",
+        "external_hire": true
+      },
+      {
+        "what": "CEO also became Chair of the Board after Gen. Lester Lyles retired following the 2025 annual meeting",
+        "who": "Stuart Bradie",
+        "from": "",
+        "effective": "2025",
+        "source": "DEF 14A doc 39125 (0001104659-26-036847): 'Chair of the Board (2025 to present)'; 8-K 0001357615-24-000064",
+        "external_hire": false
+      },
+      {
+        "what": "Trinzic CEO-designate and CFO-designate hired for the spin entity",
+        "who": "Michael LaRouche (CEO-designate, joining September 2026); Nick Visi (CFO-designate, joined July 2026)",
+        "from": "External",
+        "effective": "2026-09",
+        "source": "doc 112160 (Q2 2026 call, Bradie)",
+        "external_hire": true
+      }
+    ],
+    "months_since_primary": 12,
+    "ceo_months_in_seat": 142,
+    "next_event": {
+      "type": "investor day",
+      "date": null,
+      "source": "doc 112160, Bradie 2026-07-30: 'we're excited to host Investor Days in New York for both new KBR and Trinzic, where we will outline the standalone strategies, the financial framework, and the long-term priorities for each business.' No date given; spin targeted 2027-01-04; Form 10 public filing expected before the Q3 2026 call."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "Consolidated 2027 target (revised 2025-07-31) is a dollar level: $1.15B adjusted EBITDA on $9B+ revenue, implying about 12.8% margin (an upper bound because revenue is '+'), set with segment margins of 10%+ for MTS and 20%+ for STS. The segment targets are already met (YTD 2026: MTS 11.4%, STS 20.0% per 8-K 0001357615-26-000170), so this is a hold-margin framework, not an expansion one. The consolidated $1.15B was not repeated in 2026 calls in Baba and will be replaced by separate frameworks at the post-spin Investor Days. KBR's forward margin (11.8%) is already ABOVE the industry median (11.5%), unlike the GXO archetype. SCORING NOTE: C = 3 by the literal rubric (CFO, level with year); a judgment reading that the target is maintenance gives C = 2.",
+    "current_level_pct": 12.63,
+    "target_level_pct": 12.78,
+    "target_year": 2027,
+    "has_year": true,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "So on a consolidated basis, this puts KBR in 2027 at a revenue size of about $11.5 billion+, and that puts EBITDA in $1.15 billion+, attendant with that at margins of 10%-11%.",
+        "speaker": "Mark Sopp",
+        "role": "EVP and CFO",
+        "doc_title": "Investor Day 2024",
+        "date": "2024-05-08",
+        "document_id": 88537
+      },
+      {
+        "quote": "We're setting the 2027 target to $9 billion+ in revenues in terms of value. ... With these growth assumptions I've just laid out and ongoing strong margin delivery, the $1.15 billion of Adjusted EBITDA is within reach for 2027. For EBITDA margins, we had expected some dilution in MTS from the HomeSafe program. Hopefully, you'll recall that. With this being removed, our target is now 10%+ for MTS, and we're modifying STS just a tad to say 20%+ going forward in our targets.",
+        "speaker": "Mark Sopp",
+        "role": "EVP and CFO",
+        "doc_title": "KBR, INC. Q2 2025 Earnings Call",
+        "date": "2025-07-31",
+        "document_id": 45146
+      },
+      {
+        "quote": "While margins were modestly elevated in 2025, we are on pace to meet our long-term margin target of 20%+ in 2027.",
+        "speaker": "Shad Evans",
+        "role": "EVP and CFO",
+        "doc_title": "KBR, INC. Q4 2025 Earnings Call",
+        "date": "2026-02-26",
+        "document_id": 171997
+      },
+      {
+        "quote": "we still believe that the 12.4% aggregate margin for the full year puts us in a solid position to deliver across the board on our EBITDA and EPS commitments.",
+        "speaker": "Shad Evans",
+        "role": "EVP and CFO",
+        "doc_title": "KBR, INC. Q2 2026 Earnings Call",
+        "date": "2026-07-30",
+        "document_id": 112160
+      }
+    ],
+    "first_stated": "2024-05-08",
+    "times_repeated": 5
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {"FY2026": 0.1255, "FY2027": 0.1180, "FY2028": 0.1121},
+    "consensus_margin_at_target_year_pct": 11.80,
+    "gap_bps_vs_target": 98,
+    "gap_assumption": "Target implied margin = $1.15B / $9.0B = 12.78% versus VA FY2027 consensus EBITDA margin 11.80% (calendar FY). Revenue target is '$9B+', so 12.78% is a ceiling; at consensus FY2027 revenue ($8.49B) the same dollars would imply a higher margin. Consensus appears to be on a pre-spin consolidated basis; the post-spin new KBR will carry a different (higher, STS-weighted) margin, so this gap is mostly a dollar EBITDA gap ($1.0B consensus vs $1.15B target), driven by revenue and the Plaquemines LNG roll-off in 2027, rather than a margin-expansion gap.",
+    "ebitda_uplift_pct_if_target_hit": 14.8,
+    "source": "Baba data_financials consensus (summary), data_comps"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [76, 60],
+    "note": "Q1 2026 +76 bps (VA: 13.05% vs 12.29%). Q2 2026 +60 bps (13.0% vs 12.4%, adjusted EBITDA margin table in 8-K EX-99.1 0001357615-26-000170, doc 143240; VA has not loaded Q2 actuals). Q4 2025 +190 bps. 2026 guide 12.4% implies a second-half step down; consensus models FY2027 at 11.8% and FY2028 at 11.2%. LTM uses VA Q2 2025 to Q1 2026."
+  },
+  "score": {"A_underperformance": 2, "B_catalyst": 2, "C_numeric_framing": 3, "D_unproven": 1, "total": 8},
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Cheap with a real pending catalyst (Trinzic spin 2027-01-04, new CFO, Investor Days), but margins already beat peers and segment targets; the gap is revenue, not margin.",
+  "open_questions": [
+    "What standalone margin frameworks do new KBR (STS-weighted) and Trinzic set at the New York Investor Days, and when are they held?",
+    "Why does consensus take margin down to 11.8% in FY2027 and 11.2% in FY2028 from a 12.4% 2026 guide: Plaquemines LNG roll-off, spin dis-synergies, or stranded costs?",
+    "Is VA consensus already pro forma for the spin, and how will the FY2027 numbers be re-based after 2027-01-04?"
+  ],
+  "sources": [
+    {"document_id": 88537, "title": "Investor Day 2024", "date": "2024-05-08"},
+    {"document_id": 45146, "title": "KBR, INC. Q2 2025 Earnings Call", "date": "2025-07-31"},
+    {"document_id": 171997, "title": "KBR, INC. Q4 2025 Earnings Call", "date": "2026-02-26"},
+    {"document_id": 171996, "title": "KBR, INC. Q1 2026 Earnings Call", "date": "2026-05-05"},
+    {"document_id": 112160, "title": "KBR, INC. Q2 2026 Earnings Call", "date": "2026-07-30"},
+    {"document_id": 143240, "title": "KBR, INC. 8-K (Q2 2026 results, EX-99.1)", "date": null},
+    {"document_id": 39125, "title": "KBR, INC. DEF 14A", "date": null}
+  ],
+  "tool_calls": 24
+}

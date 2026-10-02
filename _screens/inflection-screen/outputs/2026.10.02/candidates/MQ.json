@@ -1,0 +1,47 @@
+{
+  "ticker": "MQ", "cid": 1005105, "name": "Marqeta Inc", "industry": "Payment Processing", "as_of": "2026-10-02",
+  "business": "Marqeta sells a cloud card-issuing and payment-processing platform to fintechs, BNPL lenders, expense-management and on-demand delivery companies.",
+  "quant": {"mcap_usd": 1815549000.0, "drawdown": -0.4204, "pctile_ev_ebitda_60m": 0.0714, "price_ltm_pct": -0.1953,
+            "ebitda_margin_ltm": 0.1945, "ebitda_margin_fwd_consensus": 0.22, "industry_median_margin": 0.264, "ev_ebitda_fy": 6.32,
+            "net_debt_ltm_ebitda": -5.12, "ebitda_revision_12m": -0.0044, "ebitda_brokers": 11},
+  "catalyst": {"type": ["new_ceo", "new_cfo", "board_refresh"],
+               "events": [
+                 {"what": "Interim CEO named on Simon Khalaf's exit (kept CFO role)", "who": "Michael (Mike) Milotich", "from": "Marqeta CFO since Feb 2022; ex Visa SVP corporate finance and IR", "effective": "2025-02-26", "source": "8-K 0001213900-25-017424", "external_hire": false},
+                 {"what": "Interim CEO made permanent CEO and director (continued as CFO until successor)", "who": "Michael Milotich", "from": "Marqeta interim CEO and CFO", "effective": "2025-09-08", "source": "8-K 0001213900-25-085298", "external_hire": false},
+                 {"what": "New CFO and principal financial officer", "who": "Patti Kangwankij", "from": "CFO Roofstock; Stripe 2018-2023; JPMorgan Chase 2004-2018", "effective": "2026-02-09", "source": "8-K 0001522540-26-000004", "external_hire": true},
+                 {"what": "New Chief Technology Officer", "who": "Lukasz Strozek", "from": "CTO LendingClub", "effective": "2026-05-18", "source": "8-K 0001522540-26-000040", "external_hire": true},
+                 {"what": "New Chief Product Officer", "who": "Eugenia Gibbons", "from": "GM Consumer Money, Intuit", "effective": "2026-08-31", "source": "8-K 0001522540-26-000071", "external_hire": true},
+                 {"what": "Board: two directors added, two resigned; later compensation committee chair resigned", "who": "Elaine Paul, Wendy Thomas (added); Godfrey Sullivan, Helen Riley, Najuma Atkinson (left)", "from": null, "effective": "2025-04-18", "source": "8-K 0001522540-25-000006; 8-K 0001522540-26-000061", "external_hire": true},
+                 {"what": "Bolt-on acquisition TransactPay closed July 2025 (about 4 points of gross profit growth per CFO); no Item 2.01 or 1.01 8-K filed", "who": "TransactPay", "from": null, "effective": null, "source": "document_id 128975 (CFO, Q2 2026 call)", "external_hire": null}
+               ],
+               "months_since_primary": 12.8, "ceo_months_in_seat": 12.8,
+               "next_event": {"type": "none known", "date": null, "source": "No Investor Day or framework update found in Baba corpus; CFO on 2026-08-04: \"We're probably not going to share kind of 2027\" (document_id 128975). Next scheduled item is Q3 2026 earnings (date not confirmed)."}},
+  "margin_framing": {"numeric": false, "metric": "adjusted EBITDA margin",
+                     "metric_basis_note": "Marqeta reports adjusted EBITDA margin on net revenue and also on gross profit (31% in Q2 2026). The only current number is a one-year FY2026 guide expressed as adjusted EBITDA growth (low 30s, raised from mid-20s) with net revenue growth 12-13%, which implies about 20.3% margin on net revenue. No long-term margin level, annual rate or dated target exists. The 2023 Investor Day 2025-26 frame (mid-single to low-double digit margins, per a search snippet of an analyst restating it, not verified) is already far exceeded.",
+                     "current_level_pct": 19.45, "target_level_pct": null, "target_year": null, "has_year": false,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "Therefore, we expect full year 2026 adjusted EBITDA to grow in the mid-20s, more than twice our gross profit growth rate.", "speaker": "Patti Kangwankij", "role": "CFO", "doc_title": "Marqeta Inc Q4 2025 Earnings Call", "date": "2026-02-24", "document_id": 187713},
+                       {"quote": "We do feel like we will continue to have a decent spread between our gross profit growth and our expense growth. Our earnings growth will continue to exceed the top-line growth for some time.", "speaker": "Mike Milotich", "role": "CEO", "doc_title": "Marqeta Inc Q2 2026 Earnings Call", "date": "2026-08-04", "document_id": 128975},
+                       {"quote": "I'll start. We're probably not going to share kind of 2027.", "speaker": "Patti Kangwankij", "role": "CFO", "doc_title": "Marqeta Inc Q2 2026 Earnings Call", "date": "2026-08-04", "document_id": 128975}
+                     ],
+                     "first_stated": "2026-02-24", "times_repeated": 2},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 0.2059, "FY2027": 0.22, "FY2028": 0.2382},
+             "consensus_margin_at_target_year_pct": 20.59, "gap_bps_vs_target": -33,
+             "gap_assumption": "No long-term target; compares the FY2026 guide-implied margin (FY2025 adj EBITDA $109.578M x 1.30 over FY2025 revenue $624.884M x 1.125, = 20.26%) with FY2026 consensus 20.59%. December fiscal year, so Baba FY labels equal company fiscal years.",
+             "ebitda_uplift_pct_if_target_hit": null, "source": "Baba data_financials consensus (summary); 8-K 0001522540-26-000061 guidance table"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [567, 231], "note": "Q1 2026 adj EBITDA margin 20.1% vs 14.4% (+567 bps); Q2 2026 21.3% vs 19.0% (+231 bps), from 8-K 0001522540-26-000061. Expansion is opex discipline (Q2 adj opex +12%) while gross profit growth decelerates to 5-7% in Q3 on Block pricing tier, renewals and Cash App issuance diversification."},
+  "score": {"A_underperformance": 2, "B_catalyst": 2, "C_numeric_framing": 1, "D_unproven": 0, "total": 5},
+  "disqualified": true,
+  "disqualifier_reason": "Margin framing already reflected in consensus: the only numeric frame (FY2026 guide, implied about 20.3%) sits 33 bps below FY2026 consensus 20.6%, and consensus already models 22.0% FY2027 and 23.8% FY2028 with no management number above it. The debate is gross profit deceleration and Block concentration, not an unmodeled margin story.",
+  "verdict": "Cheap and leadership is refreshed (internal CEO, external CFO, CTO, CPO), but there is no margin target and consensus already sits above guidance.",
+  "open_questions": ["Will the new CFO give a 2027 or multi-year framework, or keep to annual guides?", "How much of 2026 margin expansion is opex timing (back-loaded 2025 spend) versus durable operating leverage?", "Does gross profit growth re-accelerate in 2027 once Block tiering and the last renewals lap?"],
+  "sources": [
+    {"document_id": 128975, "title": "Marqeta Inc Q2 2026 Earnings Call", "date": "2026-08-04"},
+    {"document_id": 187713, "title": "Marqeta Inc Q4 2025 Earnings Call", "date": "2026-02-24"},
+    {"document_id": 143116, "title": "Marqeta, Inc. 8-K (Q2 2026 results), accession 0001522540-26-000061", "date": "2026-08-04"},
+    {"document_id": 0, "title": "8-K 0001213900-25-085298 (CEO appointment)", "date": "2025-09-08"},
+    {"document_id": 0, "title": "8-K 0001522540-26-000004 (CFO appointment)", "date": "2026-01-07"}
+  ],
+  "tool_calls": 20
+}

@@ -1,0 +1,45 @@
+{
+  "ticker": "PENN", "cid": 1000854, "name": "PENN Entertainment, Inc.", "industry": "Casinos and Gaming", "as_of": "2026-10-02",
+  "business": "Operates regional casinos, racetracks, online sports betting and iCasino (theScore Bet, Hollywood Casino) for gaming consumers in the United States and internationally.",
+  "quant": {"mcap_usd": 1990692000.0, "drawdown": -0.4492, "pctile_ev_ebitda_60m": 0.05, "price_ltm_pct": -0.2394,
+            "ebitda_margin_ltm": 0.1305, "ebitda_margin_fwd_consensus": 0.1585, "industry_median_margin": 0.256, "ev_ebitda_fy": 5.03,
+            "net_debt_ltm_ebitda": 3.90, "ebitda_revision_12m": -0.0517, "ebitda_brokers": 10},
+  "catalyst": {"type": ["activist", "board_refresh", "strategy_update"],
+               "events": [
+                 {"what": "Cooperation Agreement with activist HG Vora; board expanded from 8 to 11 with three HG Vora-linked appointees", "who": "Heather Ace, Jeffrey Fox, Fabio Schiavolin", "from": null, "effective": "2026-02-22", "source": "8-K 0001104659-26-018332 (Items 1.01, 5.02); 10-K doc 23090", "external_hire": true},
+                 {"what": "Contested 2025 annual meeting: HG Vora proxy fight; two HG Vora-proposed nominees (Johnny Hartnett, Carlos Ruisanchez) on the ballot for two seats; three long-tenured directors left (Naples resigned, Kohn and Reibstein did not stand), board cut 9 to 8", "who": "HG Vora Capital Management", "from": null, "effective": "2025-04-25", "source": "8-K 0001104659-25-039656; shareholder letter doc 156547; AGM 2025 transcript doc 47825; proxy doc 156561", "external_hire": null},
+                 {"what": "Early termination of the ESPN Bet exclusive OSB marketing agreement (cash payments end Q4 2025), rebrand to theScore Bet, interactive refocused on US iCasino and Canada", "who": "Jay Snowden (CEO)", "from": null, "effective": "2025-12-01", "source": "document_id 43471 (Q3 2025 Earnings Call)", "external_hire": null},
+                 {"what": "Corporate reorganization: EVP Operations role eliminated", "who": "Todd George (departed)", "from": null, "effective": "2026-01-05", "source": "8-K 0001140361-26-000833", "external_hire": null}
+               ],
+               "months_since_primary": 7.3, "ceo_months_in_seat": 78.2,
+               "next_event": {"type": "none known", "date": null, "source": "No Investor Day or framework update found in Baba corpus (lexical 'investor day', FY2026). Next scheduled item is Q3 2026 earnings (date not in Baba). Hollywood Council Bluffs relocation opens 2028 (doc 130121)."}},
+  "margin_framing": {"numeric": true, "metric": "adjusted EBITDA margin",
+                     "metric_basis_note": "Framing is a one-year guide on the Retail segment (adjusted EBITDA/EBITDAR margin, pre-rent) plus an Interactive segment breakeven-to-positive path; VA consensus EBITDA is a consolidated figure with a much lower margin (rent and Interactive skin-tax gross-up of ~$830M in revenue depress it). No multi-year margin level or dated savings target; annual_bps 50 is the 2H 2026 year-over-year step only, a one-year guide (scored as no horizon).",
+                     "current_level_pct": 34.4, "target_level_pct": null, "target_year": null, "has_year": false,
+                     "annual_bps": 50, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "The midpoint of our revised 2026 revenue guidance is $5.87 billion, and for adjusted EBITDA, our new guidance is $1.963 billion at the midpoint, which implies a 50 basis point year-over-year improvement in adjusted EBITDA margins for the second half of the year at the midpoint.", "speaker": "Felicia Kantor Hendrix", "role": "CFO and EVP", "doc_title": "PENN Entertainment, Inc. Q2 2026 Earnings Call", "date": "2026-08-06", "document_id": 130121},
+                       {"quote": "our EBITDAR margins were higher by about 55 basis points in the second quarter year-over-year, and we're anticipating the second half of the year to be right around 50 basis points improvement, both third quarter and fourth quarter", "speaker": "Jay A. Snowden", "role": "CEO and President", "doc_title": "PENN Entertainment, Inc. Q2 2026 Earnings Call", "date": "2026-08-06", "document_id": 130121},
+                       {"quote": "As we have guided previously, the third quarter is expected to be the largest quarterly loss of the year given our investment in Alberta, and we expect the fourth quarter Interactive segment adjusted EBITDA to be positive.", "speaker": "Felicia Kantor Hendrix", "role": "CFO and EVP", "doc_title": "PENN Entertainment, Inc. Q2 2026 Earnings Call", "date": "2026-08-06", "document_id": 130121}
+                     ],
+                     "first_stated": "2026-08-06", "times_repeated": 2},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 15.45, "FY2027": 15.85, "FY2028": 15.80},
+             "consensus_margin_at_target_year_pct": 15.45, "gap_bps_vs_target": null, "gap_assumption": "December year end, Baba FY labels equal calendar years. No management margin level exists to compare; the only numeric guide is a 2H 2026 Retail segment margin step (+50 bps) embedded in the company's own EBITDA guide, which consensus tracks (FY2027 EBITDA consensus +1.8% over 4 months). Consensus margin is flat FY2027 to FY2028 (15.85% to 15.80%), i.e. the street assumes no further expansion after the ESPN payment roll-off.",
+             "ebitda_uplift_pct_if_target_hit": null, "source": "Baba data_financials consensus (summary, Visible Alpha); data_comps revisions"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [458, 55], "note": "Order is [Q1 2026, Q2 2026]. Q1 is consolidated VA EBITDA margin (14.94% vs 10.36%), driven mainly by the end of ESPN Bet payments, not operations. Q2 is Retail EBITDAR margin per CEO Snowden (doc 130121; Retail adjusted EBITDA margin 34.4%); VA has not loaded Q2 2026 actuals, so LTM uses Q2'25 to Q1'26. Interactive lost $9.5M in Q2, guided positive in Q4 2026."},
+  "score": {"A_underperformance": 2, "B_catalyst": 1, "C_numeric_framing": 2, "D_unproven": 2, "total": 7},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Cheap and down 45% with activist board turnover, but no CEO or CFO change and only a one-year segment margin guide, so the 7 is rubric-driven and the setup is thin.",
+  "open_questions": ["Will the HG Vora-expanded board push for a CEO change, asset sales or a dated margin or free cash flow target?", "Does Interactive turn sustainably profitable after Q4 2026 against aggressive OSB and prediction-market marketing?", "Why does consensus hold FY2027 to FY2028 margin flat when Retail is guiding about 50 bps of annual expansion?"],
+  "sources": [
+    {"document_id": 130121, "title": "PENN Entertainment, Inc. Q2 2026 Earnings Call", "date": "2026-08-06"},
+    {"document_id": 155638, "title": "PENN Entertainment, Inc. Q1 2026 Earnings Call", "date": "2026-05-05"},
+    {"document_id": 43471, "title": "PENN Entertainment, Inc. Q3 2025 Earnings Call", "date": null},
+    {"document_id": 23090, "title": "PENN Entertainment, Inc. 10-K (FY2025, accession 0000921738-26-000008)", "date": null},
+    {"document_id": 156547, "title": "PENN Entertainment Sends Letter to Shareholders (HG Vora)", "date": null},
+    {"document_id": 47825, "title": "PENN AGM 2025 transcript", "date": null},
+    {"document_id": 0, "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01) and data_financials summary (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0001104659-26-018332, 0001140361-26-000833, 0001104659-25-039656; CEO/CFO history 0001104659-20-039804 (Snowden President and CEO by 2020-03-27), 0001104659-21-000097 (CFO Hendrix effective 2021-03-02). No CEO or CFO change in window.", "date": "2020-03-30 to 2026-02-23"}
+  ],
+  "tool_calls": 17
+}

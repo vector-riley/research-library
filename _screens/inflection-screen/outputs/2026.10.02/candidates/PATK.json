@@ -1,0 +1,47 @@
+{
+  "ticker": "PATK", "cid": 1003466, "name": "Patrick Industries Inc", "industry": "Auto Parts", "as_of": "2026-10-02",
+  "business": "Manufactures and distributes components and materials for RV, marine, powersports, manufactured housing and industrial customers in the US, Mexico, China and Canada.",
+  "quant": {"mcap_usd": 2261242880.0, "drawdown": -0.5283, "pctile_ev_ebitda_60m": 0.3667, "price_ltm_pct": -0.3324,
+            "ebitda_margin_ltm": 0.1159, "ebitda_margin_fwd_consensus": 0.1180, "industry_median_margin": 0.126, "ev_ebitda_fy": 7.57,
+            "net_debt_ltm_ebitda": 3.07, "ebitda_revision_12m": -0.0380, "ebitda_brokers": 7},
+  "catalyst": {"type": ["acquisition", "new_cfo", "board_refresh"],
+               "events": [
+                 {"what": "All-stock merger of equals with LCI Industries (Lippert) signed; combined revenue ~$8.1B, ~$150M net run-rate cost synergies; close targeted 1H 2027 pending shareholder and regulatory approvals; PATK holders ~52%", "who": "Andy Nemeth (CEO of combined company); Johnny Sirpilla (LCI interim CEO, to be Vice Chair)", "from": null, "effective": "2026-06-30", "source": "document_id 49811 (M&A announcement call); S-4 accession 0001628280-26-063259 (document_id 224001). sec-api Item 1.01/2.01 query returned no hits", "external_hire": null},
+                 {"what": "New CFO (EVP Finance, CFO and Treasurer), succeeding Andrew Roeder who resigned", "who": "Matthew S. Filer", "from": "internal (SVP Finance and Chief Accounting Officer; prior interim CFO)", "effective": "2026-02-20", "source": "8-K 0000076605-26-000004", "external_hire": false},
+                 {"what": "President appointed (CEO Nemeth unchanged)", "who": "Jeff Rodino", "from": "internal", "effective": "2025-10-01", "source": "8-K 0000076605-25-000209", "external_hire": false},
+                 {"what": "Pending board reconstitution at close: 12 members, 6 from each company; former CEO Todd Cleveland to chair, Sirpilla Vice Chair", "who": "Todd Cleveland; Johnny Sirpilla", "from": null, "effective": null, "source": "document_id 49811", "external_hire": null},
+                 {"what": "President Powersports and Housing replaced by COO Hugo Gonzalez; President Marine replaced by Jake Petkovich (former PATK CFO)", "who": "Hugo E. Gonzalez; Jake Petkovich", "from": "internal; Indicor (CFO)", "effective": "2025-12-12", "source": "8-K 0000076605-25-000228; 8-K 0000076605-25-000147 (2025-05-19)", "external_hire": null}
+               ],
+               "months_since_primary": 3.1, "ceo_months_in_seat": 81.0,
+               "next_event": {"type": "none known", "date": null, "source": "No Investor Day scheduled in Baba corpus (last was December 2024, per Nemeth in doc 49811). Pending: Patrick and LCI special meetings (dates blank in preliminary S-4, doc 224001) and merger close targeted 1H 2027 (doc 112205). Q3 2026 earnings call expected late October, date not in Baba."}},
+  "margin_framing": {"numeric": true, "metric": "adjusted EBITDA margin",
+                     "metric_basis_note": "The numeric framing is a dollar synergy target for the combined PATK plus LCI entity, not a standalone margin level. $150M = 185 bps on pro forma combined revenue of $8.1B (LTM Mar-2026); pro forma margin 12.6% with synergies vs 10.5% without. Synergies are described as 'net', but the CEO says part of the procurement savings will be shared with customers on price, so margin drop-through is below 185 bps. Standalone 2026 guide is adjusted operating margin flat vs 2025, with possible further 20 bps drag from customer volume programs.",
+                     "current_level_pct": 11.59, "target_level_pct": 12.6, "target_year": 2030, "has_year": true,
+                     "annual_bps": null, "synergy_usd": 150000000, "synergy_year": 2030,
+                     "statements": [
+                       {"quote": "These figures include the impact of approximately $150 million of annual run rate cost synergies with accretion realized in year one and all synergies fully realized within three years of closing.", "speaker": "Andy Nemeth", "role": "Chairman and CEO", "doc_title": "M&A announcement (Patrick and LCI)", "date": "2026-06-30", "document_id": 49811},
+                       {"quote": "On a pro forma basis, revenues are approximately $8.1 billion. Adjusted EBITDA is approximately $1 billion, representing a margin of 12.6%.", "speaker": "Andy Nemeth", "role": "Chairman and CEO", "doc_title": "M&A announcement (Patrick and LCI)", "date": "2026-06-30", "document_id": 49811},
+                       {"quote": "we expect the combination to generate approximately $150 million of net annual run rate cost synergies, allowing us to share savings with our customers in partnership to promote the long-term benefit of our markets with a focus on affordability. The transaction is targeted to close in the first half of 2027", "speaker": "Andy Nemeth", "role": "CEO", "doc_title": "Patrick Industries Inc Q2 2026 Earnings Call", "date": "2026-07-30", "document_id": 112205},
+                       {"quote": "Based on the revisions to our end market shipments, we now expect our 2026 adjusted operating margin will be flat versus 2025. [...] This may negatively impact margins by an additional 20 basis points versus 2025.", "speaker": "Matt Filer", "role": "CFO", "doc_title": "Patrick Industries Inc Q2 2026 Earnings Call", "date": "2026-07-30", "document_id": 112205}
+                     ],
+                     "first_stated": "2026-06-30", "times_repeated": 3},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 11.53, "FY2027": 11.80, "FY2028": 12.87},
+             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": 185, "gap_assumption": "December year end, Baba FY labels equal calendar years. VA consensus is PATK standalone and does not model the LCI merger or synergies (no FY2029/FY2030 consensus). Gap = full $150M synergies over pro forma combined revenue $8.1B = 185 bps of combined EBITDA margin not in any street number; customer pass-through would reduce it. S-4 synergy projections assume an illustrative 2026-12-31 close with full run rate by year three; on the stated 1H 2027 close, full run rate lands by 1H 2030.",
+             "ebitda_uplift_pct_if_target_hit": 17.6, "source": "Baba data_financials consensus (summary and consensus_history pid 4250, Visible Alpha)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-15, -80], "note": "Order is [Q1 2026, Q2 2026], adjusted EBITDA margin. Q1 from VA actuals (11.36% vs 11.52%); Q2 12.1%, down 80 bps, per CFO Filer (doc 112205). Adjusted operating margin 7.5% vs 8.3%. RV wholesale -16% in Q2; 2H RV run rate guided 20% to 25% below 1H. FY2027 EBITDA consensus fell 7.2% over 4 months (519.6M on 2026-05-31 to 482.2M on 2026-10-01), 12-month -3.8%: estimates still falling. LTM margin uses VA Q3'25 to Q1'26 plus CFO-reported Q2'26 ($126M EBITDA, $1.04B sales, rounded)."},
+  "score": {"A_underperformance": 1, "B_catalyst": 2, "C_numeric_framing": 3, "D_unproven": 0, "total": 6},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "A large pending merger with a dated $150M synergy target the street does not model, but standalone estimates are still falling (-7.2% in four months) and the CEO is a 2020 incumbent, so it is not yet a GXO setup.",
+  "open_questions": ["How much of the $150M net synergy is passed to OEM customers on price, and what is the combined EBITDA margin target once the deal closes?", "Do PATK and LCI holders approve, and when are the special meetings (blank in the preliminary S-4)?", "When does RV wholesale stop falling so FY2027 standalone consensus stabilizes?"],
+  "sources": [
+    {"document_id": 49811, "title": "M&A announcement (Patrick and LCI merger call)", "date": "2026-06-30"},
+    {"document_id": 112205, "title": "Patrick Industries Inc Q2 2026 Earnings Call", "date": "2026-07-30"},
+    {"document_id": 175483, "title": "Patrick Industries Inc Q1 2026 Earnings Call", "date": "2026-04-30"},
+    {"document_id": 224001, "title": "PATRICK INDUSTRIES INC S-4 (accession 0001628280-26-063259)", "date": null},
+    {"document_id": 0, "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary and consensus_history pid 4250 FY-2027 (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_profile (profile summary, quote, earnings review)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0000076605-26-000004, 0000076605-25-000228, 0000076605-25-000209, 0000076605-25-000147, 0001213900-25-019460, 0000076605-24-000136, 0000076605-19-000144 (Nemeth CEO effective 2020-01-01). Item 1.01/2.01 query and all-items query for 2026-05 to 2026-10 returned nothing (sec-api index gap for the merger 8-K)", "date": "2019-11-20 to 2026-01-05"}
+  ],
+  "tool_calls": 25
+}

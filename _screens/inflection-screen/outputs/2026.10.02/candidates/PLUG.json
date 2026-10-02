@@ -1,0 +1,207 @@
+{
+  "ticker": "PLUG",
+  "cid": 1000861,
+  "name": "PLUG POWER INC",
+  "industry": "Heavy Electrical Equipment",
+  "as_of": "2026-10-02",
+  "business": "Plug Power sells hydrogen fuel cells, electrolyzers, liquid hydrogen fuel and service to material handling, industrial and energy customers worldwide.",
+  "quant": {
+    "mcap_usd": 2629391946.3,
+    "drawdown": -0.7487046632124352,
+    "pctile_ev_ebitda_60m": 0.48333333333333334,
+    "price_ltm_pct": -0.1673819742489271,
+    "ebitda_margin_ltm": -1.2477,
+    "ebitda_margin_fwd_consensus": -0.08330026315948572,
+    "industry_median_margin": 0.004,
+    "ev_ebitda_fy": -39.59711493848969,
+    "net_debt_ltm_ebitda": null,
+    "ebitda_revision_12m": -0.09614039809590735,
+    "ebitda_brokers": 14.0
+  },
+  "catalyst": {
+    "type": [
+      "new_ceo",
+      "board_refresh"
+    ],
+    "events": [
+      {
+        "what": "President (2025-10-10), then CEO; Andy Marsh moved to Executive Chair, George McNamee named Lead Director",
+        "who": "Jose Luis Crespo",
+        "from": "Plug Power Chief Revenue Officer (at Plug since 2014)",
+        "effective": "2026-03-02",
+        "source": "8-K 0001104659-25-097346",
+        "external_hire": false
+      },
+      {
+        "what": "President Sanjay Shrestha resigned",
+        "who": "Sanjay Shrestha",
+        "from": "Plug Power",
+        "effective": "2025-10-10",
+        "source": "8-K 0001104659-25-097346",
+        "external_hire": null
+      },
+      {
+        "what": "Crespo appointed to the board as Class III director",
+        "who": "Jose Luis Crespo",
+        "from": "Plug Power CEO",
+        "effective": "2026-03-04",
+        "source": "8-K 0001104659-26-025805",
+        "external_hire": false
+      },
+      {
+        "what": "Director resigned (Audit and Strategy and Financing committees)",
+        "who": "Kavita Mahtani",
+        "from": "Plug Power board",
+        "effective": "2026-06-11",
+        "source": "8-K 0001104659-26-070504",
+        "external_hire": null
+      },
+      {
+        "what": "COO resigned to join another company (pending)",
+        "who": "Dean C. Fullerton",
+        "from": "Plug Power COO since 2024-07-29",
+        "effective": "2026-10-23",
+        "source": "8-K 0001104659-26-110021",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 7,
+    "ceo_months_in_seat": 7,
+    "next_event": {
+      "type": "framework update",
+      "date": null,
+      "source": "No 2026 investor day found. Plug holds an annual Symposium (2024-11-13, doc 65630; 2025-11-18, doc 47846) where the profitability roadmap was set and reaffirmed; Q4 2026 is the stated positive-EBITDA quarter (doc 131677). 2026 Symposium date not found in Baba."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "adjusted EBITDA margin",
+    "metric_basis_note": "Target is a sign threshold, not a percentage: positive EBITDA in Q4 2026 (recorded as 0% floor), then positive operating income in Q4 2027 and full profitability in 2028. Gross margin milestone (breakeven by Q4 2025) was hit: +2.4% in Q4 2025, about breakeven in Q2 2026.",
+    "current_level_pct": -124.8,
+    "target_level_pct": 0.0,
+    "target_year": 2026,
+    "has_year": true,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {
+        "quote": "We remain on track to deliver positive EBITDAs in Q4, a milestone that marks a real turning point for the company.",
+        "speaker": "Jose Luis Crespo",
+        "role": "CEO",
+        "doc_title": "PLUG POWER INC Q2 2026 Earnings Call",
+        "date": "2026-08-10",
+        "document_id": 131677
+      },
+      {
+        "quote": "We haven't given any guidance beyond 2026, except for we said that 2027 was going to be operating income positive in Q4. And we were going to be in 2028, profitable. Overall profitability.",
+        "speaker": "Jose Luis Crespo",
+        "role": "CEO",
+        "doc_title": "PLUG POWER INC Q2 2026 Earnings Call",
+        "date": "2026-08-10",
+        "document_id": 131677
+      },
+      {
+        "quote": "Just to prelude the H2 in context of our target to achieve positive EBITDA in Q4, this will come mainly from increased gross margin and will stem from many factors. Driving more sales as the H2 will be 40% higher than the H1, and this will mostly come from equipment volume.",
+        "speaker": "Paul Middleton",
+        "role": "CFO",
+        "doc_title": "PLUG POWER INC Q2 2026 Earnings Call",
+        "date": "2026-08-10",
+        "document_id": 131677
+      },
+      {
+        "quote": "be about continued sales growth and advancing the financial milestones outlined in our roadmap, including our target of achieving positive EBITDAs in Q4 2026, a milestone within our roadmap towards positive operating income in 2027 and full profitability in 2028.",
+        "speaker": "Jose Luis Crespo",
+        "role": "President and CEO",
+        "doc_title": "PLUG POWER INC Q4 2025 Earnings Call",
+        "date": "2026-03-02",
+        "document_id": 155688
+      },
+      {
+        "quote": "We are laser focused on gross margin neutral by the end of this year, EBITDA positive in 2026 by the end of 2026, OI positive in 2027.",
+        "speaker": "Jose Luis Crespo",
+        "role": "President and CRO (CEO designate)",
+        "doc_title": "Plug Power Symposium 2025",
+        "date": "2025-11-18",
+        "document_id": 47846
+      },
+      {
+        "quote": "we are targeting to exit 2026 by the second half of that year. We are going to be EBITDA positive. And by the way, we're not going to stop there, obviously, right? And as you start to think about 2027, we are actually planning to exit that year being operating income positive.",
+        "speaker": "Sanjay Shrestha",
+        "role": "President",
+        "doc_title": "Status Update (Plug Symposium 2024)",
+        "date": "2024-11-13",
+        "document_id": 65630
+      }
+    ],
+    "first_stated": "2024-11-13",
+    "times_repeated": 7
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": -0.2534,
+      "FY2027": -0.0833,
+      "FY2028": 0.0585
+    },
+    "consensus_margin_at_target_year_pct": -9.87,
+    "gap_bps_vs_target": 987,
+    "gap_assumption": "Target quarter is Q4 2026: VA 4QFY-2026 consensus EBITDA -27.2M on revenue 276.2M = -9.87%, versus management's positive EBITDA (0% floor). VA EBITDA basis may include non-cash items that Plug's own adjusted EBITDA excludes, so the gap may be overstated. Full-year FY2027 consensus is still negative (-80.9M) even though management says operating income turns positive in Q4 2027. VA labels equal calendar years (fyem 12). Quant notes: pctile_ev_ebitda_60m is on EV/Sales (data_comps pctile_metric ev_sales) because EBITDA is negative. ebitda_margin_ltm is Q2 2025 to Q1 2026 VA quarterly EBITDA, -1,135.0M / 739.8M (Q2 2026 actuals not yet loaded in VA), and includes large non-cash charges. ebitda_revision_12m of -9.6% is a sign artifact: FY2027 consensus EBITDA went from -89.5M to -80.9M, a smaller loss. ebitda_turn_pct is null in data_comps; computed 4-month change (2026-05-31 -101.0M to 2026-10-01 -80.9M) is +19.9% of the starting loss, about 2 points of margin, so D was scored on the gap test rather than read as a completed re-rating.",
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials consensus (summary, consensus_history pid 4250 FY-2027)"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      6061,
+      null
+    ],
+    "note": "Q1 2026 VA EBITDA margin -54.0% vs -114.6% in Q1 2025 (+6,061 bps, data_compute). Q2 2026 EBITDA not in VA; gross margin about breakeven vs -30.7% a year ago (CFO: roughly a 30-point improvement, doc 131677). Q4 2025 gross margin +2.4% vs -122.5% (doc 155688). Liquidity is thin: $162M unrestricted cash plus $510M restricted at 2026-06-30, Q2 net cash use $61M; 10-Q 0001104659-26-093454 concludes sufficient capital for at least 12 months, no going-concern doubt; $578M convertible notes, none due within 12 months."
+  },
+  "score": {
+    "A_underperformance": 1,
+    "B_catalyst": 2,
+    "C_numeric_framing": 3,
+    "D_unproven": 2,
+    "total": 8
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Mechanically scores high (internal CEO 7 months in, dated positive-EBITDA target the street models about 990 bps short), but it is a cash-constrained turnaround, not a low-margin GXO-style operator.",
+  "open_questions": [
+    "Does Plug's own adjusted EBITDA definition differ from VA's EBITDA, and how much of the 987 bps gap is definitional?",
+    "Can H2 revenue really run 40% above H1 and lift Q4 2026 EBITDA positive with $162M unrestricted cash and asset sales still pending?",
+    "Will the departing COO (2026-10-23) and the Q4 2026 test be followed by a 2026 Symposium that sets 2027 and 2028 numbers?"
+  ],
+  "sources": [
+    {
+      "document_id": 131677,
+      "title": "PLUG POWER INC Q2 2026 Earnings Call",
+      "date": "2026-08-10"
+    },
+    {
+      "document_id": 155688,
+      "title": "PLUG POWER INC Q4 2025 Earnings Call",
+      "date": "2026-03-02"
+    },
+    {
+      "document_id": 47846,
+      "title": "Plug Power Symposium 2025",
+      "date": "2025-11-18"
+    },
+    {
+      "document_id": 65630,
+      "title": "Status Update (Plug Symposium 2024)",
+      "date": "2024-11-13"
+    },
+    {
+      "document_id": 23268,
+      "title": "PLUG POWER INC 10-K (FY2025)",
+      "date": "2026-03-02"
+    },
+    {
+      "document_id": 131782,
+      "title": "PLUG POWER INC 10-Q (Q2 2026)",
+      "date": null
+    }
+  ],
+  "tool_calls": 21
+}

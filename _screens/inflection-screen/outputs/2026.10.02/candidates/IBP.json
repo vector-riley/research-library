@@ -1,0 +1,121 @@
+{
+ "ticker": "IBP",
+ "cid": 1000731,
+ "name": "INSTALLED BUILDING PRODUCTS",
+ "industry": "Building Products",
+ "as_of": "2026-10-02",
+ "business": "Installs insulation, waterproofing, garage doors, shower doors, gutters and other building products for US residential and commercial builders, plus insulation distribution and manufacturing.",
+ "quant": {
+  "mcap_usd": 5147290248.6,
+  "drawdown": -0.4358352071440059,
+  "pctile_ev_ebitda_60m": 0.38333333333333336,
+  "price_ltm_pct": -0.21169251309835802,
+  "ebitda_margin_ltm": 0.1704,
+  "ebitda_margin_fwd_consensus": 0.1677558110994018,
+  "industry_median_margin": 0.227,
+  "ev_ebitda_fy": 11.097336299399492,
+  "net_debt_ltm_ebitda": 1.350265879529166,
+  "ebitda_revision_12m": 0.031486959505851786,
+  "ebitda_brokers": 13.0
+ },
+ "catalyst": {
+  "type": [],
+  "events": [
+   {
+    "what": "No CEO, CFO, President or director change in the window: zero Item 5.02 8-Ks among 31 IBP 8-Ks filed 2024-07-01 to 2026-10-02 (sec-api filing-search; the structured form-8k index returns nothing for IBP at all, a recall gap). No Item 2.01. Only tuck-in acquisitions (about $30 million of annual sales in Q2 2026 and July; target of at least $100 million acquired revenue in 2026). COO Brad Wheeler (internal) effective 2024-01-01, outside window.",
+    "who": null,
+    "from": null,
+    "effective": null,
+    "source": "sec-api filing-search ticker:IBP formType 8-K; DEF 14A doc 38963; doc 130278 (Edwards, Q2 2026 call)",
+    "external_hire": null
+   }
+  ],
+  "months_since_primary": null,
+  "ceo_months_in_seat": 262,
+  "next_event": {
+   "type": "none known",
+   "date": null,
+   "source": "No Investor Day or framework update found in Baba corpus (lexical 'investor day' FY2026 returns nothing). Next routine event is Q3 2026 earnings, early November 2026, date not sourced. CEO tenure: Edwards CEO since 2004 per DEF 14A (doc 38963, filed 2026-04-08); month not disclosed, 262 is the minimum (from Dec 2004)."
+  }
+ },
+ "margin_framing": {
+  "numeric": false,
+  "metric": "gross margin",
+  "metric_basis_note": "The only live numeric framing is a full-year 2026 adjusted gross margin range of 32% to 34% (one-year, below the 2025 level, so it frames no expansion). The long-term same-branch incremental adjusted EBITDA margin target of 20% to 25% (an incremental rate, not a level) was stated every quarter through the Q4 2024 call (2025-02-27) and was not repeated in any 2025 or 2026 call found. Management says it does not provide guidance.",
+  "current_level_pct": 17.04,
+  "target_level_pct": null,
+  "target_year": null,
+  "has_year": false,
+  "annual_bps": null,
+  "synergy_usd": null,
+  "synergy_year": null,
+  "statements": [
+   {
+    "quote": "The gross margin really was consistent certainly with our 32%-34% full-year range that we have talked about.",
+    "speaker": "Michael Miller",
+    "role": "EVP and CFO",
+    "doc_title": "INSTALLED BUILDING PRODUCTS Q2 2026 Earnings Call",
+    "date": "2026-08-06",
+    "document_id": 130278
+   },
+   {
+    "quote": "Incremental EBITDA margins can be highly variable from quarter to quarter, but we continue to target full-year, long-term, same-branch incremental Adjusted EBITDA margins in the range of 20%-25%.",
+    "speaker": "Michael Miller",
+    "role": "EVP and CFO",
+    "doc_title": "INSTALLED BUILDING PRODUCTS Q4 2024 Earnings Call",
+    "date": "2025-02-27",
+    "document_id": 57470
+   },
+   {
+    "quote": "As we've said a million times, we don't provide guidance.",
+    "speaker": "Michael Miller",
+    "role": "EVP and CFO",
+    "doc_title": "INSTALLED BUILDING PRODUCTS Q2 2026 Earnings Call",
+    "date": "2026-08-06",
+    "document_id": 130278
+   }
+  ],
+  "first_stated": null,
+  "times_repeated": 0
+ },
+ "street": {
+  "consensus_ebitda_margin_by_fy": {
+   "FY2026": 0.1624,
+   "FY2027": 0.1678,
+   "FY2028": 0.1763
+  },
+  "consensus_margin_at_target_year_pct": null,
+  "gap_bps_vs_target": null,
+  "gap_assumption": "IBP fiscal year is the calendar year, so Baba FY labels equal company fiscal years. No EBITDA margin level or year is stated, so no gap is computed. Street already models recovery from 16.24% (FY2026) to 17.63% (FY2028). Note VA FY2026 still carries an estimate for Q2 2026 (EBITDA $121.6M on $745M) although the actual was $131M on $778M (doc 130278).",
+  "ebitda_uplift_pct_if_target_hit": null,
+  "source": "Baba data_financials fundamentals (Visible Alpha consensus), fetched 2026-10-02"
+ },
+ "evidence_of_progress": {
+  "last_two_quarters_margin_yoy_bps": [-101, -79],
+  "note": "Q1 2026 adj EBITDA margin 13.9% vs 15.0% (-101 bps, VA actuals); Q2 2026 16.9% vs 17.6% (-79 bps; Q2 2026 from CFO call, doc 130278). Drivers: single-family volume down 5%, fuel (-50 bps installation gross margin), medical costs (-30 bps), mix shift to lower-margin distribution. LTM 17.04% (Q3 2025 to Q2 2026)."
+ },
+ "score": {
+  "A_underperformance": 1,
+  "B_catalyst": 0,
+  "C_numeric_framing": 1,
+  "D_unproven": 2,
+  "total": 4
+ },
+ "disqualified": true,
+ "disqualifier_reason": "No catalyst in the 18-month window and none pending: Edwards CEO since 2004, Miller CFO since 2013, Wheeler COO since 2024-01-01; no Item 5.02 or 2.01 8-K since 2024-07-01; only tuck-in acquisitions.",
+ "verdict": "Down 44% on housing but not cheap versus its own history, with a 22-year founder CEO, no leadership change, no guidance and no margin target; a cyclical, not a GXO setup.",
+ "open_questions": [
+  "Is the dropped 20% to 25% incremental EBITDA margin target a quiet retreat or just a reporting change?",
+  "How much of the margin decline is cyclical single-family volume versus structural mix shift to distribution?",
+  "Does VA FY2026 consensus still understate EBITDA because the Q2 2026 actual has not been loaded?"
+ ],
+ "sources": [
+  {"document_id": 130278, "title": "INSTALLED BUILDING PRODUCTS Q2 2026 Earnings Call", "date": "2026-08-06"},
+  {"document_id": 198239, "title": "INSTALLED BUILDING PRODUCTS Q1 2026 Earnings Call", "date": "2026-05-07"},
+  {"document_id": 57470, "title": "INSTALLED BUILDING PRODUCTS Q4 2024 Earnings Call", "date": "2025-02-27"},
+  {"document_id": 38963, "title": "Installed Building Products, Inc. DEF 14A", "date": "2026-04-08"},
+  {"document_id": 226130, "title": "Installed Building Products, Inc. 8-K (ESG report, 0001628280-26-064105)", "date": "2026-10-01"},
+  {"document_id": 0, "title": "sec-api filing-search: 31 IBP 8-Ks 2024-07-01 to 2026-10-02, none with Item 5.02 or 2.01", "date": "2026-10-02"}
+ ],
+ "tool_calls": 21
+}

@@ -1,0 +1,49 @@
+{
+  "ticker": "NVST", "cid": 1004642, "name": "Envista Holdings Corp", "industry": "Health Care Equipment", "as_of": "2026-10-02",
+  "business": "Envista sells dental implants, orthodontics including Spark aligners, imaging systems and consumables to dentists, specialists, clinics and hospitals worldwide.",
+  "quant": {"mcap_usd": 3800556000.0, "drawdown": -0.2244, "pctile_ev_ebitda_60m": 0.1667, "price_ltm_pct": 0.1522,
+            "ebitda_margin_ltm": 0.1453, "ebitda_margin_fwd_consensus": 0.1508, "industry_median_margin": 0.211, "ev_ebitda_fy": 9.14,
+            "net_debt_ltm_ebitda": 0.76, "ebitda_revision_12m": 0.0621, "ebitda_brokers": 12},
+  "catalyst": {"type": ["board_refresh", "strategy_update"],
+               "events": [
+                 {"what": "CEO Paul Keel also appointed Chairman; base salary raised to $1.3M and one-time $10M retention award ($5M RSUs, $5M TSR PSUs, four-year vesting); CFO Eric Hammes $1.5M PSU award", "who": "Paul Keel", "from": "Envista President and CEO since 2024-05-01 (ex CEO Smiths Group, 3M)", "effective": "2026-08-17", "source": "8-K 0001757073-26-000074 (period of report 2026-08-17; compensation amendment effective 2026-08-24; Chairman effective date not stated in extract)", "external_hire": false},
+                 {"what": "Investor Day: medium-term outlook raised (core growth 2-5%, adjusted EBITDA growth 5-8%, EPS growth 7-11%)", "who": "Paul Keel, Eric Hammes", "from": null, "effective": "2026-09-17", "source": "document_id 222566", "external_hire": null},
+                 {"what": "Director added (board 8 to 9)", "who": "J. Andrew Pierce", "from": "Group President, Stryker", "effective": "2025-07-14", "source": "8-K 0001757073-25-000036", "external_hire": true},
+                 {"what": "New Chief Accounting Officer (internal Global Controller)", "who": "Coree Thomas", "from": "Envista VP Global Controller; ex CBRE", "effective": "2026-08-06", "source": "8-K 0001757073-26-000051", "external_hire": false},
+                 {"what": "Small bolt-on acquisition, Versah (osseodensification); no Item 2.01 or 1.01 8-K", "who": "Versah", "from": null, "effective": null, "source": "document_id 185765 (CEO, Q1 2026 call)", "external_hire": null},
+                 {"what": "CEO appointed (outside 18-month window)", "who": "Paul Keel", "from": "CEO Smiths Group plc; 3M", "effective": "2024-05-01", "source": "8-K 0001757073-24-000036", "external_hire": true},
+                 {"what": "CFO appointed (outside 18-month window)", "who": "Eric Hammes", "from": "Rockwell Automation; 3M", "effective": "2024-08-08", "source": "8-K 0001757073-24-000063", "external_hire": true}
+               ],
+               "months_since_primary": 1.5, "ceo_months_in_seat": 29.0,
+               "next_event": {"type": "none known", "date": null, "source": "The promised Investor Day already took place on 2026-09-17 (document_id 222566) and gave growth ranges, not a margin level or year. No further framework event found; Q3 2026 results date not confirmed."}},
+  "margin_framing": {"numeric": true, "metric": "adjusted EBITDA margin",
+                     "metric_basis_note": "Since the March 2025 Capital Markets Day management guides EBITDA growth, not margin. The medium-term outlook (raised 2026-09-17) is 2-5% core growth and 5-8% adjusted EBITDA growth, which the CEO translated into about 50 bps of margin expansion a year with no end year. The old 22.5%-by-2026 target (2022 Investor Day, prior CEO) was abandoned. One-year guide: FY2026 adjusted EBITDA growth 11-14%.",
+                     "current_level_pct": 14.53, "target_level_pct": null, "target_year": null, "has_year": false,
+                     "annual_bps": 50, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "If you grow the top line at 2%-5%, take the middle of that, you grow EBITDA 5%-8%, take the midpoint of that, you get about 50 basis points of margin expanse in a year. Pick whatever you want to call medium-term, you can just run that math out.", "speaker": "Paul Keel", "role": "CEO", "doc_title": "Investor Day 2026", "date": "2026-09-17", "document_id": 222566},
+                       {"quote": "We're shifting our entire EBITDA growth range up a point, from 4%-7%-5%-8%. Expanding gross margins together with the productivity initiatives that I just outlined support our ability to grow profits even faster than sales.", "speaker": "Paul Keel", "role": "CEO", "doc_title": "Investor Day 2026", "date": "2026-09-17", "document_id": 222566},
+                       {"quote": "Our new guidance for the full year 2026 is 3.5% to 4.5% core growth, 11% to 14% adjusted EBITDA growth, Adjusted EPS of $1.50 to $1.55, and free cash flow conversion of approximately 100%.", "speaker": "Eric Hammes", "role": "CFO", "doc_title": "Envista Holdings Corp Q2 2026 Earnings Call", "date": "2026-08-05", "document_id": 129702}
+                     ],
+                     "first_stated": "2025-03-05", "times_repeated": 4},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 0.1466, "FY2027": 0.1508, "FY2028": 0.155},
+             "consensus_margin_at_target_year_pct": 15.5, "gap_bps_vs_target": 17,
+             "gap_assumption": "No target year, so FY2028 is used as a two-year test. FY2026 consensus margin 14.66% plus the CEO's about 50 bps a year for two years = 15.66% vs FY2028 consensus 15.50% (+17 bps); using the new outlook midpoints (EBITDA +6.5%, revenue +3.5% a year) the gap is +3 bps. Consensus already models +42 bps in FY2027. December fiscal year; Baba labels equal company years.",
+             "ebitda_uplift_pct_if_target_hit": 0.0107, "source": "Baba data_financials consensus (summary)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [121, 230], "note": "Q1 2026 adj EBITDA margin 14.0% vs 12.8% (+121 bps, consensus actuals); Q2 2026 14.7% vs 12.4% (+230 bps, 8-K 0001757073-26-000063). FY2025 margin 13.7%, +190 bps. Delivery is real, but the street is already extrapolating it."},
+  "score": {"A_underperformance": 1, "B_catalyst": 1, "C_numeric_framing": 2, "D_unproven": 0, "total": 4},
+  "disqualified": true,
+  "disqualifier_reason": "Margin framing already reflected in consensus: the CEO's about 50 bps a year sits 3 to 17 bps above FY2028 consensus (15.5%), well under the 25 bps threshold, and FY2027 consensus already embeds +42 bps. Catalyst leg is also weak: the external CEO (2024-05-01) and CFO (2024-08-08) are both outside the 18-month window; the in-window events are the CEO adding the Chairman role with a $10M retention grant, one director and three small bolt-ons.",
+  "verdict": "A turnaround already in the numbers: margins up about 300 bps under a 2024 CEO, framing is growth-rate only, and consensus models it.",
+  "open_questions": ["Does consensus move after the 2026-09-17 outlook raise, or did the street already sit at the new 5-8% EBITDA growth range?", "How much do China VBP (ortho and implants, second half 2026) and the Q4 billing-day drag weigh on the FY2027 starting margin?", "With the medium-term range framed only as growth, will management ever give a margin level for Spark or the whole company?"],
+  "sources": [
+    {"document_id": 222566, "title": "Envista Investor Day 2026", "date": "2026-09-17"},
+    {"document_id": 129702, "title": "Envista Holdings Corp Q2 2026 Earnings Call", "date": "2026-08-05"},
+    {"document_id": 185766, "title": "Envista Holdings Corp Q4 2025 Earnings Call", "date": "2026-02-05"},
+    {"document_id": 185765, "title": "Envista Holdings Corp Q1 2026 Earnings Call", "date": "2026-05-06"},
+    {"document_id": 50176, "title": "Envista Holdings Corp Q3 2025 Earnings Call", "date": "2025-10-30"},
+    {"document_id": 143517, "title": "Envista 8-K Q2 2026 results, accession 0001757073-26-000063", "date": "2026-08-05"},
+    {"document_id": 0, "title": "8-K 0001757073-26-000074 (Keel Chairman, retention awards)", "date": "2026-08-19"}
+  ],
+  "tool_calls": 22
+}

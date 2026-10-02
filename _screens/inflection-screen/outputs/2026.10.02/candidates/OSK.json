@@ -1,0 +1,184 @@
+{
+ "ticker": "OSK",
+ "cid": 1005275,
+ "name": "Oshkosh Corp.",
+ "industry": "Industrial Machinery and Equipment",
+ "as_of": "2026-10-02",
+ "business": "Builds aerial work platforms, telehandlers, fire and airport vehicles, refuse trucks and tactical defense vehicles for construction, municipal, airport and government customers worldwide.",
+ "quant": {
+  "mcap_usd": 8208448072.5,
+  "drawdown": -0.2702,
+  "pctile_ev_ebitda_60m": 0.1,
+  "price_ltm_pct": 0.0088,
+  "ebitda_margin_ltm": 0.1094,
+  "ebitda_margin_fwd_consensus": 0.1218,
+  "industry_median_margin": 0.218,
+  "ev_ebitda_fy": 6.08,
+  "net_debt_ltm_ebitda": 0.57,
+  "ebitda_revision_12m": -0.033,
+  "ebitda_brokers": 11
+ },
+ "catalyst": {
+  "type": [
+   "strategy_update"
+  ],
+  "events": [
+   {
+    "what": "Investor Day: 2028 targets of $13B to $14B revenue, 12% to 14% adjusted operating margin (200 to 400 bps expansion), $18 to $22 EPS; Defense renamed Transport, Steve Nordlund named to lead it",
+    "who": "John Pfeifer (CEO), Matt Field (CFO)",
+    "from": null,
+    "effective": "2025-06-05",
+    "source": "document_id 68130",
+    "external_hire": null
+   },
+   {
+    "what": "CFO appointed (external hire), effective BEFORE the 18-month window (cutoff 2025-04-01); prior CFO Michael Pack moved to President, Vocational",
+    "who": "Matthew Field",
+    "from": "Joby Aviation (CFO and Treasurer); 20+ years at Ford (CFO North America, CFO Lincoln)",
+    "effective": "2024-12-16",
+    "source": "8-K 0001104659-24-124634",
+    "external_hire": true
+   },
+   {
+    "what": "Director added, board 10 to 11, OUTSIDE window",
+    "who": "William J. Burns",
+    "from": "Zebra Technologies (CEO)",
+    "effective": "2024-07-23",
+    "source": "8-K 0001104659-24-082327",
+    "external_hire": true
+   }
+  ],
+  "months_since_primary": 15.9,
+  "ceo_months_in_seat": 66.0,
+  "next_event": {
+   "type": "none known",
+   "date": null,
+   "source": "No new Investor Day found in Baba corpus; management reiterates the June 2025 Investor Day 2028 targets each quarter (Pfeifer, doc 107417, 2026-07-28). Next is the Q3 2026 earnings call (date not in Baba); CFO said Q4 should be stronger than Q3."
+  }
+ },
+ "margin_framing": {
+  "numeric": true,
+  "metric": "operating margin",
+  "metric_basis_note": "Target is adjusted operating income margin of 12% to 14% in 2028 (midpoint 13% used), compared with VA consensus operating margin (VA FY2025 9.64% matches the company's 9.6% adjusted figure, so VA is on an adjusted basis). Segment targets: Access 14% to 16%, Vocational 16% to 18%.",
+  "current_level_pct": 8.1,
+  "target_level_pct": 13.0,
+  "target_year": 2028,
+  "has_year": true,
+  "annual_bps": null,
+  "synergy_usd": null,
+  "synergy_year": null,
+  "statements": [
+   {
+    "quote": "Sure. And just to correct the number, so it's $13 billion-$14 billion in revenue and 12%-14% margin. So that's our 2028 target. Obviously, many of the initiatives you've heard us talk about are gradual and over time.",
+    "speaker": "Matt Field",
+    "role": "CFO",
+    "doc_title": "Oshkosh Investor Day 2025",
+    "date": "2025-06-05",
+    "document_id": 68130
+   },
+   {
+    "quote": "I'll finish with we laid out our targets to 2028 last year. We said we'll grow to $13 billion-$14 billion in revenue. We'll increase our operating margins by 200-400 basis points. That would take it to 12%-14% at the highest level. We will deliver $18-$22 per share",
+    "speaker": "John Pfeifer",
+    "role": "CEO",
+    "doc_title": "JPMorgan Industrials Conference 2026",
+    "date": "2026-03-18",
+    "document_id": 52472
+   },
+   {
+    "quote": "As a result of our revised expectations for production this year, we now expect full-year adjusted earnings per share in the range of $11.",
+    "speaker": "John Pfeifer",
+    "role": "CEO and President",
+    "doc_title": "Oshkosh Corp. Q2 2026 Earnings Call",
+    "date": "2026-07-28",
+    "document_id": 107417
+   },
+   {
+    "quote": "To reiterate, we remain confident in our plans to achieve our 2028 financial targets.",
+    "speaker": "John Pfeifer",
+    "role": "CEO and President",
+    "doc_title": "Oshkosh Corp. Q2 2026 Earnings Call",
+    "date": "2026-07-28",
+    "document_id": 107417
+   }
+  ],
+  "first_stated": "2025-06-05",
+  "times_repeated": 5
+ },
+ "street": {
+  "consensus_ebitda_margin_by_fy": {
+   "FY2026": 11.38,
+   "FY2027": 12.49,
+   "FY2028": 13.07
+  },
+  "consensus_margin_at_target_year_pct": 11.31,
+  "gap_bps_vs_target": 169,
+  "gap_assumption": "December year end, Baba FY labels equal calendar years. Compares the 13% midpoint of the 12% to 14% 2028 adjusted operating margin target with VA FY2028 consensus operating margin 11.31% (consensus operating margin path 9.31% / 10.61% / 11.31% for FY2026 to FY2028). Against the 12% low end the gap is 69 bps. Street FY2028 revenue $12.69B is below the $13B to $14B target. EBITDA uplift assumes flat D&A.",
+  "ebitda_uplift_pct_if_target_hit": 0.131,
+  "source": "Baba data_financials consensus (fundamentals, Visible Alpha, fetched 2026-10-01)"
+ },
+ "evidence_of_progress": {
+  "last_two_quarters_margin_yoy_bps": [
+   -414,
+   -260
+  ],
+  "note": "Order is [Q1 2026, Q2 2026], adjusted operating margin. Q1 2026 4.15% vs 8.29% (VA). Q2 2026 adjusted operating income $258M on sales $2,915M (Q2 2025 $2,732M plus $183M, Field, doc 107417) = 8.85% vs 11.45%. 2026 EPS guide cut to about $11 on slower fire-truck throughput. LTM adjusted operating margin Q3 2025 to Q2 2026 is 8.05%; LTM EBITDA margin (VA, Q2 2025 to Q1 2026) is 10.9%. Margins are moving away from the target, not toward it."
+ },
+ "score": {
+  "A_underperformance": 2,
+  "B_catalyst": 1,
+  "C_numeric_framing": 3,
+  "D_unproven": 2,
+  "total": 8
+ },
+ "disqualified": false,
+ "disqualifier_reason": null,
+ "verdict": "Best numeric framing of the four (dated 12% to 14% 2028 margin, reiterated by CEO and CFO) and a 169 bps gap to a stabilized street, but no fresh leadership catalyst: CEO 5.5 years in, CFO change outside the window.",
+ "open_questions": [
+  "Can fire-truck throughput and NGDV ramp lift adjusted operating margin from about 8% LTM to 12% to 14% in two years, or is the target reset at the next framework update?",
+  "How much of the 169 bps gap is Access cyclicality (11.3% vs 14% to 16% target) versus Vocational and Transport execution?",
+  "Is there a pending leadership change or new Investor Day that would re-underwrite the 2028 targets?"
+ ],
+ "sources": [
+  {
+   "document_id": 68130,
+   "title": "Oshkosh Investor Day 2025",
+   "date": "2025-06-05"
+  },
+  {
+   "document_id": 52472,
+   "title": "JPMorgan Industrials Conference 2026",
+   "date": "2026-03-18"
+  },
+  {
+   "document_id": 107417,
+   "title": "Oshkosh Corp. Q2 2026 Earnings Call",
+   "date": "2026-07-28"
+  },
+  {
+   "document_id": 52470,
+   "title": "Citi's Global Industrial Tech & Mobility Conference 2026 (search snippet only: 'We ended last year at 9.6%')",
+   "date": "2026-02-18"
+  },
+  {
+   "document_id": 0,
+   "title": "SEC 8-K Item 5.02: 0001104659-24-124634 (CFO Field, effective 2024-12-16), 0001104659-24-082327 (director Burns); CEO appointment 0001104659-20-126932 (Pfeifer effective 2021-04-02). Item 2.01/1.01 query 2024-07 to 2026-10 returned nothing.",
+   "date": "2020-11-18 to 2024-12-02"
+  },
+  {
+   "document_id": 0,
+   "title": "Baba data_comps (market_data, revisions, estimates; asof 2026-09-30 to 2026-10-01)",
+   "date": "2026-10-01"
+  },
+  {
+   "document_id": 0,
+   "title": "Baba data_financials fundamentals consensus (Visible Alpha)",
+   "date": "2026-10-01"
+  },
+  {
+   "document_id": 0,
+   "title": "Baba data_profile (profile summary)",
+   "date": null
+  }
+ ],
+ "tool_calls": 16
+}

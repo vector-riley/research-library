@@ -1,0 +1,198 @@
+{
+ "ticker": "LOW",
+ "cid": 1001286,
+ "name": "LOWE'S COMPANIES, INC.",
+ "industry": "Home Improvement Retailers",
+ "as_of": "2026-10-02",
+ "business": "Home improvement retailer selling building products, appliances, tools and installation services to homeowners, renters and professional contractors in the US and Canada.",
+ "quant": {
+  "mcap_usd": 102127200000.0,
+  "drawdown": -0.3517,
+  "pctile_ev_ebitda_60m": 0.0667,
+  "price_ltm_pct": -0.2516,
+  "ebitda_margin_ltm": 0.1465,
+  "ebitda_margin_fwd_consensus": 0.1403,
+  "industry_median_margin": 0.163,
+  "ev_ebitda_fy": 10.53,
+  "net_debt_ltm_ebitda": 2.66,
+  "ebitda_revision_12m": -0.0126,
+  "ebitda_brokers": 25
+ },
+ "catalyst": {
+  "type": [
+   "acquisition",
+   "strategy_update"
+  ],
+  "events": [
+   {
+    "what": "Acquired Foundation Building Materials (large-Pro building products distributor) for $8.8B, 13.4x adjusted EBITDA; completed October 2025 (exact day not in sources read). Financed with $5B bonds and $2B term loan; buybacks paused until leverage returns to 2.75x (mid-2027).",
+    "who": "Foundation Building Materials",
+    "from": null,
+    "effective": null,
+    "source": "document_id 51212 (Sink, 2025-08-20, terms); document_id 50306 (Ellison, 'which we completed in October'; Sink, financing). sec-api Item 2.01/1.01 query returned 0 filings (recall gap)",
+    "external_hire": null
+   },
+   {
+    "what": "Acquired Artisan Design Group (interior finishes design/installation for home builders), closed June 2025",
+    "who": "Artisan Design Group",
+    "from": null,
+    "effective": null,
+    "source": "document_id 51212 (facts key points: 'recently closed the acquisition of Artisan Design Group (ADG) in June')",
+    "external_hire": null
+   },
+   {
+    "what": "Executive officer realignment: new EVP roles for Pro and Home Services, Stores, Chief Information and AI Officer, Strategy and Business Development, CMO (internal moves; no CEO or CFO change)",
+    "who": "Joseph McFarland, Quonta Vance, Seemantini Godbole, Adam Filipponi, Jennifer Wilson",
+    "from": "internal",
+    "effective": "2026-09-01",
+    "source": "8-K 0000060667-26-000119",
+    "external_hire": false
+   }
+  ],
+  "months_since_primary": 12.0,
+  "ceo_months_in_seat": 99.0,
+  "next_event": {
+   "type": "framework update",
+   "date": null,
+   "source": "Ellison, Goldman Sachs Global Consumer and Retail Conference, 2026-09-15 (doc 221465): 'We're going to talk more specifically in December about how we view our profit algorithm relative to top-line growth'. December 2026, exact date not given."
+  }
+ },
+ "margin_framing": {
+  "numeric": true,
+  "metric": "operating margin",
+  "metric_basis_note": "Targets are adjusted operating margin. The long-term framing (Dec 2024 Investor Update) is a rule of thumb of 10 bps of operating margin per 1 point of comp growth and a path back to '14% plus', with no year, conditional on a housing recovery, and set BEFORE the FBM and ADG deals, which management says dilute operating margin by about 30 bps. Management deferred any FBM update to long-term targets and promises a profit-algorithm update in December 2026. Consensus compared on VA operating margin (close to adjusted: VA FY2027 11.68% vs 11.6% adjusted guide).",
+  "current_level_pct": 11.6,
+  "target_level_pct": 14.0,
+  "target_year": null,
+  "has_year": false,
+  "annual_bps": null,
+  "synergy_usd": null,
+  "synergy_year": null,
+  "statements": [
+   {
+    "quote": "when you look at those long-term scenarios, both the base and the accelerated, we have a path as we continue to grow volume based on the rule of thumb to put us back in those 14% plus operating margin, assuming the scenarios play out in that manner.",
+    "speaker": "Brandon Sink",
+    "role": "EVP and CFO",
+    "doc_title": "Investor Update (2024 Analyst & Investor Conference)",
+    "date": "2024-12-11",
+    "document_id": 67403
+   },
+   {
+    "quote": "We would also expect our operating margin to expand in line with our rule of thumb, which again is 10 basis points of operating margin leverage for every one point of growth in comparable sales.",
+    "speaker": "Brandon Sink",
+    "role": "EVP and CFO",
+    "doc_title": "Investor Update (2024 Analyst & Investor Conference)",
+    "date": "2024-12-11",
+    "document_id": 67403
+   },
+   {
+    "quote": "Any impacts from FBM on long term targets, we are going to look forward to discussing that closer to the end of the year and as we start to look ahead to 2026.",
+    "speaker": "Brandon Sink",
+    "role": "EVP and CFO",
+    "doc_title": "Q2 2026 & Acquisition (Baba label; company Q2 fiscal 2025)",
+    "date": "2025-08-20",
+    "document_id": 51212
+   },
+   {
+    "quote": "We expect sales of approximately $92 billion with roughly flat comparable sales, and we expect adjusted operating margin of approximately 11.6% and full year adjusted diluted earnings per share of approximately $12.25.",
+    "speaker": "Brandon Sink",
+    "role": "EVP and CFO",
+    "doc_title": "LOWE'S COMPANIES, INC. Q2 2027 Earnings Call (Baba label; company Q2 fiscal 2026)",
+    "date": "2026-08-19",
+    "document_id": 141747
+   },
+   {
+    "quote": "We're going to talk more specifically in December about how we view our profit algorithm relative to top-line growth based on kind of the dynamics in the marketplace.",
+    "speaker": "Marvin Ellison",
+    "role": "Chairman, President and CEO",
+    "doc_title": "Goldman Sachs Global Consumer and Retail Conference",
+    "date": "2026-09-15",
+    "document_id": 221465
+   }
+  ],
+  "first_stated": "2024-12-11",
+  "times_repeated": 2
+ },
+ "street": {
+  "consensus_ebitda_margin_by_fy": {
+   "FY2026": 14.54,
+   "FY2027": 14.0,
+   "FY2028": 14.18
+  },
+  "consensus_margin_at_target_year_pct": 12.19,
+  "gap_bps_vs_target": 181,
+  "gap_assumption": "Fiscal year ends late January/early February: Baba FY2027 = company fiscal 2026, Baba FY2029 = company fiscal 2028. EBITDA margins above use Baba labels. No target year exists, so the 14% operating margin path is compared with the furthest consensus year with depth, Baba FY2029 (company fiscal 2028) VA operating margin 12.19% (Baba FY2027 11.68%, FY2028 11.92%). Gap 181 bps; about 151 bps if the pre-acquisition 14% is reduced by the ~30 bps FBM/ADG dilution management cited. Consensus already embeds the comp rule of thumb (op margin +51 bps from Baba FY2027 to FY2029 on 6.3% revenue growth).",
+  "ebitda_uplift_pct_if_target_hit": 12.7,
+  "source": "Baba data_financials consensus (fundamentals, Visible Alpha)"
+ },
+ "evidence_of_progress": {
+  "last_two_quarters_margin_yoy_bps": [
+   -43,
+   -62
+  ],
+  "note": "Order is [Q1, Q2] of company fiscal 2026 (Baba Q1/Q2 FY2027), adjusted operating margin per CFO: Q1 11.5%, down 43 bps (doc 50302); Q2 14.0%, down 62 bps (doc 141747), both including FBM/ADG dilution. Full-year guide cut to the bottom of the range (11.6%). Margins are moving away from the 14% path, not toward it. VA has not loaded company Q2 fiscal 2026 actuals; LTM EBITDA margin 14.65% uses Baba 2QFY2026 to 1QFY2027."
+ },
+ "score": {
+  "A_underperformance": 2,
+  "B_catalyst": 2,
+  "C_numeric_framing": 2,
+  "D_unproven": 2,
+  "total": 8
+ },
+ "disqualified": false,
+ "disqualifier_reason": null,
+ "verdict": "Mechanically an 8, but not a GXO self-help setup: the 14% framing is pre-FBM, has no year and depends on a housing recovery; the live test is the December 2026 profit-algorithm update.",
+ "open_questions": [
+  "Does the December 2026 update restate a margin target with a year, and does it rebase below 14% for FBM/ADG dilution?",
+  "How much of the path is self-help (PPI $1B a year, FBM cost synergies) versus comp leverage that needs a housing recovery?",
+  "Will FBM synergies be quantified in dollars with a date?"
+ ],
+ "sources": [
+  {
+   "document_id": 67403,
+   "title": "Investor Update (2024 Analyst & Investor Conference)",
+   "date": "2024-12-11"
+  },
+  {
+   "document_id": 51212,
+   "title": "Q2 2026 & Acquisition (company Q2 fiscal 2025)",
+   "date": "2025-08-20"
+  },
+  {
+   "document_id": 50306,
+   "title": "LOWE'S COMPANIES, INC. Q3 2026 Earnings Call (company Q3 fiscal 2025; search snippets)",
+   "date": null
+  },
+  {
+   "document_id": 50304,
+   "title": "LOWE'S COMPANIES, INC. Q4 2026 Earnings Call (company Q4 fiscal 2025; search snippets)",
+   "date": null
+  },
+  {
+   "document_id": 50302,
+   "title": "LOWE'S COMPANIES, INC. Q1 2027 Earnings Call (company Q1 fiscal 2026; search snippet)",
+   "date": null
+  },
+  {
+   "document_id": 141747,
+   "title": "LOWE'S COMPANIES, INC. Q2 2027 Earnings Call (company Q2 fiscal 2026)",
+   "date": "2026-08-19"
+  },
+  {
+   "document_id": 221465,
+   "title": "Goldman Sachs Global Consumer and Retail Conference",
+   "date": "2026-09-15"
+  },
+  {
+   "document_id": 0,
+   "title": "Baba data_comps, data_profile, data_financials fundamentals (Visible Alpha)",
+   "date": "2026-10-01"
+  },
+  {
+   "document_id": 0,
+   "title": "SEC 8-K Item 5.02: 0000060667-26-000119 (only filing 2024-07 to 2026-10); 0001193125-18-170222 (Ellison CEO effective 2018-07-02). Item 2.01/1.01 query returned none",
+   "date": "2018-05-22 to 2026-09-02"
+  }
+ ],
+ "tool_calls": 17
+}

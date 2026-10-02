@@ -1,0 +1,142 @@
+{
+  "ticker": "JJSF",
+  "cid": 1003846,
+  "name": "J&J Snack Foods Corp",
+  "industry": "Packaged Foods & Meats",
+  "as_of": "2026-10-02",
+  "business": "J&J Snack Foods makes soft pretzels, frozen novelties, churros, bakery goods and ICEE frozen beverages for foodservice outlets and supermarkets in North America.",
+  "quant": {
+    "mcap_usd": 1454314680.0,
+    "drawdown": -0.5493811888533904,
+    "pctile_ev_ebitda_60m": 0.08333333333333333,
+    "price_ltm_pct": -0.17344389095406265,
+    "ebitda_margin_ltm": 0.1192,
+    "ebitda_margin_fwd_consensus": 0.12029273728416043,
+    "industry_median_margin": 0.164,
+    "ev_ebitda_fy": 8.52865802828783,
+    "net_debt_ltm_ebitda": 0.7328776265748539,
+    "ebitda_revision_12m": -0.1272061691183921,
+    "ebitda_brokers": 3.0
+  },
+  "catalyst": {
+    "type": ["strategy_update"],
+    "events": [
+      {
+        "what": "Project Apollo transformation program announced: three plant closures (Holly Ridge NC, Atlanta GA, Colton CA), distribution and G&A savings; at least $20M annualized operating income, raised to at least $25M on 2026-08-05; phase 2 ('Apollo 27') in development",
+        "who": "Management (Dan Fachner, Shawn Munsell)",
+        "from": "",
+        "effective": "2025-11-17",
+        "source": "doc 54358 (Q4 FY2025 call); doc 129671 (Q3 FY2026 call); 8-K EX-99.1 0001437749-26-025782",
+        "external_hire": null
+      },
+      {
+        "what": "CFO appointed (OUTSIDE the 18-month window, effective 22 months ago), succeeding retiring Ken Plunk",
+        "who": "Shawn Munsell",
+        "from": "CFO of Calavo Growers; previously Tyson Foods (chicken segment finance, Treasurer)",
+        "effective": "2024-12-02",
+        "source": "8-K 0001437749-24-035909",
+        "external_hire": true
+      },
+      {
+        "what": "General Counsel resigned; successor search",
+        "who": "Michael A. Pollner",
+        "from": "",
+        "effective": "2026-06-30",
+        "source": "8-K 0001437749-26-020193",
+        "external_hire": null
+      },
+      {
+        "what": "New director (proxy flags as 2025 addition)",
+        "who": "Kathleen E. Ciaramello",
+        "from": "",
+        "effective": "2025",
+        "source": "DEF 14A doc 39104 (0001140361-26-000149), extracted facts; no 8-K found",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 10,
+    "ceo_months_in_seat": 65,
+    "next_event": {
+      "type": "framework update",
+      "date": null,
+      "source": "doc 129671, Fachner 2026-08-05 on 'Apollo 27' phase 2: 'we'll be talking about that in the next Q and trying to identify exactly what that might mean for us in 2027' (Q4 FY2026 call, expected about mid-November 2026 by analogy with 2025-11-17; date not announced). No Investor Day found in Baba (lexical search FY2026)."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "operating margin",
+    "metric_basis_note": "The dated figure is dollar run-rate operating income savings (Project Apollo: at least $20M by end of fiscal 2026, raised to at least $25M), not a margin level. The only level is gross margin 'above 30% ... toward the mid-30s' with no year (CFO, 2025-11-17), already reached at 35.5% in fiscal Q3 2026. No EBITDA margin target. SCORING NOTE: C = 3 by the literal rubric (CEO dollar savings figure with a year); the target year (fiscal 2026, ended September 2026) has now passed, so this is a delivered program rather than a forward framework.",
+    "current_level_pct": 11.92,
+    "target_level_pct": null,
+    "target_year": 2026,
+    "has_year": true,
+    "annual_bps": null,
+    "synergy_usd": 25000000,
+    "synergy_year": 2026,
+    "statements": [
+      {
+        "quote": "To start, we have initiated a business transformation program, which we are calling Project Apollo, that will generate sustainable efficiencies and cost savings across the enterprise. Some key elements are already underway, and we expect the program to deliver at least $20 million of annualized operating income once all the initiatives are implemented in 2026.",
+        "speaker": "Dan Fachner",
+        "role": "President and CEO",
+        "doc_title": "J&J Snack Foods Corp Q4 2025 Earnings Call",
+        "date": "2025-11-17",
+        "document_id": 54358
+      },
+      {
+        "quote": "Yeah. I'd say that we're still committed to improving the gross margin, getting up above 30% on an annualized basis toward the mid-30s, let's call it.",
+        "speaker": "Shawn Munsell",
+        "role": "CFO",
+        "doc_title": "J&J Snack Foods Corp Q4 2025 Earnings Call",
+        "date": "2025-11-17",
+        "document_id": 54358
+      },
+      {
+        "quote": "giving us the confidence to raise the plant consolidation component of Apollo to at least $20 million of annualized savings. That would take the full program annualized run rate to at least $25 million.",
+        "speaker": "Dan Fachner",
+        "role": "CEO",
+        "doc_title": "J&J Snack Foods Corp Q3 2026 Earnings Call",
+        "date": "2026-08-05",
+        "document_id": 129671
+      },
+      {
+        "quote": "We are looking at what I would call Apollo '27. ... We're still working on it, and we'll be talking about that in the next Q and trying to identify exactly what that might mean for us in 2027.",
+        "speaker": "Dan Fachner",
+        "role": "CEO",
+        "doc_title": "J&J Snack Foods Corp Q3 2026 Earnings Call",
+        "date": "2026-08-05",
+        "document_id": 129671
+      }
+    ],
+    "first_stated": "2025-11-17",
+    "times_repeated": 4
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {"FY2026": 0.1162, "FY2027": 0.1203, "FY2028": 0.1221},
+    "consensus_margin_at_target_year_pct": 11.62,
+    "gap_bps_vs_target": null,
+    "gap_assumption": "No margin level was stated, so no gap is computed. Fiscal year ends September; Baba FY2026 = company fiscal 2026 (ended Sep-2026), FY2027 = fiscal 2027. Illustrative only: FY2025 adjusted EBITDA ($180.9M, Fachner, doc 54358) plus the full $25M Apollo run-rate on FY2027 consensus revenue gives a margin 131 bps above FY2027 consensus (12.03%); consensus FY2027 EBITDA of $185.6M is only about $4.7M above FY2025, so the street nets most of Apollo against bakery volume losses, service revenue insourcing and freight.",
+    "ebitda_uplift_pct_if_target_hit": 13.47,
+    "source": "Baba data_financials consensus (summary), data_comps"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [96, -3],
+    "note": "Fiscal Q2 2026 +96 bps (VA). Fiscal Q3 2026 -3 bps using the call's $67.4M adjusted EBITDA on $426M sales (doc 129671; VA has not loaded Q3 actuals) versus VA Q3 FY2025. Gross margin +240 bps to 35.5% in Q3, but freight and fuel (+$4.7M net) and a 6.2% sales decline absorbed it. LTM uses VA fiscal Q3 2025 to Q2 2026."
+  },
+  "score": {"A_underperformance": 2, "B_catalyst": 1, "C_numeric_framing": 3, "D_unproven": 2, "total": 8},
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Deeply derated, stabilized estimates and a dated $25M savings program, but no leadership change: the CEO has run it since 2021 and the premise of a 2025 CEO change is false.",
+  "open_questions": [
+    "What does 'Apollo 27' (phase 2 plant efficiency and systems) add in dollars and by when, at the Q4 FY2026 call?",
+    "Why does FY2027 consensus EBITDA sit only about $5M above FY2025 when $25M of run-rate savings is in place: bakery exits, service insourcing, freight, or broker caution (3 brokers)?",
+    "Does sales return to growth in fiscal 2027 as guided, which is what would let the savings show in margin?"
+  ],
+  "sources": [
+    {"document_id": 54358, "title": "J&J Snack Foods Corp Q4 2025 Earnings Call", "date": "2025-11-17"},
+    {"document_id": 129671, "title": "J&J Snack Foods Corp Q3 2026 Earnings Call", "date": "2026-08-05"},
+    {"document_id": 39104, "title": "J&J SNACK FOODS CORP DEF 14A", "date": "2026-01-02"},
+    {"document_id": 130661, "title": "J&J SNACK FOODS CORP 10-Q (fiscal Q3 2026)", "date": null},
+    {"document_id": 143064, "title": "J&J SNACK FOODS CORP 8-K (Q3 FY2026 results, EX-99.1)", "date": null}
+  ],
+  "tool_calls": 27
+}

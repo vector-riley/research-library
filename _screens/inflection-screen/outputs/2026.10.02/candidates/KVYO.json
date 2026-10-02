@@ -1,0 +1,87 @@
+{
+  "ticker": "KVYO",
+  "cid": 1005566,
+  "name": "Klaviyo, Inc.",
+  "industry": "Application Software",
+  "as_of": "2026-10-02",
+  "business": "Klaviyo sells a cloud B2C CRM platform (email, SMS, data, analytics, AI agents) to ecommerce brands from small businesses to enterprises worldwide.",
+  "quant": {
+    "mcap_usd": 4824851727.47,
+    "drawdown": -0.6802,
+    "pctile_ev_ebitda_60m": 0.0,
+    "price_ltm_pct": -0.4319,
+    "ebitda_margin_ltm": 0.1643,
+    "ebitda_margin_fwd_consensus": 0.1677,
+    "industry_median_margin": 0.282,
+    "ev_ebitda_fy": 13.36,
+    "net_debt_ltm_ebitda": -3.14,
+    "ebitda_revision_12m": 0.0797,
+    "ebitda_brokers": 18
+  },
+  "catalyst": {
+    "type": ["new_ceo", "new_cfo"],
+    "events": [
+      {"what": "President retirement", "who": "Steve Rowland", "from": "", "effective": "2025-12-31", "source": "8-K 0001835830-25-000082", "external_hire": null},
+      {"what": "Interim Executive Officer (director stepping into management)", "who": "Chano Fernandez", "from": "Klaviyo director; ex co-CEO Workday and Eightfold.ai", "effective": "2025-09-01", "source": "8-K 0001835830-25-000100", "external_hire": true},
+      {"what": "Co-CEO alongside founder and co-CEO Andrew Bialecki", "who": "Chano Fernandez", "from": "ex co-CEO Workday", "effective": "2026-01-01", "source": "8-K 0001835830-25-000116", "external_hire": true},
+      {"what": "CFO Amanda Whalen steps down to advisory role (to 2026-11-16)", "who": "Amanda Whalen", "from": "", "effective": "2026-09-04", "source": "8-K 0001835830-26-000026 and 0001835830-26-000032", "external_hire": null},
+      {"what": "New CFO", "who": "Erica Smith", "from": "CFO CyberArk Software", "effective": "2026-09-01", "source": "8-K 0001835830-26-000032", "external_hire": true}
+    ],
+    "months_since_primary": 9.0,
+    "ceo_months_in_seat": 9.0,
+    "next_event": {"type": "none known", "date": null, "source": "No 2026 Investor Day or framework update found in Baba corpus (lexical and hybrid search, fiscal 2026); last Investor Day 2025-09-25 (document_id 52797). Q3 2026 print (first with CFO Erica Smith) is the next checkpoint, date not confirmed."}
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "operating margin",
+    "metric_basis_note": "Target is non-GAAP operating margin (excludes SBC); compared with VA consensus operating_income / revenue, which tracks the non-GAAP line (FY2025 VA 13.71% matches reported 13.7%). Longer-term 20% target has no year.",
+    "current_level_pct": 13.7,
+    "target_level_pct": 16.0,
+    "target_year": 2028,
+    "has_year": true,
+    "annual_bps": null,
+    "synergy_usd": null,
+    "synergy_year": null,
+    "statements": [
+      {"quote": "In the next three years, we are going to expand our operating margins from 12%, which is where they are today at the midpoint of our guidance for fiscal 2025, to 15%-17% by fiscal 2028.", "speaker": "Amanda Whalen", "role": "CFO", "doc_title": "Investor Day 2025", "date": "2025-09-25", "document_id": 52797},
+      {"quote": "Over the next few years, beyond fiscal 2028, we'll continue to drive structural improvements driven by AI, efficiency in our go-to-market motions, leverage on our platform in R&D, all of which position us to achieve that longer-term margin target of 20%.", "speaker": "Amanda Whalen", "role": "CFO", "doc_title": "Investor Day 2025", "date": "2025-09-25", "document_id": 52797},
+      {"quote": "We are revising our full year 2026 non-GAAP operating income guidance down to a range of $212 million-$218 million, with non-GAAP operating margin of approximately 14%. This amounts to a $10 million reduction from the midpoint of our prior outlook and includes $10 million-$12 million in costs associated with our Agency acquisition, as well as continued investment behind product innovation.", "speaker": "Amanda Whalen", "role": "CFO", "doc_title": "Klaviyo, Inc. Q2 2026 Earnings Call", "date": "2026-08-05", "document_id": 129677}
+    ],
+    "first_stated": "2025-09-25",
+    "times_repeated": 1
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {"FY2026": 15.85, "FY2027": 16.77, "FY2028": 17.61},
+    "consensus_margin_at_target_year_pct": 15.90,
+    "gap_bps_vs_target": 10,
+    "gap_assumption": "Target midpoint 16.0% (15% to 17% non-GAAP operating margin by fiscal 2028) minus VA FY2028 consensus non-GAAP operating margin 15.90% (operating_income 348.0M / revenue 2,189.4M) = +10 bps. VA's own 'Operating margin' line shows 16.67% for FY2028, which would put the street above the midpoint. Calendar fiscal year, so VA labels equal company years. Either way the street sits inside the target range.",
+    "ebitda_uplift_pct_if_target_hit": 0.6,
+    "source": "Baba data_financials summary and fundamentals consensus (Visible Alpha) cid 1005566; margins and gap via data_compute"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [868.7, 483.8],
+    "note": "VA EBITDA margin yoy: 4QFY-2025 +868.7 bps, 1QFY-2026 +483.8 bps (VA has not loaded the Q2 2026 actual). Reported non-GAAP operating margin: Q1 2026 about 16%, Q2 2026 13.7%; Q3 2026 guided 10.5% to 11% and full-year 2026 cut to about 14% (from prior midpoint) on the Agency acquisition and product investment, with gross margin falling on SMS mix (Q2 non-GAAP gross margin 73.4%, down 3 points)."
+  },
+  "score": {"A_underperformance": 2, "B_catalyst": 2, "C_numeric_framing": 3, "D_unproven": 0, "total": 7},
+  "disqualified": true,
+  "disqualifier_reason": "Margin target already reflected in consensus: VA FY2028 consensus non-GAAP operating margin 15.90% sits inside the 15% to 17% fiscal 2028 target (10 bps below the midpoint; VA's own operating margin line shows 16.67%), and 12-month forward EBITDA revision is +8.0%.",
+  "verdict": "Cheap and de-rated growth software, not a GXO setup: the dated margin target (15% to 17% by 2028) predates the co-CEO and new CFO and the street already models it, so there is no unproven gap; the catalyst is a founder plus co-CEO structure, not a replacement.",
+  "open_questions": [
+    "Will new CFO Erica Smith (from 2026-09-01) reaffirm or reset the 15% to 17% fiscal 2028 target given the 2026 guide cut and SMS gross margin pressure?",
+    "Is the 68% drawdown about growth durability and AI disruption of email marketing rather than margin, which would make the margin lens the wrong one?",
+    "Does the co-CEO structure with founder Bialecki signal a later handover or a formal Investor Day in 2026 to 2027?"
+  ],
+  "sources": [
+    {"document_id": 52797, "title": "Klaviyo Investor Day 2025", "date": "2025-09-25"},
+    {"document_id": 189424, "title": "Klaviyo, Inc. Q1 2026 Earnings Call", "date": "2026-05-05"},
+    {"document_id": 129677, "title": "Klaviyo, Inc. Q2 2026 Earnings Call", "date": "2026-08-05"},
+    {"document_id": 0, "title": "8-K 0001835830-25-000082 (Rowland retirement)", "date": "2025-08-05"},
+    {"document_id": 0, "title": "8-K 0001835830-25-000100 (Fernandez Interim Executive Officer)", "date": "2025-08-29"},
+    {"document_id": 0, "title": "8-K 0001835830-25-000116 (Fernandez co-CEO)", "date": "2025-12-09"},
+    {"document_id": 0, "title": "8-K 0001835830-26-000026 (Whalen CFO transition)", "date": "2026-05-05"},
+    {"document_id": 0, "title": "8-K 0001835830-26-000032 (Erica Smith CFO)", "date": "2026-07-13"},
+    {"document_id": 0, "title": "Baba data_comps cid 1005566 (market_data and revisions as of 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials summary and fundamentals consensus cid 1005566", "date": "2026-10-01"}
+  ],
+  "tool_calls": 20
+}

@@ -1,0 +1,41 @@
+{
+  "ticker": "NVR", "cid": 1000818, "name": "NVR INC", "industry": "Home Building", "as_of": "2026-10-02",
+  "business": "NVR builds and sells single-family homes, townhomes and condominiums under Ryan Homes, NVHomes and Heartland Homes to first-time, move-up and luxury buyers, plus mortgage services.",
+  "quant": {"mcap_usd": 17251886080.0, "drawdown": -0.3799, "pctile_ev_ebitda_60m": 0.60, "price_ltm_pct": -0.234,
+            "ebitda_margin_ltm": 0.1462, "ebitda_margin_fwd_consensus": 0.1315, "industry_median_margin": 0.096, "ev_ebitda_fy": 12.94,
+            "net_debt_ltm_ebitda": -0.17, "ebitda_revision_12m": -0.1875, "ebitda_brokers": 5},
+  "catalyst": {"type": ["board_refresh"],
+               "events": [
+                 {"what": "Director appointed (Compensation Committee)", "who": "Michael J. DeVito", "from": null, "effective": "2025-07-01", "source": "8-K 0000906163-25-000072", "external_hire": true},
+                 {"what": "Director appointed (Nominating and Corporate Governance Committee)", "who": "George R. Oliver", "from": null, "effective": "2025-10-01", "source": "8-K 0000906163-25-000106", "external_hire": true},
+                 {"what": "Annual option grants to Executive Chairman, CEO, CFO and CAO tied to 2026-2028 return on capital; no role change", "who": "Saville, Bredow, Malzahn, Kelpy", "from": null, "effective": "2026-05-14", "source": "8-K 0000906163-26-000051", "external_hire": null},
+                 {"what": "Last CEO change (outside window): internal successor Eugene Bredow named President and CEO; Paul Saville to Executive Chairman", "who": "Eugene J. Bredow", "from": "President of NVR Mortgage; NVR since 2004", "effective": "2022-05-04", "source": "8-K 0000906163-22-000041", "external_hire": false}
+               ],
+               "months_since_primary": null, "ceo_months_in_seat": 53.0,
+               "next_event": {"type": "none known", "date": null, "source": "NVR holds no earnings calls or investor days and gives no guidance (Baba data_profile guidance state no_call; corpus holds filings only). Next item is the Q3 2026 results 8-K (date not confirmed)."}},
+  "margin_framing": {"numeric": false, "metric": "gross margin",
+                     "metric_basis_note": "NVR gives no guidance and no margin target. The only management margin commentary is the 10-Q MD&A explaining homebuilding gross margin (19.2% in Q2 2026) by lot costs, affordability pricing pressure, consumer sentiment and land deposit impairments. EBITDA margin figures are Visible Alpha consensus.",
+                     "current_level_pct": 14.62, "target_level_pct": null, "target_year": null, "has_year": false,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "Gross profit margin percentage in the second quarter of 2026 decreased to 19.2% from 21.5% in the second quarter of 2025. Gross profit margin was negatively impacted by higher lot costs, pricing pressure due to continued affordability challenges and weak consumer sentiment.", "speaker": "Company filing (MD&A)", "role": "10-Q", "doc_title": "NVR INC 10-Q (quarter ended 2026-06-30)", "date": "2026-08-05", "document_id": 130010}
+                     ],
+                     "first_stated": null, "times_repeated": 0},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 0.1375, "FY2027": 0.1315, "FY2028": 0.1352},
+             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": null,
+             "gap_assumption": "No management target, so no gap. December fiscal year; Baba FY labels equal company fiscal years.",
+             "ebitda_uplift_pct_if_target_hit": null, "source": "Baba data_financials consensus (summary); data_comps"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-228, -230], "note": "Homebuilding gross margin, not EBITDA: Q1 2026 19.6% vs 21.9% (-228 bps, derived from six-month less Q2 figures) and Q2 2026 19.2% vs 21.5% (-230 bps), 10-Q 0000906163-26-000093. Margins are still falling with the housing cycle; New Orders +9% in Q2 at 5% lower prices."},
+  "score": {"A_underperformance": 1, "B_catalyst": 0, "C_numeric_framing": 0, "D_unproven": 2, "total": 3},
+  "disqualified": true,
+  "disqualifier_reason": "Two disqualifiers. (1) No catalyst: CEO Bredow (internal) has been in seat since 2022-05-04 and the CFO is unchanged; two director additions are not a leadership change, and nothing is pending. (2) Margin is cycle and input-price driven: the 10-Q attributes the margin decline to lot costs, affordability-driven pricing and consumer sentiment, not to anything management can self-help, which is the commodity-style disqualifier. NVR's forward EBITDA margin (13.1%) is also above the industry median (9.6%), so the below-peer premise fails. D=2 is the mechanical result of a stabilized 4-month revision (-1.8%) with no stated level, not evidence of an unmodeled story.",
+  "verdict": "Not a GXO setup: an above-peer-margin homebuilder with no leadership change, no guidance and margins set by the housing cycle.",
+  "open_questions": ["Is the 4-month stabilization in FY2027 EBITDA (-1.8%) a trough in homebuilding gross margin or a pause?", "Do contract land deposit impairments ($21.7M in Q2 2026) keep rising as lot costs reset?", "Does Executive Chairman Saville's role change in the next proxy, which would be the only plausible leadership catalyst?"],
+  "sources": [
+    {"document_id": 130010, "title": "NVR INC 10-Q, quarter ended 2026-06-30 (accession 0000906163-26-000093)", "date": "2026-08-05"},
+    {"document_id": 0, "title": "8-K 0000906163-22-000041 (Bredow CEO, Saville Executive Chairman)", "date": "2022-05-06"},
+    {"document_id": 0, "title": "8-K 0000906163-25-000106 (George Oliver to board)", "date": "2025-10-01"},
+    {"document_id": 0, "title": "8-K 0000906163-25-000072 (Michael DeVito to board)", "date": "2025-07-01"}
+  ],
+  "tool_calls": 13
+}

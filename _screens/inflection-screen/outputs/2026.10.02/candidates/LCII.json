@@ -1,0 +1,191 @@
+{
+  "ticker": "LCII",
+  "cid": 1003632,
+  "name": "LCI Industries",
+  "industry": "Auto Parts",
+  "as_of": "2026-10-02",
+  "business": "LCI (Lippert) makes engineered components such as chassis, windows, furniture and awnings for RV, marine and housing OEMs, plus aftermarket parts.",
+  "quant": {
+    "mcap_usd": 2002827120.0,
+    "drawdown": -0.451,
+    "pctile_ev_ebitda_60m": 0.0667,
+    "price_ltm_pct": -0.0646,
+    "ebitda_margin_ltm": 0.1014,
+    "ebitda_margin_fwd_consensus": 0.1124,
+    "industry_median_margin": 0.126,
+    "ev_ebitda_fy": 5.62,
+    "net_debt_ltm_ebitda": 1.47,
+    "ebitda_revision_12m": -0.0077,
+    "ebitda_brokers": 6
+  },
+  "catalyst": {
+    "type": [
+      "new_ceo",
+      "acquisition",
+      "board_refresh"
+    ],
+    "events": [
+      {
+        "what": "CEO Jason Lippert retired and left the board; director Tracy Graham resigned; Virginia Henkels named Board Chair; new Audit and Compensation chairs",
+        "who": "John A. (Johnny) Sirpilla, Interim CEO",
+        "from": "LCI director; ex President and Chief Business Development Officer, Camping World and Good Sam",
+        "effective": "2026-06-03",
+        "source": "8-K 0000763744-26-000037",
+        "external_hire": false
+      },
+      {
+        "what": "All-stock merger with Patrick Industries announced: 1.2440 PATK shares per LCII share, LCII holders own about 48%, about $150M run-rate cost synergies fully realized within three years of close, close targeted first half 2027; Patrick CEO Andy Nemeth to be combined CEO, Sirpilla Vice Chair",
+        "who": "Patrick Industries",
+        "from": "",
+        "effective": "2026-06-30",
+        "source": "Baba document_id 50241 (M&A announcement call); merger 8-K not returned by sec-api Item 1.01 query (recall gap)",
+        "external_hire": null
+      },
+      {
+        "what": "Board expanded to seven; new director",
+        "who": "Robert P. Hureau",
+        "from": "",
+        "effective": "2026-07-18",
+        "source": "8-K 0000763744-26-000061",
+        "external_hire": true
+      },
+      {
+        "what": "Director James Gero announced he will not stand for re-election at the 2026 annual meeting (date is the announcement)",
+        "who": "James F. Gero",
+        "from": "",
+        "effective": "2026-02-11",
+        "source": "8-K 0000763744-26-000004",
+        "external_hire": null
+      }
+    ],
+    "months_since_primary": 4.0,
+    "ceo_months_in_seat": 4.0,
+    "next_event": {
+      "type": "none known",
+      "date": null,
+      "source": "No Investor Day or framework update found; the defining event is the Patrick merger close targeted first half 2027 (Andy Nemeth, M&A announcement, 2026-06-30, document_id 50241). Shareholder vote date not found."
+    }
+  },
+  "margin_framing": {
+    "numeric": true,
+    "metric": "operating margin",
+    "metric_basis_note": "Standalone frame is operating (EBIT) margin: 2026 guide 7.5% to 8% (70 to 120 bps of expansion) and a long-term 'double-digit' EBIT margin with no year, from the retired CEO and the CFO. The dated number is the merger's $150M run-rate cost synergy (within three years of a first-half 2027 close, so about 2030), stated by Patrick's CEO who will run the combined company; it applies to the combined entity, not to LCII standalone consensus. A 2022 Investor Briefing 13.5% EBITDA margin for 2027 predates the window and was not restated.",
+    "current_level_pct": 9.3,
+    "target_level_pct": 10.0,
+    "target_year": null,
+    "has_year": false,
+    "annual_bps": null,
+    "synergy_usd": 150000000,
+    "synergy_year": 2030,
+    "statements": [
+      {
+        "quote": "As a result, we continue to target 70 to 120 basis points of operating margin improvement in 2026 as we progress toward our long-term goal of achieving double-digit margins.",
+        "speaker": "Jason Lippert",
+        "role": "President and CEO (retired 2026-06-03)",
+        "doc_title": "LCI Industries Q1 2026 Earnings Call",
+        "date": "2026-05-05",
+        "document_id": 176910
+      },
+      {
+        "quote": "These figures include the impact of approximately $150 million of annual run rate cost synergies with accretion realized in year one and all synergies fully realized within three years of closing.",
+        "speaker": "Andy Nemeth",
+        "role": "Chairman and CEO, Patrick Industries (CEO of combined company)",
+        "doc_title": "M&A announcement",
+        "date": "2026-06-30",
+        "document_id": 50241
+      },
+      {
+        "quote": "Given the success of our self-help initiatives, we still anticipate an adjusted operating profit margin in the range of 7.5%-8%. We are pleased that even in this challenging industry environment, we are able to maintain the original guided margin range.",
+        "speaker": "Lillian Etzkorn",
+        "role": "EVP and CFO",
+        "doc_title": "LCI Industries Q2 2026 Earnings Call",
+        "date": "2026-08-05",
+        "document_id": 129679
+      }
+    ],
+    "first_stated": "2026-05-05",
+    "times_repeated": 3
+  },
+  "street": {
+    "consensus_ebitda_margin_by_fy": {
+      "FY2026": 11.0,
+      "FY2027": 11.24,
+      "FY2028": 12.79
+    },
+    "consensus_margin_at_target_year_pct": 9.88,
+    "gap_bps_vs_target": 12,
+    "gap_assumption": "Double-digit (10%) EBIT goal has no year; compared with the furthest consensus year, VA FY2028 operating margin 9.88% (operating_income 424.8M / revenue 4,298.3M; calendar fiscal year so VA labels equal company years), gap +12 bps. VA FY2027 operating margin 8.17%. Standalone consensus does not include Patrick merger synergies.",
+    "ebitda_uplift_pct_if_target_hit": null,
+    "source": "Baba data_financials summary, fundamentals and consensus_history (pid 4250, FY-2027) cid 1003632; margins via data_compute"
+  },
+  "evidence_of_progress": {
+    "last_two_quarters_margin_yoy_bps": [
+      181.4,
+      85.6
+    ],
+    "note": "VA EBITDA margin yoy: 4QFY-2025 +181.4 bps, 1QFY-2026 +85.6 bps (VA has not loaded Q2 2026). Reported Q2 2026 adjusted operating margin 9.3%, up 110 bps; adjusted EBITDA margin 12.2% vs 11.0%. But FY2027 EBITDA consensus fell 5.0% from 2026-06-30 to 2026-10-01 after the RV wholesale outlook was cut to 280k to 300k units from 315k to 330k; margin gains are self-help against falling volume."
+  },
+  "score": {
+    "A_underperformance": 2,
+    "B_catalyst": 2,
+    "C_numeric_framing": 3,
+    "D_unproven": 0,
+    "total": 7
+  },
+  "disqualified": false,
+  "disqualifier_reason": null,
+  "verdict": "Cheap and self-help is working, but the standalone setup is superseded: LCII is merging into Patrick (all stock, close first half 2027), its CEO left for an interim, estimates are still falling 5% in four months, and the street already models the double-digit EBIT goal; any GXO-style read belongs to the combined PATK entity and its $150M synergy target.",
+  "open_questions": [
+    "Should the screen re-run on PATK as the combined entity, where the $150M synergy (about 2030) is the numeric frame and consensus may not yet include it?",
+    "Is RV wholesale (280k to 300k units in 2026) near trough, so the 5% four-month EBITDA cut stops, or are FY2027 estimates still falling?",
+    "Does the merger close on schedule (shareholder and antitrust approvals), given both are Elkhart RV component suppliers to the same OEMs?"
+  ],
+  "sources": [
+    {
+      "document_id": 176910,
+      "title": "LCI Industries Q1 2026 Earnings Call",
+      "date": "2026-05-05"
+    },
+    {
+      "document_id": 50241,
+      "title": "M&A announcement (Patrick Industries and LCI Industries all-stock merger)",
+      "date": "2026-06-30"
+    },
+    {
+      "document_id": 129679,
+      "title": "LCI Industries Q2 2026 Earnings Call",
+      "date": "2026-08-05"
+    },
+    {
+      "document_id": 89618,
+      "title": "LCI Investor Briefing (2027 targets, pre-window)",
+      "date": "2022-09-27"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0000763744-26-000037 (Lippert retirement, Sirpilla interim CEO, board changes)",
+      "date": "2026-06-05"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0000763744-26-000061 (Hureau director)",
+      "date": "2026-07-20"
+    },
+    {
+      "document_id": 0,
+      "title": "8-K 0000763744-26-000004 (Gero not standing)",
+      "date": "2026-02-13"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_comps cid 1003632 (market_data and revisions as of 2026-10-01)",
+      "date": "2026-10-01"
+    },
+    {
+      "document_id": 0,
+      "title": "Baba data_financials summary, fundamentals, consensus_history cid 1003632",
+      "date": "2026-10-01"
+    }
+  ],
+  "tool_calls": 18
+}

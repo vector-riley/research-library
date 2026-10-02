@@ -1,0 +1,44 @@
+{
+  "ticker": "HLMN", "cid": 1005028, "name": "Hillman Solutions Corp", "industry": "Machinery Tools and Components", "as_of": "2026-10-02",
+  "business": "Distributes fasteners, hardware, protective gear and robotic key-duplication kiosks to home centers, hardware stores and mass merchants across North America.",
+  "quant": {"mcap_usd": 1366423540.0, "drawdown": -0.3943, "pctile_ev_ebitda_60m": 0.0, "price_ltm_pct": -0.2386,
+            "ebitda_margin_ltm": 0.1702, "ebitda_margin_fwd_consensus": 0.1775, "industry_median_margin": 0.232, "ev_ebitda_fy": 6.36,
+            "net_debt_ltm_ebitda": 2.34, "ebitda_revision_12m": 0.0401, "ebitda_brokers": 5},
+  "catalyst": {"type": ["acquisition", "strategy_update"],
+               "events": [
+                 {"what": "Definitive agreement to acquire Kanebridge (industrial fastener distributor, about $65M LTM revenue, $30M adjusted EBITDA) for $315M; about $2M cost synergies; expected close around start of Q4 2026; pending", "who": "Kanebridge Corporation", "from": null, "effective": null, "source": "document_id 128949 (Q2 2026 call, Adinolfi, 2026-08-04)", "external_hire": null},
+                 {"what": "Acquisitions closed: Campbell Chain & Fittings and Delaney Hardware (combined about $30M 2026 net sales)", "who": "Campbell Chain & Fittings; Delaney Hardware", "from": null, "effective": "2026-04-28", "source": "document_id 196291 (Q1 2026 call: closed subsequent to quarter end; exact close date not stated, 2026-04-28 is the call date)", "external_hire": null},
+                 {"what": "First-ever Investor Day: 2030 targets of $2.5B net sales, 8% to 12% annual growth, low double-digit adjusted EBITDA CAGR, leverage 2.5x or below", "who": "Jon Michael Adinolfi", "from": null, "effective": "2026-03-19", "source": "8-K 0001822492-26-000135 EX-99.2 (document_id 142671); document_id 196291", "external_hire": null},
+                 {"what": "OUTSIDE WINDOW: CEO and President appointed (internal, ex COO, ex Stanley Black & Decker); predecessor Douglas Cahill to Executive Chairman", "who": "Jon Michael Adinolfi", "from": "Hillman COO", "effective": "2025-01-01", "source": "8-K 0001822492-24-000138", "external_hire": false}
+               ],
+               "months_since_primary": 1.9, "ceo_months_in_seat": 21.0,
+               "next_event": {"type": "none known", "date": null, "source": "Investor Day already held 2026-03-19 (document_id 142671). No further investor day or margin framework update announced. Next dated item is the Kanebridge close, guided 'around the start of the fourth quarter' 2026 (document_id 128949)."}},
+  "margin_framing": {"numeric": false, "metric": "adjusted EBITDA margin",
+                     "metric_basis_note": "Investor Day targets are a 2030 net sales level ($2.5B) and an adjusted EBITDA growth rate (low double-digit CAGR), not a margin. Implied 2030 margin is 17.7% at a 10% EBITDA CAGR and 19.4% at 12% from the FY2025 base of $275.3M (derived, not stated). The only explicit margin number (20% 'not out of the question', no year) came from IR, not the CEO or CFO, in February 2025.",
+                     "current_level_pct": 17.4, "target_level_pct": null, "target_year": null, "has_year": false,
+                     "annual_bps": null, "synergy_usd": 2000000, "synergy_year": null,
+                     "statements": [
+                       {"quote": "Over the next five years, we are confident we will grow Hillman's total net sales to $2.5 billion in 2030. To reach this number, we are targeting 8%-12% growth per year, which will be driven by core performance, new business wins, both at retail and in the pro channel, and M&A. During the same timeline, our goal is to grow adjusted EBITDA at a low double-digit CAGR, maintain a healthy balance sheet while targeting leverage of 2.5x or below, and drive our return on invested capital into the high teens.", "speaker": "Jon Michael Adinolfi", "role": "CEO", "doc_title": "Hillman Solutions Corp Q1 2026 Earnings Call", "date": "2026-04-28", "document_id": 196291},
+                       {"quote": "Adjusted EBITDA to net sales margin during the quarter totaled 17.4%, down 130 basis points from a year ago, improving meaningfully from 13.5% in the first quarter.", "speaker": "Rocky Kraft", "role": "CFO", "doc_title": "Hillman Solutions Corp Q2 2026 Earnings Call", "date": "2026-08-04", "document_id": 128949},
+                       {"quote": "So again, we feel really confident that with that business back to growth, I'm not going to predict the year, but a 20% EBITDA rate is not out of the question when you think about that mix shift.", "speaker": "Michael Koehler", "role": "VP Investor Relations and Treasury", "doc_title": "Hillman Solutions Corp Q4 2024 Earnings Call", "date": "2025-02-18", "document_id": 55621}
+                     ],
+                     "first_stated": "2026-03-19", "times_repeated": 2},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 16.80, "FY2027": 17.75, "FY2028": 18.37},
+             "consensus_margin_at_target_year_pct": 19.08, "gap_bps_vs_target": -135, "gap_assumption": "No stated margin target. Uses the implied 2030 margin from Investor Day targets at the low end (FY2025 adjusted EBITDA $275.3M grown 10% a year to 2030 over $2.5B sales = 17.74%) minus VA consensus FY2030 EBITDA margin 19.08% = -135 bps; at a 12% CAGR the implied margin is 19.41%, +33 bps. The street already models more margin than management's targets imply; the upside in the targets is revenue and M&A (consensus FY2030 revenue $2.06B vs $2.5B target). Calendar FY labels (December FYE).",
+             "ebitda_uplift_pct_if_target_hit": 12.6, "source": "Baba data_financials consensus (summary, FY2026 to FY2030)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [-170, -130], "note": "Order [Q1 2026, Q2 2026], adjusted EBITDA margin YoY per CFO Kraft: Q1 13.5% (doc 196291), Q2 17.4% (doc 128949); driven by high-cost tariffed inventory. Sequential recovery from 13.5% to 17.4%. LTM 17.02% uses VA actuals Q3 2025 to Q1 2026 plus company-reported Q2 2026 ($442.3M, $77.1M)."},
+  "score": {"A_underperformance": 2, "B_catalyst": 2, "C_numeric_framing": 1, "D_unproven": 2, "total": 7},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Weak archetype match despite 7/10: cheapest in its own history with a pending $315M deal, but the CEO is 21 months in, there is no margin target, and the street already sits above implied 2030 margin.",
+  "open_questions": ["Does the Kanebridge close (around Q4 2026 start) come with a margin or synergy framework beyond the $2M sourcing figure?", "Is the Q1 to Q2 2026 margin recovery from tariffed inventory durable enough to get back above the 2025 level of 17.7%?", "Will management convert the 2030 EBITDA CAGR into an explicit margin target, given IR's earlier 20% comment?"],
+  "sources": [
+    {"document_id": 128949, "title": "Hillman Solutions Corp Q2 2026 Earnings Call", "date": "2026-08-04"},
+    {"document_id": 196291, "title": "Hillman Solutions Corp Q1 2026 Earnings Call", "date": "2026-04-28"},
+    {"document_id": 55621, "title": "Hillman Solutions Corp Q4 2024 Earnings Call", "date": "2025-02-18"},
+    {"document_id": 142671, "title": "Hillman Solutions Corp. 8-K EX-99.2 Q2 2026 presentation (Investor Day 2026-03-19 targets), accession 0001822492-26-000135", "date": null},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0001822492-24-000138 (CEO, effective 2025-01-01), 0001822492-25-000042, 0001822492-25-000187, 0001822492-25-000192 (Canada president departure); no CEO or CFO change since 2025-04-01. Item 1.01/2.01 query returned none (recall gap: Baba holds 8-K 0001822492-26-000122 with a credit agreement EX-10.1)", "date": "2024-08-06 to 2025-09-19"},
+    {"document_id": 0, "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01) and data_financials summary (Visible Alpha consensus)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Stage 1 stage1_ranked.csv (industry median margin 0.232)", "date": "2026-10-02"}
+  ],
+  "tool_calls": 19
+}

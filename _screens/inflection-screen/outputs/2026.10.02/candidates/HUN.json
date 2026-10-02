@@ -1,0 +1,47 @@
+{
+  "ticker": "HUN", "cid": 1000034, "name": "Huntsman Corporation", "industry": "Diversified Chemicals", "as_of": "2026-10-02",
+  "business": "Makes MDI polyurethanes, amines and epoxy-based advanced materials sold through distributors to construction, automotive, aerospace, electronics and industrial customers worldwide.",
+  "quant": {"mcap_usd": 1508580000.0, "drawdown": -0.6422, "pctile_ev_ebitda_60m": 0.25, "price_ltm_pct": -0.0359,
+            "ebitda_margin_ltm": 0.0485, "ebitda_margin_fwd_consensus": 0.0700, "industry_median_margin": 0.19, "ev_ebitda_fy": 7.38,
+            "net_debt_ltm_ebitda": 4.87, "ebitda_revision_12m": -0.1143, "ebitda_brokers": 11},
+  "catalyst": {"type": ["acquisition", "board_refresh"],
+               "events": [
+                 {"what": "All-stock merger of equals with Olin announced (pending): Huntsman holders get 0.5476 Olin shares per share, own about 45.5% of OlinHuntsman; close expected first half of 2027", "who": "Olin Corporation", "from": null, "effective": null, "source": "M&A announcement call, document_id 43866 (2026-06-16); 10-Q document_id 113301. sec-api Item 1.01/2.01 query returned none (recall gap)", "external_hire": null},
+                 {"what": "PENDING post-close CEO of OlinHuntsman (Olin CEO; Peter Huntsman becomes non-executive Chairman; Phil Lister stays CFO; Olin CFO Todd Slater becomes Chief Integration Officer)", "who": "Ken Lane", "from": "Olin (President and CEO)", "effective": null, "source": "document_id 43866", "external_hire": true},
+                 {"what": "Division President, Polyurethanes appointed (internal, not CEO or CFO)", "who": "Steen Weien Hansen", "from": "Huntsman SVP Americas, Polyurethanes", "effective": "2025-06-01", "source": "8-K 0001104659-25-043629", "external_hire": false},
+                 {"what": "No CEO or CFO change at Huntsman itself: Peter Huntsman CEO since 2000, Phil Lister CFO", "who": "Peter Huntsman", "from": null, "effective": null, "source": "DEF 14A document_id 38938", "external_hire": null}
+               ],
+               "months_since_primary": 3.5, "ceo_months_in_seat": 321.0,
+               "next_event": {"type": "framework update", "date": null, "source": "Merger close guided for first half of 2027 (document_id 43866), subject to Olin and Huntsman shareholder votes and regulatory approvals; no shareholder meeting date found in corpus. ceo_months_in_seat approximates Peter Huntsman's start as 2000-01-01 (DEF 14A gives the year only)."}},
+  "margin_framing": {"numeric": true, "metric": "adjusted EBITDA margin",
+                     "metric_basis_note": "Framing is a dollar synergy target for the combined OlinHuntsman, not a Huntsman margin: $300M within about 24 months of a first-half 2027 close (so by about 2029), plus $100M+ from 2031 when a third-party chlorine contract expires; $150M to $200M cost to achieve. Peter Huntsman also called Polyurethanes 'a mid-teen sort of a business' on average EBITDA (segment level, no year).",
+                     "current_level_pct": 4.85, "target_level_pct": null, "target_year": 2029, "has_year": true,
+                     "annual_bps": null, "synergy_usd": 400000000, "synergy_year": 2029,
+                     "statements": [
+                       {"quote": "Of that, we see $300 million of synergies, with much of that achieved in the first 24 months following close.", "speaker": "Ken Lane", "role": "Olin CEO, incoming OlinHuntsman CEO", "doc_title": "M&A announcement (Olin and Huntsman)", "date": "2026-06-16", "document_id": 43866},
+                       {"quote": "As Ken mentioned, we have identified more than $400 million of cost synergies and integration benefits.", "speaker": "Peter Huntsman", "role": "CEO", "doc_title": "M&A announcement (Olin and Huntsman)", "date": "2026-06-16", "document_id": 43866},
+                       {"quote": "Then you've got $150 million of SG&A. Obviously, the combined companies don't need two CEOs. Obviously, we don't need two CFOs.", "speaker": "Peter Huntsman", "role": "CEO", "doc_title": "Huntsman Corporation Q2 2026 Earnings Call", "date": "2026-07-31", "document_id": 113204},
+                       {"quote": "Just globally across the board, when you reach 90% in the MDI industry, given what people have as stated capacity and the outages that take place on a yearly basis for maintenance and so forth, you're really in an industry that starts to strain at 90%+ capacity.", "speaker": "Peter Huntsman", "role": "CEO", "doc_title": "Huntsman Corporation Q1 2026 Earnings Call", "date": "2026-05-01", "document_id": 140516}
+                     ],
+                     "first_stated": "2026-06-16", "times_repeated": 3},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 6.25, "FY2027": 7.00, "FY2028": 8.11},
+             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": null, "gap_assumption": "No margin level stated, so no bps gap. Synergies accrue to the combined OlinHuntsman, not to standalone Huntsman consensus (VA, 11 brokers, standalone). $400M of synergies equals about 44% of the over $900M 2025 pro forma combined adjusted EBITDA (data_compute). Calendar FY labels.",
+             "ebitda_uplift_pct_if_target_hit": 44.4, "source": "Baba data_financials consensus (summary); synergy and pro forma figures from document_id 43866"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [3, null], "note": "Order [Q1 2026, Q2 2026]. Q1 2026 +3 bps YoY (VA actuals 73/1420 vs 72/1410). Q2 2026 not yet in VA actuals; Baba's call summary says EBITDA nearly doubled YoY, helped by MDI supply disruptions. LTM 4.85% is VA actuals Q2 2025 to Q1 2026."},
+  "score": {"A_underperformance": 2, "B_catalyst": 3, "C_numeric_framing": 3, "D_unproven": 2, "total": 10},
+  "disqualified": true, "disqualifier_reason": "Commodity-price driven margin. EBITDA margin fell about 1,105 bps from FY2021 (15.9%) to FY2025 (4.8%) on VA actuals as MDI spreads compressed. Management ties results to MDI industry operating rates, benzene-linked pricing, supply disruptions and European natural gas, and the Olin combination adds chlor-alkali, which is more commodity exposure. Net debt is 4.9x LTM EBITDA (no covenant stress found). Also, HUN holders will own Olin stock after close.",
+  "verdict": "Disqualified despite a nominal 10/10: the Olin merger brings an external CEO and a dated $300M to $400M synergy target, but the margin is set by the MDI cycle and the HUN shares become 45.5% of Olin.",
+  "open_questions": ["How much of the $300M within 24 months of close is truly incremental to the separate restructurings both companies already had under way?", "When are the Olin and Huntsman shareholder votes, and could regulators or a competing bid change the terms or the close timing?", "With MDI operating rates in the mid-80s after Q2 supply disruptions, what does consensus assume for spreads in FY2027 and FY2028?"],
+  "sources": [
+    {"document_id": 43866, "title": "M&A announcement call (Olin and Huntsman merger of equals)", "date": "2026-06-16"},
+    {"document_id": 113204, "title": "Huntsman Corporation Q2 2026 Earnings Call", "date": "2026-07-31"},
+    {"document_id": 140516, "title": "Huntsman Corporation Q1 2026 Earnings Call", "date": "2026-05-01"},
+    {"document_id": 113301, "title": "Huntsman CORP 10-Q (Q2 2026, merger risk factors)", "date": null},
+    {"document_id": 38938, "title": "Huntsman CORP DEF 14A (Peter Huntsman CEO 2000 to present)", "date": "2026-03-16"},
+    {"document_id": 19859, "title": "Third Bridge: Huntsman, Implications of Proposed Merger With Olin (expert view, not management)", "date": null},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0001104659-25-087509 (General Counsel), 0001104659-25-044102 (plan), 0001104659-25-043629 (Polyurethanes president); no CEO or CFO change. Item 1.01/2.01 query returned none despite the Olin merger agreement (recall gap)", "date": "2025-05-01 to 2025-09-04"},
+    {"document_id": 0, "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01) and data_financials summary (Visible Alpha consensus)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Stage 1 stage1_ranked.csv (industry median margin 0.19)", "date": "2026-10-02"}
+  ],
+  "tool_calls": 22
+}

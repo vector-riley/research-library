@@ -1,0 +1,43 @@
+{
+  "ticker": "OLLI", "cid": 1000835, "name": "Ollie's Bargain Outlet Holdings Inc", "industry": "Broadline Retail", "as_of": "2026-10-02",
+  "business": "Runs about 645 closeout stores in 34 US states selling discounted brand-name consumables, home goods, seasonal and general merchandise to bargain-seeking consumers.",
+  "quant": {"mcap_usd": 5295346760.0, "drawdown": -0.3917, "pctile_ev_ebitda_60m": 0.15, "price_ltm_pct": -0.3329,
+            "ebitda_margin_ltm": 0.1397, "ebitda_margin_fwd_consensus": 0.1444, "industry_median_margin": 0.144, "ev_ebitda_fy": 12.06,
+            "net_debt_ltm_ebitda": -0.46, "ebitda_revision_12m": 0.0079, "ebitda_brokers": 12},
+  "catalyst": {"type": ["new_ceo", "strategy_update"],
+               "events": [
+                 {"what": "President promoted to President and CEO; prior CEO John Swygert became Executive Chairman. Internal promotion, effective BEFORE the 18-month window (cutoff 2025-04-01)", "who": "Eric van der Valk", "from": "Ollie's President (joined as EVP and COO; earlier President and COO of Christmas Tree Shops)", "effective": "2025-02-02", "source": "8-K 0001140361-25-002804", "external_hire": false},
+                 {"what": "New long-term algorithm: 2% annual comp growth, 40.5% annual gross margin baseline (excess reinvested in price), about 50% of free cash flow returned via buybacks", "who": "Robert Helm (CFO), Eric van der Valk (CEO)", "from": null, "effective": "2026-03-12", "source": "document_id 43399", "external_hire": null},
+                 {"what": "SVP, General Merchandise Manager retired (below CEO/CFO level)", "who": "Kevin McLain", "from": null, "effective": "2026-05-01", "source": "8-K 0001140361-26-009646", "external_hire": null}
+               ],
+               "months_since_primary": 20.0, "ceo_months_in_seat": 20.0,
+               "next_event": {"type": "none known", "date": null, "source": "No Investor Day or framework update found in Baba corpus (lexical 'investor day', Baba FY2027 transcripts). Next is the Q3 fiscal 2026 earnings call (date not in Baba)."}},
+  "margin_framing": {"numeric": true, "metric": "gross margin",
+                     "metric_basis_note": "The only numeric margin target is a 40.5% annual gross margin BASELINE with no year, and management says anything above it is reinvested in price. It is a cap, not an expansion path. No EBITDA or operating margin target found.",
+                     "current_level_pct": 40.5, "target_level_pct": 40.5, "target_year": null, "has_year": false,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "With all of this, we feel confident in targeting annual comparable store sales growth of 2% and annual gross margin of 40.5% moving forward, acknowledging that there will be some variability to comps and margin between the quarters based on deal flow, seasonality, and a few other factors.", "speaker": "Robert Helm", "role": "EVP and CFO", "doc_title": "Ollie's Bargain Outlet Holdings Inc Q4 2026 Earnings Call (company fiscal 2025 Q4)", "date": "2026-03-12", "document_id": 43399},
+                       {"quote": "The 40.5% annual gross margin target is our current baseline target and our thought process to reinvest anything over and above this back into our value proposition to our customers.", "speaker": "Robert Helm", "role": "EVP and CFO", "doc_title": "Ollie's Bargain Outlet Holdings Inc Q4 2026 Earnings Call (company fiscal 2025 Q4)", "date": "2026-03-12", "document_id": 43399},
+                       {"quote": "Gross margin increased 360 basis points to 43.5%. The increase was driven primarily by IEEPA tariff refunds. Tariff refunds benefited gross margin by 380 basis points in this year's second quarter. Merchandise margin decreased, primarily related to investments in price.", "speaker": "Robert Helm", "role": "EVP and CFO", "doc_title": "Ollie's Bargain Outlet Holdings Inc Q2 2027 Earnings Call (company fiscal 2026 Q2)", "date": "2026-09-02", "document_id": 217176}
+                     ],
+                     "first_stated": "2026-03-12", "times_repeated": 3},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 13.81, "FY2027": 14.12, "FY2028": 14.21},
+             "consensus_margin_at_target_year_pct": 40.67, "gap_bps_vs_target": -17, "gap_assumption": "Fiscal year ends late January, so Baba FY2027 = company fiscal 2026 and Baba FY2026 = company fiscal 2025 (actual). The EBITDA row above is in Baba labels. Gap compares the 40.5% gross margin target with VA consensus gross margin for Baba FY2027 (40.67%); Baba FY2028 is 40.66%. Street already sits at or above the target.",
+             "ebitda_uplift_pct_if_target_hit": 0.0, "source": "Baba data_financials consensus (fundamentals, Visible Alpha, fetched 2026-10-01)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [83, 330], "note": "Order is [company fiscal 2026 Q1, Q2] = Baba 1QFY2027, 2QFY2027. Q1 EBITDA margin 13.34% vs 12.51% (VA). Q2 adjusted EBITDA margin 17.1%, up 330 bps (Helm, doc 217176), but tariff refunds added 380 bps to gross margin while comps fell 1.8%; underlying margin was down. VA has not loaded Q2 actuals, so LTM uses Baba 2QFY2026 to 1QFY2027 (13.97%). Margin already sits at the industry median (14.4% fwd vs 14.4%)."},
+  "score": {"A_underperformance": 2, "B_catalyst": 1, "C_numeric_framing": 2, "D_unproven": 0, "total": 5},
+  "disqualified": true, "disqualifier_reason": "Catalyst older than 18 months with no pending change: CEO van der Valk was an internal promotion effective 2025-02-02, before the 2025-04-01 cutoff, and no CFO or board change is pending. The only numeric target (40.5% gross margin baseline) is already at or below consensus (-17 bps), and margins are at the peer median, not below it.",
+  "verdict": "Cheap and down 39%, but this is a growth-stall story, not a margin story: no below-peer margin, a gross margin cap the street already models, and a CEO change that is outside the window.",
+  "open_questions": ["Is the comp slowdown (-1.8% in Q2) a consumer or fuel-cost problem or a sign that new stores are cannibalizing older ones?", "How much of the tariff refunds will go into price rather than to margin?", "Will management set an operating or EBITDA margin target at any point, or keep 40.5% gross margin as the only anchor?"],
+  "sources": [
+    {"document_id": 43399, "title": "Ollie's Bargain Outlet Holdings Inc Q4 2026 Earnings Call (company fiscal 2025 Q4)", "date": "2026-03-12"},
+    {"document_id": 217176, "title": "Ollie's Bargain Outlet Holdings Inc Q2 2027 Earnings Call (company fiscal 2026 Q2)", "date": "2026-09-02"},
+    {"document_id": 63265, "title": "Ollie's Bargain Outlet Holdings Inc Q1 2025 Earnings Call (search snippet: CEO baton to van der Valk 'in early 2025')", "date": null},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0001140361-25-002804 (CEO, effective 2025-02-02), 0001140361-25-022983, 0001140361-26-009646. Item 2.01/1.01 query 2024-07 to 2026-10 returned nothing.", "date": "2025-02-03 to 2026-03-16"},
+    {"document_id": 0, "title": "Baba data_comps (market_data, revisions, estimates; asof 2026-09-30 to 2026-10-01)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_financials fundamentals consensus (Visible Alpha)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Baba data_profile (profile summary, 10-K business description)", "date": "2026-09-23"}
+  ],
+  "tool_calls": 14
+}

@@ -1,0 +1,44 @@
+{
+  "ticker": "HUBG", "cid": 1000729, "name": "HUB GROUP INC", "industry": "Delivery, Air Freight & Logistics", "as_of": "2026-10-02",
+  "business": "Provides intermodal, dedicated trucking, brokerage, managed transportation, warehousing and final mile logistics services to retail, consumer, automotive and durable goods shippers in North America.",
+  "quant": {"mcap_usd": 1819039950.0, "drawdown": -0.4313, "pctile_ev_ebitda_60m": 0.2667, "price_ltm_pct": -0.1295,
+            "ebitda_margin_ltm": 0.0918, "ebitda_margin_fwd_consensus": 0.0898, "industry_median_margin": 0.098, "ev_ebitda_fy": 5.24,
+            "net_debt_ltm_ebitda": 0.34, "ebitda_revision_12m": -0.0952, "ebitda_brokers": 5},
+  "catalyst": {"type": ["new_ceo", "new_cfo"],
+               "events": [
+                 {"what": "Chairman and CEO (returning: Executive Chairman since 2023, CEO 1995 to 2022); Phillip Yeager (his son, CEO since 2023) stays as President and Vice Chairman", "who": "David P. Yeager", "from": "Hub Group Executive Chairman", "effective": "2026-09-13", "source": "8-K 0001193125-26-391228 (document_id 221393)", "external_hire": false},
+                 {"what": "CFO-elect, effective only after the delayed FY2025 10-K is filed (pending)", "who": "Patrick O'Donnell", "from": "TreeHouse Foods (EVP and CFO 2023 to 2026); 15 years PwC", "effective": null, "source": "8-K 0001193125-26-391228 (document_id 221393)", "external_hire": true},
+                 {"what": "CFO Kevin Beth and COO Brian Meents departed; interim CFO (outside consultant) appointed to lead the restatement", "who": "Todd Heeter (interim CFO)", "from": "The Heeter Group", "effective": "2026-05-28", "source": "8-K 0001193125-26-253759; 8-K/A 0001193125-26-285570", "external_hire": true},
+                 {"what": "Accounting error (understated purchased transportation costs and accounts payable, first nine months of 2025); restatement of FY2023, FY2024 and Q1 to Q3 2025; NT 10-K filed; Nasdaq delisting determination expected", "who": null, "from": null, "effective": "2026-02-05", "source": "document_id 221393 EX-99.1; Q4 2025 call document_id 154739; NT 10-K 2026-03-03 in Baba corpus", "external_hire": null}
+               ],
+               "months_since_primary": 0.6, "ceo_months_in_seat": 0.6,
+               "next_event": {"type": "framework update", "date": null, "source": "Phil Yeager: details of the new cost reduction and efficiency program to come 'when we report our final full year 2025 results and restated financials'; filings expected in Q4 2026; lender deadline 2026-11-30 (8-K 0001193125-26-391228, document_id 221393)"}},
+  "margin_framing": {"numeric": false, "metric": "operating margin",
+                     "metric_basis_note": "The only numeric cost framing is the prior team's $50M run-rate cost savings by end of 2025 (CFO Beth, Q3 2025 call); its horizon has passed and it was set on financials now being restated. The new program announced 2026-09-14 is unquantified. H1 2026 is guided to an operating loss before one-time charges, so no current margin level is available.",
+                     "current_level_pct": null, "target_level_pct": null, "target_year": null, "has_year": false,
+                     "annual_bps": null, "synergy_usd": 50000000, "synergy_year": 2025,
+                     "statements": [
+                       {"quote": "Our team is executing a new cost reduction program with actions designed to improve yield and enhance efficiencies, and we look forward to providing more detail on these initiatives when we report our final full year 2025 results and restated financials", "speaker": "Phil Yeager", "role": "President and Vice Chairman (CEO until 2026-09-13)", "doc_title": "Hub Group 8-K EX-99.1 (preliminary Q1 and Q2 2026 results)", "date": "2026-09-14", "document_id": 221393},
+                       {"quote": "The Company is not providing a range of operating income or loss due to ongoing financial closing procedures but does anticipate reporting an operating loss for the first half of 2026 before the impact of one-time charges.", "speaker": "Company press release", "role": null, "doc_title": "Hub Group 8-K EX-99.1 (preliminary Q1 and Q2 2026 results)", "date": "2026-09-14", "document_id": 221393},
+                       {"quote": "We remain confident in achieving the targeted $50 million of cost savings on a run rate basis by the end of the year and work to continuously improve profitability across business lines.", "speaker": "Kevin Beth", "role": "CFO (departed 2026-05-27)", "doc_title": "HUB GROUP INC Q3 2025 Earnings Call", "date": "2025-10-30", "document_id": 154740}
+                     ],
+                     "first_stated": "2026-09-14", "times_repeated": 1},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 8.18, "FY2027": 8.98, "FY2028": 9.57},
+             "consensus_margin_at_target_year_pct": null, "gap_bps_vs_target": null, "gap_assumption": "No margin target, so no gap. Consensus looks stale: VA actuals stop at Q3 2025 (pre-restatement), and FY2026 consensus EBITDA of $310M (8.2% margin) was not reconciled to the company's guided H1 2026 operating loss. The 4m revision of -1.2% reflects no update, not stabilization. Calendar FY labels.",
+             "ebitda_uplift_pct_if_target_hit": null, "source": "Baba data_financials consensus (summary); data_comps revisions asof 2026-10-01"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [null, null], "note": "No reported Q1 or Q2 2026 financials (10-Qs delinquent). Preliminary release: revenue H1 2026 $1.70B to $1.80B, operating loss before one-time charges; fuel, rail and drayage costs ran ahead of rate increases implemented from Q3 2026. LTM 9.18% is VA actuals Q4 2024 to Q3 2025, all subject to restatement."},
+  "score": {"A_underperformance": 1, "B_catalyst": 2, "C_numeric_framing": 1, "D_unproven": 2, "total": 6},
+  "disqualified": true, "disqualifier_reason": "Financial reporting and covenant stress: restatement of FY2023 to Q3 2025, 10-K and two 10-Qs delinquent, Nasdaq delisting determination expected, and a third credit agreement amendment (2026-09-11) needed to extend reporting deadlines to 2026-11-30 and add back restatement costs to covenant EBITDA. H1 2026 operating loss guided.",
+  "verdict": "Disqualified: an accounting restatement, delinquent filings, expected Nasdaq delisting notice and a covenant amendment outweigh the new external CFO-elect and the founder's return as CEO; the score is not meaningful until restated numbers exist.",
+  "open_questions": ["Do the restated 2023 to 2025 financials and the FY2025 10-K land before the 2026-11-30 lender deadline and the Nasdaq hearing?", "How large is the restatement, and what does it imply for true run-rate EBITDA margin vs the 8.2% FY2026 consensus?", "Will the new efficiency program come with a dollar or margin target and a date when restated results are released?"],
+  "sources": [
+    {"document_id": 221393, "title": "Hub Group, Inc. 8-K (credit amendment, preliminary H1 2026, CEO and CFO-elect), accession 0001193125-26-391228", "date": "2026-09-15"},
+    {"document_id": 154740, "title": "HUB GROUP INC Q3 2025 Earnings Call", "date": "2025-10-30"},
+    {"document_id": 154739, "title": "HUB GROUP INC Q4 2025 Earnings Call (accounting error disclosed)", "date": "2026-02-05"},
+    {"document_id": 42909, "title": "HUB GROUP INC Q2 2025 Earnings Call ($50M cost target raised)", "date": null},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0001193125-26-391228, 0001193125-26-285570, 0001193125-26-253759, 0001171843-25-006038, 0001171843-25-003765; Item 1.01: 0001193125-26-391228 (credit amendment)", "date": "2025-06-06 to 2026-09-15"},
+    {"document_id": 0, "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01), data_financials summary, company_overview (NT 10-K 2026-03-03)", "date": "2026-10-01"},
+    {"document_id": 0, "title": "Stage 1 stage1_ranked.csv (industry median margin 0.098)", "date": "2026-10-02"}
+  ],
+  "tool_calls": 16
+}

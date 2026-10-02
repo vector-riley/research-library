@@ -1,0 +1,45 @@
+{
+  "ticker": "PEP", "cid": 1000152, "name": "PepsiCo, Inc.", "industry": "Soft Drinks", "as_of": "2026-10-02",
+  "business": "Makes, markets and sells beverages and convenient foods (Lay's, Doritos, Pepsi, Gatorade) to retailers, distributors, foodservice and bottlers worldwide.",
+  "quant": {"mcap_usd": 171946400000.0, "drawdown": -0.2485, "pctile_ev_ebitda_60m": 0.0, "price_ltm_pct": -0.0611,
+            "ebitda_margin_ltm": 0.1953, "ebitda_margin_fwd_consensus": 0.1966, "industry_median_margin": 0.23, "ev_ebitda_fy": 10.21,
+            "net_debt_ltm_ebitda": 1.67, "ebitda_revision_12m": 0.0011, "ebitda_brokers": 15},
+  "catalyst": {"type": ["new_cfo", "activist", "strategy_update", "board_refresh"],
+               "events": [
+                 {"what": "New EVP and CFO, succeeding retiring Jamie Caulfield", "who": "Stephen (Steve) Schmitt", "from": "Walmart U.S. (EVP and CFO)", "effective": "2025-11-10", "source": "8-K 0000077476-25-000055", "external_hire": true},
+                 {"what": "Activist engagement: CEO says Elliott Management supports the plan to accelerate organic growth and improve core operating margin; early 2026 guide, at least 100 bps core operating margin expansion over three fiscal years, PFNA reset, no full re-franchising of NA beverages (Texas integrated pilot)", "who": "Ramon Laguarta (CEO); Elliott Management", "from": null, "effective": "2025-12-08", "source": "document_id 44776 (Investor Q&A, 2025-12-09)", "external_hire": null},
+                 {"what": "North America CEO moved to Vice Chairman and Global Chief Commercial Officer", "who": "Steven Williams", "from": "internal", "effective": "2025-12-28", "source": "8-K 0000077476-25-000062", "external_hire": false},
+                 {"what": "Board: Darren Walker retired 2025-11-19; J&J Chair and CEO Joaquin Duato elected director effective 2026-12-01 (pending)", "who": "Darren Walker; Joaquin Duato", "from": "Johnson & Johnson", "effective": "2026-12-01", "source": "8-K 0000077476-25-000055; 8-K 0000077476-26-000042", "external_hire": true}
+               ],
+               "months_since_primary": 10.7, "ceo_months_in_seat": 96.0,
+               "next_event": {"type": "investor day", "date": null, "source": "'We intend to provide an update on our progress and path forward with an analyst and investor meeting in late 2026' (Laguarta, doc 44776, 2025-12-09). No exact date found in Baba corpus."}},
+  "margin_framing": {"numeric": true, "metric": "operating margin",
+                     "metric_basis_note": "Target is core (non-GAAP) operating margin, at least +100 bps in aggregate over the next three fiscal years from the FY2025 base (FY2026 to FY2028). VA operating_income matches company core operating profit (Q2 2026 $4,067M = 8-K core operating profit, doc 143813), so the comparison is like for like on operating margin. EBITDA margins in consensus_ebitda_margin_by_fy are reported for reference only.",
+                     "current_level_pct": 15.88, "target_level_pct": 16.88, "target_year": 2028, "has_year": true,
+                     "annual_bps": null, "synergy_usd": null, "synergy_year": null,
+                     "statements": [
+                       {"quote": "Automation, digitalization, and simplification will each play an important role in helping us sustain a pipeline of long-term productivity savings, which we expect will allow us to deliver at least 100 basis points of core operating margin expansion in aggregate over the next three fiscal years, with free cash flow conversion also expected to improve.", "speaker": "Ramon Laguarta", "role": "Chairman and CEO", "doc_title": "PepsiCo Investor Question and Answer session (Status Update)", "date": "2025-12-09", "document_id": 44776},
+                       {"quote": "We've also engaged with many shareholders, including Elliott Management, who support our plan to accelerate organic revenue growth and improve core operating margin.", "speaker": "Ramon Laguarta", "role": "Chairman and CEO", "doc_title": "PepsiCo Investor Question and Answer session (Status Update)", "date": "2025-12-09", "document_id": 44776},
+                       {"quote": "We also have an ambitious goal to improve our core operating margin at least 100 basis points over the next three years.", "speaker": "Steve Schmitt", "role": "EVP and CFO", "doc_title": "Consumer Analyst Group of New York Conference (CAGNY) 2026", "date": "2026-02-18", "document_id": 44777},
+                       {"quote": "in our guidance for 2026, we don't expect to get to these levels for the full year, but we expect to continue to make progress and build momentum throughout the year.", "speaker": "Steve Schmitt", "role": "EVP and CFO", "doc_title": "Consumer Analyst Group of New York Conference (CAGNY) 2026", "date": "2026-02-18", "document_id": 44777}
+                     ],
+                     "first_stated": "2025-12-08", "times_repeated": 3},
+  "street": {"consensus_ebitda_margin_by_fy": {"FY2026": 19.58, "FY2027": 19.73, "FY2028": 20.00},
+             "consensus_margin_at_target_year_pct": 16.47, "gap_bps_vs_target": 40, "gap_assumption": "Fiscal year ends late December, Baba FY labels equal calendar years. Target = FY2025 VA core operating margin 15.88% (14,912 / 93,925) + 100 bps = 16.88% by FY2028; FY2028 consensus core operating margin = 17,257 / 104,752.6 = 16.47%; gap +40 bps. Consensus already models about +60 bps of the 100 bps. 'At least' makes the target a floor. EBITDA uplift assumes flat D&A to revenue.",
+             "ebitda_uplift_pct_if_target_hit": 2.0, "source": "Baba data_financials consensus (fundamentals, Visible Alpha)"},
+  "evidence_of_progress": {"last_two_quarters_margin_yoy_bps": [10, -40], "note": "Order is [Q1 2026, Q2 2026], core operating margin. Q1 about +10 bps per CFO Schmitt (doc 140784, prior-year property gain a drag); Q2 16.8% vs 17.2%, -40 bps (8-K EX-99.1, doc 143813); 1H 2026 16.3% vs 16.5%. PBNA operating margin -90 bps in Q2 on gross profit rate; NA impulse channels soft on gas prices, 2H NA marketing stepped up. Consensus FY2027 EBITDA revision -1.6% over 4 months, +0.1% over 12 months (stable)."},
+  "score": {"A_underperformance": 1, "B_catalyst": 2, "C_numeric_framing": 3, "D_unproven": 1, "total": 7},
+  "disqualified": false, "disqualifier_reason": null,
+  "verdict": "Dated +100 bps core margin target by FY2028 from CEO and CFO, a new external CFO, Elliott pressure and a late 2026 investor meeting, but the street already models about 60 bps of it and the gap is only 40 bps.",
+  "open_questions": ["What date and what numbers does the late 2026 analyst and investor meeting bring, and does 'at least 100 bps' get raised or split by segment?", "Can PFNA and PBNA margins recover after Q2 2026 (-40 bps total, PBNA -90 bps) with higher NA marketing in 2H?", "Is the new CFO's free cash flow conversion goal (about 90% in 2027) a better tell than margin for the street?"],
+  "sources": [
+    {"document_id": 44776, "title": "PepsiCo Investor Question and Answer session (Status Update)", "date": "2025-12-09"},
+    {"document_id": 44777, "title": "Consumer Analyst Group of New York Conference (CAGNY) 2026", "date": "2026-02-18"},
+    {"document_id": 140784, "title": "PepsiCo, Inc. Q1 2026 Earnings Call", "date": null},
+    {"document_id": 40759, "title": "PepsiCo, Inc. Q2 2026 Earnings Call", "date": "2026-07-09"},
+    {"document_id": 143813, "title": "PEPSICO INC 8-K EX-99.1 (Q2 2026 results, accession 0000077476-26-000037)", "date": "2026-07-09"},
+    {"document_id": 0, "title": "Baba data_comps (market_data asof 2026-09-30, revisions asof 2026-10-01), data_financials fundamentals (Visible Alpha), data_profile", "date": "2026-10-01"},
+    {"document_id": 0, "title": "SEC 8-K Item 5.02: 0000077476-26-000042, 0000077476-25-000062, 0000077476-25-000055, 0000077476-25-000012, 0000077476-24-000054; CEO Laguarta effective 2018-10-03 (0000077476-18-000057). Item 1.01/2.01 query returned nothing.", "date": "2018-08-06 to 2026-09-17"}
+  ],
+  "tool_calls": 18
+}
