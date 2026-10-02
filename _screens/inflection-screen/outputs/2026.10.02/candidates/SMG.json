@@ -148,13 +148,13 @@
   },
   "street": {
     "consensus_ebitda_margin_by_fy": {
-      "FY2026": 17.84,
-      "FY2027": 18.49,
-      "FY2028": 19.21
+      "FY2026": 17.83,
+      "FY2027": 18.19,
+      "FY2028": 18.57
     },
     "consensus_margin_at_target_year_pct": 34.18,
     "gap_bps_vs_target": -7.5,
-    "gap_assumption": "Gross margin basis, Baba VA FY = company fiscal year (ends September). Consensus gross margin FY2026 32.60%, FY2027 33.35%, FY2028 34.18%; FY2029 not available, so the test is run at FY2028. Rate-implied FY2028 = FY2026 consensus 32.60% + 2 x 75 bps = 34.10%, 7.5 bps BELOW consensus 34.18% (street already models about 79 bps a year, the midpoint of 50 to 100). Legacy frame for comparison only: 35% gross margin in FY2027 is 164.7 bps above FY2027 consensus 33.35%; $700M FY2027 EBITDA is 14.1% above FY2027 consensus EBITDA $613.4M. Both legacy figures were de-dated by the new CEO and replaced by the FY2027 to FY2029 algorithm.",
+    "gap_assumption": "consensus_ebitda_margin_by_fy = VA consensus EBITDA / revenue (same basis as data_comps ebitda_margin; VA broker EBITDA margin line differs slightly). Gross margin basis, Baba VA FY = company fiscal year (ends September). Consensus gross margin FY2026 32.60%, FY2027 33.35%, FY2028 34.18%; FY2029 not available, so the test is run at FY2028. Rate-implied FY2028 = FY2026 consensus 32.60% + 2 x 75 bps = 34.10%, 7.5 bps BELOW consensus 34.18% (street already models about 79 bps a year, the midpoint of 50 to 100). Legacy frame for comparison only: 35% gross margin in FY2027 is 164.7 bps above FY2027 consensus 33.35%; $700M FY2027 EBITDA is 14.1% above FY2027 consensus EBITDA $613.4M. Both legacy figures were de-dated by the new CEO and replaced by the FY2027 to FY2029 algorithm.",
     "ebitda_uplift_pct_if_target_hit": 0.1412,
     "source": "Baba data_financials summary and fundamentals consensus (Visible Alpha), cid 1000955. ebitda_uplift refers ONLY to the superseded $700M FY2027 EBITDA target vs FY2027 consensus $613.4M (data_compute); on the operative 50 to 100 bps frame the uplift is about zero because consensus already models it."
   },

@@ -176,6 +176,15 @@ Two scoring inconsistencies the subagents flagged, left for Riley to rule on: CH
 repeated on three calls while GXO's single one-year guide earned C=2, so repetition is doing the work; and the
 mechanical D2 zeroes KNF on a -3% four-month move even though its stated target is 404 bps above consensus.
 
+### Full run (2026-10-02, all 125 stabilized survivors)
+
+The remaining 105 names ran through 27 Opus subagents in three waves. Results and lessons are in
+`outputs/2026.10.02/SHORTLIST.md`; the table is `outputs/2026.10.02/ranked.md`, now with a Core column (a Setup whose
+catalyst includes a CEO-level change). Twelve names carry the core flag; four are worth reading first (EYE, FND, HOG,
+GPK), seven more have the leadership change but not yet the numbers and each has a dated event to watch (KR
+2026-10-20, PYPL, POOL, TXT, PRMB, AOS, SARO). The structured 8-K detector missed about half the CFO changes; stage 2
+should query by CIK without the appointment-type clause, and deal detection should move to Baba transcripts.
+
 ## 6. Files
 
     README.md                 this design
@@ -183,5 +192,6 @@ mechanical D2 zeroes KNF on a -3% four-month move even though its stated target 
     aggregate.py              stage 4 ranking table
     prompts/stage3_candidate_read.md   subagent prompt and JSON schema
     outputs/<date>/           universe_us.csv, stage1_survivors.csv, stage1_ranked.csv,
-                              stage2_catalyst_flags.csv, candidates/<TICKER>.json|.md, ranked.md
+                              stage2_catalyst_flags.csv, candidates/<TICKER>.json|.md, ranked.md, SHORTLIST.md
+    BABA_WISHLIST.md          what to build into Baba so stages 2 and 3 get cheaper
     LOG.md                    dated run log

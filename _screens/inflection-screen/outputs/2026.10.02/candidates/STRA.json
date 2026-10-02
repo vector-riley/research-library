@@ -114,13 +114,13 @@
   },
   "street": {
     "consensus_ebitda_margin_by_fy": {
-      "FY2026": 22.47,
-      "FY2027": 24.05,
-      "FY2028": 25.31
+      "FY2026": 22.24,
+      "FY2027": 24.38,
+      "FY2028": 25.58
     },
     "consensus_margin_at_target_year_pct": 18.35,
     "gap_bps_vs_target": 111.7,
-    "gap_assumption": "Operating margin basis throughout, VA FY = calendar fiscal year. Target FY2027 = FY2025 VA operating margin 15.47% + 200 bps x 2 = 19.47% vs FY2027 consensus 18.35% = +111.7 bps. FY2026: 17.47% vs consensus 16.84% = +63.1 bps (part of the FY2026 gap may be the $13M FWO reserve, about 100 bps of revenue, if brokers include it). FY2028 consensus 19.66%. Only 3 brokers.",
+    "gap_assumption": "consensus_ebitda_margin_by_fy = VA consensus EBITDA / revenue (same basis as data_comps ebitda_margin; VA broker EBITDA margin line differs slightly). Operating margin basis throughout, VA FY = calendar fiscal year. Target FY2027 = FY2025 VA operating margin 15.47% + 200 bps x 2 = 19.47% vs FY2027 consensus 18.35% = +111.7 bps. FY2026: 17.47% vs consensus 16.84% = +63.1 bps (part of the FY2026 gap may be the $13M FWO reserve, about 100 bps of revenue, if brokers include it). FY2028 consensus 19.66%. Only 3 brokers.",
     "ebitda_uplift_pct_if_target_hit": 0.0458,
     "source": "Baba data_financials fundamentals consensus (Visible Alpha), cid 1000926. Uplift = 111.7 bps x FY2027 revenue $1,338.5M / FY2027 consensus EBITDA $326.4M = 4.6%, flat D&A (data_compute)."
   },

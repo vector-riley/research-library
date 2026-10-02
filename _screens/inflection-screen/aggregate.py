@@ -69,7 +69,7 @@ def main():
         base = (g(r,'score','A_underperformance') or 0) + (g(r,'score','B_catalyst') or 0) + (r['_c2'] or 0)
         r['_total2'] = base + d2 if d2 is not None else g(r,'score','total')
     recs.sort(key=lambda r: (-(r['_total2'] or 0), r.get('ticker','')))
-    cols = ['ticker','business','total2','setup','A','B','C2','D2','D2_why','C_agent','D_agent','total_agent','disq','next_event','ceo_months','mcap_bn','ltm_price','drawdown','pctile','ebitda_margin','ind_median','ev_ebitda',
+    cols = ['ticker','business','total2','core','setup','A','B','C2','D2','D2_why','C_agent','D_agent','total_agent','disq','next_event','ceo_months','mcap_bn','ltm_price','drawdown','pctile','ebitda_margin','ind_median','ev_ebitda',
             'nd_ebitda','rev_12m','catalyst','months','numeric','target','target_yr','street_at_target','gap_bps','verdict']
     rows = []
     for r in recs:
@@ -80,6 +80,7 @@ def main():
             'B': g(r,'score','B_catalyst'), 'C2': r['_c2'], 'C_agent': g(r,'score','C_numeric_framing'), 'D2': r['_d2'], 'D2_why': r['_d2_why'], 'D_agent': g(r,'score','D_unproven'),
             'next_event': ' '.join(str(x) for x in [g(r,'catalyst','next_event','type'), g(r,'catalyst','next_event','date')] if x and x != 'none known'),
             'ceo_months': g(r,'catalyst','ceo_months_in_seat'),
+            'core': 'yes' if (not r.get('disqualified') and 'new_ceo' in (g(r,'catalyst','type') or []) and (g(r,'score','B_catalyst') or 0) >= 2 and (r['_c2'] or 0) >= 2 and ((r['_d2'] if r['_d2'] is not None else g(r,'score','D_unproven')) or 0) >= 1) else '',
             'setup': 'yes' if (not r.get('disqualified') and (g(r,'score','B_catalyst') or 0) >= 2 and (r['_c2'] or 0) >= 2 and ((r['_d2'] if r['_d2'] is not None else g(r,'score','D_unproven')) or 0) >= 1) else '',
             'disq': 'yes' if r.get('disqualified') else '', 'mcap_bn': fmt(g(r,'quant','mcap_usd'),'bn'),
             'drawdown': fmt(g(r,'quant','drawdown'),'pct'), 'pctile': fmt(g(r,'quant','pctile_ev_ebitda_60m'),'pct'),
@@ -95,8 +96,8 @@ def main():
     with open(os.path.join(a.run, 'ranked.md'), 'w') as f:
         f.write(f'# Inflection screen, ranked candidates ({os.path.basename(a.run)})\n\n')
         f.write('Score components: A underperformance (0-2), B catalyst (0-3), C numeric margin framing (0-3), D unproven vs street (0-2). C2 caps framing at 2 when the number carries no target year (horizon, not repetition, earns the third point). D2 is the stabilization-based unproven score: 0 if the 4-month forward EBITDA revision is below -6% or the target is already in consensus; between -6% and -3% a gap of 100 bps or more still earns 1; a prior 12-month cut alone does not zero it. D_agent is the original subagent score under the older rule. Score = A + B + C2 + D2. Setup = yes when not disqualified and B >= 2, C >= 2, D2 >= 1 all hold: the archetype is the conjunction, not the sum.\n\n')
-        f.write('| Ticker | Business | Score | Setup | A | B | C2 | D2 | D2 basis | C agent | D agent | Score agent | DQ | Next event | CEO months | Mcap $bn | LTM price | Drawdown | Own-hist pctile | EBITDA mgn | Ind. median | EV/EBITDA | ND/EBITDA | 12m EBITDA rev | Catalyst | Months | Numeric? | Target % | Yr | Street @ yr | Gap bps | Verdict |\n')
-        f.write('|' + '---|'*32 + '\n')
+        f.write('| Ticker | Business | Score | Core | Setup | A | B | C2 | D2 | D2 basis | C agent | D agent | Score agent | DQ | Next event | CEO months | Mcap $bn | LTM price | Drawdown | Own-hist pctile | EBITDA mgn | Ind. median | EV/EBITDA | ND/EBITDA | 12m EBITDA rev | Catalyst | Months | Numeric? | Target % | Yr | Street @ yr | Gap bps | Verdict |\n')
+        f.write('|' + '---|'*33 + '\n')
         for x in rows:
             f.write('| ' + ' | '.join(str(x[c]) if x[c] is not None else '' for c in cols) + ' |\n')
     print(f'{len(rows)} records -> {a.run}/ranked.md')

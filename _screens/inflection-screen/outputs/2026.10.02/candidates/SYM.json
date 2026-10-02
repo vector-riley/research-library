@@ -107,13 +107,13 @@
   },
   "street": {
     "consensus_ebitda_margin_by_fy": {
-      "FY2026": 10.96,
-      "FY2027": 13.8,
-      "FY2028": 17.47
+      "FY2026": 11.58,
+      "FY2027": 13.87,
+      "FY2028": 16.81
     },
     "consensus_margin_at_target_year_pct": 30.63,
     "gap_bps_vs_target": -62.6,
-    "gap_assumption": "Gross margin basis. No target year, so the test uses the last consensus year, FY2029 (VA FY = company fiscal year ending September): 30.63% (gross profit $1,726M / revenue $5,636M) vs management's '30 plus' = -62.6 bps; the street already models the target. Consensus gross margin path: FY2025 actual 21.47%, FY2026 23.49%, FY2027 25.14%, FY2028 27.22%, FY2029 30.63%.",
+    "gap_assumption": "consensus_ebitda_margin_by_fy = VA consensus EBITDA / revenue (same basis as data_comps ebitda_margin; VA broker EBITDA margin line differs slightly). Gross margin basis. No target year, so the test uses the last consensus year, FY2029 (VA FY = company fiscal year ending September): 30.63% (gross profit $1,726M / revenue $5,636M) vs management's '30 plus' = -62.6 bps; the street already models the target. Consensus gross margin path: FY2025 actual 21.47%, FY2026 23.49%, FY2027 25.14%, FY2028 27.22%, FY2029 30.63%.",
     "ebitda_uplift_pct_if_target_hit": 0.0,
     "source": "Baba data_financials fundamentals consensus (Visible Alpha), cid 1005408; data_compute. Uplift is zero because FY2029 consensus already sits above 30%."
   },
