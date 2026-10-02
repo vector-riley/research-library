@@ -1,0 +1,31 @@
+ticker,flag,detail,source,effective_date
+GXO,new_ceo,Patrick Kelleher appointed CEO (ex DHL Supply Chain NA),8-K 5.02 0001104659-25-060942,2025-08-19
+GXO,new_cfo,Mark Suchinski appointed CFO (ex GEO Group / Spirit Aero),8-K 5.02 0001104659-26-024439,2026-04-01
+HOG,new_ceo,Arthur Starrs appointed President and CEO (ex Topgolf / Pizza Hut) succeeding Jochen Zeitz,8-K 5.02 0000793952-25-000166,2025-10-01
+HRL,new_ceo,Jeffrey Ettinger interim CEO and John Ghingo President after James Snee retirement,8-K 5.02 0001104659-25-061357,2025-07-14
+GPK,new_ceo,Robbert Rietbroek appointed CEO (ex Primo Brands) succeeding Michael Doss,8-K 5.02 0001193125-25-311334,2026-01-01
+LPX,new_ceo,Jason Ringblom CEO-elect; Brad Southern retiring,8-K 5.02 0000060519-26-000002,2026-02-19
+PRIM,new_ceo,Koti Vadlamudi appointed President and CEO (ex Jacobs) after interim period,8-K 5.02 0001361538-25-000035,2025-11-10
+DRVN,new_ceo,Daniel Rivera (ex COO) appointed CEO succeeding Jonathan Fitzpatrick,8-K 5.02 0001804745-25-000005,2025-05-09
+ACI,new_ceo,Susan Morris (ex COO) appointed CEO succeeding Vivek Sankaran,8-K 5.02 0001646972-25-000028,2025-05-01
+EYE,new_ceo,Alex Wilkes to succeed Reade Fahs as CEO; Fahs to Executive Chairman,8-K 5.02 0001710155-25-000036,2025-08-01
+COTY,new_ceo_interim,Markus Strobel Executive Chairman and Interim CEO; Sue Nabi departed,8-K 5.02 0001193125-25-327571,2026-01-01
+FBIN,new_ceo_interim,Amit Banati named CEO then resigned; David Barry interim CEO,8-K 5.02 0001193125-26-108647,2026-03-16
+SAM,new_ceo,Jim Koch reassumed CEO after Michael Spillane departure,8-K 5.02 0001193125-26-054573,2025-08-15
+HD,ceo_medical_leave,Ted Decker temporary medical leave; McPhail interim principal executive officer,8-K 5.02 0000354950-26-000141,2026-08-11
+CHWY,new_cfo,Christopher Deppe appointed CFO,8-K 5.02 0001193125-26-065612,2026-02-23
+BWXT,new_cfo_interim,Michael Fitzgerald interim CFO after Robb LeMasters,8-K 5.02 0001104659-25-047051,2025-05-12
+IP,new_cfo,Lance Loeffler appointed CFO (ex Halliburton),8-K 5.02 0001193125-25-040518,2025-04-01
+LYFT,new_cfo,Michael Brous appointed CFO succeeding Erin Brewer,8-K 5.02 0001628280-26-061020,2026-09-28
+NOC,new_cfo,John Greene appointed CFO (ex Discover),8-K 5.02 0001628280-25-050297,2026-01-07
+ZS,new_cfo,Kevin Rubin appointed CFO (ex Alteryx),8-K 5.02 0001713683-25-000078,2025-05-26
+HLIT,acquisition,Completed acquisition from Leone Media (asset purchase),8-K 2.01 0001193125-26-273457,2026-06-16
+AVAV,acquisition,Completed BlueHalo merger; new COO and Arlington directors,8-K 2.01 0001104659-25-043118,2025-05-01
+JBTM,acquisition,JBT completed Marel combination; Arni Sigurdsson President,8-K 2.01 0001193125-25-002636,2025-01-02
+AVY,margin_framework,Investor update: adjusted EBITDA margin 17%+ by 2028,Baba corpus sweep,2026
+CNM,margin_framework,2023 Investor Day long-term targets; analysts cite 40-70 bps per year needed,Baba corpus sweep (doc 197035 area),2026
+TOST,margin_framework,Long Term Financial Framework document in corpus,Baba corpus sweep,2026
+OMCL,new_ceo_first_call_hit,Hybrid search hit on first-call language (needs verification),Baba corpus sweep,2026
+KNF,margin_target_mention,Analyst references a margin target on Q2 2026 call,Baba corpus sweep,2026
+BURL,margin_expansion_track,80 bps operating margin expansion on top of 100 bps prior year,Baba corpus sweep,2026
+DKS,margin_expansion_track,Repeated gross margin expansion commentary FY2026,Baba corpus sweep,2026

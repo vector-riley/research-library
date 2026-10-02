@@ -18,6 +18,7 @@ Riley's personal research library. Working context, drafts, notes and outputs, o
       context/     notes, call notes, models, working files
       outputs/     documents produced
     _template/     copy this folder to start a new company
+    _screens/      cross-company screens (design, scripts, prompts, dated outputs)
 
 ## Instructions for Claude sessions
 
