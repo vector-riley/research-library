@@ -2,6 +2,10 @@
 
 Read README.md first. It has the layout and the working rules.
 
+## Standards
+
+Before handing Riley any deliverable (document, memo, slide text, notes, spreadsheet, email draft), check it against STANDARDS.md with a reviewer that did not write it, fix what it finds, and put any remaining gaps in the chat message, never in the document. When Riley corrects something STANDARDS.md does not cover, add the rule there in the same session.
+
 ## Open items
 
 Before ending any session, append to OPEN_ITEMS.md one line for each thing left hanging:

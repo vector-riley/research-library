@@ -9,3 +9,4 @@ Format (pipe-separated, one line each):
 Owner is one of: Riley, Claude Code, Engineer, External. Use `Done` as the owner to close an item already on the list.
 
 <!-- items below this line -->
+2026-10-03 | Riley | Set the Claude GitHub app Contents permission to Read and write for research-library so the evening sweep can clear OPEN_ITEMS.md | GitHub app settings
